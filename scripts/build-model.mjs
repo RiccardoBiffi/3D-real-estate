@@ -1,0 +1,16 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import {createRequire} from 'node:module';
+const [input,output,runtime]=process.argv.slice(2);
+if(!input||!output||!runtime)throw new Error('Usage: node build-model.mjs trace-model.json output.html runtime-with-node_modules');
+const require=createRequire(path.resolve(runtime,'package.json')),esbuild=require('esbuild');
+const data=JSON.parse(fs.readFileSync(input,'utf8'));
+if(!data.levels?.length||!data.creationStarted)throw new Error('Missing traced levels/real start time');
+const template=path.join(import.meta.dirname,'model-template.js');
+const result=await esbuild.build({entryPoints:[template],bundle:true,write:false,format:'iife',platform:'browser',minify:true,legalComments:'inline',nodePaths:[path.resolve(runtime,'node_modules')]});
+const safeJSON=JSON.stringify(data).replace(/</g,'\\u003c');
+const esc=s=>String(s).replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;');
+const license=fs.readFileSync(path.resolve(runtime,'node_modules/three/LICENSE'),'utf8');
+const finished=data.creationFinished?`<meta name="creation-finished" content="${esc(data.creationFinished)}">`:'';
+const html=`<!doctype html><html lang="it"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="creation-started" content="${esc(data.creationStarted)}">${finished}<title>${esc(data.title)}</title><link rel="icon" href="data:,"><style>html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#ebe9e2}canvas{display:block;width:100%;height:100%;touch-action:none;outline:none}</style></head><body><canvas aria-label="Ricostruzione 3D interattiva di ${esc(data.title)}" tabindex="0"></canvas><script>window.MODEL_DATA=${safeJSON};</script><script>${result.outputFiles[0].text.replace(/<\/script/gi,'<\\/script')}</script><!-- Three.js license: ${license.replace(/--/g,'- -')} --></body></html>`;
+fs.mkdirSync(path.dirname(output),{recursive:true});fs.writeFileSync(output,html);console.log(JSON.stringify({output,views:data.levels.length+1,bytes:Buffer.byteLength(html),finished:!!data.creationFinished}));

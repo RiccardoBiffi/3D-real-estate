@@ -1,14 +1,61 @@
-[
-  {
-    "source": "villa_aurisina_3d(1).html",
-    "published_path": "modelli/aurisina.html",
-    "sha256": "fac96fee2e33a16fec87fdcae7e00b17d407853d17641d2ecb136ab6c9ebf38d",
-    "bytes": 766716
-  },
-  {
-    "source": "muggia_via_mameli_129200580_3d(1).html",
-    "published_path": "modelli/muggia.html",
-    "sha256": "15fbcd49f187a323d00a2331c2527a4cd9f79a59234e6921b96aef963075a6b0",
-    "bytes": 713494
+{
+  "schemaVersion": 1,
+  "catalogSha256": "33525d9708dcc454a910d2a7728ca909100186bfc702b122aa0dcd55a7c529df",
+  "models": [
+    {
+      "id": "erta-di-sant-anna",
+      "path": "modelli/erta-di-sant-anna.html",
+      "sha256": "3d10ae00850b577a6a968814ed0638b195d72077a55461c1200dd72a3e63e309",
+      "coverage": "complete"
+    },
+    {
+      "id": "basovizza-563-1",
+      "path": "modelli/basovizza-563-1.html",
+      "sha256": "911c9c06fc7defdb6bb76bd297c7d1777cb9267de46fc8cdcc6d8f21e706b7bb",
+      "coverage": "complete"
+    },
+    {
+      "id": "via-dei-cardi-19",
+      "path": "modelli/via-dei-cardi-19.html",
+      "sha256": "3174dce9cab4d08842feacf57cd4929c58e39539f013e9c5866ace072b83c4d6",
+      "coverage": "partial"
+    },
+    {
+      "id": "aurisina",
+      "path": "modelli/aurisina.html",
+      "sha256": "f0fd039a9ffa7a3af5bfacdec647f0e900e7eb97622d23bff46e64761e885c97",
+      "coverage": "complete"
+    },
+    {
+      "id": "muggia",
+      "path": "modelli/muggia.html",
+      "sha256": "65fae07758772b33b9f6438193df3bb1a45a0e7596270692f62d6788feb23d1e",
+      "coverage": "complete"
+    },
+    {
+      "id": "malchina-47-a",
+      "path": "modelli/malchina-47-a.html",
+      "sha256": "7cd8572a440faf7a8e158a62910f285887ac4ec9f4e73e1327e75f2dbc75f631",
+      "coverage": "partial"
+    }
+  ],
+  "files": {
+    "app.js": "796c789ae051e49dc66a30f1ea1e17f479543b178c519b211144cf029841bc29",
+    "assets/aurisina.jpg": "1518e127584b20648f2fdaff3e036dfadb0a3f90095abfbc6978b3ddc0e98416",
+    "assets/basovizza-563-1.jpg": "496d91aafa50336957c447a46654450a3966dbd67e496678ab534ca55dc832d3",
+    "assets/erta-di-sant-anna.jpg": "825be73f01ddc3e26eec5f018b0048ac1c621feede1abb56bde2d133da09ca2a",
+    "assets/favicon.svg": "0dcd3a8f383feed59d693b65c3723f0c3988232a25a6d4ba5b6752106735937b",
+    "assets/malchina-47-a.jpg": "f3126df84a766acee5ec46fad9c5952e7dda37d214b63aba8a9e03529bd832d3",
+    "assets/muggia.jpg": "a651192e5b5659a4ee52c170f8386b4edc399e0116f4dbc84d07728c8ce0b322",
+    "assets/via-dei-cardi-19.jpg": "5db6218512e9ee9ba03511560a30bf44260f5879b2157322d914ff997af55de3",
+    "data/catalog.json": "33525d9708dcc454a910d2a7728ca909100186bfc702b122aa0dcd55a7c529df",
+    "index.html": "c20d53b37b7a7aa2f886de6f19688b1d728abf66b20bd7e1714d9b2813c4e6cb",
+    "modelli/aurisina.html": "f0fd039a9ffa7a3af5bfacdec647f0e900e7eb97622d23bff46e64761e885c97",
+    "modelli/basovizza-563-1.html": "911c9c06fc7defdb6bb76bd297c7d1777cb9267de46fc8cdcc6d8f21e706b7bb",
+    "modelli/erta-di-sant-anna.html": "3d10ae00850b577a6a968814ed0638b195d72077a55461c1200dd72a3e63e309",
+    "modelli/malchina-47-a.html": "7cd8572a440faf7a8e158a62910f285887ac4ec9f4e73e1327e75f2dbc75f631",
+    "modelli/muggia.html": "65fae07758772b33b9f6438193df3bb1a45a0e7596270692f62d6788feb23d1e",
+    "modelli/via-dei-cardi-19.html": "3174dce9cab4d08842feacf57cd4929c58e39539f013e9c5866ace072b83c4d6",
+    "styles.css": "879968aa4b98499d6ae7426ed5a63c57b2cf4b65b2948a35b56ebc2980722480"
   }
-]
+}

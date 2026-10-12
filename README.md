@@ -1,78 +1,32 @@
 # Case in 3D
 
-Sito statico in italiano che raccoglie le due pagine HTML fornite:
+Catalogo immobiliare pubblico statico in italiano. La ricerca originaria contiene 53 immobili distinti; ogni scheda distingue i dati dell’annuncio, le verifiche di disponibilità e lo stato della ricostruzione. Non sono pubblicati la trascrizione privata della chat o i file di lavoro.
 
-- Villa Aurisina.
-- Muggia - Via Mameli 14/F.
+## Avvio locale
 
-## Avvio
+Servire soltanto la cartella `dist`:
 
-La versione `case-in-3d.html` consegnata separatamente contiene l'intero sito,
-i due HTML originali e le anteprime in un solo file. Si può aprire direttamente
-in un browser con JavaScript abilitato. Il rendering interattivo richiede WebGL2.
+    python3 -m http.server 8765 --bind 127.0.0.1 --directory dist
 
-Per questa versione a più file, servire la cartella con un server HTTP statico.
-Ad esempio, da una shell nella cartella che contiene `index.html`:
+Il catalogo pubblico è `dist/data/catalog.json`. Non occorrono database, account o servizi di scrittura. I modelli approvati sono HTML autonomi con Three.js incorporato e funzionano offline con WebGL. La pagina del catalogo richiede un server HTTP per leggere il JSON.
 
-    python -m http.server 8080
+## Navigazione e copertura
 
-Poi aprire `http://localhost:8080`.
+Ricerca testuale e filtri per località, disponibilità e presenza del modello. Un solo modello viene caricato alla volta; le viste derivano dal numero effettivo di livelli. I collegamenti storici `#aurisina` e `#muggia` restano validi. Comandi e informazioni sono esterni alla scena.
+
+I modelli parziali riportano nella scheda e sopra la scena l’elenco dei volumi presenti nell’annuncio ma non renderizzati. Le parti documentate dalle piante sono ricalcate senza specchiatura o deformazione indipendente degli assi; le dimensioni non quotate, gli arredi e il contesto sono stime dichiarate. Gli ambienti non documentati non vengono inventati. Destinazioni catastali e abitabilità non sono certificate dal modello.
+
+## Aggiornamento e verifica
+
+Gli script in `scripts` importano messaggi identificati da ID e hash completo, preservano lo storico prezzi, distinguono annunci assenti da errori temporanei e generano il catalogo in modo atomico. Un modello diventa visibile soltanto con QA statico/browser, confronto geometrico e revisione indipendente riferiti al medesimo hash HTML. La disponibilità non è dedotta dalla sola presenza della casa nella chat o da una pagina indicizzata.
+
+    python3 scripts/test-catalog-workflow.py
+    python3 scripts/validate-catalog.py dist/data/catalog.json --dist dist --work ../work --expected 53
+
+Le prove browser usano Chromium desktop/mobile emulato con rendering software. Non equivalgono a prove su dispositivi fisici. I metadati di inizio/fine includono eventuali interruzioni della lavorazione, non misurano le sole ore attive.
 
 ## Pubblicazione
 
-Caricare tutti i file, mantenendo la struttura delle sottocartelle, su un hosting
-statico. `index.html` è il punto d'ingresso; non servono build, account utente
-nell'app, database, chiavi API o dipendenze JavaScript esterne.
+Usare il progetto Sites indicato in `.openai/hosting.json`, mantenendo il sito pubblico. Prima di pubblicare: validare il catalogo, generare `out` con `scripts/stage-release.py` includendo soltanto HTML approvati, creare un archivio dal commit effettivamente inviato al repository Sites, salvare e distribuire quella versione e confrontare i file serviti con quelli verificati. Un errore di pubblicazione non sostituisce il riferimento all’ultima versione valida.
 
-Questo archivio non è, da solo, una pubblicazione online. Non è stato generato
-un URL pubblico nella sessione di creazione: il comando di deploy del connettore
-Vercel non era disponibile e il collegamento Lovable non disponeva del permesso
-OAuth `projects:write`. Per riprendere la pubblicazione attraverso Lovable è
-necessaria la riautorizzazione del collegamento con il permesso di scrittura.
-
-## Navigazione
-
-- `#panoramica`: pagina iniziale con le due anteprime.
-- `#aurisina`: Villa Aurisina, vista esterna.
-- `#muggia`: Muggia, vista esterna.
-- `#aurisina/2`, `/3`, `/4`: piano superiore, piano terra, cantina.
-- `#muggia/2`, `/3`, `/4`: sottotetto, piano rialzato, seminterrato e box.
-
-Il menù rimane visibile su desktop e diventa apribile su telefono. La selezione
-di un immobile lo chiude automaticamente. Un solo iframe è caricato alla volta.
-Le viste si selezionano tramite pulsanti su desktop o tramite elenco su schermi
-stretti. Il pulsante di condivisione copia il collegamento al modello e al livello,
-non la posizione personalizzata della camera. Su file locali spiega che occorre
-pubblicare il sito per ottenere un collegamento pubblico.
-
-I controlli dei modelli originali restano disponibili: trascinamento, rotellina,
-gesti touch, doppio clic/doppio tocco, tasti 1-4, R, T, 0, frecce e +/-.
-
-## Integrità dei modelli
-
-`modelli/aurisina.html` e `modelli/muggia.html` sono copie identiche, byte per byte,
-degli allegati ricevuti. Le geometrie, i materiali, i commenti e i metadati originali
-non sono stati ricostruiti o modificati. Gli hash SHA-256 sono riportati in
-`source-integrity.json`. L'interfaccia esterna usa le API `window.__sceneControls`
-e `window.__sceneState` già presenti nei due file.
-
-Le due immagini sotto `assets/` provengono dalle anteprime incorporate negli HTML
-originali; sono state soltanto ridimensionate e ricompresse per l'interfaccia.
-
-Le ricostruzioni sono orientative: non costituiscono rilievi, certificazioni,
-verifiche delle destinazioni d'uso o dello stato degli immobili.
-
-## Verifiche e limiti
-
-Verificati sintassi JavaScript, integrità SHA-256 dei due originali, dipendenze locali,
-caricamento delle pagine nell'iframe, gestione dell'indisponibilità di WebGL,
-menù desktop/mobile, finestre di aiuto, schermo intero e layout a 1440, 390 e 320 px.
-La selezione delle viste e i relativi collegamenti sono stati verificati con una
-API di scena simulata, esclusivamente negli script di test non inclusi nel sito.
-
-Il browser della sessione non disponeva di WebGL2 e bloccava la navigazione HTTP
-locale e file. I controlli dell'interfaccia sono quindi stati provati caricando
-il contenuto HTML nel browser, non tramite un URL pubblico. Non è stato possibile
-verificare visivamente il rendering 3D vivo in tale ambiente. Gli HTML originali
-sono invariati. Sono da verificare su dispositivi reali, in particolare Safari/iOS
-per i gesti touch e la modalità a schermo intero.
+Il completamento del popolamento iniziale e l’attivazione dell’aggiornamento del lunedì sono tracciati nei file privati di gestione del lavoro; non sono implicitamente attestati da questo README.

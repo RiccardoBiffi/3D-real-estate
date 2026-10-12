@@ -1,0 +1,3620 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-10-12T20:13:18.942369+02:00",
+  "properties": [
+    {
+      "id": "via-risano-raute",
+      "title": "Via Risano / Raute",
+      "locality": "Trieste",
+      "address": "Via Risano",
+      "sourceUrls": [
+        "https://www.casa.it/immobili/52454684/"
+      ],
+      "historicalPrices": [
+        {
+          "priceEur": 600000,
+          "date": "2026-08-30",
+          "source": "chat"
+        }
+      ],
+      "facts": {
+        "priceEur": 600000,
+        "areaHabitableM2": 230,
+        "areaWalkableM2": null,
+        "areaCommercialM2": null,
+        "areaNotes": "La chat riporta 230 m² interni su due livelli; corte e giardino sono descritti insieme per circa 500 m².",
+        "gardenM2": 500,
+        "landM2": null,
+        "parking": "Due posti auto.",
+        "floors": 2,
+        "bedrooms": null,
+        "bathrooms": null,
+        "condition": null,
+        "energy": "A1",
+        "bus": "Fermata delle linee 13 e 22 in Via del Castelliere indicata a circa 150 m.",
+        "highlights": [
+          "Porzione di bifamiliare.",
+          "Piscina e giardino con ulivi."
+        ],
+        "limitations": [
+          "I circa 500 m² esterni comprendono corte e giardino; il verde effettivo non è separato."
+        ],
+        "description": "Porzione di bifamiliare a Raute con circa 230 m² interni, spazio esterno di circa 500 m² e due posti auto. Sono segnalati una piscina e una fermata delle linee 13/22 a circa 150 metri."
+      },
+      "availability": {
+        "status": "unverified",
+        "checkedAt": null,
+        "reason": "Alias pubblici/indicizzati leggibili, ma HTTP diretto bloccato o insufficiente; disponibilità effettiva non verificata."
+      },
+      "model": {
+        "status": "awaiting_plans",
+        "path": null,
+        "views": [],
+        "notes": [
+          "Ricostruzione da preparare: le parti documentate potranno essere pubblicate anche con volumi mancanti, esplicitamente elencati. Senza piante utilizzabili, fotografie sufficienti consentono una ricostruzione dei soli esterni.",
+          "Nessuna planimetria identificativa scaricabile è esposta nelle letture pubbliche acquisite; non ricostruire interni da sole foto o descrizioni."
+        ]
+      },
+      "evidence": {
+        "listingReadAt": "2026-10-11T17:33:24.658299+02:00",
+        "sourceUpdatedAt": null,
+        "method": "public_reader_and_chat",
+        "note": "Lettura pubblica/indicizzata; da sola non conferma la disponibilità attuale."
+      }
+    },
+    {
+      "id": "chiampore-43a",
+      "title": "Strada per Chiampore 43A",
+      "locality": "Muggia",
+      "address": "Strada per Chiampore 43A",
+      "sourceUrls": [
+        "https://www.casa.it/immobili/53961570/"
+      ],
+      "historicalPrices": [
+        {
+          "priceEur": 519000,
+          "date": "2026-08-30",
+          "source": "chat"
+        }
+      ],
+      "facts": {
+        "priceEur": 519000,
+        "areaHabitableM2": 204,
+        "areaWalkableM2": null,
+        "areaCommercialM2": 243,
+        "areaNotes": "204 m² classificati come abitazione; 243 m² commerciali.",
+        "gardenM2": null,
+        "landM2": 890,
+        "parking": "Box doppio.",
+        "floors": null,
+        "bedrooms": null,
+        "bathrooms": null,
+        "condition": null,
+        "energy": null,
+        "bus": "Fermate della linea 27 riportate a 40 e 100 m.",
+        "highlights": [
+          "Villa indipendente.",
+          "Terreno di circa 890 m²."
+        ],
+        "limitations": [
+          "La chat non separa la superficie del solo giardino dai circa 890 m² di terreno."
+        ],
+        "description": "Villa indipendente a Chiampore con 204 m² di abitazione, circa 890 m² di terreno e box doppio. Le fermate della linea 27 sono indicate a breve distanza, tra 40 e 100 metri."
+      },
+      "availability": {
+        "status": "unverified",
+        "checkedAt": null,
+        "reason": "Letture pubbliche indicizzate e alias accessibili al lettore, ma HTTP diretto bloccato o insufficiente; disponibilità corrente non verificata."
+      },
+      "model": {
+        "status": "awaiting_plans",
+        "path": null,
+        "views": [],
+        "notes": [
+          "Ricostruzione da preparare: le parti documentate potranno essere pubblicate anche con volumi mancanti, esplicitamente elencati. Senza piante utilizzabili, fotografie sufficienti consentono una ricostruzione dei soli esterni.",
+          "Nessuna planimetria identificativa scaricabile è esposta nelle letture pubbliche acquisite; non ricostruire interni da sole foto o descrizioni."
+        ]
+      },
+      "evidence": {
+        "listingReadAt": "2026-10-11T17:33:25.062365+02:00",
+        "sourceUpdatedAt": null,
+        "method": "public_reader_and_chat",
+        "note": "Lettura pubblica/indicizzata; da sola non conferma la disponibilità attuale."
+      }
+    },
+    {
+      "id": "basovizza-338",
+      "title": "Basovizza 338",
+      "locality": "Basovizza, Trieste",
+      "address": "Basovizza 338",
+      "sourceUrls": [
+        "https://www.idealista.it/immobile/30547622/"
+      ],
+      "historicalPrices": [
+        {
+          "priceEur": 620000,
+          "date": "2026-08-30",
+          "source": "chat"
+        }
+      ],
+      "facts": {
+        "priceEur": 620000,
+        "areaHabitableM2": null,
+        "areaWalkableM2": 280,
+        "areaCommercialM2": 320,
+        "areaNotes": "280 m² calpestabili e 320 m² commerciali.",
+        "gardenM2": 400,
+        "landM2": null,
+        "parking": "Tre posti auto.",
+        "floors": null,
+        "bedrooms": null,
+        "bathrooms": null,
+        "condition": null,
+        "energy": null,
+        "bus": "Fermate di Via Gruden stimate a 4–5 minuti a piedi; linee 39/ e 51.",
+        "highlights": [
+          "Casa indipendente.",
+          "Vicino al laghetto di Basovizza."
+        ],
+        "limitations": [
+          "La distanza a piedi deriva dalla chat e richiede conferma del percorso esatto.",
+          "Prezzo discordante nella lettura indicizzata: €320. Conservato l’ultimo prezzo della chat in attesa di conferma diretta."
+        ],
+        "description": "Casa indipendente a Basovizza con 280 m² calpestabili, giardino di circa 400 m² e tre posti auto. Le informazioni disponibili collocano le fermate di Via Gruden a circa quattro o cinque minuti a piedi."
+      },
+      "availability": {
+        "status": "unverified",
+        "checkedAt": null,
+        "reason": "Letture pubbliche indicizzate e alias accessibili al lettore, ma HTTP diretto bloccato o insufficiente; disponibilità corrente non verificata."
+      },
+      "model": {
+        "status": "awaiting_plans",
+        "path": null,
+        "views": [],
+        "notes": [
+          "Ricostruzione da preparare: le parti documentate potranno essere pubblicate anche con volumi mancanti, esplicitamente elencati. Senza piante utilizzabili, fotografie sufficienti consentono una ricostruzione dei soli esterni.",
+          "Nessuna planimetria identificativa scaricabile è esposta nelle letture pubbliche acquisite; non ricostruire interni da sole foto o descrizioni."
+        ]
+      },
+      "evidence": {
+        "listingReadAt": "2026-10-11T17:33:25.452587+02:00",
+        "sourceUpdatedAt": "1 aprile",
+        "method": "public_reader_and_chat",
+        "note": "Lettura pubblica/indicizzata; da sola non conferma la disponibilità attuale."
+      }
+    },
+    {
+      "id": "repen-monrupino",
+      "title": "Casa indipendente a Repen",
+      "locality": "Repen, Monrupino",
+      "address": null,
+      "sourceUrls": [
+        "https://www.idealista.it/immobile/35634771/"
+      ],
+      "historicalPrices": [
+        {
+          "priceEur": 620000,
+          "date": "2026-08-30",
+          "source": "chat"
+        }
+      ],
+      "facts": {
+        "priceEur": 620000,
+        "areaHabitableM2": null,
+        "areaWalkableM2": null,
+        "areaCommercialM2": 230,
+        "areaNotes": "La superficie di 230 m² è commerciale; il netto abitabile non è separato.",
+        "gardenM2": null,
+        "landM2": 1500,
+        "parking": "Box doppio e un posto auto.",
+        "floors": 4,
+        "bedrooms": null,
+        "bathrooms": null,
+        "condition": null,
+        "energy": null,
+        "bus": "Fermata della linea 42 riportata a circa 3 minuti a piedi a Repen.",
+        "highlights": [
+          "Casa indipendente.",
+          "Otto locali secondo la chat.",
+          "Terreno di 1.500 m²."
+        ],
+        "limitations": [
+          "Non è documentata la sola superficie abitativa.",
+          "La metratura del solo giardino non è separata dal terreno.",
+          "Il percorso dalla casa alla fermata non è verificato live.",
+          "Prezzo discordante nella lettura indicizzata: €230. Conservato l’ultimo prezzo della chat in attesa di conferma diretta."
+        ],
+        "description": "Casa indipendente a Repen su quattro piani, con 230 m² commerciali, terreno di 1.500 m² e box doppio più posto auto. Resta da distinguere la superficie abitabile dalla metratura commerciale."
+      },
+      "availability": {
+        "status": "unverified",
+        "checkedAt": null,
+        "reason": "Lettura pubblica indicizzata disponibile, ma accesso diretto bloccato o non sufficiente: disponibilità effettiva non verificata."
+      },
+      "model": {
+        "status": "awaiting_plans",
+        "path": null,
+        "views": [],
+        "notes": [
+          "Ricostruzione da preparare: le parti documentate potranno essere pubblicate anche con volumi mancanti, esplicitamente elencati. Senza piante utilizzabili, fotografie sufficienti consentono una ricostruzione dei soli esterni.",
+          "Nessuna planimetria identificativa scaricabile è esposta nelle letture pubbliche acquisite; non ricostruire interni da sole foto o descrizioni."
+        ]
+      },
+      "evidence": {
+        "listingReadAt": "2026-10-11T17:33:25.827846+02:00",
+        "sourceUpdatedAt": "13 luglio",
+        "method": "public_reader_and_chat",
+        "note": "Lettura pubblica/indicizzata; da sola non conferma la disponibilità attuale."
+      }
+    },
+    {
+      "id": "via-gianelli-7",
+      "title": "Via Bartolomeo Gianelli 7",
+      "locality": "Trieste",
+      "address": "Via Bartolomeo Gianelli 7",
+      "sourceUrls": [
+        "https://www.immobiliare.it/annunci/128978736/",
+        "https://www.casa.it/immobili/54666169/"
+      ],
+      "historicalPrices": [
+        {
+          "priceEur": 428000,
+          "date": "2026-08-30",
+          "source": "chat"
+        },
+        {
+          "priceEur": 417000,
+          "date": "2026-09-20",
+          "source": "chat"
+        }
+      ],
+      "facts": {
+        "priceEur": 417000,
+        "areaHabitableM2": null,
+        "areaWalkableM2": null,
+        "areaCommercialM2": null,
+        "areaNotes": "La prima ricerca riportava circa 165 m² abitativi (tre livelli da circa 55 m²); il 20 settembre riporta invece 228 m² dichiarati su tre livelli abitativi. Classificazione e discrepanza non risolte.",
+        "gardenM2": 250,
+        "landM2": null,
+        "parking": "Prima ricerca: due posti auto. Ultimo aggiornamento: posto coperto per una o più vetture.",
+        "floors": 3,
+        "bedrooms": null,
+        "bathrooms": null,
+        "condition": null,
+        "energy": null,
+        "bus": "Distanza pedonale esatta dalla fermata da confermare.",
+        "highlights": [
+          "Prezzo sceso da €428.000 a €417.000.",
+          "Giardino di circa 250 m²."
+        ],
+        "limitations": [
+          "Superfici discordanti nella chat: circa 165 e 228 m².",
+          "Numero e disposizione dei parcheggi da verificare.",
+          "Bus non confermato."
+        ],
+        "description": "Villetta in Via Gianelli con giardino di circa 250 m² e parcheggio coperto, ribassata a €417.000. Le superfici riportate nei diversi aggiornamenti non coincidono e vanno chiarite insieme alla distanza dal bus."
+      },
+      "availability": {
+        "status": "unverified",
+        "checkedAt": null,
+        "reason": "Alias pubblici/indicizzati leggibili, ma HTTP diretto bloccato o insufficiente; disponibilità effettiva non verificata."
+      },
+      "model": {
+        "status": "awaiting_plans",
+        "path": null,
+        "views": [],
+        "notes": [
+          "Ricostruzione da preparare: le parti documentate potranno essere pubblicate anche con volumi mancanti, esplicitamente elencati. Senza piante utilizzabili, fotografie sufficienti consentono una ricostruzione dei soli esterni.",
+          "Nessuna planimetria identificativa scaricabile è esposta nelle letture pubbliche acquisite; non ricostruire interni da sole foto o descrizioni."
+        ]
+      },
+      "evidence": {
+        "listingReadAt": "2026-10-11T17:33:26.145924+02:00",
+        "sourceUpdatedAt": null,
+        "method": "chat",
+        "note": "Lettura pubblica/indicizzata; da sola non conferma la disponibilità attuale."
+      }
+    },
+    {
+      "id": "borgo-refosco",
+      "title": "Borgo Refosco, Opicina",
+      "locality": "Opicina, Trieste",
+      "address": "Via del Refosco",
+      "sourceUrls": [
+        "https://www.immobiliare.it/annunci/122572468/"
+      ],
+      "historicalPrices": [
+        {
+          "priceEur": 580000,
+          "date": "2026-08-30",
+          "source": "chat"
+        }
+      ],
+      "facts": {
+        "priceEur": 580000,
+        "areaHabitableM2": 160,
+        "areaWalkableM2": null,
+        "areaCommercialM2": null,
+        "areaNotes": "La chat indica 160 m² abitativi.",
+        "gardenM2": 200,
+        "landM2": null,
+        "parking": "Tre posti auto.",
+        "floors": 2,
+        "bedrooms": 4,
+        "bathrooms": 3,
+        "condition": "Nuova costruzione.",
+        "energy": "Classe A+ secondo la chat.",
+        "bus": "Percorso pedonale da verificare; immobile nella parte finale di Via del Refosco.",
+        "highlights": [
+          "Villetta accostata di nuova costruzione.",
+          "Riscaldamento dichiarato: Autonomo, ad aria, alimentato a pompa di calore"
+        ],
+        "limitations": [
+          "Distanza esatta dalla fermata autobus non documentata."
+        ],
+        "description": "Villetta accostata nuova a Opicina con 160 m² abitativi, circa 200 m² di giardino e tre posti auto. La classe energetica indicata è A+; il collegamento a piedi con il bus resta da verificare."
+      },
+      "availability": {
+        "status": "unverified",
+        "checkedAt": null,
+        "reason": "Lettura pubblica indicizzata disponibile, ma accesso diretto bloccato o non sufficiente: disponibilità effettiva non verificata."
+      },
+      "model": {
+        "status": "in_review",
+        "path": null,
+        "views": [],
+        "notes": [
+          "Due tavole di progetto leggibili e quotate, ciascuna con tre villette B1/B2/B3; lo stato rappresentato è di progetto, non realizzato.",
+          "L'annuncio propone tre unità da 150–170 m² senza individuare quale corrisponda al candidato/pricing della chat. Non selezionare arbitrariamente una sagoma per un modello di singola casa.",
+          "Per procedere serve identificazione dell'unità oppure ambito esplicito dell'intero progetto, mantenendo prezzi e superfici distinti."
+        ]
+      },
+      "evidence": {
+        "listingReadAt": "2026-10-11T17:33:27.320766+02:00",
+        "sourceUpdatedAt": "20/03/2026",
+        "method": "public_reader_and_chat",
+        "note": "Lettura pubblica/indicizzata; da sola non conferma la disponibilità attuale."
+      }
+    },
+    {
+      "id": "via-dei-salici-22-1",
+      "title": "Via dei Salici 22/1",
+      "locality": "Opicina, Trieste",
+      "address": "Via dei Salici 22/1",
+      "sourceUrls": [
+        "https://www.immobiliare.it/annunci/131503174/",
+        "https://www.trovacasa.it/annunci/ts-tc-44224-72706379"
+      ],
+      "historicalPrices": [
+        {
+          "priceEur": 550000,
+          "date": "2026-08-30",
+          "source": "chat"
+        },
+        {
+          "priceEur": 535000,
+          "date": "2026-10-12",
+          "source": "https://www.trovacasa.it/annunci/ts-tc-44224-72706379"
+        }
+      ],
+      "facts": {
+        "priceEur": 535000,
+        "areaHabitableM2": 177,
+        "areaWalkableM2": null,
+        "areaCommercialM2": null,
+        "areaNotes": "La descrizione attiva indica complessivi180m² su tre livelli; la scheda del portale indica203m². Non è specificata la superficie netta calpestabile.",
+        "gardenM2": 106,
+        "landM2": null,
+        "parking": "Due posti auto.",
+        "floors": 3,
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "condition": null,
+        "energy": "D,129,41 kWh/m²anno, dichiarata dal portale.",
+        "bus": "Distanza esatta dal bus da verificare.",
+        "highlights": [
+          "Due porzioni di giardino, circa 46 e 60 m².",
+          "Riscaldamento dichiarato: Autonomo, a radiatori, alimentato a gas"
+        ],
+        "limitations": [
+          "Il giardino è suddiviso in due aree.",
+          "I 177 m² includono la taverna; abitabilità e ripartizione da verificare.",
+          "Bus non confermato."
+        ],
+        "description": "Casa in Via dei Salici con circa 177 m² interni comprendendo la taverna, due posti auto e due giardini di circa 46 e 60 m². La distanza dalla fermata e la classificazione della taverna richiedono conferma."
+      },
+      "availability": {
+        "status": "available",
+        "checkedAt": "2026-10-12T20:00:05.102760+02:00",
+        "reason": "Copia pubblica attiva con indirizzo22/1 e riferimento131503174 identici; prezzo attuale535000€ letto direttamente."
+      },
+      "model": {
+        "status": "in_review",
+        "path": null,
+        "views": [],
+        "notes": [
+          "Due immagini leggibili coprono tutti i tre livelli, giardini, porticati e accessi pedonale/carrabile.",
+          "Quote verticali: terra e interrato 2,50 m; sottotetto a quota variabile con linee di altezza 1,50/2,50 m.",
+          "Conservare mansarde e soffitte come indicate nella tavola, senza attribuire automaticamente abitabilità.",
+          "La descrizione recente quantifica esterni e taverna diversamente dalla chat: 80 m² davanti comprendendo 28 m² di parcheggio, circa 50 m² giardino principale e taverna 32 m². Verificare i dati prima di aggiornare la scheda.",
+          "Resta necessario il confronto fotografico."
+        ]
+      },
+      "evidence": {
+        "listingReadAt": "2026-10-12T20:00:05.102760+02:00",
+        "sourceUpdatedAt": null,
+        "method": "direct_http",
+        "note": "Copia identificativa dell’annuncio letta direttamente su TrovaCasa: riferimento131503174 e civico22/1 corrispondenti. Prezzo attuale535.000€, rispetto ai550.000€ registrati in precedenza."
+      }
+    },
+    {
+      "id": "opicina-villa-126111987",
+      "title": "Villa singola a Opicina",
+      "locality": "Opicina, Trieste",
+      "address": null,
+      "sourceUrls": [
+        "https://www.immobiliare.it/annunci/126111987/"
+      ],
+      "historicalPrices": [
+        {
+          "priceEur": 500000,
+          "date": "2026-08-30",
+          "source": "chat"
+        }
+      ],
+      "facts": {
+        "priceEur": 500000,
+        "areaHabitableM2": 110,
+        "areaWalkableM2": null,
+        "areaCommercialM2": 181,
+        "areaNotes": "110 m² di abitazione, rispetto a 181 m² commerciali.",
+        "gardenM2": 600,
+        "landM2": null,
+        "parking": "Tre posti auto.",
+        "floors": 1,
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "condition": null,
+        "energy": null,
+        "bus": "Fermata e supermercato dichiarati a circa 400 m.",
+        "highlights": [
+          "Villa singola.",
+          "Giardino di 600 m².",
+          "Riscaldamento dichiarato: Autonomo, a radiatori, alimentato a metano"
+        ],
+        "limitations": [
+          "Abitazione di 110 m², inferiore al requisito di 120 m²."
+        ],
+        "description": "Villa singola a Opicina con 110 m² di abitazione, giardino di 600 m² e tre posti auto. La fermata è dichiarata a circa 400 metri; la superficie interna resta dieci metri quadrati sotto il criterio della ricerca."
+      },
+      "availability": {
+        "status": "unverified",
+        "checkedAt": null,
+        "reason": "Lettura pubblica indicizzata disponibile, ma accesso diretto bloccato o non sufficiente: disponibilità effettiva non verificata."
+      },
+      "model": {
+        "status": "in_review",
+        "path": null,
+        "views": [],
+        "notes": [
+          "Due tavole catastali leggibili: abitazione al piano terra e piccola cantina interrata, con quote verticali 2,95 m e 2,20 m.",
+          "Sul sedime sono indicati subalterni 2 e 3 come rettangoli senza distribuzione, aperture o scale dettagliate; la descrizione menziona taverna e due magazzini.",
+          "La copertura dei locali accessori descritti non è identificabile integralmente. Non inventare interni dei subalterni non rappresentati."
+        ]
+      },
+      "evidence": {
+        "listingReadAt": "2026-10-11T17:33:28.146264+02:00",
+        "sourceUpdatedAt": "29/07/2026",
+        "method": "public_reader_and_chat",
+        "note": "Lettura pubblica/indicizzata; da sola non conferma la disponibilità attuale."
+      }
+    },
+    {
+      "id": "via-di-pianezzi",
+      "title": "Via di Pianezzi, Muggia",
+      "locality": "Muggia",
+      "address": "Via di Pianezzi",
+      "sourceUrls": [
+        "https://www.casa.it/immobili/52173756/"
+      ],
+      "historicalPrices": [
+        {
+          "priceEur": 399000,
+          "date": "2026-08-30",
+          "source": "chat"
+        }
+      ],
+      "facts": {
+        "priceEur": 399000,
+        "areaHabitableM2": null,
+        "areaWalkableM2": null,
+        "areaCommercialM2": null,
+        "areaNotes": "116 m² catastali riportati dalla chat; non sono identificati come superficie abitabile o calpestabile.",
+        "gardenM2": null,
+        "landM2": 3700,
+        "parking": "Garage doppio e altri quattro posti auto.",
+        "floors": null,
+        "bedrooms": null,
+        "bathrooms": null,
+        "condition": null,
+        "energy": null,
+        "bus": "Posizione della fermata non verificabile dall'annuncio secondo la chat.",
+        "highlights": [
+          "Villa unifamiliare.",
+          "Terreno descritto come superiore a 3.700 m²."
+        ],
+        "limitations": [
+          "La superficie riportata è catastale, non un netto abitativo verificato.",
+          "I 116 m² sono sotto la soglia numerica di 120 m².",
+          "Il dato terreno è 'oltre 3.700 m²'; il valore numerico conserva il limite inferiore.",
+          "Bus non confermato."
+        ],
+        "description": "Villa unifamiliare in Via di Pianezzi con 116 m² catastali, oltre 3.700 m² di terreno e ampio parcheggio. È un quasi-match per la superficie dichiarata e per il bus ancora da verificare."
+      },
+      "availability": {
+        "status": "unverified",
+        "checkedAt": null,
+        "reason": "Fonti pubbliche non accessibili e accesso diretto non sufficiente; nessuna prova di rimozione."
+      },
+      "model": {
+        "status": "awaiting_plans",
+        "path": null,
+        "views": [],
+        "notes": [
+          "Ricostruzione da preparare: le parti documentate potranno essere pubblicate anche con volumi mancanti, esplicitamente elencati. Senza piante utilizzabili, fotografie sufficienti consentono una ricostruzione dei soli esterni.",
+          "Lettura pubblica non accessibile e accesso HTTP diretto bloccato; assenza di fonti non equivale a immobile non disponibile."
+        ]
+      },
+      "evidence": {
+        "listingReadAt": "2026-10-11T17:33:28.426848+02:00",
+        "sourceUpdatedAt": null,
+        "method": "chat",
+        "note": "Lettura pubblica/indicizzata; da sola non conferma la disponibilità attuale."
+      }
+    },
+    {
+      "id": "erta-di-sant-anna",
+      "title": "Villa a Erta di Sant'Anna",
+      "locality": "Trieste",
+      "address": "Erta di Sant'Anna",
+      "sourceUrls": [
+        "https://www.immobiliare.it/annunci/130121366/",
+        "https://www.idealista.it/immobile/36091436/",
+        "https://www.sellingtrieste.com/immobili/casa-singola-in-erta-santanna-trieste/"
+      ],
+      "historicalPrices": [
+        {
+          "priceEur": 520000,
+          "date": "2026-08-30",
+          "source": "chat"
+        }
+      ],
+      "facts": {
+        "priceEur": 520000,
+        "areaHabitableM2": 214,
+        "areaWalkableM2": null,
+        "areaCommercialM2": 317,
+        "areaNotes": "L’agenzia indica215 m² e box 25 m²; la precedente scheda riporta214 m² di abitazione e317 m² commerciali. Sono superfici dichiarate, senza certificazione della superficie netta o abitabilità dei locali accessori.",
+        "gardenM2": 900,
+        "landM2": null,
+        "parking": "Box da 25 m² e diversi posti auto con accesso carrabile.",
+        "floors": "Piano seminterrato, terra e primo, più box separato.",
+        "bedrooms": 3,
+        "bathrooms": 3,
+        "condition": "Ottimo stato/ristrutturata secondo la chat.",
+        "energy": "Fotovoltaico, batterie di accumulo e solare termico; classe energetica non riportata.",
+        "bus": "Linee 1 e 34 lungo Erta di Sant'Anna; entro 10 minuti ritenuto probabile ma non documentato dal civico oscurato.",
+        "highlights": [
+          "Villa unifamiliare.",
+          "Serramenti recenti in PVC con doppio vetro.",
+          "Climatizzazione.",
+          "Riscaldamento dichiarato: Autonomo, a radiatori, alimentato a fotovoltaico"
+        ],
+        "limitations": [
+          "Civico71 presente nelle planimetrie catastali pubblicate; indirizzo operativo e percorso alla fermata da confermare.",
+          "Le cantine/accessori della pianta non diventano superfici abitative certificate perché arredati nelle foto."
+        ],
+        "description": "Villa a Erta di Sant’Anna, a €520.000, con circa215 m² dichiarati, giardino 900 m², box 25 m² e posti auto. Sono segnalati fotovoltaico con accumulo, solare termico e climatizzazione. La precedente scheda indica214 m² di abitazione e317 m² commerciali; il tragitto al bus resta da verificare."
+      },
+      "availability": {
+        "status": "available",
+        "checkedAt": "2026-10-11T23:04:59.550976+02:00",
+        "reason": "Annuncio dell’esatto immobile letto con HTTP200 sul sito pubblico dell’agenzia, con indirizzo/riferimento e prezzo corrispondenti."
+      },
+      "model": {
+        "status": "ready",
+        "path": "modelli/erta-di-sant-anna.html",
+        "views": [
+          {
+            "id": "esterno",
+            "label": "Esterno"
+          },
+          {
+            "id": "primo",
+            "label": "Primo piano"
+          },
+          {
+            "id": "terra",
+            "label": "Piano terra"
+          },
+          {
+            "id": "seminterrato",
+            "label": "Seminterrato e accessori"
+          },
+          {
+            "id": "box",
+            "label": "Box auto"
+          }
+        ],
+        "notes": [
+          "Contorni, muri e aperture ricalcati dalle tre tavole catastali; quattro livelli compreso box separato, verificati con render ortografici effettivi.",
+          "La barra10m della tavola A3 stabilisce una scala uniforme; pianteA4 allineate uniformemente con fattore1.5. Le scansioni non sostituiscono un rilievo metrico.",
+          "Altezze principali2.00m/2.80m/2.80m e box3.00m/2.25m documentate; alzate, solai, falde e dimensioni degli arredi sono stimate.",
+          "Le proiezioni sezionate del vano scala differiscono: la U completa del primo piano governa le due rampe, nel vano comune;19alzate per collegamento, dislivelli2.20m/3.00m stimati e dichiarati.",
+          "Materiali, tre bagni, mobilio, piscina fuori terra e portico derivati dalle56fotografie acquisite. La fascia vuota a ovest sul primo piano è la proiezione del portico sottostante.",
+          "Giardino e contesto fuori dal sedime sono indicativi. La distribuzione rappresenta le tavole catastali pubblicate; non sono aggiunte stanze o panorami estranei alle fonti."
+        ],
+        "verifiedAt": "2026-10-12T09:14:43.178137+02:00",
+        "artifactSha256": "3d10ae00850b577a6a968814ed0638b195d72077a55461c1200dd72a3e63e309",
+        "sourcePlans": [
+          {
+            "url": "https://pic.im-cdn.it/plan/129731456/xxl.jpg",
+            "label": "PLN_241681395_1 2"
+          },
+          {
+            "url": "https://pic.im-cdn.it/plan/129731458/xxl.jpg",
+            "label": "PLN_241681395_1 1"
+          },
+          {
+            "url": "https://pic.im-cdn.it/plan/129731460/xxl.jpg",
+            "label": "PLN_241681395_2 1"
+          }
+        ],
+        "unrenderedVolumes": [],
+        "coverage": "complete",
+        "preview": "assets/erta-di-sant-anna.jpg"
+      },
+      "evidence": {
+        "listingReadAt": "2026-10-11T23:04:59.550976+02:00",
+        "sourceUpdatedAt": null,
+        "method": "direct_http",
+        "note": "Annuncio identificativo verificato direttamente sul sito dell’agenzia; misure e dotazioni sono dichiarazioni delle fonti, con divergenze indicate nella scheda."
+      }
+    },
+    {
+      "id": "via-almerigotti",
+      "title": "Via A. de Almerigotti",
+      "locality": "Trieste",
+      "address": "Via A. de Almerigotti",
+      "sourceUrls": [
+        "https://www.casa.it/immobili/54474891/",
+        "https://www.idealista.it/immobile/36342262/"
+      ],
+      "historicalPrices": [
+        {
+          "priceEur": 470000,
+          "date": null,
+          "source": "chat"
+        }
+      ],
+      "facts": {
+        "priceEur": 470000,
+        "areaHabitableM2": 169,
+        "areaWalkableM2": null,
+        "areaCommercialM2": null,
+        "areaNotes": "Circa 60 m² abitativi al piano terra e 109 m² al primo piano; circa 200 m² complessivi senza classificazione commerciale esplicita.",
+        "gardenM2": 250,
+        "landM2": null,
+        "parking": "Garage di oltre 35 m² e due posti nella corte privata.",
+        "floors": null,
+        "bedrooms": null,
+        "bathrooms": null,
+        "condition": null,
+        "energy": null,
+        "bus": "Fermata indicata entro 150 m da Casa.it secondo la chat.",
+        "highlights": [
+          "Casa bifamiliare indipendente con due appartamenti autonomi."
+        ],
+        "limitations": [
+          "Posizione precisa oscurata nella fonte citata.",
+          "Data dell'aggiornamento della chat non esplicita."
+        ],
+        "description": "Bifamiliare indipendente in Via Almerigotti con due appartamenti per circa 169 m² abitativi complessivi, giardino di 250 m², garage e due posti esterni. Sono riportati una fermata entro 150 metri."
+      },
+      "availability": {
+        "status": "unverified",
+        "checkedAt": null,
+        "reason": "Lettura pubblica indicizzata disponibile, ma accesso diretto bloccato o non sufficiente: disponibilità effettiva non verificata."
+      },
+      "model": {
+        "status": "awaiting_plans",
+        "path": null,
+        "views": [],
+        "notes": [
+          "Ricostruzione da preparare: le parti documentate potranno essere pubblicate anche con volumi mancanti, esplicitamente elencati. Senza piante utilizzabili, fotografie sufficienti consentono una ricostruzione dei soli esterni.",
+          "Nessuna planimetria identificativa scaricabile è esposta nelle letture pubbliche acquisite; non ricostruire interni da sole foto o descrizioni."
+        ]
+      },
+      "evidence": {
+        "listingReadAt": "2026-10-11T17:33:30.146985+02:00",
+        "sourceUpdatedAt": null,
+        "method": "public_reader_and_chat",
+        "note": "Lettura pubblica/indicizzata; da sola non conferma la disponibilità attuale."
+      }
+    },
+    {
+      "id": "strada-di-fiume-325",
+      "title": "Strada di Fiume 325",
+      "locality": "Trieste",
+      "address": "Strada di Fiume 325",
+      "sourceUrls": [
+        "https://www.casa.it/immobili/53834621/",
+        "https://www.immobiliare.it/annunci/128885666/"
+      ],
+      "historicalPrices": [
+        {
+          "priceEur": 410000,
+          "date": null,
+          "source": "chat"
+        }
+      ],
+      "facts": {
+        "priceEur": 410000,
+        "areaHabitableM2": 180,
+        "areaWalkableM2": null,
+        "areaCommercialM2": null,
+        "areaNotes": "Circa 180 m² interni secondo la chat.",
+        "gardenM2": 500,
+        "landM2": null,
+        "parking": "Box doppio da 40 m² e accesso carrabile.",
+        "floors": null,
+        "bedrooms": null,
+        "bathrooms": null,
+        "condition": null,
+        "energy": null,
+        "bus": "Linea 48 a circa 120 m e linea 37 a circa 150 m.",
+        "highlights": [
+          "Intero lotto bifamiliare.",
+          "Due appartamenti eventualmente unificabili."
+        ],
+        "limitations": [
+          "Superfici interne e giardino sono riportati come circa.",
+          "Data dell'aggiornamento della chat non esplicita."
+        ],
+        "description": "Lotto bifamiliare in Strada di Fiume con circa 180 m² interni, due appartamenti, giardino di circa 500 m² e box doppio. Le linee 48 e 37 sono indicate a circa 120 e 150 metri."
+      },
+      "availability": {
+        "status": "unverified",
+        "checkedAt": null,
+        "reason": "Lettura pubblica indicizzata disponibile, ma accesso diretto bloccato o non sufficiente: disponibilità effettiva non verificata."
+      },
+      "model": {
+        "status": "awaiting_plans",
+        "path": null,
+        "views": [],
+        "notes": [
+          "Ricostruzione da preparare: le parti documentate potranno essere pubblicate anche con volumi mancanti, esplicitamente elencati. Senza piante utilizzabili, fotografie sufficienti consentono una ricostruzione dei soli esterni.",
+          "Nessuna planimetria identificativa scaricabile è esposta nelle letture pubbliche acquisite; non ricostruire interni da sole foto o descrizioni."
+        ]
+      },
+      "evidence": {
+        "listingReadAt": "2026-10-11T17:33:31.179389+02:00",
+        "sourceUpdatedAt": null,
+        "method": "public_reader_and_chat",
+        "note": "Lettura pubblica/indicizzata; da sola non conferma la disponibilità attuale."
+      }
+    },
+    {
+      "id": "fontanella-10-4",
+      "title": "Località Fontanella 10/4",
+      "locality": "Muggia",
+      "address": "Località Fontanella 10/4",
+      "sourceUrls": [
+        "https://www.immobiliare.it/annunci/120802248/"
+      ],
+      "historicalPrices": [
+        {
+          "priceEur": 450000,
+          "date": null,
+          "source": "chat"
+        }
+      ],
+      "facts": {
+        "priceEur": 450000,
+        "areaHabitableM2": 186,
+        "areaWalkableM2": null,
+        "areaCommercialM2": null,
+        "areaNotes": "186 m² classificati come abitazione secondo la chat.",
+        "gardenM2": null,
+        "landM2": null,
+        "parking": "Due box/posti in garage e due posti auto.",
+        "floors": 1,
+        "bedrooms": 4,
+        "bathrooms": 2,
+        "condition": null,
+        "energy": null,
+        "bus": "Fermata della linea 27 denominata SP17 di Chiampore - località Fontanella; distanza dal civico non documentata.",
+        "highlights": [
+          "Villa singola.",
+          "Giardino descritto come ampio.",
+          "Riscaldamento dichiarato: Autonomo, a radiatori, alimentato a gasolio"
+        ],
+        "limitations": [
+          "Metratura del giardino non dichiarata.",
+          "Distanza pedonale dal bus da confermare."
+        ],
+        "description": "Villa singola a Fontanella con 186 m² abitativi, quattro camere, giardino e parcheggio in garage e all'aperto. La metratura del giardino e il percorso verso la linea 27 non sono documentati nelle informazioni disponibili."
+      },
+      "availability": {
+        "status": "unverified",
+        "checkedAt": null,
+        "reason": "Lettura pubblica indicizzata disponibile, ma accesso diretto bloccato o non sufficiente: disponibilità effettiva non verificata."
+      },
+      "model": {
+        "status": "in_review",
+        "path": null,
+        "views": [],
+        "notes": [
+          "Una pianta Matterport leggibile con stanze, porte, balconi e quote, riferita a Località Fontanella 10/4.",
+          "La tavola dichiara Gross Floor Area/Floor 1 di 165,7 m² con misure approssimate: differisce dai 186 m² abitativi storici della chat.",
+          "Manca la pianta del seminterrato con cantina carrabile, locali accessori e vano tecnico citati dalla descrizione."
+        ]
+      },
+      "evidence": {
+        "listingReadAt": "2026-10-11T17:33:32.326917+02:00",
+        "sourceUpdatedAt": "23/03/2026",
+        "method": "public_reader_and_chat",
+        "note": "Lettura pubblica/indicizzata; da sola non conferma la disponibilità attuale."
+      }
+    },
+    {
+      "id": "opicina-trifamiliare-tecnocasa",
+      "title": "Porzione trifamiliare a Opicina",
+      "locality": "Opicina, Trieste",
+      "address": null,
+      "sourceUrls": [
+        "https://trieste3.tecnocasa.it/trieste/ville-in-vendita-61227908"
+      ],
+      "historicalPrices": [
+        {
+          "priceEur": 498000,
+          "date": null,
+          "source": "chat"
+        }
+      ],
+      "facts": {
+        "priceEur": 498000,
+        "areaHabitableM2": null,
+        "areaWalkableM2": null,
+        "areaCommercialM2": null,
+        "areaNotes": "213 m² dichiarati, senza separazione tra superficie abitativa, calpestabile o commerciale.",
+        "gardenM2": null,
+        "landM2": null,
+        "parking": "Due posti auto con area parcheggio di circa 30 m².",
+        "floors": null,
+        "bedrooms": null,
+        "bathrooms": null,
+        "condition": null,
+        "energy": null,
+        "bus": "Fermate Via Nazionale/Campo Romano riportate a circa 360–430 m.",
+        "highlights": [
+          "Porzione di trifamiliare.",
+          "Patio e giardino."
+        ],
+        "limitations": [
+          "Metratura del giardino non dichiarata.",
+          "Classificazione della superficie interna non separata."
+        ],
+        "description": "Porzione di trifamiliare a Opicina con 213 m² dichiarati, patio, giardino e due posti auto. Le fermate di Via Nazionale/Campo Romano sono indicate a 360–430 metri; manca la metratura del solo giardino."
+      },
+      "availability": {
+        "status": "unverified",
+        "checkedAt": null,
+        "reason": "Lettura pubblica indicizzata disponibile, ma accesso diretto bloccato o non sufficiente: disponibilità effettiva non verificata."
+      },
+      "model": {
+        "status": "awaiting_plans",
+        "path": null,
+        "views": [],
+        "notes": [
+          "Ricostruzione da preparare: le parti documentate potranno essere pubblicate anche con volumi mancanti, esplicitamente elencati. Senza piante utilizzabili, fotografie sufficienti consentono una ricostruzione dei soli esterni.",
+          "Nessuna planimetria identificativa scaricabile è esposta nelle letture pubbliche acquisite; non ricostruire interni da sole foto o descrizioni."
+        ]
+      },
+      "evidence": {
+        "listingReadAt": "2026-10-11T17:35:36.162731+02:00",
+        "sourceUpdatedAt": null,
+        "method": "public_reader_and_chat",
+        "note": "Lettura pubblica/indicizzata; da sola non conferma la disponibilità attuale."
+      }
+    },
+    {
+      "id": "via-dell-hermada",
+      "title": "Villa nuova in Via dell'Hermada",
+      "locality": "Opicina, Trieste",
+      "address": "Via dell'Hermada",
+      "sourceUrls": [
+        "https://www.immobiliare.it/annunci/125934421/"
+      ],
+      "historicalPrices": [
+        {
+          "priceEur": 650000,
+          "date": null,
+          "source": "chat"
+        }
+      ],
+      "facts": {
+        "priceEur": 650000,
+        "areaHabitableM2": 130,
+        "areaWalkableM2": null,
+        "areaCommercialM2": 138,
+        "areaNotes": "130 m² di abitazione e 138 m² commerciali.",
+        "gardenM2": null,
+        "landM2": null,
+        "parking": "Tre posti auto.",
+        "floors": 1,
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "condition": "Nuova costruzione, consegna prevista nella seconda metà del 2027.",
+        "energy": "Classe A4 secondo la chat.",
+        "bus": "Zona ritenuta vicina alle fermate principali di Opicina; percorso e distanza precisi non documentati.",
+        "highlights": [
+          "Villa singola.",
+          "Tre camere matrimoniali.",
+          "Giardino e porticato.",
+          "Riscaldamento dichiarato: Autonomo, a pavimento, alimentato a pompa di calore"
+        ],
+        "limitations": [
+          "Superficie del giardino non dichiarata.",
+          "Bus da confermare.",
+          "Consegna futura prevista, non abitazione immediatamente disponibile."
+        ],
+        "description": "Villa singola nuova in Via dell'Hermada, con 130 m² di abitazione, tre camere matrimoniali, giardino e tre posti auto. La chat indica classe A4 e consegna nella seconda metà del 2027; giardino e bus richiedono conferma."
+      },
+      "availability": {
+        "status": "unverified",
+        "checkedAt": null,
+        "reason": "Lettura pubblica indicizzata disponibile, ma accesso diretto bloccato o non sufficiente: disponibilità effettiva non verificata."
+      },
+      "model": {
+        "status": "awaiting_plans",
+        "path": null,
+        "views": [],
+        "notes": [
+          "Ricostruzione da preparare: le parti documentate potranno essere pubblicate anche con volumi mancanti, esplicitamente elencati. Senza piante utilizzabili, fotografie sufficienti consentono una ricostruzione dei soli esterni.",
+          "Nessuna planimetria identificativa scaricabile è esposta nelle letture pubbliche acquisite; non ricostruire interni da sole foto o descrizioni."
+        ]
+      },
+      "evidence": {
+        "listingReadAt": "2026-10-11T17:33:32.629767+02:00",
+        "sourceUpdatedAt": "15/01/2026",
+        "method": "public_reader_and_chat",
+        "note": "Lettura pubblica/indicizzata; da sola non conferma la disponibilità attuale."
+      }
+    },
+    {
+      "id": "trebiciano-130356648",
+      "title": "Villa indipendente a Trebiciano",
+      "locality": "Trebiciano, Trieste",
+      "address": null,
+      "sourceUrls": [
+        "https://www.immobiliare.it/annunci/130356648/"
+      ],
+      "historicalPrices": [
+        {
+          "priceEur": 595000,
+          "date": "2026-09-13",
+          "source": "chat"
+        }
+      ],
+      "facts": {
+        "priceEur": 595000,
+        "areaHabitableM2": 180,
+        "areaWalkableM2": null,
+        "areaCommercialM2": 213,
+        "areaNotes": "180 m² interni descritti come 70 + 70 + 40; 213 m² commerciali.",
+        "gardenM2": 300,
+        "landM2": null,
+        "parking": "Area per due auto.",
+        "floors": 3,
+        "bedrooms": 3,
+        "bathrooms": 3,
+        "condition": null,
+        "energy": "Fotovoltaico da 6 kW; classe energetica non riportata.",
+        "bus": "Fermata della linea 51 indicata a 50 m.",
+        "highlights": [
+          "Casa indipendente del 2012.",
+          "Nessuna spesa condominiale secondo la chat.",
+          "Riscaldamento dichiarato: Autonomo, a pavimento, alimentato a metano"
+        ],
+        "limitations": [],
+        "description": "Villa indipendente a Trebiciano con 180 m² interni, giardino di 300 m² e parcheggio per due auto. È indicata come costruzione del 2012 con fotovoltaico da 6 kW e fermata della linea 51 a 50 metri."
+      },
+      "availability": {
+        "status": "unverified",
+        "checkedAt": null,
+        "reason": "Lettura pubblica indicizzata disponibile, ma accesso diretto bloccato o non sufficiente: disponibilità effettiva non verificata."
+      },
+      "model": {
+        "status": "in_review",
+        "path": null,
+        "views": [],
+        "notes": [
+          "Una tavola catastale leggibile riunisce i tre livelli con scale interne, porte e finestre.",
+          "I locali inferiori sono etichettati cantina e quelli al primo piano comprendono soffitta, stanza e intercapedine: non convertire tutti i 180 m² interni in abitazione certificata.",
+          "Altezze indicate: interrato 2,40 m, terra 2,70 m, mansarda con valori variabili. Quote di pianta non sufficienti a dichiarare rilievo metrico.",
+          "La descrizione parla di parcheggio esterno; la caratteristica automatica box/posti auto contiene un dato discordante da chiarire.",
+          "Resta necessario il confronto fotografico."
+        ]
+      },
+      "evidence": {
+        "listingReadAt": "2026-10-11T17:33:32.794751+02:00",
+        "sourceUpdatedAt": "12/08/2026",
+        "method": "public_reader_and_chat",
+        "note": "Lettura pubblica/indicizzata; da sola non conferma la disponibilità attuale."
+      }
+    },
+    {
+      "id": "salita-di-raute-50-1",
+      "title": "Salita di Raute 50/1",
+      "locality": "Trieste",
+      "address": "Salita di Raute 50/1",
+      "sourceUrls": [
+        "https://www.immobiliare.it/annunci/132289868/"
+      ],
+      "historicalPrices": [
+        {
+          "priceEur": 595000,
+          "date": "2026-09-13",
+          "source": "chat"
+        }
+      ],
+      "facts": {
+        "priceEur": 595000,
+        "areaHabitableM2": 150,
+        "areaWalkableM2": null,
+        "areaCommercialM2": 205,
+        "areaNotes": "150 m² classificati come abitazione; 205 m² commerciali.",
+        "gardenM2": 300,
+        "landM2": null,
+        "parking": "Garage da 50 m² per due auto.",
+        "floors": 3,
+        "bedrooms": 4,
+        "bathrooms": 2,
+        "condition": null,
+        "energy": "Classe A4, fotovoltaico 8 kW e batteria Tesla 13,5 kWh secondo la chat.",
+        "bus": "Linea 37 lungo Salita di Raute; distanza dalla casa non documentata.",
+        "highlights": [
+          "Dotazioni energetiche recenti.",
+          "Riscaldamento dichiarato: Autonomo, a pavimento, alimentato a gas"
+        ],
+        "limitations": [
+          "Percorso e distanza esatta dal bus da confermare."
+        ],
+        "description": "Casa in Salita di Raute con 150 m² di abitazione, giardino di 300 m² e garage di 50 m². Sono segnalati classe A4, fotovoltaico e accumulo Tesla; la vicinanza effettiva alla linea 37 va verificata."
+      },
+      "availability": {
+        "status": "unverified",
+        "checkedAt": null,
+        "reason": "Lettura pubblica indicizzata disponibile, ma accesso diretto bloccato o non sufficiente: disponibilità effettiva non verificata."
+      },
+      "model": {
+        "status": "in_review",
+        "path": null,
+        "views": [],
+        "notes": [
+          "Una tavola catastale leggibile contiene terra e primo, con vani e scale e differenti quote verticali.",
+          "La descrizione dell'annuncio dichiara livelli sfalsati e un piano inferiore con grande garage, lavanderia e locale tecnico.",
+          "Non risulta una pianta identificabile del garage inferiore; serve copertura dei semipiani e collegamenti prima della ricostruzione completa.",
+          "Non sostituire il sistema di semipiani con scatole sovrapposte."
+        ]
+      },
+      "evidence": {
+        "listingReadAt": "2026-10-11T17:33:33.275899+02:00",
+        "sourceUpdatedAt": "09/09/2026",
+        "method": "public_reader_and_chat",
+        "note": "Lettura pubblica/indicizzata; da sola non conferma la disponibilità attuale."
+      }
+    },
+    {
+      "id": "via-degli-olmi-8",
+      "title": "Via degli Olmi 8",
+      "locality": "Trieste",
+      "address": "Via degli Olmi 8",
+      "sourceUrls": [
+        "https://www.casa.it/immobili/54096551/",
+        "https://www.idealista.it/geo/vendita-case/via-degli-olmi-trieste-trieste/con-dimensione_140/"
+      ],
+      "historicalPrices": [
+        {
+          "priceEur": 550000,
+          "date": "2026-09-13",
+          "source": "chat"
+        },
+        {
+          "priceEur": 500000,
+          "date": "2026-10-11",
+          "source": "chat"
+        }
+      ],
+      "facts": {
+        "priceEur": 500000,
+        "areaHabitableM2": 148,
+        "areaWalkableM2": null,
+        "areaCommercialM2": 191,
+        "areaNotes": "148 m² interni e 191 m² commerciali.",
+        "gardenM2": 1000,
+        "landM2": null,
+        "parking": "Box da 35 m² e cinque posti scoperti.",
+        "floors": null,
+        "bedrooms": null,
+        "bathrooms": null,
+        "condition": "Richiede ammodernamento secondo la chat.",
+        "energy": null,
+        "bus": "Linee 2 e 4 sulla via; percorso casa-fermata da confermare.",
+        "highlights": [
+          "Giardino a pastini di circa 1.000 m².",
+          "Ribasso da €550.000 a €500.000 segnalato l'11 ottobre."
+        ],
+        "limitations": [
+          "Il secondo URL è una pagina geografica Idealista, non una scheda identificativa.",
+          "Il prezzo di €500.000 è quello pubblicizzato su Idealista; nella chat altri risultati indicizzati conservano €550.000.",
+          "Bus da confermare.",
+          "Prezzo discordante nella lettura indicizzata: €550.000. Conservato l’ultimo prezzo della chat in attesa di conferma diretta."
+        ],
+        "description": "Casa in Via degli Olmi con 148 m² interni, giardino a pastini di circa 1.000 m² e numerosi parcheggi. L'ultimo aggiornamento segnala €500.000, con ammodernamenti da considerare e bus ancora da verificare."
+      },
+      "availability": {
+        "status": "unverified",
+        "checkedAt": null,
+        "reason": "Lettura pubblica indicizzata disponibile, ma accesso diretto bloccato o non sufficiente: disponibilità effettiva non verificata."
+      },
+      "model": {
+        "status": "awaiting_plans",
+        "path": null,
+        "views": [],
+        "notes": [
+          "Ricostruzione da preparare: le parti documentate potranno essere pubblicate anche con volumi mancanti, esplicitamente elencati. Senza piante utilizzabili, fotografie sufficienti consentono una ricostruzione dei soli esterni.",
+          "Nessuna planimetria identificativa scaricabile è esposta nelle letture pubbliche acquisite; non ricostruire interni da sole foto o descrizioni."
+        ]
+      },
+      "evidence": {
+        "listingReadAt": "2026-10-11T17:33:33.478919+02:00",
+        "sourceUpdatedAt": null,
+        "method": "public_reader_and_chat",
+        "note": "Lettura pubblica/indicizzata; da sola non conferma la disponibilità attuale."
+      }
+    },
+    {
+      "id": "via-gianelli-18",
+      "title": "Via Bartolomeo Gianelli 18",
+      "locality": "Trieste",
+      "address": "Via Bartolomeo Gianelli 18",
+      "sourceUrls": [
+        "https://www.immobiliare.it/annunci/129124134/",
+        "https://www.idealista.it/immobile/35731602/"
+      ],
+      "historicalPrices": [
+        {
+          "priceEur": 385000,
+          "date": "2026-09-13",
+          "source": "chat"
+        }
+      ],
+      "facts": {
+        "priceEur": 385000,
+        "areaHabitableM2": null,
+        "areaWalkableM2": null,
+        "areaCommercialM2": null,
+        "areaNotes": "130 m² dichiarati; classificazione della superficie non esplicita.",
+        "gardenM2": 100,
+        "landM2": null,
+        "parking": "Accesso carrabile; presenza di un posto effettivo da confermare.",
+        "floors": null,
+        "bedrooms": 4,
+        "bathrooms": 2,
+        "condition": null,
+        "energy": null,
+        "bus": "Linee 33 e C lungo la via; distanza esatta non documentata.",
+        "highlights": [
+          "Prezzo tra i più bassi del gruppo di settembre.",
+          "Riscaldamento dichiarato: Autonomo, a radiatori, alimentato a metano"
+        ],
+        "limitations": [
+          "Superficie abitativa netta non separata.",
+          "Posto auto effettivo non confermato.",
+          "Distanza dal bus non documentata.",
+          "URL recuperati con lookup dell'11 ottobre 2026, senza conferma di disponibilità live."
+        ],
+        "description": "Casa segnalata in Via Gianelli 18 a €385.000, con 130 m² dichiarati e giardino di 100 m². Accesso carrabile, parcheggio e classificazione delle superfici richiedono verifica; la chat non conserva un URL identificativo."
+      },
+      "availability": {
+        "status": "unverified",
+        "checkedAt": null,
+        "reason": "Lettura pubblica indicizzata disponibile, ma accesso diretto bloccato o non sufficiente: disponibilità effettiva non verificata."
+      },
+      "model": {
+        "status": "awaiting_plans",
+        "path": null,
+        "views": [],
+        "notes": [
+          "Ricostruzione da preparare: le parti documentate potranno essere pubblicate anche con volumi mancanti, esplicitamente elencati. Senza piante utilizzabili, fotografie sufficienti consentono una ricostruzione dei soli esterni.",
+          "Nessuna planimetria identificativa scaricabile è esposta nelle letture pubbliche acquisite; non ricostruire interni da sole foto o descrizioni."
+        ]
+      },
+      "evidence": {
+        "listingReadAt": "2026-10-11T17:33:33.876076+02:00",
+        "sourceUpdatedAt": "01/07/2026",
+        "method": "public_reader_and_chat",
+        "note": "Lettura pubblica/indicizzata; da sola non conferma la disponibilità attuale."
+      }
+    },
+    {
+      "id": "via-commerciale-scorcola",
+      "title": "Villetta in Via Commerciale, Scorcola",
+      "locality": "Trieste",
+      "address": "Via Commerciale",
+      "sourceUrls": [
+        "https://www.casa.it/immobili/54714052/"
+      ],
+      "historicalPrices": [
+        {
+          "priceEur": 590000,
+          "date": null,
+          "source": "chat"
+        },
+        {
+          "priceEur": 570000,
+          "date": "2026-09-13",
+          "source": "chat"
+        }
+      ],
+      "facts": {
+        "priceEur": 570000,
+        "areaHabitableM2": null,
+        "areaWalkableM2": null,
+        "areaCommercialM2": null,
+        "areaNotes": "180 m² dichiarati senza separazione della superficie netta abitabile.",
+        "gardenM2": 150,
+        "landM2": null,
+        "parking": "Un posto auto.",
+        "floors": null,
+        "bedrooms": null,
+        "bathrooms": null,
+        "condition": null,
+        "energy": null,
+        "bus": "Via Commerciale servita da 2, 4 e 28; civico oscurato e percorso non documentato.",
+        "highlights": [
+          "Villetta a schiera.",
+          "Ribasso da €590.000 a €570.000."
+        ],
+        "limitations": [
+          "Superficie abitativa netta non separata.",
+          "Civico oscurato.",
+          "Distanza dalla fermata da confermare."
+        ],
+        "description": "Villetta a schiera a Scorcola con 180 m² dichiarati, giardino di 150 m² e posto auto, ribassata a €570.000. Occorre distinguere la superficie abitativa e verificare il percorso al bus dal civico effettivo."
+      },
+      "availability": {
+        "status": "unverified",
+        "checkedAt": null,
+        "reason": "Lettura pubblica indicizzata disponibile, ma accesso diretto bloccato o non sufficiente: disponibilità effettiva non verificata."
+      },
+      "model": {
+        "status": "awaiting_plans",
+        "path": null,
+        "views": [],
+        "notes": [
+          "Ricostruzione da preparare: le parti documentate potranno essere pubblicate anche con volumi mancanti, esplicitamente elencati. Senza piante utilizzabili, fotografie sufficienti consentono una ricostruzione dei soli esterni.",
+          "Nessuna planimetria identificativa scaricabile è esposta nelle letture pubbliche acquisite; non ricostruire interni da sole foto o descrizioni."
+        ]
+      },
+      "evidence": {
+        "listingReadAt": "2026-10-11T17:33:34.439574+02:00",
+        "sourceUpdatedAt": null,
+        "method": "public_reader_and_chat",
+        "note": "Lettura pubblica/indicizzata; da sola non conferma la disponibilità attuale."
+      }
+    },
+    {
+      "id": "banne-202",
+      "title": "Banne 202",
+      "locality": "Banne, Trieste",
+      "address": "Banne 202",
+      "sourceUrls": [
+        "https://www.immobiliare.it/annunci/121323776/"
+      ],
+      "historicalPrices": [
+        {
+          "priceEur": 690000,
+          "date": "2026-09-13",
+          "source": "chat"
+        }
+      ],
+      "facts": {
+        "priceEur": 690000,
+        "areaHabitableM2": null,
+        "areaWalkableM2": null,
+        "areaCommercialM2": null,
+        "areaNotes": "255 m² dichiarati, senza ripartizione abitativa o commerciale nella chat.",
+        "gardenM2": null,
+        "landM2": null,
+        "parking": "Box e tre posti auto.",
+        "floors": 3,
+        "bedrooms": 3,
+        "bathrooms": 3,
+        "condition": null,
+        "energy": null,
+        "bus": "Linea 51 a Banne; distanza dalla casa da confermare.",
+        "highlights": [
+          "Villa indipendente.",
+          "Giardino e dolina privata.",
+          "Riscaldamento dichiarato: Autonomo, a radiatori, alimentato a gas"
+        ],
+        "limitations": [
+          "Metratura del giardino non dichiarata.",
+          "Classificazione della superficie interna non separata.",
+          "Percorso verso il bus da verificare."
+        ],
+        "description": "Villa indipendente a Banne con 255 m² dichiarati, giardino, dolina privata e box più tre posti auto. Le informazioni disponibili non quantifica il giardino e non documenta la distanza dalla linea 51."
+      },
+      "availability": {
+        "status": "unverified",
+        "checkedAt": null,
+        "reason": "Lettura pubblica indicizzata disponibile, ma accesso diretto bloccato o non sufficiente: disponibilità effettiva non verificata."
+      },
+      "model": {
+        "status": "in_review",
+        "path": null,
+        "views": [],
+        "notes": [
+          "Una tavola a bassa risoluzione ma leggibile mostra i tre livelli della villa e parte del sedime; watermark centrale senza copertura principale degli ambienti.",
+          "L'annuncio dichiara un box indipendente, subalterno 8/C6, che non è rappresentato nella tavola acquisita.",
+          "Serve la pianta/posizione documentata del box per una ricostruzione completa delle pertinenze; non inventarne il sedime.",
+          "Lo schema dei confini/giardino non autorizza a ricostruire la dolina priva di rilievo."
+        ]
+      },
+      "evidence": {
+        "listingReadAt": "2026-10-11T17:33:34.577816+02:00",
+        "sourceUpdatedAt": "09/09/2026",
+        "method": "public_reader_and_chat",
+        "note": "Lettura pubblica/indicizzata; da sola non conferma la disponibilità attuale."
+      }
+    },
+    {
+      "id": "basovizza-218",
+      "title": "Basovizza 218",
+      "locality": "Basovizza, Trieste",
+      "address": "Basovizza 218",
+      "sourceUrls": [
+        "https://www.casa.it/immobili/54714337/"
+      ],
+      "historicalPrices": [
+        {
+          "priceEur": 325000,
+          "date": "2026-09-13",
+          "source": "chat"
+        }
+      ],
+      "facts": {
+        "priceEur": 325000,
+        "areaHabitableM2": null,
+        "areaWalkableM2": null,
+        "areaCommercialM2": null,
+        "areaNotes": "120 m² indicati come superficie in pianta del fabbricato; ulteriori 90 m² di cantina. Superficie abitabile netta non documentata.",
+        "gardenM2": 600,
+        "landM2": null,
+        "parking": "Un posto auto.",
+        "floors": null,
+        "bedrooms": null,
+        "bathrooms": null,
+        "condition": "Da ristrutturare.",
+        "energy": null,
+        "bus": "Distanza dal bus da confermare.",
+        "highlights": [
+          "Casa indipendente.",
+          "Giardino di circa 600 m²."
+        ],
+        "limitations": [
+          "La superficie in pianta di 120 m² non equivale a 120 m² abitabili netti.",
+          "Bus non confermato."
+        ],
+        "description": "Casa indipendente da ristrutturare a Basovizza, con giardino di circa 600 m² e posto auto. I 120 m² sono descritti come superficie in pianta, oltre a 90 m² di cantina; il netto abitabile resta da accertare."
+      },
+      "availability": {
+        "status": "unverified",
+        "checkedAt": null,
+        "reason": "Letture pubbliche indicizzate e alias accessibili al lettore, ma HTTP diretto bloccato o insufficiente; disponibilità corrente non verificata."
+      },
+      "model": {
+        "status": "awaiting_plans",
+        "path": null,
+        "views": [],
+        "notes": [
+          "Ricostruzione da preparare: le parti documentate potranno essere pubblicate anche con volumi mancanti, esplicitamente elencati. Senza piante utilizzabili, fotografie sufficienti consentono una ricostruzione dei soli esterni.",
+          "Nessuna planimetria identificativa scaricabile è esposta nelle letture pubbliche acquisite; non ricostruire interni da sole foto o descrizioni."
+        ]
+      },
+      "evidence": {
+        "listingReadAt": "2026-10-11T17:33:34.788493+02:00",
+        "sourceUpdatedAt": null,
+        "method": "public_reader_and_chat",
+        "note": "Lettura pubblica/indicizzata; da sola non conferma la disponibilità attuale."
+      }
+    },
+    {
+      "id": "basovizza-563-1",
+      "title": "Basovizza 563/1",
+      "locality": "Basovizza, Trieste",
+      "address": "Basovizza 563/1",
+      "sourceUrls": [
+        "https://www.immobiliare.it/annunci/130524822/",
+        "https://operaimmobiliarets.it/immobili/basovizza-villetta-a-schiera-pari-primo-ingresso/"
+      ],
+      "historicalPrices": [
+        {
+          "priceEur": 595000,
+          "date": "2026-09-13",
+          "source": "chat"
+        }
+      ],
+      "facts": {
+        "priceEur": 595000,
+        "areaHabitableM2": null,
+        "areaWalkableM2": null,
+        "areaCommercialM2": null,
+        "areaNotes": "L’agenzia dichiara 152 m² più 60 m² di taverna/cantina; scheda sintetica150 m² e precedente superficie commerciale165 m². Non sono quote nette/abitabilità certificate. Il giardino è privato ma senza metratura dichiarata.",
+        "gardenM2": null,
+        "landM2": null,
+        "parking": "Tre posti auto nel testo; due nel dettaglio strutturato dell’agenzia: numero da confermare.",
+        "floors": "Due livelli principali più piano sotto strada/taverna.",
+        "bedrooms": 3,
+        "bathrooms": 4,
+        "condition": "Ottimo/ristrutturato, secondo l’agenzia.",
+        "energy": "A dichiarata dall’agenzia; sottoclasse e APE da confermare.",
+        "bus": "Distanza esatta dalla fermata da verificare.",
+        "highlights": [
+          "Villetta a schiera.",
+          "Giardino privato.",
+          "Riscaldamento dichiarato: Autonomo, a pavimento, alimentato a solare"
+        ],
+        "limitations": [
+          "Metratura del giardino non dichiarata.",
+          "Superficie della taverna e abitabilità non verificate.",
+          "Bus non confermato."
+        ],
+        "description": "Villetta a schiera a Basovizza 563/1, a €595.000, con152 m² dichiarati più 60 m² di taverna/cantina, due camere e uno studio, quattro bagni e giardino privato. Parcheggi, superficie del giardino e percorso al bus richiedono conferma."
+      },
+      "availability": {
+        "status": "available",
+        "checkedAt": "2026-10-11T23:04:38.992965+02:00",
+        "reason": "Annuncio dell’esatto immobile letto con HTTP200 sul sito pubblico dell’agenzia, con indirizzo/riferimento e prezzo corrispondenti."
+      },
+      "model": {
+        "status": "ready",
+        "path": "modelli/basovizza-563-1.html",
+        "views": [
+          {
+            "id": "exterior",
+            "label": "Esterno"
+          },
+          {
+            "id": "primo",
+            "label": "Primo piano"
+          },
+          {
+            "id": "terra",
+            "label": "Piano terra"
+          },
+          {
+            "id": "interrato",
+            "label": "Piano interrato"
+          }
+        ],
+        "notes": [
+          "Tre livelli, vani scala, bagni, studio e terrazze ricalcati dalle quattro tavole originali PDF dell’agenzia e confrontati con render ortografici reali.",
+          "Scala orizzontale assoluta stimata: nessuna quota metrica leggibile; ogni tavola usa una scala uniforme autonoma, con proporzioni e orientamento conservati.",
+          "Altezze leggibili: piano terra2,60m, interrato e stanze del primo piano2,50m, bagni/corridoio del primo piano2,40m, portico2,45m. Gradini, spessori e profili verticali del tetto sono stimati.",
+          "Due camere e uno studio seguono la pianta. Lo studio è arredato in modo minimale dedotto; il modello non verifica uso legale o conformità.",
+          "Giardino, posti auto e pergola sono rappresentati dalle piante e fotografie; pendenze, vegetazione e particolari nascosti restano orientativi. Le unità confinanti non sono ricostruite."
+        ],
+        "verifiedAt": "2026-10-12T19:49:12.361461+02:00",
+        "artifactSha256": "911c9c06fc7defdb6bb76bd297c7d1777cb9267de46fc8cdcc6d8f21e706b7bb",
+        "sourcePlans": [
+          {
+            "url": "https://operaimmobiliarets.it/wp-content/uploads/2026/06/IntestazionePlanimetriaBasovizza563.1.pdf#page=1",
+            "label": "Piano terra, portico e pertinenze"
+          },
+          {
+            "url": "https://operaimmobiliarets.it/wp-content/uploads/2026/06/IntestazionePlanimetriaBasovizza563.1.pdf#page=2",
+            "label": "Primo piano e terrazze"
+          },
+          {
+            "url": "https://operaimmobiliarets.it/wp-content/uploads/2026/06/IntestazionePlanimetriaBasovizza563.1.pdf#page=3",
+            "label": "Primo sottostrada, cantina/locale tecnico/WC-lavanderia"
+          },
+          {
+            "url": "https://operaimmobiliarets.it/wp-content/uploads/2026/06/IntestazionePlanimetriaBasovizza563.1.pdf#page=4",
+            "label": "Parcheggi scoperti"
+          }
+        ],
+        "unrenderedVolumes": [],
+        "coverage": "complete",
+        "preview": "assets/basovizza-563-1.jpg"
+      },
+      "evidence": {
+        "listingReadAt": "2026-10-11T23:04:38.992965+02:00",
+        "sourceUpdatedAt": null,
+        "method": "direct_http",
+        "note": "Annuncio identificativo verificato direttamente sul sito dell’agenzia; misure e dotazioni sono dichiarazioni delle fonti, con divergenze indicate nella scheda."
+      }
+    },
+    {
+      "id": "via-alberto-puschi",
+      "title": "Via Alberto Puschi",
+      "locality": "Trieste",
+      "address": "Via Alberto Puschi",
+      "sourceUrls": [
+        "https://www.immobiliare.it/annunci/127664806/"
+      ],
+      "historicalPrices": [
+        {
+          "priceEur": 400000,
+          "date": "2026-09-13",
+          "source": "chat"
+        }
+      ],
+      "facts": {
+        "priceEur": 400000,
+        "areaHabitableM2": 76,
+        "areaWalkableM2": null,
+        "areaCommercialM2": 200,
+        "areaNotes": "Solo 76 m² risultano chiaramente classificati come abitazione; ulteriori 77 m² sono soffitta/mansarda riscaldata. Totale commerciale 200 m².",
+        "gardenM2": 200,
+        "landM2": null,
+        "parking": "Box e un posto scoperto.",
+        "floors": 3,
+        "bedrooms": 2,
+        "bathrooms": 3,
+        "condition": null,
+        "energy": null,
+        "bus": "Via servita dalle linee 10 e 52; distanza pedonale dalla casa non documentata.",
+        "highlights": [
+          "Casa indipendente.",
+          "Mansarda/soffitta riscaldata.",
+          "Riscaldamento dichiarato: Autonomo, a radiatori, alimentato a metano"
+        ],
+        "limitations": [
+          "I soli 76 m² abitativi sono sotto soglia.",
+          "L'abitabilità urbanistica degli ulteriori 77 m² non è verificata.",
+          "Percorso verso il bus da confermare."
+        ],
+        "description": "Casa indipendente in Via Puschi con 76 m² di abitazione certa, altri 77 m² mansardati o di soffitta riscaldata, giardino di 200 m² e parcheggio. L'utilizzo abitativo della mansarda è il principale dato da chiarire."
+      },
+      "availability": {
+        "status": "unverified",
+        "checkedAt": null,
+        "reason": "Lettura pubblica indicizzata disponibile, ma accesso diretto bloccato o non sufficiente: disponibilità effettiva non verificata."
+      },
+      "model": {
+        "status": "in_review",
+        "path": null,
+        "views": [],
+        "notes": [
+          "Quattro immagini leggibili documentano sedime, terra, soffitta e seminterrato comprensivo del box.",
+          "La scala interna collega terra e soffitta; nel seminterrato non è disegnata una scala interna verso terra e la descrizione conferma accesso dal giardino. Non aggiungere un collegamento non rappresentato.",
+          "Il piano primo è denominato soffitta, non camera abitativa certificata; il dato dei 77 m² mansardati resta distinto dai 76 m² abitativi del terra.",
+          "Le piante sono schemi pubblicati senza quote planimetriche; scala assoluta da dichiarare stimata se non documentata da altre fonti.",
+          "Resta necessario il confronto fotografico."
+        ]
+      },
+      "evidence": {
+        "listingReadAt": "2026-10-11T17:33:35.147455+02:00",
+        "sourceUpdatedAt": "20/03/2026",
+        "method": "public_reader_and_chat",
+        "note": "Lettura pubblica/indicizzata; da sola non conferma la disponibilità attuale."
+      }
+    },
+    {
+      "id": "trebiciano-257",
+      "title": "Trebiciano 257",
+      "locality": "Trebiciano, Trieste",
+      "address": "Trebiciano 257",
+      "sourceUrls": [
+        "https://www.idealista.it/immobile/34141593/"
+      ],
+      "historicalPrices": [
+        {
+          "priceEur": 420000,
+          "date": "2026-09-13",
+          "source": "chat"
+        }
+      ],
+      "facts": {
+        "priceEur": 420000,
+        "areaHabitableM2": null,
+        "areaWalkableM2": null,
+        "areaCommercialM2": null,
+        "areaNotes": "275 m² dichiarati, senza separazione della superficie abitativa.",
+        "gardenM2": null,
+        "landM2": null,
+        "parking": "Box e un posto auto.",
+        "floors": null,
+        "bedrooms": null,
+        "bathrooms": null,
+        "condition": null,
+        "energy": null,
+        "bus": "Trebiciano servito da 39/ e 51; distanza precisa non verificata.",
+        "highlights": [
+          "Bifamiliare.",
+          "Parco privato.",
+          "Piscina coperta."
+        ],
+        "limitations": [
+          "Metratura del parco non dichiarata.",
+          "Classificazione della superficie interna non separata.",
+          "Distanza dal bus da confermare.",
+          "Prezzo discordante nella lettura indicizzata: €275. Conservato l’ultimo prezzo della chat in attesa di conferma diretta."
+        ],
+        "description": "Bifamiliare a Trebiciano con 275 m² dichiarati, parco privato, piscina coperta e parcheggio. Le informazioni disponibili non quantifica il parco e non documenta la superficie abitativa né il tragitto alla fermata."
+      },
+      "availability": {
+        "status": "unverified",
+        "checkedAt": null,
+        "reason": "Letture pubbliche indicizzate e alias accessibili al lettore, ma HTTP diretto bloccato o insufficiente; disponibilità corrente non verificata."
+      },
+      "model": {
+        "status": "awaiting_plans",
+        "path": null,
+        "views": [],
+        "notes": [
+          "Ricostruzione da preparare: le parti documentate potranno essere pubblicate anche con volumi mancanti, esplicitamente elencati. Senza piante utilizzabili, fotografie sufficienti consentono una ricostruzione dei soli esterni.",
+          "Nessuna planimetria identificativa scaricabile è esposta nelle letture pubbliche acquisite; non ricostruire interni da sole foto o descrizioni."
+        ]
+      },
+      "evidence": {
+        "listingReadAt": "2026-10-11T17:33:35.569357+02:00",
+        "sourceUpdatedAt": "27 luglio",
+        "method": "public_reader_and_chat",
+        "note": "Lettura pubblica/indicizzata; da sola non conferma la disponibilità attuale."
+      }
+    },
+    {
+      "id": "sant-antonio-in-bosco",
+      "title": "Bifamiliare a Sant'Antonio in Bosco",
+      "locality": "Sant'Antonio in Bosco",
+      "address": null,
+      "sourceUrls": [
+        "https://www.idealista.it/immobile/21818282/"
+      ],
+      "historicalPrices": [
+        {
+          "priceEur": 440000,
+          "date": "2026-09-13",
+          "source": "chat"
+        }
+      ],
+      "facts": {
+        "priceEur": 440000,
+        "areaHabitableM2": null,
+        "areaWalkableM2": null,
+        "areaCommercialM2": 200,
+        "areaNotes": "200 m² commerciali; circa 80 m² riferiti a giardino e portico insieme, non al solo giardino.",
+        "gardenM2": null,
+        "landM2": null,
+        "parking": "Parcheggio privato dichiarato per tre auto.",
+        "floors": null,
+        "bedrooms": null,
+        "bathrooms": null,
+        "condition": "Nuova costruzione.",
+        "energy": null,
+        "bus": "Annuncio descritto nella chat con 'ottimo servizio bus', senza distanza.",
+        "highlights": [
+          "Bifamiliare nuova.",
+          "Giardino e portico."
+        ],
+        "limitations": [
+          "Il solo giardino non è quantificato.",
+          "Superficie abitativa netta non separata.",
+          "Distanza dalla fermata non documentata.",
+          "Prezzo discordante nella lettura indicizzata: €200. Conservato l’ultimo prezzo della chat in attesa di conferma diretta."
+        ],
+        "description": "Bifamiliare nuova a Sant'Antonio in Bosco con 200 m² commerciali e parcheggio privato per tre auto. Giardino e portico sono indicati insieme per circa 80 m²; la distanza dal bus rimane da verificare."
+      },
+      "availability": {
+        "status": "unverified",
+        "checkedAt": null,
+        "reason": "Lettura pubblica indicizzata disponibile, ma accesso diretto bloccato o non sufficiente: disponibilità effettiva non verificata."
+      },
+      "model": {
+        "status": "awaiting_plans",
+        "path": null,
+        "views": [],
+        "notes": [
+          "Ricostruzione da preparare: le parti documentate potranno essere pubblicate anche con volumi mancanti, esplicitamente elencati. Senza piante utilizzabili, fotografie sufficienti consentono una ricostruzione dei soli esterni.",
+          "Nessuna planimetria identificativa scaricabile è esposta nelle letture pubbliche acquisite; non ricostruire interni da sole foto o descrizioni."
+        ]
+      },
+      "evidence": {
+        "listingReadAt": "2026-10-11T17:33:35.700407+02:00",
+        "sourceUpdatedAt": "21 febbraio",
+        "method": "public_reader_and_chat",
+        "note": "Lettura pubblica/indicizzata; da sola non conferma la disponibilità attuale."
+      }
+    },
+    {
+      "id": "via-di-noghere-68a",
+      "title": "Via di Noghere 68A",
+      "locality": "Muggia",
+      "address": "Via di Noghere 68A",
+      "sourceUrls": [
+        "https://www.idealista.it/immobile/34556724/"
+      ],
+      "historicalPrices": [
+        {
+          "priceEur": 560000,
+          "date": "2026-09-13",
+          "source": "chat"
+        }
+      ],
+      "facts": {
+        "priceEur": 560000,
+        "areaHabitableM2": null,
+        "areaWalkableM2": null,
+        "areaCommercialM2": 300,
+        "areaNotes": "300 m² commerciali; superficie abitativa netta non separata.",
+        "gardenM2": 250,
+        "landM2": null,
+        "parking": "Garage e un posto coperto.",
+        "floors": null,
+        "bedrooms": null,
+        "bathrooms": null,
+        "condition": null,
+        "energy": "Fotovoltaico; classe energetica non riportata.",
+        "bus": "Distanza dal bus da verificare.",
+        "highlights": [
+          "Bifamiliare.",
+          "Giardino di 250 m²."
+        ],
+        "limitations": [
+          "Superficie abitativa netta non documentata.",
+          "Bus non confermato.",
+          "Prezzo discordante nella lettura indicizzata: €300. Conservato l’ultimo prezzo della chat in attesa di conferma diretta."
+        ],
+        "description": "Bifamiliare in Via di Noghere con 300 m² commerciali, giardino di 250 m², garage e posto coperto. Sono segnalati fotovoltaico; superficie abitativa netta e collegamento al bus richiedono conferma."
+      },
+      "availability": {
+        "status": "unverified",
+        "checkedAt": null,
+        "reason": "Letture pubbliche indicizzate e alias accessibili al lettore, ma HTTP diretto bloccato o insufficiente; disponibilità corrente non verificata."
+      },
+      "model": {
+        "status": "awaiting_plans",
+        "path": null,
+        "views": [],
+        "notes": [
+          "Ricostruzione da preparare: le parti documentate potranno essere pubblicate anche con volumi mancanti, esplicitamente elencati. Senza piante utilizzabili, fotografie sufficienti consentono una ricostruzione dei soli esterni.",
+          "Nessuna planimetria identificativa scaricabile è esposta nelle letture pubbliche acquisite; non ricostruire interni da sole foto o descrizioni."
+        ]
+      },
+      "evidence": {
+        "listingReadAt": "2026-10-11T17:33:35.858047+02:00",
+        "sourceUpdatedAt": "22 giugno",
+        "method": "public_reader_and_chat",
+        "note": "Lettura pubblica/indicizzata; da sola non conferma la disponibilità attuale."
+      }
+    },
+    {
+      "id": "via-angelo-de-valentini-10",
+      "title": "Via Angelo De Valentini 10",
+      "locality": "Trieste",
+      "address": "Via Angelo De Valentini 10",
+      "sourceUrls": [
+        "https://www.immobiliare.it/annunci/132153436/"
+      ],
+      "historicalPrices": [
+        {
+          "priceEur": 490000,
+          "date": null,
+          "source": "chat"
+        },
+        {
+          "priceEur": 470000,
+          "date": "2026-09-13",
+          "source": "chat"
+        }
+      ],
+      "facts": {
+        "priceEur": 470000,
+        "areaHabitableM2": null,
+        "areaWalkableM2": null,
+        "areaCommercialM2": null,
+        "areaNotes": "150 m² dichiarati, senza classificazione della superficie; circa 150 m² di spazio esterno, non separati come giardino.",
+        "gardenM2": null,
+        "landM2": null,
+        "parking": "Posto auto assente allo stato descritto; si parla soltanto della possibilità di ricavarlo.",
+        "floors": 2,
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "condition": null,
+        "energy": null,
+        "bus": "Linee 11 e A lungo la via; distanza esatta non documentata.",
+        "highlights": [
+          "Casa accostata.",
+          "Ribasso da €490.000 a €470.000.",
+          "Spazio esterno di circa 150 m².",
+          "Riscaldamento dichiarato: Autonomo, a radiatori"
+        ],
+        "limitations": [
+          "Manca un posto auto realizzato.",
+          "Spazio esterno non distinto dalla superficie verde.",
+          "Superficie interna non classificata.",
+          "Distanza dalla fermata da confermare."
+        ],
+        "description": "Casa accostata in Via De Valentini con 150 m² dichiarati e circa 150 m² di spazio esterno, ribassata a €470.000. Non dispone del posto auto richiesto: l'annuncio descrive soltanto una possibilità di ricavarlo."
+      },
+      "availability": {
+        "status": "unverified",
+        "checkedAt": "2026-10-11T17:31:19.172336+02:00",
+        "reason": "La disponibilità attuale non è confermata: fonti bloccate, incomplete o non accessibili. La lettura indicizzata non equivale a verifica live."
+      },
+      "model": {
+        "status": "in_review",
+        "path": null,
+        "views": [],
+        "notes": [
+          "Acquisita una tavola leggibile con piano terra e primo piano. Mancano le piante del seminterrato/taverna e della soffitta con abbaini descritti nell’annuncio, oltre a deposito/cantina esterno e casetta attrezzi. La scheda del portale riporta due piani mentre il testo ne descrive quattro; parcheggio soltanto ricavabile."
+        ]
+      },
+      "evidence": {
+        "listingReadAt": "2026-10-11T17:32:00.181694+02:00",
+        "sourceUpdatedAt": "03/09/2026",
+        "method": "public_reader_and_chat",
+        "note": "Lettura pubblica/indicizzata; da sola non conferma la disponibilità attuale."
+      }
+    },
+    {
+      "id": "via-della-stazione-7",
+      "title": "Via della Stazione 7",
+      "locality": "Muggia",
+      "address": "Via della Stazione 7",
+      "sourceUrls": [
+        "https://www.immobiliare.it/annunci/130487174/"
+      ],
+      "historicalPrices": [
+        {
+          "priceEur": 290000,
+          "date": "2026-09-20",
+          "source": "chat"
+        }
+      ],
+      "facts": {
+        "priceEur": 290000,
+        "areaHabitableM2": 182,
+        "areaWalkableM2": null,
+        "areaCommercialM2": null,
+        "areaNotes": "Abitazione: 130 m² al piano terra + 52 m² al primo piano. Ulteriori 52 m² di mansarda e 40 m² di cantina non inclusi nei 182 m² abitativi.",
+        "gardenM2": 650,
+        "landM2": null,
+        "parking": "Box da 40 m² e spazio per due auto.",
+        "floors": 3,
+        "bedrooms": 4,
+        "bathrooms": 3,
+        "condition": "Abitabile secondo la chat.",
+        "energy": null,
+        "bus": "Percorrenza pedonale verso il bus non documentata.",
+        "highlights": [
+          "Villa unifamiliare.",
+          "Due ingressi indipendenti.",
+          "Riscaldamento dichiarato: Autonomo, a radiatori, alimentato a gpl"
+        ],
+        "limitations": [
+          "Bus da confermare.",
+          "La mansarda e la cantina sono distinte dall'abitazione documentata."
+        ],
+        "description": "Villa unifamiliare in Via della Stazione con 182 m² abitativi, oltre a mansarda e cantina, giardino di 650 m² e box più spazio per due auto. Dispone di due ingressi; il percorso verso il bus resta da verificare."
+      },
+      "availability": {
+        "status": "unverified",
+        "checkedAt": "2026-10-11T17:31:19.166842+02:00",
+        "reason": "La disponibilità attuale non è confermata: fonti bloccate, incomplete o non accessibili. La lettura indicizzata non equivale a verifica live."
+      },
+      "model": {
+        "status": "awaiting_plans",
+        "path": null,
+        "views": [],
+        "notes": [
+          "Ricostruzione da preparare: le parti documentate potranno essere pubblicate anche con volumi mancanti, esplicitamente elencati. Senza piante utilizzabili, fotografie sufficienti consentono una ricostruzione dei soli esterni.",
+          "La fonte acquisita non espone piante identificative complete e scaricabili, o non è leggibile con gli accessi disponibili. Servono piante dello stato attuale dei tre livelli (terra, primo e mansarda) e del box/deposito di circa40m²."
+        ]
+      },
+      "evidence": {
+        "listingReadAt": "2026-10-11T17:32:00.749590+02:00",
+        "sourceUpdatedAt": "24/09/2026",
+        "method": "public_reader_and_chat",
+        "note": "Lettura pubblica/indicizzata; da sola non conferma la disponibilità attuale."
+      }
+    },
+    {
+      "id": "via-umberto-felluga-11",
+      "title": "Via Umberto Felluga 11",
+      "locality": "Muggia",
+      "address": "Via Umberto Felluga 11",
+      "sourceUrls": [
+        "https://www.casa.it/immobili/54502132/",
+        "https://www.idealista.it/immobile/36373089/"
+      ],
+      "historicalPrices": [
+        {
+          "priceEur": 260000,
+          "date": "2026-09-20",
+          "source": "chat"
+        }
+      ],
+      "facts": {
+        "priceEur": 260000,
+        "areaHabitableM2": null,
+        "areaWalkableM2": null,
+        "areaCommercialM2": 180,
+        "areaNotes": "Superficie calpestabile riportata come intervallo 145–150 m²; il campo numerico non sceglie un valore arbitrario. 180 m² commerciali.",
+        "gardenM2": 400,
+        "landM2": null,
+        "parking": "Due posti auto.",
+        "floors": null,
+        "bedrooms": null,
+        "bathrooms": null,
+        "condition": "Da ristrutturare integralmente.",
+        "energy": null,
+        "bus": "Stima di 5–8 minuti a piedi derivata dalla vicinanza a Salita Ubaldini; percorso civico-fermata non verificato.",
+        "highlights": [
+          "Villa completamente indipendente.",
+          "L'inserzionista stimava €180.000–200.000 per i lavori."
+        ],
+        "limitations": [
+          "Lavori stimati dall'inserzionista, non preventivo verificato.",
+          "Acquisto più lavori stimati €440.000–460.000, prima di imposte, imprevisti e altre spese.",
+          "Bus stimato e da confermare."
+        ],
+        "description": "Villa indipendente da ristrutturare in Via Felluga con 145–150 m² calpestabili, giardino di 400 m² e due posti auto. La stima dei lavori è dell'inserzionista; il tragitto a piedi verso il bus richiede conferma."
+      },
+      "availability": {
+        "status": "unverified",
+        "checkedAt": "2026-10-11T17:31:19.790604+02:00",
+        "reason": "La disponibilità attuale non è confermata: fonti bloccate, incomplete o non accessibili. La lettura indicizzata non equivale a verifica live."
+      },
+      "model": {
+        "status": "awaiting_plans",
+        "path": null,
+        "views": [],
+        "notes": [
+          "Ricostruzione da preparare: le parti documentate potranno essere pubblicate anche con volumi mancanti, esplicitamente elencati. Senza piante utilizzabili, fotografie sufficienti consentono una ricostruzione dei soli esterni.",
+          "La fonte acquisita non espone piante identificative complete e scaricabili, o non è leggibile con gli accessi disponibili. Servono piante dello stato attuale del piano abitativo, piano terra/taverna e cantine; distinguere dall’ipotesi di ridistribuzione pubblicizzata."
+        ]
+      },
+      "evidence": {
+        "listingReadAt": "2026-10-11T17:32:01.519187+02:00",
+        "sourceUpdatedAt": null,
+        "method": "public_reader_and_chat",
+        "note": "Lettura pubblica/indicizzata; da sola non conferma la disponibilità attuale."
+      }
+    },
+    {
+      "id": "via-monte-d-oro",
+      "title": "Bifamiliare in Via Monte D'Oro",
+      "locality": "Muggia",
+      "address": "Via Monte D'Oro",
+      "sourceUrls": [
+        "https://www.immobiliare.it/annunci/125386231/"
+      ],
+      "historicalPrices": [
+        {
+          "priceEur": 430000,
+          "date": "2026-09-20",
+          "source": "chat"
+        }
+      ],
+      "facts": {
+        "priceEur": 430000,
+        "areaHabitableM2": 150,
+        "areaWalkableM2": null,
+        "areaCommercialM2": 168,
+        "areaNotes": "Due appartamenti da circa 75 m² ciascuno, circa 150 m² abitativi; 168 m² complessivi indicati come commerciali nella tabella della chat.",
+        "gardenM2": 300,
+        "landM2": null,
+        "parking": "Box singolo, posto scoperto e accesso carrabile.",
+        "floors": 2,
+        "bedrooms": 4,
+        "bathrooms": 2,
+        "condition": "Ristrutturata nel 2000 secondo la chat.",
+        "energy": null,
+        "bus": "Posizione precisa oscurata; distanza dal bus non verificata.",
+        "highlights": [
+          "Bifamiliare già divisa in due appartamenti indipendenti.",
+          "Riscaldamento dichiarato: Autonomo, a radiatori, alimentato a metano"
+        ],
+        "limitations": [
+          "Civico oscurato.",
+          "Bus non confermato."
+        ],
+        "description": "Bifamiliare in Via Monte D'Oro con due appartamenti da circa 75 m², giardino di 300 m², box e posto scoperto. È indicata come ristrutturata nel 2000; il collegamento al bus dipende dalla posizione esatta."
+      },
+      "availability": {
+        "status": "unverified",
+        "checkedAt": "2026-10-11T17:31:19.463507+02:00",
+        "reason": "La disponibilità attuale non è confermata: fonti bloccate, incomplete o non accessibili. La lettura indicizzata non equivale a verifica live."
+      },
+      "model": {
+        "status": "in_review",
+        "path": null,
+        "views": [],
+        "notes": [
+          "Acquisite le piante dei due appartamenti. Non sono presenti nelle tavole acquisite il box singolo e le due cantine descritti nella proprietà; servono posizione e distribuzione di questi volumi."
+        ]
+      },
+      "evidence": {
+        "listingReadAt": "2026-10-11T17:32:02.103767+02:00",
+        "sourceUpdatedAt": "03/07/2026",
+        "method": "public_reader_and_chat",
+        "note": "Lettura pubblica/indicizzata; da sola non conferma la disponibilità attuale."
+      }
+    },
+    {
+      "id": "via-dei-cardi-19",
+      "title": "Via dei Cardi 19",
+      "locality": "Opicina, Trieste",
+      "address": "Via dei Cardi 19",
+      "sourceUrls": [
+        "https://www.immobiliare.it/annunci/123914023/"
+      ],
+      "historicalPrices": [
+        {
+          "priceEur": 600000,
+          "date": "2026-09-20",
+          "source": "chat"
+        }
+      ],
+      "facts": {
+        "priceEur": 600000,
+        "areaHabitableM2": 200,
+        "areaWalkableM2": null,
+        "areaCommercialM2": 248,
+        "areaNotes": "Quattro livelli da 50 m² classificati come abitazione nella fonte descritta dalla chat; 248 m² commerciali.",
+        "gardenM2": 230,
+        "landM2": null,
+        "parking": "Garage da 50 m² e un ulteriore posto auto.",
+        "floors": 4,
+        "bedrooms": 3,
+        "bathrooms": "3+",
+        "condition": "Ottimo stato.",
+        "energy": null,
+        "bus": "Casa dichiarata a 500 m a piedi dal centro di Opicina; distanza effettiva civico-fermata da confermare.",
+        "highlights": [
+          "Villetta a schiera.",
+          "Garage ampio.",
+          "Riscaldamento dichiarato: Autonomo"
+        ],
+        "limitations": [
+          "La distanza dal centro non sostituisce un percorso verificato alla fermata."
+        ],
+        "description": "Villetta a schiera in Via dei Cardi con 200 m² abitativi su quattro livelli, giardino di 230 m² e garage di 50 m² più posto auto. È indicata in ottimo stato; resta da verificare il percorso preciso verso la fermata."
+      },
+      "availability": {
+        "status": "unverified",
+        "checkedAt": "2026-10-11T17:31:19.759937+02:00",
+        "reason": "La disponibilità attuale non è confermata: fonti bloccate, incomplete o non accessibili. La lettura indicizzata non equivale a verifica live."
+      },
+      "model": {
+        "status": "ready",
+        "path": "modelli/via-dei-cardi-19.html",
+        "views": [
+          {
+            "id": "exterior",
+            "label": "Esterno"
+          },
+          {
+            "id": "soffitta",
+            "label": "Soffitta"
+          },
+          {
+            "id": "primo",
+            "label": "Primo piano"
+          },
+          {
+            "id": "terra",
+            "label": "Piano terra"
+          },
+          {
+            "id": "interrato",
+            "label": "Piano interrato (box omesso)"
+          }
+        ],
+        "notes": [
+          "Modello dei quattro piani documentati, con la scala e le aperture delle tavole. Il box dichiarato da 50 m² e la porzione adiacente SUB.1 non sono renderizzati.",
+          "Ogni raster usa una scala uniforme e mantiene orientamento e proporzioni. Le quote orizzontali assolute e la registrazione tra tavole sono stime: nessun rilievo metrico o percentuale di precisione è dichiarato.",
+          "Altezze principali nelle tavole: 2,20 m al piano interrato, 2,55 m a terra/primo e 2,00 m indicativi in soffitta. Alzate, solai, falda, ingombri degli arredi e fixture non fotografate sono stime coerenti.",
+          "La soffitta è mostrata con l’uso fotografato, senza attribuirle una destinazione legale di camera. Contorno utile più stretto conservato senza deformare un asse.",
+          "Materiali e mobilio ricavati dalle 14 fotografie della fonte privata. Disponibilità commerciale corrente del portale non confermata (HTTP 403)."
+        ],
+        "verifiedAt": "2026-10-12T20:06:24.904224+02:00",
+        "artifactSha256": "3174dce9cab4d08842feacf57cd4929c58e39539f013e9c5866ace072b83c4d6",
+        "sourcePlans": [
+          {
+            "url": "https://pic.im-cdn.it/plan/117726267/xxl.jpg",
+            "label": "Piano interrato, H2.20m"
+          },
+          {
+            "url": "https://pic.im-cdn.it/plan/117726305/xxl.jpg",
+            "label": "Piano terra, H2.55m"
+          },
+          {
+            "url": "https://pic.im-cdn.it/plan/117726311/xxl.jpg",
+            "label": "Primo piano, H2.55m"
+          },
+          {
+            "url": "https://pic.im-cdn.it/plan/117726317/xxl.jpg",
+            "label": "Soffitta, H2.00m"
+          }
+        ],
+        "unrenderedVolumes": [
+          "Box auto dichiarato50m²: Pianta del garage non identificata. AreaSUB.1 adiacente non attribuita al box venduto.",
+          "Porzione di riferimento PROPRIETÀ PRO-TEMPORE SUB.1: Area adiacente nella tavola interrato, senza destinazione o attribuzione al lotto venduto; interamente omessa."
+        ],
+        "coverage": "partial",
+        "preview": "assets/via-dei-cardi-19.jpg"
+      },
+      "evidence": {
+        "listingReadAt": "2026-10-11T17:32:02.962399+02:00",
+        "sourceUpdatedAt": "16/04/2026",
+        "method": "public_reader_and_chat",
+        "note": "Lettura pubblica/indicizzata; da sola non conferma la disponibilità attuale."
+      }
+    },
+    {
+      "id": "salita-ubaldini-41",
+      "title": "Salita Giampaolo Ubaldini 41",
+      "locality": "Muggia",
+      "address": "Salita Giampaolo Ubaldini 41",
+      "sourceUrls": [
+        "https://www.idealista.it/immobile/32033475/"
+      ],
+      "historicalPrices": [
+        {
+          "priceEur": 590000,
+          "date": "2026-09-20",
+          "source": "chat"
+        }
+      ],
+      "facts": {
+        "priceEur": 590000,
+        "areaHabitableM2": null,
+        "areaWalkableM2": null,
+        "areaCommercialM2": 167,
+        "areaNotes": "167 m² commerciali; locali descritti tra taverna, piano terra e mansarda, senza superficie abitativa netta separata.",
+        "gardenM2": null,
+        "landM2": 3333,
+        "parking": "Box compreso.",
+        "floors": null,
+        "bedrooms": null,
+        "bathrooms": null,
+        "condition": null,
+        "energy": null,
+        "bus": "Fermate lungo Salita Ubaldini riportate a 4, 5 e 7 minuti a piedi; linee tra cui 7, 20, 27, 31 e 32.",
+        "highlights": [
+          "Villa singola.",
+          "Vista mare.",
+          "Appezzamento di 3.333 m²."
+        ],
+        "limitations": [
+          "Superficie abitativa netta non documentata.",
+          "La chat non separa il solo giardino dall'appezzamento.",
+          "Le distanze bus descrivono fermate lungo la via, senza evidenza live del percorso dal civico."
+        ],
+        "description": "Villa singola in Salita Ubaldini con 167 m² commerciali, appezzamento di 3.333 m², box e vista mare. La metratura abitativa è da chiarire; le fermate lungo la via sono segnalate a quattro–sette minuti a piedi."
+      },
+      "availability": {
+        "status": "unverified",
+        "checkedAt": "2026-10-11T17:31:20.056099+02:00",
+        "reason": "La disponibilità attuale non è confermata: fonti bloccate, incomplete o non accessibili. La lettura indicizzata non equivale a verifica live."
+      },
+      "model": {
+        "status": "awaiting_plans",
+        "path": null,
+        "views": [],
+        "notes": [
+          "Ricostruzione da preparare: le parti documentate potranno essere pubblicate anche con volumi mancanti, esplicitamente elencati. Senza piante utilizzabili, fotografie sufficienti consentono una ricostruzione dei soli esterni.",
+          "La fonte acquisita non espone piante identificative complete e scaricabili, o non è leggibile con gli accessi disponibili. Servono tutte le piante dello stato attuale, compresi piani accessori, scale e corpi separati descritti nell’annuncio."
+        ]
+      },
+      "evidence": {
+        "listingReadAt": "2026-10-11T17:32:03.535769+02:00",
+        "sourceUpdatedAt": null,
+        "method": "chat",
+        "note": "Lettura pubblica/indicizzata; da sola non conferma la disponibilità attuale."
+      }
+    },
+    {
+      "id": "via-delle-campanelle",
+      "title": "Casa in Via delle Campanelle",
+      "locality": "Trieste",
+      "address": "Via delle Campanelle",
+      "sourceUrls": [
+        "https://www.immobiliare.it/annunci/128497806/"
+      ],
+      "historicalPrices": [
+        {
+          "priceEur": 295000,
+          "date": "2026-09-20",
+          "source": "chat"
+        }
+      ],
+      "facts": {
+        "priceEur": 295000,
+        "areaHabitableM2": null,
+        "areaWalkableM2": null,
+        "areaCommercialM2": null,
+        "areaNotes": "159–160 m² dichiarati, senza distinzione netta tra superficie abitativa e commerciale.",
+        "gardenM2": 200,
+        "landM2": null,
+        "parking": "Un posto auto e accesso carrabile.",
+        "floors": 2,
+        "bedrooms": 6,
+        "bathrooms": 1,
+        "condition": "Da ristrutturare.",
+        "energy": null,
+        "bus": "Fermate lungo Via delle Campanelle a 1, 2 e 6 minuti, linee 33, C, 37 e 48; civico non visibile, distanza specifica non verificata.",
+        "highlights": [
+          "Casa unifamiliare.",
+          "Giardino di circa 200 m².",
+          "Riscaldamento dichiarato: Autonomo, a radiatori, alimentato a metano"
+        ],
+        "limitations": [
+          "Superficie interna non classificata.",
+          "Civico oscurato.",
+          "Distanze bus riferite alla via, non all'ingresso della casa."
+        ],
+        "description": "Casa unifamiliare da ristrutturare in Via delle Campanelle con 159–160 m² dichiarati, giardino di circa 200 m² e posto auto. La posizione esatta e la superficie abitativa netta devono essere confermate."
+      },
+      "availability": {
+        "status": "unverified",
+        "checkedAt": "2026-10-11T17:31:20.080472+02:00",
+        "reason": "La disponibilità attuale non è confermata: fonti bloccate, incomplete o non accessibili. La lettura indicizzata non equivale a verifica live."
+      },
+      "model": {
+        "status": "awaiting_plans",
+        "path": null,
+        "views": [],
+        "notes": [
+          "Ricostruzione da preparare: le parti documentate potranno essere pubblicate anche con volumi mancanti, esplicitamente elencati. Senza piante utilizzabili, fotografie sufficienti consentono una ricostruzione dei soli esterni.",
+          "La fonte acquisita non espone piante identificative complete e scaricabili, o non è leggibile con gli accessi disponibili. Servono piante leggibili di entrambi i livelli della casa da ristrutturare."
+        ]
+      },
+      "evidence": {
+        "listingReadAt": "2026-10-11T17:32:31.645809+02:00",
+        "sourceUpdatedAt": "28/09/2026",
+        "method": "public_reader_and_chat",
+        "note": "Lettura pubblica/indicizzata; da sola non conferma la disponibilità attuale."
+      }
+    },
+    {
+      "id": "via-giorgio-ventura-3",
+      "title": "Via Giorgio Ventura 3",
+      "locality": "Trieste",
+      "address": "Via Giorgio Ventura 3",
+      "sourceUrls": [
+        "https://www.immobiliare.it/annunci/130844274/"
+      ],
+      "historicalPrices": [
+        {
+          "priceEur": 440000,
+          "date": "2026-09-27",
+          "source": "chat"
+        }
+      ],
+      "facts": {
+        "priceEur": 440000,
+        "areaHabitableM2": 162,
+        "areaWalkableM2": null,
+        "areaCommercialM2": null,
+        "areaNotes": "162 m² classificati come abitazione.",
+        "gardenM2": 510,
+        "landM2": null,
+        "parking": "Due posti auto.",
+        "floors": null,
+        "bedrooms": null,
+        "bathrooms": null,
+        "condition": "Ristrutturata, in ottime condizioni.",
+        "energy": null,
+        "bus": "Via servita da 33, 34 e C; distanza pedonale dal civico 3 non documentata.",
+        "highlights": [
+          "Villetta accostata di testa.",
+          "Zona Costalunga."
+        ],
+        "limitations": [
+          "Non più disponibile secondo dichiarazione dell'utente del 29 settembre 2026.",
+          "Distanza esatta dalla fermata non confermata."
+        ],
+        "description": "Villetta di testa a Costalunga con 162 m² di abitazione, giardino di 510 m² e due posti auto, descritta come ristrutturata. L'utente l'ha indicata non più disponibile il 29 settembre 2026."
+      },
+      "availability": {
+        "status": "unavailable",
+        "checkedAt": "2026-10-11T17:31:20.348169+02:00",
+        "reason": "Non più disponibile secondo la segnalazione dell’utente del 2026-09-29. Gli accessi bloccati non costituiscono una nuova conferma."
+      },
+      "model": {
+        "status": "not_required",
+        "path": null,
+        "views": [],
+        "notes": [
+          "Scheda storica conservata; nessun nuovo modello viene costruito per un immobile non più disponibile."
+        ]
+      },
+      "evidence": {
+        "listingReadAt": "2026-10-11T17:32:32.136231+02:00",
+        "sourceUpdatedAt": null,
+        "method": "chat",
+        "note": "Lettura pubblica/indicizzata; da sola non conferma la disponibilità attuale."
+      }
+    },
+    {
+      "id": "aurisina",
+      "title": "Villa ad Aurisina",
+      "locality": "Aurisina, Duino Aurisina",
+      "address": null,
+      "sourceUrls": [
+        "https://www.immobiliare.it/annunci/131488992/"
+      ],
+      "historicalPrices": [
+        {
+          "priceEur": 400000,
+          "date": "2026-09-27",
+          "source": "chat"
+        }
+      ],
+      "facts": {
+        "priceEur": 400000,
+        "areaHabitableM2": 295,
+        "areaWalkableM2": null,
+        "areaCommercialM2": null,
+        "areaNotes": "295 m² classificati come abitazione, secondo il dettaglio della fonte descritto dalla chat.",
+        "gardenM2": 900,
+        "landM2": null,
+        "parking": "Box e quattro posti nelle caratteristiche; accesso carrabile e possibilità descritta di ospitare 6–8 vetture in giardino.",
+        "floors": 2,
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "condition": null,
+        "energy": null,
+        "bus": "Linee 43 e 44 ad Aurisina; immobile dichiarato a pochi passi dalla piazza, posizione precisa oscurata.",
+        "highlights": [
+          "Giardino con accesso carrabile.",
+          "Spazi abitativi ampi.",
+          "Riscaldamento dichiarato: Autonomo, a radiatori, alimentato a gasolio"
+        ],
+        "limitations": [
+          "Posizione esatta oscurata.",
+          "Percorso civico-fermata non documentato.",
+          "Capienza di 6–8 auto descritta come possibilità e diversa dai quattro posti formalmente elencati."
+        ],
+        "description": "Villa ad Aurisina con 295 m² di abitazione, giardino di 900 m², box e posti auto. È segnalata vicina alla piazza; il percorso preciso verso le linee 43 e 44 non è documentato."
+      },
+      "availability": {
+        "status": "unverified",
+        "checkedAt": "2026-10-11T17:31:20.372248+02:00",
+        "reason": "La disponibilità attuale non è confermata: fonti bloccate, incomplete o non accessibili. La lettura indicizzata non equivale a verifica live."
+      },
+      "model": {
+        "status": "ready",
+        "path": "modelli/aurisina.html",
+        "views": [
+          {
+            "id": "exterior",
+            "label": "Esterno"
+          },
+          {
+            "id": "first",
+            "label": "Primo piano"
+          },
+          {
+            "id": "attic",
+            "label": "Soffitta"
+          },
+          {
+            "id": "mezz",
+            "label": "Bagno ammezzato e disimpegno"
+          },
+          {
+            "id": "ground",
+            "label": "Piano terra"
+          },
+          {
+            "id": "garage",
+            "label": "Autorimessa"
+          },
+          {
+            "id": "cellar",
+            "label": "Cantina"
+          }
+        ],
+        "notes": [
+          "Contorni, muri, aperture e vani scala ricalcati dalle tre tavole originali; sei livelli confrontati con proiezioni ortografiche della geometria effettiva e sette viste navigabili.",
+          "Piante non quotate: scala assoluta orizzontale stimata0.04m per pixel, uniforme e senza specchiatura o deformazione degli assi. La superficie commerciale non calibra il modello.",
+          "Quote verticali, pacchetti dei solai, dislivello garage0.40m e raccordi del ripostiglio/cantina sono dedotti o stimati. Si conservano i passaggi disegnati; la U dei servizi arriva al bagno sul pianerottolo OVEST e a DIS/soffitta a EST.",
+          "Altezze libere stampate2.80m principale,2.25m garage/ripostiglio,2.22m cantina e1.75/1.80/2.65m soffitta. Lavanderia: adottata lettura2.65m, cifra centrale poco nitida.",
+          "La foto dell’ala autorimessa mostra una finestra in più rispetto alla pianta soffitta: mantenuta la planimetria pubblicata. Tavole storiche e foto non certificano lo stato catastale attuale.",
+          "Destinazione SOFFITTA conservata, senza affermare abitabilità. Arredi e materiali osservati nelle foto; sanitari e stanze non fotografate sono stime minime. Terreno e confini non sono un rilievo.",
+          "HTML autonomo verificato offline in Chromium desktop/mobile emulato; nessun test su dispositivo fisico."
+        ],
+        "verifiedAt": "2026-10-12T19:57:15+02:00",
+        "artifactSha256": "f0fd039a9ffa7a3af5bfacdec647f0e900e7eb97622d23bff46e64761e885c97",
+        "sourcePlans": [
+          {
+            "url": "https://pic.im-cdn.it/plan/132063894/xxl.jpg",
+            "label": "Piano terra e cantina"
+          },
+          {
+            "url": "https://pic.im-cdn.it/plan/132063896/xxl.jpg",
+            "label": "Primo piano, bagno ammezzato, disimpegno e soffitta"
+          },
+          {
+            "url": "https://pic.im-cdn.it/plan/132063898/xxl.jpg",
+            "label": "Autorimessa"
+          }
+        ],
+        "unrenderedVolumes": [],
+        "coverage": "complete",
+        "preview": "assets/aurisina.jpg"
+      },
+      "evidence": {
+        "listingReadAt": "2026-10-11T17:32:32.743779+02:00",
+        "sourceUpdatedAt": "02/08/2026",
+        "method": "public_reader_and_chat",
+        "note": "Lettura pubblica/indicizzata; da sola non conferma la disponibilità attuale."
+      }
+    },
+    {
+      "id": "via-del-collio-9",
+      "title": "Via del Collio 9",
+      "locality": "Trieste",
+      "address": "Via del Collio 9",
+      "sourceUrls": [
+        "https://www.engelvoelkers.com/it/it/exposes/8d2c10d7-05f3-5f14-8073-a5bf0707f5dd"
+      ],
+      "historicalPrices": [
+        {
+          "priceEur": 410000,
+          "date": "2026-09-27",
+          "source": "chat"
+        }
+      ],
+      "facts": {
+        "priceEur": 410000,
+        "areaHabitableM2": 180,
+        "areaWalkableM2": null,
+        "areaCommercialM2": null,
+        "areaNotes": "Circa 180 m² abitabili e circa 200 m² complessivi, senza classificazione commerciale esplicita.",
+        "gardenM2": null,
+        "landM2": 700,
+        "parking": "Area privata per due automobili.",
+        "floors": null,
+        "bedrooms": null,
+        "bathrooms": null,
+        "condition": null,
+        "energy": null,
+        "bus": "Fermata entro 10 minuti non documentata dalla chat.",
+        "highlights": [
+          "Casa completamente indipendente.",
+          "Terreno di circa 700 m²."
+        ],
+        "limitations": [
+          "Metratura del giardino non separata dal terreno.",
+          "Bus da confermare."
+        ],
+        "description": "Casa indipendente in Via del Collio con circa 180 m² abitabili, terreno di circa 700 m² e area privata per due auto. Il collegamento a piedi con una fermata entro dieci minuti resta da verificare."
+      },
+      "availability": {
+        "status": "unverified",
+        "checkedAt": "2026-10-11T17:31:20.678859+02:00",
+        "reason": "La disponibilità attuale non è confermata: fonti bloccate, incomplete o non accessibili. La lettura indicizzata non equivale a verifica live."
+      },
+      "model": {
+        "status": "awaiting_plans",
+        "path": null,
+        "views": [],
+        "notes": [
+          "Ricostruzione da preparare: le parti documentate potranno essere pubblicate anche con volumi mancanti, esplicitamente elencati. Senza piante utilizzabili, fotografie sufficienti consentono una ricostruzione dei soli esterni.",
+          "La fonte acquisita non espone piante identificative complete e scaricabili, o non è leggibile con gli accessi disponibili. Servono piante di terra, primo e mansarda con accesso esterno; non inventare il collegamento interno solo proposto nel testo."
+        ]
+      },
+      "evidence": {
+        "listingReadAt": "2026-10-11T17:32:33.431636+02:00",
+        "sourceUpdatedAt": null,
+        "method": "public_reader_and_chat",
+        "note": "Lettura pubblica/indicizzata; da sola non conferma la disponibilità attuale."
+      }
+    },
+    {
+      "id": "malchina-villa-nuova",
+      "title": "Villa nuova a Malchina",
+      "locality": "Malchina, Duino Aurisina",
+      "address": null,
+      "sourceUrls": [
+        "https://www.casa.it/immobili/54596038/"
+      ],
+      "historicalPrices": [
+        {
+          "priceEur": 550000,
+          "date": "2026-09-27",
+          "source": "chat"
+        }
+      ],
+      "facts": {
+        "priceEur": 550000,
+        "areaHabitableM2": 170,
+        "areaWalkableM2": null,
+        "areaCommercialM2": null,
+        "areaNotes": "170 m² abitativi su due livelli da circa 85 m² ciascuno.",
+        "gardenM2": 300,
+        "landM2": null,
+        "parking": "Un posto auto.",
+        "floors": 2,
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "condition": "Nuova costruzione.",
+        "energy": "Classe A+ prevista e fotovoltaico con accumulo.",
+        "bus": "Linea 43 a Malchina; distanza precisa dalla casa alla fermata da confermare.",
+        "highlights": [
+          "Villa singola nuova."
+        ],
+        "limitations": [
+          "Indirizzo esatto non disponibile nella chat.",
+          "Classe energetica prevista, non trattata come certificazione verificata.",
+          "Percorso alla fermata da confermare."
+        ],
+        "description": "Villa singola nuova a Malchina con 170 m² abitativi su due livelli, tre camere, due bagni e giardino di 300 m². Sono indicati posto auto, fotovoltaico con accumulo e classe A+ prevista."
+      },
+      "availability": {
+        "status": "unverified",
+        "checkedAt": "2026-10-11T17:31:20.705985+02:00",
+        "reason": "La disponibilità attuale non è confermata: fonti bloccate, incomplete o non accessibili. La lettura indicizzata non equivale a verifica live."
+      },
+      "model": {
+        "status": "awaiting_plans",
+        "path": null,
+        "views": [],
+        "notes": [
+          "Ricostruzione da preparare: le parti documentate potranno essere pubblicate anche con volumi mancanti, esplicitamente elencati. Senza piante utilizzabili, fotografie sufficienti consentono una ricostruzione dei soli esterni.",
+          "La fonte acquisita non espone piante identificative complete e scaricabili, o non è leggibile con gli accessi disponibili. Servono piante complete del progetto identificato dei due livelli e del lotto; le finiture e la classeA+ sono previste, non stato attuale verificato."
+        ]
+      },
+      "evidence": {
+        "listingReadAt": "2026-10-11T17:32:34.168322+02:00",
+        "sourceUpdatedAt": null,
+        "method": "public_reader_and_chat",
+        "note": "Lettura pubblica/indicizzata; da sola non conferma la disponibilità attuale."
+      }
+    },
+    {
+      "id": "duino-72-h",
+      "title": "Frazione Duino 72 H",
+      "locality": "Duino, Duino Aurisina",
+      "address": "Frazione Duino 72 H",
+      "sourceUrls": [
+        "https://www.casa.it/immobili/54211573/"
+      ],
+      "historicalPrices": [
+        {
+          "priceEur": 685000,
+          "date": "2026-09-27",
+          "source": "chat"
+        }
+      ],
+      "facts": {
+        "priceEur": 685000,
+        "areaHabitableM2": 220,
+        "areaWalkableM2": null,
+        "areaCommercialM2": null,
+        "areaNotes": "Circa 220 m² descritti come villa abitabile; 265 m² complessivi senza classificazione commerciale esplicita.",
+        "gardenM2": 480,
+        "landM2": null,
+        "parking": "Posto auto coperto e possibilità di posti esterni.",
+        "floors": 4,
+        "bedrooms": null,
+        "bathrooms": null,
+        "condition": "Recentemente ristrutturata.",
+        "energy": "Classe A3 secondo la chat.",
+        "bus": "Fermate 43, 44, G21 e G51 riportate a circa 120 m.",
+        "highlights": [
+          "Villa su quattro livelli."
+        ],
+        "limitations": [
+          "Non più disponibile secondo dichiarazione dell'utente del 29 settembre 2026."
+        ],
+        "description": "Villa a Duino su quattro livelli con circa 220 m² abitativi, giardino di 480 m² e parcheggio coperto, segnalata in classe A3. L'utente l'ha indicata non più disponibile il 29 settembre 2026."
+      },
+      "availability": {
+        "status": "unavailable",
+        "checkedAt": "2026-10-11T17:31:20.995976+02:00",
+        "reason": "Non più disponibile secondo la segnalazione dell’utente del 2026-09-29. Gli accessi bloccati non costituiscono una nuova conferma."
+      },
+      "model": {
+        "status": "not_required",
+        "path": null,
+        "views": [],
+        "notes": [
+          "Scheda storica conservata; nessun nuovo modello viene costruito per un immobile non più disponibile."
+        ]
+      },
+      "evidence": {
+        "listingReadAt": "2026-10-11T17:32:34.700777+02:00",
+        "sourceUpdatedAt": null,
+        "method": "public_reader_and_chat",
+        "note": "Lettura pubblica/indicizzata; da sola non conferma la disponibilità attuale."
+      }
+    },
+    {
+      "id": "muggia",
+      "title": "Via Goffredo Mameli 14/F",
+      "locality": "Muggia",
+      "address": "Via Goffredo Mameli 14/F",
+      "sourceUrls": [
+        "https://www.immobiliare.it/annunci/129200580/"
+      ],
+      "historicalPrices": [
+        {
+          "priceEur": 540000,
+          "date": "2026-09-27",
+          "source": "chat"
+        }
+      ],
+      "facts": {
+        "priceEur": 540000,
+        "areaHabitableM2": 186,
+        "areaWalkableM2": null,
+        "areaCommercialM2": 209,
+        "areaNotes": "186 m² di abitazione, 209 m² commerciali; garage da 16 m² separato.",
+        "gardenM2": 150,
+        "landM2": null,
+        "parking": "Garage da 16 m², ulteriore posto e corte carrabile utilizzabile per altre vetture.",
+        "floors": 3,
+        "bedrooms": 3,
+        "bathrooms": 3,
+        "condition": null,
+        "energy": null,
+        "bus": "Distanza precisa dalla fermata non documentata.",
+        "highlights": [
+          "Bifamiliare descritta come sostanzialmente indipendente.",
+          "Sviluppo su tre livelli.",
+          "Riscaldamento dichiarato: Autonomo, a radiatori, alimentato a gas"
+        ],
+        "limitations": [
+          "Percorso verso il bus da confermare."
+        ],
+        "description": "Casa bifamiliare in Via Mameli a Muggia con 186 m² abitativi su tre livelli, giardino di 150 m² e garage più posto auto. La corte è carrabile; il collegamento a piedi con la fermata richiede conferma."
+      },
+      "availability": {
+        "status": "unverified",
+        "checkedAt": "2026-10-11T17:31:20.998436+02:00",
+        "reason": "La disponibilità attuale non è confermata: fonti bloccate, incomplete o non accessibili. La lettura indicizzata non equivale a verifica live."
+      },
+      "model": {
+        "status": "ready",
+        "path": "modelli/muggia.html",
+        "views": [
+          {
+            "id": "exterior",
+            "label": "Esterno"
+          },
+          {
+            "id": "sottotetto",
+            "label": "Sottotetto"
+          },
+          {
+            "id": "rialzato",
+            "label": "Piano rialzato"
+          },
+          {
+            "id": "seminterrato",
+            "label": "Seminterrato e garage"
+          }
+        ],
+        "notes": [
+          "Ricostruzione rifatta ricalcando le tre tavole complete pubblicate: contorni, muri, aperture, vani scala e distribuzione sono confrontati con render ortografici reali.",
+          "La scala orizzontale assoluta resta stimata: le piante non contengono quote leggibili. Ciascuna scansione usa una scala uniforme indipendente, con orientamento e proporzioni conservati.",
+          "Altezze2.40m e2.60m e altezza media sottotetto2.44m riportate nelle tavole; gradini, spessori dei solai, quota del colmo e parti non fotografate sono stime.",
+          "Il locale con due letti nel sottotetto e denominato SOFFITTA nella tavola catastale. La disposizione fotografata non prova abitabilita o destinazione legale di camera.",
+          "Le tavole catastali pubblicate risalgono al2002: il modello riproduce le fonti disponibili e non certifica conformita o stato catastale attuale. Terreno e contesto esterno non costituiscono confini verificati."
+        ],
+        "verifiedAt": "2026-10-11T22:44:28.027149+02:00",
+        "artifactSha256": "65fae07758772b33b9f6438193df3bb1a45a0e7596270692f62d6788feb23d1e",
+        "sourcePlans": [
+          {
+            "url": "https://pic.im-cdn.it/plan/127607124/m.jpg",
+            "label": "Pianta arredata piano rialzato, parziale a sinistra"
+          },
+          {
+            "url": "https://pic.im-cdn.it/plan/127608402/m.jpg",
+            "label": "Pianta arredata seminterrato, parziale a sinistra"
+          },
+          {
+            "url": "https://pic.im-cdn.it/plan/127610330/m.jpg",
+            "label": "Pianta arredata sottotetto"
+          },
+          {
+            "url": "https://pic.im-cdn.it/plan/127607470/m.jpg",
+            "label": "Pianta catastale completa piano rialzato, H2.60m"
+          },
+          {
+            "url": "https://pic.im-cdn.it/plan/127607476/m.jpg",
+            "label": "Pianta catastale completa seminterrato e garage, H2.40m"
+          },
+          {
+            "url": "https://pic.im-cdn.it/plan/127607472/m.jpg",
+            "label": "Pianta catastale completa sottotetto, Hmedia2.44m"
+          }
+        ],
+        "unrenderedVolumes": [],
+        "coverage": "complete",
+        "preview": "assets/muggia.jpg"
+      },
+      "evidence": {
+        "listingReadAt": "2026-10-11T17:32:35.235025+02:00",
+        "sourceUpdatedAt": "16/07/2026",
+        "method": "public_reader_and_chat",
+        "note": "Lettura pubblica/indicizzata; da sola non conferma la disponibilità attuale."
+      }
+    },
+    {
+      "id": "sistiana-10",
+      "title": "Frazione Sistiana 10",
+      "locality": "Sistiana, Duino Aurisina",
+      "address": "Frazione Sistiana 10",
+      "sourceUrls": [
+        "https://www.immobiliare.it/annunci/130916972/"
+      ],
+      "historicalPrices": [
+        {
+          "priceEur": 465000,
+          "date": "2026-09-27",
+          "source": "chat"
+        }
+      ],
+      "facts": {
+        "priceEur": 465000,
+        "areaHabitableM2": null,
+        "areaWalkableM2": null,
+        "areaCommercialM2": 140,
+        "areaNotes": "La chat attribuisce 140 m² commerciali a Casa.it, mentre Immobiliare.it riportava una superficie complessiva superiore non quantificata. Superficie abitativa netta non determinata.",
+        "gardenM2": 800,
+        "landM2": null,
+        "parking": "Quattro posti auto coperti.",
+        "floors": 2,
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "condition": "Ristrutturata.",
+        "energy": null,
+        "bus": "Linea 44 a Sistiana; distanza precisa dalla fermata da verificare.",
+        "highlights": [
+          "Villa indipendente.",
+          "Giardino di 800 m².",
+          "Riscaldamento dichiarato: Autonomo, a radiatori, alimentato a fotovoltaico"
+        ],
+        "limitations": [
+          "Superfici discordanti tra portali.",
+          "I 140 m² sono commerciali e non dimostrano almeno 120 m² abitativi.",
+          "Bus non confermato."
+        ],
+        "description": "Villa indipendente ristrutturata a Sistiana con giardino di 800 m² e quattro posti auto coperti. Le superfici dei portali non coincidono; occorre verificare il netto abitativo e il percorso verso la linea 44."
+      },
+      "availability": {
+        "status": "unverified",
+        "checkedAt": "2026-10-11T17:31:21.294023+02:00",
+        "reason": "La disponibilità attuale non è confermata: fonti bloccate, incomplete o non accessibili. La lettura indicizzata non equivale a verifica live."
+      },
+      "model": {
+        "status": "in_review",
+        "path": null,
+        "views": [],
+        "notes": [
+          "La tavola catastale 2015 è leggibile nei due piani, ma va verificata rispetto alla ristrutturazione successiva descritta nell’annuncio: la soffitta uso deposito menzionata non è distinta chiaramente. Serve conferma del perimetro e della distribuzione dello stato attuale prima del modello."
+        ]
+      },
+      "evidence": {
+        "listingReadAt": "2026-10-11T17:32:35.851960+02:00",
+        "sourceUpdatedAt": "13/07/2026",
+        "method": "public_reader_and_chat",
+        "note": "Lettura pubblica/indicizzata; da sola non conferma la disponibilità attuale."
+      }
+    },
+    {
+      "id": "strada-di-fiume-370",
+      "title": "Strada di Fiume 370",
+      "locality": "Trieste",
+      "address": "Strada di Fiume 370",
+      "sourceUrls": [
+        "https://www.casa.it/immobili/54623814/"
+      ],
+      "historicalPrices": [
+        {
+          "priceEur": 350000,
+          "date": "2026-09-27",
+          "source": "chat"
+        }
+      ],
+      "facts": {
+        "priceEur": 350000,
+        "areaHabitableM2": null,
+        "areaWalkableM2": null,
+        "areaCommercialM2": null,
+        "areaNotes": "240 m² complessivi riferiti al progetto; la superficie abitativa finale non è separata.",
+        "gardenM2": null,
+        "landM2": null,
+        "parking": "Due posti auto.",
+        "floors": null,
+        "bedrooms": null,
+        "bathrooms": null,
+        "condition": "Da ristrutturare, con progetto approvato secondo la chat.",
+        "energy": null,
+        "bus": "Più fermate indicate a 40–50 m.",
+        "highlights": [
+          "Villa indipendente.",
+          "Progetto approvato di ristrutturazione."
+        ],
+        "limitations": [
+          "Giardino presente ma metratura non dichiarata.",
+          "I 240 m² non sono una superficie abitativa finale documentata.",
+          "Distinguere edificio esistente e progetto di ristrutturazione."
+        ],
+        "description": "Villa da ristrutturare in Strada di Fiume con progetto approvato, due posti auto e fermate indicate a 40–50 metri. I 240 m² si riferiscono al progetto complessivo; abitazione finale e giardino non sono quantificati separatamente."
+      },
+      "availability": {
+        "status": "unverified",
+        "checkedAt": "2026-10-11T17:31:21.336057+02:00",
+        "reason": "La disponibilità attuale non è confermata: fonti bloccate, incomplete o non accessibili. La lettura indicizzata non equivale a verifica live."
+      },
+      "model": {
+        "status": "awaiting_plans",
+        "path": null,
+        "views": [],
+        "notes": [
+          "Ricostruzione da preparare: le parti documentate potranno essere pubblicate anche con volumi mancanti, esplicitamente elencati. Senza piante utilizzabili, fotografie sufficienti consentono una ricostruzione dei soli esterni.",
+          "La fonte acquisita non espone piante identificative complete e scaricabili, o non è leggibile con gli accessi disponibili. Servono piante distinte dello stato attuale e del progetto approvato dei tre livelli; il progetto pubblicizzato non prova distribuzione e finiture realizzate."
+        ]
+      },
+      "evidence": {
+        "listingReadAt": "2026-10-11T17:33:04.971361+02:00",
+        "sourceUpdatedAt": null,
+        "method": "public_reader_and_chat",
+        "note": "Lettura pubblica/indicizzata; da sola non conferma la disponibilità attuale."
+      }
+    },
+    {
+      "id": "via-monte-carso",
+      "title": "Villa in Via Monte Carso",
+      "locality": "Trieste · Altura",
+      "address": "Via Monte Carso",
+      "sourceUrls": [
+        "https://rimmo.it/en/adria/house/villa/adria/trieste/detail/7122/",
+        "https://www.attico.it/immobile-villa-friuli-venezia-giulia-trieste-54308457/"
+      ],
+      "historicalPrices": [
+        {
+          "priceEur": 618000,
+          "date": null,
+          "source": "chat"
+        },
+        {
+          "priceEur": 595000,
+          "date": "2026-09-27",
+          "source": "chat"
+        }
+      ],
+      "facts": {
+        "priceEur": 595000,
+        "areaHabitableM2": null,
+        "areaWalkableM2": null,
+        "areaCommercialM2": null,
+        "areaNotes": "L’agenzia Rimmo indica 120 m² senza separare superficie calpestabile e commerciale. Le letture di altri portali riportano 1.200 m²: non sono una prova dei metri quadrati del terreno. Le piante indicano superfici per singolo ambiente.",
+        "gardenM2": null,
+        "landM2": null,
+        "parking": "Garage con lavanderia e due posti auto, dichiarati dall’agenzia.",
+        "floors": "Tre piani dichiarati, con ambienti su livelli sfalsati.",
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "condition": "Ottimo stato dichiarato dall’agenzia; finiture e impianti recenti.",
+        "energy": "A, dichiarata dall’agenzia.",
+        "bus": null,
+        "highlights": [
+          "Fotovoltaico dichiarato.",
+          "Impianto di allarme e videosorveglianza esterna dichiarati.",
+          "Riscaldamento e raffrescamento autonomamente regolabili per ambiente.",
+          "Garage con lavanderia e ripostiglio."
+        ],
+        "limitations": [
+          "Tipo della superficie di 120 m² non specificato: non presentata come superficie netta certificata.",
+          "Superficie totale del giardino e del terreno non documentata.",
+          "Distanza pedonale dal bus non verificata.",
+          "Una piscina è indicata come possibilità futura: non come dotazione realizzata."
+        ],
+        "description": "Villa in Via Monte Carso, identificata con il riferimento Rimmo R07279TSVI, a €595.000. L’agenzia indica 120 m², tre piani con ambienti sfalsati, tre camere e due bagni; sono dichiarati un giardino, un garage con lavanderia e due posti auto. La metratura complessiva del terreno e la distanza dal bus restano da confermare."
+      },
+      "availability": {
+        "status": "available",
+        "checkedAt": "2026-10-11T17:35:17.457209+02:00",
+        "reason": "Annuncio identificativo attivo letto con accesso HTTP pubblico diretto."
+      },
+      "model": {
+        "status": "in_review",
+        "path": null,
+        "views": [],
+        "notes": [
+          "Acquisite due piante con stanza inferiore, giardino/cortile e ambienti ai livelli superiori. Il box fotografato e dichiarato non è identificato nella pianta: il vano inferiore è etichettato stanza e mostra aperture differenti. Serve una pianta completa/aggiornata che chiarisca box e livelli sfalsati; nessuna distribuzione viene inventata per adattarsi alle foto."
+        ]
+      },
+      "evidence": {
+        "listingReadAt": "2026-10-11T17:35:17.457209+02:00",
+        "sourceUpdatedAt": null,
+        "method": "direct_http",
+        "note": "Annuncio identificativo letto sul sito pubblico dell’agenzia; i dati non confermati sono indicati nella scheda."
+      }
+    },
+    {
+      "id": "via-dei-gravisi-4",
+      "title": "Via dei Gravisi 4",
+      "locality": "Trieste",
+      "address": "Via dei Gravisi 4",
+      "sourceUrls": [
+        "https://www.immobiliare.it/annunci/133161332/",
+        "https://www.trovacasa.it/annunci/ts-tc-67991-73397489"
+      ],
+      "historicalPrices": [
+        {
+          "priceEur": 490000,
+          "date": null,
+          "source": "chat"
+        }
+      ],
+      "facts": {
+        "priceEur": 490000,
+        "areaHabitableM2": 153,
+        "areaWalkableM2": null,
+        "areaCommercialM2": 237,
+        "areaNotes": "La ricerca precedente distingue 153 m² di abitazione al primo piano e 92 m² di cantina/deposito al piano terra. Il portale attivo riporta 237 m² e giardino circa 500 m², rispetto ai 496 m² della scheda precedente; non sono superfici nette certificate.",
+        "gardenM2": 496,
+        "landM2": null,
+        "parking": "Garage e fino a tre posti auto.",
+        "floors": "Piano terra deposito/commerciale e abitazione superiore; box separato.",
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "condition": "Da rimodernare; finiture ed efficientamento da valutare.",
+        "energy": "Non disponibile nella fonte verificata.",
+        "bus": "Fermata Via Flavia/Gravisi indicata a pochi passi, servita da numerose linee.",
+        "highlights": [
+          "Villa unifamiliare a Sant'Anna.",
+          "Giardino/uliveto.",
+          "Annuncio descritto come nuovo o aggiornato al 3 ottobre 2026.",
+          "Riscaldamento dichiarato: Autonomo, a radiatori, alimentato a gas"
+        ],
+        "limitations": [
+          "Il piano terra non è attualmente un secondo appartamento abitabile.",
+          "La superficie abitativa 153 m² e il giardino 496 m² provengono dalla precedente segnalazione; il portale attuale indica 237 m² totali e circa 500 m² di giardino.",
+          "Percorso pedonale al bus e classe energetica da confermare."
+        ],
+        "description": "Casa indipendente in Via dei Gravisi 4, a 490.000 €, con abitazione al piano superiore, giardino/uliveto circa 500 m², box e posti auto. Il piano terra è deposito/commerciale: la trasformazione in secondo appartamento richiede cambio di destinazione d’uso. Da rimodernare."
+      },
+      "availability": {
+        "status": "available",
+        "checkedAt": "2026-10-12T17:52:03.545454+00:00",
+        "reason": "Copia pubblica attiva dell’esatto annuncio con riferimento133161332 e indirizzo/prezzo/distribuzione corrispondenti."
+      },
+      "model": {
+        "status": "in_review",
+        "path": null,
+        "views": [],
+        "notes": [
+          "Quattro tavole leggibili coprono ingresso e abitazione, magazzino al piano terra, cantina/cucina accessoria e box separato, con piante di situazione. Collocare i corpi solo dopo confronto delle piante di situazione e delle fotografie; nessuna trasformazione automatica del magazzino in appartamento."
+        ]
+      },
+      "evidence": {
+        "listingReadAt": "2026-10-12T17:52:03.545454+00:00",
+        "sourceUpdatedAt": null,
+        "method": "direct_http",
+        "note": "Annuncio identificativo letto direttamente sul portale pubblico TrovaCasa, con riferimento 133161332 e indirizzo/prezzo corrispondenti."
+      }
+    },
+    {
+      "id": "via-dei-papaveri-3-16",
+      "title": "Via dei Papaveri 3/16",
+      "locality": "Opicina, Trieste",
+      "address": "Via dei Papaveri 3/16",
+      "sourceUrls": [
+        "https://www.immobiliare.it/annunci/133093042/"
+      ],
+      "historicalPrices": [
+        {
+          "priceEur": 375000,
+          "date": null,
+          "source": "chat"
+        }
+      ],
+      "facts": {
+        "priceEur": 375000,
+        "areaHabitableM2": null,
+        "areaWalkableM2": null,
+        "areaCommercialM2": null,
+        "areaNotes": "192 m² ripartiti sui quattro livelli in 66 + 55 + 38 + 33 m², senza classificazione abitativa o commerciale esplicita nel messaggio.",
+        "gardenM2": null,
+        "landM2": null,
+        "parking": "Box e un posto esterno, con possibilità di una seconda auto.",
+        "floors": 4,
+        "bedrooms": 4,
+        "bathrooms": 3,
+        "condition": null,
+        "energy": null,
+        "bus": "Linea 4 con fermate direttamente in Via dei Papaveri; il messaggio considera soddisfatto il requisito.",
+        "highlights": [
+          "Villetta di testa/porzione trifamiliare.",
+          "Giardino privato descritto come grande.",
+          "Barbecue.",
+          "Riscaldamento dichiarato: Autonomo, a radiatori, alimentato a metano"
+        ],
+        "limitations": [
+          "Metratura del giardino non dichiarata.",
+          "Superficie dei locali non classificata separatamente.",
+          "Distanza civico-fermata non espressa in metri o minuti."
+        ],
+        "description": "Villetta di testa a Opicina con 192 m² distribuiti su quattro livelli, quattro camere e tre bagni, box e posto esterno. Ha un giardino privato con barbecue di metratura non dichiarata; la linea 4 serve la via."
+      },
+      "availability": {
+        "status": "unverified",
+        "checkedAt": "2026-10-11T17:31:21.624137+02:00",
+        "reason": "La disponibilità attuale non è confermata: fonti bloccate, incomplete o non accessibili. La lettura indicizzata non equivale a verifica live."
+      },
+      "model": {
+        "status": "in_review",
+        "path": null,
+        "views": [],
+        "notes": [
+          "Due tavole leggibili coprono i quattro livelli: piano sotto strada, terra, primo e soffitta. Escludere l’altra unità confinante indicata. Il volume al seminterrato va confrontato con le foto per distinguere box da loccia/cantina senza modificarne il contorno."
+        ]
+      },
+      "evidence": {
+        "listingReadAt": "2026-10-11T17:33:06.343191+02:00",
+        "sourceUpdatedAt": "30/09/2026",
+        "method": "public_reader_and_chat",
+        "note": "Lettura pubblica/indicizzata; da sola non conferma la disponibilità attuale."
+      }
+    },
+    {
+      "id": "via-dello-scoglio-173",
+      "title": "Via dello Scoglio 173",
+      "locality": "Trieste",
+      "address": "Via dello Scoglio 173",
+      "sourceUrls": [
+        "https://www.immobiliare.it/annunci/131737632/"
+      ],
+      "historicalPrices": [
+        {
+          "priceEur": 608000,
+          "date": "2026-10-11",
+          "source": "chat"
+        }
+      ],
+      "facts": {
+        "priceEur": 608000,
+        "areaHabitableM2": 240,
+        "areaWalkableM2": null,
+        "areaCommercialM2": 349,
+        "areaNotes": "120 m² abitativi al piano terra + 120 m² al primo piano. Ulteriori 120 m² di locali seminterrati, garage da 35 m² e giardino. 349 m² commerciali.",
+        "gardenM2": 210,
+        "landM2": null,
+        "parking": "Garage da 35 m².",
+        "floors": 3,
+        "bedrooms": 5,
+        "bathrooms": "3+",
+        "condition": null,
+        "energy": null,
+        "bus": "Fermate delle linee 3, 17 e 17/ a circa 40 m, meno di due minuti secondo la chat.",
+        "highlights": [
+          "Villa storica del 1903.",
+          "Accostata su un lato ai laboratori universitari.",
+          "Potenziale suddivisione in due unità.",
+          "Riscaldamento dichiarato: Autonomo, a radiatori, alimentato a metano"
+        ],
+        "limitations": [
+          "Accostamento su un lato: non isolata su tutti i lati.",
+          "Seminterrato distinto dalla superficie abitativa."
+        ],
+        "description": "Villa storica in Via dello Scoglio con 240 m² abitativi su due piani, ulteriori locali seminterrati, giardino di 210 m² e garage. È accostata ai laboratori universitari; le fermate 3/17/17/ sono indicate a circa 40 metri."
+      },
+      "availability": {
+        "status": "unverified",
+        "checkedAt": "2026-10-11T17:31:21.883753+02:00",
+        "reason": "La disponibilità attuale non è confermata: fonti bloccate, incomplete o non accessibili. La lettura indicizzata non equivale a verifica live."
+      },
+      "model": {
+        "status": "in_review",
+        "path": null,
+        "views": [],
+        "notes": [
+          "Tre tavole leggibili coprono terra, interrato, primo piano e corpo indipendente cantina/box su due livelli. I terrapieni e le due scale restano separati come disegnati. Servono confronto delle foto e calibrazione delle tavole prima della ricostruzione."
+        ]
+      },
+      "evidence": {
+        "listingReadAt": "2026-10-11T17:33:06.952684+02:00",
+        "sourceUpdatedAt": "18/08/2026",
+        "method": "public_reader_and_chat",
+        "note": "Lettura pubblica/indicizzata; da sola non conferma la disponibilità attuale."
+      }
+    },
+    {
+      "id": "malchina-47-a",
+      "title": "Malchina 47/A",
+      "locality": "Malchina, Duino Aurisina",
+      "address": "Malchina 47/A",
+      "sourceUrls": [
+        "https://www.immobiliare.it/annunci/122061822/"
+      ],
+      "historicalPrices": [
+        {
+          "priceEur": 335000,
+          "date": "2026-10-11",
+          "source": "chat"
+        }
+      ],
+      "facts": {
+        "priceEur": 335000,
+        "areaHabitableM2": null,
+        "areaWalkableM2": 180,
+        "areaCommercialM2": 200,
+        "areaNotes": "180 m² calpestabili e 200 m² commerciali; terreno di 850 m² con giardino, verde effettivo non separato.",
+        "gardenM2": null,
+        "landM2": 850,
+        "parking": "Garage e due posti auto.",
+        "floors": 2,
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "condition": "Costruzione del 1988, richiede ammodernamenti.",
+        "energy": "Riscaldamento a gasolio; classe energetica non riportata.",
+        "bus": "Fermata riportata a circa 120–150 m, intorno a due minuti.",
+        "highlights": [
+          "Villa singola.",
+          "Giardino piantumato.",
+          "Riscaldamento dichiarato: Autonomo, a radiatori, alimentato a gasolio"
+        ],
+        "limitations": [
+          "Superficie del solo giardino non distinta dagli 850 m² di terreno."
+        ],
+        "description": "Villa singola a Malchina con 180 m² calpestabili, terreno di 850 m², garage e due posti auto. È del 1988 e richiede ammodernamenti; il riscaldamento è a gasolio e la fermata è segnalata a 120–150 metri."
+      },
+      "availability": {
+        "status": "unverified",
+        "checkedAt": "2026-10-11T17:31:21.921702+02:00",
+        "reason": "La disponibilità attuale non è confermata: fonti bloccate, incomplete o non accessibili. La lettura indicizzata non equivale a verifica live."
+      },
+      "model": {
+        "status": "ready",
+        "path": "modelli/malchina-47-a.html",
+        "views": [
+          {
+            "id": "esterno",
+            "label": "Esterno"
+          },
+          {
+            "id": "primo",
+            "label": "Primo piano"
+          },
+          {
+            "id": "terra",
+            "label": "Piano terra"
+          },
+          {
+            "id": "seminterrato",
+            "label": "Seminterrato · cantine e tettoia"
+          }
+        ],
+        "notes": [
+          "Scala orizzontale stimata 0,035 m/pixel, senza quote metriche del fabbricato; tutte le proporzioni delle tavole sono mantenute.",
+          "Traslazioni rigide per allineare i tre livelli; nessuna specchiatura.",
+          "Scala interna:17 alzate stimate, foro coerente con la tavola superiore; elevazioni e tetti stimati da altezze leggibili e fotografie.",
+          "La tettoia risulta successivamente chiusa da serramenti nelle foto. La pianta originale resta riferimento del perimetro; i serramenti sono trattati separatamente.",
+          "Le destinazioni cantina restano cantina anche se arredate come cucina o pranzo nelle foto. Il box automatico del portale non è confermato dal testo o dalla pianta."
+        ],
+        "verifiedAt": "2026-10-12T17:33:51.516666+00:00",
+        "artifactSha256": "7cd8572a440faf7a8e158a62910f285887ac4ec9f4e73e1327e75f2dbc75f631",
+        "sourcePlans": [
+          {
+            "url": "https://pic.im-cdn.it/plan/115754372/xxl.jpg",
+            "label": "Planimetria Malchina 1"
+          },
+          {
+            "url": "https://pic.im-cdn.it/plan/115754376/xxl.jpg",
+            "label": "Planimetria Malchina 2"
+          }
+        ],
+        "unrenderedVolumes": [
+          "Scala esterna d’ingresso: configurazione catastale e fotografica differente, non renderizzata.",
+          "Box indicato nei dati del portale: volume non identificato nelle piante acquisite, non renderizzato."
+        ],
+        "coverage": "partial",
+        "preview": "assets/malchina-47-a.jpg"
+      },
+      "evidence": {
+        "listingReadAt": "2026-10-11T17:33:07.537969+02:00",
+        "sourceUpdatedAt": "17/03/2026",
+        "method": "public_reader_and_chat",
+        "note": "Lettura pubblica/indicizzata; da sola non conferma la disponibilità attuale."
+      }
+    },
+    {
+      "id": "duino-villa-129888594",
+      "title": "Villa a Duino",
+      "locality": "Duino, Duino Aurisina",
+      "address": null,
+      "sourceUrls": [
+        "https://www.immobiliare.it/annunci/129888594/"
+      ],
+      "historicalPrices": [
+        {
+          "priceEur": 570000,
+          "date": "2026-10-11",
+          "source": "chat"
+        }
+      ],
+      "facts": {
+        "priceEur": 570000,
+        "areaHabitableM2": 202,
+        "areaWalkableM2": null,
+        "areaCommercialM2": 305,
+        "areaNotes": "202 m² di abitazione e 305 m² commerciali.",
+        "gardenM2": 361,
+        "landM2": null,
+        "parking": "Garage da 49 m² e posti auto.",
+        "floors": 3,
+        "bedrooms": 5,
+        "bathrooms": 3,
+        "condition": null,
+        "energy": null,
+        "bus": "Distanza dal bus da confermare.",
+        "highlights": [
+          "Giardino di 361 m².",
+          "Garage ampio.",
+          "Riscaldamento dichiarato: Autonomo, a radiatori, alimentato a pellet"
+        ],
+        "limitations": [
+          "Indirizzo esatto non disponibile nella chat.",
+          "Numero dei posti esterni non specificato.",
+          "Bus non confermato."
+        ],
+        "description": "Villa a Duino con 202 m² di abitazione, giardino di 361 m² e garage di 49 m² più posti auto. La distanza dalla fermata autobus non è documentata."
+      },
+      "availability": {
+        "status": "unverified",
+        "checkedAt": "2026-10-11T17:31:22.181973+02:00",
+        "reason": "La disponibilità attuale non è confermata: fonti bloccate, incomplete o non accessibili. La lettura indicizzata non equivale a verifica live."
+      },
+      "model": {
+        "status": "in_review",
+        "path": null,
+        "views": [],
+        "notes": [
+          "Quattro piante leggibili coprono terra, primo/sottotetto, interrato e autorimessa separata. Preservare soffitte, terrazza e centrale termica; posizione del box da ancorare alle piante di situazione/fotografie."
+        ]
+      },
+      "evidence": {
+        "listingReadAt": "2026-10-11T17:33:08.122688+02:00",
+        "sourceUpdatedAt": "13/06/2026",
+        "method": "public_reader_and_chat",
+        "note": "Lettura pubblica/indicizzata; da sola non conferma la disponibilità attuale."
+      }
+    },
+    {
+      "id": "via-di-santa-barbara",
+      "title": "Villa in Via di Santa Barbara",
+      "locality": "Muggia",
+      "address": "Via di Santa Barbara",
+      "sourceUrls": [
+        "https://www.immobiliare.it/annunci/133394756/"
+      ],
+      "historicalPrices": [
+        {
+          "priceEur": 690000,
+          "date": "2026-10-11",
+          "source": "chat"
+        }
+      ],
+      "facts": {
+        "priceEur": 690000,
+        "areaHabitableM2": 140,
+        "areaWalkableM2": null,
+        "areaCommercialM2": 272,
+        "areaNotes": "140 m² di abitazione più 50 m² di mansarda; 272 m² commerciali. La mansarda resta separata dall'abitazione classificata.",
+        "gardenM2": 400,
+        "landM2": null,
+        "parking": "Due garage e due posti auto esterni.",
+        "floors": null,
+        "bedrooms": null,
+        "bathrooms": null,
+        "condition": "In fase di completamento, finiture personalizzabili.",
+        "energy": null,
+        "bus": "Linea 32 lungo la via; distanza dalla casa da confermare.",
+        "highlights": [
+          "Villa indipendente con vista mare.",
+          "Annuncio aggiornato il 9 ottobre 2026 secondo la chat."
+        ],
+        "limitations": [
+          "Immobile ancora da completare.",
+          "La piscina raffigurata è una proposta di sistemazione esterna, non una dotazione realizzata.",
+          "Abitabilità della mansarda non documentata.",
+          "Distanza dal bus da confermare."
+        ],
+        "description": "Villa indipendente con vista mare a Muggia, 140 m² di abitazione più mansarda, giardino di 400 m² e due garage più due posti esterni. È ancora in completamento; la piscina mostrata è una proposta, non un elemento esistente."
+      },
+      "availability": {
+        "status": "unverified",
+        "checkedAt": "2026-10-11T17:31:22.215221+02:00",
+        "reason": "La disponibilità attuale non è confermata: fonti bloccate, incomplete o non accessibili. La lettura indicizzata non equivale a verifica live."
+      },
+      "model": {
+        "status": "awaiting_plans",
+        "path": null,
+        "views": [],
+        "notes": [
+          "Ricostruzione da preparare: le parti documentate potranno essere pubblicate anche con volumi mancanti, esplicitamente elencati. Senza piante utilizzabili, fotografie sufficienti consentono una ricostruzione dei soli esterni.",
+          "La fonte acquisita non espone piante identificative complete e scaricabili, o non è leggibile con gli accessi disponibili. Servono tutte le piante dello stato attuale, compresi piani accessori, scale e corpi separati descritti nell’annuncio."
+        ]
+      },
+      "evidence": {
+        "listingReadAt": "2026-10-11T17:33:08.720219+02:00",
+        "sourceUpdatedAt": null,
+        "method": "chat",
+        "note": "Lettura pubblica/indicizzata; da sola non conferma la disponibilità attuale."
+      }
+    },
+    {
+      "id": "aurisina-cave-77-b",
+      "title": "Aurisina Cave 77/B",
+      "locality": "Aurisina, Duino Aurisina",
+      "address": "Aurisina Cave 77/B",
+      "sourceUrls": [
+        "https://www.immobiliare.it/annunci/122408660/"
+      ],
+      "historicalPrices": [
+        {
+          "priceEur": 320000,
+          "date": "2026-10-11",
+          "source": "chat"
+        }
+      ],
+      "facts": {
+        "priceEur": 320000,
+        "areaHabitableM2": 125,
+        "areaWalkableM2": null,
+        "areaCommercialM2": 320,
+        "areaNotes": "Appartamento principale da 125 m²; ulteriori locali al piano terra ed ex locali commerciali. Laboratorio separato di circa 70 m². La chat indica 320 m² commerciali complessivi, non tutti abitazione.",
+        "gardenM2": 1000,
+        "landM2": null,
+        "parking": "Garage e possibilità di parcheggiare quattro auto.",
+        "floors": null,
+        "bedrooms": 4,
+        "bathrooms": 1,
+        "condition": "Richiede una ristrutturazione importante.",
+        "energy": null,
+        "bus": "Linea 44 in zona; distanza precisa dalla casa da confermare.",
+        "highlights": [
+          "Abitazione e ulteriori spazi con usi diversi.",
+          "Laboratorio separato.",
+          "Giardino di 1.000 m².",
+          "Riscaldamento dichiarato: Autonomo, a radiatori, alimentato a metano"
+        ],
+        "limitations": [
+          "Non trattare i 320 m² complessivi come superficie abitativa.",
+          "Laboratorio ed ex locali commerciali non sono stanze abitative.",
+          "Ristrutturazione importante.",
+          "Bus non confermato."
+        ],
+        "description": "Proprietà ad Aurisina Cave con appartamento principale di 125 m², altri locali, laboratorio separato e giardino di 1.000 m². Ha garage e spazio per quattro auto; richiede lavori importanti e una verifica dei diversi usi dei locali."
+      },
+      "availability": {
+        "status": "unverified",
+        "checkedAt": "2026-10-11T17:31:22.493682+02:00",
+        "reason": "La disponibilità attuale non è confermata: fonti bloccate, incomplete o non accessibili. La lettura indicizzata non equivale a verifica live."
+      },
+      "model": {
+        "status": "in_review",
+        "path": null,
+        "views": [],
+        "notes": [
+          "Le tre tavole della villetta coprono terra, primo e cantina; una quarta pianta leggibile del laboratorio, deposito e tettoia è stata acquisita dalla foto40 della galleria. Posizione del laboratorio nel giardino da ancorare alle fotografie; negozi e laboratorio restano destinazioni non abitative."
+        ]
+      },
+      "evidence": {
+        "listingReadAt": "2026-10-11T17:33:09.397374+02:00",
+        "sourceUpdatedAt": "11/09/2026",
+        "method": "public_reader_and_chat",
+        "note": "Lettura pubblica/indicizzata; da sola non conferma la disponibilità attuale."
+      }
+    },
+    {
+      "id": "malchina-1",
+      "title": "Malchina 1",
+      "locality": "Malchina, Duino Aurisina",
+      "address": "Malchina 1",
+      "sourceUrls": [
+        "https://www.immobiliare.it/annunci/132448210/"
+      ],
+      "historicalPrices": [
+        {
+          "priceEur": 268000,
+          "date": "2026-10-11",
+          "source": "chat"
+        }
+      ],
+      "facts": {
+        "priceEur": 268000,
+        "areaHabitableM2": 130,
+        "areaWalkableM2": null,
+        "areaCommercialM2": 259,
+        "areaNotes": "130 m² di abitazione e 259 m² commerciali. I 400 m² esterni comprendono anche i parcheggi e non quantificano il solo giardino.",
+        "gardenM2": null,
+        "landM2": null,
+        "parking": "Fino a cinque posti auto.",
+        "floors": 2,
+        "bedrooms": 4,
+        "bathrooms": 2,
+        "condition": null,
+        "energy": null,
+        "bus": "Linea 43 in paese; distanza dalla casa da confermare.",
+        "highlights": [
+          "Spazio esterno dichiarato di 400 m², comprendente parcheggi.",
+          "Riscaldamento dichiarato: Autonomo, a radiatori, alimentato a gasolio"
+        ],
+        "limitations": [
+          "Superficie verde effettiva non determinata.",
+          "Distanza dal bus da confermare."
+        ],
+        "description": "Casa a Malchina con 130 m² di abitazione e spazio esterno dichiarato di 400 m², comprendendo parcheggi fino a cinque auto. La metratura verde e il percorso verso la linea 43 restano da accertare."
+      },
+      "availability": {
+        "status": "unverified",
+        "checkedAt": "2026-10-11T17:31:22.517753+02:00",
+        "reason": "La disponibilità attuale non è confermata: fonti bloccate, incomplete o non accessibili. La lettura indicizzata non equivale a verifica live."
+      },
+      "model": {
+        "status": "in_review",
+        "path": null,
+        "views": [],
+        "notes": [
+          "Due tavole catastali leggibili coprono ristorante al piano terra e abitazione al primo piano, incluse cantina, centrale termica, veranda e scale. Il ristorante C/1 resta distinto dall’abitazione. Le dimensioni assolute sono da calibrare/stimare senza deformare le piante."
+        ]
+      },
+      "evidence": {
+        "listingReadAt": "2026-10-11T17:33:10.181675+02:00",
+        "sourceUpdatedAt": "17/09/2026",
+        "method": "public_reader_and_chat",
+        "note": "Lettura pubblica/indicizzata; da sola non conferma la disponibilità attuale."
+      }
+    },
+    {
+      "id": "via-umberto-veruda",
+      "title": "Casa in Via Umberto Veruda",
+      "locality": "Trieste",
+      "address": "Via Umberto Veruda",
+      "sourceUrls": [
+        "https://www.immobiliare.it/annunci/126487333/"
+      ],
+      "historicalPrices": [
+        {
+          "priceEur": 530000,
+          "date": "2026-10-11",
+          "source": "chat"
+        }
+      ],
+      "facts": {
+        "priceEur": 530000,
+        "areaHabitableM2": null,
+        "areaWalkableM2": null,
+        "areaCommercialM2": null,
+        "areaNotes": "237 m² dichiarati; ripartizione abitativa o commerciale non confermata.",
+        "gardenM2": 241,
+        "landM2": null,
+        "parking": "Accesso carrabile; garage ricavabile da deposito, non documentato come già realizzato.",
+        "floors": 2,
+        "bedrooms": 5,
+        "bathrooms": 3,
+        "condition": null,
+        "energy": null,
+        "bus": "Fermate lungo la via riportate a circa 1–7 minuti secondo il punto; percorso dal civico effettivo non verificato.",
+        "highlights": [
+          "Giardino di 241 m².",
+          "Riscaldamento dichiarato: Autonomo, a radiatori, alimentato a metano"
+        ],
+        "limitations": [
+          "Superficie abitativa non separata.",
+          "Parcheggio effettivo da verificare; garage solo prospettato.",
+          "Distanze bus riferite alla via."
+        ],
+        "description": "Casa in Via Veruda con 237 m² dichiarati e giardino di 241 m². È indicato un accesso carrabile, ma il garage è soltanto ricavabile da un deposito; superficie abitativa, parcheggio e tragitto al bus richiedono conferma."
+      },
+      "availability": {
+        "status": "unverified",
+        "checkedAt": "2026-10-11T17:31:22.784406+02:00",
+        "reason": "La disponibilità attuale non è confermata: fonti bloccate, incomplete o non accessibili. La lettura indicizzata non equivale a verifica live."
+      },
+      "model": {
+        "status": "in_review",
+        "path": null,
+        "views": [],
+        "notes": [
+          "Due tavole leggibili dello stato esistente coprono entrambi i piani, deposito attrezzi comunicante, cantina e terrazzi; sono riportate altezze diverse dei vani. Non rappresentare ipotesi pubblicitarie di frazionamento o nuove aperture."
+        ]
+      },
+      "evidence": {
+        "listingReadAt": "2026-10-11T17:33:11.338476+02:00",
+        "sourceUpdatedAt": "02/04/2026",
+        "method": "public_reader_and_chat",
+        "note": "Lettura pubblica/indicizzata; da sola non conferma la disponibilità attuale."
+      }
+    },
+    {
+      "id": "duino-4",
+      "title": "Frazione Duino 4",
+      "locality": "Duino, Duino Aurisina",
+      "address": "Frazione Duino 4",
+      "sourceUrls": [
+        "https://www.idealista.it/immobile/35776471/"
+      ],
+      "historicalPrices": [
+        {
+          "priceEur": 490000,
+          "date": "2026-10-11",
+          "source": "chat"
+        }
+      ],
+      "facts": {
+        "priceEur": 490000,
+        "areaHabitableM2": null,
+        "areaWalkableM2": null,
+        "areaCommercialM2": 180,
+        "areaNotes": "180 m² commerciali; superficie abitativa non separata.",
+        "gardenM2": 700,
+        "landM2": null,
+        "parking": null,
+        "floors": 3,
+        "bedrooms": null,
+        "bathrooms": 3,
+        "condition": null,
+        "energy": null,
+        "bus": "Linea 44 in zona; distanza dalla casa da confermare.",
+        "highlights": [
+          "Giardino di 700 m²."
+        ],
+        "limitations": [
+          "Superficie abitativa netta non documentata.",
+          "Parcheggio non dichiarato.",
+          "Distanza dal bus non documentata."
+        ],
+        "description": "Casa a Duino con 180 m² commerciali e giardino di 700 m². La superficie abitativa, la presenza di un posto auto e il percorso verso la linea 44 non sono documentati."
+      },
+      "availability": {
+        "status": "unverified",
+        "checkedAt": "2026-10-11T17:31:22.810773+02:00",
+        "reason": "La disponibilità attuale non è confermata: fonti bloccate, incomplete o non accessibili. La lettura indicizzata non equivale a verifica live."
+      },
+      "model": {
+        "status": "awaiting_plans",
+        "path": null,
+        "views": [],
+        "notes": [
+          "Ricostruzione da preparare: le parti documentate potranno essere pubblicate anche con volumi mancanti, esplicitamente elencati. Senza piante utilizzabili, fotografie sufficienti consentono una ricostruzione dei soli esterni.",
+          "La fonte acquisita non espone piante identificative complete e scaricabili, o non è leggibile con gli accessi disponibili. Servono tutte le piante dello stato attuale, compresi piani accessori, scale e corpi separati descritti nell’annuncio."
+        ]
+      },
+      "evidence": {
+        "listingReadAt": "2026-10-11T17:34:01.598046+02:00",
+        "sourceUpdatedAt": "3 giugno",
+        "method": "public_reader_and_chat",
+        "note": "Lettura pubblica/indicizzata; da sola non conferma la disponibilità attuale."
+      }
+    }
+  ]
+}
