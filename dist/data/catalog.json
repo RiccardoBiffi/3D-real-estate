@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-13T16:02:24.087200+02:00",
+  "updatedAt": "2026-10-13T22:34:31.280436+02:00",
   "properties": [
     {
       "id": "via-risano-raute",
@@ -254,7 +254,8 @@
       "address": "Via Bartolomeo Gianelli 7",
       "sourceUrls": [
         "https://www.immobiliare.it/annunci/128978736/",
-        "https://www.casa.it/immobili/54666169/"
+        "https://www.casa.it/immobili/54666169/",
+        "https://www.trovacasa.it/annunci/ts-tc-93198-72978713"
       ],
       "historicalPrices": [
         {
@@ -276,10 +277,10 @@
         "areaNotes": "La prima ricerca riportava circa 165 m² abitativi (tre livelli da circa 55 m²); il 20 settembre riporta invece 228 m² dichiarati su tre livelli abitativi. Classificazione e discrepanza non risolte.",
         "gardenM2": 250,
         "landM2": null,
-        "parking": "Prima ricerca: due posti auto. Ultimo aggiornamento: posto coperto per una o più vetture.",
+        "parking": "Tettoia coperta per una o più vetture dichiarata; accesso finale stretto, con attenzione necessaria per auto grandi.",
         "floors": 3,
         "bedrooms": null,
-        "bathrooms": null,
+        "bathrooms": 3,
         "condition": null,
         "energy": null,
         "bus": "Distanza pedonale esatta dalla fermata da confermare.",
@@ -290,14 +291,16 @@
         "limitations": [
           "Superfici discordanti nella chat: circa 165 e 228 m².",
           "Numero e disposizione dei parcheggi da verificare.",
-          "Bus non confermato."
+          "Bus non confermato.",
+          "Alcune immagini sono elaborate con intelligenza artificiale a scopo illustrativo secondo annuncio; escluderle come prova dello stato reale.",
+          "Accesso carrabile finale stretto: verificare compatibilità con il veicolo."
         ],
-        "description": "Villetta in Via Gianelli con giardino di circa 250 m² e parcheggio coperto, ribassata a €417.000. Le superfici riportate nei diversi aggiornamenti non coincidono e vanno chiarite insieme alla distanza dal bus."
+        "description": "Villetta a schiera su tre livelli, con circa 250 m² di giardino, terrazze e tettoia per le auto. La via di accesso finale è stretta. Superficie dichiarata di 228 m², da distinguere dalle precedenti indicazioni."
       },
       "availability": {
-        "status": "unverified",
-        "checkedAt": null,
-        "reason": "Alias pubblici/indicizzati leggibili, ma HTTP diretto bloccato o insufficiente; disponibilità effettiva non verificata."
+        "status": "available",
+        "checkedAt": "2026-10-13T22:17:47.040302+02:00",
+        "reason": "Copia identificativa dell’esatto immobile letta direttamente sul sito pubblico."
       },
       "model": {
         "status": "awaiting_plans",
@@ -309,10 +312,10 @@
         ]
       },
       "evidence": {
-        "listingReadAt": "2026-10-11T17:33:26.145924+02:00",
+        "listingReadAt": "2026-10-13T22:17:47.040302+02:00",
         "sourceUpdatedAt": null,
-        "method": "chat",
-        "note": "Lettura pubblica/indicizzata; da sola non conferma la disponibilità attuale."
+        "method": "direct_http",
+        "note": "Fonte identificativa dell’esatto immobile letta direttamente con HTTP200; dati discordanti o non confermati indicati nella scheda."
       }
     },
     {
@@ -1291,28 +1294,34 @@
       "address": "Via Bartolomeo Gianelli 18",
       "sourceUrls": [
         "https://www.immobiliare.it/annunci/129124134/",
-        "https://www.idealista.it/immobile/35731602/"
+        "https://www.idealista.it/immobile/35731602/",
+        "https://www.tecnocasa.it/vendita/ville/trieste/trieste/61221689.html"
       ],
       "historicalPrices": [
         {
           "priceEur": 385000,
           "date": "2026-09-13",
           "source": "chat"
+        },
+        {
+          "priceEur": 345000,
+          "date": "2026-10-13",
+          "source": "https://www.tecnocasa.it/vendita/ville/trieste/trieste/61221689.html"
         }
       ],
       "facts": {
-        "priceEur": 385000,
+        "priceEur": 345000,
         "areaHabitableM2": null,
         "areaWalkableM2": null,
         "areaCommercialM2": null,
-        "areaNotes": "130 m² dichiarati; classificazione della superficie non esplicita.",
+        "areaNotes": "130 m² dichiarati complessivi: 90 m² di appartamento e 40 m² di vano da adibire a taverna. Superficie netta e classificazione dei 90 m² non esplicitate; taverna distinta dalla superficie abitativa.",
         "gardenM2": 100,
         "landM2": null,
-        "parking": "Accesso carrabile; presenza di un posto effettivo da confermare.",
+        "parking": "Due posti auto dichiarati nella scheda dell’agenzia.",
         "floors": null,
-        "bedrooms": 4,
+        "bedrooms": null,
         "bathrooms": 2,
-        "condition": null,
+        "condition": "Ristrutturazione interna e consolidamento strutturale conclusi nel 2024, secondo agenzia.",
         "energy": null,
         "bus": "Linee 33 e C lungo la via; distanza esatta non documentata.",
         "highlights": [
@@ -1320,17 +1329,18 @@
           "Riscaldamento dichiarato: Autonomo, a radiatori, alimentato a metano"
         ],
         "limitations": [
-          "Superficie abitativa netta non separata.",
-          "Posto auto effettivo non confermato.",
-          "Distanza dal bus non documentata.",
-          "URL recuperati con lookup dell'11 ottobre 2026, senza conferma di disponibilità live."
+          "I 40 m² di taverna non sono automaticamente superficie abitativa; requisito di 120 m² abitativi non dimostrato.",
+          "Camere discordanti: due matrimoniali e uno stanzino nella descrizione, quattro camere nei campi strutturati.",
+          "Giardino di 100 m² deriva dalla segnalazione precedente; dimensione non confermata nella nuova descrizione.",
+          "Nessuna classe energetica pubblicata; dato strutturato certificazione ESENTE da confermare.",
+          "Distanza pedonale dal bus non documentata."
         ],
-        "description": "Casa segnalata in Via Gianelli 18 a €385.000, con 130 m² dichiarati e giardino di 100 m². Accesso carrabile, parcheggio e classificazione delle superfici richiedono verifica; la chat non conserva un URL identificativo."
+        "description": "Porzione di bifamiliare ristrutturata nel 2024, con appartamento di 90 m², vano di 40 m² da adibire a taverna, giardino, corte, terrazzino e due posti auto. Prezzo aggiornato a €345.000."
       },
       "availability": {
-        "status": "unverified",
-        "checkedAt": null,
-        "reason": "Lettura pubblica indicizzata disponibile, ma accesso diretto bloccato o non sufficiente: disponibilità effettiva non verificata."
+        "status": "available",
+        "checkedAt": "2026-10-13T22:17:43.623669+02:00",
+        "reason": "Copia identificativa dell’esatto immobile letta direttamente sul sito pubblico."
       },
       "model": {
         "status": "awaiting_plans",
@@ -1342,10 +1352,10 @@
         ]
       },
       "evidence": {
-        "listingReadAt": "2026-10-11T17:33:33.876076+02:00",
-        "sourceUpdatedAt": "01/07/2026",
-        "method": "public_reader_and_chat",
-        "note": "Lettura pubblica/indicizzata; da sola non conferma la disponibilità attuale."
+        "listingReadAt": "2026-10-13T22:17:43.623669+02:00",
+        "sourceUpdatedAt": null,
+        "method": "direct_http",
+        "note": "Fonte identificativa dell’esatto immobile letta direttamente con HTTP200; dati discordanti o non confermati indicati nella scheda."
       }
     },
     {
@@ -3084,12 +3094,51 @@
         "reason": "Annuncio identificativo attivo letto con accesso HTTP pubblico diretto."
       },
       "model": {
-        "status": "in_review",
-        "path": null,
-        "views": [],
+        "status": "ready",
+        "path": "modelli/via-monte-carso.html",
+        "views": [
+          {
+            "id": "exterior",
+            "label": "Esterno delle parti ricostruite"
+          },
+          {
+            "id": "camere",
+            "label": "Camere e bagno — semipiano superiore"
+          },
+          {
+            "id": "cucina",
+            "label": "Cucina — semipiano intermedio"
+          },
+          {
+            "id": "soggiorno",
+            "label": "Soggiorno — semipiano inferiore ricostruito"
+          }
+        ],
         "notes": [
-          "Acquisite due piante con stanza inferiore, giardino/cortile e ambienti ai livelli superiori. Il box fotografato e dichiarato non è identificato nella pianta: il vano inferiore è etichettato stanza e mostra aperture differenti. Serve una pianta completa/aggiornata che chiarisca box e livelli sfalsati; nessuna distribuzione viene inventata per adattarsi alle foto."
-        ]
+          "Esterno limitato ai semipiani documentati: non ricostruisce box o piano inferiore.",
+          "Scala assoluta uniforme, quote verticali, tetto e terreno stimati; non rilievo metrico.",
+          "La stanza di 9,61 m² è lasciata quasi vuota poiché gli arredi non sono identificabili nelle foto."
+        ],
+        "verifiedAt": "2026-10-13T22:18:36.853671+02:00",
+        "artifactSha256": "876dfcf9f0c01dd481a891459c9ef7ac1308b337ba0e56a816f15a1ee99572b9",
+        "sourcePlans": [
+          {
+            "url": "https://rimmo.it/media/img/grundriss/R07279TSVI_Grundriss_Erdgeschoss-page-001.jpg",
+            "label": "Prima tavola: piano inferiore omesso"
+          },
+          {
+            "url": "https://rimmo.it/media/img/grundriss/R07279TSVI_Grundriss_1._Stock-page-001.jpg",
+            "label": "Seconda tavola: soggiorno, cucina, camere e bagno"
+          }
+        ],
+        "unrenderedVolumes": [
+          "Box fotografato e dichiarato: non identificato nelle due piante, che al piano inferiore indicano una stanza di 18,74 m² con aperture differenti; volume del box non renderizzato.",
+          "Piano inferiore della prima tavola (stanza di 18,74 m²,bagno,disimpegni e intercapedine): registrazione e relazione con il box non risolvibili; volumi non renderizzati.",
+          "Scale interne tra semipiani e raccordo al piano inferiore: rappresentazioni non concordanti tra le due tavole, rampe non renderizzate; i vani di taglio della seconda tavola restano dichiarati aperti.",
+          "Scala esterna e terrazzo sopra il box: base planimetrica e raccordo verticale al volume omesso non verificabili; non renderizzati."
+        ],
+        "coverage": "partial",
+        "preview": "assets/via-monte-carso.jpg"
       },
       "evidence": {
         "listingReadAt": "2026-10-11T17:35:17.457209+02:00",
@@ -3148,12 +3197,59 @@
         "reason": "Copia pubblica attiva dell’esatto annuncio con riferimento133161332 e indirizzo/prezzo/distribuzione corrispondenti."
       },
       "model": {
-        "status": "in_review",
-        "path": null,
-        "views": [],
+        "status": "ready",
+        "path": "modelli/via-dei-gravisi-4.html",
+        "views": [
+          {
+            "id": "exterior",
+            "label": "Esterno"
+          },
+          {
+            "id": "abitazione",
+            "label": "Primo piano: abitazione"
+          },
+          {
+            "id": "magazzino",
+            "label": "Piano terra: ingresso e magazzino"
+          },
+          {
+            "id": "garage",
+            "label": "Garage separato"
+          }
+        ],
         "notes": [
-          "Quattro tavole leggibili coprono ingresso e abitazione, magazzino al piano terra, cantina/cucina accessoria e box separato, con piante di situazione. Collocare i corpi solo dopo confronto delle piante di situazione e delle fotografie; nessuna trasformazione automatica del magazzino in appartamento."
-        ]
+          "Piano terra h 4,00 conservato come magazzino e ingresso; primo piano abitativo h 3,00, garage separato h 2,50. Nessuna conversione abitativa del deposito.",
+          "Scale uniformi stimate da proporzioni delle piante e ingombri visibili; vano scala comune registra PT e primo piano. Tetto, treads, supporti e parapetti semplificati e stimati.",
+          "Posizione del garage e terreno indicative, derivate dal sedime e fotografie; non registrazione metrica del giardino.",
+          "Foto 39 e 43 non risolvono con certezza la collocazione della cantina rispetto al magazzino; la cantina non è renderizzata."
+        ],
+        "verifiedAt": "2026-10-13T22:30:33.593945+02:00",
+        "artifactSha256": "64937795d84cfaef75ed1a0219412667048c8dbb34ca5b8e2b8cad78023a10d5",
+        "sourcePlans": [
+          {
+            "url": "https://pic.im-cdn.it/plan/135465370/xxl.jpg",
+            "label": "Ingresso PT e primo piano abitativo"
+          },
+          {
+            "url": "https://pic.im-cdn.it/plan/135465368/xxl.jpg",
+            "label": "Cantina e accessori omessi"
+          },
+          {
+            "url": "https://pic.im-cdn.it/plan/135465366/xxl.jpg",
+            "label": "Garage separato e sedime"
+          },
+          {
+            "url": "https://pic.im-cdn.it/plan/135465364/xxl.jpg",
+            "label": "Piano terra magazzino"
+          }
+        ],
+        "unrenderedVolumes": [
+          "Cantina seminterrata della seconda tavola (h 4,00): posizione e relazione con il magazzino non registrabili senza un raccordo catastale; non renderizzata.",
+          "Cucina accessoria e pollaio della seconda tavola: riconoscibili nelle foto ma posizione esatta, sedime e raccordo con il fabbricato non univoci; non renderizzati.",
+          "Piccole tettoie e volumi accessori non planimetrati del giardino: non renderizzati."
+        ],
+        "coverage": "partial",
+        "preview": "assets/via-dei-gravisi-4.jpg"
       },
       "evidence": {
         "listingReadAt": "2026-10-12T17:52:03.545454+00:00",
@@ -3435,7 +3531,8 @@
       "locality": "Duino, Duino Aurisina",
       "address": null,
       "sourceUrls": [
-        "https://www.immobiliare.it/annunci/129888594/"
+        "https://www.immobiliare.it/annunci/129888594/",
+        "https://nestimmobiliare.com/immobile/villa-a-duino-su-tre-livelli-con-giardino/"
       ],
       "historicalPrices": [
         {
@@ -3472,23 +3569,77 @@
         "description": "Villa a Duino con 202 m² di abitazione, giardino di 361 m² e garage di 49 m² più posti auto. La distanza dalla fermata autobus non è documentata."
       },
       "availability": {
-        "status": "unverified",
-        "checkedAt": "2026-10-11T17:31:22.181973+02:00",
-        "reason": "La disponibilità attuale non è confermata: fonti bloccate, incomplete o non accessibili. La lettura indicizzata non equivale a verifica live."
+        "status": "available",
+        "checkedAt": "2026-10-13T22:17:47.961584+02:00",
+        "reason": "Copia identificativa dell’esatto immobile letta direttamente sul sito pubblico."
       },
       "model": {
-        "status": "in_review",
-        "path": null,
-        "views": [],
+        "status": "ready",
+        "path": "modelli/duino-villa-129888594.html",
+        "views": [
+          {
+            "id": "exterior",
+            "label": "Esterno"
+          },
+          {
+            "id": "soffitte",
+            "label": "Primo piano · soffitte e terrazza"
+          },
+          {
+            "id": "terra",
+            "label": "Piano terra"
+          },
+          {
+            "id": "autorimessa",
+            "label": "Autorimessa · interrato"
+          },
+          {
+            "id": "interrato",
+            "label": "Interrato · cantine, lavanderia e centrale termica"
+          }
+        ],
         "notes": [
-          "Quattro piante leggibili coprono terra, primo/sottotetto, interrato e autorimessa separata. Preservare soffitte, terrazza e centrale termica; posizione del box da ancorare alle piante di situazione/fotografie."
-        ]
+          "PT H2.70m; interrato e box H2.50m documentati; soffitte Hmin1.70/Hmax2.70 preservate senza chiamarle camere legali.",
+          "Quote pavimenti interrato-2.68/PT0/primo2.9 e spessori0.16m stimati.",
+          "Vuoto marcatoX e vano scala al primo piano conservati. Scale interne e rampa esterna omesse: proiezioni documentate ma quote, svolte e intradosso non ricostruiti con sufficiente supporto, nessun collegamento inventato.",
+          "Autorimessa registrata sotto corpo camerePT grazie al contorno a gradini e ingresso laterale ovest foto8; posizione in altezza e collegamento interno restano dedotti/non ricostruiti.",
+          "Copertura, camini, colonne e terreno dedotti da foto2/4/5/8; cortile ovest basso al piano box e giardino anteriore rialzato rappresentati separatamente. Estensioni indicative, senza perimetro di proprietà; muri di contenimento e raccordo delle quote omessi.",
+          "Scala uniforme stimata; nessuna superficie commerciale usata per forzare sagoma.",
+          "Photo-grounded schematic furnishings matched to photographed rooms; loft beds do not establish legal residential use.",
+          "Tre superfici indicative del giardino rialzato sono sostenute da prismi di terreno fino alla quota del cortile basso; spessore2.50m dedotto dalla quota stimata dei piani, nessun nuovo perimetro."
+        ],
+        "verifiedAt": "2026-10-13T22:25:45.255142+02:00",
+        "artifactSha256": "2fc168e1d26550ba89c9d7d2ffe5d38003d16ff4d60d45858b6cec9c17e62e3d",
+        "sourcePlans": [
+          {
+            "url": "https://pic.im-cdn.it/plan/129243456/xxl.jpg",
+            "label": "PLAN PT"
+          },
+          {
+            "url": "https://pic.im-cdn.it/plan/129243458/xxl.jpg",
+            "label": "PLAN PRIMO P"
+          },
+          {
+            "url": "https://pic.im-cdn.it/plan/129243460/xxl.jpg",
+            "label": "PLAN P-INT"
+          },
+          {
+            "url": "https://pic.im-cdn.it/plan/129243462/xxl.jpg",
+            "label": "PLAN BOX"
+          }
+        ],
+        "unrenderedVolumes": [
+          "Scale interne tra i tre livelli e rampa/gradini esterni: geometria verticale e intradossi non ricostruiti; vani e vuoti delle piante preservati.",
+          "Collegamento interno tra autorimessa e cantine, non concordante nelle tavole separate: omesso."
+        ],
+        "coverage": "partial",
+        "preview": "assets/duino-villa-129888594.jpg"
       },
       "evidence": {
-        "listingReadAt": "2026-10-11T17:33:08.122688+02:00",
-        "sourceUpdatedAt": "13/06/2026",
-        "method": "public_reader_and_chat",
-        "note": "Lettura pubblica/indicizzata; da sola non conferma la disponibilità attuale."
+        "listingReadAt": "2026-10-13T22:17:47.961584+02:00",
+        "sourceUpdatedAt": null,
+        "method": "direct_http",
+        "note": "Fonte identificativa dell’esatto immobile letta direttamente con HTTP200; dati discordanti o non confermati indicati nella scheda."
       }
     },
     {
@@ -3604,12 +3755,59 @@
         "reason": "La disponibilità attuale non è confermata: fonti bloccate, incomplete o non accessibili. La lettura indicizzata non equivale a verifica live."
       },
       "model": {
-        "status": "in_review",
-        "path": null,
-        "views": [],
+        "status": "ready",
+        "path": "modelli/aurisina-cave-77-b.html",
+        "views": [
+          {
+            "id": "exterior",
+            "label": "Esterno"
+          },
+          {
+            "id": "primo",
+            "label": "Primo piano"
+          },
+          {
+            "id": "terra",
+            "label": "Piano terra"
+          },
+          {
+            "id": "cantina",
+            "label": "Cantina: pianta autonoma senza collocazione sotto la casa"
+          }
+        ],
         "notes": [
-          "Le tre tavole della villetta coprono terra, primo e cantina; una quarta pianta leggibile del laboratorio, deposito e tettoia è stata acquisita dalla foto40 della galleria. Posizione del laboratorio nel giardino da ancorare alle fotografie; negozi e laboratorio restano destinazioni non abitative."
-        ]
+          "Absolute scale estimated from stated 1:50 A3 print format and presumed full-sheet image; page resampling not calibrated. Uniform scale and original proportions preserved; no commercial-area calibration.",
+          "Only exterior staircase observed in photographs00/01/37, reaching first-floor door. No fictitious internal stairs or slab holes.",
+          "Quarta pianta laboratorio/deposito/tettoia disponibile ma volume omesso per collocazione non dimostrabile.",
+          "Serrande esterne fotografiche coprono gruppi catastali porta/finestra in esterno; nascoste nei tagli."
+        ],
+        "verifiedAt": "2026-10-13T22:24:58.066757+02:00",
+        "artifactSha256": "e0bc0816b7c5f0caa7e5b41d5570098d50d71dc2c0a0c074dbe4f11cfa6083db",
+        "sourcePlans": [
+          {
+            "url": "https://pic.im-cdn.it/plan/134347614/xxl.jpg",
+            "label": "Foto 41"
+          },
+          {
+            "url": "https://pic.im-cdn.it/plan/134347616/xxl.jpg",
+            "label": "Foto 42"
+          },
+          {
+            "url": "https://pic.im-cdn.it/plan/134347620/xxl.jpg",
+            "label": "Foto 43"
+          },
+          {
+            "url": "https://pwm.im-cdn.it/image/2002997298/xxl.jpg",
+            "label": "Pianta laboratorio e deposito (foto40 della galleria)"
+          }
+        ],
+        "unrenderedVolumes": [
+          "Laboratorio marmo/deposito/tettoia70m²: pianta disponibile, ma collocazione rispetto alla casa non determinabile; non renderizzato.",
+          "Giardino1000m², confini e parcheggi esterni: assenza di planimetria del lotto; non renderizzati.",
+          "Posizione spaziale della cantina: pianta mostrata soltanto nella vista autonoma, senza attribuire un inserimento sotto un vano specifico."
+        ],
+        "coverage": "partial",
+        "preview": "assets/aurisina-cave-77-b.jpg"
       },
       "evidence": {
         "listingReadAt": "2026-10-11T17:33:09.397374+02:00",
@@ -3766,18 +3964,49 @@
         "reason": "La disponibilità attuale non è confermata: fonti bloccate, incomplete o non accessibili. La lettura indicizzata non equivale a verifica live."
       },
       "model": {
-        "status": "in_review",
-        "path": null,
-        "views": [],
+        "status": "ready",
+        "path": "modelli/via-umberto-veruda.html",
+        "views": [
+          {
+            "id": "exterior",
+            "label": "Esterno parziale senza copertura"
+          },
+          {
+            "id": "primo",
+            "label": "Primo piano"
+          },
+          {
+            "id": "terra",
+            "label": "Piano terra e deposito"
+          }
+        ],
         "notes": [
           "Due piante originali ricalcate in pixel e allineate senza specchiatura/deformazione.",
           "Scala uniforme dedotta dalla superficie24m² del deposito; dimensioni assolute indicative, non quote lineari.",
           "H documentate deposito3.19m, cucina2.94m, cantina2.74m, primo2.84m/ripostiglio2.54m; interpiano3.44m e gradini stimati.",
           "Deposito attrezzi conservato; garage solo ricavabile secondo annuncio. Nessuna attestazione di parcheggio o abitabilità dai mobili.",
           "Arredi/materiali dello stato fotografato, moquette conservata. Ultime3immagini promozionali di progetto escluse. Serramenti e arredi semplificati.",
-          "Confini giardini e raccordi tetto posteriori omessi. Sagoma frontale inferiore e curvatura dello spigolo semplificata.",
+          "Confini giardini e raccordi tetto posteriori omessi. Curva esterna e rientranze frontali PT ricalcate come poligoni originali, muro interno a spigolo retto come fonte.",
           "Disponibilità attuale non confermata da reader o homepage agenzia."
-        ]
+        ],
+        "verifiedAt": "2026-10-13T16:08:05.336509+02:00",
+        "artifactSha256": "91da3d4fd5c22f4a96bb606be187d542010cf3ed70ae42e5baa2b48e9d951f28",
+        "sourcePlans": [
+          {
+            "url": "https://pic.im-cdn.it/plan/122601493/xxl.jpg",
+            "label": "Veruda14_Planimetria 1"
+          },
+          {
+            "url": "https://pic.im-cdn.it/plan/122601497/xxl.jpg",
+            "label": "Veruda14_Planimetria 2"
+          }
+        ],
+        "unrenderedVolumes": [
+          "Giardini frontale e retrostante: confini e dislivelli non rappresentati nelle due piante.",
+          "Copertura: falde e raccordi posteriori non ricostruiti; foto promozionali di progetto escluse."
+        ],
+        "coverage": "partial",
+        "preview": "assets/via-umberto-veruda.jpg"
       },
       "evidence": {
         "listingReadAt": "2026-10-11T17:33:11.338476+02:00",
