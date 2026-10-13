@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-12T20:13:18.942369+02:00",
+  "updatedAt": "2026-10-13T16:02:24.087200+02:00",
   "properties": [
     {
       "id": "via-risano-raute",
@@ -429,16 +429,50 @@
         "reason": "Copia pubblica attiva con indirizzo22/1 e riferimento131503174 identici; prezzo attuale535000€ letto direttamente."
       },
       "model": {
-        "status": "in_review",
-        "path": null,
-        "views": [],
+        "status": "ready",
+        "path": "modelli/via-dei-salici-22-1.html",
+        "views": [
+          {
+            "id": "esterno",
+            "label": "Esterno"
+          },
+          {
+            "id": "sottotetto",
+            "label": "Sottotetto · mansarde e logge"
+          },
+          {
+            "id": "terra",
+            "label": "Piano terra"
+          },
+          {
+            "id": "interrato",
+            "label": "Interrato · taverna"
+          }
+        ],
         "notes": [
-          "Due immagini leggibili coprono tutti i tre livelli, giardini, porticati e accessi pedonale/carrabile.",
-          "Quote verticali: terra e interrato 2,50 m; sottotetto a quota variabile con linee di altezza 1,50/2,50 m.",
-          "Conservare mansarde e soffitte come indicate nella tavola, senza attribuire automaticamente abitabilità.",
-          "La descrizione recente quantifica esterni e taverna diversamente dalla chat: 80 m² davanti comprendendo 28 m² di parcheggio, circa 50 m² giardino principale e taverna 32 m². Verificare i dati prima di aggiornare la scheda.",
-          "Resta necessario il confronto fotografico."
-        ]
+          "Ricalco delle due tavole originali, con orientamento invariato. Scala assoluta stimata: 0,022m/pixel PT; 0,82 di tale scala per tavola2, ricavata dal vano scala comune. Nessuna deformazione separata degli assi.",
+          "Altezza libera PT e taverna 2,50m documentata; spessore solaio 0,18m e quota sottotetto 2,68m stimati. Mansarda con altezze variabili come pianta/fotografie; falde e quote gronde stimate.",
+          "Interrato soltanto sotto il corpo ovest; non esteso al sedime intero. Logge e corpi aggettanti conservati dalla pianta della mansarda.",
+          "Mansarda e soffitte mantengono destinazioni della pianta, senza dedurre abitabilità dal mobilio. Giardino e pavimentazioni schematici, confini dal disegno e altezze stimate.",
+          "Collegamento interrato/PT omesso, senza inventare prosecuzioni o ulteriori fori. La scala U PT/mansarda mantiene impronta, pianerottolo sud e arrivo nord documentati."
+        ],
+        "verifiedAt": "2026-10-13T10:18:41.943449+02:00",
+        "artifactSha256": "4703f6aaa509ea2b73e1f403dc23b7e5160f35c0510c6e485f84a1a3d41d02ed",
+        "sourcePlans": [
+          {
+            "url": "https://pic.im-cdn.it/plan/132092656/xxl.jpg",
+            "label": "Piano terra e pertinenze"
+          },
+          {
+            "url": "https://pic.im-cdn.it/plan/132092660/xxl.jpg",
+            "label": "Interrato e sottotetto"
+          }
+        ],
+        "unrenderedVolumes": [
+          "Prosecuzione del collegamento scala fra interrato e piano terra: la tavola inferiore ne rappresenta solo il tratto sotto la linea di taglio; collegamento non renderizzato."
+        ],
+        "coverage": "partial",
+        "preview": "assets/via-dei-salici-22-1.jpg"
       },
       "evidence": {
         "listingReadAt": "2026-10-12T20:00:05.102760+02:00",
@@ -493,14 +527,48 @@
         "reason": "Lettura pubblica indicizzata disponibile, ma accesso diretto bloccato o non sufficiente: disponibilità effettiva non verificata."
       },
       "model": {
-        "status": "in_review",
-        "path": null,
-        "views": [],
+        "status": "ready",
+        "path": "modelli/opicina-villa-126111987.html",
+        "views": [
+          {
+            "id": "exterior",
+            "label": "Esterno della casa principale"
+          },
+          {
+            "id": "terra",
+            "label": "Piano terra"
+          },
+          {
+            "id": "cantina",
+            "label": "Cantina (tavola catastale, scala omessa)"
+          }
+        ],
         "notes": [
-          "Due tavole catastali leggibili: abitazione al piano terra e piccola cantina interrata, con quote verticali 2,95 m e 2,20 m.",
-          "Sul sedime sono indicati subalterni 2 e 3 come rettangoli senza distribuzione, aperture o scale dettagliate; la descrizione menziona taverna e due magazzini.",
-          "La copertura dei locali accessori descritti non è identificabile integralmente. Non inventare interni dei subalterni non rappresentati."
-        ]
+          "Piano terra e singolo ambiente della cantina ricalcati dalle due tavole catastali.",
+          "Taverna con divisioni attuali, magazzini SUB.2/SUB.3 e scala esterna della cantina non renderizzati: geometria o raccordo non identificabili con certezza.",
+          "Scala orizzontale assoluta stimata da un vano porta, uniforme sui due disegni; nessuna deformazione degli assi o specchiatura.",
+          "Quote dei pavimenti, solai, posizione relativa cantina, bussola e tetto sono stime. Altezze libere principali2,95m e cantina2,20m dalla tavola.",
+          "Arredi essenziali dedotti dalle foto; seconda camera e dettagli non documentati sono stimati. La cantina mantiene la distribuzione della tavola, non le suddivisioni recenti fotografate."
+        ],
+        "verifiedAt": "2026-10-13T09:59:14.796622+02:00",
+        "artifactSha256": "b53a87868aaf810d2330f906e0bee781960133e4d53e1b3bfa7977231fc3158e",
+        "sourcePlans": [
+          {
+            "url": "https://pic.im-cdn.it/plan/121975469/xxl.jpg",
+            "label": "Planimetria Catastale via Fiordalisi 3 Opicina Tri"
+          },
+          {
+            "url": "https://pic.im-cdn.it/plan/122300559/xxl.jpg",
+            "label": "Planimetria Catastale via Fiordalisi 3 Opicina Tri"
+          }
+        ],
+        "unrenderedVolumes": [
+          "Taverna e sue divisioni attuali: fotografate ma non riportate nelle tavole, non renderizzate.",
+          "Magazzini/accessori SUB.2 e SUB.3: nella pianta sono soltanto sagome senza distribuzione e aperture, non renderizzati.",
+          "Scala esterna della cantina: le due tavole non consentono un raccordo certo tra quote e posizione; collegamento non renderizzato."
+        ],
+        "coverage": "partial",
+        "preview": "assets/opicina-villa-126111987.jpg"
       },
       "evidence": {
         "listingReadAt": "2026-10-11T17:33:28.146264+02:00",
@@ -998,7 +1066,8 @@
       "locality": "Trebiciano, Trieste",
       "address": null,
       "sourceUrls": [
-        "https://www.immobiliare.it/annunci/130356648/"
+        "https://www.immobiliare.it/annunci/130356648/",
+        "https://www.pozzeccoimmobiliare.it/index.php/property/localita-trebiciano-villa-unifamiliare-con-giardino-privato-e-accesso-auto/"
       ],
       "historicalPrices": [
         {
@@ -1012,8 +1081,8 @@
         "areaHabitableM2": 180,
         "areaWalkableM2": null,
         "areaCommercialM2": 213,
-        "areaNotes": "180 m² interni descritti come 70 + 70 + 40; 213 m² commerciali.",
-        "gardenM2": 300,
+        "areaNotes": "L’agenzia indica circa180m² interni (70+70+40) su tre livelli,210m² nell’intestazione; il portale precedente riporta213m². Il giardino è indicato in circa250–300m², oltre a portico45m² e terrazza11m². Le superfici non sono netti abitativi certificati.",
+        "gardenM2": null,
         "landM2": null,
         "parking": "Area per due auto.",
         "floors": 3,
@@ -1028,30 +1097,60 @@
           "Riscaldamento dichiarato: Autonomo, a pavimento, alimentato a metano"
         ],
         "limitations": [],
-        "description": "Villa indipendente a Trebiciano con 180 m² interni, giardino di 300 m² e parcheggio per due auto. È indicata come costruzione del 2012 con fotovoltaico da 6 kW e fermata della linea 51 a 50 metri."
+        "description": "Villa a Trebiciano, riferimento Pozzecco17/26, a595.000€. Tre livelli con circa180m² interni dichiarati, giardino circa250–300m², portico45m², terrazza11m² e accesso auto. Soffitta e cantina mantengono le destinazioni della pianta; superfici210/213m² delle intestazioni non sono assimilate automaticamente alla superficie abitativa netta.",
+        "gardenText": "Circa 250–300 m², dichiarati dall’agenzia."
       },
       "availability": {
-        "status": "unverified",
-        "checkedAt": null,
-        "reason": "Lettura pubblica indicizzata disponibile, ma accesso diretto bloccato o non sufficiente: disponibilità effettiva non verificata."
+        "status": "available",
+        "checkedAt": "2026-10-13T09:31:15.083330+02:00",
+        "reason": "Annuncio identificativo letto direttamente sul sito Pozzecco, codice17/26, testo e fotografie corrispondenti all’immobile130356648."
       },
       "model": {
-        "status": "in_review",
-        "path": null,
-        "views": [],
+        "status": "ready",
+        "path": "modelli/trebiciano-130356648.html",
+        "views": [
+          {
+            "id": "exterior",
+            "label": "Esterno"
+          },
+          {
+            "id": "soffitta",
+            "label": "Soffitta e terrazza"
+          },
+          {
+            "id": "terra",
+            "label": "Piano terra"
+          },
+          {
+            "id": "cantina",
+            "label": "Cantina"
+          }
+        ],
         "notes": [
-          "Una tavola catastale leggibile riunisce i tre livelli con scale interne, porte e finestre.",
-          "I locali inferiori sono etichettati cantina e quelli al primo piano comprendono soffitta, stanza e intercapedine: non convertire tutti i 180 m² interni in abitazione certificata.",
-          "Altezze indicate: interrato 2,40 m, terra 2,70 m, mansarda con valori variabili. Quote di pianta non sufficienti a dichiarare rilievo metrico.",
-          "La descrizione parla di parcheggio esterno; la caratteristica automatica box/posti auto contiene un dato discordante da chiarire.",
-          "Resta necessario il confronto fotografico."
-        ]
+          "Scala assoluta stimata con trasformazione isotropa 0,012m/pixel; scala grafica 1:100 senza misura della stampa. Nessuna correzione da superficie commerciale.",
+          "Altezza PT2,70m e cantina2,40m documentate; soffitta2,50/1,70/1,50m documentata; quote verticali e alzate stimate.",
+          "Soffitta e cantina mantengono destinazioni della tavola, non camere conformi. Cavità e intercapedini semplificate, dimensioni giardino e confini indicativi.",
+          "La tavola non è quotata metricamente: arredi, aperture verticali e dettagli del tetto dedotti dalle foto.",
+          "Superfici pubblicate:210m² agenzia e213m² portale; descrizione180m² interni70/70/40. Dati pubblici non superfici nette certificate.",
+          "Giardino250–300m²,portico45m² e terrazza11m² dai testi; confini e collocazione vegetazione sono indicativi."
+        ],
+        "verifiedAt": "2026-10-13T16:00:53.706947+02:00",
+        "artifactSha256": "fb32f847591c8d03a2a141e38ed33c9fad55276953ad230545a08b3cabeae9ac",
+        "sourcePlans": [
+          {
+            "url": "https://www.pozzeccoimmobiliare.it/wp-content/uploads/2026/06/planimetria-Trebiciano--scaled.png",
+            "label": "Tavola catastale di tre livelli — soffitta,piano terra,interrato"
+          }
+        ],
+        "unrenderedVolumes": [],
+        "coverage": "complete",
+        "preview": "assets/trebiciano-130356648.jpg"
       },
       "evidence": {
-        "listingReadAt": "2026-10-11T17:33:32.794751+02:00",
-        "sourceUpdatedAt": "12/08/2026",
-        "method": "public_reader_and_chat",
-        "note": "Lettura pubblica/indicizzata; da sola non conferma la disponibilità attuale."
+        "listingReadAt": "2026-10-13T09:31:15.083330+02:00",
+        "sourceUpdatedAt": null,
+        "method": "direct_http",
+        "note": "Annuncio identificativo letto direttamente sul sito Pozzecco, codice17/26, testo e fotografie corrispondenti all’immobile130356648."
       }
     },
     {
@@ -1597,16 +1696,58 @@
         "reason": "Lettura pubblica indicizzata disponibile, ma accesso diretto bloccato o non sufficiente: disponibilità effettiva non verificata."
       },
       "model": {
-        "status": "in_review",
-        "path": null,
-        "views": [],
+        "status": "ready",
+        "path": "modelli/via-alberto-puschi.html",
+        "views": [
+          {
+            "id": "exterior",
+            "label": "Esterno"
+          },
+          {
+            "id": "soffitta",
+            "label": "Primo piano · soffitta"
+          },
+          {
+            "id": "terra",
+            "label": "Piano terra"
+          },
+          {
+            "id": "cantina",
+            "label": "Cantina e box"
+          }
+        ],
         "notes": [
-          "Quattro immagini leggibili documentano sedime, terra, soffitta e seminterrato comprensivo del box.",
-          "La scala interna collega terra e soffitta; nel seminterrato non è disegnata una scala interna verso terra e la descrizione conferma accesso dal giardino. Non aggiungere un collegamento non rappresentato.",
-          "Il piano primo è denominato soffitta, non camera abitativa certificata; il dato dei 77 m² mansardati resta distinto dai 76 m² abitativi del terra.",
-          "Le piante sono schemi pubblicati senza quote planimetriche; scala assoluta da dichiarare stimata se non documentata da altre fonti.",
-          "Resta necessario il confronto fotografico."
-        ]
+          "Le proporzioni delle tre piante sono ricalcate senza specchiatura. Scala assoluta stimata: larghezza principale circa11m, nessuna quota metrica leggibile.",
+          "Scala interna e quote verticali stimate; scala stretta del vano soffitta e sbarco nel foro rappresentato. Gli schemi dei due piani non danno un rilievo metrico completo della scala.",
+          "Primo piano indicato come soffitta: tre ambienti, bagno e fascia est non denominata lasciata vuota. Nessuna attestazione di abitabilità.",
+          "Cantina, lisciaia, centrale termica e box conservano le destinazioni della pianta. Nessun collegamento interno verso il piano terra inventato.",
+          "Tetto, portico/veranda e dislivelli esterni dedotti dalle fotografie; confini e quote del terreno indicativi."
+        ],
+        "verifiedAt": "2026-10-13T09:31:32.948378+02:00",
+        "artifactSha256": "d8c5824dfcf266f6dd29471e9b8dbc46bf4dbbdbdee2713824353c889dd51587",
+        "sourcePlans": [
+          {
+            "url": "https://pic.im-cdn.it/plan/124246624/xxl.jpg",
+            "label": "Sedime e giardino"
+          },
+          {
+            "url": "https://pic.im-cdn.it/plan/124249372/xxl.jpg",
+            "label": "Piano terra"
+          },
+          {
+            "url": "https://pic.im-cdn.it/plan/124246626/xxl.jpg",
+            "label": "Primo piano · soffitta"
+          },
+          {
+            "url": "https://pic.im-cdn.it/plan/124246630/xxl.jpg",
+            "label": "Cantina e box"
+          }
+        ],
+        "unrenderedVolumes": [
+          "Scala esterna del portico: attacco nello schema e fotografie da chiarire; non renderizzata."
+        ],
+        "coverage": "partial",
+        "preview": "assets/via-alberto-puschi.jpg"
       },
       "evidence": {
         "listingReadAt": "2026-10-11T17:33:35.147455+02:00",
@@ -3027,7 +3168,8 @@
       "locality": "Opicina, Trieste",
       "address": "Via dei Papaveri 3/16",
       "sourceUrls": [
-        "https://www.immobiliare.it/annunci/133093042/"
+        "https://www.immobiliare.it/annunci/133093042/",
+        "https://www.trovacasa.it/annunci/ts-tc-77909-73363655"
       ],
       "historicalPrices": [
         {
@@ -3065,23 +3207,65 @@
         "description": "Villetta di testa a Opicina con 192 m² distribuiti su quattro livelli, quattro camere e tre bagni, box e posto esterno. Ha un giardino privato con barbecue di metratura non dichiarata; la linea 4 serve la via."
       },
       "availability": {
-        "status": "unverified",
-        "checkedAt": "2026-10-11T17:31:21.624137+02:00",
-        "reason": "La disponibilità attuale non è confermata: fonti bloccate, incomplete o non accessibili. La lettura indicizzata non equivale a verifica live."
+        "status": "available",
+        "checkedAt": "2026-10-13T09:03:51.885102+02:00",
+        "reason": "Copia esatta dell’annuncio letta direttamente su TrovaCasa: Via dei Papaveri3/16, riferimentoPAPVERI316 e prezzo375.000€ corrispondenti."
       },
       "model": {
-        "status": "in_review",
-        "path": null,
-        "views": [],
+        "status": "ready",
+        "path": "modelli/via-dei-papaveri-3-16.html",
+        "views": [
+          {
+            "id": "exterior",
+            "label": "Esterno"
+          },
+          {
+            "id": "soffitta",
+            "label": "Secondo piano (soffitta)"
+          },
+          {
+            "id": "primo",
+            "label": "Primo piano"
+          },
+          {
+            "id": "terra",
+            "label": "Piano terra"
+          },
+          {
+            "id": "sottostrada",
+            "label": "Sottostrada (garage/SUB.2 omesso)"
+          }
+        ],
         "notes": [
-          "Due tavole leggibili coprono i quattro livelli: piano sotto strada, terra, primo e soffitta. Escludere l’altra unità confinante indicata. Il volume al seminterrato va confrontato con le foto per distinguere box da loccia/cantina senza modificarne il contorno."
-        ]
+          "Quattro livelli e pertinenze leggibili nelle due tavole originali: sottostrada, terra, primo piano e soffitta.",
+          "Garage annunciato non renderizzato: la tavola non attribuisce con certezza il volume SUB.2 al box fotografato.",
+          "Scala orizzontale assoluta stimata; ricalco uniforme e orientamento conservati. Alzate, spessore solai, giardino e ingombri degli arredi non quotati sono stime.",
+          "La destinazione del secondo piano resta soffitta; gli arredi fotografati non ne attestano l’abitabilità.",
+          "Altezza del bagno al primo piano dedotta dalle foto e quote laterali2,65m; annotazione centrale1,50m della tavola non interpretata come altezza uniforme. Distribuzione invariata."
+        ],
+        "verifiedAt": "2026-10-13T09:31:12.946188+02:00",
+        "artifactSha256": "cd8c6286d6afe70574f5767e88470be664aed27ef59e864cb926b81ab8d14ab9",
+        "sourcePlans": [
+          {
+            "url": "https://pic.im-cdn.it/plan/135395338/xxl.jpg",
+            "label": "Plan Sito 2"
+          },
+          {
+            "url": "https://pic.im-cdn.it/plan/135395344/xxl.jpg",
+            "label": "Plan Sito 1"
+          }
+        ],
+        "unrenderedVolumes": [
+          "Garage annunciato / volume SUB.2 al sottostrada: le tavole non attribuiscono con certezza il box a quel contorno; volume e portone non renderizzati."
+        ],
+        "coverage": "partial",
+        "preview": "assets/via-dei-papaveri-3-16.jpg"
       },
       "evidence": {
-        "listingReadAt": "2026-10-11T17:33:06.343191+02:00",
-        "sourceUpdatedAt": "30/09/2026",
-        "method": "public_reader_and_chat",
-        "note": "Lettura pubblica/indicizzata; da sola non conferma la disponibilità attuale."
+        "listingReadAt": "2026-10-13T09:03:51.885102+02:00",
+        "sourceUpdatedAt": null,
+        "method": "direct_http",
+        "note": "Copia esatta dell’annuncio letta direttamente su TrovaCasa: Via dei Papaveri3/16, riferimentoPAPVERI316 e prezzo375.000€ corrispondenti."
       }
     },
     {
@@ -3440,7 +3624,8 @@
       "locality": "Malchina, Duino Aurisina",
       "address": "Malchina 1",
       "sourceUrls": [
-        "https://www.immobiliare.it/annunci/132448210/"
+        "https://www.immobiliare.it/annunci/132448210/",
+        "https://www.trovacasa.it/annunci/ts-tc-93198-73138975"
       ],
       "historicalPrices": [
         {
@@ -3475,23 +3660,63 @@
         "description": "Casa a Malchina con 130 m² di abitazione e spazio esterno dichiarato di 400 m², comprendendo parcheggi fino a cinque auto. La metratura verde e il percorso verso la linea 43 restano da accertare."
       },
       "availability": {
-        "status": "unverified",
-        "checkedAt": "2026-10-11T17:31:22.517753+02:00",
-        "reason": "La disponibilità attuale non è confermata: fonti bloccate, incomplete o non accessibili. La lettura indicizzata non equivale a verifica live."
+        "status": "available",
+        "checkedAt": "2026-10-13T15:32:27.200468+02:00",
+        "reason": "Copia pubblica identificativa dell’esatto immobile letta direttamente con HTTP200."
       },
       "model": {
-        "status": "in_review",
-        "path": null,
-        "views": [],
+        "status": "ready",
+        "path": "modelli/malchina-1.html",
+        "views": [
+          {
+            "id": "exterior",
+            "label": "Esterno"
+          },
+          {
+            "id": "abitazione",
+            "label": "Primo piano · abitazione e veranda"
+          },
+          {
+            "id": "ristorante",
+            "label": "Piano terra · ristorante C/1"
+          }
+        ],
         "notes": [
-          "Due tavole catastali leggibili coprono ristorante al piano terra e abitazione al primo piano, incluse cantina, centrale termica, veranda e scale. Il ristorante C/1 resta distinto dall’abitazione. Le dimensioni assolute sono da calibrare/stimare senza deformare le piante."
-        ]
+          "Modello 3D parziale: distribuzione delle due tavole catastali del1986, non conferma dello stato attuale.",
+          "Ristorante C/1 distinto dall’abitazione; nessuna conversione residenziale rappresentata.",
+          "Scala assoluta uniforme0.033m/px stimata; altezze, falde, portico e terreno dedotti/stimati.",
+          "Scale discordanti nelle piante e nella foto rettilinea: gradini omessi, foro documentato preservato.",
+          "Usi delle stanze fotografate non sempre concordano con etichette storiche; arredi con assegnazione incerta omessi.",
+          "Interni dei corpi inferiori non presenti nelle tavole ristorante e garage/pertinenze isolate omessi.",
+          "Portico fotografico sul lato corto con porta e due finestre; facciata stradale libera.",
+          "Chromium desktop/mobile emulato; nessuna prova su dispositivi fisici, nessun rilievo metrico."
+        ],
+        "verifiedAt": "2026-10-13T15:42:35.262672+02:00",
+        "artifactSha256": "4b04d8f37ff3da7faed7bf3c0836d3c46e5bdcef3a20af7f3355b3a3ba6860a4",
+        "sourcePlans": [
+          {
+            "url": "https://pic.im-cdn.it/plan/134550004/xxl.jpg",
+            "label": "Planimetria_4 1"
+          },
+          {
+            "url": "https://pic.im-cdn.it/plan/134550006/xxl.jpg",
+            "label": "Planimetria_2 (9) 1"
+          }
+        ],
+        "unrenderedVolumes": [
+          "Scale di collegamento: piante1986 con proiezioni discordanti rispetto alla scala fotografata; gradini non renderizzati.",
+          "Interni del locale di accesso/cantina dell’abitazione e dei corpi inferiori non presenti nella tavola del ristorante: solo sagome esterne dedotte.",
+          "Garage e pertinenze isolate visibili nelle foto: non identificati nelle piante pubblicate, non renderizzati.",
+          "Gradini e modifiche interne della veranda rispetto alla pianta storica: non renderizzati."
+        ],
+        "coverage": "partial",
+        "preview": "assets/malchina-1.jpg"
       },
       "evidence": {
-        "listingReadAt": "2026-10-11T17:33:10.181675+02:00",
-        "sourceUpdatedAt": "17/09/2026",
-        "method": "public_reader_and_chat",
-        "note": "Lettura pubblica/indicizzata; da sola non conferma la disponibilità attuale."
+        "listingReadAt": "2026-10-13T15:32:27.200468+02:00",
+        "sourceUpdatedAt": null,
+        "method": "direct_http",
+        "note": "Copia TrovaCasa identificata come esatto immobile, letta direttamente; i dati non confermati restano indicati."
       }
     },
     {
@@ -3545,7 +3770,13 @@
         "path": null,
         "views": [],
         "notes": [
-          "Due tavole leggibili dello stato esistente coprono entrambi i piani, deposito attrezzi comunicante, cantina e terrazzi; sono riportate altezze diverse dei vani. Non rappresentare ipotesi pubblicitarie di frazionamento o nuove aperture."
+          "Due piante originali ricalcate in pixel e allineate senza specchiatura/deformazione.",
+          "Scala uniforme dedotta dalla superficie24m² del deposito; dimensioni assolute indicative, non quote lineari.",
+          "H documentate deposito3.19m, cucina2.94m, cantina2.74m, primo2.84m/ripostiglio2.54m; interpiano3.44m e gradini stimati.",
+          "Deposito attrezzi conservato; garage solo ricavabile secondo annuncio. Nessuna attestazione di parcheggio o abitabilità dai mobili.",
+          "Arredi/materiali dello stato fotografato, moquette conservata. Ultime3immagini promozionali di progetto escluse. Serramenti e arredi semplificati.",
+          "Confini giardini e raccordi tetto posteriori omessi. Sagoma frontale inferiore e curvatura dello spigolo semplificata.",
+          "Disponibilità attuale non confermata da reader o homepage agenzia."
         ]
       },
       "evidence": {

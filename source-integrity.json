@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "catalogSha256": "33525d9708dcc454a910d2a7728ca909100186bfc702b122aa0dcd55a7c529df",
+  "catalogSha256": "ac079c335abd6f6b37c23eb7afd76cde1bcdf1406ef634f113e6727c7c4f3d7c",
   "models": [
+    {
+      "id": "via-dei-salici-22-1",
+      "path": "modelli/via-dei-salici-22-1.html",
+      "sha256": "4703f6aaa509ea2b73e1f403dc23b7e5160f35c0510c6e485f84a1a3d41d02ed",
+      "coverage": "partial"
+    },
+    {
+      "id": "opicina-villa-126111987",
+      "path": "modelli/opicina-villa-126111987.html",
+      "sha256": "b53a87868aaf810d2330f906e0bee781960133e4d53e1b3bfa7977231fc3158e",
+      "coverage": "partial"
+    },
     {
       "id": "erta-di-sant-anna",
       "path": "modelli/erta-di-sant-anna.html",
@@ -9,10 +21,22 @@
       "coverage": "complete"
     },
     {
+      "id": "trebiciano-130356648",
+      "path": "modelli/trebiciano-130356648.html",
+      "sha256": "fb32f847591c8d03a2a141e38ed33c9fad55276953ad230545a08b3cabeae9ac",
+      "coverage": "complete"
+    },
+    {
       "id": "basovizza-563-1",
       "path": "modelli/basovizza-563-1.html",
       "sha256": "911c9c06fc7defdb6bb76bd297c7d1777cb9267de46fc8cdcc6d8f21e706b7bb",
       "coverage": "complete"
+    },
+    {
+      "id": "via-alberto-puschi",
+      "path": "modelli/via-alberto-puschi.html",
+      "sha256": "d8c5824dfcf266f6dd29471e9b8dbc46bf4dbbdbdee2713824353c889dd51587",
+      "coverage": "partial"
     },
     {
       "id": "via-dei-cardi-19",
@@ -33,29 +57,53 @@
       "coverage": "complete"
     },
     {
+      "id": "via-dei-papaveri-3-16",
+      "path": "modelli/via-dei-papaveri-3-16.html",
+      "sha256": "cd8c6286d6afe70574f5767e88470be664aed27ef59e864cb926b81ab8d14ab9",
+      "coverage": "partial"
+    },
+    {
       "id": "malchina-47-a",
       "path": "modelli/malchina-47-a.html",
       "sha256": "7cd8572a440faf7a8e158a62910f285887ac4ec9f4e73e1327e75f2dbc75f631",
       "coverage": "partial"
+    },
+    {
+      "id": "malchina-1",
+      "path": "modelli/malchina-1.html",
+      "sha256": "4b04d8f37ff3da7faed7bf3c0836d3c46e5bdcef3a20af7f3355b3a3ba6860a4",
+      "coverage": "partial"
     }
   ],
   "files": {
-    "app.js": "796c789ae051e49dc66a30f1ea1e17f479543b178c519b211144cf029841bc29",
+    "app.js": "2ac7f5a43ed29188f90b3f081fd60b61ab541a183b64a6a446b2263b677d1aff",
     "assets/aurisina.jpg": "1518e127584b20648f2fdaff3e036dfadb0a3f90095abfbc6978b3ddc0e98416",
     "assets/basovizza-563-1.jpg": "496d91aafa50336957c447a46654450a3966dbd67e496678ab534ca55dc832d3",
     "assets/erta-di-sant-anna.jpg": "825be73f01ddc3e26eec5f018b0048ac1c621feede1abb56bde2d133da09ca2a",
     "assets/favicon.svg": "0dcd3a8f383feed59d693b65c3723f0c3988232a25a6d4ba5b6752106735937b",
+    "assets/malchina-1.jpg": "57f175a4737fa68a2400f96b2729b013f15d2121a0250091cfb7237ac676226e",
     "assets/malchina-47-a.jpg": "f3126df84a766acee5ec46fad9c5952e7dda37d214b63aba8a9e03529bd832d3",
     "assets/muggia.jpg": "a651192e5b5659a4ee52c170f8386b4edc399e0116f4dbc84d07728c8ce0b322",
+    "assets/opicina-villa-126111987.jpg": "b301c1ae357bc830355e992b5b06d0a691122296c1921efef4a3edcb52f948c9",
+    "assets/trebiciano-130356648.jpg": "19edababc7797fa7b0c67884b1dd2905fc3a707b5cc79f98270b0bafc091438d",
+    "assets/via-alberto-puschi.jpg": "6a103904e2c166d9f3d1ff541b36939d4afbe2d9c245e5fd8bd62380543bedf1",
     "assets/via-dei-cardi-19.jpg": "5db6218512e9ee9ba03511560a30bf44260f5879b2157322d914ff997af55de3",
-    "data/catalog.json": "33525d9708dcc454a910d2a7728ca909100186bfc702b122aa0dcd55a7c529df",
-    "index.html": "c20d53b37b7a7aa2f886de6f19688b1d728abf66b20bd7e1714d9b2813c4e6cb",
+    "assets/via-dei-papaveri-3-16.jpg": "ea57cc056978495dbad2ed1c40ea40f5be3b80955fc60671e073ad701436a114",
+    "assets/via-dei-salici-22-1.jpg": "b664be63f138fe0e7ac87a7a287201de043112115ea566d9e0ab492ce60f5848",
+    "data/catalog.json": "ac079c335abd6f6b37c23eb7afd76cde1bcdf1406ef634f113e6727c7c4f3d7c",
+    "index.html": "3bf3a1bcbeec3133d6b48422279d0c362e9ce859102771c9b0a0f6c904e38aa7",
     "modelli/aurisina.html": "f0fd039a9ffa7a3af5bfacdec647f0e900e7eb97622d23bff46e64761e885c97",
     "modelli/basovizza-563-1.html": "911c9c06fc7defdb6bb76bd297c7d1777cb9267de46fc8cdcc6d8f21e706b7bb",
     "modelli/erta-di-sant-anna.html": "3d10ae00850b577a6a968814ed0638b195d72077a55461c1200dd72a3e63e309",
+    "modelli/malchina-1.html": "4b04d8f37ff3da7faed7bf3c0836d3c46e5bdcef3a20af7f3355b3a3ba6860a4",
     "modelli/malchina-47-a.html": "7cd8572a440faf7a8e158a62910f285887ac4ec9f4e73e1327e75f2dbc75f631",
     "modelli/muggia.html": "65fae07758772b33b9f6438193df3bb1a45a0e7596270692f62d6788feb23d1e",
+    "modelli/opicina-villa-126111987.html": "b53a87868aaf810d2330f906e0bee781960133e4d53e1b3bfa7977231fc3158e",
+    "modelli/trebiciano-130356648.html": "fb32f847591c8d03a2a141e38ed33c9fad55276953ad230545a08b3cabeae9ac",
+    "modelli/via-alberto-puschi.html": "d8c5824dfcf266f6dd29471e9b8dbc46bf4dbbdbdee2713824353c889dd51587",
     "modelli/via-dei-cardi-19.html": "3174dce9cab4d08842feacf57cd4929c58e39539f013e9c5866ace072b83c4d6",
+    "modelli/via-dei-papaveri-3-16.html": "cd8c6286d6afe70574f5767e88470be664aed27ef59e864cb926b81ab8d14ab9",
+    "modelli/via-dei-salici-22-1.html": "4703f6aaa509ea2b73e1f403dc23b7e5160f35c0510c6e485f84a1a3d41d02ed",
     "styles.css": "879968aa4b98499d6ae7426ed5a63c57b2cf4b65b2948a35b56ebc2980722480"
   }
 }
