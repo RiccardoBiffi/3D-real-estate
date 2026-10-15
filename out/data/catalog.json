@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-13T22:34:31.280436+02:00",
+  "updatedAt": "2026-10-16T00:24:59.084784+02:00",
   "properties": [
     {
       "id": "via-risano-raute",
@@ -2010,12 +2010,48 @@
         "reason": "La disponibilità attuale non è confermata: fonti bloccate, incomplete o non accessibili. La lettura indicizzata non equivale a verifica live."
       },
       "model": {
-        "status": "in_review",
-        "path": null,
-        "views": [],
+        "status": "ready",
+        "path": "modelli/via-angelo-de-valentini-10.html",
+        "views": [
+          {
+            "id": "exterior",
+            "label": "Esterno parziale: copertura omessa"
+          },
+          {
+            "id": "primo",
+            "label": "Primo piano: camere, studio e poggiolo"
+          },
+          {
+            "id": "terra",
+            "label": "Piano terra e bussola verandata"
+          }
+        ],
         "notes": [
-          "Acquisita una tavola leggibile con piano terra e primo piano. Mancano le piante del seminterrato/taverna e della soffitta con abbaini descritti nell’annuncio, oltre a deposito/cantina esterno e casetta attrezzi. La scheda del portale riporta due piani mentre il testo ne descrive quattro; parcheggio soltanto ricavabile."
-        ]
+          "Due livelli ricalcati da unica tavola pubblicata; assi invariati, scala uniforme stimata0.023m/pixel, nessuna quota o calibrazione metrica.",
+          "Altezze liberePT2.80m/primo2.70m, quota primo3.00m e spessori0.16m stimati; gradini ingresso3 da foto, alzata stimata0.20m.",
+          "Seminterrato/taverna, soffitta e copertura, deposito/cantina esterno e casetta attrezzi omessi per mancanza di piante e sagoma completa. Esterno parziale terminato con taglio superiore al primo piano.",
+          "Scala interna omessa: proiezioni PT/primo discordanti, nessuna connessione inventata; foro scala primo ricalcato e mantenuto aperto.",
+          "La foto interna della soffitta non definisce il perimetro e non autorizza abbaini inventati.",
+          "Terrazza anteriore e giardino postico indicativi da foto, senza confine di proprietà; nessun posto auto esistente o piscina fissa inventati.",
+          "Facciata giallo chiaro, infissi alluminio, terrazza verandata e poggiolo con ringhiera metallica come fotografie; dettagli arco, persiane, zoccolo pietra e finiture semplificati.",
+          "Arredi principali schematici da fotografie, libreria/salotto/cucina/camere; nessuna pretesa di fotogrammetria o fotorealismo misurato."
+        ],
+        "verifiedAt": "2026-10-16T00:24:58.991410+02:00",
+        "artifactSha256": "68ef52f2f5126f4bfe6896c10bba482f2fbe3dcf1a49c6254064339fdd06f00f",
+        "sourcePlans": [
+          {
+            "url": "https://pic.im-cdn.it/plan/133803352/xxl.jpg",
+            "label": "cattura wmk 0"
+          }
+        ],
+        "unrenderedVolumes": [
+          "Seminterrato e taverna climatizzata: manca la pianta.",
+          "Soffitta con abbaini e volume della copertura: mancano pianta e sagoma esterna completa; taglio superiore al primo piano.",
+          "Deposito/cantina esterno e casetta per attrezzi: piante mancanti.",
+          "Scala interna e collegamenti ai livelli omessi: proiezioni PT/primo non concordanti e quote mancanti; foro primo preservato."
+        ],
+        "coverage": "partial",
+        "preview": "assets/via-angelo-de-valentini-10.jpg"
       },
       "evidence": {
         "listingReadAt": "2026-10-11T17:32:00.181694+02:00",
@@ -2962,12 +2998,44 @@
         "reason": "La disponibilità attuale non è confermata: fonti bloccate, incomplete o non accessibili. La lettura indicizzata non equivale a verifica live."
       },
       "model": {
-        "status": "in_review",
-        "path": null,
-        "views": [],
+        "status": "ready",
+        "path": "modelli/sistiana-10.html",
+        "views": [
+          {
+            "id": "exterior",
+            "label": "Esterno",
+            "level": null
+          },
+          {
+            "id": "primo",
+            "label": "Primo piano",
+            "level": 1
+          },
+          {
+            "id": "terra",
+            "label": "Piano terra",
+            "level": 0
+          }
+        ],
         "notes": [
-          "La tavola catastale 2015 è leggibile nei due piani, ma va verificata rispetto alla ristrutturazione successiva descritta nell’annuncio: la soffitta uso deposito menzionata non è distinta chiaramente. Serve conferma del perimetro e della distribuzione dello stato attuale prima del modello."
-        ]
+          "Ricostruzione parziale basata sulla tavola catastale 2015 pubblicata: distribuzione dello stato ristrutturato attuale da confermare.",
+          "Persiane verdi delle finestre frontali e laterale superiore osservate nelle fotografie; le altre finiture sono semplificate. Alcune immagini dell’annuncio sono etichettate come generate con AI e non sono usate per modificare la geometria della pianta.",
+          "Scala orizzontale uniforme stimata 0,06 m/pixel; altezze e dettaglio degli arredi indicativi. Soffitta e porticato auto omessi."
+        ],
+        "verifiedAt": "2026-10-16T00:24:58.991410+02:00",
+        "artifactSha256": "5b66af265d6015c3db325fc99dff0330d2a57018b76ae7108f576be2d6a812a0",
+        "sourcePlans": [
+          {
+            "url": "https://pic.im-cdn.it/plan/131048416/xxl.jpg",
+            "label": "PLN_233483521_1"
+          }
+        ],
+        "unrenderedVolumes": [
+          "Soffitta uso deposito citata nell’annuncio: non distinta nella pianta catastale 2015, non renderizzata.",
+          "Porticato per posti auto e pertinenze esterne non delimitate dalla pianta 2015: sedime e ingombri non verificabili, non renderizzati."
+        ],
+        "coverage": "partial",
+        "preview": "assets/sistiana-10.jpg"
       },
       "evidence": {
         "listingReadAt": "2026-10-11T17:32:35.851960+02:00",
@@ -3412,12 +3480,64 @@
         "reason": "La disponibilità attuale non è confermata: fonti bloccate, incomplete o non accessibili. La lettura indicizzata non equivale a verifica live."
       },
       "model": {
-        "status": "in_review",
-        "path": null,
-        "views": [],
+        "status": "ready",
+        "path": "modelli/via-dello-scoglio-173.html",
+        "views": [
+          {
+            "id": "exterior",
+            "label": "Esterno"
+          },
+          {
+            "id": "primo",
+            "label": "Primo piano"
+          },
+          {
+            "id": "terra",
+            "label": "Piano terra"
+          },
+          {
+            "id": "interrato",
+            "label": "Seminterrato"
+          },
+          {
+            "id": "box",
+            "label": "Box auto: vista autonoma"
+          },
+          {
+            "id": "cantina-box",
+            "label": "Cantina box: vista autonoma"
+          }
+        ],
         "notes": [
-          "Tre tavole leggibili coprono terra, interrato, primo piano e corpo indipendente cantina/box su due livelli. I terrapieni e le due scale restano separati come disegnati. Servono confronto delle foto e calibrazione delle tavole prima della ricostruzione."
-        ]
+          "Each house diagram uses one uniform estimated scale. Front body width aligned by common envelope; original offsets, proportions and axes retained. Stair depictions differ after this alignment, so flights/connections omitted rather than distorted.",
+          "Two documented internal staircases (main wood/iron and separate iron basement stair). Source footprints retained as actual slab voids where drawn; vertical flights omitted due conflicting registered plan footprints.",
+          "Casa su3livelli ricalcati; corpo garage/cantina su2livelli mostrato autonomamente. Nessuna posa spaziale inventata.",
+          "Giardino della tavola piano terra ricostruito, cortile rialzato100mq non collocabile.",
+          "Tre fonti planimetriche contengono cinque diagrammi,24foto esatte acquisite; direct listing403, webtool testo accessibile e CDN pubblico200."
+        ],
+        "verifiedAt": "2026-10-16T00:24:36.225807+02:00",
+        "artifactSha256": "09affd7a97697f4fa40025a4eca394d46186b7f1f7d8f53b6c6d44c0dfd5d789",
+        "sourcePlans": [
+          {
+            "url": "https://pic.im-cdn.it/plan/132851160/xxl.jpg",
+            "label": "2 planimetria per pubblicita 1"
+          },
+          {
+            "url": "https://pic.im-cdn.it/plan/132851162/xxl.jpg",
+            "label": "2 planimetria per pubblicita 2"
+          },
+          {
+            "url": "https://pic.im-cdn.it/plan/132851164/xxl.jpg",
+            "label": "2 planimetria per pubblicita 3"
+          }
+        ],
+        "unrenderedVolumes": [
+          "Posizione del corpo garage/cantina rispetto alla villa: non documentata nel lotto; ricostruito soltanto nelle due viste autonome.",
+          "Rampe e collegamenti delle due scale interne: impronte non allineabili con certezza fra piante; nessun collegamento inventato. Fori documentati mostrati nei piani superiori.",
+          "Cortile rialzato di accesso100mq, confini di pertinenze non disegnati e rapporto col garage: non ricostruiti."
+        ],
+        "coverage": "partial",
+        "preview": "assets/via-dello-scoglio-173.jpg"
       },
       "evidence": {
         "listingReadAt": "2026-10-11T17:33:06.952684+02:00",
