@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogSha256": "10f7dd7036c27c1285147d9b9ae69d3e4dcfe80e15afe1373d1d50d9e1fed330",
+  "catalogSha256": "1a8c8a02929283c92437d1e8d0cf2ee2fe7860d0b7e8581e3bf99ea3de92cc12",
   "models": [
     {
       "id": "via-dei-salici-22-1",
@@ -146,7 +146,7 @@
     "assets/via-dello-scoglio-173.jpg": "cfa322c3fc791706ddc75f4edd6fc637cfd37aa2f2e004c7fdf93fd9188e2cad",
     "assets/via-monte-carso.jpg": "829824df3107f5117c93a427356df13d41b6be8f8e84e1352b76c8e02d26b813",
     "assets/via-umberto-veruda.jpg": "4cd065df3d647eb25d267fe5f48b098de7169b267dbe6ff6a5a11eb8f3d622b3",
-    "data/catalog.json": "10f7dd7036c27c1285147d9b9ae69d3e4dcfe80e15afe1373d1d50d9e1fed330",
+    "data/catalog.json": "1a8c8a02929283c92437d1e8d0cf2ee2fe7860d0b7e8581e3bf99ea3de92cc12",
     "index.html": "3bf3a1bcbeec3133d6b48422279d0c362e9ce859102771c9b0a0f6c904e38aa7",
     "modelli/aurisina-cave-77-b.html": "e0bc0816b7c5f0caa7e5b41d5570098d50d71dc2c0a0c074dbe4f11cfa6083db",
     "modelli/aurisina.html": "f0fd039a9ffa7a3af5bfacdec647f0e900e7eb97622d23bff46e64761e885c97",

@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Regression fixtures for source errors, appended messages, identity and release guards."""
 import copy,importlib.util,json,tempfile,unittest
+from unittest.mock import patch
 from pathlib import Path
 
 HERE=Path(__file__).resolve().parent
@@ -37,6 +38,45 @@ class Workflow(unittest.TestCase):
         previous={'lastSuccessful':{'versionId':'old-native-version','catalogSha256':'old-hash'}};candidate={'commitSha':'new-sha','catalogSha256':'new-hash','checksPassed':True,'deployedFilesMatched':False};failed={'id':'native-deployment','version_id':'native-version','status':'failed','failure_message':'fixture upload failure'}
         result=release.record(previous,candidate,failed);self.assertEqual(result['lastSuccessful'],previous['lastSuccessful']);self.assertEqual(result['lastAttempt']['status'],'failed');self.assertEqual(previous,{'lastSuccessful':{'versionId':'old-native-version','catalogSha256':'old-hash'}})
         failed.update(status='succeeded',url='https://example.org');self.assertRaises(ValueError,release.record,previous,candidate,failed)
+    def test_confirmed_archive_survives_errors_but_active_listing_reopens(self):
+        self.assertEqual(sources.conclude([{'state':'blocked'}],previous_unavailable=True)[0],'unavailable')
+        self.assertEqual(sources.conclude([{'state':'uncertain'}],previous_unavailable=True)[0],'unavailable')
+        self.assertEqual(sources.conclude([{'state':'active'}],previous_unavailable=True)[0],'available')
+    def test_search_collection_cannot_prove_an_exact_listing_is_active(self):
+        class Response:
+            status=200
+            def __init__(self,url):self.url=url
+            def read(self,*args):return b'<html>price EUR 519000; camere; superficie</html>'
+            def __enter__(self):return self
+            def __exit__(self,*args):pass
+        examples=[('https://www.idealista.it/vendita-case/muggia-trieste/con-ville/','uncertain'),('https://www.idealista.it/geo/vendita-case/fontanella/','uncertain'),('https://www.idealista.it/immobile/35710865/','active'),('https://www.tecnocasa.it/vendita/ville/trieste/trieste/61221689.html','active')]
+        for url,expected in examples:
+            with patch.object(sources,'urlopen',return_value=Response(url)):
+                self.assertEqual(sources.check(url)['state'],expected)
+    def test_archive_and_last_active_evidence_survive_repeated_blocked_runs(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root=Path(tmp);prop={'id':'house','sourceUrls':['https://example.org/house']};path=root/'house.json'
+            with patch.object(sources,'check',return_value={'state':'blocked'}),patch.object(sources.time,'sleep'):
+                path.write_text(json.dumps({'conclusion':'unavailable','checkedAt':'2026-10-11T12:00:00+02:00'}))
+                self.assertEqual(sources.run(prop,root)['conclusion'],'unavailable')
+                self.assertEqual(sources.run(prop,root)['conclusion'],'unavailable')
+                path.write_text(json.dumps({'conclusion':'available','checkedAt':'2026-10-13T12:00:00+02:00'}))
+                for _ in range(2):
+                    result=sources.run(prop,root)
+                    self.assertEqual(result['conclusion'],'unverified')
+                    self.assertEqual(result['lastConfirmedAvailability']['checkedAt'],'2026-10-13T12:00:00+02:00')
+    def test_unverified_and_archived_listings_keep_last_observed_facts(self):
+        inv,cp=self.base();inv,cp,_=imports.merge(inv,cp,{'chatId':'source','messages':[self.message()]})
+        with tempfile.TemporaryDirectory() as tmp:
+            root=Path(tmp);(root/'live-facts').mkdir();(root/'source-checks').mkdir()
+            (root/'live-facts/via-esempio-4.json').write_text(json.dumps({'checkedAt':'2026-10-13T12:00:00+02:00','facts':{'priceEur':345000,'parking':'Box'},'sourceUrls':['https://example.org/annuncio/42/']}))
+            for status in ('available','unverified','unavailable'):
+                (root/'source-checks/via-esempio-4.json').write_text(json.dumps({'conclusion':status,'checkedAt':'2026-10-18T12:00:00+02:00'}))
+                prop=builder.catalog(inv,root,{})[0]
+                self.assertEqual(prop['facts']['priceEur'],345000)
+                self.assertEqual(prop['facts']['parking'],'Box')
+                self.assertEqual(prop['evidence']['listingReadAt'],'2026-10-13T12:00:00+02:00')
+                self.assertEqual(prop['availability']['status'],status)
     def test_dates_alone_are_quiet(self):
         before={'properties':[{'id':'house','facts':{'priceEur':100},'availability':{'status':'unverified','checkedAt':'old'},'model':{'status':'awaiting_plans'}}]};after=copy.deepcopy(before);after['properties'][0]['availability']['checkedAt']='new';self.assertEqual(release.meaningful_changes(before,after),[])
         after['properties'][0]['facts']['priceEur']=90;self.assertEqual(release.meaningful_changes(before,after),[{'id':'house','kind':'facts'}])

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-16T00:24:59.084784+02:00",
+  "updatedAt": "2026-10-18T20:44:33.903912+02:00",
   "properties": [
     {
       "id": "via-risano-raute",
@@ -43,8 +43,8 @@
       },
       "availability": {
         "status": "unverified",
-        "checkedAt": null,
-        "reason": "Alias pubblici/indicizzati leggibili, ma HTTP diretto bloccato o insufficiente; disponibilità effettiva non verificata."
+        "checkedAt": "2026-10-18T20:41:48.153477+02:00",
+        "reason": "La disponibilità attuale non è confermata: fonti bloccate, incomplete o non accessibili. La lettura indicizzata non equivale a verifica live."
       },
       "model": {
         "status": "awaiting_plans",
@@ -68,7 +68,8 @@
       "locality": "Muggia",
       "address": "Strada per Chiampore 43A",
       "sourceUrls": [
-        "https://www.casa.it/immobili/53961570/"
+        "https://www.casa.it/immobili/53961570/",
+        "https://www.idealista.it/immobile/35682567/"
       ],
       "historicalPrices": [
         {
@@ -82,29 +83,31 @@
         "areaHabitableM2": 204,
         "areaWalkableM2": null,
         "areaCommercialM2": 243,
-        "areaNotes": "204 m² classificati come abitazione; 243 m² commerciali.",
+        "areaNotes": "204 m² descritti come abitazione su tre piani, ma il testo comprende locali accessori seminterrati; netto abitabile da verificare.",
         "gardenM2": null,
         "landM2": 890,
-        "parking": "Box doppio.",
-        "floors": null,
+        "parking": "Box di 39 m².",
+        "floors": 3,
         "bedrooms": null,
-        "bathrooms": null,
-        "condition": null,
+        "bathrooms": 3,
+        "condition": "Interventi di riqualificazione energetica: cappotto e serramenti sostituiti.",
         "energy": null,
-        "bus": "Fermate della linea 27 riportate a 40 e 100 m.",
+        "bus": "Linea 27 in zona; Percorso pedonale esatto casa-fermata non verificato.",
         "highlights": [
           "Villa indipendente.",
           "Terreno di circa 890 m²."
         ],
         "limitations": [
-          "La chat non separa la superficie del solo giardino dai circa 890 m² di terreno."
+          "I circa 890 m² sono il lotto complessivo, non la sola superficie verde.",
+          "Quota effettivamente abitativa del seminterrato da confermare.",
+          "Percorso pedonale esatto casa-fermata non verificato."
         ],
-        "description": "Villa indipendente a Chiampore con 204 m² di abitazione, circa 890 m² di terreno e box doppio. Le fermate della linea 27 sono indicate a breve distanza, tra 40 e 100 metri."
+        "description": "Villa indipendente del 1986 a Chiampore con vista mare, terreno di circa 890 m² e box di 39 m². Il testo distingue 204 m² di casa e accessori seminterrati: superficie abitativa netta e percorso verso il bus da confermare."
       },
       "availability": {
         "status": "unverified",
-        "checkedAt": null,
-        "reason": "Letture pubbliche indicizzate e alias accessibili al lettore, ma HTTP diretto bloccato o insufficiente; disponibilità corrente non verificata."
+        "checkedAt": "2026-10-18T20:41:48.360996+02:00",
+        "reason": "La disponibilità attuale non è confermata: fonti bloccate, incomplete o non accessibili. La lettura indicizzata non equivale a verifica live."
       },
       "model": {
         "status": "awaiting_plans",
@@ -116,10 +119,10 @@
         ]
       },
       "evidence": {
-        "listingReadAt": "2026-10-11T17:33:25.062365+02:00",
+        "listingReadAt": "2026-10-18T20:43:15.406751+02:00",
         "sourceUpdatedAt": null,
-        "method": "public_reader_and_chat",
-        "note": "Lettura pubblica/indicizzata; da sola non conferma la disponibilità attuale."
+        "method": "public_reader",
+        "note": "Dati riletti nella fonte pubblica/indicizzata il 18 ottobre 2026; non costituiscono una verifica live della disponibilità né una conferma dell’agenzia. Le superfici e gli interventi soltanto previsti restano distinti."
       }
     },
     {
@@ -164,8 +167,8 @@
       },
       "availability": {
         "status": "unverified",
-        "checkedAt": null,
-        "reason": "Letture pubbliche indicizzate e alias accessibili al lettore, ma HTTP diretto bloccato o insufficiente; disponibilità corrente non verificata."
+        "checkedAt": "2026-10-18T20:41:48.361437+02:00",
+        "reason": "La disponibilità attuale non è confermata: fonti bloccate, incomplete o non accessibili. La lettura indicizzata non equivale a verifica live."
       },
       "model": {
         "status": "awaiting_plans",
@@ -228,8 +231,8 @@
       },
       "availability": {
         "status": "unverified",
-        "checkedAt": null,
-        "reason": "Lettura pubblica indicizzata disponibile, ma accesso diretto bloccato o non sufficiente: disponibilità effettiva non verificata."
+        "checkedAt": "2026-10-18T20:41:48.568164+02:00",
+        "reason": "La disponibilità attuale non è confermata: fonti bloccate, incomplete o non accessibili. La lettura indicizzata non equivale a verifica live."
       },
       "model": {
         "status": "awaiting_plans",
@@ -298,9 +301,9 @@
         "description": "Villetta a schiera su tre livelli, con circa 250 m² di giardino, terrazze e tettoia per le auto. La via di accesso finale è stretta. Superficie dichiarata di 228 m², da distinguere dalle precedenti indicazioni."
       },
       "availability": {
-        "status": "available",
-        "checkedAt": "2026-10-13T22:17:47.040302+02:00",
-        "reason": "Copia identificativa dell’esatto immobile letta direttamente sul sito pubblico."
+        "status": "unverified",
+        "checkedAt": "2026-10-18T20:41:49.007439+02:00",
+        "reason": "La disponibilità attuale non è confermata: fonti bloccate, incomplete o non accessibili. La lettura indicizzata non equivale a verifica live. Ultima lettura diretta con annuncio attivo: 2026-10-13."
       },
       "model": {
         "status": "awaiting_plans",
@@ -359,8 +362,8 @@
       },
       "availability": {
         "status": "unverified",
-        "checkedAt": null,
-        "reason": "Lettura pubblica indicizzata disponibile, ma accesso diretto bloccato o non sufficiente: disponibilità effettiva non verificata."
+        "checkedAt": "2026-10-18T20:41:48.774419+02:00",
+        "reason": "La disponibilità attuale non è confermata: fonti bloccate, incomplete o non accessibili. La lettura indicizzata non equivale a verifica live."
       },
       "model": {
         "status": "in_review",
@@ -427,9 +430,9 @@
         "description": "Casa in Via dei Salici con circa 177 m² interni comprendendo la taverna, due posti auto e due giardini di circa 46 e 60 m². La distanza dalla fermata e la classificazione della taverna richiedono conferma."
       },
       "availability": {
-        "status": "available",
-        "checkedAt": "2026-10-12T20:00:05.102760+02:00",
-        "reason": "Copia pubblica attiva con indirizzo22/1 e riferimento131503174 identici; prezzo attuale535000€ letto direttamente."
+        "status": "unverified",
+        "checkedAt": "2026-10-18T20:41:49.185280+02:00",
+        "reason": "La disponibilità attuale non è confermata: fonti bloccate, incomplete o non accessibili. La lettura indicizzata non equivale a verifica live. Ultima lettura diretta con annuncio attivo: 2026-10-12."
       },
       "model": {
         "status": "ready",
@@ -526,8 +529,8 @@
       },
       "availability": {
         "status": "unverified",
-        "checkedAt": null,
-        "reason": "Lettura pubblica indicizzata disponibile, ma accesso diretto bloccato o non sufficiente: disponibilità effettiva non verificata."
+        "checkedAt": "2026-10-18T20:41:49.212416+02:00",
+        "reason": "La disponibilità attuale non è confermata: fonti bloccate, incomplete o non accessibili. La lettura indicizzata non equivale a verifica live."
       },
       "model": {
         "status": "ready",
@@ -624,8 +627,8 @@
       },
       "availability": {
         "status": "unverified",
-        "checkedAt": null,
-        "reason": "Fonti pubbliche non accessibili e accesso diretto non sufficiente; nessuna prova di rimozione."
+        "checkedAt": "2026-10-18T20:41:49.390556+02:00",
+        "reason": "La disponibilità attuale non è confermata: fonti bloccate, incomplete o non accessibili. La lettura indicizzata non equivale a verifica live."
       },
       "model": {
         "status": "awaiting_plans",
@@ -688,9 +691,9 @@
         "description": "Villa a Erta di Sant’Anna, a €520.000, con circa215 m² dichiarati, giardino 900 m², box 25 m² e posti auto. Sono segnalati fotovoltaico con accumulo, solare termico e climatizzazione. La precedente scheda indica214 m² di abitazione e317 m² commerciali; il tragitto al bus resta da verificare."
       },
       "availability": {
-        "status": "available",
-        "checkedAt": "2026-10-11T23:04:59.550976+02:00",
-        "reason": "Annuncio dell’esatto immobile letto con HTTP200 sul sito pubblico dell’agenzia, con indirizzo/riferimento e prezzo corrispondenti."
+        "status": "unverified",
+        "checkedAt": "2026-10-18T20:41:49.826149+02:00",
+        "reason": "La disponibilità attuale non è confermata: fonti bloccate, incomplete o non accessibili. La lettura indicizzata non equivale a verifica live. Ultima lettura diretta con annuncio attivo: 2026-10-11."
       },
       "model": {
         "status": "ready",
@@ -794,8 +797,8 @@
       },
       "availability": {
         "status": "unverified",
-        "checkedAt": null,
-        "reason": "Lettura pubblica indicizzata disponibile, ma accesso diretto bloccato o non sufficiente: disponibilità effettiva non verificata."
+        "checkedAt": "2026-10-18T20:41:49.800826+02:00",
+        "reason": "La disponibilità attuale non è confermata: fonti bloccate, incomplete o non accessibili. La lettura indicizzata non equivale a verifica live."
       },
       "model": {
         "status": "awaiting_plans",
@@ -856,8 +859,8 @@
       },
       "availability": {
         "status": "unverified",
-        "checkedAt": null,
-        "reason": "Lettura pubblica indicizzata disponibile, ma accesso diretto bloccato o non sufficiente: disponibilità effettiva non verificata."
+        "checkedAt": "2026-10-18T20:41:50.219867+02:00",
+        "reason": "La disponibilità attuale non è confermata: fonti bloccate, incomplete o non accessibili. La lettura indicizzata non equivale a verifica live."
       },
       "model": {
         "status": "awaiting_plans",
@@ -918,8 +921,8 @@
       },
       "availability": {
         "status": "unverified",
-        "checkedAt": null,
-        "reason": "Lettura pubblica indicizzata disponibile, ma accesso diretto bloccato o non sufficiente: disponibilità effettiva non verificata."
+        "checkedAt": "2026-10-18T20:41:50.031094+02:00",
+        "reason": "La disponibilità attuale non è confermata: fonti bloccate, incomplete o non accessibili. La lettura indicizzata non equivale a verifica live."
       },
       "model": {
         "status": "in_review",
@@ -980,8 +983,8 @@
       },
       "availability": {
         "status": "unverified",
-        "checkedAt": null,
-        "reason": "Lettura pubblica indicizzata disponibile, ma accesso diretto bloccato o non sufficiente: disponibilità effettiva non verificata."
+        "checkedAt": "2026-10-18T20:41:50.236190+02:00",
+        "reason": "La disponibilità attuale non è confermata: fonti bloccate, incomplete o non accessibili. La lettura indicizzata non equivale a verifica live."
       },
       "model": {
         "status": "awaiting_plans",
@@ -1044,8 +1047,8 @@
       },
       "availability": {
         "status": "unverified",
-        "checkedAt": null,
-        "reason": "Lettura pubblica indicizzata disponibile, ma accesso diretto bloccato o non sufficiente: disponibilità effettiva non verificata."
+        "checkedAt": "2026-10-18T20:41:50.425418+02:00",
+        "reason": "La disponibilità attuale non è confermata: fonti bloccate, incomplete o non accessibili. La lettura indicizzata non equivale a verifica live."
       },
       "model": {
         "status": "awaiting_plans",
@@ -1104,9 +1107,9 @@
         "gardenText": "Circa 250–300 m², dichiarati dall’agenzia."
       },
       "availability": {
-        "status": "available",
-        "checkedAt": "2026-10-13T09:31:15.083330+02:00",
-        "reason": "Annuncio identificativo letto direttamente sul sito Pozzecco, codice17/26, testo e fotografie corrispondenti all’immobile130356648."
+        "status": "unverified",
+        "checkedAt": "2026-10-18T20:41:50.645015+02:00",
+        "reason": "La disponibilità attuale non è confermata: fonti bloccate, incomplete o non accessibili. La lettura indicizzata non equivale a verifica live. Ultima lettura diretta con annuncio attivo: 2026-10-13."
       },
       "model": {
         "status": "ready",
@@ -1197,8 +1200,8 @@
       },
       "availability": {
         "status": "unverified",
-        "checkedAt": null,
-        "reason": "Lettura pubblica indicizzata disponibile, ma accesso diretto bloccato o non sufficiente: disponibilità effettiva non verificata."
+        "checkedAt": "2026-10-18T20:41:50.630985+02:00",
+        "reason": "La disponibilità attuale non è confermata: fonti bloccate, incomplete o non accessibili. La lettura indicizzata non equivale a verifica live."
       },
       "model": {
         "status": "in_review",
@@ -1268,8 +1271,8 @@
       },
       "availability": {
         "status": "unverified",
-        "checkedAt": null,
-        "reason": "Lettura pubblica indicizzata disponibile, ma accesso diretto bloccato o non sufficiente: disponibilità effettiva non verificata."
+        "checkedAt": "2026-10-18T20:41:51.040901+02:00",
+        "reason": "La disponibilità attuale non è confermata: fonti bloccate, incomplete o non accessibili. La lettura indicizzata non equivale a verifica live."
       },
       "model": {
         "status": "awaiting_plans",
@@ -1338,9 +1341,9 @@
         "description": "Porzione di bifamiliare ristrutturata nel 2024, con appartamento di 90 m², vano di 40 m² da adibire a taverna, giardino, corte, terrazzino e due posti auto. Prezzo aggiornato a €345.000."
       },
       "availability": {
-        "status": "available",
-        "checkedAt": "2026-10-13T22:17:43.623669+02:00",
-        "reason": "Copia identificativa dell’esatto immobile letta direttamente sul sito pubblico."
+        "status": "unverified",
+        "checkedAt": "2026-10-18T20:41:51.257934+02:00",
+        "reason": "La disponibilità attuale non è confermata: fonti bloccate, incomplete o non accessibili. La lettura indicizzata non equivale a verifica live. Ultima lettura diretta con annuncio attivo: 2026-10-13."
       },
       "model": {
         "status": "awaiting_plans",
@@ -1406,8 +1409,8 @@
       },
       "availability": {
         "status": "unverified",
-        "checkedAt": null,
-        "reason": "Lettura pubblica indicizzata disponibile, ma accesso diretto bloccato o non sufficiente: disponibilità effettiva non verificata."
+        "checkedAt": "2026-10-18T20:41:51.245909+02:00",
+        "reason": "La disponibilità attuale non è confermata: fonti bloccate, incomplete o non accessibili. La lettura indicizzata non equivale a verifica live."
       },
       "model": {
         "status": "awaiting_plans",
@@ -1469,8 +1472,8 @@
       },
       "availability": {
         "status": "unverified",
-        "checkedAt": null,
-        "reason": "Lettura pubblica indicizzata disponibile, ma accesso diretto bloccato o non sufficiente: disponibilità effettiva non verificata."
+        "checkedAt": "2026-10-18T20:41:51.450534+02:00",
+        "reason": "La disponibilità attuale non è confermata: fonti bloccate, incomplete o non accessibili. La lettura indicizzata non equivale a verifica live."
       },
       "model": {
         "status": "in_review",
@@ -1532,8 +1535,8 @@
       },
       "availability": {
         "status": "unverified",
-        "checkedAt": null,
-        "reason": "Letture pubbliche indicizzate e alias accessibili al lettore, ma HTTP diretto bloccato o insufficiente; disponibilità corrente non verificata."
+        "checkedAt": "2026-10-18T20:41:51.461864+02:00",
+        "reason": "La disponibilità attuale non è confermata: fonti bloccate, incomplete o non accessibili. La lettura indicizzata non equivale a verifica live."
       },
       "model": {
         "status": "awaiting_plans",
@@ -1595,9 +1598,9 @@
         "description": "Villetta a schiera a Basovizza 563/1, a €595.000, con152 m² dichiarati più 60 m² di taverna/cantina, due camere e uno studio, quattro bagni e giardino privato. Parcheggi, superficie del giardino e percorso al bus richiedono conferma."
       },
       "availability": {
-        "status": "available",
-        "checkedAt": "2026-10-11T23:04:38.992965+02:00",
-        "reason": "Annuncio dell’esatto immobile letto con HTTP200 sul sito pubblico dell’agenzia, con indirizzo/riferimento e prezzo corrispondenti."
+        "status": "unverified",
+        "checkedAt": "2026-10-18T20:41:51.864075+02:00",
+        "reason": "La disponibilità attuale non è confermata: fonti bloccate, incomplete o non accessibili. La lettura indicizzata non equivale a verifica live. Ultima lettura diretta con annuncio attivo: 2026-10-11."
       },
       "model": {
         "status": "ready",
@@ -1702,8 +1705,8 @@
       },
       "availability": {
         "status": "unverified",
-        "checkedAt": null,
-        "reason": "Lettura pubblica indicizzata disponibile, ma accesso diretto bloccato o non sufficiente: disponibilità effettiva non verificata."
+        "checkedAt": "2026-10-18T20:41:51.667924+02:00",
+        "reason": "La disponibilità attuale non è confermata: fonti bloccate, incomplete o non accessibili. La lettura indicizzata non equivale a verifica live."
       },
       "model": {
         "status": "ready",
@@ -1811,8 +1814,8 @@
       },
       "availability": {
         "status": "unverified",
-        "checkedAt": null,
-        "reason": "Letture pubbliche indicizzate e alias accessibili al lettore, ma HTTP diretto bloccato o insufficiente; disponibilità corrente non verificata."
+        "checkedAt": "2026-10-18T20:41:51.871295+02:00",
+        "reason": "La disponibilità attuale non è confermata: fonti bloccate, incomplete o non accessibili. La lettura indicizzata non equivale a verifica live."
       },
       "model": {
         "status": "awaiting_plans",
@@ -1874,8 +1877,8 @@
       },
       "availability": {
         "status": "unverified",
-        "checkedAt": null,
-        "reason": "Lettura pubblica indicizzata disponibile, ma accesso diretto bloccato o non sufficiente: disponibilità effettiva non verificata."
+        "checkedAt": "2026-10-18T20:41:52.069015+02:00",
+        "reason": "La disponibilità attuale non è confermata: fonti bloccate, incomplete o non accessibili. La lettura indicizzata non equivale a verifica live."
       },
       "model": {
         "status": "awaiting_plans",
@@ -1936,8 +1939,8 @@
       },
       "availability": {
         "status": "unverified",
-        "checkedAt": null,
-        "reason": "Letture pubbliche indicizzate e alias accessibili al lettore, ma HTTP diretto bloccato o insufficiente; disponibilità corrente non verificata."
+        "checkedAt": "2026-10-18T20:41:52.075258+02:00",
+        "reason": "La disponibilità attuale non è confermata: fonti bloccate, incomplete o non accessibili. La lettura indicizzata non equivale a verifica live."
       },
       "model": {
         "status": "awaiting_plans",
@@ -2006,7 +2009,7 @@
       },
       "availability": {
         "status": "unverified",
-        "checkedAt": "2026-10-11T17:31:19.172336+02:00",
+        "checkedAt": "2026-10-18T20:41:52.273811+02:00",
         "reason": "La disponibilità attuale non è confermata: fonti bloccate, incomplete o non accessibili. La lettura indicizzata non equivale a verifica live."
       },
       "model": {
@@ -2103,7 +2106,7 @@
       },
       "availability": {
         "status": "unverified",
-        "checkedAt": "2026-10-11T17:31:19.166842+02:00",
+        "checkedAt": "2026-10-18T20:41:52.279239+02:00",
         "reason": "La disponibilità attuale non è confermata: fonti bloccate, incomplete o non accessibili. La lettura indicizzata non equivale a verifica live."
       },
       "model": {
@@ -2166,7 +2169,7 @@
       },
       "availability": {
         "status": "unverified",
-        "checkedAt": "2026-10-11T17:31:19.790604+02:00",
+        "checkedAt": "2026-10-18T20:41:52.683064+02:00",
         "reason": "La disponibilità attuale non è confermata: fonti bloccate, incomplete o non accessibili. La lettura indicizzata non equivale a verifica live."
       },
       "model": {
@@ -2227,7 +2230,7 @@
       },
       "availability": {
         "status": "unverified",
-        "checkedAt": "2026-10-11T17:31:19.463507+02:00",
+        "checkedAt": "2026-10-18T20:41:52.483685+02:00",
         "reason": "La disponibilità attuale non è confermata: fonti bloccate, incomplete o non accessibili. La lettura indicizzata non equivale a verifica live."
       },
       "model": {
@@ -2287,7 +2290,7 @@
       },
       "availability": {
         "status": "unverified",
-        "checkedAt": "2026-10-11T17:31:19.759937+02:00",
+        "checkedAt": "2026-10-18T20:41:52.687768+02:00",
         "reason": "La disponibilità attuale non è confermata: fonti bloccate, incomplete o non accessibili. La lettura indicizzata non equivale a verifica live."
       },
       "model": {
@@ -2400,7 +2403,7 @@
       },
       "availability": {
         "status": "unverified",
-        "checkedAt": "2026-10-11T17:31:20.056099+02:00",
+        "checkedAt": "2026-10-18T20:41:52.888437+02:00",
         "reason": "La disponibilità attuale non è confermata: fonti bloccate, incomplete o non accessibili. La lettura indicizzata non equivale a verifica live."
       },
       "model": {
@@ -2463,7 +2466,7 @@
       },
       "availability": {
         "status": "unverified",
-        "checkedAt": "2026-10-11T17:31:20.080472+02:00",
+        "checkedAt": "2026-10-18T20:41:52.892711+02:00",
         "reason": "La disponibilità attuale non è confermata: fonti bloccate, incomplete o non accessibili. La lettura indicizzata non equivale a verifica live."
       },
       "model": {
@@ -2524,7 +2527,7 @@
       },
       "availability": {
         "status": "unavailable",
-        "checkedAt": "2026-10-11T17:31:20.348169+02:00",
+        "checkedAt": "2026-10-18T20:41:53.095035+02:00",
         "reason": "Non più disponibile secondo la segnalazione dell’utente del 2026-09-29. Gli accessi bloccati non costituiscono una nuova conferma."
       },
       "model": {
@@ -2586,7 +2589,7 @@
       },
       "availability": {
         "status": "unverified",
-        "checkedAt": "2026-10-11T17:31:20.372248+02:00",
+        "checkedAt": "2026-10-18T20:41:53.097720+02:00",
         "reason": "La disponibilità attuale non è confermata: fonti bloccate, incomplete o non accessibili. La lettura indicizzata non equivale a verifica live."
       },
       "model": {
@@ -2700,7 +2703,7 @@
       },
       "availability": {
         "status": "unverified",
-        "checkedAt": "2026-10-11T17:31:20.678859+02:00",
+        "checkedAt": "2026-10-18T20:41:53.300188+02:00",
         "reason": "La disponibilità attuale non è confermata: fonti bloccate, incomplete o non accessibili. La lettura indicizzata non equivale a verifica live."
       },
       "model": {
@@ -2761,7 +2764,7 @@
       },
       "availability": {
         "status": "unverified",
-        "checkedAt": "2026-10-11T17:31:20.705985+02:00",
+        "checkedAt": "2026-10-18T20:41:53.301826+02:00",
         "reason": "La disponibilità attuale non è confermata: fonti bloccate, incomplete o non accessibili. La lettura indicizzata non equivale a verifica live."
       },
       "model": {
@@ -2820,7 +2823,7 @@
       },
       "availability": {
         "status": "unavailable",
-        "checkedAt": "2026-10-11T17:31:20.995976+02:00",
+        "checkedAt": "2026-10-18T20:41:53.505766+02:00",
         "reason": "Non più disponibile secondo la segnalazione dell’utente del 2026-09-29. Gli accessi bloccati non costituiscono una nuova conferma."
       },
       "model": {
@@ -2880,7 +2883,7 @@
       },
       "availability": {
         "status": "unverified",
-        "checkedAt": "2026-10-11T17:31:20.998436+02:00",
+        "checkedAt": "2026-10-18T20:41:53.507508+02:00",
         "reason": "La disponibilità attuale non è confermata: fonti bloccate, incomplete o non accessibili. La lettura indicizzata non equivale a verifica live."
       },
       "model": {
@@ -2994,7 +2997,7 @@
       },
       "availability": {
         "status": "unverified",
-        "checkedAt": "2026-10-11T17:31:21.294023+02:00",
+        "checkedAt": "2026-10-18T20:41:53.713339+02:00",
         "reason": "La disponibilità attuale non è confermata: fonti bloccate, incomplete o non accessibili. La lettura indicizzata non equivale a verifica live."
       },
       "model": {
@@ -3087,7 +3090,7 @@
       },
       "availability": {
         "status": "unverified",
-        "checkedAt": "2026-10-11T17:31:21.336057+02:00",
+        "checkedAt": "2026-10-18T20:41:53.716282+02:00",
         "reason": "La disponibilità attuale non è confermata: fonti bloccate, incomplete o non accessibili. La lettura indicizzata non equivale a verifica live."
       },
       "model": {
@@ -3157,9 +3160,9 @@
         "description": "Villa in Via Monte Carso, identificata con il riferimento Rimmo R07279TSVI, a €595.000. L’agenzia indica 120 m², tre piani con ambienti sfalsati, tre camere e due bagni; sono dichiarati un giardino, un garage con lavanderia e due posti auto. La metratura complessiva del terreno e la distanza dal bus restano da confermare."
       },
       "availability": {
-        "status": "available",
-        "checkedAt": "2026-10-11T17:35:17.457209+02:00",
-        "reason": "Annuncio identificativo attivo letto con accesso HTTP pubblico diretto."
+        "status": "unverified",
+        "checkedAt": "2026-10-18T20:41:54.124657+02:00",
+        "reason": "La disponibilità attuale non è confermata: fonti bloccate, incomplete o non accessibili. La lettura indicizzata non equivale a verifica live. Ultima lettura diretta con annuncio attivo: 2026-10-11."
       },
       "model": {
         "status": "ready",
@@ -3260,9 +3263,9 @@
         "description": "Casa indipendente in Via dei Gravisi 4, a 490.000 €, con abitazione al piano superiore, giardino/uliveto circa 500 m², box e posti auto. Il piano terra è deposito/commerciale: la trasformazione in secondo appartamento richiede cambio di destinazione d’uso. Da rimodernare."
       },
       "availability": {
-        "status": "available",
-        "checkedAt": "2026-10-12T17:52:03.545454+00:00",
-        "reason": "Copia pubblica attiva dell’esatto annuncio con riferimento133161332 e indirizzo/prezzo/distribuzione corrispondenti."
+        "status": "unverified",
+        "checkedAt": "2026-10-18T20:41:54.127354+02:00",
+        "reason": "La disponibilità attuale non è confermata: fonti bloccate, incomplete o non accessibili. La lettura indicizzata non equivale a verifica live. Ultima lettura diretta con annuncio attivo: 2026-10-12."
       },
       "model": {
         "status": "ready",
@@ -3371,9 +3374,9 @@
         "description": "Villetta di testa a Opicina con 192 m² distribuiti su quattro livelli, quattro camere e tre bagni, box e posto esterno. Ha un giardino privato con barbecue di metratura non dichiarata; la linea 4 serve la via."
       },
       "availability": {
-        "status": "available",
-        "checkedAt": "2026-10-13T09:03:51.885102+02:00",
-        "reason": "Copia esatta dell’annuncio letta direttamente su TrovaCasa: Via dei Papaveri3/16, riferimentoPAPVERI316 e prezzo375.000€ corrispondenti."
+        "status": "unverified",
+        "checkedAt": "2026-10-18T20:41:54.537244+02:00",
+        "reason": "La disponibilità attuale non è confermata: fonti bloccate, incomplete o non accessibili. La lettura indicizzata non equivale a verifica live. Ultima lettura diretta con annuncio attivo: 2026-10-13."
       },
       "model": {
         "status": "ready",
@@ -3476,7 +3479,7 @@
       },
       "availability": {
         "status": "unverified",
-        "checkedAt": "2026-10-11T17:31:21.883753+02:00",
+        "checkedAt": "2026-10-18T20:41:54.334427+02:00",
         "reason": "La disponibilità attuale non è confermata: fonti bloccate, incomplete o non accessibili. La lettura indicizzata non equivale a verifica live."
       },
       "model": {
@@ -3588,7 +3591,7 @@
       },
       "availability": {
         "status": "unverified",
-        "checkedAt": "2026-10-11T17:31:21.921702+02:00",
+        "checkedAt": "2026-10-18T20:41:54.539465+02:00",
         "reason": "La disponibilità attuale non è confermata: fonti bloccate, incomplete o non accessibili. La lettura indicizzata non equivale a verifica live."
       },
       "model": {
@@ -3689,9 +3692,9 @@
         "description": "Villa a Duino con 202 m² di abitazione, giardino di 361 m² e garage di 49 m² più posti auto. La distanza dalla fermata autobus non è documentata."
       },
       "availability": {
-        "status": "available",
-        "checkedAt": "2026-10-13T22:17:47.961584+02:00",
-        "reason": "Copia identificativa dell’esatto immobile letta direttamente sul sito pubblico."
+        "status": "unverified",
+        "checkedAt": "2026-10-18T20:41:54.949128+02:00",
+        "reason": "La disponibilità attuale non è confermata: fonti bloccate, incomplete o non accessibili. La lettura indicizzata non equivale a verifica live. Ultima lettura diretta con annuncio attivo: 2026-10-13."
       },
       "model": {
         "status": "ready",
@@ -3806,7 +3809,7 @@
       },
       "availability": {
         "status": "unverified",
-        "checkedAt": "2026-10-11T17:31:22.215221+02:00",
+        "checkedAt": "2026-10-18T20:41:54.744751+02:00",
         "reason": "La disponibilità attuale non è confermata: fonti bloccate, incomplete o non accessibili. La lettura indicizzata non equivale a verifica live."
       },
       "model": {
@@ -3871,7 +3874,7 @@
       },
       "availability": {
         "status": "unverified",
-        "checkedAt": "2026-10-11T17:31:22.493682+02:00",
+        "checkedAt": "2026-10-18T20:41:54.953191+02:00",
         "reason": "La disponibilità attuale non è confermata: fonti bloccate, incomplete o non accessibili. La lettura indicizzata non equivale a verifica live."
       },
       "model": {
@@ -3978,9 +3981,9 @@
         "description": "Casa a Malchina con 130 m² di abitazione e spazio esterno dichiarato di 400 m², comprendendo parcheggi fino a cinque auto. La metratura verde e il percorso verso la linea 43 restano da accertare."
       },
       "availability": {
-        "status": "available",
-        "checkedAt": "2026-10-13T15:32:27.200468+02:00",
-        "reason": "Copia pubblica identificativa dell’esatto immobile letta direttamente con HTTP200."
+        "status": "unverified",
+        "checkedAt": "2026-10-18T20:41:55.155392+02:00",
+        "reason": "La disponibilità attuale non è confermata: fonti bloccate, incomplete o non accessibili. La lettura indicizzata non equivale a verifica live. Ultima lettura diretta con annuncio attivo: 2026-10-13."
       },
       "model": {
         "status": "ready",
@@ -4080,7 +4083,7 @@
       },
       "availability": {
         "status": "unverified",
-        "checkedAt": "2026-10-11T17:31:22.784406+02:00",
+        "checkedAt": "2026-10-18T20:41:55.157858+02:00",
         "reason": "La disponibilità attuale non è confermata: fonti bloccate, incomplete o non accessibili. La lettura indicizzata non equivale a verifica live."
       },
       "model": {
@@ -4177,7 +4180,7 @@
       },
       "availability": {
         "status": "unverified",
-        "checkedAt": "2026-10-11T17:31:22.810773+02:00",
+        "checkedAt": "2026-10-18T20:41:55.360595+02:00",
         "reason": "La disponibilità attuale non è confermata: fonti bloccate, incomplete o non accessibili. La lettura indicizzata non equivale a verifica live."
       },
       "model": {
@@ -4194,6 +4197,454 @@
         "sourceUpdatedAt": "3 giugno",
         "method": "public_reader_and_chat",
         "note": "Lettura pubblica/indicizzata; da sola non conferma la disponibilità attuale."
+      }
+    },
+    {
+      "id": "lacotisce-379",
+      "title": "Località Lacotisce 379",
+      "locality": "San Dorligo della Valle",
+      "address": "Località Lacotisce 379",
+      "sourceUrls": [
+        "https://www.immobiliare.it/annunci/133625846/"
+      ],
+      "historicalPrices": [
+        {
+          "priceEur": 380000,
+          "date": "2026-10-18",
+          "source": "chat"
+        }
+      ],
+      "facts": {
+        "priceEur": 380000,
+        "areaHabitableM2": null,
+        "areaWalkableM2": null,
+        "areaCommercialM2": null,
+        "areaNotes": "244 m² dichiarati; quota abitativa da separare da deposito e soffitta.",
+        "gardenM2": null,
+        "landM2": 1500,
+        "parking": "Garage e quattro posti auto indicati.",
+        "floors": 2,
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "condition": "Da rimodernare.",
+        "energy": "In attesa di certificazione.",
+        "bus": "Percorso pedonale esatto casa-fermata non verificato.",
+        "highlights": [
+          "Casa indipendente con due unità abitative.",
+          "Terreno piantumato di circa 1.500 m²."
+        ],
+        "limitations": [
+          "Superficie interna netta e metratura del solo giardino da verificare.",
+          "Percorso pedonale esatto casa-fermata non verificato."
+        ],
+        "description": "Casa indipendente con due abitazioni a Lacotisce, terreno piantumato di circa 1.500 m² e parcheggio. I 244 m² dichiarati comprendono parti da distinguere da soffitta e deposito; necessita di rimodernamento.",
+        "works": "Rimodernamento generale dichiarato nel testo; riscaldamento a gasolio e vasca Imhoff."
+      },
+      "availability": {
+        "status": "unverified",
+        "checkedAt": "2026-10-18T20:41:55.364047+02:00",
+        "reason": "La disponibilità attuale non è confermata: fonti bloccate, incomplete o non accessibili. La lettura indicizzata non equivale a verifica live."
+      },
+      "model": {
+        "status": "awaiting_plans",
+        "path": null,
+        "views": [],
+        "notes": [
+          "Ricostruzione da preparare: le parti documentate potranno essere pubblicate anche con volumi mancanti, esplicitamente elencati. Senza piante utilizzabili, fotografie sufficienti consentono una ricostruzione dei soli esterni.",
+          "Fotografie e planimetrie della casa da acquisire o validare."
+        ]
+      },
+      "evidence": {
+        "listingReadAt": "2026-10-18T20:43:15.406751+02:00",
+        "sourceUpdatedAt": "2026-10-16",
+        "method": "public_reader",
+        "note": "Dati riletti nella fonte pubblica/indicizzata il 18 ottobre 2026; non costituiscono una verifica live della disponibilità né una conferma dell’agenzia. Le superfici e gli interventi soltanto previsti restano distinti."
+      }
+    },
+    {
+      "id": "dolina-358",
+      "title": "Dolina 358",
+      "locality": "San Dorligo della Valle",
+      "address": "Dolina 358",
+      "sourceUrls": [
+        "https://www.immobiliare.it/annunci/132950568/"
+      ],
+      "historicalPrices": [
+        {
+          "priceEur": 498000,
+          "date": "2026-10-18",
+          "source": "chat"
+        }
+      ],
+      "facts": {
+        "priceEur": 498000,
+        "areaHabitableM2": null,
+        "areaWalkableM2": null,
+        "areaCommercialM2": 380,
+        "areaNotes": "Circa 250 m² interni dichiarati, con accessori e mansarda al grezzo di circa 80 m²; 380 m² commerciali.",
+        "gardenM2": null,
+        "landM2": 1300,
+        "parking": "Garage di circa 80 m² e parcheggio esterno di proprietà esclusiva dichiarati.",
+        "floors": 3,
+        "bedrooms": null,
+        "bathrooms": null,
+        "condition": "Ristrutturata; mansarda al grezzo.",
+        "energy": null,
+        "bus": "Linee 40/41 a Dolina; Percorso pedonale esatto casa-fermata non verificato.",
+        "highlights": [
+          "Villa singola ristrutturata.",
+          "Giardino di circa 1.300 m²."
+        ],
+        "limitations": [
+          "I circa 1.300 m² sono terreno coltivato a uliveto; superficie del solo giardino non separata.",
+          "Abitazione, mansarda al grezzo e locali di servizio da distinguere.",
+          "Percorso pedonale esatto casa-fermata non verificato."
+        ],
+        "description": "Villa singola su tre livelli con giardino di circa 1.300 m². La metratura interna dichiarata include mansarda al grezzo e accessori, quindi non dimostra la superficie abitativa netta.",
+        "works": null
+      },
+      "availability": {
+        "status": "unverified",
+        "checkedAt": "2026-10-18T20:41:55.567611+02:00",
+        "reason": "La disponibilità attuale non è confermata: fonti bloccate, incomplete o non accessibili. La lettura indicizzata non equivale a verifica live."
+      },
+      "model": {
+        "status": "awaiting_plans",
+        "path": null,
+        "views": [],
+        "notes": [
+          "Ricostruzione da preparare: le parti documentate potranno essere pubblicate anche con volumi mancanti, esplicitamente elencati. Senza piante utilizzabili, fotografie sufficienti consentono una ricostruzione dei soli esterni.",
+          "Fotografie e planimetrie della casa da acquisire o validare."
+        ]
+      },
+      "evidence": {
+        "listingReadAt": "2026-10-18T20:43:15.406751+02:00",
+        "sourceUpdatedAt": "2026-10-01",
+        "method": "public_reader",
+        "note": "Dati riletti nella fonte pubblica/indicizzata il 18 ottobre 2026; non costituiscono una verifica live della disponibilità né una conferma dell’agenzia. Le superfici e gli interventi soltanto previsti restano distinti."
+      }
+    },
+    {
+      "id": "via-dei-calderai-15",
+      "title": "Via dei Calderai 15",
+      "locality": "Muggia",
+      "address": "Via dei Calderai 15",
+      "sourceUrls": [
+        "https://www.idealista.it/immobile/35558173/"
+      ],
+      "historicalPrices": [
+        {
+          "priceEur": 389000,
+          "date": "2026-10-18",
+          "source": "chat"
+        }
+      ],
+      "facts": {
+        "priceEur": 389000,
+        "areaHabitableM2": null,
+        "areaWalkableM2": null,
+        "areaCommercialM2": 198,
+        "areaNotes": "198 m² commerciali su quattro livelli, inclusi locali accatastati come cantine.",
+        "gardenM2": 360,
+        "landM2": null,
+        "parking": "Accesso privato e spazio per almeno tre auto.",
+        "floors": 4,
+        "bedrooms": null,
+        "bathrooms": null,
+        "condition": null,
+        "energy": null,
+        "bus": "Linea 32 in zona; Percorso pedonale esatto casa-fermata non verificato.",
+        "highlights": [
+          "Casa accostata su un lato.",
+          "Giardino di circa 360 m²."
+        ],
+        "limitations": [
+          "Superficie abitativa effettiva da distinguere dalle cantine.",
+          "Percorso pedonale esatto casa-fermata non verificato."
+        ],
+        "description": "Casa accostata su quattro livelli con giardino di circa 360 m² e parcheggio per almeno tre auto. I 198 m² commerciali comprendono cantine: la soglia di superficie abitativa resta da verificare.",
+        "works": null
+      },
+      "availability": {
+        "status": "unverified",
+        "checkedAt": "2026-10-18T20:41:55.567475+02:00",
+        "reason": "La disponibilità attuale non è confermata: fonti bloccate, incomplete o non accessibili. La lettura indicizzata non equivale a verifica live."
+      },
+      "model": {
+        "status": "awaiting_plans",
+        "path": null,
+        "views": [],
+        "notes": [
+          "Ricostruzione da preparare: le parti documentate potranno essere pubblicate anche con volumi mancanti, esplicitamente elencati. Senza piante utilizzabili, fotografie sufficienti consentono una ricostruzione dei soli esterni.",
+          "Fotografie e planimetrie della casa da acquisire o validare."
+        ]
+      },
+      "evidence": {
+        "listingReadAt": null,
+        "sourceUpdatedAt": null,
+        "method": "chat",
+        "note": "Dati della ricerca precedente; accesso alla fonte non completo."
+      }
+    },
+    {
+      "id": "via-di-santa-barbara-parco",
+      "title": "Via di Santa Barbara — villa con parco",
+      "locality": "Muggia",
+      "address": "Via di Santa Barbara — villa con parco",
+      "sourceUrls": [
+        "https://www.casa.it/immobili/54894377/",
+        "https://www.idealista.it/vendita-case/muggia-trieste/con-dimensione_120%2Cville/"
+      ],
+      "historicalPrices": [
+        {
+          "priceEur": 529000,
+          "date": "2026-10-18",
+          "source": "chat"
+        }
+      ],
+      "facts": {
+        "priceEur": 529000,
+        "areaHabitableM2": null,
+        "areaWalkableM2": null,
+        "areaCommercialM2": 204,
+        "areaNotes": "204 m² commerciali; quota abitativa da verificare.",
+        "gardenM2": 1800,
+        "landM2": null,
+        "parking": "Box doppio di 45 m² e tre posti scoperti dichiarati.",
+        "floors": 2,
+        "bedrooms": null,
+        "bathrooms": 2,
+        "condition": "Abitabile; finiture anni Novanta e bagni da rimodernare.",
+        "energy": "E",
+        "bus": "La scheda indica tre fermate entro 150 m; percorso pedonale dall’ingresso effettivo da verificare.",
+        "highlights": [
+          "Villa parzialmente accostata sul lato posteriore.",
+          "Giardino piantumato di circa 1.800 m²."
+        ],
+        "limitations": [
+          "Indirizzo puntuale non esposto; non confondere con la villa in completamento da €690.000 e giardino di 400 m².",
+          "Percorso pedonale esatto casa-fermata non verificato."
+        ],
+        "description": "Villa parzialmente accostata su due piani, con giardino piantumato di circa 1.800 m² e box. È un immobile distinto dalla villa di Santa Barbara da €690.000 già censita.",
+        "works": null
+      },
+      "availability": {
+        "status": "unverified",
+        "checkedAt": "2026-10-18T20:41:55.978907+02:00",
+        "reason": "La disponibilità attuale non è confermata: fonti bloccate, incomplete o non accessibili. La lettura indicizzata non equivale a verifica live."
+      },
+      "model": {
+        "status": "awaiting_plans",
+        "path": null,
+        "views": [],
+        "notes": [
+          "Ricostruzione da preparare: le parti documentate potranno essere pubblicate anche con volumi mancanti, esplicitamente elencati. Senza piante utilizzabili, fotografie sufficienti consentono una ricostruzione dei soli esterni.",
+          "Fotografie e planimetrie della casa da acquisire o validare."
+        ]
+      },
+      "evidence": {
+        "listingReadAt": "2026-10-18T20:43:15.406751+02:00",
+        "sourceUpdatedAt": "2026-10-07",
+        "method": "public_reader",
+        "note": "Dati riletti nella fonte pubblica/indicizzata il 18 ottobre 2026; non costituiscono una verifica live della disponibilità né una conferma dell’agenzia. Le superfici e gli interventi soltanto previsti restano distinti."
+      }
+    },
+    {
+      "id": "zolla-60",
+      "title": "Frazione Zolla 60",
+      "locality": "Monrupino",
+      "address": "Frazione Zolla 60",
+      "sourceUrls": [
+        "https://www.immobiliare.it/annunci/128924934/"
+      ],
+      "historicalPrices": [
+        {
+          "priceEur": 598000,
+          "date": "2026-10-18",
+          "source": "chat"
+        }
+      ],
+      "facts": {
+        "priceEur": 598000,
+        "areaHabitableM2": null,
+        "areaWalkableM2": null,
+        "areaCommercialM2": null,
+        "areaNotes": "283 m² dichiarati/classificati come abitazione, ma la descrizione include taverna e servizi: superficie strettamente abitativa da confermare.",
+        "gardenM2": null,
+        "landM2": null,
+        "parking": "Un posto auto dichiarato.",
+        "floors": null,
+        "bedrooms": 5,
+        "bathrooms": null,
+        "condition": null,
+        "energy": null,
+        "bus": "Percorso pedonale esatto casa-fermata non verificato.",
+        "highlights": [
+          "Villa indipendente.",
+          "Giardino e due terreni boschivi."
+        ],
+        "limitations": [
+          "Metratura del solo giardino non indicata.",
+          "Abitazione e locali accessori da separare.",
+          "Percorso pedonale esatto casa-fermata non verificato."
+        ],
+        "description": "Villa indipendente a Zolla con cinque camere, taverna, giardino e due terreni boschivi. I 283 m² dichiarati richiedono una distinzione fra abitazione e servizi; superficie verde e bus da verificare.",
+        "works": null
+      },
+      "availability": {
+        "status": "unverified",
+        "checkedAt": "2026-10-18T20:41:55.772342+02:00",
+        "reason": "La disponibilità attuale non è confermata: fonti bloccate, incomplete o non accessibili. La lettura indicizzata non equivale a verifica live."
+      },
+      "model": {
+        "status": "awaiting_plans",
+        "path": null,
+        "views": [],
+        "notes": [
+          "Ricostruzione da preparare: le parti documentate potranno essere pubblicate anche con volumi mancanti, esplicitamente elencati. Senza piante utilizzabili, fotografie sufficienti consentono una ricostruzione dei soli esterni.",
+          "Fotografie e planimetrie della casa da acquisire o validare."
+        ]
+      },
+      "evidence": {
+        "listingReadAt": null,
+        "sourceUpdatedAt": null,
+        "method": "chat",
+        "note": "Dati della ricerca precedente; accesso alla fonte non completo."
+      }
+    },
+    {
+      "id": "via-marco-polo-5",
+      "title": "Via Marco Polo 5",
+      "locality": "Trieste",
+      "address": "Via Marco Polo 5",
+      "sourceUrls": [
+        "https://www.immobiliare.it/annunci/131610062/"
+      ],
+      "historicalPrices": [
+        {
+          "priceEur": 430000,
+          "date": "2026-10-18",
+          "source": "chat"
+        }
+      ],
+      "facts": {
+        "priceEur": 430000,
+        "areaHabitableM2": 133,
+        "areaWalkableM2": null,
+        "areaCommercialM2": null,
+        "areaNotes": "133 m² classificati come abitazione nella fonte; netto calpestabile non certificato.",
+        "gardenM2": null,
+        "landM2": null,
+        "parking": "Un posto in area condivisa indicato nelle caratteristiche; nuovo accesso carrabile e posto auto privato descritti soltanto come interventi previsti.",
+        "floors": null,
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "condition": null,
+        "energy": null,
+        "bus": "Percorso pedonale esatto casa-fermata non verificato.",
+        "highlights": [
+          "Villa indipendente in città.",
+          "Giardino privato, superficie non dichiarata."
+        ],
+        "limitations": [
+          "Metratura del giardino non dichiarata.",
+          "Il nuovo accesso carrabile, il posto auto privato e il secondo bagno sono proposte da realizzare, non dotazioni esistenti confermate.",
+          "Alcune immagini sono render illustrativi.",
+          "Percorso pedonale esatto casa-fermata non verificato."
+        ],
+        "description": "Villa indipendente con giardino e 133 m² classificati abitazione. L’annuncio propone nuovo accesso carrabile, posto auto privato e secondo bagno: non sono presentati come già realizzati. Metratura verde e parcheggio attuale da chiarire.",
+        "works": null
+      },
+      "availability": {
+        "status": "unverified",
+        "checkedAt": "2026-10-18T20:41:55.977664+02:00",
+        "reason": "La disponibilità attuale non è confermata: fonti bloccate, incomplete o non accessibili. La lettura indicizzata non equivale a verifica live."
+      },
+      "model": {
+        "status": "awaiting_plans",
+        "path": null,
+        "views": [],
+        "notes": [
+          "Ricostruzione da preparare: le parti documentate potranno essere pubblicate anche con volumi mancanti, esplicitamente elencati. Senza piante utilizzabili, fotografie sufficienti consentono una ricostruzione dei soli esterni.",
+          "Fotografie e planimetrie della casa da acquisire o validare."
+        ]
+      },
+      "evidence": {
+        "listingReadAt": "2026-10-18T20:43:15.406751+02:00",
+        "sourceUpdatedAt": "2026-10-12",
+        "method": "public_reader",
+        "note": "Dati riletti nella fonte pubblica/indicizzata il 18 ottobre 2026; non costituiscono una verifica live della disponibilità né una conferma dell’agenzia. Le superfici e gli interventi soltanto previsti restano distinti."
+      }
+    },
+    {
+      "id": "fontanella-villa-panoramica",
+      "title": "Fontanella — villa panoramica con due appartamenti",
+      "locality": "Muggia",
+      "address": "Fontanella — villa panoramica con due appartamenti",
+      "sourceUrls": [
+        "https://www.idealista.it/immobile/35710865/",
+        "https://www.idealista.it/geo/vendita-case/strada-per-chiampore-muggia-trieste/con-vista-mare/",
+        "https://www.subito.it/ville-singole-e-a-schiera/rif-609-bifamiliare-muggia-trieste-646999592.htm",
+        "https://www.trovacasa.it/annunci/ts-tc-5129-71584321"
+      ],
+      "historicalPrices": [
+        {
+          "priceEur": 680000,
+          "date": null,
+          "source": "chat"
+        },
+        {
+          "priceEur": 650000,
+          "date": "2026-10-18",
+          "source": "chat"
+        }
+      ],
+      "facts": {
+        "priceEur": 650000,
+        "areaHabitableM2": null,
+        "areaWalkableM2": null,
+        "areaCommercialM2": 325,
+        "areaNotes": "325 m² commerciali; superficie abitativa dei due appartamenti da verificare.",
+        "gardenM2": 1500,
+        "landM2": null,
+        "parking": "Box doppio dichiarato.",
+        "floors": null,
+        "bedrooms": null,
+        "bathrooms": 2,
+        "condition": "Buono stato, cappotto recente dichiarato.",
+        "energy": null,
+        "bus": "Percorso pedonale esatto casa-fermata non verificato.",
+        "highlights": [
+          "Due appartamenti con ingressi indipendenti.",
+          "Ribasso pubblicizzato da €680.000 a €650.000."
+        ],
+        "limitations": [
+          "I 325 m² sono commerciali; superficie abitativa netta dei due appartamenti da verificare.",
+          "Prezzo e terreno acquistabile possono variare secondo la porzione di lotto, come dichiarato nell’annuncio.",
+          "Percorso pedonale esatto casa-fermata non verificato."
+        ],
+        "description": "Villa panoramica a Fontanella con due appartamenti autonomi, garage e giardino di circa 1.500 m². Prezzo pubblicizzato €650.000 dopo €680.000; la superficie di 325 m² è commerciale. Terreno effettivamente acquistabile e netto abitativo da verificare.",
+        "works": null
+      },
+      "availability": {
+        "status": "unverified",
+        "checkedAt": "2026-10-18T20:43:16.296381+02:00",
+        "reason": "La disponibilità attuale non è confermata: fonti bloccate, incomplete o non accessibili. La lettura indicizzata non equivale a verifica live."
+      },
+      "model": {
+        "status": "awaiting_plans",
+        "path": null,
+        "views": [],
+        "notes": [
+          "Ricostruzione da preparare: le parti documentate potranno essere pubblicate anche con volumi mancanti, esplicitamente elencati. Senza piante utilizzabili, fotografie sufficienti consentono una ricostruzione dei soli esterni.",
+          "Fotografie e planimetrie della casa da acquisire o validare."
+        ]
+      },
+      "evidence": {
+        "listingReadAt": "2026-10-18T20:43:15.406751+02:00",
+        "sourceUpdatedAt": null,
+        "method": "public_reader",
+        "note": "Dati riletti nella fonte pubblica/indicizzata il 18 ottobre 2026; non costituiscono una verifica live della disponibilità né una conferma dell’agenzia. Le superfici e gli interventi soltanto previsti restano distinti."
       }
     }
   ]

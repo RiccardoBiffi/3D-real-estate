@@ -14,9 +14,11 @@ def catalog(seed,work,old,dist=None):
         item={k:copy.deepcopy(p.get(k)) for k in ('id','title','locality','address','sourceUrls','historicalPrices')}
         facts=copy.deepcopy(p['chatFacts']);source=read(work/'sources'/(p['id']+'.json'),{})
         historical=before.get(p['id'],{}).get('historicalPrices',[])
-        item['historicalPrices']=copy.deepcopy(historical)
+        public_price=lambda price:{k:copy.deepcopy(price[k]) for k in ('priceEur','date','source') if k in price}
+        item['historicalPrices']=[public_price(price) for price in historical]
         for price in p.get('historicalPrices',[]):
-            if price not in item['historicalPrices']:item['historicalPrices'].append(copy.deepcopy(price))
+            price=public_price(price)
+            if price not in item['historicalPrices']:item['historicalPrices'].append(price)
         source_fields=source.get('fields',{}) if source.get('readerAccessible') else {}
         for key in ('bedrooms','bathrooms','floors','condition','energy','parking'):
             if facts.get(key) is None and source_fields.get(key) is not None:facts[key]=source_fields[key]
@@ -28,7 +30,13 @@ def catalog(seed,work,old,dist=None):
         availability={'status':check.get('conclusion','unverified'),'checkedAt':check.get('checkedAt'),'reason':check.get('reason','Disponibilità online ancora da verificare.')}
         if p.get('userUnavailable') and availability['status']!='available':availability['status']='unavailable';availability['reason']='Non più disponibile secondo la segnalazione dell’utente del '+p['userUnavailable']['date']+'. Gli accessi bloccati non costituiscono una nuova conferma.'
         live=read(work/'live-facts'/(p['id']+'.json'),{})
-        if live and availability['status']=='available':
+        reader=read(work/'reader-facts'/(p['id']+'.json'),{})
+        observed_method='direct_http'
+        if reader and (not live or reader.get('checkedAt','')>live.get('checkedAt','')):
+            if live:facts.update(live.get('facts',{}))
+            live=reader;observed_method='public_reader'
+        # Last observed facts survive a failed recheck and confirmed archiving.
+        if live:
             facts.update(live.get('facts',{}));item['locality']=live.get('locality',item['locality'])
             item['sourceUrls']=list(dict.fromkeys(item['sourceUrls']+live.get('sourceUrls',[])))
             current=facts.get('priceEur');previous_price=before.get(p['id'],{}).get('facts',p['chatFacts']).get('priceEur')
@@ -58,8 +66,8 @@ def catalog(seed,work,old,dist=None):
             model={'status':'awaiting_plans','path':None,'views':[],'notes':['Ricostruzione da preparare: le parti documentate potranno essere pubblicate anche con volumi mancanti, esplicitamente elencati. Senza piante utilizzabili, fotografie sufficienti consentono una ricostruzione dei soli esterni.']+(eligibility.get('notes') or ['Fotografie e planimetrie della casa da acquisire o validare.'])}
         if availability['status']=='unavailable' and not reviewed:model={'status':'not_required','path':None,'views':[],'notes':['Scheda storica conservata; nessun nuovo modello viene costruito per un immobile non più disponibile.']}
         item.update(facts=facts,availability=availability,model=model)
-        live_applied=bool(live and availability['status']=='available')
-        item['evidence']={'listingReadAt':live.get('checkedAt') if live_applied else source.get('readAt'),'sourceUpdatedAt':live.get('sourceUpdatedAt') if live_applied else source_fields.get('sourceUpdatedAt'),'method':'direct_http' if live_applied else ('public_reader_and_chat' if source.get('readerAccessible') else 'chat'),'note':live.get('evidenceNote','Annuncio identificativo letto sul sito pubblico dell’agenzia; i dati non confermati sono indicati nella scheda.') if live_applied else source.get('evidenceLimit','Dati della ricerca precedente; accesso alla fonte non completo.')}
+        live_applied=bool(live)
+        item['evidence']={'listingReadAt':live.get('checkedAt') if live_applied else source.get('readAt'),'sourceUpdatedAt':live.get('sourceUpdatedAt') if live_applied else source_fields.get('sourceUpdatedAt'),'method':observed_method if live_applied else ('public_reader_and_chat' if source.get('readerAccessible') else 'chat'),'note':live.get('evidenceNote','Annuncio identificativo letto sul sito pubblico dell’agenzia; i dati non confermati sono indicati nella scheda.') if live_applied else source.get('evidenceLimit','Dati della ricerca precedente; accesso alla fonte non completo.')}
         properties.append(item)
     return properties
 
