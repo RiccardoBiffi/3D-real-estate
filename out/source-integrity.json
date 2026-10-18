@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogSha256": "1a8c8a02929283c92437d1e8d0cf2ee2fe7860d0b7e8581e3bf99ea3de92cc12",
+  "catalogSha256": "ac47531f1e1ae58a9c12ed6d13b4ea459894ff7cd7c90ac5c9d20009ad007e3a",
   "models": [
     {
       "id": "via-dei-salici-22-1",
@@ -19,6 +19,12 @@
       "path": "modelli/erta-di-sant-anna.html",
       "sha256": "3d10ae00850b577a6a968814ed0638b195d72077a55461c1200dd72a3e63e309",
       "coverage": "complete"
+    },
+    {
+      "id": "fontanella-10-4",
+      "path": "modelli/fontanella-10-4.html",
+      "sha256": "7686ba76775ab53c094f39633d94c61bb3d32e841cbd88f1cc0fcfaf6b1787c2",
+      "coverage": "partial"
     },
     {
       "id": "trebiciano-130356648",
@@ -42,6 +48,12 @@
       "id": "via-angelo-de-valentini-10",
       "path": "modelli/via-angelo-de-valentini-10.html",
       "sha256": "68ef52f2f5126f4bfe6896c10bba482f2fbe3dcf1a49c6254064339fdd06f00f",
+      "coverage": "partial"
+    },
+    {
+      "id": "via-monte-d-oro",
+      "path": "modelli/via-monte-d-oro.html",
+      "sha256": "c5cf70961f81d8a813a4474680e521bc8b65bf593dae724b70fd9d3307d73f1c",
       "coverage": "partial"
     },
     {
@@ -131,6 +143,7 @@
     "assets/duino-villa-129888594.jpg": "5ccce8782ff77241cef1aa0bffc40e10388bfb4be60923d76469a8d972737393",
     "assets/erta-di-sant-anna.jpg": "825be73f01ddc3e26eec5f018b0048ac1c621feede1abb56bde2d133da09ca2a",
     "assets/favicon.svg": "0dcd3a8f383feed59d693b65c3723f0c3988232a25a6d4ba5b6752106735937b",
+    "assets/fontanella-10-4.jpg": "eb5de8d3cf4ea61148a3a8d2be676762fceb70d9d5e9274d6a2ef45c95a78193",
     "assets/malchina-1.jpg": "57f175a4737fa68a2400f96b2729b013f15d2121a0250091cfb7237ac676226e",
     "assets/malchina-47-a.jpg": "f3126df84a766acee5ec46fad9c5952e7dda37d214b63aba8a9e03529bd832d3",
     "assets/muggia.jpg": "a651192e5b5659a4ee52c170f8386b4edc399e0116f4dbc84d07728c8ce0b322",
@@ -145,14 +158,16 @@
     "assets/via-dei-salici-22-1.jpg": "b664be63f138fe0e7ac87a7a287201de043112115ea566d9e0ab492ce60f5848",
     "assets/via-dello-scoglio-173.jpg": "cfa322c3fc791706ddc75f4edd6fc637cfd37aa2f2e004c7fdf93fd9188e2cad",
     "assets/via-monte-carso.jpg": "829824df3107f5117c93a427356df13d41b6be8f8e84e1352b76c8e02d26b813",
+    "assets/via-monte-d-oro.jpg": "b1961a49c4e42d0a966b8273915d3a71d952c57b8dd9cb5893982e989a4f9955",
     "assets/via-umberto-veruda.jpg": "4cd065df3d647eb25d267fe5f48b098de7169b267dbe6ff6a5a11eb8f3d622b3",
-    "data/catalog.json": "1a8c8a02929283c92437d1e8d0cf2ee2fe7860d0b7e8581e3bf99ea3de92cc12",
+    "data/catalog.json": "ac47531f1e1ae58a9c12ed6d13b4ea459894ff7cd7c90ac5c9d20009ad007e3a",
     "index.html": "3bf3a1bcbeec3133d6b48422279d0c362e9ce859102771c9b0a0f6c904e38aa7",
     "modelli/aurisina-cave-77-b.html": "e0bc0816b7c5f0caa7e5b41d5570098d50d71dc2c0a0c074dbe4f11cfa6083db",
     "modelli/aurisina.html": "f0fd039a9ffa7a3af5bfacdec647f0e900e7eb97622d23bff46e64761e885c97",
     "modelli/basovizza-563-1.html": "911c9c06fc7defdb6bb76bd297c7d1777cb9267de46fc8cdcc6d8f21e706b7bb",
     "modelli/duino-villa-129888594.html": "2fc168e1d26550ba89c9d7d2ffe5d38003d16ff4d60d45858b6cec9c17e62e3d",
     "modelli/erta-di-sant-anna.html": "3d10ae00850b577a6a968814ed0638b195d72077a55461c1200dd72a3e63e309",
+    "modelli/fontanella-10-4.html": "7686ba76775ab53c094f39633d94c61bb3d32e841cbd88f1cc0fcfaf6b1787c2",
     "modelli/malchina-1.html": "4b04d8f37ff3da7faed7bf3c0836d3c46e5bdcef3a20af7f3355b3a3ba6860a4",
     "modelli/malchina-47-a.html": "7cd8572a440faf7a8e158a62910f285887ac4ec9f4e73e1327e75f2dbc75f631",
     "modelli/muggia.html": "65fae07758772b33b9f6438193df3bb1a45a0e7596270692f62d6788feb23d1e",
@@ -167,6 +182,7 @@
     "modelli/via-dei-salici-22-1.html": "4703f6aaa509ea2b73e1f403dc23b7e5160f35c0510c6e485f84a1a3d41d02ed",
     "modelli/via-dello-scoglio-173.html": "09affd7a97697f4fa40025a4eca394d46186b7f1f7d8f53b6c6d44c0dfd5d789",
     "modelli/via-monte-carso.html": "876dfcf9f0c01dd481a891459c9ef7ac1308b337ba0e56a816f15a1ee99572b9",
+    "modelli/via-monte-d-oro.html": "c5cf70961f81d8a813a4474680e521bc8b65bf593dae724b70fd9d3307d73f1c",
     "modelli/via-umberto-veruda.html": "91da3d4fd5c22f4a96bb606be187d542010cf3ed70ae42e5baa2b48e9d951f28",
     "styles.css": "879968aa4b98499d6ae7426ed5a63c57b2cf4b65b2948a35b56ebc2980722480"
   }

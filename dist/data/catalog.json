@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-18T20:44:33.903912+02:00",
+  "updatedAt": "2026-10-18T21:00:49.663205+02:00",
   "properties": [
     {
       "id": "via-risano-raute",
@@ -925,14 +925,41 @@
         "reason": "La disponibilità attuale non è confermata: fonti bloccate, incomplete o non accessibili. La lettura indicizzata non equivale a verifica live."
       },
       "model": {
-        "status": "in_review",
-        "path": null,
-        "views": [],
+        "status": "ready",
+        "path": "modelli/fontanella-10-4.html",
+        "views": [
+          {
+            "id": "exterior",
+            "label": "Volume abitativo senza copertura",
+            "level": null
+          },
+          {
+            "id": "abitativo",
+            "label": "Piano abitativo e terrazzi",
+            "level": 0
+          }
+        ],
         "notes": [
-          "Una pianta Matterport leggibile con stanze, porte, balconi e quote, riferita a Località Fontanella 10/4.",
-          "La tavola dichiara Gross Floor Area/Floor 1 di 165,7 m² con misure approssimate: differisce dai 186 m² abitativi storici della chat.",
-          "Manca la pianta del seminterrato con cantina carrabile, locali accessori e vano tecnico citati dalla descrizione."
-        ]
+          "Ricostruzione parziale delle parti documentate dalle piante. Finiture neutre e nessun arredo: fotografie non leggibili tramite il connettore cloud.",
+          "Altezze di muri e finestre stimate; tetto, terreno e volumi accessori omessi.",
+          "Scala uniforme ricavata dalle quote approssimate Matterport; non adattata ai 186m² del testo. La pianta indica 165,7m² lordi.",
+          "Piano abitativo con quattro camere, due bagni e due terrazzi; nessuna quota assoluta del piano seminterrato rappresentata."
+        ],
+        "verifiedAt": "2026-10-18T21:00:23.683369+02:00",
+        "artifactSha256": "7686ba76775ab53c094f39633d94c61bb3d32e841cbd88f1cc0fcfaf6b1787c2",
+        "sourcePlans": [
+          {
+            "url": "https://pic.im-cdn.it/plan/114310886/xxl.jpg",
+            "label": "Localit Fontanella 10 4 - Floor 1"
+          }
+        ],
+        "unrenderedVolumes": [
+          "Piano seminterrato: cantina finestrata carrabile, spazi accessori e vano tecnico citati nell’annuncio; pianta non disponibile.",
+          "Box/posti auto coperti, accessi carrabili e collegamenti esterni: ingombri e quote non documentati dalla pianta abitativa.",
+          "Copertura e giardino: fotografie non leggibili con gli strumenti cloud, sagoma del tetto e confini esterni non ricostruiti."
+        ],
+        "coverage": "partial",
+        "preview": "assets/fontanella-10-4.jpg"
       },
       "evidence": {
         "listingReadAt": "2026-10-11T17:33:32.326917+02:00",
@@ -2234,12 +2261,51 @@
         "reason": "La disponibilità attuale non è confermata: fonti bloccate, incomplete o non accessibili. La lettura indicizzata non equivale a verifica live."
       },
       "model": {
-        "status": "in_review",
-        "path": null,
-        "views": [],
+        "status": "ready",
+        "path": "modelli/via-monte-d-oro.html",
+        "views": [
+          {
+            "id": "exterior",
+            "label": "Volume tavola 1, senza copertura",
+            "level": null
+          },
+          {
+            "id": "tavola-1",
+            "label": "Appartamento — tavola 1",
+            "level": 0
+          },
+          {
+            "id": "tavola-2",
+            "label": "Appartamento — tavola 2",
+            "level": 1
+          }
+        ],
         "notes": [
-          "Acquisite le piante dei due appartamenti. Non sono presenti nelle tavole acquisite il box singolo e le due cantine descritti nella proprietà; servono posizione e distribuzione di questi volumi."
-        ]
+          "Ricostruzione parziale: i due appartamenti si esplorano separatamente nelle viste Tavola 1 e Tavola 2. La prima vista mostra soltanto il volume della Tavola 1, senza copertura. Non è ricostruita la loro sovrapposizione nell’edificio.",
+          "Scala assoluta stimata uniforme 0,016m/pixel, senza quote leggibili. Altezza interna 2,70m e quote finestre indicative. Nomi dei piani e destinazioni dei vani non assegnati.",
+          "Finiture neutre e nessun arredo: fotografie non leggibili dal connettore cloud. Tetto, giardino, collegamenti esterni e volumi accessori omessi.",
+          "Vano superiore sinistro della Tavola 1 privo di apertura leggibile: nessuna porta inventata."
+        ],
+        "verifiedAt": "2026-10-18T21:00:23.683369+02:00",
+        "artifactSha256": "c5cf70961f81d8a813a4474680e521bc8b65bf593dae724b70fd9d3307d73f1c",
+        "sourcePlans": [
+          {
+            "url": "https://pic.im-cdn.it/plan/120376627/xxl.jpg",
+            "label": "Planimetria"
+          },
+          {
+            "url": "https://pic.im-cdn.it/plan/120376629/xxl.jpg",
+            "label": "Planimetria"
+          }
+        ],
+        "unrenderedVolumes": [
+          "Box singolo e due cantine citati nell’annuncio: piante e posizione non disponibili.",
+          "Scala esterna e ballatoio: impronta parziale visibile ma quote e raccordo fra tavole non verificabili; rampe e pianerottoli omessi.",
+          "Assemblaggio dei due appartamenti nell’edificio e copertura: tavole prive di nomi dei livelli e quote comuni; mostrate come unità separate, senza sovrapposizione inventata.",
+          "Giardino e accessi carrabili: confini e dislivelli non ricostruiti."
+        ],
+        "coverage": "partial",
+        "preview": "assets/via-monte-d-oro.jpg"
       },
       "evidence": {
         "listingReadAt": "2026-10-11T17:32:02.103767+02:00",
