@@ -36,12 +36,14 @@
       <button class="icon-button open-menu" id="open-menu" aria-label="Apri il menù immobili" aria-expanded="false" aria-controls="sidebar"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg></button>
       <div class="page-heading"><h1 id="page-title">Esplora gli immobili</h1><p id="page-subtitle">Case a Trieste e dintorni, da ogni prospettiva.</p></div>
       <div class="header-actions">
+        <a class="text-button favorites-link" id="favorites-link" href="#preferiti" aria-label="Preferiti (0)"><span class="favorite-star" aria-hidden="true">☆</span><span class="favorites-label">Preferiti</span><span id="favorites-count">0</span></a>
         <button class="text-button share-button" id="share" title="Copia il collegamento a questa vista"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10 13a5 5 0 0 0 7 0l3-3a5 5 0 0 0-7-7l-2 2M14 11a5 5 0 0 0-7 0l-3 3a5 5 0 0 0 7 7l2-2"/></svg><span>Condividi</span></button>
         <button class="icon-button" id="help" aria-label="Come navigare i modelli" title="Come navigare"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2-3 4m0 3h.1"/></svg></button>
       </div>
     </header>
     <section id="overview" class="overview" aria-labelledby="overview-title">
       <div class="intro"><h2 id="overview-title">Una casa.<br>Ogni prospettiva.</h2><p>Annunci, informazioni e modelli 3D.<br class="desktop-break"> Geometria dalle planimetrie, dettagli dalle foto.</p></div>
+      <p id="favorites-note" class="catalog-summary" hidden>I preferiti sono salvati in questo browser e restano qui anche quando un annuncio viene archiviato. Nessuna cancellazione automatica: solo tu puoi rimuoverli con la stella. Non sono sincronizzati tra dispositivi; cancellare i dati del browser elimina anche i preferiti.</p>
       <form class="catalog-filters" id="catalog-filters" role="search" aria-label="Cerca e filtra gli immobili">
         <label class="search-field">Cerca una casa<input id="catalog-search" type="search" placeholder="Indirizzo, titolo o località" autocomplete="off"></label>
         <label>Località<select id="locality-filter"><option value="">Tutte le località</option></select></label>

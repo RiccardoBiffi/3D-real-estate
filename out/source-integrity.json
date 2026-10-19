@@ -160,7 +160,7 @@
     }
   ],
   "files": {
-    "app.js": "2de3be1049c2e5a3c40edb65e19670b745e981f64b9737c83dbc5a79236c9b97",
+    "app.js": "58d6e9cd7dca540d24367fc1f3ec2448a58e62fdd173647b2a2c03596a2fc36c",
     "assets/aurisina-cave-77-b.jpg": "357cc7966d36585836ab5f27751f082960ecb94d4b1aa59e4a973e00ba5a917d",
     "assets/aurisina.jpg": "1518e127584b20648f2fdaff3e036dfadb0a3f90095abfbc6978b3ddc0e98416",
     "assets/basovizza-563-1.jpg": "496d91aafa50336957c447a46654450a3966dbd67e496678ab534ca55dc832d3",
@@ -189,7 +189,7 @@
     "assets/via-monte-d-oro.jpg": "b1961a49c4e42d0a966b8273915d3a71d952c57b8dd9cb5893982e989a4f9955",
     "assets/via-umberto-veruda.jpg": "4cd065df3d647eb25d267fe5f48b098de7169b267dbe6ff6a5a11eb8f3d622b3",
     "data/catalog.json": "33bd43e2fd7598f9532f38c80329f3f2f6b672b856d96a7d6de9ce49958be77e",
-    "index.html": "207ba7bd56afdf14df13b46d79dd2e4323d96aa6e83ea889711a98d4dd854f59",
+    "index.html": "f336cd6eea0732fe215b64fa6630e61a82b795c55f121e7c140bf19a1496a43d",
     "modelli/aurisina-cave-77-b.html": "e0bc0816b7c5f0caa7e5b41d5570098d50d71dc2c0a0c074dbe4f11cfa6083db",
     "modelli/aurisina.html": "f0fd039a9ffa7a3af5bfacdec647f0e900e7eb97622d23bff46e64761e885c97",
     "modelli/basovizza-563-1.html": "911c9c06fc7defdb6bb76bd297c7d1777cb9267de46fc8cdcc6d8f21e706b7bb",
@@ -216,6 +216,6 @@
     "modelli/via-monte-carso.html": "876dfcf9f0c01dd481a891459c9ef7ac1308b337ba0e56a816f15a1ee99572b9",
     "modelli/via-monte-d-oro.html": "c5cf70961f81d8a813a4474680e521bc8b65bf593dae724b70fd9d3307d73f1c",
     "modelli/via-umberto-veruda.html": "91da3d4fd5c22f4a96bb606be187d542010cf3ed70ae42e5baa2b48e9d951f28",
-    "styles.css": "9b9babbb735fdfb189b2599c0c324c1c1d419fa305906df20a018f6fd8c3eee1"
+    "styles.css": "77f5843fb80b060de8bbdde2889946dc95c12e3c91f4e518ef091a65ac21f026"
   }
 }

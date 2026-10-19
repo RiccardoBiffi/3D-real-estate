@@ -9,6 +9,48 @@
   let current = null, currentMode = 0, frame = null, timer = null, toastTimer = null;
   let ready = false, startedAt = 0, unloaded = false, frameCleanup = null;
   let pendingMode = null, pendingModeFrame = 0;
+  const favoritesKey = 'case-in-3d.favorites.v1';
+  let favorites = readFavorites(), favoritesOnly = false;
+  function validProperty(p) { return p && typeof p.id === 'string' && /^[a-z0-9][a-z0-9_-]*$/.test(p.id) && !['panoramica', 'preferiti'].includes(p.id) && typeof p.title === 'string'; }
+  function readFavorites() {
+    try {
+      const saved = JSON.parse(localStorage.getItem(favoritesKey) || '[]');
+      return new Map((Array.isArray(saved) ? saved : []).filter(validProperty).map(p => [p.id, p]));
+    } catch (_) { return new Map(); }
+  }
+  function favoriteButton(property, detail = false) {
+    const saved = favorites.has(property.id), button = el('button', `favorite-toggle${detail ? ' detail-favorite' : ''}`);
+    button.type = 'button'; button.dataset.favorite = property.id;
+    button.setAttribute('aria-pressed', String(saved));
+    const label = `${saved ? 'Rimuovi dai' : 'Aggiungi ai'} preferiti: ${property.title}`;
+    button.setAttribute('aria-label', label); button.title = label;
+    const star = el('span', 'favorite-star', saved ? '★' : '☆'); star.setAttribute('aria-hidden', 'true'); button.append(star);
+    if (detail) button.append(el('span', '', saved ? 'Nei preferiti' : 'Aggiungi ai preferiti'));
+    button.addEventListener('click', () => {
+      const next = new Map(favorites);
+      if (saved) next.delete(property.id); else next.set(property.id, property);
+      try { localStorage.setItem(favoritesKey, JSON.stringify([...next.values()])); }
+      catch (_) { showToast('Salvataggio non riuscito. Consenti l’archiviazione nel browser o libera spazio e riprova.'); return; }
+      favorites = next; renderCatalog();
+      if (current) renderDetails(current);
+      const target = [...document.querySelectorAll('[data-favorite]')].find(b => b.dataset.favorite === property.id && Boolean(b.closest('#property-details')) === detail);
+      (target || $('favorites-link')).focus();
+      showToast(saved ? 'Annuncio rimosso dai preferiti.' : 'Annuncio salvato nei preferiti di questo browser.');
+    });
+    return button;
+  }
+  function retainFavorites(fresh) {
+    const merged = [...fresh], ids = new Set(fresh.map(p => p.id));
+    for (const [id, saved] of favorites) {
+      if (ids.has(id)) { favorites.set(id, fresh.find(p => p.id === id)); continue; }
+      const archived = { ...saved, availability: { ...saved.availability, status: 'archived', reason: 'Annuncio non presente nel catalogo aggiornato. La scheda salvata nei preferiti è conservata con gli ultimi dati disponibili.' } };
+      favorites.set(id, archived); merged.push(archived);
+    }
+    // Refresh snapshots without ever pruning an entry during catalog synchronization.
+    try { if (favorites.size) localStorage.setItem(favoritesKey, JSON.stringify([...favorites.values()])); }
+    catch (_) { showToast('Impossibile aggiornare le copie salvate. I preferiti già memorizzati sono conservati.'); }
+    return merged;
+  }
   const compact = matchMedia('(max-width: 760px)');
   const sceneKeys = new Set(['ArrowLeft', 'ArrowRight', 'ArrowUp', 'ArrowDown', '+', '=', '-', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'Home', 'r', 'R', 't', 'T']);
   const text = value => value == null || value === '' ? 'Non indicato' : String(value);
@@ -73,9 +115,9 @@
       (!model || modelStatus(property) === model);
   }
   function renderCatalog() {
-    const filtered = properties.filter(matches), grid = $('property-grid'); grid.replaceChildren();
+    const filtered = properties.filter(p => (!favoritesOnly || favorites.has(p.id)) && matches(p)), grid = $('property-grid'); grid.replaceChildren();
     filtered.forEach((property, index) => {
-      const facts = property.facts || {}, card = el('a', 'property-card catalog-card'); card.href = propertyHref(property);
+      const facts = property.facts || {}, wrapper = el('article', 'catalog-card-shell'), card = el('a', 'property-card catalog-card'); card.href = propertyHref(property);
       const banner = el('div', 'catalog-card-banner');
       const preview = typeof property.model?.preview === 'string' && /^assets\/[a-z0-9-]+\.jpg$/.test(property.model.preview) ? property.model.preview : null;
       if (preview && modelReady(property)) {
@@ -93,11 +135,14 @@
       if (facts.parking) summary.append(el('span', '', `Parcheggio: ${text(facts.parking)}`));
       card.append(summary);
       if (facts.description) card.append(el('p', 'card-description', text(facts.description)));
-      const bottom = el('div', 'card-bottom'); bottom.append(el('span', '', `Controllo: ${date(property.availability?.checkedAt)}`), el('span', '', modelReady(property) ? 'Scheda e modello 3D →' : 'Leggi la scheda →')); card.append(bottom); grid.append(card);
+      const bottom = el('div', 'card-bottom'); bottom.append(el('span', '', `Controllo: ${date(property.availability?.checkedAt)}`), el('span', '', modelReady(property) ? 'Scheda e modello 3D →' : 'Leggi la scheda →')); card.append(bottom); wrapper.append(card, favoriteButton(property)); grid.append(wrapper);
     });
     $('catalog-empty').hidden = filtered.length > 0 || !catalog;
+    $('catalog-empty').textContent = favoritesOnly && !favorites.size ? 'Non hai ancora preferiti. Premi la stella su una casa per salvarla qui.' : 'Nessuna casa corrisponde ai filtri. Prova un’altra ricerca o includi l’archivio.';
+    $('favorites-count').textContent = String(favorites.size);
+    $('favorites-link').setAttribute('aria-label', `Preferiti (${favorites.size})`);
     const archived = properties.filter(p => status(p) === 'archived').length;
-    $('catalog-summary').textContent = `${filtered.length} ${filtered.length === 1 ? 'casa' : 'case'} visualizzate · ${properties.length} nel catalogo · ${archived} in archivio`;
+    $('catalog-summary').textContent = favoritesOnly ? `${filtered.length} case visualizzate · ${favorites.size} preferiti salvati, inclusi gli archiviati` : `${filtered.length} ${filtered.length === 1 ? 'casa' : 'case'} visualizzate · ${properties.length} nel catalogo · ${archived} in archivio`;
   }
   function detailBlock(title, values) {
     const section = el('section', 'detail-block'); section.append(el('h3', '', title)); const ul = el('ul');
@@ -106,7 +151,7 @@
   function renderDetails(property) {
     const host = $('property-details'); host.replaceChildren(); const facts = property.facts || {};
     const heading = el('div', 'detail-heading'); heading.append(el('h2', '', 'La casa, nelle fonti disponibili'), el('strong', 'detail-price', price(facts.priceEur))); host.append(heading);
-    const badges = el('div', 'detail-badges'); badges.append(badge(statusLabels[status(property)], status(property)), badge(modelLabel(property), 'model')); host.append(badges);
+    const badges = el('div', 'detail-badges'); badges.append(badge(statusLabels[status(property)], status(property)), badge(modelLabel(property), 'model'), favoriteButton(property, true)); host.append(badges);
     if (facts.description) host.append(el('p', 'property-description', text(facts.description)));
     if (property.evidence?.note) host.append(el('p', 'surface-note', text(property.evidence.note)));
     const availability = el('div', 'availability-note'); availability.append(el('strong', '', `Ultimo controllo: ${date(property.availability?.checkedAt)}`));
@@ -256,6 +301,17 @@
     if (!catalog) return;
     const raw = location.hash.slice(1).split('/'); let id;
     try { id = decodeURIComponent(raw[0]); } catch (_) { id = ''; }
+    const nextFavoritesOnly = id === 'preferiti';
+    if (nextFavoritesOnly !== favoritesOnly) {
+      $('catalog-search').value = ''; $('locality-filter').value = ''; $('model-filter').value = '';
+      $('availability-filter').value = nextFavoritesOnly ? 'all' : 'published';
+    }
+    favoritesOnly = nextFavoritesOnly;
+    $('favorites-note').hidden = !favoritesOnly;
+    if (favoritesOnly) $('overview-title').textContent = 'Le tue case preferite.';
+    else $('overview-title').replaceChildren('Una casa.', document.createElement('br'), 'Ogni prospettiva.');
+    if (favoritesOnly) $('favorites-link').setAttribute('aria-current', 'page'); else $('favorites-link').removeAttribute('aria-current');
+    renderCatalog();
     let property = propertyMap.get(id);
     if (!property && ['aurisina', 'muggia'].includes(id)) property = properties.find(p => p.model?.path === `modelli/${id}.html`);
     const n = Number(raw[1]); const mode = property && Number.isInteger(n) && n >= 1 && n <= views(property).length ? n - 1 : 0;
@@ -264,9 +320,11 @@
     if (!property) {
       leaveFullscreen(); unloadModel(); current = null; currentMode = 0;
       $('overview').hidden = false; $('viewer').hidden = true; $('model-coverage').hidden = true; $('property-details').hidden = true; $('back-to-catalog').hidden = true;
-      $('main').classList.remove('detail-open'); $('page-title').textContent = 'Esplora gli immobili';
+      $('main').classList.remove('detail-open'); $('page-title').textContent = favoritesOnly ? 'I tuoi preferiti' : 'Esplora gli immobili';
+      $('main').scrollTop = 0; $('overview').scrollTop = 0;
       $('page-subtitle').textContent = 'Case a Trieste e dintorni, da ogni prospettiva.'; document.title = 'Case in 3D - Esplora gli immobili';
-      if (id && id !== 'panoramica') showToast('La scheda richiesta non è presente nel catalogo.');
+      if (favoritesOnly) document.title = 'Case in 3D - Preferiti';
+      if (id && !['panoramica', 'preferiti'].includes(id)) showToast('La scheda richiesta non è presente nel catalogo.');
     } else openProperty(property, mode);
   }
   async function loadCatalog() {
@@ -278,9 +336,9 @@
       if (!response.ok) throw new Error('Catalogo non raggiungibile');
       const payload = await response.json();
       if (payload.schemaVersion !== 1 || !Array.isArray(payload.properties)) throw new Error('Formato del catalogo non supportato');
-      const seen = new Set(); const validated = payload.properties.filter(p => p && typeof p.id === 'string' && p.id && p.id !== 'panoramica' && !seen.has(p.id) && seen.add(p.id));
+      const seen = new Set(); const validated = payload.properties.filter(p => validProperty(p) && !seen.has(p.id) && seen.add(p.id));
       if (validated.length !== payload.properties.length) throw new Error('Catalogo con identificatori mancanti o duplicati');
-      catalog = payload; properties = validated; propertyMap = new Map(properties.map(property => [property.id, property]));
+      catalog = payload; properties = retainFavorites(validated); propertyMap = new Map(properties.map(property => [property.id, property]));
       const oldLocality = $('locality-filter').value; $('locality-filter').replaceChildren(el('option', '', 'Tutte le località')); $('locality-filter').firstChild.value = '';
       [...new Set(properties.map(p => p.locality).filter(v => typeof v === 'string' && v))].sort((a, b) => a.localeCompare(b, 'it')).forEach(locality => { const option = el('option', '', locality); option.value = locality; $('locality-filter').append(option); });
       if ([...$('locality-filter').options].some(o => o.value === oldLocality)) $('locality-filter').value = oldLocality;

@@ -11,6 +11,17 @@ sources=module('check-sources');imports=module('import-chat-batch');release=modu
 staging=module('stage-release')
 
 class Workflow(unittest.TestCase):
+    def test_missing_seed_preserves_archived_house_and_model(self):
+        previous={'id':'saved-house','title':'Casa salvata','facts':{'priceEur':400000},'availability':{'status':'published','checkedAt':'2026-10-19'},'model':{'status':'ready','path':'modelli/saved-house.html'},'historicalPrices':[{'priceEur':410000}]}
+        old={'properties':[copy.deepcopy(previous)]}
+        with tempfile.TemporaryDirectory() as work:
+            result=builder.catalog({'properties':[]},Path(work),old)
+            self.assertEqual(len(result),1)
+            self.assertEqual(result[0]['availability']['status'],'archived')
+            for key in ('id','title','facts','model','historicalPrices'):
+                self.assertEqual(result[0][key],previous[key])
+            self.assertEqual(old['properties'][0],previous)
+            self.assertEqual(builder.catalog({'properties':[]},Path(work),{'properties':result}),result)
     def base(self):
         return {'chatId':'source','properties':[]},{'chatId':'source','messages':[]}
     def message(self,price=400000):

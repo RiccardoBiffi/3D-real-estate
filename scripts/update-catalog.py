@@ -70,6 +70,14 @@ def catalog(seed,work,old,dist=None):
         live_applied=bool(live)
         item['evidence']={'listingReadAt':live.get('checkedAt') if live_applied else source.get('readAt'),'sourceUpdatedAt':live.get('sourceUpdatedAt') if live_applied else source_fields.get('sourceUpdatedAt'),'method':observed_method if live_applied else ('public_reader_and_chat' if source.get('readerAccessible') else 'chat'),'note':live.get('evidenceNote','Annuncio identificativo letto sul sito pubblico dell’agenzia; i dati non confermati sono indicati nella scheda.') if live_applied else source.get('evidenceLimit','Dati della ricerca precedente; accesso alla fonte non completo.')}
         properties.append(item)
+    # Catalog refreshes may archive records, but must never delete saved houses
+    # or their model references. Browser-local favorites cannot be known here.
+    retained_ids={p['id'] for p in properties}
+    for previous in old.get('properties',[]):
+        if previous['id'] not in retained_ids:
+            item=copy.deepcopy(previous)
+            item['availability']={**item.get('availability',{}),'status':'archived','reason':'Annuncio non presente nelle nuove fonti del catalogo. Scheda e modello conservati in archivio.'}
+            properties.append(item)
     return properties
 
 if __name__=='__main__':
