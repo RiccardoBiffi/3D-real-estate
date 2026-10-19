@@ -8,6 +8,7 @@
   let properties = [], propertyMap = new Map(), catalog = null, loadingCatalog = false;
   let current = null, currentMode = 0, frame = null, timer = null, toastTimer = null;
   let ready = false, startedAt = 0, unloaded = false, frameCleanup = null;
+  let pendingMode = null, pendingModeFrame = 0;
   const compact = matchMedia('(max-width: 760px)');
   const sceneKeys = new Set(['ArrowLeft', 'ArrowRight', 'ArrowUp', 'ArrowDown', '+', '=', '-', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'Home', 'r', 'R', 't', 'T']);
   const text = value => value == null || value === '' ? 'Non indicato' : String(value);
@@ -166,7 +167,10 @@
   function chooseMode(mode) {
     const control = sceneWindow()?.__sceneControls;
     if (!ready || !control || !Number.isInteger(mode) || mode < 0 || mode >= views(current).length) return;
-    try { control.setMode(mode); reflectMode(mode); } catch (_) { reportUnavailable('Il controllo del modello non è disponibile. Riprova aprendo la scheda.'); }
+    try {
+      pendingMode = mode; pendingModeFrame = sceneWindow()?.__sceneState?.frames || 0;
+      control.setMode(mode); reflectMode(mode);
+    } catch (_) { pendingMode = null; reportUnavailable('Il controllo del modello non è disponibile. Riprova aprendo la scheda.'); }
   }
   function sendKey(key) {
     const w = sceneWindow(); if (!ready || !w) return;
@@ -176,6 +180,7 @@
     w.dispatchEvent(new w.KeyboardEvent('keydown', { key, bubbles: true, cancelable: true }));
   }
   function unloadModel() {
+    pendingMode = null;
     clearInterval(timer); timer = null; frameCleanup?.(); frameCleanup = null;
     if (frame) {
       try {
@@ -199,6 +204,12 @@
       if (!ready) {
         ready = true; $('loading').hidden = true; $('viewer-message').hidden = true; setControlsEnabled(true);
         chooseMode(currentMode); updatePausedState();
+      } else if (pendingMode !== null) {
+        // The scene publishes mode only after rendering a frame. Ignore its old
+        // frame while a requested change is awaiting acknowledgement.
+        if (state.mode === pendingMode && state.frames > pendingModeFrame) {
+          pendingMode = null; reflectMode(state.mode);
+        }
       } else if (state.mode !== currentMode) reflectMode(state.mode);
     } else if (performance.now() - startedAt > 20000) reportUnavailable('Il modello non è pronto o il rendering è bloccato. La scheda resta disponibile; riapri la casa per riprovare.');
   }
@@ -252,7 +263,7 @@
     document.querySelectorAll('[data-nav]').forEach(link => { if (link.dataset.nav === (property?.id || 'panoramica')) link.setAttribute('aria-current', 'page'); else link.removeAttribute('aria-current'); });
     if (!property) {
       leaveFullscreen(); unloadModel(); current = null; currentMode = 0;
-      $('overview').hidden = false; $('viewer').hidden = true; $('property-details').hidden = true; $('back-to-catalog').hidden = true;
+      $('overview').hidden = false; $('viewer').hidden = true; $('model-coverage').hidden = true; $('property-details').hidden = true; $('back-to-catalog').hidden = true;
       $('main').classList.remove('detail-open'); $('page-title').textContent = 'Esplora gli immobili';
       $('page-subtitle').textContent = 'Case a Trieste e dintorni, da ogni prospettiva.'; document.title = 'Case in 3D - Esplora gli immobili';
       if (id && id !== 'panoramica') showToast('La scheda richiesta non è presente nel catalogo.');

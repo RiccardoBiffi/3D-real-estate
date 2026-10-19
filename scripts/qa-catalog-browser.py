@@ -20,6 +20,10 @@ with sync_playwright() as pw:
    if device=='desktop':page.locator(f'.view-tab[data-mode="{mode}"]').click()
    else:page.locator('#view-select').select_option(str(mode))
    page.wait_for_function('(m)=>document.querySelector("iframe").contentWindow.__sceneState.mode===m',arg=mode,timeout=30000);checks[pid+'_last_view']=True
+   page.wait_for_timeout(650)
+   checks[pid+'_view_label_matches_scene']=page.locator('#view-select').input_value()==str(mode) and page.locator('#view-description').inner_text()==model['views'][mode]['label']
+   checks[pid+'_scene_has_room']=page.locator('#stage').evaluate('(e)=>e.getBoundingClientRect().height')>=250
+   checks[pid+'_details_below_controls']=page.evaluate('document.querySelector("#property-details").getBoundingClientRect().top>=document.querySelector(".viewer-footer").getBoundingClientRect().bottom-1')
    checks[pid+'_no_overflow']=page.evaluate('document.documentElement.scrollWidth<=innerWidth');page.screenshot(path=str(out/f'{pid}-{device}.png'),full_page=True)
   page.goto(a.base+'#trebiciano-130356648');page.wait_for_selector('#property-details',state='visible');checks['garden_range']= '250–300' in page.locator('#property-details').inner_text()
   page.route('**/data/catalog.json',lambda route:route.abort());page.reload();page.wait_for_selector('#catalog-error',state='visible');checks['fetch_error_visible']=page.locator('iframe').count()==0;page.unroute('**/data/catalog.json');page.locator('#retry-catalog').click();page.wait_for_function('document.querySelectorAll(".property-card").length>0');checks['retry_recovers']=True
