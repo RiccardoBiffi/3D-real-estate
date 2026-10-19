@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogSha256": "ac47531f1e1ae58a9c12ed6d13b4ea459894ff7cd7c90ac5c9d20009ad007e3a",
+  "catalogSha256": "07e9af43fb6de8e9c1f4ba5df4c6f0c78aba1307ac11d8ae401bfe525d421d5e",
   "models": [
     {
       "id": "via-dei-salici-22-1",
@@ -136,7 +136,7 @@
     }
   ],
   "files": {
-    "app.js": "2ac7f5a43ed29188f90b3f081fd60b61ab541a183b64a6a446b2263b677d1aff",
+    "app.js": "6d66b6c7f5168b33c1cde3070d5f6049d92a3fcb5b663435ca006a67c02cb7f6",
     "assets/aurisina-cave-77-b.jpg": "357cc7966d36585836ab5f27751f082960ecb94d4b1aa59e4a973e00ba5a917d",
     "assets/aurisina.jpg": "1518e127584b20648f2fdaff3e036dfadb0a3f90095abfbc6978b3ddc0e98416",
     "assets/basovizza-563-1.jpg": "496d91aafa50336957c447a46654450a3966dbd67e496678ab534ca55dc832d3",
@@ -160,8 +160,8 @@
     "assets/via-monte-carso.jpg": "829824df3107f5117c93a427356df13d41b6be8f8e84e1352b76c8e02d26b813",
     "assets/via-monte-d-oro.jpg": "b1961a49c4e42d0a966b8273915d3a71d952c57b8dd9cb5893982e989a4f9955",
     "assets/via-umberto-veruda.jpg": "4cd065df3d647eb25d267fe5f48b098de7169b267dbe6ff6a5a11eb8f3d622b3",
-    "data/catalog.json": "ac47531f1e1ae58a9c12ed6d13b4ea459894ff7cd7c90ac5c9d20009ad007e3a",
-    "index.html": "3bf3a1bcbeec3133d6b48422279d0c362e9ce859102771c9b0a0f6c904e38aa7",
+    "data/catalog.json": "07e9af43fb6de8e9c1f4ba5df4c6f0c78aba1307ac11d8ae401bfe525d421d5e",
+    "index.html": "3944872c24fd66a15d7f7781b20ef87659f67e717fbcec710b5a62f090280b41",
     "modelli/aurisina-cave-77-b.html": "e0bc0816b7c5f0caa7e5b41d5570098d50d71dc2c0a0c074dbe4f11cfa6083db",
     "modelli/aurisina.html": "f0fd039a9ffa7a3af5bfacdec647f0e900e7eb97622d23bff46e64761e885c97",
     "modelli/basovizza-563-1.html": "911c9c06fc7defdb6bb76bd297c7d1777cb9267de46fc8cdcc6d8f21e706b7bb",
@@ -184,6 +184,6 @@
     "modelli/via-monte-carso.html": "876dfcf9f0c01dd481a891459c9ef7ac1308b337ba0e56a816f15a1ee99572b9",
     "modelli/via-monte-d-oro.html": "c5cf70961f81d8a813a4474680e521bc8b65bf593dae724b70fd9d3307d73f1c",
     "modelli/via-umberto-veruda.html": "91da3d4fd5c22f4a96bb606be187d542010cf3ed70ae42e5baa2b48e9d951f28",
-    "styles.css": "879968aa4b98499d6ae7426ed5a63c57b2cf4b65b2948a35b56ebc2980722480"
+    "styles.css": "9b9babbb735fdfb189b2599c0c324c1c1d419fa305906df20a018f6fd8c3eee1"
   }
 }

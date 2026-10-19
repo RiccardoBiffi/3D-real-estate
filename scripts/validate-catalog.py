@@ -9,7 +9,7 @@ def validate(catalog,dist,work=None):
     for prop in catalog.get('properties',[]):
         pid=prop.get('id');ids.append(pid)
         if not isinstance(pid,str) or not re.fullmatch(r'[a-z0-9]+(?:-[a-z0-9]+)*',pid):errors.append(f'Invalid property id {pid}')
-        if prop.get('availability',{}).get('status') not in ('available','unverified','unavailable'):errors.append(f'{pid}: invalid availability')
+        if prop.get('availability',{}).get('status') not in ('published','archived'):errors.append(f'{pid}: invalid availability')
         for url in prop.get('sourceUrls',[]):
             parsed=urlparse(url)
             if parsed.scheme!='https' or not parsed.netloc or parsed.username or parsed.password:errors.append(f'{pid}: unsafe source URL')
@@ -36,7 +36,9 @@ def validate(catalog,dist,work=None):
             if work:
                 try:report=json.loads((work/'models'/(pid+'-review.json')).read_text())
                 except (FileNotFoundError,json.JSONDecodeError):errors.append(f'{pid}: missing review evidence');continue
-                for key in ('staticPassed','browserPassed','geometryPassed','orthographicPassed'):
+                required_qa=('staticPassed','browserPassed','geometryPassed')
+                if coverage!='exterior_only':required_qa+=('orthographicPassed',)
+                for key in required_qa:
                     if report.get('qa',{}).get(key) is not True:errors.append(f'{pid}: missing {key}')
                 if report.get('fidelity',{}).get('passed') is not True or report.get('independentReview',{}).get('passed') is not True:errors.append(f'{pid}: missing independent geometry review')
                 if file.is_file():

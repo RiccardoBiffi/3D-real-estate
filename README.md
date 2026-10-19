@@ -1,6 +1,6 @@
 # Case in 3D
 
-Catalogo immobiliare pubblico statico in italiano. La ricerca contiene 60 immobili distinti e 22 modelli approvati; ogni scheda distingue i dati dell’annuncio, le verifiche di disponibilità e lo stato della ricostruzione. Non sono pubblicati la trascrizione privata della chat o i file di lavoro.
+Catalogo immobiliare pubblico statico in italiano. La ricerca contiene 60 immobili distinti e 22 modelli approvati; ogni scheda distingue i dati dell’annuncio, le verifiche di pubblicazione e lo stato della ricostruzione. Gli unici stati sono «Pubblicato» e «Archiviato»: basta una pagina diretta di agenzia o aggregatore con titolo, prezzo e informazioni dell’esatto immobile per pubblicarlo; senza alcuna fonte fresca leggibile viene archiviato, anche se gli accessi sono bloccati. Nessuno dei due stati certifica una vendita o la disponibilità confermata dal venditore. I risultati indicizzati non valgono come prova. Non sono pubblicati la trascrizione privata della chat o i file di lavoro.
 
 ## Avvio locale
 
@@ -18,7 +18,7 @@ I modelli parziali riportano nella scheda e sopra la scena l’elenco dei volumi
 
 ## Aggiornamento e verifica
 
-Gli script in `scripts` importano messaggi identificati da ID e hash completo, preservano lo storico prezzi, distinguono annunci assenti da errori temporanei e generano il catalogo in modo atomico. Un modello diventa visibile soltanto con QA statico/browser, confronto geometrico e una seconda revisione delle fonti riferiti al medesimo hash HTML. Questa seconda lettura può essere svolta dallo stesso esecutore e non implica una verifica umana indipendente. La disponibilità non è dedotta dalla sola presenza della casa nella chat o da una pagina indicizzata.
+Gli script in `scripts` importano messaggi identificati da ID e hash completo, preservano lo storico prezzi, distinguono annunci assenti da errori temporanei e generano il catalogo in modo atomico. Un modello diventa visibile soltanto con QA statico/browser, confronto geometrico e una seconda revisione delle fonti riferiti al medesimo hash HTML. Questa seconda lettura può essere svolta dallo stesso esecutore e non implica una verifica umana indipendente. La pubblicazione non è dedotta dalla sola presenza della casa nella chat o da una pagina indicizzata.
 
     python3 scripts/test-catalog-workflow.py
     python3 scripts/validate-catalog.py dist/data/catalog.json --dist dist --work ../work --expected 60

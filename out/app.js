@@ -1,7 +1,7 @@
 'use strict';
 (() => {
   const $ = id => document.getElementById(id);
-  const statusLabels = { available: 'Disponibile', unavailable: 'Non più disponibile', unverified: 'Da verificare' };
+  const statusLabels = { published: 'Pubblicato', archived: 'Archiviato' };
   const modelLabels = { ready: '3D verificato', awaiting_plans: 'Ricostruzione da preparare', in_review: 'Modello in revisione', not_required: 'Scheda senza modello' };
   const euro = new Intl.NumberFormat('it-IT', { style: 'currency', currency: 'EUR', maximumFractionDigits: 0 });
   const number = new Intl.NumberFormat('it-IT', { maximumFractionDigits: 2 });
@@ -33,7 +33,7 @@
   function modelPath(value) {
     return typeof value === 'string' && /^modelli\/[a-zA-Z0-9_-]+\.html$/.test(value) ? value : null;
   }
-  function status(property) { return Object.hasOwn(statusLabels, property.availability?.status) ? property.availability.status : 'unverified'; }
+  function status(property) { return Object.hasOwn(statusLabels, property.availability?.status) ? property.availability.status : 'archived'; }
   function modelStatus(property) { return Object.hasOwn(modelLabels, property.model?.status) ? property.model.status : 'awaiting_plans'; }
   function views(property) { return Array.isArray(property?.model?.views) ? property.model.views.filter(v => v && typeof v.label === 'string') : []; }
   function modelReady(property) { return modelStatus(property) === 'ready' && modelPath(property.model?.path) && views(property).length > 0; }
@@ -68,7 +68,7 @@
     const locality = $('locality-filter').value, availability = $('availability-filter').value, model = $('model-filter').value;
     const haystack = [property.title, property.address, property.locality].filter(Boolean).join(' ').toLocaleLowerCase('it-IT');
     return (!query || haystack.includes(query)) && (!locality || property.locality === locality) &&
-      (availability === 'all' || (availability === 'active' ? status(property) !== 'unavailable' : status(property) === availability)) &&
+      (availability === 'all' || status(property) === availability) &&
       (!model || modelStatus(property) === model);
   }
   function renderCatalog() {
@@ -95,7 +95,7 @@
       const bottom = el('div', 'card-bottom'); bottom.append(el('span', '', `Controllo: ${date(property.availability?.checkedAt)}`), el('span', '', modelReady(property) ? 'Scheda e modello 3D →' : 'Leggi la scheda →')); card.append(bottom); grid.append(card);
     });
     $('catalog-empty').hidden = filtered.length > 0 || !catalog;
-    const archived = properties.filter(p => status(p) === 'unavailable').length;
+    const archived = properties.filter(p => status(p) === 'archived').length;
     $('catalog-summary').textContent = `${filtered.length} ${filtered.length === 1 ? 'casa' : 'case'} visualizzate · ${properties.length} nel catalogo · ${archived} in archivio`;
   }
   function detailBlock(title, values) {
@@ -110,8 +110,7 @@
     if (property.evidence?.note) host.append(el('p', 'surface-note', text(property.evidence.note)));
     const availability = el('div', 'availability-note'); availability.append(el('strong', '', `Ultimo controllo: ${date(property.availability?.checkedAt)}`));
     if (property.availability?.reason) availability.append(el('p', '', text(property.availability.reason)));
-    if (status(property) === 'unverified') availability.append(el('p', '', 'Accesso incompleto o disponibilità non confermata: la casa non è classificata come ritirata.'));
-    if (status(property) === 'unavailable') availability.append(el('p', '', 'Scheda conservata in archivio. Le caratteristiche e gli eventuali modelli descrivono l’annuncio storico.'));
+    if (status(property) === 'archived') availability.append(el('p', '', 'Nessuna fonte online fresca leggibile individuata nell’ultimo controllo. La scheda e gli eventuali modelli restano consultabili; l’archiviazione non certifica una vendita o un ritiro.'));
     host.append(availability);
     if (modelReady(property) && missingVolumes(property).length) host.append(coverageNotice(property));
     if (!modelReady(property)) {

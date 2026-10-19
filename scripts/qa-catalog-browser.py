@@ -9,7 +9,7 @@ with sync_playwright() as pw:
  for device,w,h in [('desktop',1280,800),('mobile',390,844)]:
   page=browser.new_page(viewport={'width':w,'height':h});errors=[];page.on('pageerror',lambda e:errors.append(str(e)));checks={};page.goto(a.base+'#panoramica');page.wait_for_function('document.querySelectorAll(".property-card").length>0')
   page.locator('#availability-filter').select_option('all');checks['full_catalog']=page.locator('.property-card').count()==len(properties)
-  page.locator('#availability-filter').select_option('unavailable');checks['archive']=page.locator('.property-card').count()==sum(x['availability']['status']=='unavailable' for x in properties.values())
+  page.locator('#availability-filter').select_option('archived');checks['archive']=page.locator('.property-card').count()==sum(x['availability']['status']=='archived' for x in properties.values())
   page.locator('#availability-filter').select_option('all');page.locator('#model-filter').select_option('ready');checks['ready_filter']=page.locator('.property-card').count()==sum(x['model']['status']=='ready' for x in properties.values())
   for pid in a.ids:
    model=properties[pid]['model'];assert model['status']=='ready';page.evaluate('(id)=>location.hash=id',pid);page.wait_for_function("document.querySelector('iframe')?.contentWindow.__sceneState?.ready",timeout=60000)

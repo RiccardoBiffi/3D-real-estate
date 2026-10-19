@@ -27,8 +27,7 @@ def catalog(seed,work,old,dist=None):
         if source_fields.get('priceEur') and source_fields['priceEur']!=facts.get('priceEur'):
             facts.setdefault('limitations',[]).append('Prezzo discordante nella lettura indicizzata: €'+format(source_fields['priceEur'],',').replace(',','.')+'. Conservato l’ultimo prezzo della chat in attesa di conferma diretta.')
         check=read(work/'source-checks'/(p['id']+'.json'),{})
-        availability={'status':check.get('conclusion','unverified'),'checkedAt':check.get('checkedAt'),'reason':check.get('reason','Disponibilità online ancora da verificare.')}
-        if p.get('userUnavailable') and availability['status']!='available':availability['status']='unavailable';availability['reason']='Non più disponibile secondo la segnalazione dell’utente del '+p['userUnavailable']['date']+'. Gli accessi bloccati non costituiscono una nuova conferma.'
+        availability={'status':'published' if check.get('conclusion')=='published' else 'archived','checkedAt':check.get('checkedAt'),'reason':check.get('reason','Nessuna fonte online fresca leggibile individuata nell’ultimo controllo.')}
         live=read(work/'live-facts'/(p['id']+'.json'),{})
         reader=read(work/'reader-facts'/(p['id']+'.json'),{})
         observed_method='direct_http'
@@ -50,7 +49,9 @@ def catalog(seed,work,old,dist=None):
         if dist and report.get('path') and report.get('path','').startswith('modelli/'):
             path=dist/report['path']
             if path.is_file():artifact=hashlib.sha256(path.read_bytes()).hexdigest()
-        reviewed=bool(artifact) and report.get('status')=='ready' and all(qa.get(k) is True for k in ('staticPassed','browserPassed','geometryPassed','orthographicPassed')) and report.get('fidelity',{}).get('passed') is True and independent.get('passed') is True and independent.get('artifactSha256')==report.get('artifactSha256')==artifact
+        required_qa=('staticPassed','browserPassed','geometryPassed')
+        if report.get('coverage')!='exterior_only':required_qa+=('orthographicPassed',)
+        reviewed=bool(artifact) and report.get('status')=='ready' and all(qa.get(k) is True for k in required_qa) and report.get('fidelity',{}).get('passed') is True and independent.get('passed') is True and independent.get('artifactSha256')==report.get('artifactSha256')==artifact
         if reviewed:
             model={k:report.get(k) for k in ('status','path','views','notes')};model['verifiedAt']=report.get('verifiedAt',report.get('qa',{}).get('verifiedAt'))
             model['artifactSha256']=artifact
@@ -64,7 +65,7 @@ def catalog(seed,work,old,dist=None):
             model={'status':'in_review','path':None,'views':[],'notes':report.get('notes') or eligibility.get('notes') or ['Ricostruzione delle parti documentate in corso. I volumi non ricostruibili saranno elencati nella scheda del modello parziale.']}
         else:
             model={'status':'awaiting_plans','path':None,'views':[],'notes':['Ricostruzione da preparare: le parti documentate potranno essere pubblicate anche con volumi mancanti, esplicitamente elencati. Senza piante utilizzabili, fotografie sufficienti consentono una ricostruzione dei soli esterni.']+(eligibility.get('notes') or ['Fotografie e planimetrie della casa da acquisire o validare.'])}
-        if availability['status']=='unavailable' and not reviewed:model={'status':'not_required','path':None,'views':[],'notes':['Scheda storica conservata; nessun nuovo modello viene costruito per un immobile non più disponibile.']}
+        if availability['status']=='archived' and not reviewed:model={'status':'not_required','path':None,'views':[],'notes':['Scheda storica conservata; nessun nuovo modello viene costruito per un annuncio archiviato.']}
         item.update(facts=facts,availability=availability,model=model)
         live_applied=bool(live)
         item['evidence']={'listingReadAt':live.get('checkedAt') if live_applied else source.get('readAt'),'sourceUpdatedAt':live.get('sourceUpdatedAt') if live_applied else source_fields.get('sourceUpdatedAt'),'method':observed_method if live_applied else ('public_reader_and_chat' if source.get('readerAccessible') else 'chat'),'note':live.get('evidenceNote','Annuncio identificativo letto sul sito pubblico dell’agenzia; i dati non confermati sono indicati nella scheda.') if live_applied else source.get('evidenceLimit','Dati della ricerca precedente; accesso alla fonte non completo.')}
@@ -77,5 +78,5 @@ if __name__=='__main__':
     old_props=old.get('properties',[]);changed=props!=old_props
     result={'schemaVersion':1,'updatedAt':datetime.now(ZoneInfo('Europe/Rome')).isoformat() if changed else old.get('updatedAt'),'properties':props}
     out.parent.mkdir(parents=True,exist_ok=True);temp=out.with_suffix('.tmp');temp.write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n');os.replace(temp,out)
-    digest=hashlib.sha256(out.read_bytes()).hexdigest();counts={s:sum(x['availability']['status']==s for x in props) for s in ('available','unavailable','unverified')}
+    digest=hashlib.sha256(out.read_bytes()).hexdigest();counts={s:sum(x['availability']['status']==s for x in props) for s in ('published','archived')}
     print(json.dumps({'count':len(props),'changed':changed,'availability':counts,'models':sum(x['model']['status']=='ready' for x in props),'sha256':digest}))

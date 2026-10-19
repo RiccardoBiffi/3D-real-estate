@@ -45,14 +45,14 @@
       <form class="catalog-filters" id="catalog-filters" role="search" aria-label="Cerca e filtra gli immobili">
         <label class="search-field">Cerca una casa<input id="catalog-search" type="search" placeholder="Indirizzo, titolo o località" autocomplete="off"></label>
         <label>Località<select id="locality-filter"><option value="">Tutte le località</option></select></label>
-        <label>Disponibilità<select id="availability-filter"><option value="active">Disponibili e da verificare</option><option value="available">Disponibili</option><option value="unverified">Da verificare</option><option value="unavailable">Archivio: non più disponibili</option><option value="all">Tutte le case</option></select></label>
+        <label>Stato annuncio<select id="availability-filter"><option value="published">Pubblicati</option><option value="archived">Archiviati</option><option value="all">Tutti gli annunci</option></select></label>
         <label>Modello<select id="model-filter"><option value="">Tutti i modelli</option><option value="ready">Con modello 3D</option><option value="awaiting_plans">Ricostruzione da preparare</option><option value="in_review">In revisione</option><option value="not_required">Scheda senza modello</option></select></label>
       </form>
       <p id="catalog-summary" class="catalog-summary" role="status" aria-live="polite">Caricamento del catalogo…</p>
       <div id="catalog-error" class="catalog-error" role="alert" hidden><p id="catalog-error-text"></p><button id="retry-catalog" type="button" class="text-button">Riprova</button></div>
       <div id="property-grid" class="property-grid"></div>
       <p id="catalog-empty" class="catalog-empty" hidden>Nessuna casa corrisponde ai filtri. Prova un’altra ricerca o includi l’archivio.</p>
-      <footer class="overview-footer"><span id="catalog-updated">Disponibilità verificata sulle fonti pubbliche accessibili.</span><span>Un annuncio inaccessibile resta da verificare.</span></footer>
+      <footer class="overview-footer"><span id="catalog-updated">Pubblicazione controllata sulle pagine delle fonti.</span><span>Senza una fonte fresca leggibile, l’annuncio viene archiviato.</span></footer>
     </section>
     <a id="back-to-catalog" class="back-to-catalog" href="#panoramica" hidden>← Tutte le case</a>
     <section id="viewer" class="viewer" aria-label="Esplorazione modello 3D" hidden>
