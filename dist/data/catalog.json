@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-19T10:12:07.134382+02:00",
+  "updatedAt": "2026-10-19T10:34:23.138245+02:00",
   "properties": [
     {
       "id": "via-risano-raute",
@@ -318,13 +318,35 @@
         ]
       },
       "model": {
-        "status": "awaiting_plans",
-        "path": null,
-        "views": [],
+        "status": "ready",
+        "path": "modelli/via-gianelli-7.html",
+        "views": [
+          {
+            "id": "garden-exterior",
+            "label": "Esterno dal giardino"
+          },
+          {
+            "id": "terraces-exterior",
+            "label": "Terrazze e mansarda — esterno"
+          }
+        ],
         "notes": [
-          "Ricostruzione da preparare: le parti documentate potranno essere pubblicate anche con volumi mancanti, esplicitamente elencati. Senza piante utilizzabili, fotografie sufficienti consentono una ricostruzione dei soli esterni.",
-          "Nessuna planimetria identificativa scaricabile è esposta nelle letture pubbliche acquisite; non ricostruire interni da sole foto o descrizioni."
-        ]
+          "Modello 3D parziale: solo esterni dedotti dalle fotografie; nessun taglio interno.",
+          "Dimensioni, quota delle terrazze e profondità della sagoma stimate; aperture al primo piano parzialmente nascoste dalla vegetazione.",
+          "Retro e fianchi non leggibili esclusi; terreno e posizione della tettoia indicativi.",
+          "Due viste esterne; trascina per ruotare, rotella/pinch per zoom, tasto destro/due dita per pan; doppio clic/tocco o R cambia vista; 1/2 seleziona, 0/Home ripristina, T dall’alto."
+        ],
+        "verifiedAt": "2026-10-19T10:30:03.824720+02:00",
+        "artifactSha256": "645125db8319c2e6da1d1a047f2795e43450f6bd74252be57020600e2c2fc654",
+        "coverage": "exterior_only",
+        "unrenderedVolumes": [
+          "Interni del livello giorno: soggiorno, cucina, bagno",
+          "Interni del livello notte: due camere, bagno e vano scala",
+          "Interni della mansarda: due vani, bagno e collegamenti verticali",
+          "Retro e fianchi non leggibili; edifici adiacenti esclusi"
+        ],
+        "sourcePlans": [],
+        "preview": "assets/via-gianelli-7-preview.jpg"
       },
       "evidence": {
         "listingReadAt": "2026-10-19T10:11:16.316766+02:00",
@@ -1049,13 +1071,67 @@
         ]
       },
       "model": {
-        "status": "awaiting_plans",
-        "path": null,
-        "views": [],
+        "status": "ready",
+        "path": "modelli/opicina-trifamiliare-tecnocasa.html",
+        "views": [
+          {
+            "id": "exterior",
+            "label": "Esterno"
+          },
+          {
+            "id": "mansarda",
+            "label": "Piano primo mansardato"
+          },
+          {
+            "id": "terra",
+            "label": "Piano terra"
+          },
+          {
+            "id": "interrato",
+            "label": "Piano seminterrato"
+          }
+        ],
         "notes": [
-          "Ricostruzione da preparare: le parti documentate potranno essere pubblicate anche con volumi mancanti, esplicitamente elencati. Senza piante utilizzabili, fotografie sufficienti consentono una ricostruzione dei soli esterni.",
-          "Nessuna planimetria identificativa scaricabile è esposta nelle letture pubbliche acquisite; non ricostruire interni da sole foto o descrizioni."
-        ]
+          "Scala assoluta stimata: tavole senza quote orizzontali; mappatura uniforme per tavola con assi conservati.",
+          "Piani ricalcati con scala uniforme per ciascuna tavola e allineamento della parete destra stimato. Il raccordo delle rampe non è ricostruibile con certezza ed è omesso.",
+          "Altezze interrato e terra 2.60m documentate; quota solai e spessore 0.18m stimati. Mansarda quote1.40/2.50 documentate; profilo tetto e raccordi stimati da foto.",
+          "Arredi essenziali e finiture dedotti dalle foto; confini esterni e pendenza indicativi; parcheggio omesso.",
+          "Rampe e collegamenti verticali interni non ricostruiti: vani/fori delle singole tavole presenti, senza pianerottoli inventati.",
+          "Schema fotointerpretato semplificato: falde, altezze non quotate, giardino e materiali indicativi; persiane, gronde e decorazioni non dettagliate.",
+          "Tagli indipendenti dei tre livelli: esterno, mansarda, piano terra e seminterrato."
+        ],
+        "verifiedAt": "2026-10-19T10:34:23.093256+02:00",
+        "artifactSha256": "afa52a71a07fb7dbd6cf7915cc4868ab4aefd9302df1ba2a588dbb83ecbe9fda",
+        "coverage": "partial",
+        "unrenderedVolumes": [
+          "Rampe e raccordo verticale della scala interna: i tre disegni non consentono un allineamento certo di rampe e pianerottoli; restano soltanto i vani scala documentati.",
+          "Parti comuni e altri due alloggi della trifamiliare non compresi nella vendita: non ricostruiti.",
+          "Area parcheggio scoperta e cortile comune: planimetria separata senza raccordo altimetrico certo alla casa; omessi.",
+          "Scale esterne tra cortile e parcheggio: raccordo altimetrico non quotato; omesse, senza collegamento fittizio."
+        ],
+        "sourcePlans": [
+          {
+            "url": "https://cdn-media.medialabtc.it/it/agencies/tscn7/estates/61227908/blueprints/284347049/gallery.jpeg",
+            "label": "Piano terra"
+          },
+          {
+            "url": "https://cdn-media.medialabtc.it/it/agencies/tscn7/estates/61227908/blueprints/284347054/gallery.jpeg",
+            "label": "Piano primo mansardato"
+          },
+          {
+            "url": "https://cdn-media.medialabtc.it/it/agencies/tscn7/estates/61227908/blueprints/284347094/gallery.jpeg",
+            "label": "Piano seminterrato"
+          },
+          {
+            "url": "https://cdn-media.medialabtc.it/it/agencies/tscn7/estates/61227908/blueprints/284347103/gallery.jpeg",
+            "label": "Parcheggio e cortile comune · non ricostruiti"
+          },
+          {
+            "url": "https://cdn-media.medialabtc.it/it/agencies/tscn7/estates/61227908/blueprints/284347479/gallery.jpeg",
+            "label": "Piano terra · seconda tavola"
+          }
+        ],
+        "preview": "assets/opicina-trifamiliare-tecnocasa-preview.jpg"
       },
       "evidence": {
         "listingReadAt": "2026-10-19T10:11:20.428512+02:00",
@@ -2852,13 +2928,45 @@
         ]
       },
       "model": {
-        "status": "awaiting_plans",
-        "path": null,
-        "views": [],
+        "status": "ready",
+        "path": "modelli/via-del-collio-9.html",
+        "views": [
+          {
+            "id": "exterior",
+            "label": "Esterno · pergola"
+          },
+          {
+            "id": "exterior-lane",
+            "label": "Esterno · lato rampa"
+          }
+        ],
         "notes": [
-          "Ricostruzione da preparare: le parti documentate potranno essere pubblicate anche con volumi mancanti, esplicitamente elencati. Senza piante utilizzabili, fotografie sufficienti consentono una ricostruzione dei soli esterni.",
-          "La fonte acquisita non espone piante identificative complete e scaricabili, o non è leggibile con gli accessi disponibili. Servono piante di terra, primo e mansarda con accesso esterno; non inventare il collegamento interno solo proposto nel testo."
-        ]
+          "Modello 3D parziale · solo esterni: nessuna planimetria interna disponibile.",
+          "Ricostruiti involucro, aperture fotografiche, tetto a padiglione con terrazza incassata, camini, pensilina e pergola; sagoma e scala assoluta dedotte/stimate.",
+          "Interni piano terra, primo piano e mansarda, scale e accessi indipendenti non ricostruiti.",
+          "Tettoia catastale, piccoli accessori non identificabili, parcheggio e ruscello omessi; terreno solo schematico, senza confini di proprietà.",
+          "Retro non documentato semplificato senza aperture inventate.",
+          "Due inquadrature esterne orbitabili; R/doppio clic/doppio tocco ciclano le viste, 1/2 accesso diretto, 0/Home reset, T vista dall’alto.",
+          "Verificato Chromium desktop e mobile emulato: caricamento HTTP locale poi rete disabilitata. Policy browser blocca file://; apertura file:// non verificata in questo ambiente. Nessun rilievo metrico."
+        ],
+        "verifiedAt": "2026-10-19T10:29:23.602131+02:00",
+        "artifactSha256": "f26f7c50034e855bc2da3a7f93519cb6063f1661875ae94361556bfad62533cd",
+        "coverage": "exterior_only",
+        "unrenderedVolumes": [
+          "Interni piano terra: cucina, soggiorno e bagno; pianta interna non disponibile.",
+          "Interni primo piano: due camere, bagno e ripostiglio; pianta interna non disponibile.",
+          "Interni mansarda indipendente e collegamenti: pianta non disponibile.",
+          "Tettoia raffigurata nello schema catastale: posizione e corrispondenza fotografica non identificabili.",
+          "Parcheggio per due auto e ruscello citati nel testo: ubicazione/forma non documentate, non modellati.",
+          "Piccoli accessori coperti dalla vegetazione e porzioni del terreno non leggibili: omessi; nessun confine ricostruito."
+        ],
+        "sourcePlans": [
+          {
+            "url": "https://uploadcare.engelvoelkers.com/ef0faf74-ea4b-4f9f-8850-abb94b77b702/",
+            "label": "Estratto di mappa catastale e schema tettoia · NON pianta interna della casa"
+          }
+        ],
+        "preview": "assets/via-del-collio-9-model-preview.jpg"
       },
       "evidence": {
         "listingReadAt": "2026-10-19T10:11:22.548618+02:00",
@@ -4848,13 +4956,42 @@
         ]
       },
       "model": {
-        "status": "awaiting_plans",
-        "path": null,
-        "views": [],
+        "status": "ready",
+        "path": "modelli/fontanella-villa-panoramica.html",
+        "views": [
+          {
+            "id": "exterior",
+            "label": "Esterno · cortile e balcone"
+          },
+          {
+            "id": "exterior-terrace",
+            "label": "Esterno · terrazza e falde"
+          }
+        ],
         "notes": [
-          "Ricostruzione da preparare: le parti documentate potranno essere pubblicate anche con volumi mancanti, esplicitamente elencati. Senza piante utilizzabili, fotografie sufficienti consentono una ricostruzione dei soli esterni.",
-          "Fotografie e planimetrie della casa da acquisire o validare."
-        ]
+          "Modello 3D parziale · solo esterni. Nessuna planimetria disponibile.",
+          "46 fotografie realmente acquisite e visionate. Nessuna pianta presente.",
+          "Involucro esterno dedotto, dimensioni e altezze stimate; non da 325m² commerciali.",
+          "Facciata posteriore non fotografata: involucro opaco senza aperture ipotetiche.",
+          "Ringhiere semplificate, tetto e terrazzo confrontati con foto aeree. Orientamento geografico non verificato.",
+          "Due viste esterne: cortile/balcone e terrazza/falde, più vista dall alto; nessun taglio interno.",
+          "Interni dei due appartamenti, cantina, zona hobby, garage e sottotetto non ricostruiti; giardino e confini completi omessi.",
+          "File autonomo verificato offline da file:// su Chromium153 desktop1280×800 e mobile390×844 emulato. Nessuna prova su dispositivi fisici.",
+          "Trascina per ruotare; rotellina/pinch zoom; destro/due dita pan; R/doppio clic/doppio tocco ciclo delle due viste;1/2 diretto;0/Home reset;T alto."
+        ],
+        "verifiedAt": "2026-10-19T10:30:23.107736+02:00",
+        "artifactSha256": "7c2edca938c86347ad3f0f0f441558693c82b01fe3c4835dd02d4fd6ff20493a",
+        "coverage": "exterior_only",
+        "unrenderedVolumes": [
+          "Interni appartamento padronale al primo piano: nessuna planimetria disponibile.",
+          "Interni appartamento al piano terra: nessuna planimetria disponibile.",
+          "Cantina e zona hobby: distribuzione e raccordi non documentati.",
+          "Garage: posizione e sagoma non identificabili con sicurezza.",
+          "Sottotetto: sola sagoma esterna, distribuzione non documentata.",
+          "Giardino completo di 1500m² e confini: non rilevati; solo contesto indicativo vicino alla casa."
+        ],
+        "sourcePlans": [],
+        "preview": "assets/fontanella-villa-panoramica.jpg"
       },
       "evidence": {
         "listingReadAt": "2026-10-19T10:11:30.896872+02:00",

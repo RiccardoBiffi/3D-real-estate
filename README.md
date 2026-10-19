@@ -1,6 +1,6 @@
 # Case in 3D
 
-Catalogo immobiliare pubblico statico in italiano. La ricerca contiene 60 immobili distinti e 22 modelli approvati; ogni scheda distingue i dati dell’annuncio, le verifiche di pubblicazione e lo stato della ricostruzione. Gli unici stati sono «Pubblicato» e «Archiviato»: basta una pagina diretta di agenzia o aggregatore con titolo, prezzo e informazioni dell’esatto immobile per pubblicarlo; senza alcuna fonte fresca leggibile viene archiviato, anche se gli accessi sono bloccati. Nessuno dei due stati certifica una vendita o la disponibilità confermata dal venditore. I risultati indicizzati non valgono come prova. Non sono pubblicati la trascrizione privata della chat o i file di lavoro.
+Catalogo immobiliare pubblico statico in italiano. La ricerca contiene 60 immobili distinti e 26 modelli approvati; ogni scheda distingue i dati dell’annuncio, le verifiche di pubblicazione e lo stato della ricostruzione. Gli unici stati sono «Pubblicato» e «Archiviato»: basta una pagina diretta di agenzia o aggregatore con titolo, prezzo e informazioni dell’esatto immobile per pubblicarlo; senza alcuna fonte fresca leggibile viene archiviato, anche se gli accessi sono bloccati. Nessuno dei due stati certifica una vendita o la disponibilità confermata dal venditore. I risultati indicizzati non valgono come prova. Non sono pubblicati la trascrizione privata della chat o i file di lavoro.
 
 ## Avvio locale
 
@@ -14,7 +14,7 @@ Il catalogo pubblico è `dist/data/catalog.json`. Non occorrono database, accoun
 
 Ricerca testuale e filtri per località, disponibilità e presenza del modello. Un solo modello viene caricato alla volta; le viste derivano dal numero effettivo di livelli. I collegamenti storici `#aurisina` e `#muggia` restano validi. Comandi e informazioni sono esterni alla scena.
 
-I modelli parziali riportano nella scheda e sopra la scena l’elenco dei volumi presenti nell’annuncio ma non renderizzati. Le parti documentate dalle piante sono ricalcate senza specchiatura o deformazione indipendente degli assi; le dimensioni non quotate, gli arredi e il contesto sono stime dichiarate. Gli ambienti non documentati non vengono inventati. Destinazioni catastali e abitabilità non sono certificate dal modello.
+Tutti i 12 annunci classificati come Pubblicato dispongono di un modello. I modelli parziali riportano nella scheda e sopra la scena l’elenco dei volumi presenti nell’annuncio ma non renderizzati. Opicina Tecnocasa comprende tre livelli con rampe e pertinenze omesse; Gianelli 7, Collio 9 e Fontanella rif.609 comprendono i soli esterni documentabili. Le parti documentate dalle piante sono ricalcate senza specchiatura o deformazione indipendente degli assi; le dimensioni non quotate, gli arredi e il contesto sono stime dichiarate. Gli ambienti non documentati non vengono inventati. Destinazioni catastali e abitabilità non sono certificate dal modello.
 
 ## Aggiornamento e verifica
 
