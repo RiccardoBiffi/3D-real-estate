@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogSha256": "31b6e716cc594e14e28daf94d385ef500be460769d8c1cf60ac4402e73fa61ce",
+  "catalogSha256": "add9425a3ee82463bc43e9c3aa30066ebd91200aeb0add691084b087e2f12d8e",
   "models": [
     {
       "id": "via-gianelli-7",
@@ -188,7 +188,7 @@
     "assets/via-monte-carso.jpg": "829824df3107f5117c93a427356df13d41b6be8f8e84e1352b76c8e02d26b813",
     "assets/via-monte-d-oro.jpg": "b1961a49c4e42d0a966b8273915d3a71d952c57b8dd9cb5893982e989a4f9955",
     "assets/via-umberto-veruda.jpg": "4cd065df3d647eb25d267fe5f48b098de7169b267dbe6ff6a5a11eb8f3d622b3",
-    "data/catalog.json": "31b6e716cc594e14e28daf94d385ef500be460769d8c1cf60ac4402e73fa61ce",
+    "data/catalog.json": "add9425a3ee82463bc43e9c3aa30066ebd91200aeb0add691084b087e2f12d8e",
     "index.html": "f336cd6eea0732fe215b64fa6630e61a82b795c55f121e7c140bf19a1496a43d",
     "modelli/aurisina-cave-77-b.html": "e0bc0816b7c5f0caa7e5b41d5570098d50d71dc2c0a0c074dbe4f11cfa6083db",
     "modelli/aurisina.html": "f0fd039a9ffa7a3af5bfacdec647f0e900e7eb97622d23bff46e64761e885c97",

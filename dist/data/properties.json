@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-25T09:18:00+01:00",
+  "updatedAt": "2026-11-01T09:23:21.293606+01:00",
   "properties": [
     {
       "id": "via-risano-raute",
@@ -42,10 +42,17 @@
         "description": "Porzione di bifamiliare a Raute con circa 230 m² interni, spazio esterno di circa 500 m² e due posti auto. Sono segnalati una piscina e una fermata delle linee 13/22 a circa 150 metri."
       },
       "availability": {
-        "status": "archived",
-        "checkedAt": "2026-10-25T09:08:19.320585+01:00",
-        "reason": "Nessuna fonte online fresca leggibile individuata nell’ultimo controllo. Questo stato non certifica la vendita o il ritiro dell’immobile.",
-        "verifiedSources": []
+        "status": "published",
+        "checkedAt": "2026-11-01T09:18:10.375599+01:00",
+        "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
+        "verifiedSources": [
+          {
+            "url": "https://www.casa.it/immobili/52454684/",
+            "title": "Casa bifamiliare in Vendita in Via Risano a Trieste - 230mq - Casa.it",
+            "price": "€ 600.000",
+            "details": "vidi Salva Ingrandisci 1 / 31 Foto Planimetrie Mappa Descrizione Italiano English Español Deutsch Français VI"
+          }
+        ]
       },
       "model": {
         "status": "awaiting_plans",
@@ -57,10 +64,10 @@
         ]
       },
       "evidence": {
-        "listingReadAt": "2026-10-25T09:08:19.320585+01:00",
+        "listingReadAt": "2026-11-01T09:18:10.375599+01:00",
         "sourceUpdatedAt": null,
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 25 ottobre 2026; i blocchi di accesso non sono trattati come prova di disponibilità."
+        "note": "Controllo diretto dell’esatto URL eseguito il 1 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -106,10 +113,23 @@
         "description": "Villa indipendente del 1986 a Chiampore con vista mare, terreno di circa 890 m² e box di 39 m². Il testo distingue 204 m² di casa e accessori seminterrati: superficie abitativa netta e percorso verso il bus da confermare."
       },
       "availability": {
-        "status": "archived",
-        "checkedAt": "2026-10-25T09:08:21.646744+01:00",
-        "reason": "Nessuna fonte online fresca leggibile individuata nell’ultimo controllo. Questo stato non certifica la vendita o il ritiro dell’immobile.",
-        "verifiedSources": []
+        "status": "published",
+        "checkedAt": "2026-11-01T09:18:14.692327+01:00",
+        "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
+        "verifiedSources": [
+          {
+            "url": "https://www.casa.it/immobili/53961570/",
+            "title": "Villa in Vendita in Strada per Chiampore 43 A a Muggia - 243mq - Casa.it",
+            "price": "€ 519.000",
+            "details": "vidi Salva Ingrandisci 1 / 31 Foto Planimetrie Mappa Descrizione Italiano English Español Deutsch Français Al"
+          },
+          {
+            "url": "https://www.idealista.it/immobile/35682567/",
+            "title": "Villa in vendita in Strada per Chiampore, 43 a, Muggia — idealista, N.1 in Italia",
+            "price": "519.000 €",
+            "details": " modificata con IA 1/ 27 27 foto 4 planimetrie Mappa Villa in vendita in Strada per Chiampore, 43 a villa 519"
+          }
+        ]
       },
       "model": {
         "status": "awaiting_plans",
@@ -121,10 +141,10 @@
         ]
       },
       "evidence": {
-        "listingReadAt": "2026-10-25T09:08:21.646744+01:00",
+        "listingReadAt": "2026-11-01T09:18:14.692327+01:00",
         "sourceUpdatedAt": null,
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 25 ottobre 2026; i blocchi di accesso non sono trattati come prova di disponibilità."
+        "note": "Controllo diretto dell’esatto URL eseguito il 1 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -168,10 +188,17 @@
         "description": "Casa indipendente a Basovizza con 280 m² calpestabili, giardino di circa 400 m² e tre posti auto. Le informazioni disponibili collocano le fermate di Via Gruden a circa quattro o cinque minuti a piedi."
       },
       "availability": {
-        "status": "archived",
-        "checkedAt": "2026-10-25T09:08:21.646457+01:00",
-        "reason": "Nessuna fonte online fresca leggibile individuata nell’ultimo controllo. Questo stato non certifica la vendita o il ritiro dell’immobile.",
-        "verifiedSources": []
+        "status": "published",
+        "checkedAt": "2026-11-01T09:18:14.684308+01:00",
+        "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
+        "verifiedSources": [
+          {
+            "url": "https://www.idealista.it/immobile/30547622/",
+            "title": "Casa indipendente in vendita in Località Basovizza, 338, Altipiano Est - Opicina, Trieste — idealista, N.1 in Italia",
+            "price": "620.000 €",
+            "details": " Casa indipendente in vendita in Località Basovizza, 338, Altipiano Est - Opicina, Trieste — idealista, "
+          }
+        ]
       },
       "model": {
         "status": "awaiting_plans",
@@ -183,10 +210,10 @@
         ]
       },
       "evidence": {
-        "listingReadAt": "2026-10-25T09:08:21.646457+01:00",
+        "listingReadAt": "2026-11-01T09:18:14.684308+01:00",
         "sourceUpdatedAt": "1 aprile",
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 25 ottobre 2026; i blocchi di accesso non sono trattati come prova di disponibilità."
+        "note": "Controllo diretto dell’esatto URL eseguito il 1 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -233,10 +260,17 @@
         "description": "Casa indipendente a Repen su quattro piani, con 230 m² commerciali, terreno di 1.500 m² e box doppio più posto auto. Resta da distinguere la superficie abitabile dalla metratura commerciale."
       },
       "availability": {
-        "status": "archived",
-        "checkedAt": "2026-10-25T09:08:23.806635+01:00",
-        "reason": "Nessuna fonte online fresca leggibile individuata nell’ultimo controllo. Questo stato non certifica la vendita o il ritiro dell’immobile.",
-        "verifiedSources": []
+        "status": "published",
+        "checkedAt": "2026-11-01T09:18:18.968176+01:00",
+        "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
+        "verifiedSources": [
+          {
+            "url": "https://www.idealista.it/immobile/35634771/",
+            "title": "Casa indipendente in vendita in Repen s.n.c, Monrupino — idealista, N.1 in Italia",
+            "price": "620.000 €",
+            "details": " modificata con IA 1/ 28 28 foto 3 planimetrie 2 video Mappa Casa indipendente in vendita in Repen s.n.c vill"
+          }
+        ]
       },
       "model": {
         "status": "awaiting_plans",
@@ -248,10 +282,10 @@
         ]
       },
       "evidence": {
-        "listingReadAt": "2026-10-25T09:08:23.806635+01:00",
+        "listingReadAt": "2026-11-01T09:18:18.968176+01:00",
         "sourceUpdatedAt": "13 luglio",
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 25 ottobre 2026; i blocchi di accesso non sono trattati come prova di disponibilità."
+        "note": "Controllo diretto dell’esatto URL eseguito il 1 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -306,7 +340,7 @@
       },
       "availability": {
         "status": "published",
-        "checkedAt": "2026-10-25T09:08:30.337146+01:00",
+        "checkedAt": "2026-11-01T09:18:27.822599+01:00",
         "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
         "verifiedSources": [
           {
@@ -349,10 +383,10 @@
         "preview": "assets/via-gianelli-7-preview.jpg"
       },
       "evidence": {
-        "listingReadAt": "2026-10-25T09:08:30.337146+01:00",
+        "listingReadAt": "2026-11-01T09:18:27.822599+01:00",
         "sourceUpdatedAt": null,
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 25 ottobre 2026; i blocchi di accesso non sono trattati come prova di disponibilità."
+        "note": "Controllo diretto dell’esatto URL eseguito il 1 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -395,10 +429,17 @@
         "description": "Villetta accostata nuova a Opicina con 160 m² abitativi, circa 200 m² di giardino e tre posti auto. La classe energetica indicata è A+; il collegamento a piedi con il bus resta da verificare."
       },
       "availability": {
-        "status": "archived",
-        "checkedAt": "2026-10-25T09:08:26.479752+01:00",
-        "reason": "Nessuna fonte online fresca leggibile individuata nell’ultimo controllo. Questo stato non certifica la vendita o il ritiro dell’immobile.",
-        "verifiedSources": []
+        "status": "published",
+        "checkedAt": "2026-11-01T09:18:22.558079+01:00",
+        "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
+        "verifiedSources": [
+          {
+            "url": "https://www.immobiliare.it/annunci/122572468/",
+            "title": "Vendita Villa a schiera  in via del Refosco 17/04 Trieste. Nuova, posto auto, con balcone, riscaldamento autonomo, 160 m², rif. 122572468",
+            "price": "€ 580.000",
+            "details": "nci pubblica Accedi 1 / 8 8 Foto 2 Planimetrie Villa a schiera via del Refosco 17/04, Opicina, Trieste Triest"
+          }
+        ]
       },
       "model": {
         "status": "in_review",
@@ -411,10 +452,10 @@
         ]
       },
       "evidence": {
-        "listingReadAt": "2026-10-25T09:08:26.479752+01:00",
+        "listingReadAt": "2026-11-01T09:18:22.558079+01:00",
         "sourceUpdatedAt": "20/03/2026",
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 25 ottobre 2026; i blocchi di accesso non sono trattati come prova di disponibilità."
+        "note": "Controllo diretto dell’esatto URL eseguito il 1 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -466,9 +507,15 @@
       },
       "availability": {
         "status": "published",
-        "checkedAt": "2026-10-25T09:08:30.462065+01:00",
+        "checkedAt": "2026-11-01T09:18:32.282769+01:00",
         "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
         "verifiedSources": [
+          {
+            "url": "https://www.immobiliare.it/annunci/131503174/",
+            "title": "Vendita Villa a schiera  in via dei Salici 22/1 Trieste. Ottimo stato, posto auto, con terrazza, riscaldamento autonomo, 203 m², rif. 131503174",
+            "price": "€ 535.000",
+            "details": "e Camera da letto Cucina 40 Foto 2 Planimetrie Villa a schiera via dei Salici 22/1, Opicina, Trieste Trieste "
+          },
           {
             "url": "https://www.trovacasa.it/annunci/ts-tc-44224-72706379",
             "title": "Villa a Schiera in vendita a Trieste via dei Salici, 22/1, giardino privato, terrazzo, travi a vista - TrovaCasa",
@@ -524,10 +571,10 @@
         "preview": "assets/via-dei-salici-22-1.jpg"
       },
       "evidence": {
-        "listingReadAt": "2026-10-25T09:08:30.462065+01:00",
+        "listingReadAt": "2026-11-01T09:18:32.282769+01:00",
         "sourceUpdatedAt": null,
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 25 ottobre 2026; i blocchi di accesso non sono trattati come prova di disponibilità."
+        "note": "Controllo diretto dell’esatto URL eseguito il 1 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -571,10 +618,17 @@
         "description": "Villa singola a Opicina con 110 m² di abitazione, giardino di 600 m² e tre posti auto. La fermata è dichiarata a circa 400 metri; la superficie interna resta dieci metri quadrati sotto il criterio della ricerca."
       },
       "availability": {
-        "status": "archived",
-        "checkedAt": "2026-10-25T09:08:34.095697+01:00",
-        "reason": "Nessuna fonte online fresca leggibile individuata nell’ultimo controllo. Questo stato non certifica la vendita o il ritiro dell’immobile.",
-        "verifiedSources": []
+        "status": "published",
+        "checkedAt": "2026-11-01T09:18:33.346748+01:00",
+        "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
+        "verifiedSources": [
+          {
+            "url": "https://www.immobiliare.it/annunci/126111987/",
+            "title": "Vendita Villa unifamiliare  Trieste. Ottimo stato, posto auto, riscaldamento autonomo, 181 m², rif. 126111987",
+            "price": "€ 500.000",
+            "details": "e Camera da letto Cucina 56 Foto 2 Planimetrie FotoPlan Villa unifamiliare, ottimo stato, 181 m², Opicina, Tr"
+          }
+        ]
       },
       "model": {
         "status": "ready",
@@ -621,10 +675,10 @@
         "preview": "assets/opicina-villa-126111987.jpg"
       },
       "evidence": {
-        "listingReadAt": "2026-10-25T09:08:34.095697+01:00",
+        "listingReadAt": "2026-11-01T09:18:33.346748+01:00",
         "sourceUpdatedAt": "29/07/2026",
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 25 ottobre 2026; i blocchi di accesso non sono trattati come prova di disponibilità."
+        "note": "Controllo diretto dell’esatto URL eseguito il 1 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -671,24 +725,23 @@
       },
       "availability": {
         "status": "archived",
-        "checkedAt": "2026-10-25T09:08:32.939448+01:00",
+        "checkedAt": "2026-11-01T09:18:36.046697+01:00",
         "reason": "Nessuna fonte online fresca leggibile individuata nell’ultimo controllo. Questo stato non certifica la vendita o il ritiro dell’immobile.",
         "verifiedSources": []
       },
       "model": {
-        "status": "awaiting_plans",
+        "status": "not_required",
         "path": null,
         "views": [],
         "notes": [
-          "Ricostruzione da preparare: le parti documentate potranno essere pubblicate anche con volumi mancanti, esplicitamente elencati. Senza piante utilizzabili, fotografie sufficienti consentono una ricostruzione dei soli esterni.",
-          "Lettura pubblica non accessibile e accesso HTTP diretto bloccato; assenza di fonti non equivale a immobile non disponibile."
+          "Scheda storica conservata; nessun nuovo modello viene costruito per un annuncio archiviato."
         ]
       },
       "evidence": {
-        "listingReadAt": "2026-10-25T09:08:32.939448+01:00",
+        "listingReadAt": "2026-11-01T09:18:36.046697+01:00",
         "sourceUpdatedAt": null,
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 25 ottobre 2026; i blocchi di accesso non sono trattati come prova di disponibilità."
+        "note": "Controllo diretto dell’esatto URL eseguito il 1 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -737,9 +790,21 @@
       },
       "availability": {
         "status": "published",
-        "checkedAt": "2026-10-25T09:08:39.752858+01:00",
+        "checkedAt": "2026-11-01T09:18:46.264176+01:00",
         "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
         "verifiedSources": [
+          {
+            "url": "https://www.immobiliare.it/annunci/130121366/",
+            "title": "Vendita Villa unifamiliare  Trieste. Ottimo stato, posto auto, con terrazza, riscaldamento autonomo, 317 m², rif. 130121366",
+            "price": "€ 520.000",
+            "details": "e Camera da letto Cucina 56 Foto 3 Planimetrie Villa unifamiliare, ottimo stato, 317 m², Campanelle - Costalu"
+          },
+          {
+            "url": "https://www.idealista.it/immobile/36091436/",
+            "title": "Casa indipendente in vendita in Via Erta di Sant'Anna, Sant'Anna - Campanelle, Trieste — idealista, N.1 in Italia",
+            "price": "520.000 €",
+            "details": " modificata con IA 1/ 56 56 foto 3 planimetrie Mappa Casa indipendente in vendita in Via Erta di Sant'Anna vi"
+          },
           {
             "url": "https://www.sellingtrieste.com/immobili/casa-singola-in-erta-santanna-trieste/",
             "title": "Casa singola in Erta Sant'Anna, Trieste - Selling Trieste",
@@ -802,10 +867,10 @@
         "preview": "assets/erta-di-sant-anna.jpg"
       },
       "evidence": {
-        "listingReadAt": "2026-10-25T09:08:39.752858+01:00",
+        "listingReadAt": "2026-11-01T09:18:46.264176+01:00",
         "sourceUpdatedAt": null,
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 25 ottobre 2026; i blocchi di accesso non sono trattati come prova di disponibilità."
+        "note": "Controllo diretto dell’esatto URL eseguito il 1 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -849,10 +914,23 @@
         "description": "Bifamiliare indipendente in Via Almerigotti con due appartamenti per circa 169 m² abitativi complessivi, giardino di 250 m², garage e due posti esterni. Sono riportati una fermata entro 150 metri."
       },
       "availability": {
-        "status": "archived",
-        "checkedAt": "2026-10-25T09:08:39.219503+01:00",
-        "reason": "Nessuna fonte online fresca leggibile individuata nell’ultimo controllo. Questo stato non certifica la vendita o il ritiro dell’immobile.",
-        "verifiedSources": []
+        "status": "published",
+        "checkedAt": "2026-11-01T09:18:41.923286+01:00",
+        "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
+        "verifiedSources": [
+          {
+            "url": "https://www.casa.it/immobili/54474891/",
+            "title": "Casa indipendente in Vendita in Via A. de Almerigotti a Trieste - 200mq - Casa.it",
+            "price": "€ 470.000",
+            "details": "vidi Salva Ingrandisci 1 / 42 Foto Planimetrie Mappa Descrizione Italiano English � Due appartamenti indipend"
+          },
+          {
+            "url": "https://www.idealista.it/immobile/36342262/",
+            "title": "Casa indipendente in vendita in Via A. de Almerigotti, Sant'Anna - Campanelle, Trieste — idealista, N.1 in Italia",
+            "price": "470.000 €",
+            "details": " modificata con IA 1/ 40 40 foto 2 planimetrie Mappa Casa indipendente in vendita in Via A. de Almerigotti vi"
+          }
+        ]
       },
       "model": {
         "status": "awaiting_plans",
@@ -864,10 +942,10 @@
         ]
       },
       "evidence": {
-        "listingReadAt": "2026-10-25T09:08:39.219503+01:00",
+        "listingReadAt": "2026-11-01T09:18:41.923286+01:00",
         "sourceUpdatedAt": null,
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 25 ottobre 2026; i blocchi di accesso non sono trattati come prova di disponibilità."
+        "note": "Controllo diretto dell’esatto URL eseguito il 1 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -913,24 +991,23 @@
       },
       "availability": {
         "status": "archived",
-        "checkedAt": "2026-10-25T09:08:44.072227+01:00",
+        "checkedAt": "2026-11-01T09:18:49.516345+01:00",
         "reason": "Nessuna fonte online fresca leggibile individuata nell’ultimo controllo. Questo stato non certifica la vendita o il ritiro dell’immobile.",
         "verifiedSources": []
       },
       "model": {
-        "status": "awaiting_plans",
+        "status": "not_required",
         "path": null,
         "views": [],
         "notes": [
-          "Ricostruzione da preparare: le parti documentate potranno essere pubblicate anche con volumi mancanti, esplicitamente elencati. Senza piante utilizzabili, fotografie sufficienti consentono una ricostruzione dei soli esterni.",
-          "Nessuna planimetria identificativa scaricabile è esposta nelle letture pubbliche acquisite; non ricostruire interni da sole foto o descrizioni."
+          "Scheda storica conservata; nessun nuovo modello viene costruito per un annuncio archiviato."
         ]
       },
       "evidence": {
-        "listingReadAt": "2026-10-25T09:08:44.072227+01:00",
+        "listingReadAt": "2026-11-01T09:18:49.516345+01:00",
         "sourceUpdatedAt": null,
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 25 ottobre 2026; i blocchi di accesso non sono trattati come prova di disponibilità."
+        "note": "Controllo diretto dell’esatto URL eseguito il 1 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -975,10 +1052,17 @@
         "description": "Villa singola a Fontanella con 186 m² abitativi, quattro camere, giardino e parcheggio in garage e all'aperto. La metratura del giardino e il percorso verso la linea 27 non sono documentati nelle informazioni disponibili."
       },
       "availability": {
-        "status": "archived",
-        "checkedAt": "2026-10-25T09:08:41.852226+01:00",
-        "reason": "Nessuna fonte online fresca leggibile individuata nell’ultimo controllo. Questo stato non certifica la vendita o il ritiro dell’immobile.",
-        "verifiedSources": []
+        "status": "published",
+        "checkedAt": "2026-11-01T09:18:49.158640+01:00",
+        "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
+        "verifiedSources": [
+          {
+            "url": "https://www.immobiliare.it/annunci/120802248/",
+            "title": "Vendita Villa unifamiliare  in Località Fontanella 10/4 Muggia. Buono stato, posto auto, con terrazza, riscaldamento autonomo, 186 m², rif. 120802248",
+            "price": "€ 450.000",
+            "details": " Vendita Villa unifamiliare in Località Fontanella 10/4 Muggia. Buono stato, posto auto, con terrazza,"
+          }
+        ]
       },
       "model": {
         "status": "ready",
@@ -1018,10 +1102,10 @@
         "preview": "assets/fontanella-10-4.jpg"
       },
       "evidence": {
-        "listingReadAt": "2026-10-25T09:08:41.852226+01:00",
+        "listingReadAt": "2026-11-01T09:18:49.158640+01:00",
         "sourceUpdatedAt": "23/03/2026",
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 25 ottobre 2026; i blocchi di accesso non sono trattati come prova di disponibilità."
+        "note": "Controllo diretto dell’esatto URL eseguito il 1 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -1066,7 +1150,7 @@
       },
       "availability": {
         "status": "published",
-        "checkedAt": "2026-10-25T09:09:06.334598+01:00",
+        "checkedAt": "2026-11-01T09:18:57.882611+01:00",
         "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
         "verifiedSources": [
           {
@@ -1141,10 +1225,10 @@
         "preview": "assets/opicina-trifamiliare-tecnocasa-preview.jpg"
       },
       "evidence": {
-        "listingReadAt": "2026-10-25T09:09:06.334598+01:00",
+        "listingReadAt": "2026-11-01T09:18:57.882611+01:00",
         "sourceUpdatedAt": null,
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 25 ottobre 2026; i blocchi di accesso non sono trattati come prova di disponibilità."
+        "note": "Controllo diretto dell’esatto URL eseguito il 1 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -1191,10 +1275,17 @@
         "description": "Villa singola nuova in Via dell'Hermada, con 130 m² di abitazione, tre camere matrimoniali, giardino e tre posti auto. La chat indica classe A4 e consegna nella seconda metà del 2027; giardino e bus richiedono conferma."
       },
       "availability": {
-        "status": "archived",
-        "checkedAt": "2026-10-25T09:09:03.805046+01:00",
-        "reason": "Nessuna fonte online fresca leggibile individuata nell’ultimo controllo. Questo stato non certifica la vendita o il ritiro dell’immobile.",
-        "verifiedSources": []
+        "status": "published",
+        "checkedAt": "2026-11-01T09:18:55.217380+01:00",
+        "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
+        "verifiedSources": [
+          {
+            "url": "https://www.immobiliare.it/annunci/125934421/",
+            "title": "Vendita Villa unifamiliare  in via dell'Hermada Trieste. Nuova, posto auto, riscaldamento autonomo, 138 m², rif. 125934421",
+            "price": "€ 650.000",
+            "details": "riori informazioni e visione delle planimetrie siamo a Vs. disposizione nei ns. ufficio di Opicina. leggi tut"
+          }
+        ]
       },
       "model": {
         "status": "awaiting_plans",
@@ -1206,10 +1297,10 @@
         ]
       },
       "evidence": {
-        "listingReadAt": "2026-10-25T09:09:03.805046+01:00",
+        "listingReadAt": "2026-11-01T09:18:55.217380+01:00",
         "sourceUpdatedAt": "15/01/2026",
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 25 ottobre 2026; i blocchi di accesso non sono trattati come prova di disponibilità."
+        "note": "Controllo diretto dell’esatto URL eseguito il 1 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -1254,13 +1345,19 @@
       },
       "availability": {
         "status": "published",
-        "checkedAt": "2026-10-25T09:09:09.069736+01:00",
+        "checkedAt": "2026-11-01T09:19:04.427470+01:00",
         "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
         "verifiedSources": [
           {
+            "url": "https://www.immobiliare.it/annunci/130356648/",
+            "title": "Vendita Villa unifamiliare  Trieste. Ottimo stato, posto auto, con terrazza, riscaldamento autonomo, 213 m², rif. 130356648",
+            "price": "€ 595.000",
+            "details": "one Camera da letto Cucina 41 Foto Planimetria Villa unifamiliare, ottimo stato, 213 m², Basovizza - Trebicia"
+          },
+          {
             "url": "https://www.pozzeccoimmobiliare.it/index.php/property/localita-trebiciano-villa-unifamiliare-con-giardino-privato-e-accesso-auto/",
             "title": "LOCALITÀ TREBICIANO | Villa unifamiliare con giardino privato e accesso auto – Pozzecco Immobiliare",
-            "price": "€595.000,00",
+            "price": "€ 595.000",
             "details": " LOCALITÀ TREBICIANO | Villa unifamiliare con giardino privato e accesso"
           }
         ]
@@ -1307,10 +1404,10 @@
         "preview": "assets/trebiciano-130356648.jpg"
       },
       "evidence": {
-        "listingReadAt": "2026-10-25T09:09:09.069736+01:00",
+        "listingReadAt": "2026-11-01T09:19:04.427470+01:00",
         "sourceUpdatedAt": null,
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 25 ottobre 2026; i blocchi di accesso non sono trattati come prova di disponibilità."
+        "note": "Controllo diretto dell’esatto URL eseguito il 1 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -1353,10 +1450,17 @@
         "description": "Casa in Salita di Raute con 150 m² di abitazione, giardino di 300 m² e garage di 50 m². Sono segnalati classe A4, fotovoltaico e accumulo Tesla; la vicinanza effettiva alla linea 37 va verificata."
       },
       "availability": {
-        "status": "archived",
-        "checkedAt": "2026-10-25T09:09:10.062760+01:00",
-        "reason": "Nessuna fonte online fresca leggibile individuata nell’ultimo controllo. Questo stato non certifica la vendita o il ritiro dell’immobile.",
-        "verifiedSources": []
+        "status": "published",
+        "checkedAt": "2026-11-01T09:18:59.346203+01:00",
+        "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
+        "verifiedSources": [
+          {
+            "url": "https://www.immobiliare.it/annunci/132289868/",
+            "title": "Vendita Villa unifamiliare  in salita di Raute 50/1 Trieste. Ottimo stato, posto auto, con terrazza, riscaldamento autonomo, 205 m², rif. 132289868",
+            "price": "€ 595.000",
+            "details": "one Camera da letto Cucina 65 Foto Planimetria Villa unifamiliare salita di Raute 50/1, Altura, Trieste Tries"
+          }
+        ]
       },
       "model": {
         "status": "in_review",
@@ -1370,10 +1474,10 @@
         ]
       },
       "evidence": {
-        "listingReadAt": "2026-10-25T09:09:10.062760+01:00",
+        "listingReadAt": "2026-11-01T09:18:59.346203+01:00",
         "sourceUpdatedAt": "09/09/2026",
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 25 ottobre 2026; i blocchi di accesso non sono trattati come prova di disponibilità."
+        "note": "Controllo diretto dell’esatto URL eseguito il 1 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -1429,14 +1533,20 @@
       },
       "availability": {
         "status": "published",
-        "checkedAt": "2026-10-25T09:18:00+01:00",
-        "reason": "Pagina identificativa letta direttamente il 25 ottobre 2026: titolo, prezzo e informazioni dell’immobile accessibili.",
+        "checkedAt": "2026-11-01T09:19:12.006983+01:00",
+        "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
         "verifiedSources": [
           {
             "url": "https://www.immobiliare.it/annunci/129488706/",
-            "title": "Villa unifamiliare via degli Olmi 8",
-            "price": "€500.000",
-            "details": "148 m² interni; giardino a pastini; box auto"
+            "title": "Vendita Villa unifamiliare  in via degli Olmi 8 Trieste. Buono stato, posto auto, con terrazza, riscaldamento autonomo, 191 m², rif. 129488706",
+            "price": "€ 500.000",
+            "details": "e Camera da letto Cucina 59 Foto 4 Planimetrie Villa unifamiliare via degli Olmi 8, Roiano, Trieste Trieste R"
+          },
+          {
+            "url": "https://www.casa.it/immobili/54096551/",
+            "title": "Villa in Vendita in Via degli Olmi a Trieste - 191mq - Casa.it",
+            "price": "€ 500.000",
+            "details": "vidi Salva Ingrandisci 1 / 56 Foto Planimetrie Mappa Descrizione Italiano English Deutsch In Via degli Olmi 8"
           }
         ]
       },
@@ -1449,10 +1559,10 @@
         ]
       },
       "evidence": {
-        "listingReadAt": "2026-10-25T09:18:00+01:00",
+        "listingReadAt": "2026-11-01T09:19:12.006983+01:00",
         "sourceUpdatedAt": "2026-10-02",
-        "method": "direct_public_page",
-        "note": "Pagina diretta dell’esatto immobile riletta il 25 ottobre 2026; eventuali dati non separati o discordanti sono dichiarati nella scheda."
+        "method": "direct_http",
+        "note": "Controllo diretto dell’esatto URL eseguito il 1 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -1506,10 +1616,17 @@
         "description": "Porzione di bifamiliare ristrutturata nel 2024, con appartamento di 90 m², vano di 40 m² da adibire a taverna, giardino, corte, terrazzino e due posti auto. Prezzo aggiornato a €345.000."
       },
       "availability": {
-        "status": "archived",
-        "checkedAt": "2026-10-25T09:09:17.181347+01:00",
-        "reason": "Nessuna fonte online fresca leggibile individuata nell’ultimo controllo. Questo stato non certifica la vendita o il ritiro dell’immobile.",
-        "verifiedSources": []
+        "status": "published",
+        "checkedAt": "2026-11-01T09:19:16.413579+01:00",
+        "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
+        "verifiedSources": [
+          {
+            "url": "https://www.immobiliare.it/annunci/129124134/",
+            "title": "Vendita Villa bifamiliare  in via Bartolomeo Gianelli 18 Trieste. Buono stato, posto auto, con terrazza, riscaldamento autonomo, 130 m², rif. 129124134",
+            "price": "€ 345.000",
+            "details": "si appartamento con terrazzino (90 mq), taverna (40 mq), giardino, corte e posti auto. L'appartamento "
+          }
+        ]
       },
       "model": {
         "status": "awaiting_plans",
@@ -1521,10 +1638,10 @@
         ]
       },
       "evidence": {
-        "listingReadAt": "2026-10-25T09:09:17.181347+01:00",
+        "listingReadAt": "2026-11-01T09:19:16.413579+01:00",
         "sourceUpdatedAt": null,
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 25 ottobre 2026; i blocchi di accesso non sono trattati come prova di disponibilità."
+        "note": "Controllo diretto dell’esatto URL eseguito il 1 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -1575,24 +1692,23 @@
       },
       "availability": {
         "status": "archived",
-        "checkedAt": "2026-10-25T09:09:16.694451+01:00",
+        "checkedAt": "2026-11-01T09:19:16.156315+01:00",
         "reason": "Nessuna fonte online fresca leggibile individuata nell’ultimo controllo. Questo stato non certifica la vendita o il ritiro dell’immobile.",
         "verifiedSources": []
       },
       "model": {
-        "status": "awaiting_plans",
+        "status": "not_required",
         "path": null,
         "views": [],
         "notes": [
-          "Ricostruzione da preparare: le parti documentate potranno essere pubblicate anche con volumi mancanti, esplicitamente elencati. Senza piante utilizzabili, fotografie sufficienti consentono una ricostruzione dei soli esterni.",
-          "Nessuna planimetria identificativa scaricabile è esposta nelle letture pubbliche acquisite; non ricostruire interni da sole foto o descrizioni."
+          "Scheda storica conservata; nessun nuovo modello viene costruito per un annuncio archiviato."
         ]
       },
       "evidence": {
-        "listingReadAt": "2026-10-25T09:09:16.694451+01:00",
+        "listingReadAt": "2026-11-01T09:19:16.156315+01:00",
         "sourceUpdatedAt": null,
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 25 ottobre 2026; i blocchi di accesso non sono trattati come prova di disponibilità."
+        "note": "Controllo diretto dell’esatto URL eseguito il 1 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -1638,10 +1754,17 @@
         "description": "Villa indipendente a Banne con 255 m² dichiarati, giardino, dolina privata e box più tre posti auto. Le informazioni disponibili non quantifica il giardino e non documenta la distanza dalla linea 51."
       },
       "availability": {
-        "status": "archived",
-        "checkedAt": "2026-10-25T09:08:19.364404+01:00",
-        "reason": "Nessuna fonte online fresca leggibile individuata nell’ultimo controllo. Questo stato non certifica la vendita o il ritiro dell’immobile.",
-        "verifiedSources": []
+        "status": "published",
+        "checkedAt": "2026-11-01T09:19:20.574170+01:00",
+        "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
+        "verifiedSources": [
+          {
+            "url": "https://www.immobiliare.it/annunci/121323776/",
+            "title": "Vendita Villa unifamiliare  in Località Banne 202 Trieste. Ottimo stato, posto auto, con terrazza, riscaldamento autonomo, 255 m², rif. 121323776",
+            "price": "€ 690.000",
+            "details": " Vendita Villa unifamiliare in Località Banne 202 Trieste. Ottimo stato, posto auto, con terrazza, ris"
+          }
+        ]
       },
       "model": {
         "status": "in_review",
@@ -1655,10 +1778,10 @@
         ]
       },
       "evidence": {
-        "listingReadAt": "2026-10-25T09:08:19.364404+01:00",
+        "listingReadAt": "2026-11-01T09:19:20.574170+01:00",
         "sourceUpdatedAt": "09/09/2026",
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 25 ottobre 2026; i blocchi di accesso non sono trattati come prova di disponibilità."
+        "note": "Controllo diretto dell’esatto URL eseguito il 1 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -1702,10 +1825,17 @@
         "description": "Casa indipendente da ristrutturare a Basovizza, con giardino di circa 600 m² e posto auto. I 120 m² sono descritti come superficie in pianta, oltre a 90 m² di cantina; il netto abitabile resta da accertare."
       },
       "availability": {
-        "status": "archived",
-        "checkedAt": "2026-10-25T09:08:19.290287+01:00",
-        "reason": "Nessuna fonte online fresca leggibile individuata nell’ultimo controllo. Questo stato non certifica la vendita o il ritiro dell’immobile.",
-        "verifiedSources": []
+        "status": "published",
+        "checkedAt": "2026-11-01T09:19:20.496514+01:00",
+        "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
+        "verifiedSources": [
+          {
+            "url": "https://www.casa.it/immobili/54714337/",
+            "title": "Villa in Vendita in Località Basovizza a Trieste - 120mq - Casa.it",
+            "price": "€ 325.000",
+            "details": " Villa in Vendita in Località Basovizza a Trieste - 120mq - Casa.it Menu Accedi Menu Home Pu"
+          }
+        ]
       },
       "model": {
         "status": "awaiting_plans",
@@ -1717,10 +1847,10 @@
         ]
       },
       "evidence": {
-        "listingReadAt": "2026-10-25T09:08:19.290287+01:00",
+        "listingReadAt": "2026-11-01T09:19:20.496514+01:00",
         "sourceUpdatedAt": null,
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 25 ottobre 2026; i blocchi di accesso non sono trattati come prova di disponibilità."
+        "note": "Controllo diretto dell’esatto URL eseguito il 1 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -1768,7 +1898,7 @@
       },
       "availability": {
         "status": "published",
-        "checkedAt": "2026-10-25T09:08:26.286814+01:00",
+        "checkedAt": "2026-11-01T09:19:27.852237+01:00",
         "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
         "verifiedSources": [
           {
@@ -1832,10 +1962,10 @@
         "preview": "assets/basovizza-563-1.jpg"
       },
       "evidence": {
-        "listingReadAt": "2026-10-25T09:08:26.286814+01:00",
+        "listingReadAt": "2026-11-01T09:19:27.852237+01:00",
         "sourceUpdatedAt": null,
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 25 ottobre 2026; i blocchi di accesso non sono trattati come prova di disponibilità."
+        "note": "Controllo diretto dell’esatto URL eseguito il 1 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -1882,7 +2012,7 @@
       },
       "availability": {
         "status": "archived",
-        "checkedAt": "2026-10-25T09:08:22.595257+01:00",
+        "checkedAt": "2026-11-01T09:19:05.698466+01:00",
         "reason": "Nessuna fonte online fresca leggibile individuata nell’ultimo controllo. Questo stato non certifica la vendita o il ritiro dell’immobile.",
         "verifiedSources": []
       },
@@ -1941,10 +2071,10 @@
         "preview": "assets/via-alberto-puschi.jpg"
       },
       "evidence": {
-        "listingReadAt": "2026-10-25T09:08:22.595257+01:00",
+        "listingReadAt": "2026-11-01T09:19:05.698466+01:00",
         "sourceUpdatedAt": "20/03/2026",
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 25 ottobre 2026; i blocchi di accesso non sono trattati come prova di disponibilità."
+        "note": "Controllo diretto dell’esatto URL eseguito il 1 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -1991,10 +2121,17 @@
         "description": "Bifamiliare a Trebiciano con 275 m² dichiarati, parco privato, piscina coperta e parcheggio. Le informazioni disponibili non quantifica il parco e non documenta la superficie abitativa né il tragitto alla fermata."
       },
       "availability": {
-        "status": "archived",
-        "checkedAt": "2026-10-25T09:08:26.890702+01:00",
-        "reason": "Nessuna fonte online fresca leggibile individuata nell’ultimo controllo. Questo stato non certifica la vendita o il ritiro dell’immobile.",
-        "verifiedSources": []
+        "status": "published",
+        "checkedAt": "2026-11-01T09:19:08.794210+01:00",
+        "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
+        "verifiedSources": [
+          {
+            "url": "https://www.idealista.it/immobile/34141593/",
+            "title": "Villetta bifamiliare in vendita in Trebiciano, 257, Altipiano Est - Opicina, Trieste — idealista, N.1 in Italia",
+            "price": "420.000 €",
+            "details": "iano, 257 villa 420.000 € 275 m² 7 locali Box compreso preferito ' data-text-remove='Preferito' role=\"butt"
+          }
+        ]
       },
       "model": {
         "status": "awaiting_plans",
@@ -2006,10 +2143,10 @@
         ]
       },
       "evidence": {
-        "listingReadAt": "2026-10-25T09:08:26.890702+01:00",
+        "listingReadAt": "2026-11-01T09:19:08.794210+01:00",
         "sourceUpdatedAt": "27 luglio",
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 25 ottobre 2026; i blocchi di accesso non sono trattati come prova di disponibilità."
+        "note": "Controllo diretto dell’esatto URL eseguito il 1 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -2055,10 +2192,17 @@
         "description": "Bifamiliare nuova a Sant'Antonio in Bosco con 200 m² commerciali e parcheggio privato per tre auto. Giardino e portico sono indicati insieme per circa 80 m²; la distanza dal bus rimane da verificare."
       },
       "availability": {
-        "status": "archived",
-        "checkedAt": "2026-10-25T09:08:28.740659+01:00",
-        "reason": "Nessuna fonte online fresca leggibile individuata nell’ultimo controllo. Questo stato non certifica la vendita o il ritiro dell’immobile.",
-        "verifiedSources": []
+        "status": "published",
+        "checkedAt": "2026-11-01T09:19:12.792626+01:00",
+        "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
+        "verifiedSources": [
+          {
+            "url": "https://www.idealista.it/immobile/21818282/",
+            "title": "Villetta bifamiliare in vendita in Sant'Antonio in Bosco s.n.c, San Dorligo della Valle-Dolina — idealista, N.1 in Italia",
+            "price": "440.000 €",
+            "details": "sco s.n.c villa 440.000 € 200 m² 6 locali preferito ' data-text-remove='Preferito' role=\"button\"> Salva pr"
+          }
+        ]
       },
       "model": {
         "status": "awaiting_plans",
@@ -2070,10 +2214,10 @@
         ]
       },
       "evidence": {
-        "listingReadAt": "2026-10-25T09:08:28.740659+01:00",
+        "listingReadAt": "2026-11-01T09:19:12.792626+01:00",
         "sourceUpdatedAt": "21 febbraio",
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 25 ottobre 2026; i blocchi di accesso non sono trattati come prova di disponibilità."
+        "note": "Controllo diretto dell’esatto URL eseguito il 1 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -2119,24 +2263,23 @@
       },
       "availability": {
         "status": "archived",
-        "checkedAt": "2026-10-25T09:08:28.709441+01:00",
+        "checkedAt": "2026-11-01T09:19:17.098335+01:00",
         "reason": "Nessuna fonte online fresca leggibile individuata nell’ultimo controllo. Questo stato non certifica la vendita o il ritiro dell’immobile.",
         "verifiedSources": []
       },
       "model": {
-        "status": "awaiting_plans",
+        "status": "not_required",
         "path": null,
         "views": [],
         "notes": [
-          "Ricostruzione da preparare: le parti documentate potranno essere pubblicate anche con volumi mancanti, esplicitamente elencati. Senza piante utilizzabili, fotografie sufficienti consentono una ricostruzione dei soli esterni.",
-          "Nessuna planimetria identificativa scaricabile è esposta nelle letture pubbliche acquisite; non ricostruire interni da sole foto o descrizioni."
+          "Scheda storica conservata; nessun nuovo modello viene costruito per un annuncio archiviato."
         ]
       },
       "evidence": {
-        "listingReadAt": "2026-10-25T09:08:28.709441+01:00",
+        "listingReadAt": "2026-11-01T09:19:17.098335+01:00",
         "sourceUpdatedAt": "22 giugno",
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 25 ottobre 2026; i blocchi di accesso non sono trattati come prova di disponibilità."
+        "note": "Controllo diretto dell’esatto URL eseguito il 1 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -2189,10 +2332,17 @@
         "description": "Casa accostata in Via De Valentini con 150 m² dichiarati e circa 150 m² di spazio esterno, ribassata a €470.000. Non dispone del posto auto richiesto: l'annuncio descrive soltanto una possibilità di ricavarlo."
       },
       "availability": {
-        "status": "archived",
-        "checkedAt": "2026-10-25T09:08:30.819225+01:00",
-        "reason": "Nessuna fonte online fresca leggibile individuata nell’ultimo controllo. Questo stato non certifica la vendita o il ritiro dell’immobile.",
-        "verifiedSources": []
+        "status": "published",
+        "checkedAt": "2026-11-01T09:19:17.862373+01:00",
+        "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
+        "verifiedSources": [
+          {
+            "url": "https://www.immobiliare.it/annunci/132153436/",
+            "title": "Vendita Villa unifamiliare  in via Angelo De Valentini 10 Trieste. Con terrazza, riscaldamento autonomo, 150 m², rif. 132153436",
+            "price": "€ 470.000",
+            "details": "one Camera da letto Cucina 34 Foto Planimetria Villa unifamiliare via Angelo De Valentini 10, San Luigi - Roz"
+          }
+        ]
       },
       "model": {
         "status": "ready",
@@ -2239,10 +2389,10 @@
         "preview": "assets/via-angelo-de-valentini-10.jpg"
       },
       "evidence": {
-        "listingReadAt": "2026-10-25T09:08:30.819225+01:00",
+        "listingReadAt": "2026-11-01T09:19:17.862373+01:00",
         "sourceUpdatedAt": "03/09/2026",
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 25 ottobre 2026; i blocchi di accesso non sono trattati come prova di disponibilità."
+        "note": "Controllo diretto dell’esatto URL eseguito il 1 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -2288,24 +2438,23 @@
       },
       "availability": {
         "status": "archived",
-        "checkedAt": "2026-10-25T09:08:30.817547+01:00",
+        "checkedAt": "2026-11-01T09:19:17.987838+01:00",
         "reason": "Nessuna fonte online fresca leggibile individuata nell’ultimo controllo. Questo stato non certifica la vendita o il ritiro dell’immobile.",
         "verifiedSources": []
       },
       "model": {
-        "status": "awaiting_plans",
+        "status": "not_required",
         "path": null,
         "views": [],
         "notes": [
-          "Ricostruzione da preparare: le parti documentate potranno essere pubblicate anche con volumi mancanti, esplicitamente elencati. Senza piante utilizzabili, fotografie sufficienti consentono una ricostruzione dei soli esterni.",
-          "La fonte acquisita non espone piante identificative complete e scaricabili, o non è leggibile con gli accessi disponibili. Servono piante dello stato attuale dei tre livelli (terra, primo e mansarda) e del box/deposito di circa40m²."
+          "Scheda storica conservata; nessun nuovo modello viene costruito per un annuncio archiviato."
         ]
       },
       "evidence": {
-        "listingReadAt": "2026-10-25T09:08:30.817547+01:00",
+        "listingReadAt": "2026-11-01T09:19:17.987838+01:00",
         "sourceUpdatedAt": "24/09/2026",
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 25 ottobre 2026; i blocchi di accesso non sono trattati come prova di disponibilità."
+        "note": "Controllo diretto dell’esatto URL eseguito il 1 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -2351,10 +2500,23 @@
         "description": "Villa indipendente da ristrutturare in Via Felluga con 145–150 m² calpestabili, giardino di 400 m² e due posti auto. La stima dei lavori è dell'inserzionista; il tragitto a piedi verso il bus richiede conferma."
       },
       "availability": {
-        "status": "archived",
-        "checkedAt": "2026-10-25T09:08:35.366041+01:00",
-        "reason": "Nessuna fonte online fresca leggibile individuata nell’ultimo controllo. Questo stato non certifica la vendita o il ritiro dell’immobile.",
-        "verifiedSources": []
+        "status": "published",
+        "checkedAt": "2026-11-01T09:19:28.893070+01:00",
+        "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
+        "verifiedSources": [
+          {
+            "url": "https://www.casa.it/immobili/54502132/",
+            "title": "Villa in Vendita in Via Umberto Felluga 11 a Muggia - 180mq - Casa.it",
+            "price": "€ 260.000",
+            "details": "vidi Salva Ingrandisci 1 / 17 Foto Planimetrie Mappa Descrizione Italiano English Deutsch Français Villa Sing"
+          },
+          {
+            "url": "https://www.idealista.it/immobile/36373089/",
+            "title": "Villa in vendita in Via Umberto Felluga, 11, Muggia — idealista, N.1 in Italia",
+            "price": "260.000 €",
+            "details": " modificata con IA 1/ 13 13 foto 4 planimetrie Mappa Villa in vendita in Via Umberto Felluga, 11 villa 260.00"
+          }
+        ]
       },
       "model": {
         "status": "awaiting_plans",
@@ -2366,10 +2528,10 @@
         ]
       },
       "evidence": {
-        "listingReadAt": "2026-10-25T09:08:35.366041+01:00",
+        "listingReadAt": "2026-11-01T09:19:28.893070+01:00",
         "sourceUpdatedAt": null,
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 25 ottobre 2026; i blocchi di accesso non sono trattati come prova di disponibilità."
+        "note": "Controllo diretto dell’esatto URL eseguito il 1 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -2422,14 +2584,20 @@
       },
       "availability": {
         "status": "published",
-        "checkedAt": "2026-10-25T09:18:00+01:00",
-        "reason": "Pagina identificativa letta direttamente il 25 ottobre 2026: titolo, prezzo e informazioni dell’immobile accessibili.",
+        "checkedAt": "2026-11-01T09:19:25.478322+01:00",
+        "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
         "verifiedSources": [
           {
             "url": "https://www.casadasoli.it/annuncio-vendita-2812888",
-            "title": "Villa in Via Monte D’Oro",
-            "price": "€405.000",
-            "details": "due unità indipendenti; giardino 330 m²; box e posto auto"
+            "title": "Villa in Vendita in Via Monte D'Oro - AQUILINIA STRAMARE - Muggia (TS) | casadasoli.it",
+            "price": "€ 405.000",
+            "details": "NE Vendita Muggia (TS) € 405.000 4 Locali 148 m² Superficie 2 Bagni PT Piano MI PIACE SEGNALA Facebook Wha"
+          },
+          {
+            "url": "https://www.immobiliare.it/annunci/125386231/",
+            "title": "Vendita Villa bifamiliare  in via Monte D'Oro Muggia. Buono stato, posto auto, con balcone, riscaldamento autonomo, 168 m², rif. 125386231",
+            "price": "€ 405.000",
+            "details": "ica Accedi 1 / 10 Salone 10 Foto 2 Planimetrie Villa bifamiliare via Monte D'Oro, Aquilinia-stramare, Muggia "
           }
         ]
       },
@@ -2481,10 +2649,10 @@
         "preview": "assets/via-monte-d-oro.jpg"
       },
       "evidence": {
-        "listingReadAt": "2026-10-25T09:18:00+01:00",
+        "listingReadAt": "2026-11-01T09:19:25.478322+01:00",
         "sourceUpdatedAt": null,
-        "method": "direct_public_page",
-        "note": "Pagina diretta dell’esatto immobile riletta il 25 ottobre 2026; eventuali dati non separati o discordanti sono dichiarati nella scheda."
+        "method": "direct_http",
+        "note": "Controllo diretto dell’esatto URL eseguito il 1 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -2528,10 +2696,17 @@
         "description": "Villetta a schiera in Via dei Cardi con 200 m² abitativi su quattro livelli, giardino di 230 m² e garage di 50 m² più posto auto. È indicata in ottimo stato; resta da verificare il percorso preciso verso la fermata."
       },
       "availability": {
-        "status": "archived",
-        "checkedAt": "2026-10-25T09:08:36.780725+01:00",
-        "reason": "Nessuna fonte online fresca leggibile individuata nell’ultimo controllo. Questo stato non certifica la vendita o il ritiro dell’immobile.",
-        "verifiedSources": []
+        "status": "published",
+        "checkedAt": "2026-11-01T09:19:30.810288+01:00",
+        "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
+        "verifiedSources": [
+          {
+            "url": "https://www.immobiliare.it/annunci/123914023/",
+            "title": "Vendita Villa a schiera  in via dei Cardi 19 Trieste. Ottimo stato, posto auto, riscaldamento autonomo, 200 m², rif. 123914023",
+            "price": "€ 600.000",
+            "details": "i pubblica Accedi 1 / 14 14 Foto 4 Planimetrie Villa a schiera via dei Cardi 19, Opicina, Trieste Trieste Opi"
+          }
+        ]
       },
       "model": {
         "status": "ready",
@@ -2593,10 +2768,10 @@
         "preview": "assets/via-dei-cardi-19.jpg"
       },
       "evidence": {
-        "listingReadAt": "2026-10-25T09:08:36.780725+01:00",
+        "listingReadAt": "2026-11-01T09:19:30.810288+01:00",
         "sourceUpdatedAt": "16/04/2026",
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 25 ottobre 2026; i blocchi di accesso non sono trattati come prova di disponibilità."
+        "note": "Controllo diretto dell’esatto URL eseguito il 1 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -2643,24 +2818,23 @@
       },
       "availability": {
         "status": "archived",
-        "checkedAt": "2026-10-25T09:08:37.721155+01:00",
+        "checkedAt": "2026-11-01T09:19:34.245401+01:00",
         "reason": "Nessuna fonte online fresca leggibile individuata nell’ultimo controllo. Questo stato non certifica la vendita o il ritiro dell’immobile.",
         "verifiedSources": []
       },
       "model": {
-        "status": "awaiting_plans",
+        "status": "not_required",
         "path": null,
         "views": [],
         "notes": [
-          "Ricostruzione da preparare: le parti documentate potranno essere pubblicate anche con volumi mancanti, esplicitamente elencati. Senza piante utilizzabili, fotografie sufficienti consentono una ricostruzione dei soli esterni.",
-          "La fonte acquisita non espone piante identificative complete e scaricabili, o non è leggibile con gli accessi disponibili. Servono tutte le piante dello stato attuale, compresi piani accessori, scale e corpi separati descritti nell’annuncio."
+          "Scheda storica conservata; nessun nuovo modello viene costruito per un annuncio archiviato."
         ]
       },
       "evidence": {
-        "listingReadAt": "2026-10-25T09:08:37.721155+01:00",
+        "listingReadAt": "2026-11-01T09:19:34.245401+01:00",
         "sourceUpdatedAt": null,
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 25 ottobre 2026; i blocchi di accesso non sono trattati come prova di disponibilità."
+        "note": "Controllo diretto dell’esatto URL eseguito il 1 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -2707,24 +2881,23 @@
       },
       "availability": {
         "status": "archived",
-        "checkedAt": "2026-10-25T09:08:38.917908+01:00",
+        "checkedAt": "2026-11-01T09:19:35.621967+01:00",
         "reason": "Nessuna fonte online fresca leggibile individuata nell’ultimo controllo. Questo stato non certifica la vendita o il ritiro dell’immobile.",
         "verifiedSources": []
       },
       "model": {
-        "status": "awaiting_plans",
+        "status": "not_required",
         "path": null,
         "views": [],
         "notes": [
-          "Ricostruzione da preparare: le parti documentate potranno essere pubblicate anche con volumi mancanti, esplicitamente elencati. Senza piante utilizzabili, fotografie sufficienti consentono una ricostruzione dei soli esterni.",
-          "La fonte acquisita non espone piante identificative complete e scaricabili, o non è leggibile con gli accessi disponibili. Servono piante leggibili di entrambi i livelli della casa da ristrutturare."
+          "Scheda storica conservata; nessun nuovo modello viene costruito per un annuncio archiviato."
         ]
       },
       "evidence": {
-        "listingReadAt": "2026-10-25T09:08:38.917908+01:00",
+        "listingReadAt": "2026-11-01T09:19:35.621967+01:00",
         "sourceUpdatedAt": "28/09/2026",
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 25 ottobre 2026; i blocchi di accesso non sono trattati come prova di disponibilità."
+        "note": "Controllo diretto dell’esatto URL eseguito il 1 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -2769,7 +2942,7 @@
       },
       "availability": {
         "status": "archived",
-        "checkedAt": "2026-10-25T09:08:38.912010+01:00",
+        "checkedAt": "2026-11-01T09:19:35.618513+01:00",
         "reason": "Nessuna fonte online fresca leggibile individuata nell’ultimo controllo. Questo stato non certifica la vendita o il ritiro dell’immobile.",
         "verifiedSources": []
       },
@@ -2778,14 +2951,14 @@
         "path": null,
         "views": [],
         "notes": [
-          "Scheda storica conservata; nessun nuovo modello viene costruito per un immobile non più disponibile."
+          "Scheda storica conservata; nessun nuovo modello viene costruito per un annuncio archiviato."
         ]
       },
       "evidence": {
-        "listingReadAt": "2026-10-25T09:08:38.912010+01:00",
+        "listingReadAt": "2026-11-01T09:19:35.618513+01:00",
         "sourceUpdatedAt": null,
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 25 ottobre 2026; i blocchi di accesso non sono trattati come prova di disponibilità."
+        "note": "Controllo diretto dell’esatto URL eseguito il 1 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -2831,10 +3004,17 @@
         "description": "Villa ad Aurisina con 295 m² di abitazione, giardino di 900 m², box e posti auto. È segnalata vicina alla piazza; il percorso preciso verso le linee 43 e 44 non è documentato."
       },
       "availability": {
-        "status": "archived",
-        "checkedAt": "2026-10-25T09:08:41.300843+01:00",
-        "reason": "Nessuna fonte online fresca leggibile individuata nell’ultimo controllo. Questo stato non certifica la vendita o il ritiro dell’immobile.",
-        "verifiedSources": []
+        "status": "published",
+        "checkedAt": "2026-11-01T09:19:40.294552+01:00",
+        "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
+        "verifiedSources": [
+          {
+            "url": "https://www.immobiliare.it/annunci/131488992/",
+            "title": "Vendita Villa unifamiliare  Duino-Aurisina. Buono stato, posto auto, con balcone, riscaldamento autonomo, 340 m², rif. 131488992",
+            "price": "€ 400.000",
+            "details": "4 Camera da letto Cucina 14 Foto 3 Planimetrie Villa unifamiliare, buono stato, 340 m², Aurisina, Malchina, S"
+          }
+        ]
       },
       "model": {
         "status": "ready",
@@ -2899,10 +3079,10 @@
         "preview": "assets/aurisina.jpg"
       },
       "evidence": {
-        "listingReadAt": "2026-10-25T09:08:41.300843+01:00",
+        "listingReadAt": "2026-11-01T09:19:40.294552+01:00",
         "sourceUpdatedAt": "02/08/2026",
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 25 ottobre 2026; i blocchi di accesso non sono trattati come prova di disponibilità."
+        "note": "Controllo diretto dell’esatto URL eseguito il 1 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -2947,7 +3127,7 @@
       },
       "availability": {
         "status": "published",
-        "checkedAt": "2026-10-25T09:08:42.454756+01:00",
+        "checkedAt": "2026-11-01T09:19:41.030128+01:00",
         "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
         "verifiedSources": [
           {
@@ -3000,10 +3180,10 @@
         "preview": "assets/via-del-collio-9-model-preview.jpg"
       },
       "evidence": {
-        "listingReadAt": "2026-10-25T09:08:42.454756+01:00",
+        "listingReadAt": "2026-11-01T09:19:41.030128+01:00",
         "sourceUpdatedAt": null,
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 25 ottobre 2026; i blocchi di accesso non sono trattati come prova di disponibilità."
+        "note": "Controllo diretto dell’esatto URL eseguito il 1 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -3047,10 +3227,17 @@
         "description": "Villa singola nuova a Malchina con 170 m² abitativi su due livelli, tre camere, due bagni e giardino di 300 m². Sono indicati posto auto, fotovoltaico con accumulo e classe A+ prevista."
       },
       "availability": {
-        "status": "archived",
-        "checkedAt": "2026-10-25T09:08:43.777286+01:00",
-        "reason": "Nessuna fonte online fresca leggibile individuata nell’ultimo controllo. Questo stato non certifica la vendita o il ritiro dell’immobile.",
-        "verifiedSources": []
+        "status": "published",
+        "checkedAt": "2026-11-01T09:19:44.463837+01:00",
+        "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
+        "verifiedSources": [
+          {
+            "url": "https://www.casa.it/immobili/54596038/",
+            "title": "Villa in Vendita in zona Malchina a Duino Aurisina - 170mq - Casa.it",
+            "price": "€ 550.000",
+            "details": "viluppa su due livelli da circa 85 mq ciascuno, per una superficie complessiva di circa 170 mq. Il pro"
+          }
+        ]
       },
       "model": {
         "status": "awaiting_plans",
@@ -3062,10 +3249,10 @@
         ]
       },
       "evidence": {
-        "listingReadAt": "2026-10-25T09:08:43.777286+01:00",
+        "listingReadAt": "2026-11-01T09:19:44.463837+01:00",
         "sourceUpdatedAt": null,
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 25 ottobre 2026; i blocchi di accesso non sono trattati come prova di disponibilità."
+        "note": "Controllo diretto dell’esatto URL eseguito il 1 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -3108,7 +3295,7 @@
       },
       "availability": {
         "status": "archived",
-        "checkedAt": "2026-10-25T09:08:43.776556+01:00",
+        "checkedAt": "2026-11-01T09:19:44.824433+01:00",
         "reason": "Nessuna fonte online fresca leggibile individuata nell’ultimo controllo. Questo stato non certifica la vendita o il ritiro dell’immobile.",
         "verifiedSources": []
       },
@@ -3117,14 +3304,14 @@
         "path": null,
         "views": [],
         "notes": [
-          "Scheda storica conservata; nessun nuovo modello viene costruito per un immobile non più disponibile."
+          "Scheda storica conservata; nessun nuovo modello viene costruito per un annuncio archiviato."
         ]
       },
       "evidence": {
-        "listingReadAt": "2026-10-25T09:08:43.776556+01:00",
+        "listingReadAt": "2026-11-01T09:19:44.824433+01:00",
         "sourceUpdatedAt": null,
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 25 ottobre 2026; i blocchi di accesso non sono trattati come prova di disponibilità."
+        "note": "Controllo diretto dell’esatto URL eseguito il 1 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -3169,7 +3356,7 @@
       },
       "availability": {
         "status": "archived",
-        "checkedAt": "2026-10-25T09:08:46.272256+01:00",
+        "checkedAt": "2026-11-01T09:19:50.087271+01:00",
         "reason": "Nessuna fonte online fresca leggibile individuata nell’ultimo controllo. Questo stato non certifica la vendita o il ritiro dell’immobile.",
         "verifiedSources": []
       },
@@ -3234,10 +3421,10 @@
         "preview": "assets/muggia.jpg"
       },
       "evidence": {
-        "listingReadAt": "2026-10-25T09:08:46.272256+01:00",
+        "listingReadAt": "2026-11-01T09:19:50.087271+01:00",
         "sourceUpdatedAt": "16/07/2026",
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 25 ottobre 2026; i blocchi di accesso non sono trattati come prova di disponibilità."
+        "note": "Controllo diretto dell’esatto URL eseguito il 1 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -3283,10 +3470,17 @@
         "description": "Villa indipendente ristrutturata a Sistiana con giardino di 800 m² e quattro posti auto coperti. Le superfici dei portali non coincidono; occorre verificare il netto abitativo e il percorso verso la linea 44."
       },
       "availability": {
-        "status": "archived",
-        "checkedAt": "2026-10-25T09:08:18.813055+01:00",
-        "reason": "Nessuna fonte online fresca leggibile individuata nell’ultimo controllo. Questo stato non certifica la vendita o il ritiro dell’immobile.",
-        "verifiedSources": []
+        "status": "published",
+        "checkedAt": "2026-11-01T09:19:49.923229+01:00",
+        "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
+        "verifiedSources": [
+          {
+            "url": "https://www.immobiliare.it/annunci/130916972/",
+            "title": "Vendita Villa unifamiliare  in frazione Sistiana 10 Duino-Aurisina. Ottimo stato, posto auto, riscaldamento autonomo, 226 m², rif. 130916972",
+            "price": "€ 465.000",
+            "details": "one Camera da letto Cucina 24 Foto Planimetria Villa unifamiliare frazione Sistiana 10, Duino, Visogliano, Du"
+          }
+        ]
       },
       "model": {
         "status": "ready",
@@ -3329,10 +3523,10 @@
         "preview": "assets/sistiana-10.jpg"
       },
       "evidence": {
-        "listingReadAt": "2026-10-25T09:08:18.813055+01:00",
+        "listingReadAt": "2026-11-01T09:19:49.923229+01:00",
         "sourceUpdatedAt": "13/07/2026",
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 25 ottobre 2026; i blocchi di accesso non sono trattati come prova di disponibilità."
+        "note": "Controllo diretto dell’esatto URL eseguito il 1 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -3378,24 +3572,23 @@
       },
       "availability": {
         "status": "archived",
-        "checkedAt": "2026-10-25T09:08:19.367889+01:00",
+        "checkedAt": "2026-11-01T09:19:55.792133+01:00",
         "reason": "Nessuna fonte online fresca leggibile individuata nell’ultimo controllo. Questo stato non certifica la vendita o il ritiro dell’immobile.",
         "verifiedSources": []
       },
       "model": {
-        "status": "awaiting_plans",
+        "status": "not_required",
         "path": null,
         "views": [],
         "notes": [
-          "Ricostruzione da preparare: le parti documentate potranno essere pubblicate anche con volumi mancanti, esplicitamente elencati. Senza piante utilizzabili, fotografie sufficienti consentono una ricostruzione dei soli esterni.",
-          "La fonte acquisita non espone piante identificative complete e scaricabili, o non è leggibile con gli accessi disponibili. Servono piante distinte dello stato attuale e del progetto approvato dei tre livelli; il progetto pubblicizzato non prova distribuzione e finiture realizzate."
+          "Scheda storica conservata; nessun nuovo modello viene costruito per un annuncio archiviato."
         ]
       },
       "evidence": {
-        "listingReadAt": "2026-10-25T09:08:19.367889+01:00",
+        "listingReadAt": "2026-11-01T09:19:55.792133+01:00",
         "sourceUpdatedAt": null,
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 25 ottobre 2026; i blocchi di accesso non sono trattati come prova di disponibilità."
+        "note": "Controllo diretto dell’esatto URL eseguito il 1 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -3450,7 +3643,7 @@
       },
       "availability": {
         "status": "published",
-        "checkedAt": "2026-10-25T09:08:25.149855+01:00",
+        "checkedAt": "2026-11-01T09:20:00.966821+01:00",
         "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
         "verifiedSources": [
           {
@@ -3509,10 +3702,10 @@
         "preview": "assets/via-monte-carso.jpg"
       },
       "evidence": {
-        "listingReadAt": "2026-10-25T09:08:25.149855+01:00",
+        "listingReadAt": "2026-11-01T09:20:00.966821+01:00",
         "sourceUpdatedAt": null,
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 25 ottobre 2026; i blocchi di accesso non sono trattati come prova di disponibilità."
+        "note": "Controllo diretto dell’esatto URL eseguito il 1 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -3561,9 +3754,15 @@
       },
       "availability": {
         "status": "published",
-        "checkedAt": "2026-10-25T09:08:25.092918+01:00",
+        "checkedAt": "2026-11-01T09:20:06.945838+01:00",
         "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
         "verifiedSources": [
+          {
+            "url": "https://www.immobiliare.it/annunci/133161332/",
+            "title": "Vendita Villa unifamiliare  in via dei Gravisi 4 Trieste. Buono stato, posto auto, con terrazza, riscaldamento autonomo, 237 m², rif. 133161332",
+            "price": "€ 490.000",
+            "details": "e Camera da letto Cucina 47 Foto 4 Planimetrie Villa unifamiliare via dei Gravisi 4, Sant'Anna, Trieste Tries"
+          },
           {
             "url": "https://www.trovacasa.it/annunci/ts-tc-67991-73397489",
             "title": "Villa in vendita a Trieste via dei Gravisi, 4, arredato, giardino privato, box - TrovaCasa",
@@ -3628,10 +3827,10 @@
         "preview": "assets/via-dei-gravisi-4.jpg"
       },
       "evidence": {
-        "listingReadAt": "2026-10-25T09:08:25.092918+01:00",
+        "listingReadAt": "2026-11-01T09:20:06.945838+01:00",
         "sourceUpdatedAt": null,
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 25 ottobre 2026; i blocchi di accesso non sono trattati come prova di disponibilità."
+        "note": "Controllo diretto dell’esatto URL eseguito il 1 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -3680,9 +3879,15 @@
       },
       "availability": {
         "status": "published",
-        "checkedAt": "2026-10-25T09:08:31.165365+01:00",
+        "checkedAt": "2026-11-01T09:20:12.453840+01:00",
         "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
         "verifiedSources": [
+          {
+            "url": "https://www.immobiliare.it/annunci/133093042/",
+            "title": "Vendita Villa a schiera  in via dei Papaveri 3/16 Trieste. Buono stato, posto auto, con terrazza, riscaldamento autonomo, 192 m², rif. 133093042",
+            "price": "€ 375.000",
+            "details": "e Camera da letto Cucina 25 Foto 2 Planimetrie Villa a schiera via dei Papaveri 3/16, Opicina, Trieste Triest"
+          },
           {
             "url": "https://www.trovacasa.it/annunci/ts-tc-77909-73363655",
             "title": "Villa a Schiera in vendita a Trieste via dei Papaveri, 3/16, arredato, giardino privato, posto auto - TrovaCasa",
@@ -3742,10 +3947,10 @@
         "preview": "assets/via-dei-papaveri-3-16.jpg"
       },
       "evidence": {
-        "listingReadAt": "2026-10-25T09:08:31.165365+01:00",
+        "listingReadAt": "2026-11-01T09:20:12.453840+01:00",
         "sourceUpdatedAt": null,
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 25 ottobre 2026; i blocchi di accesso non sono trattati come prova di disponibilità."
+        "note": "Controllo diretto dell’esatto URL eseguito il 1 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -3761,10 +3966,15 @@
           "priceEur": 608000,
           "date": "2026-10-11",
           "source": "chat"
+        },
+        {
+          "priceEur": 589000,
+          "date": "2026-11-01",
+          "source": "https://www.immobiliare.it/annunci/131737632/"
         }
       ],
       "facts": {
-        "priceEur": 608000,
+        "priceEur": 589000,
         "areaHabitableM2": 240,
         "areaWalkableM2": null,
         "areaCommercialM2": 349,
@@ -3791,10 +4001,17 @@
         "description": "Villa storica in Via dello Scoglio con 240 m² abitativi su due piani, ulteriori locali seminterrati, giardino di 210 m² e garage. È accostata ai laboratori universitari; le fermate 3/17/17/ sono indicate a circa 40 metri."
       },
       "availability": {
-        "status": "archived",
-        "checkedAt": "2026-10-25T09:08:28.055543+01:00",
-        "reason": "Nessuna fonte online fresca leggibile individuata nell’ultimo controllo. Questo stato non certifica la vendita o il ritiro dell’immobile.",
-        "verifiedSources": []
+        "status": "published",
+        "checkedAt": "2026-11-01T09:20:11.739499+01:00",
+        "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
+        "verifiedSources": [
+          {
+            "url": "https://www.immobiliare.it/annunci/131737632/",
+            "title": "Vendita Villa unifamiliare  in via dello Scoglio 173 Trieste. Ottimo stato, posto auto, riscaldamento autonomo, 349 m², rif. 131737632",
+            "price": "€ 589.000",
+            "details": "e Camera da letto Cucina 24 Foto 3 Planimetrie Villa unifamiliare via dello Scoglio 173, Cologna - Università"
+          }
+        ]
       },
       "model": {
         "status": "ready",
@@ -3857,10 +4074,10 @@
         "preview": "assets/via-dello-scoglio-173.jpg"
       },
       "evidence": {
-        "listingReadAt": "2026-10-25T09:08:28.055543+01:00",
-        "sourceUpdatedAt": "18/08/2026",
+        "listingReadAt": "2026-11-01T09:20:11.739499+01:00",
+        "sourceUpdatedAt": "2026-10-14",
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 25 ottobre 2026; i blocchi di accesso non sono trattati come prova di disponibilità."
+        "note": "Controllo diretto dell’esatto URL eseguito il 1 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -3904,10 +4121,17 @@
         "description": "Villa singola a Malchina con 180 m² calpestabili, terreno di 850 m², garage e due posti auto. È del 1988 e richiede ammodernamenti; il riscaldamento è a gasolio e la fermata è segnalata a 120–150 metri."
       },
       "availability": {
-        "status": "archived",
-        "checkedAt": "2026-10-25T09:08:30.238101+01:00",
-        "reason": "Nessuna fonte online fresca leggibile individuata nell’ultimo controllo. Questo stato non certifica la vendita o il ritiro dell’immobile.",
-        "verifiedSources": []
+        "status": "published",
+        "checkedAt": "2026-11-01T09:20:17.423482+01:00",
+        "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
+        "verifiedSources": [
+          {
+            "url": "https://www.immobiliare.it/annunci/122061822/",
+            "title": "Vendita Villa unifamiliare  in frazione Malchina 47/A Duino-Aurisina. Buono stato, posto auto, con balcone, riscaldamento autonomo, 200 m², rif. 122061822",
+            "price": "€ 335.000",
+            "details": "e Camera da letto Cucina 36 Foto 2 Planimetrie Villa unifamiliare frazione Malchina 47/A, Aurisina, Malchina,"
+          }
+        ]
       },
       "model": {
         "status": "ready",
@@ -3957,10 +4181,10 @@
         "preview": "assets/malchina-47-a.jpg"
       },
       "evidence": {
-        "listingReadAt": "2026-10-25T09:08:30.238101+01:00",
+        "listingReadAt": "2026-11-01T09:20:17.423482+01:00",
         "sourceUpdatedAt": "17/03/2026",
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 25 ottobre 2026; i blocchi di accesso non sono trattati come prova di disponibilità."
+        "note": "Controllo diretto dell’esatto URL eseguito il 1 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -4015,14 +4239,20 @@
       },
       "availability": {
         "status": "published",
-        "checkedAt": "2026-10-25T09:18:00+01:00",
-        "reason": "Pagina identificativa letta direttamente il 25 ottobre 2026: titolo, prezzo e informazioni dell’immobile accessibili.",
+        "checkedAt": "2026-11-01T09:20:28.061861+01:00",
+        "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
         "verifiedSources": [
           {
             "url": "https://www.immobiliare.it/annunci/125155343/",
-            "title": "Villa unifamiliare a Duino",
-            "price": "€540.000",
-            "details": "202 m² abitazione; 361 m² giardino; garage 49 m²"
+            "title": "Vendita Villa unifamiliare  Duino-Aurisina. Ottimo stato, posto auto, con terrazza, riscaldamento autonomo, 338 m², rif. 125155343",
+            "price": "€ 540.000",
+            "details": "e Camera da letto Cucina 44 Foto 4 Planimetrie Video Villa unifamiliare, ottimo stato, 338 m², Duino, Visogli"
+          },
+          {
+            "url": "https://nestimmobiliare.com/immobile/villa-a-duino-su-tre-livelli-con-giardino/",
+            "title": "VILLA A DUINO SU TRE LIVELLI CON GIARDINO – Nest Immobiliare",
+            "price": "540.000 €",
+            "details": "na, un generoso salone, due comode camere da letto di cui una con accesso ad un poggiolo, un bagno e un ri"
           }
         ]
       },
@@ -4089,10 +4319,10 @@
         "preview": "assets/duino-villa-129888594.jpg"
       },
       "evidence": {
-        "listingReadAt": "2026-10-25T09:18:00+01:00",
+        "listingReadAt": "2026-11-01T09:20:28.061861+01:00",
         "sourceUpdatedAt": "2026-10-09",
-        "method": "direct_public_page",
-        "note": "Pagina diretta dell’esatto immobile riletta il 25 ottobre 2026; eventuali dati non separati o discordanti sono dichiarati nella scheda."
+        "method": "direct_http",
+        "note": "Controllo diretto dell’esatto URL eseguito il 1 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -4138,10 +4368,17 @@
         "description": "Villa indipendente con vista mare a Muggia, 140 m² di abitazione più mansarda, giardino di 400 m² e due garage più due posti esterni. È ancora in completamento; la piscina mostrata è una proposta, non un elemento esistente."
       },
       "availability": {
-        "status": "archived",
-        "checkedAt": "2026-10-25T09:08:32.656253+01:00",
-        "reason": "Nessuna fonte online fresca leggibile individuata nell’ultimo controllo. Questo stato non certifica la vendita o il ritiro dell’immobile.",
-        "verifiedSources": []
+        "status": "published",
+        "checkedAt": "2026-11-01T09:20:23.123391+01:00",
+        "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
+        "verifiedSources": [
+          {
+            "url": "https://www.immobiliare.it/annunci/133394756/",
+            "title": "Vendita Villa unifamiliare  in via di Santa Barbara Muggia. Posto auto, con terrazza, riscaldamento autonomo, 272 m², rif. 133394756",
+            "price": "€ 690.000",
+            "details": " Salone Camera da letto 11 Foto 10 Planimetrie Villa unifamiliare via di Santa Barbara, Centro, Muggia Muggia"
+          }
+        ]
       },
       "model": {
         "status": "awaiting_plans",
@@ -4153,10 +4390,10 @@
         ]
       },
       "evidence": {
-        "listingReadAt": "2026-10-25T09:08:32.656253+01:00",
+        "listingReadAt": "2026-11-01T09:20:23.123391+01:00",
         "sourceUpdatedAt": null,
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 25 ottobre 2026; i blocchi di accesso non sono trattati come prova di disponibilità."
+        "note": "Controllo diretto dell’esatto URL eseguito il 1 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -4205,7 +4442,7 @@
       },
       "availability": {
         "status": "archived",
-        "checkedAt": "2026-10-25T09:08:35.059651+01:00",
+        "checkedAt": "2026-11-01T09:20:28.762467+01:00",
         "reason": "Nessuna fonte online fresca leggibile individuata nell’ultimo controllo. Questo stato non certifica la vendita o il ritiro dell’immobile.",
         "verifiedSources": []
       },
@@ -4265,10 +4502,10 @@
         "preview": "assets/aurisina-cave-77-b.jpg"
       },
       "evidence": {
-        "listingReadAt": "2026-10-25T09:08:35.059651+01:00",
+        "listingReadAt": "2026-11-01T09:20:28.762467+01:00",
         "sourceUpdatedAt": "11/09/2026",
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 25 ottobre 2026; i blocchi di accesso non sono trattati come prova di disponibilità."
+        "note": "Controllo diretto dell’esatto URL eseguito il 1 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -4314,9 +4551,15 @@
       },
       "availability": {
         "status": "published",
-        "checkedAt": "2026-10-25T09:08:41.898654+01:00",
+        "checkedAt": "2026-11-01T09:20:38.749420+01:00",
         "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
         "verifiedSources": [
+          {
+            "url": "https://www.immobiliare.it/annunci/132448210/",
+            "title": "Vendita Villa unifamiliare  in frazione Malchina 1 Duino-Aurisina. Buono stato, posto auto, con balcone, riscaldamento autonomo, 259 m², rif. 132448210",
+            "price": "€ 268.000",
+            "details": "e Camera da letto Cucina 68 Foto 2 Planimetrie Video Villa unifamiliare frazione Malchina 1, Aurisina, Malchi"
+          },
           {
             "url": "https://www.trovacasa.it/annunci/ts-tc-93198-73138975",
             "title": "Villa in vendita a Duino Aurisina frazione Malchina, 1, giardino privato, posto auto, riscaldamento autonomo - TrovaCasa",
@@ -4374,10 +4617,10 @@
         "preview": "assets/malchina-1.jpg"
       },
       "evidence": {
-        "listingReadAt": "2026-10-25T09:08:41.898654+01:00",
+        "listingReadAt": "2026-11-01T09:20:38.749420+01:00",
         "sourceUpdatedAt": null,
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 25 ottobre 2026; i blocchi di accesso non sono trattati come prova di disponibilità."
+        "note": "Controllo diretto dell’esatto URL eseguito il 1 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -4422,10 +4665,17 @@
         "description": "Casa in Via Veruda con 237 m² dichiarati e giardino di 241 m². È indicato un accesso carrabile, ma il garage è soltanto ricavabile da un deposito; superficie abitativa, parcheggio e tragitto al bus richiedono conferma."
       },
       "availability": {
-        "status": "archived",
-        "checkedAt": "2026-10-25T09:08:44.066102+01:00",
-        "reason": "Nessuna fonte online fresca leggibile individuata nell’ultimo controllo. Questo stato non certifica la vendita o il ritiro dell’immobile.",
-        "verifiedSources": []
+        "status": "published",
+        "checkedAt": "2026-11-01T09:20:33.699791+01:00",
+        "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
+        "verifiedSources": [
+          {
+            "url": "https://www.immobiliare.it/annunci/126487333/",
+            "title": "Vendita Villa unifamiliare  in via Umberto Veruda Trieste. Buono stato, posto auto, con terrazza, riscaldamento autonomo, 237 m², rif. 126487333",
+            "price": "€ 530.000",
+            "details": "e Camera da letto Cucina 22 Foto 2 Planimetrie Villa unifamiliare via Umberto Veruda, San Luigi - Rozzol, Tri"
+          }
+        ]
       },
       "model": {
         "status": "ready",
@@ -4473,10 +4723,10 @@
         "preview": "assets/via-umberto-veruda.jpg"
       },
       "evidence": {
-        "listingReadAt": "2026-10-25T09:08:44.066102+01:00",
+        "listingReadAt": "2026-11-01T09:20:33.699791+01:00",
         "sourceUpdatedAt": "02/04/2026",
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 25 ottobre 2026; i blocchi di accesso non sono trattati come prova di disponibilità."
+        "note": "Controllo diretto dell’esatto URL eseguito il 1 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -4520,10 +4770,17 @@
         "description": "Casa a Duino con 180 m² commerciali e giardino di 700 m². La superficie abitativa, la presenza di un posto auto e il percorso verso la linea 44 non sono documentati."
       },
       "availability": {
-        "status": "archived",
-        "checkedAt": "2026-10-25T09:08:44.114900+01:00",
-        "reason": "Nessuna fonte online fresca leggibile individuata nell’ultimo controllo. Questo stato non certifica la vendita o il ritiro dell’immobile.",
-        "verifiedSources": []
+        "status": "published",
+        "checkedAt": "2026-11-01T09:20:39.624478+01:00",
+        "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
+        "verifiedSources": [
+          {
+            "url": "https://www.idealista.it/immobile/35776471/",
+            "title": "Villa in vendita in Frazione Duino, 4, Duino-Aurisina — idealista, N.1 in Italia",
+            "price": "490.000 €",
+            "details": " modificata con IA 1/ 19 19 foto 3 planimetrie Mappa Villa in vendita in Frazione Duino, 4 villa 490.000 € 18"
+          }
+        ]
       },
       "model": {
         "status": "awaiting_plans",
@@ -4535,10 +4792,10 @@
         ]
       },
       "evidence": {
-        "listingReadAt": "2026-10-25T09:08:44.114900+01:00",
+        "listingReadAt": "2026-11-01T09:20:39.624478+01:00",
         "sourceUpdatedAt": "3 giugno",
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 25 ottobre 2026; i blocchi di accesso non sono trattati come prova di disponibilità."
+        "note": "Controllo diretto dell’esatto URL eseguito il 1 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -4583,10 +4840,17 @@
         "works": "Rimodernamento generale dichiarato nel testo; riscaldamento a gasolio e vasca Imhoff."
       },
       "availability": {
-        "status": "archived",
-        "checkedAt": "2026-10-25T09:08:46.402391+01:00",
-        "reason": "Nessuna fonte online fresca leggibile individuata nell’ultimo controllo. Questo stato non certifica la vendita o il ritiro dell’immobile.",
-        "verifiedSources": []
+        "status": "published",
+        "checkedAt": "2026-11-01T09:20:44.230177+01:00",
+        "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
+        "verifiedSources": [
+          {
+            "url": "https://www.immobiliare.it/annunci/133625846/",
+            "title": "Vendita Villa unifamiliare  in Località Lacotisce 379 San Dorligo della Valle - Dolina. Buono stato, posto auto, con balcone, riscaldamento autonomo, 244 m², rif. 133625846",
+            "price": "€ 380.000",
+            "details": " Vendita Villa unifamiliare in Località Lacotisce 379 San Dorligo della Valle - Dolina. Buono stato, p"
+          }
+        ]
       },
       "model": {
         "status": "awaiting_plans",
@@ -4598,10 +4862,10 @@
         ]
       },
       "evidence": {
-        "listingReadAt": "2026-10-25T09:08:46.402391+01:00",
+        "listingReadAt": "2026-11-01T09:20:44.230177+01:00",
         "sourceUpdatedAt": "2026-10-16",
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 25 ottobre 2026; i blocchi di accesso non sono trattati come prova di disponibilità."
+        "note": "Controllo diretto dell’esatto URL eseguito il 1 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -4648,24 +4912,23 @@
       },
       "availability": {
         "status": "archived",
-        "checkedAt": "2026-10-25T09:08:46.404371+01:00",
+        "checkedAt": "2026-11-01T09:20:44.386591+01:00",
         "reason": "Nessuna fonte online fresca leggibile individuata nell’ultimo controllo. Questo stato non certifica la vendita o il ritiro dell’immobile.",
         "verifiedSources": []
       },
       "model": {
-        "status": "awaiting_plans",
+        "status": "not_required",
         "path": null,
         "views": [],
         "notes": [
-          "Ricostruzione da preparare: le parti documentate potranno essere pubblicate anche con volumi mancanti, esplicitamente elencati. Senza piante utilizzabili, fotografie sufficienti consentono una ricostruzione dei soli esterni.",
-          "Fotografie e planimetrie della casa da acquisire o validare."
+          "Scheda storica conservata; nessun nuovo modello viene costruito per un annuncio archiviato."
         ]
       },
       "evidence": {
-        "listingReadAt": "2026-10-25T09:08:46.404371+01:00",
+        "listingReadAt": "2026-11-01T09:20:44.386591+01:00",
         "sourceUpdatedAt": "2026-10-01",
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 25 ottobre 2026; i blocchi di accesso non sono trattati come prova di disponibilità."
+        "note": "Controllo diretto dell’esatto URL eseguito il 1 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -4710,10 +4973,17 @@
         "works": null
       },
       "availability": {
-        "status": "archived",
-        "checkedAt": "2026-10-25T09:08:48.868717+01:00",
-        "reason": "Nessuna fonte online fresca leggibile individuata nell’ultimo controllo. Questo stato non certifica la vendita o il ritiro dell’immobile.",
-        "verifiedSources": []
+        "status": "published",
+        "checkedAt": "2026-11-01T09:20:49.948228+01:00",
+        "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
+        "verifiedSources": [
+          {
+            "url": "https://www.idealista.it/immobile/35558173/",
+            "title": "Casa o villa in vendita in Via dei Calderai, 15, Muggia — idealista, N.1 in Italia",
+            "price": "389.000 €",
+            "details": " modificata con IA 1/ 41 41 foto 2 planimetrie Mappa Casa o villa in vendita in Via dei Calderai, 15 villa 38"
+          }
+        ]
       },
       "model": {
         "status": "awaiting_plans",
@@ -4725,10 +4995,10 @@
         ]
       },
       "evidence": {
-        "listingReadAt": "2026-10-25T09:08:48.868717+01:00",
+        "listingReadAt": "2026-11-01T09:20:49.948228+01:00",
         "sourceUpdatedAt": null,
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 25 ottobre 2026; i blocchi di accesso non sono trattati come prova di disponibilità."
+        "note": "Controllo diretto dell’esatto URL eseguito il 1 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -4775,24 +5045,23 @@
       },
       "availability": {
         "status": "archived",
-        "checkedAt": "2026-10-25T09:09:10.241808+01:00",
+        "checkedAt": "2026-11-01T09:20:50.481739+01:00",
         "reason": "Nessuna fonte online fresca leggibile individuata nell’ultimo controllo. Questo stato non certifica la vendita o il ritiro dell’immobile.",
         "verifiedSources": []
       },
       "model": {
-        "status": "awaiting_plans",
+        "status": "not_required",
         "path": null,
         "views": [],
         "notes": [
-          "Ricostruzione da preparare: le parti documentate potranno essere pubblicate anche con volumi mancanti, esplicitamente elencati. Senza piante utilizzabili, fotografie sufficienti consentono una ricostruzione dei soli esterni.",
-          "Fotografie e planimetrie della casa da acquisire o validare."
+          "Scheda storica conservata; nessun nuovo modello viene costruito per un annuncio archiviato."
         ]
       },
       "evidence": {
-        "listingReadAt": "2026-10-25T09:09:10.241808+01:00",
+        "listingReadAt": "2026-11-01T09:20:50.481739+01:00",
         "sourceUpdatedAt": "2026-10-07",
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 25 ottobre 2026; i blocchi di accesso non sono trattati come prova di disponibilità."
+        "note": "Controllo diretto dell’esatto URL eseguito il 1 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -4838,10 +5107,17 @@
         "works": null
       },
       "availability": {
-        "status": "archived",
-        "checkedAt": "2026-10-25T09:09:03.624386+01:00",
-        "reason": "Nessuna fonte online fresca leggibile individuata nell’ultimo controllo. Questo stato non certifica la vendita o il ritiro dell’immobile.",
-        "verifiedSources": []
+        "status": "published",
+        "checkedAt": "2026-11-01T09:20:55.426043+01:00",
+        "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
+        "verifiedSources": [
+          {
+            "url": "https://www.immobiliare.it/annunci/128924934/",
+            "title": "Vendita Villa unifamiliare  in Località Zolla Monrupino. Buono stato, posto auto, con terrazza, riscaldamento autonomo, 283 m², rif. 128924934",
+            "price": "€ 598.000",
+            "details": " Vendita Villa unifamiliare in Località Zolla Monrupino. Buono stato, posto auto, con terrazza, riscal"
+          }
+        ]
       },
       "model": {
         "status": "awaiting_plans",
@@ -4853,10 +5129,10 @@
         ]
       },
       "evidence": {
-        "listingReadAt": "2026-10-25T09:09:03.624386+01:00",
+        "listingReadAt": "2026-11-01T09:20:55.426043+01:00",
         "sourceUpdatedAt": null,
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 25 ottobre 2026; i blocchi di accesso non sono trattati come prova di disponibilità."
+        "note": "Controllo diretto dell’esatto URL eseguito il 1 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -4903,10 +5179,17 @@
         "works": null
       },
       "availability": {
-        "status": "archived",
-        "checkedAt": "2026-10-25T09:09:06.104294+01:00",
-        "reason": "Nessuna fonte online fresca leggibile individuata nell’ultimo controllo. Questo stato non certifica la vendita o il ritiro dell’immobile.",
-        "verifiedSources": []
+        "status": "published",
+        "checkedAt": "2026-11-01T09:20:55.475137+01:00",
+        "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
+        "verifiedSources": [
+          {
+            "url": "https://www.immobiliare.it/annunci/131610062/",
+            "title": "Vendita Villa unifamiliare  in via Marco Polo 5 Trieste. Buono stato, posto auto, con balcone, riscaldamento autonomo, 133 m², rif. 131610062",
+            "price": "€ 430.000",
+            "details": "one Camera da letto Cucina 38 Foto Planimetria Virtual tour Villa unifamiliare via Marco Polo 5, San Giacomo,"
+          }
+        ]
       },
       "model": {
         "status": "awaiting_plans",
@@ -4918,10 +5201,10 @@
         ]
       },
       "evidence": {
-        "listingReadAt": "2026-10-25T09:09:06.104294+01:00",
+        "listingReadAt": "2026-11-01T09:20:55.475137+01:00",
         "sourceUpdatedAt": "2026-10-12",
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 25 ottobre 2026; i blocchi di accesso non sono trattati come prova di disponibilità."
+        "note": "Controllo diretto dell’esatto URL eseguito il 1 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -4976,9 +5259,15 @@
       },
       "availability": {
         "status": "published",
-        "checkedAt": "2026-10-25T09:09:19.408823+01:00",
+        "checkedAt": "2026-11-01T09:21:18.305989+01:00",
         "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
         "verifiedSources": [
+          {
+            "url": "https://www.idealista.it/immobile/35710865/",
+            "title": "Villa in vendita a Muggia, Triestino Sud, Trieste — idealista, N.1 in Italia",
+            "price": "650.000 €",
+            "details": " a Muggia villa 650.000 € 325 m² 6 locali Box compreso preferito ' data-text-remove='Preferito' role=\"butt"
+          },
           {
             "url": "https://www.subito.it/ville-singole-e-a-schiera/rif-609-bifamiliare-muggia-trieste-646999592.htm",
             "title": "Subito - B.G. REAL ESTATE SRL - Rif.609- bifamiliare muggia - Ville singole e a schiera In vendita a Trieste",
@@ -5032,10 +5321,10 @@
         "preview": "assets/fontanella-villa-panoramica.jpg"
       },
       "evidence": {
-        "listingReadAt": "2026-10-25T09:09:19.408823+01:00",
+        "listingReadAt": "2026-11-01T09:21:18.305989+01:00",
         "sourceUpdatedAt": null,
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 25 ottobre 2026; i blocchi di accesso non sono trattati come prova di disponibilità."
+        "note": "Controllo diretto dell’esatto URL eseguito il 1 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -5080,14 +5369,14 @@
       },
       "availability": {
         "status": "published",
-        "checkedAt": "2026-10-25T09:18:00+01:00",
-        "reason": "Pagina identificativa letta direttamente il 25 ottobre 2026: titolo, prezzo e informazioni dell’immobile accessibili.",
+        "checkedAt": "2026-11-01T09:21:00.645181+01:00",
+        "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
         "verifiedSources": [
           {
             "url": "https://www.sellingtrieste.com/immobili/villa-via-degli-alpini-opicina/",
-            "title": "Villa in Via degli Alpini",
-            "price": "€450.000",
-            "details": "210 m² interni dichiarati; 247 m² complessivi nella scheda."
+            "title": "Villa via degli Alpini, Opicina - Selling Trieste",
+            "price": "450.000",
+            "details": "450.000 Dettagli Tipologia Casetta Mq 247 Zona Altopiano carsico Locali 6 Bagni 3 Zona notte 3 Elisabe"
           }
         ]
       },
@@ -5100,10 +5389,10 @@
         ]
       },
       "evidence": {
-        "listingReadAt": "2026-10-25T09:18:00+01:00",
+        "listingReadAt": "2026-11-01T09:21:00.645181+01:00",
         "sourceUpdatedAt": null,
-        "method": "direct_public_page",
-        "note": "Pagina diretta dell’esatto immobile riletta il 25 ottobre 2026; eventuali dati non separati o discordanti sono dichiarati nella scheda."
+        "method": "direct_http",
+        "note": "Controllo diretto dell’esatto URL eseguito il 1 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -5149,14 +5438,14 @@
       },
       "availability": {
         "status": "published",
-        "checkedAt": "2026-10-25T09:18:00+01:00",
-        "reason": "Pagina identificativa letta direttamente il 25 ottobre 2026: titolo, prezzo e informazioni dell’immobile accessibili.",
+        "checkedAt": "2026-11-01T09:21:06.772407+01:00",
+        "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
         "verifiedSources": [
           {
             "url": "https://friulivillas.com/annuncio/villetta-con-giardino-le-vigne-duino-b3uzt",
-            "title": "Villetta Le Vigne a Duino",
-            "price": "€575.000",
-            "details": "259 m² catastali complessivi; abitabile netto non separato."
+            "title": "Villetta con giardino «Le Vigne» — Duino · FriuliVillas",
+            "price": "575.000 €",
+            "details": "O-LEVIGNE · Frazione Duino/Devin — Località Duino Stazione (complesso «Le Vigne»), Duino-Aurisina 575.000 "
           }
         ]
       },
@@ -5169,10 +5458,10 @@
         ]
       },
       "evidence": {
-        "listingReadAt": "2026-10-25T09:18:00+01:00",
+        "listingReadAt": "2026-11-01T09:21:06.772407+01:00",
         "sourceUpdatedAt": null,
-        "method": "direct_public_page",
-        "note": "Pagina diretta dell’esatto immobile riletta il 25 ottobre 2026; eventuali dati non separati o discordanti sono dichiarati nella scheda."
+        "method": "direct_http",
+        "note": "Controllo diretto dell’esatto URL eseguito il 1 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -5219,14 +5508,20 @@
       },
       "availability": {
         "status": "published",
-        "checkedAt": "2026-10-25T09:18:00+01:00",
-        "reason": "Pagina identificativa letta direttamente il 25 ottobre 2026: titolo, prezzo e informazioni dell’immobile accessibili.",
+        "checkedAt": "2026-11-01T09:21:18.741067+01:00",
+        "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
         "verifiedSources": [
           {
             "url": "https://www.casa.it/immobili/54868671/",
-            "title": "Villa singola nella prima periferia di Muggia",
-            "price": "€550.000",
-            "details": "Circa 172 m² tra abitazione principale e mansarda; 250 m² pubblicizzati complessivamente, oltre al garage."
+            "title": "Casa indipendente in Vendita in zona Centro a Muggia - 250mq - Casa.it",
+            "price": "€ 550.000",
+            "details": "pari al nuovo. UNICO LIVELLO di 86 mq circa composto da camera, cameretta, salone, cucina, bagno. MANS"
+          },
+          {
+            "url": "https://www.idealista.it/immobile/37006993/",
+            "title": "Casa indipendente in vendita a Muggia, Triestino Sud, Trieste — idealista, N.1 in Italia",
+            "price": "550.000 €",
+            "details": " a Muggia villa 550.000 € 250 m² 4 locali Box compreso preferito ' data-text-remove='Preferito' role=\"butt"
           }
         ]
       },
@@ -5239,10 +5534,10 @@
         ]
       },
       "evidence": {
-        "listingReadAt": "2026-10-25T09:18:00+01:00",
+        "listingReadAt": "2026-11-01T09:21:18.741067+01:00",
         "sourceUpdatedAt": "2026-10-06",
-        "method": "direct_public_page",
-        "note": "Pagina diretta dell’esatto immobile riletta il 25 ottobre 2026; eventuali dati non separati o discordanti sono dichiarati nella scheda."
+        "method": "direct_http",
+        "note": "Controllo diretto dell’esatto URL eseguito il 1 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -5289,14 +5584,14 @@
       },
       "availability": {
         "status": "published",
-        "checkedAt": "2026-10-25T09:18:00+01:00",
-        "reason": "Pagina identificativa letta direttamente il 25 ottobre 2026: titolo, prezzo e informazioni dell’immobile accessibili.",
+        "checkedAt": "2026-11-01T09:21:23.874655+01:00",
+        "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
         "verifiedSources": [
           {
             "url": "https://www.immobiliare.it/annunci/125919035/",
-            "title": "Nuova villa trifamiliare in Via di Basovizza",
-            "price": "€460.000",
-            "details": "121 m² di abitazione (67 + 54); 137,1 m² commerciali."
+            "title": "Vendita Villa a schiera  Trieste. Nuova, posto auto, con terrazza, riscaldamento autonomo, 134 m², rif. 125919035",
+            "price": "€ 460.000",
+            "details": "ica Accedi 1 / 7 Villa a schiera 3 locali, nuova, Opicina, Trieste Trieste Opicina € 460.000 3 134 m² 2 No"
           }
         ]
       },
@@ -5309,10 +5604,10 @@
         ]
       },
       "evidence": {
-        "listingReadAt": "2026-10-25T09:18:00+01:00",
+        "listingReadAt": "2026-11-01T09:21:23.874655+01:00",
         "sourceUpdatedAt": "2026-01-15",
-        "method": "direct_public_page",
-        "note": "Pagina diretta dell’esatto immobile riletta il 25 ottobre 2026; eventuali dati non separati o discordanti sono dichiarati nella scheda."
+        "method": "direct_http",
+        "note": "Controllo diretto dell’esatto URL eseguito il 1 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -5359,14 +5654,14 @@
       },
       "availability": {
         "status": "published",
-        "checkedAt": "2026-10-25T09:18:00+01:00",
-        "reason": "Pagina identificativa letta direttamente il 25 ottobre 2026: titolo, prezzo e informazioni dell’immobile accessibili.",
+        "checkedAt": "2026-11-01T09:21:23.814274+01:00",
+        "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
         "verifiedSources": [
           {
             "url": "https://www.immobiliare.it/annunci/129859908/",
-            "title": "Villa bifamiliare a Contovello 117",
-            "price": "€499.000",
-            "details": "120 m² di abitazione, 50 m² di cantina; 133 m² commerciali."
+            "title": "Vendita Villa bifamiliare  in Località Contovello 117 Trieste. Ottimo stato, con terrazza, riscaldamento autonomo, 133 m², rif. 129859908",
+            "price": "€ 499.000",
+            "details": " Vendita Villa bifamiliare in Località Contovello 117 Trieste. Ottimo stato, con terrazza, riscaldame"
           }
         ]
       },
@@ -5379,10 +5674,10 @@
         ]
       },
       "evidence": {
-        "listingReadAt": "2026-10-25T09:18:00+01:00",
+        "listingReadAt": "2026-11-01T09:21:23.814274+01:00",
         "sourceUpdatedAt": "2026-09-22",
-        "method": "direct_public_page",
-        "note": "Pagina diretta dell’esatto immobile riletta il 25 ottobre 2026; eventuali dati non separati o discordanti sono dichiarati nella scheda."
+        "method": "direct_http",
+        "note": "Controllo diretto dell’esatto URL eseguito il 1 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -5429,14 +5724,14 @@
       },
       "availability": {
         "status": "published",
-        "checkedAt": "2026-10-25T09:18:00+01:00",
-        "reason": "Pagina identificativa letta direttamente il 25 ottobre 2026: titolo, prezzo e informazioni dell’immobile accessibili.",
+        "checkedAt": "2026-11-01T09:21:30.110910+01:00",
+        "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
         "verifiedSources": [
           {
             "url": "https://www.immobiliare.it/annunci/120761098/",
-            "title": "Villa singola a Santa Croce 75",
-            "price": "€300.000",
-            "details": "150 m² di abitazione su due piani, più soppalco 20 m²; 171 m² commerciali."
+            "title": "Vendita Villa unifamiliare  in Località Santa Croce di Trieste 75 Trieste. Nuova, con terrazza, riscaldamento autonomo, 170 m², rif. 120761098",
+            "price": "€ 300.000",
+            "details": " Vendita Villa unifamiliare in Località Santa Croce di Trieste 75 Trieste. Nuova, con terrazza, riscal"
           }
         ]
       },
@@ -5449,10 +5744,10 @@
         ]
       },
       "evidence": {
-        "listingReadAt": "2026-10-25T09:18:00+01:00",
+        "listingReadAt": "2026-11-01T09:21:30.110910+01:00",
         "sourceUpdatedAt": "2026-06-14",
-        "method": "direct_public_page",
-        "note": "Pagina diretta dell’esatto immobile riletta il 25 ottobre 2026; eventuali dati non separati o discordanti sono dichiarati nella scheda."
+        "method": "direct_http",
+        "note": "Controllo diretto dell’esatto URL eseguito il 1 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -5498,14 +5793,14 @@
       },
       "availability": {
         "status": "published",
-        "checkedAt": "2026-10-25T09:18:00+01:00",
-        "reason": "Pagina identificativa letta direttamente il 25 ottobre 2026: titolo, prezzo e informazioni dell’immobile accessibili.",
+        "checkedAt": "2026-11-01T09:21:30.106082+01:00",
+        "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
         "verifiedSources": [
           {
             "url": "https://www.immobiliare.it/annunci/129341838/",
-            "title": "Villetta in Via Marco Valerio Marziale 15/2",
-            "price": "€599.000",
-            "details": "238 m² classificati come abitazione e superficie commerciale."
+            "title": "Vendita Villa a schiera  in via Marco Valerio Marziale 15/2 Trieste. Ottimo stato, posto auto, con terrazza, riscaldamento autonomo, 238 m², rif. 129341838",
+            "price": "€ 599.000",
+            "details": "o al centro città. Le soluzioni trilocali con doppio sfogo esterno, caminetto e una vista mare così incant"
           }
         ]
       },
@@ -5518,10 +5813,219 @@
         ]
       },
       "evidence": {
-        "listingReadAt": "2026-10-25T09:18:00+01:00",
+        "listingReadAt": "2026-11-01T09:21:30.106082+01:00",
         "sourceUpdatedAt": "2026-05-25",
+        "method": "direct_http",
+        "note": "Controllo diretto dell’esatto URL eseguito il 1 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
+      }
+    },
+    {
+      "id": "santa-croce-745",
+      "title": "Villa unifamiliare a Santa Croce 745",
+      "locality": "Santa Croce, Trieste",
+      "address": "Località Santa Croce di Trieste 745",
+      "sourceUrls": [
+        "https://www.immobiliare.it/annunci/132168486/"
+      ],
+      "historicalPrices": [
+        {
+          "priceEur": 425000,
+          "date": "2026-11-01",
+          "source": "https://www.immobiliare.it/annunci/132168486/"
+        }
+      ],
+      "facts": {
+        "priceEur": 425000,
+        "areaHabitableM2": 141,
+        "areaWalkableM2": null,
+        "areaCommercialM2": 224,
+        "areaNotes": "70 m² di abitazione al piano terra e 71 m² al primo piano; il totale commerciale di 224 m² comprende garage, accessori e terrazze.",
+        "gardenM2": 140,
+        "landM2": null,
+        "parking": "Garage di 67 m² più un posto auto dichiarato.",
+        "floors": 3,
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "condition": "Buono/abitabile.",
+        "energy": "In attesa di certificazione; impianto fotovoltaico dichiarato.",
+        "bus": "Santa Croce è servita dalle linee 39/, 42, 43, 44 e 57; percorso esatto dal civico 745 da confermare.",
+        "highlights": [
+          "Villa unifamiliare.",
+          "141 m² classificati come abitazione.",
+          "Tre planimetrie e fotografie dell’immobile pubblicate."
+        ],
+        "limitations": [
+          "Distanza pedonale esatta dalla fermata da confermare.",
+          "Il totale 224 m² non è interamente abitativo."
+        ],
+        "description": "Villa unifamiliare a Santa Croce con 141 m² abitativi su due piani, 140 m² di spazio esterno, garage da 67 m² e un ulteriore posto auto. Il bus resta da misurare dal civico."
+      },
+      "availability": {
+        "status": "published",
+        "checkedAt": "2026-11-01T09:23:21.293574+01:00",
+        "reason": "Pagina identificativa letta direttamente il 1 novembre 2026: titolo, prezzo e informazioni dell’immobile accessibili.",
+        "verifiedSources": [
+          {
+            "url": "https://www.immobiliare.it/annunci/132168486/",
+            "title": "Villa unifamiliare Località Santa Croce di Trieste 745",
+            "price": "€ 425.000",
+            "details": "141 m² di abitazione, 140 m² esterni, garage e posto auto."
+          }
+        ]
+      },
+      "model": {
+        "status": "in_review",
+        "path": null,
+        "views": [],
+        "notes": [
+          "Fonti visive dell’esatto immobile individuate; ricostruzione non pubblicata finché confronto geometrico e QA non risultano completati."
+        ]
+      },
+      "evidence": {
+        "listingReadAt": "2026-11-01T09:23:21.293574+01:00",
+        "sourceUpdatedAt": "2026-10-09",
         "method": "direct_public_page",
-        "note": "Pagina diretta dell’esatto immobile riletta il 25 ottobre 2026; eventuali dati non separati o discordanti sono dichiarati nella scheda."
+        "note": "Pagina diretta dell’esatto immobile riletta il 1 novembre 2026; dati discordanti o non separati sono dichiarati nella scheda."
+      }
+    },
+    {
+      "id": "via-edgardo-morpurgo-1",
+      "title": "Villa nuova in Via Edgardo Morpurgo 1",
+      "locality": "Borgo San Sergio, Trieste",
+      "address": "Via Edgardo Morpurgo 1",
+      "sourceUrls": [
+        "https://www.casa.it/immobili/55024852/"
+      ],
+      "historicalPrices": [
+        {
+          "priceEur": 495000,
+          "date": "2026-11-01",
+          "source": "https://www.casa.it/immobili/55024852/"
+        }
+      ],
+      "facts": {
+        "priceEur": 495000,
+        "areaHabitableM2": 120,
+        "areaWalkableM2": null,
+        "areaCommercialM2": 177,
+        "areaNotes": "Circa 120 m² di abitazione su due livelli più 55 m² di cantina/taverna; 177 m² complessivi dichiarati.",
+        "gardenM2": null,
+        "landM2": null,
+        "parking": "Due posti auto coperti.",
+        "floors": 3,
+        "bedrooms": 3,
+        "bathrooms": 3,
+        "condition": "In costruzione; immagini pubblicate come render.",
+        "energy": "A+ prevista.",
+        "bus": "Fermata Via Morpurgo 12 a circa 80 m; altre fermate a circa 120 m.",
+        "highlights": [
+          "Villa indipendente di nuova costruzione.",
+          "Due posti auto coperti.",
+          "Bus a circa 80 m."
+        ],
+        "limitations": [
+          "Metratura del giardino non pubblicata.",
+          "La scheda sintetica indica due bagni, mentre la descrizione ne elenca tre.",
+          "Render di progetto, non fotografie della casa completata."
+        ],
+        "description": "Villa indipendente in costruzione con circa 120 m² abitativi, taverna/cantina di 55 m² e due posti coperti. Quasi-match: il giardino è presente ma non quantificato."
+      },
+      "availability": {
+        "status": "published",
+        "checkedAt": "2026-11-01T09:23:21.293588+01:00",
+        "reason": "Pagina identificativa letta direttamente il 1 novembre 2026: titolo, prezzo e informazioni dell’immobile accessibili.",
+        "verifiedSources": [
+          {
+            "url": "https://www.casa.it/immobili/55024852/",
+            "title": "Villa in Vendita in Via Edgardo Morpurgo 1 a Trieste",
+            "price": "€ 495.000",
+            "details": "120 m² abitativi più 55 m² di taverna/cantina; due posti coperti; fermata a 80 m."
+          }
+        ]
+      },
+      "model": {
+        "status": "in_review",
+        "path": null,
+        "views": [],
+        "notes": [
+          "Fonti visive dell’esatto immobile individuate; ricostruzione non pubblicata finché confronto geometrico e QA non risultano completati."
+        ]
+      },
+      "evidence": {
+        "listingReadAt": "2026-11-01T09:23:21.293588+01:00",
+        "sourceUpdatedAt": "2026-10-20",
+        "method": "direct_public_page",
+        "note": "Pagina diretta dell’esatto immobile riletta il 1 novembre 2026; dati discordanti o non separati sono dichiarati nella scheda."
+      }
+    },
+    {
+      "id": "via-dei-mulini-44",
+      "title": "Villa indipendente in Via dei Mulini 44",
+      "locality": "Muggia",
+      "address": "Via dei Mulini 44",
+      "sourceUrls": [
+        "https://www.tirabora.it/i/2070/privacy.php"
+      ],
+      "historicalPrices": [
+        {
+          "priceEur": 698000,
+          "date": "2026-11-01",
+          "source": "https://www.tirabora.it/i/2070/privacy.php"
+        }
+      ],
+      "facts": {
+        "priceEur": 698000,
+        "areaHabitableM2": null,
+        "areaWalkableM2": null,
+        "areaCommercialM2": 269,
+        "areaNotes": "269 m² complessivi dichiarati; la pagina e la planimetria non separano una superficie abitativa netta certificabile.",
+        "gardenM2": null,
+        "landM2": null,
+        "parking": "Box, posto coperto e posto scoperto.",
+        "floors": 3,
+        "bedrooms": 4,
+        "bathrooms": 4,
+        "condition": "Ottime condizioni dichiarate.",
+        "energy": "Classe C dichiarata.",
+        "bus": "Fermata della linea 31 in viale XXV Aprile, all’angolo con Via dei Mulini; distanza dal civico 44 da confermare.",
+        "highlights": [
+          "Villa indipendente.",
+          "Possibile divisione in due alloggi.",
+          "Planimetria indicativa pubblicata dall’agenzia."
+        ],
+        "limitations": [
+          "Superficie abitativa netta non separata dai 269 m² complessivi.",
+          "Metratura del giardino non pubblicata.",
+          "Distanza esatta dalla fermata da confermare."
+        ],
+        "description": "Villa indipendente a Muggia con 269 m² complessivi, quattro camere, box e posti auto, divisibile in due alloggi. Quasi-match: netto abitativo e metratura del giardino non sono separati."
+      },
+      "availability": {
+        "status": "published",
+        "checkedAt": "2026-11-01T09:23:21.293595+01:00",
+        "reason": "Pagina identificativa letta direttamente il 1 novembre 2026: titolo, prezzo e informazioni dell’immobile accessibili.",
+        "verifiedSources": [
+          {
+            "url": "https://www.tirabora.it/i/2070/privacy.php",
+            "title": "Splendida villa indipendente con giardino - Via dei Mulini, Muggia",
+            "price": "€ 698.000",
+            "details": "269 m², quattro camere, box e posti auto, giardino di metratura non dichiarata."
+          }
+        ]
+      },
+      "model": {
+        "status": "in_review",
+        "path": null,
+        "views": [],
+        "notes": [
+          "Fonti visive dell’esatto immobile individuate; ricostruzione non pubblicata finché confronto geometrico e QA non risultano completati."
+        ]
+      },
+      "evidence": {
+        "listingReadAt": "2026-11-01T09:23:21.293595+01:00",
+        "sourceUpdatedAt": null,
+        "method": "direct_public_page",
+        "note": "Pagina diretta dell’esatto immobile riletta il 1 novembre 2026; dati discordanti o non separati sono dichiarati nella scheda."
       }
     }
   ]
