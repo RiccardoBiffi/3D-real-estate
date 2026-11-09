@@ -24,8 +24,8 @@ jobs:
           git checkout -B main FETCH_HEAD
       - name: Test fail-closed recovery guards
         run: python3 scripts/test-live-recovery.py
-      - name: Fetch and verify public build, retaining existing cards and assets
-        run: python3 scripts/recover-live-site.py
+      - name: Verify fresh manifest and catalog, reusing only hash-identical assets
+        run: python3 scripts/recover-live-site-cached.py
       - name: Validate recovered catalog
         run: |
           python3 scripts/validate-catalog.py out/data/catalog.json --dist out
@@ -52,3 +52,12 @@ jobs:
           git('push','origin','HEAD:refs/heads/main',env=env)
           print('Snapshot committed by non-force push; existing ancestry retained.')
           PY
+      - name: Package committed source for model authoring
+        run: git archive --format=zip --output="$RUNNER_TEMP/case-in-3d-recovered.zip" HEAD
+      - name: Export source snapshot
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: case-in-3d-recovered
+          path: ${{ runner.temp }}/case-in-3d-recovered.zip
+          retention-days: 3
+          if-no-files-found: error
