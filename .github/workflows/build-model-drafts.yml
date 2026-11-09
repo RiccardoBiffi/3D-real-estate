@@ -3,12 +3,15 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: ['.github/build-model-drafts.request']
+    paths: ['.github/build-model-drafts.request', '.github/workflows/build-model-drafts.yml', 'models-source/**', 'scripts/build-reviewed-model.py', 'scripts/qa-model-browser.py']
 permissions:
   contents: read
+concurrency:
+  group: case-in-3d-model-draft-qa
+  cancel-in-progress: true
 jobs:
   models:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 25
     steps:
       - name: Read exact source commit
