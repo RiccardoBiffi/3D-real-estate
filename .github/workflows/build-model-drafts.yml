@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: ['.github/build-model-drafts.request', '.github/workflows/build-model-drafts.yml', 'models-source/**', 'scripts/build-reviewed-model.py', 'scripts/qa-model-browser.py']
+    paths: ['.github/build-model-drafts.request', '.github/workflows/build-model-drafts.yml', 'models-source/**', 'model-authoring/**', 'scripts/build-reviewed-model.py', 'scripts/qa-model-browser.py', 'scripts/extract-reviewed-batch.py']
 permissions:
   contents: read
 concurrency:
@@ -21,6 +21,8 @@ jobs:
           git remote add origin "https://github.com/${GITHUB_REPOSITORY}.git"
           git fetch --depth=1 origin "$GITHUB_SHA"
           git checkout --detach FETCH_HEAD
+      - name: Expand source-specific geometry after integrity and catalog checks
+        run: python3 scripts/extract-reviewed-batch.py
       - name: Install isolated browser test runtime
         run: |
           python3 -m venv "$RUNNER_TEMP/model-venv"
@@ -29,7 +31,7 @@ jobs:
       - name: Build drafts and exercise each exact HTML offline
         run: |
           "$RUNNER_TEMP/model-venv/bin/python" - <<'PY'
-          import importlib.util,json,os,subprocess
+          import importlib.util,json,os,subprocess,shutil
           from pathlib import Path
           root=Path.cwd();out=Path(os.environ['RUNNER_TEMP'])/'model-drafts';out.mkdir()
           spec=importlib.util.spec_from_file_location('builder',root/'scripts/build-reviewed-model.py');builder=importlib.util.module_from_spec(spec);spec.loader.exec_module(builder)
@@ -38,7 +40,8 @@ jobs:
               data=json.loads(source.read_text());html=out/(data['id']+'.html')
               result=builder.build(source,html,root/'out/modelli/via-gianelli-7.html')
               test=subprocess.run([os.environ['RUNNER_TEMP']+'/model-venv/bin/python','scripts/qa-model-browser.py',str(html),'--out',str(out/data['id']),'--views',str(result['viewCount'])])
-              result['browserPassed']=test.returncode==0;results.append(result)
+              result['browserPassed']=test.returncode==0;result['id']=data['id'];results.append(result)
+              shutil.copyfile(source,out/(data['id']+'.json'))
           (out/'build-results.json').write_text(json.dumps(results,indent=2)+'\n')
           if any(not r['browserPassed'] for r in results):raise SystemExit(1)
           PY
