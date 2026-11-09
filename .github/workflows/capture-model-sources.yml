@@ -1,0 +1,29 @@
+name: Capture evidence for missing property models
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['.github/capture-model-sources.request']
+permissions:
+  contents: read
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Read exact repository commit
+        run: |
+          set -euo pipefail
+          git init .
+          git remote add origin "https://github.com/${GITHUB_REPOSITORY}.git"
+          git fetch --depth=1 origin "$GITHUB_SHA"
+          git checkout --detach FETCH_HEAD
+      - name: Capture source media without bypassing access controls
+        run: python3 scripts/capture-model-sources.py --out "$RUNNER_TEMP/property-source-evidence"
+      - name: Export evidence for visual review
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: property-source-evidence
+          path: ${{ runner.temp }}/property-source-evidence
+          retention-days: 3
+          if-no-files-found: error
