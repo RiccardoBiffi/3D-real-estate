@@ -18,12 +18,12 @@ jobs:
           git remote add origin "https://github.com/${GITHUB_REPOSITORY}.git"
           git fetch --depth=1 origin "$GITHUB_SHA"
           git checkout --detach FETCH_HEAD
-      - name: Capture source media without bypassing access controls
-        run: python3 scripts/capture-model-sources.py --out "$RUNNER_TEMP/property-source-evidence"
+      - name: Capture gallery and plan evidence without bypassing access controls
+        run: python3 scripts/capture-model-sources-v2.py --out "$RUNNER_TEMP/property-source-evidence"
       - name: Export evidence for visual review
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
         with:
-          name: property-source-evidence
+          name: property-source-evidence-v2
           path: ${{ runner.temp }}/property-source-evidence
           retention-days: 3
           if-no-files-found: error
