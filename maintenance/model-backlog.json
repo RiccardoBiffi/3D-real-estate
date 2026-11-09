@@ -1,0 +1,309 @@
+[
+  {
+    "id": "via-risano-raute",
+    "title": "Via Risano / Raute",
+    "sourceUrls": [
+      "https://www.casa.it/immobili/52454684/"
+    ],
+    "modelStatus": "awaiting_plans"
+  },
+  {
+    "id": "chiampore-43a",
+    "title": "Strada per Chiampore 43A",
+    "sourceUrls": [
+      "https://www.casa.it/immobili/53961570/",
+      "https://www.idealista.it/immobile/35682567/"
+    ],
+    "modelStatus": "awaiting_plans"
+  },
+  {
+    "id": "basovizza-338",
+    "title": "Basovizza 338",
+    "sourceUrls": [
+      "https://www.idealista.it/immobile/30547622/"
+    ],
+    "modelStatus": "awaiting_plans"
+  },
+  {
+    "id": "repen-monrupino",
+    "title": "Casa indipendente a Repen",
+    "sourceUrls": [
+      "https://www.idealista.it/immobile/35634771/"
+    ],
+    "modelStatus": "awaiting_plans"
+  },
+  {
+    "id": "borgo-refosco",
+    "title": "Borgo Refosco, Opicina",
+    "sourceUrls": [
+      "https://www.immobiliare.it/annunci/122572468/"
+    ],
+    "modelStatus": "in_review"
+  },
+  {
+    "id": "via-almerigotti",
+    "title": "Via A. de Almerigotti",
+    "sourceUrls": [
+      "https://www.casa.it/immobili/54474891/",
+      "https://www.idealista.it/immobile/36342262/"
+    ],
+    "modelStatus": "awaiting_plans"
+  },
+  {
+    "id": "via-dell-hermada",
+    "title": "Villa nuova in Via dell'Hermada",
+    "sourceUrls": [
+      "https://www.immobiliare.it/annunci/125934421/"
+    ],
+    "modelStatus": "awaiting_plans"
+  },
+  {
+    "id": "salita-di-raute-50-1",
+    "title": "Salita di Raute 50/1",
+    "sourceUrls": [
+      "https://www.immobiliare.it/annunci/132289868/"
+    ],
+    "modelStatus": "in_review"
+  },
+  {
+    "id": "via-degli-olmi-8",
+    "title": "Via degli Olmi 8",
+    "sourceUrls": [
+      "https://www.immobiliare.it/annunci/129488706/",
+      "https://www.casa.it/immobili/54096551/",
+      "https://www.idealista.it/geo/vendita-case/via-degli-olmi-trieste-trieste/con-dimensione_140/"
+    ],
+    "modelStatus": "in_review"
+  },
+  {
+    "id": "via-gianelli-18",
+    "title": "Via Bartolomeo Gianelli 18",
+    "sourceUrls": [
+      "https://www.immobiliare.it/annunci/129124134/",
+      "https://www.idealista.it/immobile/35731602/",
+      "https://www.tecnocasa.it/vendita/ville/trieste/trieste/61221689.html"
+    ],
+    "modelStatus": "awaiting_plans"
+  },
+  {
+    "id": "banne-202",
+    "title": "Banne 202",
+    "sourceUrls": [
+      "https://www.immobiliare.it/annunci/121323776/"
+    ],
+    "modelStatus": "in_review"
+  },
+  {
+    "id": "basovizza-218",
+    "title": "Basovizza 218",
+    "sourceUrls": [
+      "https://www.casa.it/immobili/54714337/"
+    ],
+    "modelStatus": "awaiting_plans"
+  },
+  {
+    "id": "trebiciano-257",
+    "title": "Trebiciano 257",
+    "sourceUrls": [
+      "https://www.idealista.it/immobile/34141593/"
+    ],
+    "modelStatus": "awaiting_plans"
+  },
+  {
+    "id": "sant-antonio-in-bosco",
+    "title": "Bifamiliare a Sant'Antonio in Bosco",
+    "sourceUrls": [
+      "https://www.idealista.it/immobile/21818282/"
+    ],
+    "modelStatus": "awaiting_plans"
+  },
+  {
+    "id": "via-umberto-felluga-11",
+    "title": "Via Umberto Felluga 11",
+    "sourceUrls": [
+      "https://www.casa.it/immobili/54502132/",
+      "https://www.idealista.it/immobile/36373089/"
+    ],
+    "modelStatus": "awaiting_plans"
+  },
+  {
+    "id": "malchina-villa-nuova",
+    "title": "Villa nuova a Malchina",
+    "sourceUrls": [
+      "https://www.casa.it/immobili/54596038/"
+    ],
+    "modelStatus": "awaiting_plans"
+  },
+  {
+    "id": "via-di-santa-barbara",
+    "title": "Villa in Via di Santa Barbara",
+    "sourceUrls": [
+      "https://www.immobiliare.it/annunci/133394756/"
+    ],
+    "modelStatus": "awaiting_plans"
+  },
+  {
+    "id": "duino-4",
+    "title": "Frazione Duino 4",
+    "sourceUrls": [
+      "https://www.idealista.it/immobile/35776471/"
+    ],
+    "modelStatus": "awaiting_plans"
+  },
+  {
+    "id": "lacotisce-379",
+    "title": "Località Lacotisce 379",
+    "sourceUrls": [
+      "https://www.immobiliare.it/annunci/133625846/"
+    ],
+    "modelStatus": "awaiting_plans"
+  },
+  {
+    "id": "via-dei-calderai-15",
+    "title": "Via dei Calderai 15",
+    "sourceUrls": [
+      "https://www.idealista.it/immobile/35558173/"
+    ],
+    "modelStatus": "awaiting_plans"
+  },
+  {
+    "id": "zolla-60",
+    "title": "Frazione Zolla 60",
+    "sourceUrls": [
+      "https://www.immobiliare.it/annunci/128924934/"
+    ],
+    "modelStatus": "awaiting_plans"
+  },
+  {
+    "id": "via-marco-polo-5",
+    "title": "Via Marco Polo 5",
+    "sourceUrls": [
+      "https://www.immobiliare.it/annunci/131610062/"
+    ],
+    "modelStatus": "awaiting_plans"
+  },
+  {
+    "id": "via-degli-alpini-opicina",
+    "title": "Villa in Via degli Alpini",
+    "sourceUrls": [
+      "https://www.sellingtrieste.com/immobili/villa-via-degli-alpini-opicina/"
+    ],
+    "modelStatus": "awaiting_plans"
+  },
+  {
+    "id": "duino-le-vigne",
+    "title": "Villetta Le Vigne a Duino",
+    "sourceUrls": [
+      "https://friulivillas.com/annuncio/villetta-con-giardino-le-vigne-duino-b3uzt"
+    ],
+    "modelStatus": "in_review"
+  },
+  {
+    "id": "muggia-prima-periferia",
+    "title": "Villa singola nella prima periferia di Muggia",
+    "sourceUrls": [
+      "https://www.casa.it/immobili/54868671/",
+      "https://www.idealista.it/immobile/37006993/"
+    ],
+    "modelStatus": "awaiting_plans"
+  },
+  {
+    "id": "opicina-trifamiliare-via-basovizza",
+    "title": "Nuova villa trifamiliare in Via di Basovizza",
+    "sourceUrls": [
+      "https://www.immobiliare.it/annunci/125919035/"
+    ],
+    "modelStatus": "awaiting_plans"
+  },
+  {
+    "id": "contovello-117",
+    "title": "Villa bifamiliare a Contovello 117",
+    "sourceUrls": [
+      "https://www.immobiliare.it/annunci/129859908/"
+    ],
+    "modelStatus": "in_review"
+  },
+  {
+    "id": "santa-croce-75",
+    "title": "Villa singola a Santa Croce 75",
+    "sourceUrls": [
+      "https://www.immobiliare.it/annunci/120761098/"
+    ],
+    "modelStatus": "in_review"
+  },
+  {
+    "id": "via-marco-valerio-marziale-15-2",
+    "title": "Villetta in Via Marco Valerio Marziale 15/2",
+    "sourceUrls": [
+      "https://www.immobiliare.it/annunci/129341838/"
+    ],
+    "modelStatus": "awaiting_plans"
+  },
+  {
+    "id": "santa-croce-745",
+    "title": "Villa unifamiliare a Santa Croce 745",
+    "sourceUrls": [
+      "https://www.immobiliare.it/annunci/132168486/"
+    ],
+    "modelStatus": "in_review"
+  },
+  {
+    "id": "via-edgardo-morpurgo-1",
+    "title": "Villa nuova in Via Edgardo Morpurgo 1",
+    "sourceUrls": [
+      "https://www.casa.it/immobili/55024852/"
+    ],
+    "modelStatus": "in_review"
+  },
+  {
+    "id": "via-dei-mulini-44",
+    "title": "Villa indipendente in Via dei Mulini 44",
+    "sourceUrls": [
+      "https://www.tirabora.it/i/2070/privacy.php"
+    ],
+    "modelStatus": "in_review"
+  },
+  {
+    "id": "via-del-panorama-4",
+    "title": "Villa storica in Via del Panorama 4",
+    "sourceUrls": [
+      "https://triestevillas.com/annuncio/villa-storica-del-1789-con-vista-mare-e-giardino-0171",
+      "https://www.casa.it/immobili/55116867/"
+    ],
+    "modelStatus": "in_review"
+  },
+  {
+    "id": "villa-opicina-1904",
+    "title": "Casa con grande terreno a Villa Opicina 1904",
+    "sourceUrls": [
+      "https://www.immobiliare.it/annunci/120670404/"
+    ],
+    "modelStatus": "in_review"
+  },
+  {
+    "id": "via-san-pasquale-76",
+    "title": "Casa singola in Via San Pasquale 76",
+    "sourceUrls": [
+      "https://www.immobiliare.it/annunci/130141114/"
+    ],
+    "modelStatus": "in_review"
+  },
+  {
+    "id": "opicina-centro-225",
+    "title": "Casa unifamiliare nel centro storico di Opicina",
+    "sourceUrls": [
+      "https://www.immobiliare.it/annunci/127861804/"
+    ],
+    "modelStatus": "in_review"
+  },
+  {
+    "id": "vanisella-1-a",
+    "title": "Villa unifamiliare in Località Vanisella 1/A",
+    "sourceUrls": [
+      "https://triestevillas.com/annuncio/villa-unifamiliare-localita-vanisella-1-a-centro-muggia-0177",
+      "https://www.idealista.it/immobile/37183186/",
+      "https://www.casa.it/immobili/55004534/"
+    ],
+    "modelStatus": "in_review"
+  }
+]
