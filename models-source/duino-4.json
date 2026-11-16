@@ -1,0 +1,509 @@
+{
+  "id": "duino-4",
+  "title": "Duino 4 \u00b7 Villa con giardino",
+  "creationStarted": "2026-11-09T22:29:52.371402+01:00",
+  "coverage": "exterior_only",
+  "unrenderedVolumes": [
+    "Interni del piano terra e del primo piano: planimetrie non recuperate dalla copia esatta accessibile.",
+    "Seminterrato con taverna e servizio: geometria e accesso non leggibili nelle fotografie.",
+    "Facciate posteriori e giardino oltre il contesto prossimo: parti non documentate omesse nei dettagli."
+  ],
+  "geometrySource": "photograph-inferred-exterior",
+  "sourcePlans": [],
+  "sources": [
+    {
+      "url": "https://immobiliareart.it/property/villa-singola-con-giardino-e-vista-aperta/",
+      "type": "exact_agency_listing",
+      "file": "acquisition.json"
+    }
+  ],
+  "levels": [
+    {
+      "id": "shell-0",
+      "label": "Involucro esterno",
+      "outline": [
+        [
+          0,
+          0
+        ],
+        [
+          6.9,
+          0
+        ],
+        [
+          6.9,
+          9.5
+        ],
+        [
+          0,
+          9.5
+        ]
+      ],
+      "y": 0.0,
+      "height": 2.75,
+      "walls": [
+        {
+          "a": [
+            0,
+            0
+          ],
+          "b": [
+            6.9,
+            0
+          ],
+          "thickness": 0.22,
+          "openings": [],
+          "color": "#bdb7a8"
+        },
+        {
+          "a": [
+            6.9,
+            0
+          ],
+          "b": [
+            6.9,
+            9.5
+          ],
+          "thickness": 0.22,
+          "openings": []
+        },
+        {
+          "a": [
+            6.9,
+            9.5
+          ],
+          "b": [
+            0,
+            9.5
+          ],
+          "thickness": 0.22,
+          "openings": []
+        },
+        {
+          "a": [
+            0,
+            9.5
+          ],
+          "b": [
+            0,
+            0
+          ],
+          "thickness": 0.22,
+          "openings": [
+            {
+              "start": 2.1,
+              "end": 3.3,
+              "sill": 0,
+              "height": 2.25,
+              "kind": "window"
+            }
+          ]
+        }
+      ],
+      "furniture": []
+    },
+    {
+      "id": "shell-1",
+      "label": "Involucro esterno",
+      "outline": [
+        [
+          0,
+          0
+        ],
+        [
+          6.9,
+          0
+        ],
+        [
+          6.9,
+          9.5
+        ],
+        [
+          0,
+          9.5
+        ]
+      ],
+      "y": 2.92,
+      "height": 2.75,
+      "walls": [
+        {
+          "a": [
+            0,
+            0
+          ],
+          "b": [
+            6.9,
+            0
+          ],
+          "thickness": 0.22,
+          "openings": [
+            {
+              "start": 2.65,
+              "end": 3.9,
+              "sill": 1.0,
+              "height": 1.35,
+              "kind": "window"
+            }
+          ],
+          "color": "#bdb7a8"
+        },
+        {
+          "a": [
+            6.9,
+            0
+          ],
+          "b": [
+            6.9,
+            9.5
+          ],
+          "thickness": 0.22,
+          "openings": []
+        },
+        {
+          "a": [
+            6.9,
+            9.5
+          ],
+          "b": [
+            0,
+            9.5
+          ],
+          "thickness": 0.22,
+          "openings": []
+        },
+        {
+          "a": [
+            0,
+            9.5
+          ],
+          "b": [
+            0,
+            0
+          ],
+          "thickness": 0.22,
+          "openings": [
+            {
+              "start": 2.1,
+              "end": 3.3,
+              "sill": 1.0,
+              "height": 1.3,
+              "kind": "window"
+            },
+            {
+              "start": 5.9,
+              "end": 7.1,
+              "sill": 1.0,
+              "height": 1.3,
+              "kind": "window"
+            }
+          ]
+        }
+      ],
+      "furniture": []
+    }
+  ],
+  "exteriors": [
+    {
+      "points": [
+        [
+          -4,
+          -3
+        ],
+        [
+          11,
+          -3
+        ],
+        [
+          11,
+          13
+        ],
+        [
+          -4,
+          13
+        ]
+      ],
+      "y": -0.2,
+      "thickness": 0.12,
+      "color": "#7b8961"
+    },
+    {
+      "points": [
+        [
+          -3,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          10
+        ],
+        [
+          -3,
+          10
+        ]
+      ],
+      "y": -0.01,
+      "thickness": 0.12,
+      "color": "#a6a092"
+    },
+    {
+      "kind": "box",
+      "center": [
+        2.25,
+        4.57,
+        -0.15
+      ],
+      "size": [
+        0.55,
+        1.45,
+        0.1
+      ],
+      "color": "#324b40"
+    },
+    {
+      "kind": "box",
+      "center": [
+        4.3,
+        4.57,
+        -0.15
+      ],
+      "size": [
+        0.55,
+        1.45,
+        0.1
+      ],
+      "color": "#324b40"
+    },
+    {
+      "kind": "box",
+      "center": [
+        -0.15,
+        4.57,
+        7.4
+      ],
+      "size": [
+        0.1,
+        1.4,
+        0.48
+      ],
+      "color": "#324b40"
+    },
+    {
+      "kind": "box",
+      "center": [
+        -0.15,
+        4.57,
+        6.2
+      ],
+      "size": [
+        0.1,
+        1.4,
+        0.48
+      ],
+      "color": "#324b40"
+    },
+    {
+      "kind": "box",
+      "center": [
+        -0.15,
+        4.57,
+        3.5999999999999996
+      ],
+      "size": [
+        0.1,
+        1.4,
+        0.48
+      ],
+      "color": "#324b40"
+    },
+    {
+      "kind": "box",
+      "center": [
+        -0.15,
+        4.57,
+        2.4000000000000004
+      ],
+      "size": [
+        0.1,
+        1.4,
+        0.48
+      ],
+      "color": "#324b40"
+    },
+    {
+      "kind": "box",
+      "center": [
+        0,
+        2.83,
+        -0.13
+      ],
+      "size": [
+        0.1,
+        5.65,
+        0.1
+      ],
+      "color": "#4f5350"
+    },
+    {
+      "kind": "box",
+      "center": [
+        6.9,
+        2.83,
+        -0.13
+      ],
+      "size": [
+        0.1,
+        5.65,
+        0.1
+      ],
+      "color": "#4f5350"
+    }
+  ],
+  "roofs": [
+    {
+      "vertices": [
+        [
+          -0.45,
+          5.78,
+          -0.55
+        ],
+        [
+          3.45,
+          7.05,
+          -0.55
+        ],
+        [
+          3.45,
+          7.05,
+          10.05
+        ],
+        [
+          -0.45,
+          5.78,
+          10.05
+        ]
+      ],
+      "indices": [
+        0,
+        1,
+        2,
+        0,
+        2,
+        3
+      ],
+      "color": "#525250"
+    },
+    {
+      "vertices": [
+        [
+          3.45,
+          7.05,
+          -0.55
+        ],
+        [
+          7.3500000000000005,
+          5.78,
+          -0.55
+        ],
+        [
+          7.3500000000000005,
+          5.78,
+          10.05
+        ],
+        [
+          3.45,
+          7.05,
+          10.05
+        ]
+      ],
+      "indices": [
+        0,
+        1,
+        2,
+        0,
+        2,
+        3
+      ],
+      "color": "#525250"
+    },
+    {
+      "vertices": [
+        [
+          0,
+          5.67,
+          0
+        ],
+        [
+          3.45,
+          6.95,
+          0
+        ],
+        [
+          6.9,
+          5.67,
+          0
+        ]
+      ],
+      "indices": [
+        0,
+        1,
+        2
+      ],
+      "color": "#bdb7a8"
+    },
+    {
+      "vertices": [
+        [
+          0,
+          5.67,
+          9.5
+        ],
+        [
+          3.45,
+          6.95,
+          9.5
+        ],
+        [
+          6.9,
+          5.67,
+          9.5
+        ]
+      ],
+      "indices": [
+        0,
+        1,
+        2
+      ],
+      "color": "#dcdcd2"
+    }
+  ],
+  "colors": {
+    "walls": "#dcdcd2",
+    "frames": "#394f42"
+  },
+  "estimates": [
+    "Dimensioni esterne e profondit\u00e0 dedotte dalle due facciate della fotografia 0, non dal valore commerciale; scala assoluta stimata uniforme.",
+    "Facciata principale con pietra chiara e imposte verdi, lato intonacato e tetto a due falde osservati.",
+    "Aperture inferiori occluse dalla vegetazione e facciate posteriori non inventate."
+  ],
+  "photoEvidence": [
+    "asset-00.jpg",
+    "asset-01.jpg",
+    "asset-02.jpg",
+    "asset-03.jpg",
+    "asset-04.jpg"
+  ],
+  "cameraX": -0.66,
+  "cameraZ": -0.83,
+  "cameraY": 0.55,
+  "creationFinished": "2026-11-09T22:39:18.788972+01:00",
+  "rendering": {
+    "textured": true,
+    "exposure": 1.02,
+    "hemisphereIntensity": 1.65,
+    "sunIntensity": 2.65
+  }
+}

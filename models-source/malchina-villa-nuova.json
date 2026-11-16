@@ -1,0 +1,1291 @@
+{
+  "id": "malchina-villa-nuova",
+  "title": "Malchina \u00b7 Villa nuova MALCHINA01",
+  "creationStarted": "2026-11-09T22:29:52.355709+01:00",
+  "coverage": "exterior_only",
+  "unrenderedVolumes": [
+    "Tutti gli interni del piano terra: nessuna planimetria acquisita.",
+    "Tutti gli interni del primo piano e collegamento scala: nessuna planimetria acquisita."
+  ],
+  "geometrySource": "photograph-inferred-exterior",
+  "sources": [
+    {
+      "url": "https://www.propertyre.it/annuncio/2591854/Vendita-villa-malchina-duino-aurisina-trieste-2591854.html",
+      "type": "exact_agency_listing",
+      "file": "acquisition.json"
+    }
+  ],
+  "sourcePlans": [],
+  "levels": [
+    {
+      "id": "shell-0",
+      "label": "Involucro esterno",
+      "outline": [
+        [
+          0,
+          0
+        ],
+        [
+          7.6,
+          0
+        ],
+        [
+          7.6,
+          10.1
+        ],
+        [
+          0,
+          10.1
+        ]
+      ],
+      "y": 0.0,
+      "height": 2.85,
+      "walls": [
+        {
+          "a": [
+            0,
+            0
+          ],
+          "b": [
+            7.6,
+            0
+          ],
+          "thickness": 0.22,
+          "openings": [
+            {
+              "start": 1.2,
+              "end": 3.25,
+              "sill": 0,
+              "height": 2.25,
+              "kind": "window"
+            },
+            {
+              "start": 4.8,
+              "end": 5.75,
+              "sill": 0,
+              "height": 2.25,
+              "kind": "window"
+            }
+          ]
+        },
+        {
+          "a": [
+            7.6,
+            0
+          ],
+          "b": [
+            7.6,
+            10.1
+          ],
+          "thickness": 0.22,
+          "openings": [
+            {
+              "start": 2.1,
+              "end": 2.8,
+              "sill": 0.9,
+              "height": 1.5,
+              "kind": "window"
+            },
+            {
+              "start": 5.0,
+              "end": 5.7,
+              "sill": 0.9,
+              "height": 1.5,
+              "kind": "window"
+            }
+          ]
+        },
+        {
+          "a": [
+            7.6,
+            10.1
+          ],
+          "b": [
+            0,
+            10.1
+          ],
+          "thickness": 0.22,
+          "openings": [
+            {
+              "start": 3.5,
+              "end": 4.2,
+              "sill": 0.85,
+              "height": 1.65,
+              "kind": "window"
+            }
+          ]
+        },
+        {
+          "a": [
+            0,
+            10.1
+          ],
+          "b": [
+            0,
+            0
+          ],
+          "thickness": 0.22,
+          "openings": [
+            {
+              "start": 1.5,
+              "end": 2.5,
+              "sill": 0,
+              "height": 2.25,
+              "kind": "window"
+            }
+          ]
+        }
+      ],
+      "furniture": [],
+      "components": []
+    },
+    {
+      "id": "shell-1",
+      "label": "Involucro esterno",
+      "outline": [
+        [
+          0,
+          0
+        ],
+        [
+          7.6,
+          0
+        ],
+        [
+          7.6,
+          10.1
+        ],
+        [
+          0,
+          10.1
+        ]
+      ],
+      "y": 3.02,
+      "height": 2.85,
+      "walls": [
+        {
+          "a": [
+            0,
+            0
+          ],
+          "b": [
+            7.6,
+            0
+          ],
+          "thickness": 0.22,
+          "openings": [
+            {
+              "start": 1.35,
+              "end": 3.0,
+              "sill": 0,
+              "height": 2.25,
+              "kind": "window"
+            },
+            {
+              "start": 5.2,
+              "end": 6.15,
+              "sill": 0,
+              "height": 2.25,
+              "kind": "window"
+            }
+          ]
+        },
+        {
+          "a": [
+            7.6,
+            0
+          ],
+          "b": [
+            7.6,
+            10.1
+          ],
+          "thickness": 0.22,
+          "openings": [
+            {
+              "start": 2.0,
+              "end": 2.8,
+              "sill": 0.9,
+              "height": 1.35,
+              "kind": "window"
+            },
+            {
+              "start": 5.0,
+              "end": 5.9,
+              "sill": 0.9,
+              "height": 1.35,
+              "kind": "window"
+            },
+            {
+              "start": 8.0,
+              "end": 8.8,
+              "sill": 0.9,
+              "height": 1.35,
+              "kind": "window"
+            }
+          ]
+        },
+        {
+          "a": [
+            7.6,
+            10.1
+          ],
+          "b": [
+            0,
+            10.1
+          ],
+          "thickness": 0.22,
+          "openings": [
+            {
+              "start": 3.6,
+              "end": 4.2,
+              "sill": 0.9,
+              "height": 1.35,
+              "kind": "window"
+            }
+          ]
+        },
+        {
+          "a": [
+            0,
+            10.1
+          ],
+          "b": [
+            0,
+            0
+          ],
+          "thickness": 0.22,
+          "openings": [
+            {
+              "start": 2.0,
+              "end": 2.7,
+              "sill": 0.9,
+              "height": 1.35,
+              "kind": "window"
+            }
+          ]
+        }
+      ],
+      "furniture": [],
+      "components": []
+    }
+  ],
+  "exteriors": [
+    {
+      "points": [
+        [
+          -3,
+          -3
+        ],
+        [
+          11,
+          -3
+        ],
+        [
+          11,
+          13
+        ],
+        [
+          -3,
+          13
+        ]
+      ],
+      "y": -0.23,
+      "thickness": 0.12,
+      "color": "#a9a28c"
+    },
+    {
+      "points": [
+        [
+          0,
+          -1.75
+        ],
+        [
+          7.6,
+          -1.75
+        ],
+        [
+          7.6,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "y": 3.02,
+      "thickness": 0.12,
+      "color": "#9f7c51"
+    },
+    {
+      "kind": "box",
+      "center": [
+        0.0,
+        3.54,
+        -1.7
+      ],
+      "size": [
+        0.025,
+        0.95,
+        0.025
+      ],
+      "color": "#393c3b"
+    },
+    {
+      "kind": "box",
+      "center": [
+        0.34,
+        3.54,
+        -1.7
+      ],
+      "size": [
+        0.025,
+        0.95,
+        0.025
+      ],
+      "color": "#393c3b"
+    },
+    {
+      "kind": "box",
+      "center": [
+        0.68,
+        3.54,
+        -1.7
+      ],
+      "size": [
+        0.025,
+        0.95,
+        0.025
+      ],
+      "color": "#393c3b"
+    },
+    {
+      "kind": "box",
+      "center": [
+        1.02,
+        3.54,
+        -1.7
+      ],
+      "size": [
+        0.025,
+        0.95,
+        0.025
+      ],
+      "color": "#393c3b"
+    },
+    {
+      "kind": "box",
+      "center": [
+        1.36,
+        3.54,
+        -1.7
+      ],
+      "size": [
+        0.025,
+        0.95,
+        0.025
+      ],
+      "color": "#393c3b"
+    },
+    {
+      "kind": "box",
+      "center": [
+        1.7000000000000002,
+        3.54,
+        -1.7
+      ],
+      "size": [
+        0.025,
+        0.95,
+        0.025
+      ],
+      "color": "#393c3b"
+    },
+    {
+      "kind": "box",
+      "center": [
+        2.04,
+        3.54,
+        -1.7
+      ],
+      "size": [
+        0.025,
+        0.95,
+        0.025
+      ],
+      "color": "#393c3b"
+    },
+    {
+      "kind": "box",
+      "center": [
+        2.3800000000000003,
+        3.54,
+        -1.7
+      ],
+      "size": [
+        0.025,
+        0.95,
+        0.025
+      ],
+      "color": "#393c3b"
+    },
+    {
+      "kind": "box",
+      "center": [
+        2.72,
+        3.54,
+        -1.7
+      ],
+      "size": [
+        0.025,
+        0.95,
+        0.025
+      ],
+      "color": "#393c3b"
+    },
+    {
+      "kind": "box",
+      "center": [
+        3.06,
+        3.54,
+        -1.7
+      ],
+      "size": [
+        0.025,
+        0.95,
+        0.025
+      ],
+      "color": "#393c3b"
+    },
+    {
+      "kind": "box",
+      "center": [
+        3.4000000000000004,
+        3.54,
+        -1.7
+      ],
+      "size": [
+        0.025,
+        0.95,
+        0.025
+      ],
+      "color": "#393c3b"
+    },
+    {
+      "kind": "box",
+      "center": [
+        3.74,
+        3.54,
+        -1.7
+      ],
+      "size": [
+        0.025,
+        0.95,
+        0.025
+      ],
+      "color": "#393c3b"
+    },
+    {
+      "kind": "box",
+      "center": [
+        4.08,
+        3.54,
+        -1.7
+      ],
+      "size": [
+        0.025,
+        0.95,
+        0.025
+      ],
+      "color": "#393c3b"
+    },
+    {
+      "kind": "box",
+      "center": [
+        4.42,
+        3.54,
+        -1.7
+      ],
+      "size": [
+        0.025,
+        0.95,
+        0.025
+      ],
+      "color": "#393c3b"
+    },
+    {
+      "kind": "box",
+      "center": [
+        4.760000000000001,
+        3.54,
+        -1.7
+      ],
+      "size": [
+        0.025,
+        0.95,
+        0.025
+      ],
+      "color": "#393c3b"
+    },
+    {
+      "kind": "box",
+      "center": [
+        5.1000000000000005,
+        3.54,
+        -1.7
+      ],
+      "size": [
+        0.025,
+        0.95,
+        0.025
+      ],
+      "color": "#393c3b"
+    },
+    {
+      "kind": "box",
+      "center": [
+        5.44,
+        3.54,
+        -1.7
+      ],
+      "size": [
+        0.025,
+        0.95,
+        0.025
+      ],
+      "color": "#393c3b"
+    },
+    {
+      "kind": "box",
+      "center": [
+        5.78,
+        3.54,
+        -1.7
+      ],
+      "size": [
+        0.025,
+        0.95,
+        0.025
+      ],
+      "color": "#393c3b"
+    },
+    {
+      "kind": "box",
+      "center": [
+        6.12,
+        3.54,
+        -1.7
+      ],
+      "size": [
+        0.025,
+        0.95,
+        0.025
+      ],
+      "color": "#393c3b"
+    },
+    {
+      "kind": "box",
+      "center": [
+        6.460000000000001,
+        3.54,
+        -1.7
+      ],
+      "size": [
+        0.025,
+        0.95,
+        0.025
+      ],
+      "color": "#393c3b"
+    },
+    {
+      "kind": "box",
+      "center": [
+        6.800000000000001,
+        3.54,
+        -1.7
+      ],
+      "size": [
+        0.025,
+        0.95,
+        0.025
+      ],
+      "color": "#393c3b"
+    },
+    {
+      "kind": "box",
+      "center": [
+        7.140000000000001,
+        3.54,
+        -1.7
+      ],
+      "size": [
+        0.025,
+        0.95,
+        0.025
+      ],
+      "color": "#393c3b"
+    },
+    {
+      "kind": "box",
+      "center": [
+        7.48,
+        3.54,
+        -1.7
+      ],
+      "size": [
+        0.025,
+        0.95,
+        0.025
+      ],
+      "color": "#393c3b"
+    },
+    {
+      "kind": "box",
+      "center": [
+        3.8,
+        3.08,
+        -1.7
+      ],
+      "size": [
+        7.6,
+        0.04,
+        0.04
+      ],
+      "color": "#393c3b"
+    },
+    {
+      "kind": "box",
+      "center": [
+        3.8,
+        4.04,
+        -1.7
+      ],
+      "size": [
+        7.6,
+        0.04,
+        0.04
+      ],
+      "color": "#393c3b"
+    },
+    {
+      "kind": "box",
+      "center": [
+        0,
+        3.54,
+        -1.65
+      ],
+      "size": [
+        0.025,
+        0.95,
+        0.025
+      ],
+      "color": "#393c3b"
+    },
+    {
+      "kind": "box",
+      "center": [
+        0,
+        3.54,
+        -1.3
+      ],
+      "size": [
+        0.025,
+        0.95,
+        0.025
+      ],
+      "color": "#393c3b"
+    },
+    {
+      "kind": "box",
+      "center": [
+        0,
+        3.54,
+        -0.95
+      ],
+      "size": [
+        0.025,
+        0.95,
+        0.025
+      ],
+      "color": "#393c3b"
+    },
+    {
+      "kind": "box",
+      "center": [
+        0,
+        3.54,
+        -0.6
+      ],
+      "size": [
+        0.025,
+        0.95,
+        0.025
+      ],
+      "color": "#393c3b"
+    },
+    {
+      "kind": "box",
+      "center": [
+        0,
+        3.54,
+        -0.25
+      ],
+      "size": [
+        0.025,
+        0.95,
+        0.025
+      ],
+      "color": "#393c3b"
+    },
+    {
+      "kind": "box",
+      "center": [
+        0,
+        4.04,
+        -0.85
+      ],
+      "size": [
+        0.04,
+        0.04,
+        1.75
+      ],
+      "color": "#393c3b"
+    },
+    {
+      "kind": "box",
+      "center": [
+        7.6,
+        3.54,
+        -1.65
+      ],
+      "size": [
+        0.025,
+        0.95,
+        0.025
+      ],
+      "color": "#393c3b"
+    },
+    {
+      "kind": "box",
+      "center": [
+        7.6,
+        3.54,
+        -1.3
+      ],
+      "size": [
+        0.025,
+        0.95,
+        0.025
+      ],
+      "color": "#393c3b"
+    },
+    {
+      "kind": "box",
+      "center": [
+        7.6,
+        3.54,
+        -0.95
+      ],
+      "size": [
+        0.025,
+        0.95,
+        0.025
+      ],
+      "color": "#393c3b"
+    },
+    {
+      "kind": "box",
+      "center": [
+        7.6,
+        3.54,
+        -0.6
+      ],
+      "size": [
+        0.025,
+        0.95,
+        0.025
+      ],
+      "color": "#393c3b"
+    },
+    {
+      "kind": "box",
+      "center": [
+        7.6,
+        3.54,
+        -0.25
+      ],
+      "size": [
+        0.025,
+        0.95,
+        0.025
+      ],
+      "color": "#393c3b"
+    },
+    {
+      "kind": "box",
+      "center": [
+        7.6,
+        4.04,
+        -0.85
+      ],
+      "size": [
+        0.04,
+        0.04,
+        1.75
+      ],
+      "color": "#393c3b"
+    },
+    {
+      "kind": "box",
+      "center": [
+        0.0,
+        2.89,
+        -0.85
+      ],
+      "size": [
+        0.11,
+        0.22,
+        1.8
+      ],
+      "color": "#b99b6f"
+    },
+    {
+      "kind": "box",
+      "center": [
+        0.65,
+        2.89,
+        -0.85
+      ],
+      "size": [
+        0.11,
+        0.22,
+        1.8
+      ],
+      "color": "#b99b6f"
+    },
+    {
+      "kind": "box",
+      "center": [
+        1.3,
+        2.89,
+        -0.85
+      ],
+      "size": [
+        0.11,
+        0.22,
+        1.8
+      ],
+      "color": "#b99b6f"
+    },
+    {
+      "kind": "box",
+      "center": [
+        1.9500000000000002,
+        2.89,
+        -0.85
+      ],
+      "size": [
+        0.11,
+        0.22,
+        1.8
+      ],
+      "color": "#b99b6f"
+    },
+    {
+      "kind": "box",
+      "center": [
+        2.6,
+        2.89,
+        -0.85
+      ],
+      "size": [
+        0.11,
+        0.22,
+        1.8
+      ],
+      "color": "#b99b6f"
+    },
+    {
+      "kind": "box",
+      "center": [
+        3.25,
+        2.89,
+        -0.85
+      ],
+      "size": [
+        0.11,
+        0.22,
+        1.8
+      ],
+      "color": "#b99b6f"
+    },
+    {
+      "kind": "box",
+      "center": [
+        3.9000000000000004,
+        2.89,
+        -0.85
+      ],
+      "size": [
+        0.11,
+        0.22,
+        1.8
+      ],
+      "color": "#b99b6f"
+    },
+    {
+      "kind": "box",
+      "center": [
+        4.55,
+        2.89,
+        -0.85
+      ],
+      "size": [
+        0.11,
+        0.22,
+        1.8
+      ],
+      "color": "#b99b6f"
+    },
+    {
+      "kind": "box",
+      "center": [
+        5.2,
+        2.89,
+        -0.85
+      ],
+      "size": [
+        0.11,
+        0.22,
+        1.8
+      ],
+      "color": "#b99b6f"
+    },
+    {
+      "kind": "box",
+      "center": [
+        5.8500000000000005,
+        2.89,
+        -0.85
+      ],
+      "size": [
+        0.11,
+        0.22,
+        1.8
+      ],
+      "color": "#b99b6f"
+    },
+    {
+      "kind": "box",
+      "center": [
+        6.5,
+        2.89,
+        -0.85
+      ],
+      "size": [
+        0.11,
+        0.22,
+        1.8
+      ],
+      "color": "#b99b6f"
+    },
+    {
+      "kind": "box",
+      "center": [
+        7.15,
+        2.89,
+        -0.85
+      ],
+      "size": [
+        0.11,
+        0.22,
+        1.8
+      ],
+      "color": "#b99b6f"
+    },
+    {
+      "points": [
+        [
+          -2.5,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          4.4
+        ],
+        [
+          -2.5,
+          4.4
+        ]
+      ],
+      "y": 0.01,
+      "thickness": 0.12,
+      "color": "#b4b0a2"
+    },
+    {
+      "kind": "box",
+      "center": [
+        -2.35,
+        1.34,
+        0.1
+      ],
+      "size": [
+        0.23,
+        2.68,
+        0.23
+      ],
+      "color": "#d0d7d1"
+    },
+    {
+      "kind": "box",
+      "center": [
+        -2.35,
+        1.34,
+        4.3
+      ],
+      "size": [
+        0.23,
+        2.68,
+        0.23
+      ],
+      "color": "#d0d7d1"
+    },
+    {
+      "kind": "box",
+      "center": [
+        3.8,
+        7.24,
+        6.8
+      ],
+      "size": [
+        0.28,
+        0.7,
+        0.28
+      ],
+      "color": "#d4d1c4"
+    },
+    {
+      "kind": "box",
+      "center": [
+        3.8,
+        7.63,
+        6.8
+      ],
+      "size": [
+        0.45,
+        0.08,
+        0.45
+      ],
+      "color": "#d2c9b6"
+    },
+    {
+      "kind": "box",
+      "center": [
+        3.8,
+        7.24,
+        8.1
+      ],
+      "size": [
+        0.28,
+        0.7,
+        0.28
+      ],
+      "color": "#d4d1c4"
+    },
+    {
+      "kind": "box",
+      "center": [
+        3.8,
+        7.63,
+        8.1
+      ],
+      "size": [
+        0.45,
+        0.08,
+        0.45
+      ],
+      "color": "#d2c9b6"
+    }
+  ],
+  "roofs": [
+    {
+      "vertices": [
+        [
+          -0.5,
+          5.95,
+          -0.55
+        ],
+        [
+          3.8,
+          7.05,
+          -0.55
+        ],
+        [
+          3.8,
+          7.05,
+          10.65
+        ],
+        [
+          -0.5,
+          5.95,
+          10.65
+        ]
+      ],
+      "indices": [
+        0,
+        1,
+        2,
+        0,
+        2,
+        3
+      ],
+      "color": "#554d44"
+    },
+    {
+      "vertices": [
+        [
+          3.8,
+          7.05,
+          -0.55
+        ],
+        [
+          8.1,
+          5.95,
+          -0.55
+        ],
+        [
+          8.1,
+          5.95,
+          10.65
+        ],
+        [
+          3.8,
+          7.05,
+          10.65
+        ]
+      ],
+      "indices": [
+        0,
+        1,
+        2,
+        0,
+        2,
+        3
+      ],
+      "color": "#554d44"
+    },
+    {
+      "vertices": [
+        [
+          0,
+          5.87,
+          0
+        ],
+        [
+          3.8,
+          6.9,
+          0
+        ],
+        [
+          7.6,
+          5.87,
+          0
+        ]
+      ],
+      "indices": [
+        0,
+        1,
+        2
+      ],
+      "color": "#d0d7d1"
+    },
+    {
+      "vertices": [
+        [
+          0,
+          5.87,
+          10.1
+        ],
+        [
+          3.8,
+          6.9,
+          10.1
+        ],
+        [
+          7.6,
+          5.87,
+          10.1
+        ]
+      ],
+      "indices": [
+        0,
+        1,
+        2
+      ],
+      "color": "#d0d7d1"
+    },
+    {
+      "vertices": [
+        [
+          -2.7,
+          2.8,
+          -0.2
+        ],
+        [
+          0.1,
+          3.1,
+          -0.2
+        ],
+        [
+          0.1,
+          3.1,
+          4.6
+        ],
+        [
+          -2.7,
+          2.8,
+          4.6
+        ]
+      ],
+      "indices": [
+        0,
+        1,
+        2,
+        0,
+        2,
+        3
+      ],
+      "color": "#665e51"
+    }
+  ],
+  "colors": {
+    "walls": "#d0d7d1",
+    "frames": "#786555"
+  },
+  "estimates": [
+    "Sagoma esterna, altezze e dimensioni assolute dedotte da fotografie esatte e moduli dei serramenti, scala uniforme stimata.",
+    "Stato di costruzione fotografato: terreno grezzo, balcone e portico presenti; nessuna sistemazione futura aggiunta.",
+    "Finiture di progetto e distribuzione descritta non sono presentate come stato attuale."
+  ],
+  "photoEvidence": [
+    "asset-00.jpg",
+    "asset-04.jpg",
+    "asset-06.jpg",
+    "asset-08.jpg",
+    "asset-12.jpg",
+    "asset-15.jpg"
+  ],
+  "cameraX": 0.66,
+  "cameraZ": -0.83,
+  "cameraY": 0.55,
+  "creationFinished": "2026-11-09T22:40:58.322248+01:00",
+  "rendering": {
+    "textured": true,
+    "exposure": 1.02,
+    "hemisphereIntensity": 1.65,
+    "sunIntensity": 2.65
+  }
+}

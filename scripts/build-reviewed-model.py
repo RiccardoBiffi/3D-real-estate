@@ -18,7 +18,10 @@ def build(source, output, reference):
     runtime=runtime.replace(marker,'var di=Ce.views||[{label:"Esterno",level:null},...Ce.levels.map((l,i)=>({label:l.label,level:i})).reverse()];')
     marker='ge.update()}function lc()'
     if runtime.count(marker)!=1:raise ValueError('Unexpected camera initializer')
-    runtime=runtime.replace(marker,'ge.update();if(di[Ln].camera){let v=di[Ln].camera;ge.target.fromArray(v.target||ge.target.toArray());ke.position.copy(ge.target).add(new P(Math.sin(v.yaw)*Math.cos(v.pitch)*v.distance,Math.sin(v.pitch)*v.distance,Math.cos(v.yaw)*Math.cos(v.pitch)*v.distance));ge.update();}}function lc()')
+    runtime=runtime.replace(marker,'ge.update();if(di[Ln].camera){let v={...di[Ln].camera,distance:di[Ln].camera.distance*Math.max(1,1/ke.aspect)};ge.target.fromArray(v.target||ge.target.toArray());ke.position.copy(ge.target).add(new P(Math.sin(v.yaw)*Math.cos(v.pitch)*v.distance,Math.sin(v.pitch)*v.distance,Math.cos(v.yaw)*Math.cos(v.pitch)*v.distance));ge.update();}}function lc()')
+    framing='Math.max(1,(Ln===1?.98:.72)/ke.aspect)'
+    if runtime.count(framing)!=1:raise ValueError('Unexpected reference floor framing')
+    runtime=runtime.replace(framing,'Math.max(1,1.10/ke.aspect)')
     if 'Gianelli' in runtime:raise ValueError('Property identifier leaked into generic renderer')
     lm=re.search(r'(<!-- Three.js license:[\s\S]*?-->)',old)
     license_text=lm.group(1) if lm else '<!-- Three.js MIT; copyright Three.js authors. License retained in renderer bundle. -->'

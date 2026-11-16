@@ -1,0 +1,929 @@
+{
+  "id": "via-degli-alpini-opicina",
+  "title": "Via degli Alpini - fronte e accesso documentati",
+  "creationStarted": "2026-11-09T22:15:46.336582+01:00",
+  "coverage": "exterior_only",
+  "unrenderedVolumes": [
+    "Interni, retro dell’edificio e copertura non leggibile dalle fotografie.",
+    "Mansarda e altri volumi oltre il fronte fotografato.",
+    "Confini e superficie del giardino; edifici accostati o vicini."
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "type": "photo",
+      "url": "https://www.sellingtrieste.com/wp-content/uploads/2022/05/WhatsApp-Image-2022-05-23-at-09.29.56-1.jpeg",
+      "pageUrl": "https://www.sellingtrieste.com/immobili/villa-via-degli-alpini-opicina/",
+      "sha256": "821f6064b99f8cec1290a8f7c3048e46c9b67d29f356968f3c2297cb544e402e",
+      "actuallyInspected": true,
+      "inspectedAt": "2026-11-09T22:53:13.849133+01:00"
+    },
+    {
+      "id": "S2",
+      "type": "photo",
+      "url": "https://www.sellingtrieste.com/wp-content/uploads/2022/05/WhatsApp-Image-2022-05-23-at-09.29.56-2.jpeg",
+      "pageUrl": "https://www.sellingtrieste.com/immobili/villa-via-degli-alpini-opicina/",
+      "sha256": "a4ec89bc13822941b2697ecfb1116e42ecac243c3b9e0dba3131bf7608555276",
+      "actuallyInspected": true,
+      "inspectedAt": "2026-11-09T22:53:13.849133+01:00"
+    }
+  ],
+  "geometrySource": "manual-observed-facade-and-roof-proportions",
+  "limitations": [
+    "Ricostruzione dei soli esterni visibili nelle fonti dell’esatto annuncio. Non contiene piante o interni inventati.",
+    "Dimensioni, profondità e altezze non quotate sono stimate dalle proporzioni fotografiche; il modello non è metrico.",
+    "Le superfici di contesto non identificano confini, accessi legali o pertinenze di proprietà.",
+    "La pagina di origine presenta anche un’immagine con la scritta VENDUTO: la ricostruzione non certifica la disponibilità commerciale.",
+    "Modello intenzionalmente aperto sul retro, limitato al fronte a due livelli e al portico. Profondità del corpo visibile stimata.",
+    "Le porzioni aperte e non dettagliate corrispondono a facciate non documentate: non rappresentano aperture reali o locali interni.",
+    "Corretto orientamento del fronte dall’ingresso: loggia a sinistra, finestra a destra e pedonale a destra del carrabile. Trasformazione coerente di tutta la geometria, senza cambiare la camera.",
+    "Copertura a capanna del cancelletto pedonale riconoscibile nelle due fotografie, resa schematicamente senza ricostruire l’intero tetto dell’edificio."
+  ],
+  "levels": [
+    {
+      "label": "Portico e accesso",
+      "y": 0,
+      "height": 2.65,
+      "outline": [
+        [
+          9.2,
+          0
+        ],
+        [
+          0.0,
+          0
+        ],
+        [
+          0.0,
+          4.3
+        ],
+        [
+          9.2,
+          4.3
+        ]
+      ],
+      "walls": [
+        {
+          "a": [
+            9.2,
+            0
+          ],
+          "b": [
+            0.0,
+            0
+          ],
+          "thickness": 0.18,
+          "openings": [
+            {
+              "start": 0.35,
+              "end": 6.3,
+              "kind": "door",
+              "sill": 0,
+              "height": 2.4
+            },
+            {
+              "start": 6.8,
+              "end": 8.5,
+              "kind": "door",
+              "sill": 0,
+              "height": 2.2
+            }
+          ],
+          "height": 2.65,
+          "color": "#e7dfc8"
+        },
+        {
+          "a": [
+            9.2,
+            0
+          ],
+          "b": [
+            9.2,
+            4.3
+          ],
+          "thickness": 0.18,
+          "openings": [],
+          "height": 2.65,
+          "color": "#e7dfc8"
+        }
+      ],
+      "components": []
+    },
+    {
+      "label": "Balcone e fronte superiore",
+      "y": 2.85,
+      "height": 2.65,
+      "outline": [
+        [
+          9.2,
+          -1.65
+        ],
+        [
+          0.0,
+          -1.65
+        ],
+        [
+          0.0,
+          4.3
+        ],
+        [
+          9.2,
+          4.3
+        ]
+      ],
+      "walls": [
+        {
+          "a": [
+            9.2,
+            0
+          ],
+          "b": [
+            0.0,
+            0
+          ],
+          "thickness": 0.18,
+          "openings": [
+            {
+              "start": 0.35,
+              "end": 4.8,
+              "kind": "door",
+              "sill": 0,
+              "height": 2.3
+            },
+            {
+              "start": 5.9,
+              "end": 7.8,
+              "kind": "window",
+              "sill": 0.5,
+              "height": 1.6
+            }
+          ],
+          "height": 2.65,
+          "color": "#e7dfc8"
+        },
+        {
+          "a": [
+            9.2,
+            -1.65
+          ],
+          "b": [
+            0.0,
+            -1.65
+          ],
+          "thickness": 0.18,
+          "openings": [],
+          "height": 1.0,
+          "color": "#e7dfc8"
+        },
+        {
+          "a": [
+            9.2,
+            -1.65
+          ],
+          "b": [
+            9.2,
+            4.3
+          ],
+          "thickness": 0.18,
+          "openings": [],
+          "height": 1.0,
+          "color": "#e7dfc8"
+        }
+      ],
+      "components": [
+        {
+          "center": [
+            4.6,
+            2.65,
+            -0.7
+          ],
+          "size": [
+            9.6,
+            0.2,
+            2.0
+          ],
+          "color": "#d6c6a7"
+        }
+      ]
+    }
+  ],
+  "roofs": [
+    {
+      "vertices": [
+        [
+          9.049999999999999,
+          5.35,
+          0.05
+        ],
+        [
+          4.35,
+          5.35,
+          0.05
+        ],
+        [
+          4.35,
+          5.03,
+          -0.95
+        ],
+        [
+          9.049999999999999,
+          5.03,
+          -0.95
+        ]
+      ],
+      "indices": [
+        0,
+        1,
+        2,
+        0,
+        2,
+        3
+      ],
+      "color": "#a78e7b"
+    },
+    {
+      "vertices": [
+        [
+          3.3499999999999996,
+          5.35,
+          0.05
+        ],
+        [
+          1.3499999999999996,
+          5.35,
+          0.05
+        ],
+        [
+          1.3499999999999996,
+          5.03,
+          -0.95
+        ],
+        [
+          3.3499999999999996,
+          5.03,
+          -0.95
+        ]
+      ],
+      "indices": [
+        0,
+        1,
+        2,
+        0,
+        2,
+        3
+      ],
+      "color": "#a78e7b"
+    },
+    {
+      "vertices": [
+        [
+          0.6,
+          2.42,
+          -5.55
+        ],
+        [
+          3.0,
+          2.42,
+          -5.55
+        ],
+        [
+          3.0,
+          2.42,
+          -4.45
+        ],
+        [
+          0.6,
+          2.42,
+          -4.45
+        ],
+        [
+          1.8,
+          2.93,
+          -5.55
+        ],
+        [
+          1.8,
+          2.93,
+          -4.45
+        ]
+      ],
+      "indices": [
+        0,
+        3,
+        5,
+        0,
+        5,
+        4,
+        4,
+        5,
+        2,
+        4,
+        2,
+        1,
+        0,
+        4,
+        1,
+        3,
+        2,
+        5
+      ],
+      "color": "#a67657"
+    }
+  ],
+  "exteriors": [
+    {
+      "kind": "box",
+      "center": [
+        4.6,
+        5.6,
+        -0.25
+      ],
+      "size": [
+        9.8,
+        0.15,
+        0.6
+      ],
+      "color": "#514a3f"
+    },
+    {
+      "points": [
+        [
+          10.2,
+          -5.3
+        ],
+        [
+          -1.3000000000000007,
+          -5.3
+        ],
+        [
+          -1.3000000000000007,
+          0.2
+        ],
+        [
+          10.2,
+          0.2
+        ]
+      ],
+      "y": -0.03,
+      "thickness": 0.12,
+      "color": "#b9b5a7"
+    },
+    {
+      "kind": "box",
+      "center": [
+        9.2,
+        1.1,
+        -5.0
+      ],
+      "size": [
+        0.32,
+        2.2,
+        0.4
+      ],
+      "color": "#d9d6c5"
+    },
+    {
+      "kind": "box",
+      "center": [
+        2.6999999999999993,
+        1.1,
+        -5.0
+      ],
+      "size": [
+        0.32,
+        2.2,
+        0.4
+      ],
+      "color": "#d9d6c5"
+    },
+    {
+      "kind": "box",
+      "center": [
+        0.8999999999999986,
+        1.1,
+        -5.0
+      ],
+      "size": [
+        0.32,
+        2.2,
+        0.4
+      ],
+      "color": "#d9d6c5"
+    },
+    {
+      "kind": "box",
+      "center": [
+        9.0,
+        1.05,
+        -5.0
+      ],
+      "size": [
+        0.12,
+        1.95,
+        0.08
+      ],
+      "color": "#584237"
+    },
+    {
+      "kind": "box",
+      "center": [
+        8.719999999999999,
+        1.05,
+        -5.0
+      ],
+      "size": [
+        0.12,
+        1.95,
+        0.08
+      ],
+      "color": "#584237"
+    },
+    {
+      "kind": "box",
+      "center": [
+        8.44,
+        1.05,
+        -5.0
+      ],
+      "size": [
+        0.12,
+        1.95,
+        0.08
+      ],
+      "color": "#584237"
+    },
+    {
+      "kind": "box",
+      "center": [
+        8.16,
+        1.05,
+        -5.0
+      ],
+      "size": [
+        0.12,
+        1.95,
+        0.08
+      ],
+      "color": "#584237"
+    },
+    {
+      "kind": "box",
+      "center": [
+        7.879999999999999,
+        1.05,
+        -5.0
+      ],
+      "size": [
+        0.12,
+        1.95,
+        0.08
+      ],
+      "color": "#584237"
+    },
+    {
+      "kind": "box",
+      "center": [
+        7.6,
+        1.05,
+        -5.0
+      ],
+      "size": [
+        0.12,
+        1.95,
+        0.08
+      ],
+      "color": "#584237"
+    },
+    {
+      "kind": "box",
+      "center": [
+        7.319999999999999,
+        1.05,
+        -5.0
+      ],
+      "size": [
+        0.12,
+        1.95,
+        0.08
+      ],
+      "color": "#584237"
+    },
+    {
+      "kind": "box",
+      "center": [
+        7.039999999999999,
+        1.05,
+        -5.0
+      ],
+      "size": [
+        0.12,
+        1.95,
+        0.08
+      ],
+      "color": "#584237"
+    },
+    {
+      "kind": "box",
+      "center": [
+        6.759999999999999,
+        1.05,
+        -5.0
+      ],
+      "size": [
+        0.12,
+        1.95,
+        0.08
+      ],
+      "color": "#584237"
+    },
+    {
+      "kind": "box",
+      "center": [
+        6.479999999999999,
+        1.05,
+        -5.0
+      ],
+      "size": [
+        0.12,
+        1.95,
+        0.08
+      ],
+      "color": "#584237"
+    },
+    {
+      "kind": "box",
+      "center": [
+        6.199999999999999,
+        1.05,
+        -5.0
+      ],
+      "size": [
+        0.12,
+        1.95,
+        0.08
+      ],
+      "color": "#584237"
+    },
+    {
+      "kind": "box",
+      "center": [
+        5.919999999999999,
+        1.05,
+        -5.0
+      ],
+      "size": [
+        0.12,
+        1.95,
+        0.08
+      ],
+      "color": "#584237"
+    },
+    {
+      "kind": "box",
+      "center": [
+        5.639999999999999,
+        1.05,
+        -5.0
+      ],
+      "size": [
+        0.12,
+        1.95,
+        0.08
+      ],
+      "color": "#584237"
+    },
+    {
+      "kind": "box",
+      "center": [
+        5.3599999999999985,
+        1.05,
+        -5.0
+      ],
+      "size": [
+        0.12,
+        1.95,
+        0.08
+      ],
+      "color": "#584237"
+    },
+    {
+      "kind": "box",
+      "center": [
+        5.079999999999999,
+        1.05,
+        -5.0
+      ],
+      "size": [
+        0.12,
+        1.95,
+        0.08
+      ],
+      "color": "#584237"
+    },
+    {
+      "kind": "box",
+      "center": [
+        4.799999999999999,
+        1.05,
+        -5.0
+      ],
+      "size": [
+        0.12,
+        1.95,
+        0.08
+      ],
+      "color": "#584237"
+    },
+    {
+      "kind": "box",
+      "center": [
+        4.519999999999999,
+        1.05,
+        -5.0
+      ],
+      "size": [
+        0.12,
+        1.95,
+        0.08
+      ],
+      "color": "#584237"
+    },
+    {
+      "kind": "box",
+      "center": [
+        4.239999999999998,
+        1.05,
+        -5.0
+      ],
+      "size": [
+        0.12,
+        1.95,
+        0.08
+      ],
+      "color": "#584237"
+    },
+    {
+      "kind": "box",
+      "center": [
+        3.959999999999998,
+        1.05,
+        -5.0
+      ],
+      "size": [
+        0.12,
+        1.95,
+        0.08
+      ],
+      "color": "#584237"
+    },
+    {
+      "kind": "box",
+      "center": [
+        3.679999999999999,
+        1.05,
+        -5.0
+      ],
+      "size": [
+        0.12,
+        1.95,
+        0.08
+      ],
+      "color": "#584237"
+    },
+    {
+      "kind": "box",
+      "center": [
+        3.3999999999999986,
+        1.05,
+        -5.0
+      ],
+      "size": [
+        0.12,
+        1.95,
+        0.08
+      ],
+      "color": "#584237"
+    },
+    {
+      "kind": "box",
+      "center": [
+        3.1199999999999983,
+        1.05,
+        -5.0
+      ],
+      "size": [
+        0.12,
+        1.95,
+        0.08
+      ],
+      "color": "#584237"
+    },
+    {
+      "kind": "box",
+      "center": [
+        5.949999999999999,
+        0.55,
+        -5.0
+      ],
+      "size": [
+        6.1,
+        0.09,
+        0.1
+      ],
+      "color": "#584237"
+    },
+    {
+      "kind": "box",
+      "center": [
+        5.949999999999999,
+        1.65,
+        -5.0
+      ],
+      "size": [
+        6.1,
+        0.09,
+        0.1
+      ],
+      "color": "#584237"
+    },
+    {
+      "kind": "box",
+      "center": [
+        2.499999999999999,
+        1.05,
+        -5.0
+      ],
+      "size": [
+        0.12,
+        1.95,
+        0.08
+      ],
+      "color": "#584237"
+    },
+    {
+      "kind": "box",
+      "center": [
+        2.219999999999999,
+        1.05,
+        -5.0
+      ],
+      "size": [
+        0.12,
+        1.95,
+        0.08
+      ],
+      "color": "#584237"
+    },
+    {
+      "kind": "box",
+      "center": [
+        1.9399999999999995,
+        1.05,
+        -5.0
+      ],
+      "size": [
+        0.12,
+        1.95,
+        0.08
+      ],
+      "color": "#584237"
+    },
+    {
+      "kind": "box",
+      "center": [
+        1.6599999999999993,
+        1.05,
+        -5.0
+      ],
+      "size": [
+        0.12,
+        1.95,
+        0.08
+      ],
+      "color": "#584237"
+    },
+    {
+      "kind": "box",
+      "center": [
+        1.379999999999999,
+        1.05,
+        -5.0
+      ],
+      "size": [
+        0.12,
+        1.95,
+        0.08
+      ],
+      "color": "#584237"
+    },
+    {
+      "kind": "box",
+      "center": [
+        1.799999999999999,
+        0.55,
+        -5.0
+      ],
+      "size": [
+        1.3999999999999995,
+        0.09,
+        0.1
+      ],
+      "color": "#584237"
+    },
+    {
+      "kind": "box",
+      "center": [
+        1.799999999999999,
+        1.65,
+        -5.0
+      ],
+      "size": [
+        1.3999999999999995,
+        0.09,
+        0.1
+      ],
+      "color": "#584237"
+    },
+    {
+      "points": [
+        [
+          10.7,
+          -6
+        ],
+        [
+          -1.3000000000000007,
+          -6
+        ],
+        [
+          -1.3000000000000007,
+          5
+        ],
+        [
+          10.7,
+          5
+        ]
+      ],
+      "y": -0.17,
+      "thickness": 0.13,
+      "color": "#a0a68e"
+    },
+    {
+      "kind": "box",
+      "center": [
+        1.8,
+        2.26,
+        -5
+      ],
+      "size": [
+        2.25,
+        0.28,
+        0.58
+      ],
+      "color": "#d9d6c5"
+    }
+  ],
+  "colors": {
+    "walls": "#e7dfc8",
+    "frames": "#644735",
+    "floor": "#bdb09b",
+    "wood": "#705039",
+    "stairs": "#ad9b80",
+    "roof": "#a17051"
+  },
+  "views": [
+    {
+      "label": "Fronte d’ingresso documentato",
+      "level": null,
+      "camera": {
+        "yaw": 2.8415926535897933,
+        "pitch": 0.3,
+        "distance": 21,
+        "target": [
+          4.6,
+          2.4,
+          0
+        ]
+      }
+    },
+    {
+      "label": "Portico e balcone",
+      "level": null,
+      "camera": {
+        "yaw": 2.3415926535897933,
+        "pitch": 0.4,
+        "distance": 22,
+        "target": [
+          4.6,
+          2.4,
+          0
+        ]
+      }
+    }
+  ],
+  "draftCreationStarted": "2026-11-09T21:12:00.528555+01:00",
+  "creationFinished": "2026-11-09T22:53:13.849133+01:00",
+  "reviewNotes": [
+    "Riconfronto dalla stessa direzione delle foto: loggia aperta a sinistra e finestra a destra; pedonale coperto a destra del carrabile. Corretta coerentemente tutta la geometria del fronte, compresi cancelli, pilastri e pensiline; camera lasciata invariata. Copertura a capanna del pedonale aggiunta dalla fonte S1/S2.",
+    "Solo fronte e portico documentati; retro, interni e tetto principale non inventati. QA ripetuta dopo tutte le correzioni e passata desktop/mobile offline, inclusi gesti touch."
+  ]
+}

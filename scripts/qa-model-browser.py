@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Offline file:// interaction QA, not architectural fidelity approval."""
-import argparse, hashlib, json
+import argparse, hashlib, json, os, time
 from datetime import datetime, timezone
 from pathlib import Path
 from playwright.sync_api import sync_playwright
@@ -9,7 +9,7 @@ def run(path,out,views):
     out.mkdir(parents=True,exist_ok=True)
     report={'checkedAt':datetime.now(timezone.utc).isoformat(),'htmlSha256':hashlib.sha256(path.read_bytes()).hexdigest(),'scope':'Chromium desktop/mobile emulation, offline file://; visual/source comparison is a separate approval','devices':[],'errors':[]}
     with sync_playwright() as pw:
-        browser=pw.chromium.launch(headless=True,args=['--use-gl=angle','--use-angle=swiftshader','--enable-unsafe-swiftshader','--disable-dev-shm-usage'])
+        browser=pw.chromium.launch(headless=True,executable_path=os.environ.get('CASE_3D_CHROMIUM') or None,args=['--use-gl=angle','--use-angle=swiftshader','--enable-unsafe-swiftshader','--disable-dev-shm-usage'])
         report['browserVersion']=browser.version
         for mobile in (False,True):
             name='mobile' if mobile else 'desktop';width,height=(430,800) if mobile else (960,640)
@@ -41,7 +41,7 @@ def run(path,out,views):
                     before=state()['camera'];page.mouse.move(width*.5,height*.5);page.mouse.down();page.mouse.move(width*.7,height*.6,steps=6);page.mouse.up();settle();checks['mouseOrbit']=abs(state()['camera']['yaw']-before['yaw'])>.01
                     before=state()['camera'];page.mouse.wheel(0,-220);settle();checks['wheelZoom']=abs(state()['camera']['distance']-before['distance'])>.1
                     before=state()['camera'];page.mouse.down(button='right');page.mouse.move(width*.5,height*.5,steps=6);page.mouse.up(button='right');settle();checks['mousePan']=state()['camera']['target']!=before['target']
-                    page.mouse.dblclick(width*.5,height*.5);settle();checks['doubleClick']=state()['mode']==1
+                    page.mouse.dblclick(width*.5,height*.5);settle();checks['doubleClick']=state()['mode']==1%views
                 else:
                     session=ctx.new_cdp_session(page)
                     def touch(kind,pts):session.send('Input.dispatchTouchEvent',{'type':kind,'touchPoints':[{'x':x,'y':y,'id':i,'radiusX':2,'radiusY':2} for i,(x,y) in enumerate(pts)]})
@@ -54,7 +54,19 @@ def run(path,out,views):
                     before=state()['camera'];touch('touchStart',[(140,390),(260,390)])
                     for j in range(1,6):touch('touchMove',[(140+j*6,390+j*5),(260+j*6,390+j*5)])
                     touch('touchEnd',[]);settle();checks['twoFingerPan']=state()['camera']['target']!=before['target']
-                    page.wait_for_timeout(400);page.touchscreen.tap(215,400);page.touchscreen.tap(215,400);settle();checks['doubleTap']=state()['mode']==1
+                    # Software WebGL may delay separate automation round trips.
+                    # Preserve the actual input interval with trusted CDP events.
+                    page.wait_for_timeout(400)
+                    page.evaluate("window.__qaTouchLog=[];for(const type of ['pointerdown','pointerup'])document.querySelector('canvas').addEventListener(type,e=>window.__qaTouchLog.push({type:e.type,timeStamp:e.timeStamp,trusted:e.isTrusted,pointerType:e.pointerType}))")
+                    tap_base=time.time()
+                    for offset in (0,.18):
+                        session.send('Input.dispatchTouchEvent',{'type':'touchStart','timestamp':tap_base+offset,'touchPoints':[{'x':215,'y':400,'id':0,'radiusX':2,'radiusY':2}]})
+                        session.send('Input.dispatchTouchEvent',{'type':'touchEnd','timestamp':tap_base+offset+.03,'touchPoints':[]})
+                    settle();page.wait_for_timeout(400);settle()
+                    events=page.evaluate('window.__qaTouchLog');device['doubleTapEvents']=events
+                    ups=[e for e in events if e['type']=='pointerup' and e['pointerType']=='touch']
+                    checks['doubleTapInput']=len(ups)==2 and all(e['trusted'] for e in ups) and 100<ups[1]['timeStamp']-ups[0]['timeStamp']<300
+                    checks['doubleTap']=state()['mode']==1%views
                 page.keyboard.press('Home');settle();checks['reset']=state()['mode']==0
                 checks['noExternalNetwork']=not requests;checks['noConsoleErrors']=not errors
                 device['finalState']=state()
