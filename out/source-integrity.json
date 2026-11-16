@@ -382,7 +382,7 @@
     }
   ],
   "files": {
-    "app.js": "58d6e9cd7dca540d24367fc1f3ec2448a58e62fdd173647b2a2c03596a2fc36c",
+    "app.js": "7aec76ac803323788f3abbeeba6c92ff1365bb6d0fe204b29169cb1b52f39bed",
     "assets/aurisina-cave-77-b.jpg": "357cc7966d36585836ab5f27751f082960ecb94d4b1aa59e4a973e00ba5a917d",
     "assets/aurisina.jpg": "1518e127584b20648f2fdaff3e036dfadb0a3f90095abfbc6978b3ddc0e98416",
     "assets/banne-202.jpg": "a25f9599a91b3bb40b512c75d85606a62c1ea757b75b5c792f964c475b7b306e",
@@ -447,7 +447,7 @@
     "assets/villa-opicina-1904.jpg": "5c2d13e271a8a15d5b3cb1651500eb16778fd29e12c2d27a5f127f9c45eccca1",
     "assets/zolla-60.jpg": "221972c9aefddffb7d355aa6f7321efc6a429aac8712dda3b150347fb36a42e0",
     "data/catalog.json": "bac2ca634ceb8efabf9faee57016b236356f29e294de45da2b0532e963f1ab9c",
-    "index.html": "f336cd6eea0732fe215b64fa6630e61a82b795c55f121e7c140bf19a1496a43d",
+    "index.html": "0fd28b81356c904812dd7f2217221485feb77c4178da199a7150a79c6d0671d5",
     "modelli/aurisina-cave-77-b.html": "e0bc0816b7c5f0caa7e5b41d5570098d50d71dc2c0a0c074dbe4f11cfa6083db",
     "modelli/aurisina.html": "f0fd039a9ffa7a3af5bfacdec647f0e900e7eb97622d23bff46e64761e885c97",
     "modelli/banne-202.html": "7afcb9a67d6bff76e4b7f63959cfa0508a157b214a88527b31bba565172762de",
@@ -511,6 +511,6 @@
     "modelli/via-umberto-veruda.html": "91da3d4fd5c22f4a96bb606be187d542010cf3ed70ae42e5baa2b48e9d951f28",
     "modelli/villa-opicina-1904.html": "e7925b0884e83e93f694d9163910de1aeebe516e53db787858bd1864dd085c5e",
     "modelli/zolla-60.html": "a75d770c0bd25cb0c94974c37f4a74378acdd9df1f2adedfdba8b763e09d125e",
-    "styles.css": "77f5843fb80b060de8bbdde2889946dc95c12e3c91f4e518ef091a65ac21f026"
+    "styles.css": "922343614153951e11b1992bbfa440f911615b2cf2644157712bd4b2ff6f6444"
   }
 }

@@ -10,7 +10,7 @@
   let ready = false, startedAt = 0, unloaded = false, frameCleanup = null;
   let pendingMode = null, pendingModeFrame = 0;
   const favoritesKey = 'case-in-3d.favorites.v1';
-  let favorites = readFavorites(), favoritesOnly = false;
+  let favorites = readFavorites(), section = 'panoramica';
   function validProperty(p) { return p && typeof p.id === 'string' && /^[a-z0-9][a-z0-9_-]*$/.test(p.id) && !['panoramica', 'preferiti'].includes(p.id) && typeof p.title === 'string'; }
   function readFavorites() {
     try {
@@ -99,7 +99,7 @@
   }
   function renderNavigation() {
     const host = $('property-nav-list'); host.replaceChildren();
-    properties.forEach(property => {
+    properties.filter(property => status(property) === 'published').forEach(property => {
       const link = el('a', 'property-nav'); link.href = propertyHref(property); link.dataset.nav = property.id;
       const icon = el('span', 'nav-house', '⌂'); icon.setAttribute('aria-hidden', 'true');
       const title = el('span'); title.append(el('strong', '', text(property.title)), el('small', '', text(property.locality)));
@@ -111,11 +111,12 @@
     const locality = $('locality-filter').value, availability = $('availability-filter').value, model = $('model-filter').value;
     const haystack = [property.title, property.address, property.locality].filter(Boolean).join(' ').toLocaleLowerCase('it-IT');
     return (!query || haystack.includes(query)) && (!locality || property.locality === locality) &&
-      (availability === 'all' || status(property) === availability) &&
+      (section === 'preferiti' ? availability === 'all' || status(property) === availability :
+        status(property) === (section === 'archivio' ? 'archived' : 'published')) &&
       (!model || modelStatus(property) === model);
   }
   function renderCatalog() {
-    const filtered = properties.filter(p => (!favoritesOnly || favorites.has(p.id)) && matches(p)), grid = $('property-grid'); grid.replaceChildren();
+    const filtered = properties.filter(p => (section !== 'preferiti' || favorites.has(p.id)) && matches(p)), grid = $('property-grid'); grid.replaceChildren();
     filtered.forEach((property, index) => {
       const facts = property.facts || {}, wrapper = el('article', 'catalog-card-shell'), card = el('a', 'property-card catalog-card'); card.href = propertyHref(property);
       const banner = el('div', 'catalog-card-banner');
@@ -138,11 +139,11 @@
       const bottom = el('div', 'card-bottom'); bottom.append(el('span', '', `Controllo: ${date(property.availability?.checkedAt)}`), el('span', '', modelReady(property) ? 'Scheda e modello 3D →' : 'Leggi la scheda →')); card.append(bottom); wrapper.append(card, favoriteButton(property)); grid.append(wrapper);
     });
     $('catalog-empty').hidden = filtered.length > 0 || !catalog;
-    $('catalog-empty').textContent = favoritesOnly && !favorites.size ? 'Non hai ancora preferiti. Premi la stella su una casa per salvarla qui.' : 'Nessuna casa corrisponde ai filtri. Prova un’altra ricerca o includi l’archivio.';
+    $('catalog-empty').textContent = section === 'preferiti' && !favorites.size ? 'Non hai ancora preferiti. Premi la stella su una casa per salvarla qui.' : 'Nessuna casa corrisponde ai filtri. Prova un’altra ricerca.';
     $('favorites-count').textContent = String(favorites.size);
     $('favorites-link').setAttribute('aria-label', `Preferiti (${favorites.size})`);
     const archived = properties.filter(p => status(p) === 'archived').length;
-    $('catalog-summary').textContent = favoritesOnly ? `${filtered.length} case visualizzate · ${favorites.size} preferiti salvati, inclusi gli archiviati` : `${filtered.length} ${filtered.length === 1 ? 'casa' : 'case'} visualizzate · ${properties.length} nel catalogo · ${archived} in archivio`;
+    $('catalog-summary').textContent = section === 'preferiti' ? `${filtered.length} case visualizzate · ${favorites.size} preferiti salvati, inclusi gli archiviati` : `${filtered.length} ${filtered.length === 1 ? 'casa' : 'case'} visualizzate · ${properties.length} nel catalogo · ${archived} in archivio`;
   }
   function detailBlock(title, values) {
     const section = el('section', 'detail-block'); section.append(el('h3', '', title)); const ul = el('ul');
@@ -260,6 +261,10 @@
   }
   function openProperty(property, mode) {
     const sameModel = current?.id === property.id && frame;
+    const back = $('back-to-catalog');
+    const destination = section === 'preferiti' ? 'preferiti' : status(property) === 'archived' ? 'archivio' : 'panoramica';
+    back.href = '#' + destination;
+    back.textContent = '← ' + ({ preferiti: 'Preferiti', archivio: 'Archivio', panoramica: 'Panoramica' })[destination];
     current = property; $('overview').hidden = true; $('back-to-catalog').hidden = false; $('property-details').hidden = false;
     $('main').classList.add('detail-open'); $('page-title').textContent = text(property.title);
     $('page-subtitle').textContent = [property.locality, property.address].filter(Boolean).join(' · '); document.title = `${text(property.title)} - Case in 3D`;
@@ -301,30 +306,38 @@
     if (!catalog) return;
     const raw = location.hash.slice(1).split('/'); let id;
     try { id = decodeURIComponent(raw[0]); } catch (_) { id = ''; }
-    const nextFavoritesOnly = id === 'preferiti';
-    if (nextFavoritesOnly !== favoritesOnly) {
-      $('catalog-search').value = ''; $('locality-filter').value = ''; $('model-filter').value = '';
-      $('availability-filter').value = nextFavoritesOnly ? 'all' : 'published';
-    }
-    favoritesOnly = nextFavoritesOnly;
-    $('favorites-note').hidden = !favoritesOnly;
-    if (favoritesOnly) $('overview-title').textContent = 'Le tue case preferite.';
-    else $('overview-title').replaceChildren('Una casa.', document.createElement('br'), 'Ogni prospettiva.');
-    if (favoritesOnly) $('favorites-link').setAttribute('aria-current', 'page'); else $('favorites-link').removeAttribute('aria-current');
-    renderCatalog();
     let property = propertyMap.get(id);
     if (!property && ['aurisina', 'muggia'].includes(id)) property = properties.find(p => p.model?.path === `modelli/${id}.html`);
+    const nextSection = id === 'preferiti' || id === 'archivio' ? id :
+      property ? section : 'panoramica';
+    if (nextSection !== section) {
+      $('catalog-search').value = ''; $('locality-filter').value = ''; $('model-filter').value = '';
+      $('availability-filter').value = 'all';
+    }
+    section = nextSection;
+    $('favorites-note').hidden = section !== 'preferiti';
+    $('availability-field').hidden = section !== 'preferiti';
+    $('catalog-filters').classList.toggle('with-status', section === 'preferiti');
+    if (section === 'preferiti') $('overview-title').textContent = 'Le tue case preferite.';
+    else if (section === 'archivio') $('overview-title').textContent = 'Archivio';
+    else $('overview-title').replaceChildren('Una casa.', document.createElement('br'), 'Ogni prospettiva.');
+    $('overview-description').textContent = section === 'archivio'
+      ? 'Schede per cui non risulta un annuncio disponibile. Dettagli e modelli 3D restano consultabili.'
+      : 'Annunci, informazioni e modelli 3D.';
+    if (section === 'preferiti' && !property) $('favorites-link').setAttribute('aria-current', 'page');
+    else $('favorites-link').removeAttribute('aria-current');
+    renderCatalog();
     const n = Number(raw[1]); const mode = property && Number.isInteger(n) && n >= 1 && n <= views(property).length ? n - 1 : 0;
     closeMenu(false);
-    document.querySelectorAll('[data-nav]').forEach(link => { if (link.dataset.nav === (property?.id || 'panoramica')) link.setAttribute('aria-current', 'page'); else link.removeAttribute('aria-current'); });
+    document.querySelectorAll('[data-nav]').forEach(link => { if (link.dataset.nav === (property?.id || section)) link.setAttribute('aria-current', 'page'); else link.removeAttribute('aria-current'); });
     if (!property) {
       leaveFullscreen(); unloadModel(); current = null; currentMode = 0;
       $('overview').hidden = false; $('viewer').hidden = true; $('model-coverage').hidden = true; $('property-details').hidden = true; $('back-to-catalog').hidden = true;
-      $('main').classList.remove('detail-open'); $('page-title').textContent = favoritesOnly ? 'I tuoi preferiti' : 'Esplora gli immobili';
+      $('main').classList.remove('detail-open'); $('page-title').textContent = section === 'preferiti' ? 'I tuoi preferiti' : section === 'archivio' ? 'Archivio' : 'Esplora gli immobili';
       $('main').scrollTop = 0; $('overview').scrollTop = 0;
       $('page-subtitle').textContent = 'Case a Trieste e dintorni, da ogni prospettiva.'; document.title = 'Case in 3D - Esplora gli immobili';
-      if (favoritesOnly) document.title = 'Case in 3D - Preferiti';
-      if (id && !['panoramica', 'preferiti'].includes(id)) showToast('La scheda richiesta non è presente nel catalogo.');
+      if (section !== 'panoramica') document.title = `Case in 3D - ${$('page-title').textContent}`;
+      if (id && !['panoramica', 'preferiti', 'archivio'].includes(id)) showToast('La scheda richiesta non è presente nel catalogo.');
     } else openProperty(property, mode);
   }
   async function loadCatalog() {
