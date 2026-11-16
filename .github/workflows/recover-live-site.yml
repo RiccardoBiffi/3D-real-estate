@@ -1,0 +1,63 @@
+name: Recover exact public Sites build
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['.github/recover-live.request']
+permissions:
+  contents: write
+concurrency:
+  group: case-in-3d-live-recovery
+  cancel-in-progress: false
+jobs:
+  recover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - name: Check out exact triggering commit without stored credentials
+        shell: bash
+        run: |
+          set -euo pipefail
+          git init .
+          git remote add origin "https://github.com/${GITHUB_REPOSITORY}.git"
+          git fetch --depth=1 origin "$GITHUB_SHA"
+          git checkout -B main FETCH_HEAD
+      - name: Test fail-closed recovery guards
+        run: python3 scripts/test-live-recovery.py
+      - name: Verify fresh manifest and catalog, reusing only hash-identical assets
+        run: python3 scripts/recover-live-site-cached.py
+      - name: Validate recovered catalog
+        run: |
+          python3 scripts/validate-catalog.py out/data/catalog.json --dist out
+          python3 scripts/test-catalog-workflow.py
+      - name: Commit verified snapshot without rewriting history
+        env:
+          GH_RECOVERY_TOKEN: ${{ github.token }}
+        run: |
+          python3 - <<'PY'
+          import base64, os, subprocess
+          def git(*args, **kw):
+              return subprocess.run(['git', *args], check=True, text=True, **kw)
+          git('add', '--', 'out', 'dist', 'source-integrity.json', 'maintenance/live-recovery.json', 'maintenance/model-backlog.json')
+          if subprocess.run(['git','diff','--cached','--quiet']).returncode == 0:
+              print('Verified build already matches repository.')
+              raise SystemExit(0)
+          git('-c','user.name=Case in 3D recovery','-c','user.email=41898282+github-actions[bot]@users.noreply.github.com',
+              'commit','-m','Recover verified public Sites build without deleting existing assets')
+          env = dict(os.environ)
+          token = env.pop('GH_RECOVERY_TOKEN')
+          env['GIT_CONFIG_COUNT'] = '1'
+          env['GIT_CONFIG_KEY_0'] = 'http.https://github.com/.extraheader'
+          env['GIT_CONFIG_VALUE_0'] = 'AUTHORIZATION: basic ' + base64.b64encode(('x-access-token:' + token).encode()).decode()
+          git('push','origin','HEAD:refs/heads/main',env=env)
+          print('Snapshot committed by non-force push; existing ancestry retained.')
+          PY
+      - name: Package committed source for model authoring
+        run: git archive --format=zip --output="$RUNNER_TEMP/case-in-3d-recovered.zip" HEAD
+      - name: Export source snapshot
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: case-in-3d-recovered
+          path: ${{ runner.temp }}/case-in-3d-recovered.zip
+          retention-days: 3
+          if-no-files-found: error
