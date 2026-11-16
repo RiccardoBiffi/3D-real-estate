@@ -57,6 +57,8 @@
   const numeric = value => typeof value === 'number' && Number.isFinite(value);
   const area = value => numeric(value) ? `${number.format(value)} m²` : text(value);
   const price = value => numeric(value) ? euro.format(value) : 'Prezzo non indicato';
+  const askingPrice = facts => facts.priceOnRequest === true && !numeric(facts.priceEur)
+    ? 'Prezzo su richiesta' : price(facts.priceEur);
   const list = value => Array.isArray(value) ? value.filter(v => typeof v === 'string') : [];
   const date = value => {
     if (!value) return 'Non verificato';
@@ -128,7 +130,7 @@
       banner.append(badges); card.append(banner);
       const info = el('div', 'card-info'); const heading = el('div'); heading.append(el('h3', '', text(property.title)), el('p', '', [property.locality, property.address].filter(Boolean).join(' · ')));
       info.append(heading, el('span', 'card-number', String(index + 1).padStart(2, '0'))); card.append(info);
-      const summary = el('div', 'card-facts'); summary.append(el('strong', 'card-price', price(facts.priceEur)));
+      const summary = el('div', 'card-facts'); summary.append(el('strong', 'card-price', askingPrice(facts)));
       if (numeric(facts.areaHabitableM2)) summary.append(el('span', '', `${area(facts.areaHabitableM2)} abitativi`));
       else if (numeric(facts.areaWalkableM2)) summary.append(el('span', '', `${area(facts.areaWalkableM2)} calpestabili`));
       else if (numeric(facts.areaCommercialM2)) summary.append(el('span', '', `${area(facts.areaCommercialM2)} commerciali · superficie interna da verificare`));
@@ -151,7 +153,7 @@
   }
   function renderDetails(property) {
     const host = $('property-details'); host.replaceChildren(); const facts = property.facts || {};
-    const heading = el('div', 'detail-heading'); heading.append(el('h2', '', 'La casa, nelle fonti disponibili'), el('strong', 'detail-price', price(facts.priceEur))); host.append(heading);
+    const heading = el('div', 'detail-heading'); heading.append(el('h2', '', 'La casa, nelle fonti disponibili'), el('strong', 'detail-price', askingPrice(facts))); host.append(heading);
     const badges = el('div', 'detail-badges'); badges.append(badge(statusLabels[status(property)], status(property)), badge(modelLabel(property), 'model'), favoriteButton(property, true)); host.append(badges);
     if (facts.description) host.append(el('p', 'property-description', text(facts.description)));
     if (property.evidence?.note) host.append(el('p', 'surface-note', text(property.evidence.note)));

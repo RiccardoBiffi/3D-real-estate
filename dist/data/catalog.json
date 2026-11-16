@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-16T19:03:52.612903+01:00",
+  "updatedAt": "2026-11-16T21:32:34.743548+01:00",
   "properties": [
     {
       "id": "via-risano-raute",
@@ -1589,6 +1589,7 @@
       "locality": "Trieste",
       "address": "Salita di Raute 50/1",
       "sourceUrls": [
+        "https://www.anticatrieste.it/immobili/salita-di-raute-50-1-tecnologia-e-qualita-di-vita/",
         "https://www.immobiliare.it/annunci/132289868/"
       ],
       "historicalPrices": [
@@ -1596,54 +1597,101 @@
           "priceEur": 595000,
           "date": "2026-09-13",
           "source": "chat"
+        },
+        {
+          "priceEur": 548000,
+          "date": "2026-11-16",
+          "source": "https://www.anticatrieste.it/immobili/salita-di-raute-50-1-tecnologia-e-qualita-di-vita/"
         }
       ],
       "facts": {
-        "priceEur": 595000,
+        "priceEur": 548000,
         "areaHabitableM2": 150,
         "areaWalkableM2": null,
         "areaCommercialM2": 205,
-        "areaNotes": "150 m² classificati come abitazione; 205 m² commerciali.",
+        "areaNotes": "L’agenzia indica 205 m² complessivi. I 150 m² classificati come abitazione provengono dall’annuncio precedente.",
         "gardenM2": 300,
         "landM2": null,
-        "parking": "Garage da 50 m² per due auto.",
-        "floors": 3,
-        "bedrooms": 4,
+        "parking": "Ampio garage con basculante elettrico. La precedente scheda indicava 50 m² e due auto.",
+        "floors": "Livelli sfalsati; garage al livello inferiore.",
+        "bedrooms": 2,
         "bathrooms": 2,
         "condition": null,
-        "energy": "Classe A4, fotovoltaico 8 kW e batteria Tesla 13,5 kWh secondo la chat.",
+        "energy": "Classe A4, fotovoltaico da 8 kW e accumulo da 13,5 kWh.",
         "bus": "Linea 37 lungo Salita di Raute; distanza dalla casa non documentata.",
         "highlights": [
-          "Dotazioni energetiche recenti.",
-          "Riscaldamento dichiarato: Autonomo, a pavimento, alimentato a gas"
+          "Riscaldamento e raffrescamento a pavimento.",
+          "Zona giorno con accesso al terrazzo e al giardino."
         ],
         "limitations": [
-          "Percorso e distanza esatta dal bus da confermare."
+          "I 300 m² di giardino riportati nella scheda precedente sono da confermare con l’agenzia.",
+          "Il terzo locale è attualmente un soggiorno.",
+          "Distanza pedonale esatta dalla fermata da verificare."
         ],
-        "description": "Casa in Salita di Raute con 150 m² di abitazione, giardino di 300 m² e garage di 50 m². Sono segnalati classe A4, fotovoltaico e accumulo Tesla; la vicinanza effettiva alla linea 37 va verificata."
+        "description": "Villa in Salita di Raute 50/1 con zona giorno collegata al giardino, due camere e due bagni su livelli sfalsati. Il secondo soggiorno può diventare una terza camera. Garage al livello inferiore, classe A4 e fotovoltaico con accumulo."
       },
       "availability": {
-        "status": "archived",
-        "checkedAt": "2026-11-15T09:44:10.963197+01:00",
-        "reason": "Nessuna fonte online fresca leggibile individuata nell’ultimo controllo. Questo stato non certifica la vendita o il ritiro dell’immobile.",
-        "verifiedSources": []
-      },
-      "model": {
-        "status": "in_review",
-        "path": null,
-        "views": [],
-        "notes": [
-          "Una tavola catastale leggibile contiene terra e primo, con vani e scale e differenti quote verticali.",
-          "La descrizione dell'annuncio dichiara livelli sfalsati e un piano inferiore con grande garage, lavanderia e locale tecnico.",
-          "Non risulta una pianta identificabile del garage inferiore; serve copertura dei semipiani e collegamenti prima della ricostruzione completa.",
-          "Non sostituire il sistema di semipiani con scatole sovrapposte."
+        "status": "published",
+        "checkedAt": "2026-11-16T21:22:14+01:00",
+        "reason": "Annuncio identificativo consultato online con dati corrispondenti all’immobile.",
+        "verifiedSources": [
+          {
+            "url": "https://www.anticatrieste.it/immobili/salita-di-raute-50-1-tecnologia-e-qualita-di-vita/",
+            "title": "Antica Trieste · Salita di Raute 50/1",
+            "price": "€ 548.000",
+            "details": "205 m² dichiarati, livelli sfalsati, 2 camere più un vano convertibile, 2 bagni, garage e classe A4."
+          }
         ]
       },
+      "model": {
+        "status": "ready",
+        "path": "modelli/salita-di-raute-50-1.html",
+        "views": [
+          {
+            "id": "exterior",
+            "label": "Involucro parziale dei semipiani"
+          },
+          {
+            "id": "night",
+            "label": "Semipiano camere e bagno"
+          },
+          {
+            "id": "living",
+            "label": "Soggiorno e angolo cottura"
+          },
+          {
+            "id": "ground",
+            "label": "Piano terra catastale · stanza, WC e disimpegni"
+          }
+        ],
+        "coverage": "partial",
+        "unrenderedVolumes": [
+          "Box auto, lavanderia e locale tecnico del livello inferiore: assenti dalla pianta utilizzabile.",
+          "Intercapedine al piano terra catastale e spazi confinanti indicati sub. 2: esclusi.",
+          "Rampe interne fra semipiani e scala esterna: mantenute le aperture dei vani, senza ricostruire i collegamenti.",
+          "Parapetti del ballatoio, giardino e confini: rappresentato solo il contesto immediato."
+        ],
+        "notes": [
+          "Scala orizzontale uniforme ricavata dalla barra di 10 metri della planimetria. Le quote derivano dalla scansione; il modello è una ricostruzione visiva.",
+          "Dislivelli tra i semipiani stimati dalle mezze rampe fotografate e dalle altezze riportate nel disegno.",
+          "Falde, altezze esterne, materiali e arredi essenziali dedotti dalle fotografie.",
+          "Varchi tracciati sulla pianta. Altezze di porte e finestre e quota del ballatoio stimate."
+        ],
+        "verifiedAt": "2026-11-16T21:24:28.951542+01:00",
+        "artifactSha256": "df35c77b0fa6414711b5cd7a53964bff2b6a83189c41de900fe5ba91660bfcdb",
+        "sourcePlans": [
+          {
+            "url": "https://pic.im-cdn.it/plan/134201862/xxl.jpg",
+            "label": "Planimetria catastale · piano terra e primo"
+          }
+        ],
+        "preview": "assets/salita-di-raute-50-1.jpg"
+      },
       "evidence": {
-        "listingReadAt": "2026-11-15T09:44:10.963197+01:00",
-        "sourceUpdatedAt": "09/09/2026",
+        "listingReadAt": "2026-11-16T21:22:14+01:00",
+        "sourceUpdatedAt": null,
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 15 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
+        "note": "Dati aggiornati dalla scheda identificativa dell’immobile. Le misure o caratteristiche non confermate sono indicate nella scheda."
       }
     },
     {
@@ -2976,10 +3024,15 @@
           "priceEur": 600000,
           "date": "2026-09-20",
           "source": "chat"
+        },
+        {
+          "priceEur": 550000,
+          "date": "2026-11-16",
+          "source": "https://www.immobiliare.it/annunci/123914023/"
         }
       ],
       "facts": {
-        "priceEur": 600000,
+        "priceEur": 550000,
         "areaHabitableM2": 200,
         "areaWalkableM2": null,
         "areaCommercialM2": 248,
@@ -3005,14 +3058,14 @@
       },
       "availability": {
         "status": "published",
-        "checkedAt": "2026-11-15T09:45:10.189559+01:00",
-        "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
+        "checkedAt": "2026-11-16T21:22:14+01:00",
+        "reason": "Annuncio identificativo consultato online con dati corrispondenti all’immobile.",
         "verifiedSources": [
           {
             "url": "https://www.immobiliare.it/annunci/123914023/",
-            "title": "Vendita Villa a schiera  in via dei Cardi 19 Trieste. Ottimo stato, posto auto, riscaldamento autonomo, 200 m², rif. 123914023",
-            "price": "€ 600.000",
-            "details": "i pubblica Accedi 1 / 14 14 Foto 4 Planimetrie Villa a schiera via dei Cardi 19, Opicina, Trieste Trieste Opi"
+            "title": "Immobiliare.it · Villa a schiera in Via dei Cardi 19",
+            "price": "€ 550.000",
+            "details": "Villetta a schiera in Via dei Cardi 19, Opicina, riferimento 123914023."
           }
         ]
       },
@@ -3076,10 +3129,10 @@
         "preview": "assets/via-dei-cardi-19.jpg"
       },
       "evidence": {
-        "listingReadAt": "2026-11-15T09:45:10.189559+01:00",
-        "sourceUpdatedAt": "16/04/2026",
-        "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 15 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
+        "listingReadAt": "2026-11-16T21:22:14+01:00",
+        "sourceUpdatedAt": "2026-10-23",
+        "method": "public_reader",
+        "note": "Il portale mostra il prezzo di € 550.000 nella scheda aggiornata il 23 ottobre 2026, consultata tramite lettura pubblica. Le altre informazioni provengono dai riscontri precedenti."
       }
     },
     {
@@ -3858,6 +3911,7 @@
       "locality": "Trieste",
       "address": "Strada di Fiume 370",
       "sourceUrls": [
+        "https://www.trovacasa.it/annunci/ts-tc-47380-72725085",
         "https://www.casa.it/immobili/54623814/"
       ],
       "historicalPrices": [
@@ -3865,21 +3919,26 @@
           "priceEur": 350000,
           "date": "2026-09-27",
           "source": "chat"
+        },
+        {
+          "priceEur": 330000,
+          "date": "2026-11-16",
+          "source": "https://www.trovacasa.it/annunci/ts-tc-47380-72725085"
         }
       ],
       "facts": {
-        "priceEur": 350000,
+        "priceEur": 330000,
         "areaHabitableM2": null,
         "areaWalkableM2": null,
         "areaCommercialM2": null,
-        "areaNotes": "240 m² complessivi riferiti al progetto; la superficie abitativa finale non è separata.",
+        "areaNotes": "240 m² complessivi dichiarati. Superficie abitativa finale da verificare.",
         "gardenM2": null,
         "landM2": null,
         "parking": "Due posti auto.",
-        "floors": null,
+        "floors": "Tre livelli descritti nel progetto.",
         "bedrooms": null,
         "bathrooms": null,
-        "condition": "Da ristrutturare, con progetto approvato secondo la chat.",
+        "condition": "Da ristrutturare. L’agenzia dichiara approvata la pratica edilizia.",
         "energy": null,
         "bus": "Più fermate indicate a 40–50 m.",
         "highlights": [
@@ -3887,31 +3946,63 @@
           "Progetto approvato di ristrutturazione."
         ],
         "limitations": [
-          "Giardino presente ma metratura non dichiarata.",
-          "I 240 m² non sono una superficie abitativa finale documentata.",
-          "Distinguere edificio esistente e progetto di ristrutturazione."
+          "Metratura del giardino da verificare.",
+          "I 240 m² non indicano una superficie abitativa finale certificata.",
+          "Tre camere e tre bagni appartengono al progetto. I render illustrano una possibile realizzazione."
         ],
-        "description": "Villa da ristrutturare in Strada di Fiume con progetto approvato, due posti auto e fermate indicate a 40–50 metri. I 240 m² si riferiscono al progetto complessivo; abitazione finale e giardino non sono quantificati separatamente."
+        "description": "Villa indipendente da ristrutturare con giardino privato, due posti auto e pratica edilizia approvata. Il progetto distribuisce tre camere e tre bagni su tre livelli. Il prezzo riguarda l’acquisto dell’immobile e i lavori sono a carico dell’acquirente.",
+        "works": "Il prezzo esclude i lavori di ristrutturazione."
       },
       "availability": {
-        "status": "archived",
-        "checkedAt": "2026-11-15T09:45:35.934105+01:00",
-        "reason": "Nessuna fonte online fresca leggibile individuata nell’ultimo controllo. Questo stato non certifica la vendita o il ritiro dell’immobile.",
-        "verifiedSources": []
-      },
-      "model": {
-        "status": "not_required",
-        "path": null,
-        "views": [],
-        "notes": [
-          "Scheda storica conservata; nessun nuovo modello viene costruito per un annuncio archiviato."
+        "status": "published",
+        "checkedAt": "2026-11-16T21:22:14+01:00",
+        "reason": "Annuncio identificativo consultato online con dati corrispondenti all’immobile.",
+        "verifiedSources": [
+          {
+            "url": "https://www.trovacasa.it/annunci/ts-tc-47380-72725085",
+            "title": "Hometrieste San Vito · Strada di Fiume 370",
+            "price": "€ 330.000",
+            "details": "Villa da riqualificare con progetto approvato, giardino e 2 posti auto. Lavori esclusi dal prezzo."
+          }
         ]
       },
+      "model": {
+        "status": "ready",
+        "path": "modelli/strada-di-fiume-370.html",
+        "views": [
+          {
+            "id": "view-0",
+            "label": "Fronte dal giardino"
+          },
+          {
+            "id": "view-1",
+            "label": "Scala e terrazza"
+          }
+        ],
+        "coverage": "exterior_only",
+        "unrenderedVolumes": [
+          "Interni dello stato attuale, al piano terra, al piano principale e nella mansarda, compresi i collegamenti fra piani.",
+          "Profondità e configurazione interna del vano sotto la terrazza, oltre all’imbocco fotografato.",
+          "Distribuzione, scala interna, arredi, impianti e altre opere previste dal progetto di ristrutturazione, e sistemazione futura del giardino.",
+          "Serramenti e dettagli delle facciate non leggibili, confini del giardino e fabbricati vicini."
+        ],
+        "notes": [
+          "Ricostruzione degli esterni documentati prima della ristrutturazione. Sagoma, quote, pendenze e dettagli degli esterni sono stimati dalle fotografie.",
+          "Balcone, scala e fronte del vano sotto terrazza corrispondono allo stato attuale fotografato. Il vano è rappresentato soltanto all’imbocco.",
+          "Le pareti sui lati poco leggibili chiudono schematicamente il volume. Non ne sono ricostruiti i serramenti.",
+          "Le tre tavole dell’annuncio descrivono la proposta di ristrutturazione. La suddivisione della mansarda in tavola non corrisponde allo spazio aperto fotografato.",
+          "Terreno indicativo nell’area visibile davanti all’edificio. Le quote del terreno, i confini, le pertinenze e le distanze non sono rilevati."
+        ],
+        "verifiedAt": "2026-11-16T21:30:16.184462+01:00",
+        "artifactSha256": "d4bb18219bbda98b600e0d5624642f7127e0244df54cf31bb08dbd990240f174",
+        "sourcePlans": [],
+        "preview": "assets/strada-di-fiume-370.jpg"
+      },
       "evidence": {
-        "listingReadAt": "2026-11-15T09:45:35.934105+01:00",
+        "listingReadAt": "2026-11-16T21:22:14+01:00",
         "sourceUpdatedAt": null,
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 15 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
+        "note": "Dati aggiornati dalla scheda identificativa dell’immobile. Le misure o caratteristiche non confermate sono indicate nella scheda."
       }
     },
     {
@@ -4030,8 +4121,8 @@
       "locality": "Trieste",
       "address": "Via dei Gravisi 4",
       "sourceUrls": [
-        "https://www.immobiliare.it/annunci/133161332/",
-        "https://www.trovacasa.it/annunci/ts-tc-67991-73397489"
+        "https://www.trovacasa.it/annunci/ts-tc-67991-73397489",
+        "https://www.immobiliare.it/annunci/133161332/"
       ],
       "historicalPrices": [
         {
@@ -4041,11 +4132,11 @@
         }
       ],
       "facts": {
-        "priceEur": 490000,
+        "priceEur": null,
         "areaHabitableM2": 153,
         "areaWalkableM2": null,
         "areaCommercialM2": 237,
-        "areaNotes": "La ricerca precedente distingue 153 m² di abitazione al primo piano e 92 m² di cantina/deposito al piano terra. Il portale attivo riporta 237 m² e giardino circa 500 m², rispetto ai 496 m² della scheda precedente; non sono superfici nette certificate.",
+        "areaNotes": "L’annuncio riporta 237 m² complessivi e circa 500 m² di giardino. La scheda precedente indicava 153 m² di abitazione, 92 m² di cantina o deposito e 496 m² di giardino.",
         "gardenM2": 496,
         "landM2": null,
         "parking": "Garage e fino a tre posti auto.",
@@ -4056,23 +4147,30 @@
         "energy": "Non disponibile nella fonte verificata.",
         "bus": "Fermata Via Flavia/Gravisi indicata a pochi passi, servita da numerose linee.",
         "highlights": [
-          "Villa unifamiliare a Sant'Anna.",
-          "Giardino/uliveto.",
-          "Annuncio descritto come nuovo o aggiornato al 3 ottobre 2026.",
-          "Riscaldamento dichiarato: Autonomo, a radiatori, alimentato a gas"
+          "Villa unifamiliare a Sant’Anna.",
+          "Giardino con ulivi.",
+          "Riscaldamento autonomo a radiatori indicato nella scheda precedente."
         ],
         "limitations": [
           "Il piano terra non è attualmente un secondo appartamento abitabile.",
-          "La superficie abitativa 153 m² e il giardino 496 m² provengono dalla precedente segnalazione; il portale attuale indica 237 m² totali e circa 500 m² di giardino.",
+          "L’ultimo prezzo numerico pubblicato è conservato nello storico.",
           "Percorso pedonale al bus e classe energetica da confermare."
         ],
-        "description": "Casa indipendente in Via dei Gravisi 4, a 490.000 €, con abitazione al piano superiore, giardino/uliveto circa 500 m², box e posti auto. Il piano terra è deposito/commerciale: la trasformazione in secondo appartamento richiede cambio di destinazione d’uso. Da rimodernare."
+        "description": "Casa indipendente a Sant’Anna con abitazione al piano superiore, giardino con ulivi, box e posti auto. Il piano terra è deposito o locale commerciale. L’eventuale conversione richiede un cambio di destinazione d’uso. Il prezzo è su richiesta.",
+        "priceOnRequest": true
       },
       "availability": {
-        "status": "archived",
-        "checkedAt": "2026-11-15T09:46:05.351441+01:00",
-        "reason": "Nessuna fonte online fresca leggibile individuata nell’ultimo controllo. Questo stato non certifica la vendita o il ritiro dell’immobile.",
-        "verifiedSources": []
+        "status": "published",
+        "checkedAt": "2026-11-16T21:22:14+01:00",
+        "reason": "Annuncio identificativo consultato online con dati corrispondenti all’immobile.",
+        "verifiedSources": [
+          {
+            "url": "https://www.trovacasa.it/annunci/ts-tc-67991-73397489",
+            "title": "Immobili Senza Confini · Via dei Gravisi 4",
+            "price": "Prezzo su richiesta",
+            "details": "Villa di 237 m², riferimento 133161332, con giardino e box."
+          }
+        ]
       },
       "model": {
         "status": "ready",
@@ -4130,10 +4228,10 @@
         "preview": "assets/via-dei-gravisi-4.jpg"
       },
       "evidence": {
-        "listingReadAt": "2026-11-15T09:46:05.351441+01:00",
+        "listingReadAt": "2026-11-16T21:22:14+01:00",
         "sourceUpdatedAt": null,
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 15 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
+        "note": "Dati aggiornati dalla scheda identificativa dell’immobile. Le misure o caratteristiche non confermate sono indicate nella scheda."
       }
     },
     {
@@ -5405,18 +5503,26 @@
       "locality": "Muggia",
       "address": "Via di Santa Barbara — villa con parco",
       "sourceUrls": [
+        "https://www.portaleagenzieimmobiliari.it/32535926-vendita-muggia-villa-bifamiliare-510000-euro-doppi-servizi",
         "https://www.casa.it/immobili/54894377/",
-        "https://www.idealista.it/vendita-case/muggia-trieste/con-dimensione_120%2Cville/"
+        "https://www.idealista.it/vendita-case/muggia-trieste/con-dimensione_120%2Cville/",
+        "https://www.immobiliare.it/annunci/134093011/",
+        "https://www.casa.it/immobili/55099348/"
       ],
       "historicalPrices": [
         {
           "priceEur": 529000,
           "date": "2026-10-18",
           "source": "chat"
+        },
+        {
+          "priceEur": 510000,
+          "date": "2026-11-16",
+          "source": "https://www.portaleagenzieimmobiliari.it/32535926-vendita-muggia-villa-bifamiliare-510000-euro-doppi-servizi"
         }
       ],
       "facts": {
-        "priceEur": 529000,
+        "priceEur": 510000,
         "areaHabitableM2": null,
         "areaWalkableM2": null,
         "areaCommercialM2": 204,
@@ -5442,24 +5548,49 @@
         "works": null
       },
       "availability": {
-        "status": "archived",
-        "checkedAt": "2026-11-15T09:46:55.400145+01:00",
-        "reason": "Nessuna fonte online fresca leggibile individuata nell’ultimo controllo. Questo stato non certifica la vendita o il ritiro dell’immobile.",
-        "verifiedSources": []
-      },
-      "model": {
-        "status": "not_required",
-        "path": null,
-        "views": [],
-        "notes": [
-          "Scheda storica conservata; nessun nuovo modello viene costruito per un annuncio archiviato."
+        "status": "published",
+        "checkedAt": "2026-11-16T21:22:14+01:00",
+        "reason": "Annuncio identificativo consultato online con dati corrispondenti all’immobile.",
+        "verifiedSources": [
+          {
+            "url": "https://www.portaleagenzieimmobiliari.it/32535926-vendita-muggia-villa-bifamiliare-510000-euro-doppi-servizi",
+            "title": "L’Igloo Immobiliare · Villa con parco a Santa Barbara, Muggia",
+            "price": "€ 510.000",
+            "details": "Villa su due piani, parco di circa 1.800 m², box doppio, due bagni e classe E."
+          }
         ]
       },
+      "model": {
+        "status": "ready",
+        "path": "modelli/via-di-santa-barbara-parco.html",
+        "views": [
+          {
+            "id": "exterior",
+            "label": "Esterno fotografico"
+          }
+        ],
+        "coverage": "exterior_only",
+        "unrenderedVolumes": [
+          "Interni del piano superiore e dell’intero piano inferiore accessorio, inclusa la scala interna: nessuna planimetria nella galleria pubblica letta.",
+          "Interno del garage doppio di 45 m² e centrale termica: la scena mostra soltanto i fronti esterni fotografati.",
+          "Parco di circa 1.800 m², laghetti, confini e accessi lontani: non rilevabili nelle fotografie in modo affidabile.",
+          "Unità confinante e raccordo sul retro: geometria non documentata."
+        ],
+        "notes": [
+          "Sagoma, profondità, altezze, colmo, arretramento del box e scala complessiva stimati da più facciate e aperture, senza quote misurate.",
+          "Falda con pannelli, gronde di legno, due comignoli, pietra del piano basso, intonaco superiore, tettoia a coppi, portico e dislivello del giardino seguono le foto; le porzioni nascoste sono semplificate.",
+          "Chiusura posteriore indicativa, senza ricostruire la casa confinante. Terreno rappresentato solo nei pressi del fabbricato."
+        ],
+        "verifiedAt": "2026-11-16T21:30:31+01:00",
+        "artifactSha256": "cb1ccc07a1a6cbb8863a5f3b643f4df09a8944d1be15d30daaa4c088266ec096",
+        "sourcePlans": [],
+        "preview": "assets/via-di-santa-barbara-parco.jpg"
+      },
       "evidence": {
-        "listingReadAt": "2026-11-15T09:46:55.400145+01:00",
-        "sourceUpdatedAt": "2026-10-07",
+        "listingReadAt": "2026-11-16T21:22:14+01:00",
+        "sourceUpdatedAt": null,
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 15 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
+        "note": "Dati aggiornati dalla scheda identificativa dell’immobile. Le misure o caratteristiche non confermate sono indicate nella scheda."
       }
     },
     {
@@ -6412,6 +6543,7 @@
       "locality": "Scorcola, Trieste",
       "address": "Via Marco Valerio Marziale 15/2",
       "sourceUrls": [
+        "https://www.trovacasa.it/annunci/ts-tc-19779-71738778",
         "https://www.immobiliare.it/annunci/129341838/"
       ],
       "historicalPrices": [
@@ -6419,10 +6551,15 @@
           "priceEur": 599000,
           "date": "2026-10-25",
           "source": "https://www.immobiliare.it/annunci/129341838/"
+        },
+        {
+          "priceEur": 579000,
+          "date": "2026-11-16",
+          "source": "https://www.trovacasa.it/annunci/ts-tc-19779-71738778"
         }
       ],
       "facts": {
-        "priceEur": 599000,
+        "priceEur": 579000,
         "areaHabitableM2": 238,
         "areaWalkableM2": null,
         "areaCommercialM2": 238,
@@ -6449,14 +6586,14 @@
       },
       "availability": {
         "status": "published",
-        "checkedAt": "2026-11-15T09:47:35.813206+01:00",
-        "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
+        "checkedAt": "2026-11-16T21:22:14+01:00",
+        "reason": "Annuncio identificativo consultato online con dati corrispondenti all’immobile.",
         "verifiedSources": [
           {
-            "url": "https://www.immobiliare.it/annunci/129341838/",
-            "title": "Vendita Villa a schiera  in via Marco Valerio Marziale 15/2 Trieste. Ottimo stato, posto auto, con terrazza, riscaldamento autonomo, 238 m², rif. 129341838",
-            "price": "€ 599.000",
-            "details": "o al centro città. Le soluzioni trilocali con doppio sfogo esterno, caminetto e una vista mare così incant"
+            "url": "https://www.trovacasa.it/annunci/ts-tc-19779-71738778",
+            "title": "Studio Immobiliare Benedetti · Via Marco Valerio Marziale 15/2",
+            "price": "€ 579.000",
+            "details": "Villetta di 238 m² dichiarati su tre livelli, con terrazze vista mare, giardino e box."
           }
         ]
       },
@@ -6512,10 +6649,10 @@
         "preview": "assets/via-marco-valerio-marziale-15-2.jpg"
       },
       "evidence": {
-        "listingReadAt": "2026-11-15T09:47:35.813206+01:00",
-        "sourceUpdatedAt": "2026-05-25",
+        "listingReadAt": "2026-11-16T21:22:14+01:00",
+        "sourceUpdatedAt": null,
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 15 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
+        "note": "Dati aggiornati dalla scheda identificativa dell’immobile. Le misure o caratteristiche non confermate sono indicate nella scheda."
       }
     },
     {

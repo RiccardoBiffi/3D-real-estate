@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogSha256": "bac2ca634ceb8efabf9faee57016b236356f29e294de45da2b0532e963f1ab9c",
+  "catalogSha256": "988ea37c407ff2fcd92e71424c083661beb73791ffb87e4f9f45929b7ddcc51e",
   "models": [
     {
       "id": "via-risano-raute",
@@ -79,6 +79,12 @@
       "path": "modelli/trebiciano-130356648.html",
       "sha256": "fb32f847591c8d03a2a141e38ed33c9fad55276953ad230545a08b3cabeae9ac",
       "coverage": "complete"
+    },
+    {
+      "id": "salita-di-raute-50-1",
+      "path": "modelli/salita-di-raute-50-1.html",
+      "sha256": "df35c77b0fa6414711b5cd7a53964bff2b6a83189c41de900fe5ba91660bfcdb",
+      "coverage": "partial"
     },
     {
       "id": "via-gianelli-18",
@@ -177,6 +183,12 @@
       "coverage": "partial"
     },
     {
+      "id": "strada-di-fiume-370",
+      "path": "modelli/strada-di-fiume-370.html",
+      "sha256": "d4bb18219bbda98b600e0d5624642f7127e0244df54cf31bb08dbd990240f174",
+      "coverage": "exterior_only"
+    },
+    {
       "id": "via-monte-carso",
       "path": "modelli/via-monte-carso.html",
       "sha256": "876dfcf9f0c01dd481a891459c9ef7ac1308b337ba0e56a816f15a1ee99572b9",
@@ -247,6 +259,12 @@
       "path": "modelli/via-dei-calderai-15.html",
       "sha256": "552d41e192af49432498cc94c23718424f65d1867c6dedbb7e9378e0d6eed0b5",
       "coverage": "partial"
+    },
+    {
+      "id": "via-di-santa-barbara-parco",
+      "path": "modelli/via-di-santa-barbara-parco.html",
+      "sha256": "cb1ccc07a1a6cbb8863a5f3b643f4df09a8944d1be15d30daaa4c088266ec096",
+      "coverage": "exterior_only"
     },
     {
       "id": "zolla-60",
@@ -382,7 +400,7 @@
     }
   ],
   "files": {
-    "app.js": "7aec76ac803323788f3abbeeba6c92ff1365bb6d0fe204b29169cb1b52f39bed",
+    "app.js": "9676f406a4ab0bc39f44b85e0459cc77c743d6304f10335555ea7b663cc4af83",
     "assets/aurisina-cave-77-b.jpg": "357cc7966d36585836ab5f27751f082960ecb94d4b1aa59e4a973e00ba5a917d",
     "assets/aurisina.jpg": "1518e127584b20648f2fdaff3e036dfadb0a3f90095abfbc6978b3ddc0e98416",
     "assets/banne-202.jpg": "a25f9599a91b3bb40b512c75d85606a62c1ea757b75b5c792f964c475b7b306e",
@@ -408,10 +426,12 @@
     "assets/opicina-trifamiliare-tecnocasa-preview.jpg": "32e57e9aa8e3ecd72a606f4aff6fa6c115b6218fefa154636143d1936514fdea",
     "assets/opicina-villa-126111987.jpg": "b301c1ae357bc830355e992b5b06d0a691122296c1921efef4a3edcb52f948c9",
     "assets/repen-monrupino.jpg": "2f6e2c32be5a10e12929f8c448f99ce259a185037540dc4b7de4d7af51d29a9b",
+    "assets/salita-di-raute-50-1.jpg": "a47b89bf1fc18fd3c04edceac6621f24f7a5b946ca3234bae9e73d4fbe8c5bd0",
     "assets/sant-antonio-in-bosco.jpg": "c007a502c5a1bd0d172308ec8bfb6d297942bb4f4adc6b00a2a795f211b194d5",
     "assets/santa-croce-745.jpg": "f0eff8b5adad5782ca1dcfe0df2a591be1420731a839dab30c4f485fbf198a5c",
     "assets/santa-croce-75.jpg": "cfff1837a0fd927b8e285f1ee214a4d31324f5728215f5f55067a9e8e96b4e9a",
     "assets/sistiana-10.jpg": "2e5edb01af8dc513368310b64edd84006642d5e5736d52c4e8471376af3e7b16",
+    "assets/strada-di-fiume-370.jpg": "6638f53f4bf60915409cc9279df1efb54e512555e7070ca5fcb329ed719b7841",
     "assets/timignano-26.jpg": "de37376b366ced88699ef7c09f5233ab97f15b295dbfa267ba64719ff7075ce7",
     "assets/trebiciano-130356648.jpg": "19edababc7797fa7b0c67884b1dd2905fc3a707b5cc79f98270b0bafc091438d",
     "assets/trebiciano-257.jpg": "dd410b599d00e35fe599cc164f7a882a5d22f726e2c7079b679bf39703bb61b0",
@@ -430,6 +450,7 @@
     "assets/via-del-panorama-4.jpg": "81d0d08bf4d7681500762d84fe9b258a6153566c8dd16c788b3ccdf9c1e62ab5",
     "assets/via-dell-hermada.jpg": "f2b2380e8985b48fa793fe5a227937492703a9ee5776a7d457e1399e88d17670",
     "assets/via-dello-scoglio-173.jpg": "cfa322c3fc791706ddc75f4edd6fc637cfd37aa2f2e004c7fdf93fd9188e2cad",
+    "assets/via-di-santa-barbara-parco.jpg": "441f46af8a1a186f9c71429361ff0e8ffe99ac65b759f2fc812e62d849ee2296",
     "assets/via-di-santa-barbara.jpg": "d691f57a92b73399e782168a166975daa96d302193abb1fd55e4679243dd4bed",
     "assets/via-edgardo-morpurgo-1.jpg": "234cacdbcf40071e321f12c642c4179f04e36be819c704d5c07a84dfae168057",
     "assets/via-gianelli-18.jpg": "a3ac4ac1a159bda4563605f63f5db3f1f615c3742dd6703c652242447bcdc99f",
@@ -446,7 +467,7 @@
     "assets/via-umberto-veruda.jpg": "4cd065df3d647eb25d267fe5f48b098de7169b267dbe6ff6a5a11eb8f3d622b3",
     "assets/villa-opicina-1904.jpg": "5c2d13e271a8a15d5b3cb1651500eb16778fd29e12c2d27a5f127f9c45eccca1",
     "assets/zolla-60.jpg": "221972c9aefddffb7d355aa6f7321efc6a429aac8712dda3b150347fb36a42e0",
-    "data/catalog.json": "bac2ca634ceb8efabf9faee57016b236356f29e294de45da2b0532e963f1ab9c",
+    "data/catalog.json": "988ea37c407ff2fcd92e71424c083661beb73791ffb87e4f9f45929b7ddcc51e",
     "index.html": "0fd28b81356c904812dd7f2217221485feb77c4178da199a7150a79c6d0671d5",
     "modelli/aurisina-cave-77-b.html": "e0bc0816b7c5f0caa7e5b41d5570098d50d71dc2c0a0c074dbe4f11cfa6083db",
     "modelli/aurisina.html": "f0fd039a9ffa7a3af5bfacdec647f0e900e7eb97622d23bff46e64761e885c97",
@@ -473,10 +494,12 @@
     "modelli/opicina-villa-126111987.html": "b53a87868aaf810d2330f906e0bee781960133e4d53e1b3bfa7977231fc3158e",
     "modelli/opicina-villa-legno-133801130.html": "e0d2fc3d80d0b2efda850409cce23a8038293713d2bce428b57da4be13a032c0",
     "modelli/repen-monrupino.html": "2b2002bb4a5fa01c2fee543585c419a736ce143b158083d7e194b9f52ecb80a4",
+    "modelli/salita-di-raute-50-1.html": "df35c77b0fa6414711b5cd7a53964bff2b6a83189c41de900fe5ba91660bfcdb",
     "modelli/sant-antonio-in-bosco.html": "8f94ba5f30ca75943167f3fbefaaa4669df35a099510e501c99e53d28d49e6ea",
     "modelli/santa-croce-745.html": "63d4b6a459aba0c25f2dacfcc1d2a5b4ddb9554f9e8b4969c10ee2035e909312",
     "modelli/santa-croce-75.html": "9b34c9838d857e689a453dc5eacc168f6302d12a83b190ca8da6c1da9a4ff962",
     "modelli/sistiana-10.html": "5b66af265d6015c3db325fc99dff0330d2a57018b76ae7108f576be2d6a812a0",
+    "modelli/strada-di-fiume-370.html": "d4bb18219bbda98b600e0d5624642f7127e0244df54cf31bb08dbd990240f174",
     "modelli/timignano-26.html": "04af1db21232436f1c7d971837baf49a1fababf5f31c42c6de409891811f1a11",
     "modelli/trebiciano-130356648.html": "fb32f847591c8d03a2a141e38ed33c9fad55276953ad230545a08b3cabeae9ac",
     "modelli/trebiciano-257.html": "247522403da396f735211cfbd227f66c931aa1fa4ec9b0daf2203511e9bf9123",
@@ -495,6 +518,7 @@
     "modelli/via-del-panorama-4.html": "1b76d7fc6bf170ccbd6f160f3b73096c4f86be2c7528f2a3e54d136860d6c00e",
     "modelli/via-dell-hermada.html": "4ca9a54f0c16f4b2122b03a6aa5cc33ad262efa813d0e8d8723e5d29447e6d69",
     "modelli/via-dello-scoglio-173.html": "09affd7a97697f4fa40025a4eca394d46186b7f1f7d8f53b6c6d44c0dfd5d789",
+    "modelli/via-di-santa-barbara-parco.html": "cb1ccc07a1a6cbb8863a5f3b643f4df09a8944d1be15d30daaa4c088266ec096",
     "modelli/via-di-santa-barbara.html": "1b634943d34d17e055c0c5063e74856fb476b92f4a78a2e194ca5de92f130b7d",
     "modelli/via-edgardo-morpurgo-1.html": "dff6897df86cf25bf61fcd188220c285d27b2a30489ef39c9e5791351407a4f7",
     "modelli/via-gianelli-18.html": "ec934fd9b07385f92e49c85e907ebbad6248fc034f08acf9521a8568328c7648",

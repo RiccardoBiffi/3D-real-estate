@@ -25,7 +25,17 @@ with sync_playwright() as pw:
   page.locator('#model-filter').select_option('ready')
   checks['ready_filter']=page.locator('.property-card').count()==sum(x['model']['status']=='ready' for x in published)
   for pid in a.ids:
-   model=properties[pid]['model'];assert model['status']=='ready';page.evaluate('(id)=>location.hash=id',pid);page.wait_for_function("(path)=>{const f=document.querySelector('iframe');return f && new URL(f.src).pathname.endsWith(path) && f.contentWindow.__sceneState?.ready}",arg=model['path'],timeout=60000)
+   model=properties[pid]['model'];assert model['status']=='ready';page.evaluate('(id)=>location.hash=id',pid)
+   page.wait_for_function("""path => {
+     const frame = document.querySelector('iframe');
+     if (!frame || !new URL(frame.src).pathname.endsWith(path)) return false;
+     try {
+       return frame.contentWindow.__sceneState?.ready;
+     } catch (error) {
+       if (error.name !== 'SecurityError') throw error;
+       return false;
+     }
+   }""",arg=model['path'],timeout=60000)
    checks[pid+'_one_frame']=page.locator('iframe').count()==1;checks[pid+'_actual_views']=page.locator('#view-select option').count()==len(model['views'])
    if model['coverage']!='complete':
     text=page.locator('#model-coverage').inner_text();checks[pid+'_omissions_visible']=page.locator('#model-coverage').is_visible() and all(v in text for v in model['unrenderedVolumes'])
