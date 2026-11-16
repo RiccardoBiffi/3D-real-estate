@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-16T18:43:27.536429+01:00",
+  "updatedAt": "2026-11-16T19:03:52.612903+01:00",
   "properties": [
     {
       "id": "via-risano-raute",
@@ -55,13 +55,55 @@
         ]
       },
       "model": {
-        "status": "awaiting_plans",
-        "path": null,
-        "views": [],
+        "status": "ready",
+        "path": "modelli/via-risano-raute.html",
+        "views": [
+          {
+            "id": "exterior",
+            "label": "Porzione della bifamiliare · involucro ricostruito"
+          },
+          {
+            "id": "ground",
+            "label": "Piano terra · appartamento"
+          },
+          {
+            "id": "workshop",
+            "label": "Area coperta · intercapedine da tavola"
+          },
+          {
+            "id": "basement",
+            "label": "Seminterrato · taverna e vani accessori"
+          }
+        ],
+        "coverage": "partial",
+        "unrenderedVolumes": [
+          "Scala a chiocciola e scale esterne: raccordi non ricostruiti.",
+          "Area coperta a uso laboratorio / intercapedine: ricostruita in vista autonoma. Sagoma della copertura e relazione verticale con l’edificio non verificate.",
+          "Unità adiacente della bifamiliare e porzioni superiori fuori dall’annuncio: escluse.",
+          "Confini effettivi, uliveto a pastini e parcheggi oltre il cortile non ricostruiti."
+        ],
         "notes": [
-          "Ricostruzione da preparare: le parti documentate potranno essere pubblicate anche con volumi mancanti, esplicitamente elencati. Senza piante utilizzabili, fotografie sufficienti consentono una ricostruzione dei soli esterni.",
-          "Nessuna planimetria identificativa scaricabile è esposta nelle letture pubbliche acquisite; non ricostruire interni da sole foto o descrizioni."
-        ]
+          "Piante depurate dal contesto estraneo all’unità. Scala di ciascuna tavola stimata uniformemente allineando i lati principali, altezze 2.70/3.00 dalle tavole.",
+          "La piscina Laghetto è presente nelle fotografie dell’annuncio e appare come bacino fuori terra; quote e dimensioni sono stimate.",
+          "La vista esterna termina con un piano di taglio sopra la porzione in vendita. I volumi soprastanti restano fuori perimetro."
+        ],
+        "verifiedAt": "2026-11-16T18:46:48.656318+01:00",
+        "artifactSha256": "3ee4e2de8c73e2637b825fa53eb411ae872d4782fdc465def2ac282c74136063",
+        "sourcePlans": [
+          {
+            "url": "https://pic.im-cdn.it/plan/117551343/xxl.jpg",
+            "label": "Planimetria 1"
+          },
+          {
+            "url": "https://pic.im-cdn.it/plan/117551347/xxl.jpg",
+            "label": "Planimetria 2"
+          },
+          {
+            "url": "https://pic.im-cdn.it/plan/117551349/xxl.jpg",
+            "label": "Planimetria 3"
+          }
+        ],
+        "preview": "assets/via-risano-raute.jpg"
       },
       "evidence": {
         "listingReadAt": "2026-11-15T09:43:16.319252+01:00",
@@ -310,13 +352,62 @@
         ]
       },
       "model": {
-        "status": "awaiting_plans",
-        "path": null,
-        "views": [],
+        "status": "ready",
+        "path": "modelli/repen-monrupino.html",
+        "views": [
+          {
+            "id": "exterior",
+            "label": "Esterno delle parti documentate"
+          },
+          {
+            "id": "upper",
+            "label": "Piano superiore · stanze e terrazza"
+          },
+          {
+            "id": "living",
+            "label": "Piano abitativo · soggiorno, cucina e servizi"
+          },
+          {
+            "id": "garage",
+            "label": "Autorimessa · vista autonoma"
+          },
+          {
+            "id": "cellars",
+            "label": "Cantina e centrale termica · vista autonoma"
+          }
+        ],
+        "coverage": "partial",
+        "unrenderedVolumes": [
+          "Raccordi verticali tra i quattro tagli e rampe interne o esterne: ingombri riconoscibili, esecuzione e quote dei collegamenti non verificate.",
+          "Contorni esatti del parco e parte di terreno fuori dalle facciate documentate esclusi.",
+          "Eventuale piscina è un’opzione descritta dall’agenzia e non è inclusa."
+        ],
         "notes": [
-          "Ricostruzione da preparare: le parti documentate potranno essere pubblicate anche con volumi mancanti, esplicitamente elencati. Senza piante utilizzabili, fotografie sufficienti consentono una ricostruzione dei soli esterni.",
-          "Nessuna planimetria identificativa scaricabile è esposta nelle letture pubbliche acquisite; non ricostruire interni da sole foto o descrizioni."
-        ]
+          "Tre tavole fotografiche; quella con due piante è tracciata separatamente per ciascun livello. Scala stimata uniformemente su ciascun documento. Cantine e autorimessa presentate come viste autonome.",
+          "Esterno da galleria esatta Noi Donne, foto 00–04, 09–16. Falde e quote esterne stimate.",
+          "Piante mostrate autonomamente, involucro esterno separato sulla base del prospetto e dell’aerea, con falda bassa e loggia di copertura arretrata; nessuna corrispondenza verticale presunta."
+        ],
+        "verifiedAt": "2026-11-16T19:01:37.629039+01:00",
+        "artifactSha256": "2b2002bb4a5fa01c2fee543585c419a736ce143b158083d7e194b9f52ecb80a4",
+        "sourcePlans": [
+          {
+            "url": "https://noidonneimmobiliare.eu/wp-content/uploads/2026/05/WhatsApp-Image-2026-05-20-at-10.29.49.jpeg",
+            "label": "Planimetria 1"
+          },
+          {
+            "url": "https://noidonneimmobiliare.eu/wp-content/uploads/2026/05/WhatsApp-Image-2026-05-20-at-10.30.04.jpeg",
+            "label": "Planimetria 2"
+          },
+          {
+            "url": "https://noidonneimmobiliare.eu/wp-content/uploads/2026/05/WhatsApp-Image-2026-05-20-at-10.30.04.jpeg",
+            "label": "Planimetria 3"
+          },
+          {
+            "url": "https://noidonneimmobiliare.eu/wp-content/uploads/2026/05/WhatsApp-Image-2026-05-20-at-10.30.04-1.jpeg",
+            "label": "Planimetria 4"
+          }
+        ],
+        "preview": "assets/repen-monrupino.jpg"
       },
       "evidence": {
         "listingReadAt": "2026-11-15T09:43:24.912936+01:00",
@@ -2283,13 +2374,28 @@
         ]
       },
       "model": {
-        "status": "awaiting_plans",
-        "path": null,
-        "views": [],
+        "status": "ready",
+        "path": "modelli/trebiciano-257.html",
+        "views": [
+          {
+            "id": "exterior",
+            "label": "Esterno delle parti documentate"
+          }
+        ],
+        "coverage": "exterior_only",
+        "unrenderedVolumes": [
+          "Interni della casa su tutti i livelli, mansarda e collegamenti: nessuna pianta acquisita.",
+          "Piscina interna, taverna e autorimessa: presenti nelle foto e annuncio, ma interni non ricostruiti.",
+          "Pertinenze, limite dell’unità accostata e sviluppo del terreno non verificabili."
+        ],
         "notes": [
-          "Ricostruzione da preparare: le parti documentate potranno essere pubblicate anche con volumi mancanti, esplicitamente elencati. Senza piante utilizzabili, fotografie sufficienti consentono una ricostruzione dei soli esterni.",
-          "Nessuna planimetria identificativa scaricabile è esposta nelle letture pubbliche acquisite; non ricostruire interni da sole foto o descrizioni."
-        ]
+          "Falde, facciate, quota dei serramenti e portico stimati osservando le foto esterne 00–07 e 25. Nessuna pianta acquisita.",
+          "Le zone non fotografate sono inviluppi semplificati e senza aperture inventate."
+        ],
+        "verifiedAt": "2026-11-16T18:46:44.721276+01:00",
+        "artifactSha256": "247522403da396f735211cfbd227f66c931aa1fa4ec9b0daf2203511e9bf9123",
+        "sourcePlans": [],
+        "preview": "assets/trebiciano-257.jpg"
       },
       "evidence": {
         "listingReadAt": "2026-11-15T09:44:49.349811+01:00",
@@ -4578,13 +4684,62 @@
         ]
       },
       "model": {
-        "status": "awaiting_plans",
-        "path": null,
-        "views": [],
+        "status": "ready",
+        "path": "modelli/via-di-santa-barbara.html",
+        "views": [
+          {
+            "id": "exterior",
+            "label": "Involucro parziale · geometria di tavola"
+          },
+          {
+            "id": "attic",
+            "label": "Sottotetto · soffitte e terrazze di tavola"
+          },
+          {
+            "id": "first",
+            "label": "Primo piano · distribuzione di tavola"
+          },
+          {
+            "id": "ground",
+            "label": "Piano terra · accessi e vano tecnico"
+          },
+          {
+            "id": "basement",
+            "label": "Interrato · cantina, lavanderia e ripostiglio"
+          }
+        ],
+        "coverage": "partial",
+        "unrenderedVolumes": [
+          "Due garage citati nell’annuncio: non identificabili come volumi chiusi nelle tavole pubblicate, che mostrano portici e parcheggi.",
+          "Scale interne ed esterne e raccordi verticali: soltanto ingombri leggibili, rampe non ricostruite.",
+          "Piscina, sistemazioni del giardino e finiture previste: escluse perché indicate come progetto.",
+          "Confini esatti e stato di completamento delle parti non fotografate: non verificabili."
+        ],
         "notes": [
-          "Ricostruzione da preparare: le parti documentate potranno essere pubblicate anche con volumi mancanti, esplicitamente elencati. Senza piante utilizzabili, fotografie sufficienti consentono una ricostruzione dei soli esterni.",
-          "La fonte acquisita non espone piante identificative complete e scaricabili, o non è leggibile con gli accessi disponibili. Servono tutte le piante dello stato attuale, compresi piani accessori, scale e corpi separati descritti nell’annuncio."
-        ]
+          "Distribuzioni di tavola, scala uniforme derivata dalla larghezza 12.70 m. Planimetrie distinte dallo stato fotografato; finiture e arredi di progetto non impiegati.",
+          "Interrato e sottotetto sono viste autonome. Sagoma di copertura dedotta dalla tavola tetto, con due abbaini e una terrazza a tasca. Involucro e finiture restano semplificati."
+        ],
+        "verifiedAt": "2026-11-16T18:52:33.132625+01:00",
+        "artifactSha256": "1b634943d34d17e055c0c5063e74856fb476b92f4a78a2e194ca5de92f130b7d",
+        "sourcePlans": [
+          {
+            "url": "https://pic.im-cdn.it/plan/135835172/xxl.jpg",
+            "label": "Planimetria 1"
+          },
+          {
+            "url": "https://pic.im-cdn.it/plan/135835178/xxl.jpg",
+            "label": "Planimetria 2"
+          },
+          {
+            "url": "https://pic.im-cdn.it/plan/135835114/xxl.jpg",
+            "label": "Planimetria 3"
+          },
+          {
+            "url": "https://pic.im-cdn.it/plan/135835130/xxl.jpg",
+            "label": "Planimetria 4"
+          }
+        ],
+        "preview": "assets/via-di-santa-barbara.jpg"
       },
       "evidence": {
         "listingReadAt": "2026-11-15T09:46:08.300197+01:00",
@@ -7343,13 +7498,51 @@
         ]
       },
       "model": {
-        "status": "in_review",
-        "path": null,
-        "views": [],
+        "status": "ready",
+        "path": "modelli/conconello-69-1.html",
+        "views": [
+          {
+            "id": "view-0",
+            "label": "Primo piano — zona abitativa, h 2,60 m"
+          },
+          {
+            "id": "view-1",
+            "label": "Sottotetto — locali accessori"
+          },
+          {
+            "id": "view-2",
+            "label": "Piano terra — portico e WC-lavanderia, h 2,28 m"
+          },
+          {
+            "id": "view-3",
+            "label": "Posto auto coperto — vista autonoma, h 2,28 m"
+          }
+        ],
+        "coverage": "partial",
+        "unrenderedVolumes": [
+          "Sviluppo verticale delle rampe e raccordi fra piani: restano i vani, le impronte e i pianerottoli leggibili.",
+          "Tetto, composizione del fronte della schiera e allineamento del posto auto alla casa.",
+          "Locali e terreni confinanti esterni alla porzione indicata."
+        ],
         "notes": [
-          "Quattro livelli/volumi impostati dalle due planimetrie pubblicate; quote verticali e facciate restano da verificare sulle fotografie.",
-          "Bozza geometrica predisposta da foto e/o planimetrie dell’esatto immobile; non esposta nella release finché il collaudo browser e il confronto geometrico non sono completati."
-        ]
+          "Pianta con tre livelli e tavola del posto auto coperto. Ogni porzione documentata è esplorabile in vista autonoma.",
+          "Le altezze 2,28 m del PT e del posto auto e 2,60 m di P1 sono quelle riportate nelle tavole.",
+          "Scala geometrica uniforme stimata dalla larghezza delle aperture. La tavola del posto auto usa una scala separata, stimata dalle dimensioni tipiche di uno stallo.",
+          "La sezione altimetrica del sottotetto è incompleta. Gli abbassamenti sono indicativi, e i locali marcati accessori mantengono questa denominazione."
+        ],
+        "verifiedAt": "2026-11-16T18:53:04.350372+01:00",
+        "artifactSha256": "57fab3df6f94f43c76ee13e622728ac51a74bd4d274e5c520b4e4bc043b33d48",
+        "sourcePlans": [
+          {
+            "url": "https://pic.im-cdn.it/plan/135334968/xxl.jpg",
+            "label": "Planimetria originale"
+          },
+          {
+            "url": "https://pic.im-cdn.it/plan/135334970/xxl.jpg",
+            "label": "Planimetria originale"
+          }
+        ],
+        "preview": "assets/conconello-69-1.jpg"
       },
       "evidence": {
         "listingReadAt": "2026-11-15T10:01:17.541322+01:00",
@@ -7416,8 +7609,7 @@
         "path": null,
         "views": [],
         "notes": [
-          "Sagoma e distribuzione impostate sulle quattro tavole del progetto; pertinenze esterne della singola unità non quantificate nell’annuncio.",
-          "Bozza geometrica predisposta da foto e/o planimetrie dell’esatto immobile; non esposta nella release finché il collaudo browser e il confronto geometrico non sono completati."
+          "In attesa di identificare la singola unità associata al prezzo. Il progetto pubblicizzato comprende più abitazioni."
         ]
       },
       "evidence": {
@@ -7565,13 +7757,42 @@
         ]
       },
       "model": {
-        "status": "in_review",
-        "path": null,
-        "views": [],
+        "status": "ready",
+        "path": "modelli/via-plinio-11.html",
+        "views": [
+          {
+            "id": "view-0",
+            "label": "Piano terra — vista autonoma, h 2,81 m"
+          },
+          {
+            "id": "view-1",
+            "label": "Primo piano — vista autonoma, h 2,76 m"
+          },
+          {
+            "id": "view-2",
+            "label": "Seminterrato — vista autonoma, h 2,25 m"
+          }
+        ],
+        "coverage": "partial",
+        "unrenderedVolumes": [
+          "Scala fra i piani: la posizione dei vani è visibile, ma l’alzata e il raccordo tridimensionale non sono verificabili. I vani e le impronte delle rampe sono conservati nelle viste.",
+          "Involucro continuo della villa accostata, copertura, giardino completo e parti comuni del complesso.",
+          "Arredi e finiture non leggibili dalla tavola."
+        ],
         "notes": [
-          "Distribuzione impostata sulla planimetria pubblicata; le fotografie dichiarate come modificate con IA non sono state usate per dedurre geometrie mancanti.",
-          "Bozza geometrica predisposta da foto e/o planimetrie dell’esatto immobile; non esposta nella release finché il collaudo browser e il confronto geometrico non sono completati."
-        ]
+          "Tre livelli ricavati dalla medesima tavola catastale e presentati in viste autonome.",
+          "Scala uniforme intorno a 0,040 m per pixel dalla barra grafica di 10 m. La tavola è ruotata di 90 gradi per la lettura e conserva le proporzioni.",
+          "Le altezze interne 2,81 m, 2,76 m e 2,25 m sono riportate sulla tavola. Le quote relative fra i livelli non sono ricostruite."
+        ],
+        "verifiedAt": "2026-11-16T18:56:34.650692+01:00",
+        "artifactSha256": "9e351e843dd540b1a8f9d05323c2bb2d097c648fdedb6b7346aa8321824b3c67",
+        "sourcePlans": [
+          {
+            "url": "https://pic.im-cdn.it/plan/136530782/xxl.jpg",
+            "label": "Planimetria originale"
+          }
+        ],
+        "preview": "assets/via-plinio-11.jpg"
       },
       "evidence": {
         "listingReadAt": "2026-11-15T10:01:17.541322+01:00",
@@ -7731,12 +7952,44 @@
         ]
       },
       "model": {
-        "status": "in_review",
-        "path": null,
-        "views": [],
+        "status": "ready",
+        "path": "modelli/opicina-villa-legno-133801130.html",
+        "views": [
+          {
+            "id": "view-0",
+            "label": "Esterno, piscina e portico"
+          },
+          {
+            "id": "view-1",
+            "label": "Piano terra della villa"
+          },
+          {
+            "id": "view-2",
+            "label": "Deposito attrezzi, vista autonoma"
+          }
+        ],
+        "coverage": "partial",
+        "unrenderedVolumes": [
+          "Confini e quote del terreno, strada privata e ricoveri accessori privi di geometria leggibile.",
+          "Posizione e raccordi del deposito attrezzi rispetto al corpo principale: ricostruzione in vista autonoma. Il bagno del magazzino descritto dall’annuncio non compare nella sua tavola ed è omesso.",
+          "Volumi accessori, terrazze e portico lato accesso non registrabili fra tavola e fotografia: sono mostrati il portico accanto alla piscina e il corpo principale.",
+          "Arredi, stratigrafia e altezze variabili interne sotto la falda: resa semplificata delle pareti e riferimento alla sagoma di copertura fotografata."
+        ],
         "notes": [
-          "Volumi esterni impostati dalle fotografie e dalle due tavole catastali/di sito; gli interni privi di una pianta distributiva leggibile sono esclusi.",
-          "Bozza geometrica predisposta da foto e/o planimetrie dell’esatto immobile; non esposta nella release finché il collaudo browser e il confronto geometrico non sono completati."
+          "Pianta della villa e del deposito ricalcate dalle tavole pubblicate. Scala uniforme stimata di 0,0556 m per pixel, ancorata alla piscina di 4,50 × 3,50 m dichiarata dall’annuncio.",
+          "Falde e fotovoltaico dal disegno della copertura e dalla foto aerea. Altezze, aperture verticali e materiali approssimati; il portico è rappresentato come struttura a lamelle."
+        ],
+        "verifiedAt": "2026-11-16T19:01:54.408225+01:00",
+        "artifactSha256": "e0d2fc3d80d0b2efda850409cce23a8038293713d2bce428b57da4be13a032c0",
+        "sourcePlans": [
+          {
+            "url": "https://pic.im-cdn.it/plan/136602442/xxl.jpg",
+            "label": "Planimetria originale"
+          },
+          {
+            "url": "https://pic.im-cdn.it/plan/136602444/xxl.jpg",
+            "label": "Planimetria originale"
+          }
         ]
       },
       "evidence": {
