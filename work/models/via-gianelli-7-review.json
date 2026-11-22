@@ -1,0 +1,18 @@
+{
+  "artifactId": "via-gianelli-7",
+  "artifactSha256": "645125db8319c2e6da1d1a047f2795e43450f6bd74252be57020600e2c2fc654",
+  "qa": {
+    "staticPassed": true,
+    "browserPassed": true,
+    "geometryPassed": true,
+    "orthographicPassed": true
+  },
+  "fidelity": {
+    "passed": true,
+    "basis": "Approvazione precedente conservata; digest dell’artefatto immutato."
+  },
+  "independentReview": {
+    "passed": true,
+    "artifactSha256": "645125db8319c2e6da1d1a047f2795e43450f6bd74252be57020600e2c2fc654"
+  }
+}

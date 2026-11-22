@@ -1,0 +1,18 @@
+{
+  "artifactId": "sistiana-10",
+  "artifactSha256": "5b66af265d6015c3db325fc99dff0330d2a57018b76ae7108f576be2d6a812a0",
+  "qa": {
+    "staticPassed": true,
+    "browserPassed": true,
+    "geometryPassed": true,
+    "orthographicPassed": true
+  },
+  "fidelity": {
+    "passed": true,
+    "basis": "Approvazione precedente conservata; digest dell’artefatto immutato."
+  },
+  "independentReview": {
+    "passed": true,
+    "artifactSha256": "5b66af265d6015c3db325fc99dff0330d2a57018b76ae7108f576be2d6a812a0"
+  }
+}

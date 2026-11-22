@@ -1,0 +1,27 @@
+{
+  "title": "Località Villa Opicina 1179 - modello 3D parziale",
+  "creationStarted": "2026-11-15T09:52:24+01:00",
+  "creationFinished": null,
+  "geometrySource": "source-traced-partial",
+  "colors": {"walls":"#efe8d8","floor":"#bfaa88","roof":"#7b5948","frames":"#4b4b47","wood":"#9b7553"},
+  "levels": [
+    {"label":"Piano interrato opzionale","y":-2.8,"height":2.6,"outline":[[-4,-4.3],[4,-4.3],[4,4.3],[-4,4.3]],"walls":[
+      {"a":[-4,-4.3],"b":[4,-4.3]},{"a":[4,-4.3],"b":[4,4.3]},{"a":[4,4.3],"b":[-4,4.3],"openings":[{"start":0.8,"end":2.4,"kind":"window","sill":1.0,"height":1.0}]},{"a":[-4,4.3],"b":[-4,-4.3]},
+      {"a":[0.9,-4.3],"b":[0.9,4.3]},{"a":[0.9,1.4],"b":[4,1.4]}
+    ]},
+    {"label":"Piano terra","y":0,"height":2.75,"outline":[[-4,-4.3],[4,-4.3],[4,4.3],[-4,4.3]],"walls":[
+      {"a":[-4,-4.3],"b":[4,-4.3],"openings":[{"start":3.4,"end":4.5,"kind":"door","sill":0,"height":2.15}]},
+      {"a":[4,-4.3],"b":[4,4.3],"openings":[{"start":0.7,"end":3.1,"kind":"window","sill":0.35,"height":2.05},{"start":4.2,"end":6.8,"kind":"window","sill":0.35,"height":2.05}]},
+      {"a":[4,4.3],"b":[-4,4.3],"openings":[{"start":1.0,"end":3.0,"kind":"window","sill":0.45,"height":1.9}]},{"a":[-4,4.3],"b":[-4,-4.3]},
+      {"a":[1.6,-4.3],"b":[1.6,-0.6]},{"a":[1.6,-0.6],"b":[4,-0.6]}
+    ]},
+    {"label":"Primo piano","y":2.9,"height":2.65,"outline":[[-4,-4.3],[4,-4.3],[4,4.3],[-4,4.3]],"walls":[
+      {"a":[-4,-4.3],"b":[4,-4.3],"openings":[{"start":0.7,"end":2.1,"kind":"window","sill":0.9,"height":1.3},{"start":5.5,"end":7.2,"kind":"window","sill":0.9,"height":1.3}]},
+      {"a":[4,-4.3],"b":[4,4.3],"openings":[{"start":1.0,"end":2.5,"kind":"window","sill":0.9,"height":1.3},{"start":5.5,"end":7.0,"kind":"window","sill":0.9,"height":1.3}]},
+      {"a":[4,4.3],"b":[-4,4.3],"openings":[{"start":1.2,"end":2.7,"kind":"window","sill":0.9,"height":1.3},{"start":5.1,"end":6.7,"kind":"window","sill":0.9,"height":1.3}]},{"a":[-4,4.3],"b":[-4,-4.3]},
+      {"a":[0,-4.3],"b":[0,4.3]},{"a":[-4,0.2],"b":[4,0.2]},{"a":[0,2.2],"b":[4,2.2]}
+    ]}
+  ],
+  "exteriors":[{"points":[[-8,-7],[9,-7],[9,8],[-8,8]],"y":-0.18,"thickness":0.12,"color":"#7c8d62"},{"kind":"box","center":[5.8,0.05,-2.8],"size":[3.2,0.12,5.0],"color":"#bbb1a0"}],
+  "roofs":[{"vertices":[[-4,5.55,-4.3],[0,6.55,-4.3],[4,5.55,-4.3],[-4,5.55,4.3],[0,6.55,4.3],[4,5.55,4.3]],"indices":[0,1,4,0,4,3,1,2,5,1,5,4],"color":"#7b5948"}]
+}

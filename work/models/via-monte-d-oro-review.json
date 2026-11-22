@@ -1,0 +1,18 @@
+{
+  "artifactId": "via-monte-d-oro",
+  "artifactSha256": "c5cf70961f81d8a813a4474680e521bc8b65bf593dae724b70fd9d3307d73f1c",
+  "qa": {
+    "staticPassed": true,
+    "browserPassed": true,
+    "geometryPassed": true,
+    "orthographicPassed": true
+  },
+  "fidelity": {
+    "passed": true,
+    "basis": "Approvazione precedente conservata; digest dell’artefatto immutato."
+  },
+  "independentReview": {
+    "passed": true,
+    "artifactSha256": "c5cf70961f81d8a813a4474680e521bc8b65bf593dae724b70fd9d3307d73f1c"
+  }
+}

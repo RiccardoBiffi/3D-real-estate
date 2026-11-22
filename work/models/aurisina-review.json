@@ -1,0 +1,18 @@
+{
+  "artifactId": "aurisina",
+  "artifactSha256": "f0fd039a9ffa7a3af5bfacdec647f0e900e7eb97622d23bff46e64761e885c97",
+  "qa": {
+    "staticPassed": true,
+    "browserPassed": true,
+    "geometryPassed": true,
+    "orthographicPassed": true
+  },
+  "fidelity": {
+    "passed": true,
+    "basis": "Approvazione precedente conservata; digest dell’artefatto immutato."
+  },
+  "independentReview": {
+    "passed": true,
+    "artifactSha256": "f0fd039a9ffa7a3af5bfacdec647f0e900e7eb97622d23bff46e64761e885c97"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "artifactId": "aurisina-cave-77-b",
+  "artifactSha256": "e0bc0816b7c5f0caa7e5b41d5570098d50d71dc2c0a0c074dbe4f11cfa6083db",
+  "qa": {
+    "staticPassed": true,
+    "browserPassed": true,
+    "geometryPassed": true,
+    "orthographicPassed": true
+  },
+  "fidelity": {
+    "passed": true,
+    "basis": "Approvazione precedente conservata; digest dell’artefatto immutato."
+  },
+  "independentReview": {
+    "passed": true,
+    "artifactSha256": "e0bc0816b7c5f0caa7e5b41d5570098d50d71dc2c0a0c074dbe4f11cfa6083db"
+  }
+}

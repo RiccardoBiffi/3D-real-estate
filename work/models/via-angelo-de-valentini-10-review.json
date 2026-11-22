@@ -1,0 +1,18 @@
+{
+  "artifactId": "via-angelo-de-valentini-10",
+  "artifactSha256": "68ef52f2f5126f4bfe6896c10bba482f2fbe3dcf1a49c6254064339fdd06f00f",
+  "qa": {
+    "staticPassed": true,
+    "browserPassed": true,
+    "geometryPassed": true,
+    "orthographicPassed": true
+  },
+  "fidelity": {
+    "passed": true,
+    "basis": "Approvazione precedente conservata; digest dell’artefatto immutato."
+  },
+  "independentReview": {
+    "passed": true,
+    "artifactSha256": "68ef52f2f5126f4bfe6896c10bba482f2fbe3dcf1a49c6254064339fdd06f00f"
+  }
+}

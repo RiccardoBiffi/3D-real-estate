@@ -1,0 +1,18 @@
+{
+  "artifactId": "via-del-collio-9",
+  "artifactSha256": "f26f7c50034e855bc2da3a7f93519cb6063f1661875ae94361556bfad62533cd",
+  "qa": {
+    "staticPassed": true,
+    "browserPassed": true,
+    "geometryPassed": true,
+    "orthographicPassed": true
+  },
+  "fidelity": {
+    "passed": true,
+    "basis": "Approvazione precedente conservata; digest dell’artefatto immutato."
+  },
+  "independentReview": {
+    "passed": true,
+    "artifactSha256": "f26f7c50034e855bc2da3a7f93519cb6063f1661875ae94361556bfad62533cd"
+  }
+}

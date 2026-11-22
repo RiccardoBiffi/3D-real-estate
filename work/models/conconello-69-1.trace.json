@@ -1,0 +1,26 @@
+{
+  "title": "Via di Conconello 69/1 - modello 3D parziale",
+  "creationStarted": "2026-11-15T09:52:24+01:00",
+  "creationFinished": null,
+  "geometrySource": "source-traced-partial",
+  "colors": {"walls":"#e7dec8","floor":"#b69f80","roof":"#8e4f3f","frames":"#6b5445","wood":"#8a684c"},
+  "levels": [
+    {"label":"Piano terra / taverna","y":0,"height":2.7,"outline":[[-3,-3.15],[3,-3.15],[3,3.15],[-3,3.15]],"walls":[
+      {"a":[-3,-3.15],"b":[3,-3.15],"openings":[{"start":0.7,"end":2.2,"kind":"window","sill":1.0,"height":1.1},{"start":3.9,"end":4.9,"kind":"door","sill":0,"height":2.1}]},
+      {"a":[3,-3.15],"b":[3,3.15]},{"a":[3,3.15],"b":[-3,3.15],"openings":[{"start":2.2,"end":3.8,"kind":"window","sill":0.9,"height":1.2}]},{"a":[-3,3.15],"b":[-3,-3.15]},
+      {"a":[-0.5,-3.15],"b":[-0.5,3.15]},{"a":[-0.5,0.4],"b":[3,0.4]}
+    ]},
+    {"label":"Primo piano","y":2.85,"height":2.7,"outline":[[-4,-5],[4,-5],[4,5],[-4,5]],"walls":[
+      {"a":[-4,-5],"b":[4,-5],"openings":[{"start":0.8,"end":2.4,"kind":"window","sill":0.9,"height":1.25},{"start":3.4,"end":4.5,"kind":"door","sill":0,"height":2.1},{"start":5.5,"end":7.1,"kind":"window","sill":0.9,"height":1.25}]},
+      {"a":[4,-5],"b":[4,5],"openings":[{"start":4,"end":5.6,"kind":"window","sill":0.9,"height":1.25}]},{"a":[4,5],"b":[-4,5],"openings":[{"start":2.7,"end":4.4,"kind":"window","sill":0.9,"height":1.25}]},{"a":[-4,5],"b":[-4,-5]},
+      {"a":[-0.4,-5],"b":[-0.4,5]},{"a":[-4,0.8],"b":[-0.4,0.8]}
+    ]},
+    {"label":"Secondo piano","y":5.7,"height":2.55,"outline":[[-3,-3.35],[3,-3.35],[3,3.35],[-3,3.35]],"walls":[
+      {"a":[-3,-3.35],"b":[3,-3.35],"openings":[{"start":0.8,"end":2.0,"kind":"window","sill":0.9,"height":1.2},{"start":3.8,"end":5.0,"kind":"window","sill":0.9,"height":1.2}]},
+      {"a":[3,-3.35],"b":[3,3.35]},{"a":[3,3.35],"b":[-3,3.35],"openings":[{"start":2.3,"end":3.7,"kind":"window","sill":0.9,"height":1.2}]},{"a":[-3,3.35],"b":[-3,-3.35]},
+      {"a":[0,-3.35],"b":[0,3.35]}
+    ]}
+  ],
+  "exteriors":[{"points":[[-8,-8],[8,-8],[8,8],[-8,8]],"y":-0.18,"thickness":0.12,"color":"#7d865b"}],
+  "roofs":[{"vertices":[[-3,8.25,-3.35],[3,8.25,-3.35],[3,8.25,3.35],[-3,8.25,3.35]],"indices":[0,1,2,0,2,3],"color":"#8e4f3f"}]
+}

@@ -1,0 +1,18 @@
+{
+  "artifactId": "erta-di-sant-anna",
+  "artifactSha256": "3d10ae00850b577a6a968814ed0638b195d72077a55461c1200dd72a3e63e309",
+  "qa": {
+    "staticPassed": true,
+    "browserPassed": true,
+    "geometryPassed": true,
+    "orthographicPassed": true
+  },
+  "fidelity": {
+    "passed": true,
+    "basis": "Approvazione precedente conservata; digest dell’artefatto immutato."
+  },
+  "independentReview": {
+    "passed": true,
+    "artifactSha256": "3d10ae00850b577a6a968814ed0638b195d72077a55461c1200dd72a3e63e309"
+  }
+}

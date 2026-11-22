@@ -1,0 +1,18 @@
+{
+  "artifactId": "via-dei-gravisi-4",
+  "artifactSha256": "64937795d84cfaef75ed1a0219412667048c8dbb34ca5b8e2b8cad78023a10d5",
+  "qa": {
+    "staticPassed": true,
+    "browserPassed": true,
+    "geometryPassed": true,
+    "orthographicPassed": true
+  },
+  "fidelity": {
+    "passed": true,
+    "basis": "Approvazione precedente conservata; digest dell’artefatto immutato."
+  },
+  "independentReview": {
+    "passed": true,
+    "artifactSha256": "64937795d84cfaef75ed1a0219412667048c8dbb34ca5b8e2b8cad78023a10d5"
+  }
+}

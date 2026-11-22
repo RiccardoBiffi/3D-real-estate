@@ -1,0 +1,18 @@
+{
+  "artifactId": "trebiciano-130356648",
+  "artifactSha256": "fb32f847591c8d03a2a141e38ed33c9fad55276953ad230545a08b3cabeae9ac",
+  "qa": {
+    "staticPassed": true,
+    "browserPassed": true,
+    "geometryPassed": true,
+    "orthographicPassed": true
+  },
+  "fidelity": {
+    "passed": true,
+    "basis": "Approvazione precedente conservata; digest dell’artefatto immutato."
+  },
+  "independentReview": {
+    "passed": true,
+    "artifactSha256": "fb32f847591c8d03a2a141e38ed33c9fad55276953ad230545a08b3cabeae9ac"
+  }
+}

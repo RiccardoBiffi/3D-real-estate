@@ -1,0 +1,18 @@
+{
+  "artifactId": "via-dei-salici-22-1",
+  "artifactSha256": "4703f6aaa509ea2b73e1f403dc23b7e5160f35c0510c6e485f84a1a3d41d02ed",
+  "qa": {
+    "staticPassed": true,
+    "browserPassed": true,
+    "geometryPassed": true,
+    "orthographicPassed": true
+  },
+  "fidelity": {
+    "passed": true,
+    "basis": "Approvazione precedente conservata; digest dell’artefatto immutato."
+  },
+  "independentReview": {
+    "passed": true,
+    "artifactSha256": "4703f6aaa509ea2b73e1f403dc23b7e5160f35c0510c6e485f84a1a3d41d02ed"
+  }
+}

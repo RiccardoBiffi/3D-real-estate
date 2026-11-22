@@ -1,0 +1,18 @@
+{
+  "artifactId": "via-dei-cardi-19",
+  "artifactSha256": "3174dce9cab4d08842feacf57cd4929c58e39539f013e9c5866ace072b83c4d6",
+  "qa": {
+    "staticPassed": true,
+    "browserPassed": true,
+    "geometryPassed": true,
+    "orthographicPassed": true
+  },
+  "fidelity": {
+    "passed": true,
+    "basis": "Approvazione precedente conservata; digest dell’artefatto immutato."
+  },
+  "independentReview": {
+    "passed": true,
+    "artifactSha256": "3174dce9cab4d08842feacf57cd4929c58e39539f013e9c5866ace072b83c4d6"
+  }
+}

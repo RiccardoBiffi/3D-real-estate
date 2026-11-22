@@ -1,0 +1,18 @@
+{
+  "artifactId": "fontanella-10-4",
+  "artifactSha256": "7686ba76775ab53c094f39633d94c61bb3d32e841cbd88f1cc0fcfaf6b1787c2",
+  "qa": {
+    "staticPassed": true,
+    "browserPassed": true,
+    "geometryPassed": true,
+    "orthographicPassed": true
+  },
+  "fidelity": {
+    "passed": true,
+    "basis": "Approvazione precedente conservata; digest dell’artefatto immutato."
+  },
+  "independentReview": {
+    "passed": true,
+    "artifactSha256": "7686ba76775ab53c094f39633d94c61bb3d32e841cbd88f1cc0fcfaf6b1787c2"
+  }
+}

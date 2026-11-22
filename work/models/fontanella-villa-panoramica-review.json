@@ -1,0 +1,18 @@
+{
+  "artifactId": "fontanella-villa-panoramica",
+  "artifactSha256": "7c2edca938c86347ad3f0f0f441558693c82b01fe3c4835dd02d4fd6ff20493a",
+  "qa": {
+    "staticPassed": true,
+    "browserPassed": true,
+    "geometryPassed": true,
+    "orthographicPassed": true
+  },
+  "fidelity": {
+    "passed": true,
+    "basis": "Approvazione precedente conservata; digest dell’artefatto immutato."
+  },
+  "independentReview": {
+    "passed": true,
+    "artifactSha256": "7c2edca938c86347ad3f0f0f441558693c82b01fe3c4835dd02d4fd6ff20493a"
+  }
+}

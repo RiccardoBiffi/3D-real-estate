@@ -1,0 +1,21 @@
+{
+  "title": "Via Timignano 26 - modello 3D parziale",
+  "creationStarted": "2026-11-15T09:52:24+01:00",
+  "creationFinished": null,
+  "geometrySource": "source-traced-partial",
+  "colors": {"walls":"#eadfcf","floor":"#b7a489","roof":"#995f45","frames":"#665445","wood":"#8b674a"},
+  "levels": [
+    {"label":"Piano terra","y":0,"height":2.7,"outline":[[-4,-3.8],[4,-3.8],[4,3.8],[-4,3.8]],"walls":[
+      {"a":[-4,-3.8],"b":[4,-3.8],"openings":[{"start":0.8,"end":2.1,"kind":"window","sill":0.9,"height":1.25},{"start":3.3,"end":4.3,"kind":"door","sill":0,"height":2.1},{"start":5.6,"end":7.1,"kind":"window","sill":0.9,"height":1.25}]},
+      {"a":[4,-3.8],"b":[4,3.8]},{"a":[4,3.8],"b":[-4,3.8],"openings":[{"start":1.0,"end":2.5,"kind":"window","sill":0.9,"height":1.25},{"start":5.0,"end":6.5,"kind":"window","sill":0.9,"height":1.25}]},{"a":[-4,3.8],"b":[-4,-3.8]},
+      {"a":[0.3,-3.8],"b":[0.3,3.8]},{"a":[-4,0.5],"b":[0.3,0.5]},{"a":[0.3,-0.8],"b":[4,-0.8]}
+    ]},
+    {"label":"Primo piano","y":2.85,"height":2.6,"outline":[[-4,-3.8],[4,-3.8],[4,3.8],[-4,3.8]],"walls":[
+      {"a":[-4,-3.8],"b":[4,-3.8],"openings":[{"start":0.9,"end":2.2,"kind":"window","sill":0.9,"height":1.2},{"start":5.6,"end":7.0,"kind":"window","sill":0.9,"height":1.2}]},
+      {"a":[4,-3.8],"b":[4,3.8]},{"a":[4,3.8],"b":[-4,3.8],"openings":[{"start":1.0,"end":2.4,"kind":"window","sill":0.9,"height":1.2},{"start":5.2,"end":6.6,"kind":"window","sill":0.9,"height":1.2}]},{"a":[-4,3.8],"b":[-4,-3.8]},
+      {"a":[0,-3.8],"b":[0,3.8]},{"a":[-4,0.2],"b":[0,0.2]},{"a":[0,1.2],"b":[4,1.2]}
+    ]}
+  ],
+  "exteriors":[{"points":[[-7,-7],[7,-7],[7,7],[-7,7]],"y":-0.18,"thickness":0.12,"color":"#78845f"}],
+  "roofs":[{"vertices":[[-4,5.45,-3.8],[0,6.45,-3.8],[4,5.45,-3.8],[-4,5.45,3.8],[0,6.45,3.8],[4,5.45,3.8]],"indices":[0,1,4,0,4,3,1,2,5,1,5,4],"color":"#995f45"}]
+}

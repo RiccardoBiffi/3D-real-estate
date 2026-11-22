@@ -1,0 +1,18 @@
+{
+  "artifactId": "malchina-47-a",
+  "artifactSha256": "7cd8572a440faf7a8e158a62910f285887ac4ec9f4e73e1327e75f2dbc75f631",
+  "qa": {
+    "staticPassed": true,
+    "browserPassed": true,
+    "geometryPassed": true,
+    "orthographicPassed": true
+  },
+  "fidelity": {
+    "passed": true,
+    "basis": "Approvazione precedente conservata; digest dell’artefatto immutato."
+  },
+  "independentReview": {
+    "passed": true,
+    "artifactSha256": "7cd8572a440faf7a8e158a62910f285887ac4ec9f4e73e1327e75f2dbc75f631"
+  }
+}

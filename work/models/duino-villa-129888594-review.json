@@ -1,0 +1,18 @@
+{
+  "artifactId": "duino-villa-129888594",
+  "artifactSha256": "2fc168e1d26550ba89c9d7d2ffe5d38003d16ff4d60d45858b6cec9c17e62e3d",
+  "qa": {
+    "staticPassed": true,
+    "browserPassed": true,
+    "geometryPassed": true,
+    "orthographicPassed": true
+  },
+  "fidelity": {
+    "passed": true,
+    "basis": "Approvazione precedente conservata; digest dell’artefatto immutato."
+  },
+  "independentReview": {
+    "passed": true,
+    "artifactSha256": "2fc168e1d26550ba89c9d7d2ffe5d38003d16ff4d60d45858b6cec9c17e62e3d"
+  }
+}

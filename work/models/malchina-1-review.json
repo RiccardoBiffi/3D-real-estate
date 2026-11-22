@@ -1,0 +1,18 @@
+{
+  "artifactId": "malchina-1",
+  "artifactSha256": "4b04d8f37ff3da7faed7bf3c0836d3c46e5bdcef3a20af7f3355b3a3ba6860a4",
+  "qa": {
+    "staticPassed": true,
+    "browserPassed": true,
+    "geometryPassed": true,
+    "orthographicPassed": true
+  },
+  "fidelity": {
+    "passed": true,
+    "basis": "Approvazione precedente conservata; digest dell’artefatto immutato."
+  },
+  "independentReview": {
+    "passed": true,
+    "artifactSha256": "4b04d8f37ff3da7faed7bf3c0836d3c46e5bdcef3a20af7f3355b3a3ba6860a4"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "artifactId": "opicina-trifamiliare-tecnocasa",
+  "artifactSha256": "afa52a71a07fb7dbd6cf7915cc4868ab4aefd9302df1ba2a588dbb83ecbe9fda",
+  "qa": {
+    "staticPassed": true,
+    "browserPassed": true,
+    "geometryPassed": true,
+    "orthographicPassed": true
+  },
+  "fidelity": {
+    "passed": true,
+    "basis": "Approvazione precedente conservata; digest dell’artefatto immutato."
+  },
+  "independentReview": {
+    "passed": true,
+    "artifactSha256": "afa52a71a07fb7dbd6cf7915cc4868ab4aefd9302df1ba2a588dbb83ecbe9fda"
+  }
+}

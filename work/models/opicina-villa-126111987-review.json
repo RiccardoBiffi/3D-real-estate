@@ -1,0 +1,18 @@
+{
+  "artifactId": "opicina-villa-126111987",
+  "artifactSha256": "b53a87868aaf810d2330f906e0bee781960133e4d53e1b3bfa7977231fc3158e",
+  "qa": {
+    "staticPassed": true,
+    "browserPassed": true,
+    "geometryPassed": true,
+    "orthographicPassed": true
+  },
+  "fidelity": {
+    "passed": true,
+    "basis": "Approvazione precedente conservata; digest dell’artefatto immutato."
+  },
+  "independentReview": {
+    "passed": true,
+    "artifactSha256": "b53a87868aaf810d2330f906e0bee781960133e4d53e1b3bfa7977231fc3158e"
+  }
+}

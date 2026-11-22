@@ -1,0 +1,18 @@
+{
+  "artifactId": "via-dello-scoglio-173",
+  "artifactSha256": "09affd7a97697f4fa40025a4eca394d46186b7f1f7d8f53b6c6d44c0dfd5d789",
+  "qa": {
+    "staticPassed": true,
+    "browserPassed": true,
+    "geometryPassed": true,
+    "orthographicPassed": true
+  },
+  "fidelity": {
+    "passed": true,
+    "basis": "Approvazione precedente conservata; digest dell’artefatto immutato."
+  },
+  "independentReview": {
+    "passed": true,
+    "artifactSha256": "09affd7a97697f4fa40025a4eca394d46186b7f1f7d8f53b6c6d44c0dfd5d789"
+  }
+}

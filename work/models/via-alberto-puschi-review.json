@@ -1,0 +1,18 @@
+{
+  "artifactId": "via-alberto-puschi",
+  "artifactSha256": "d8c5824dfcf266f6dd29471e9b8dbc46bf4dbbdbdee2713824353c889dd51587",
+  "qa": {
+    "staticPassed": true,
+    "browserPassed": true,
+    "geometryPassed": true,
+    "orthographicPassed": true
+  },
+  "fidelity": {
+    "passed": true,
+    "basis": "Approvazione precedente conservata; digest dell’artefatto immutato."
+  },
+  "independentReview": {
+    "passed": true,
+    "artifactSha256": "d8c5824dfcf266f6dd29471e9b8dbc46bf4dbbdbdee2713824353c889dd51587"
+  }
+}
