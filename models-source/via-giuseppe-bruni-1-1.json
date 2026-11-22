@@ -1,0 +1,882 @@
+{
+  "id": "via-giuseppe-bruni-1-1",
+  "title": "Via Giuseppe Bruni 1/1",
+  "creationStarted": "2026-11-16T18:18:44.216391+01:00",
+  "coverage": "exterior_only",
+  "geometrySource": "photo-traced-garden-elevation",
+  "unrenderedVolumes": [
+    "Interni dei due piani, soffitta, taverna e box: nessuna planimetria utilizzabile acquisita.",
+    "Retro, pareti accostate e porzioni nascoste del piano inferiore.",
+    "Unità vicine, giardino oltre il contesto immediato, confini e dislivello del pendio."
+  ],
+  "sourcePlans": [],
+  "sources": [
+    {
+      "url": "https://pwm.im-cdn.it/image/2049134251/cover-m-c.jpg",
+      "sha256": "5b4ed76e8582bb4062cddc11338988aa0ce242b78af6d04df61e7d2e9d9b05f9",
+      "pageUrl": "https://www.immobiliare.it/annunci/133175612/",
+      "type": "photograph"
+    },
+    {
+      "url": "https://pwm.im-cdn.it/image/2049134261/m-c.jpg",
+      "sha256": "be583e70137975037757985ed6b0bfc2ade30861128f3956a5b79c07cf6de018",
+      "pageUrl": "https://www.immobiliare.it/annunci/133175612/",
+      "type": "photograph"
+    },
+    {
+      "url": "https://pwm.im-cdn.it/image/2049134267/m-c.jpg",
+      "sha256": "c12cc33a56031554b0cbd6b0f6efdc72f91b88e2f0da7e7f617e37aae11fc9aa",
+      "pageUrl": "https://www.immobiliare.it/annunci/133175612/",
+      "type": "photograph"
+    },
+    {
+      "url": "https://pwm.im-cdn.it/image/2020758536/m-c.jpg",
+      "sha256": "d0b609582855a7d40009bcc11bb1ea86ef43be88a726ecbe903aabbb35fbed34",
+      "pageUrl": "https://www.immobiliare.it/annunci/133175612/",
+      "type": "photograph"
+    },
+    {
+      "url": "https://pwm.im-cdn.it/image/2020758542/m-c.jpg",
+      "sha256": "de9e7897599c34b786df2db6d481d48b7124e87ec2d647313e0b762b64a26423",
+      "pageUrl": "https://www.immobiliare.it/annunci/133175612/",
+      "type": "photograph"
+    }
+  ],
+  "levels": [
+    {
+      "id": "garden",
+      "label": "Facciata sul giardino",
+      "y": 0,
+      "height": 2.76,
+      "outline": [
+        [
+          0,
+          0
+        ],
+        [
+          7.6,
+          0
+        ],
+        [
+          7.6,
+          7.8
+        ],
+        [
+          0,
+          7.8
+        ]
+      ],
+      "surfaces": [],
+      "walls": [
+        {
+          "a": [
+            0,
+            7.8
+          ],
+          "b": [
+            7.6,
+            7.8
+          ],
+          "thickness": 0.21,
+          "color": "#dedbd1",
+          "openings": [
+            {
+              "start": 0.6,
+              "end": 3.6,
+              "sill": 0.7,
+              "height": 1.6,
+              "kind": "window"
+            },
+            {
+              "start": 4.1,
+              "end": 6.699999999999999,
+              "sill": 0.32,
+              "height": 2.03,
+              "kind": "door"
+            }
+          ]
+        }
+      ],
+      "components": [
+        {
+          "kind": "box",
+          "center": [
+            5.42,
+            0.3,
+            8.53
+          ],
+          "size": [
+            2.9,
+            0.24,
+            1.65
+          ],
+          "color": "#a86c54"
+        },
+        {
+          "kind": "box",
+          "center": [
+            5.43,
+            0.13,
+            9.51
+          ],
+          "size": [
+            2.91,
+            0.18,
+            0.42
+          ],
+          "color": "#a86c54"
+        },
+        {
+          "kind": "box",
+          "center": [
+            1.92,
+            0.39,
+            7.96
+          ],
+          "size": [
+            3.05,
+            0.8,
+            0.14
+          ],
+          "color": "#dedbd1"
+        },
+        {
+          "kind": "box",
+          "center": [
+            3.87,
+            2.57,
+            8.5
+          ],
+          "size": [
+            7.2,
+            0.1,
+            1.32
+          ],
+          "color": "#8c7155"
+        },
+        {
+          "kind": "box",
+          "center": [
+            3.87,
+            2.46,
+            9.16
+          ],
+          "size": [
+            7.18,
+            0.17,
+            0.05
+          ],
+          "color": "#b29b80"
+        }
+      ],
+      "stairs": []
+    },
+    {
+      "id": "upper",
+      "label": "Facciata sul giardino",
+      "y": 2.76,
+      "height": 2.6,
+      "outline": [
+        [
+          0,
+          0
+        ],
+        [
+          7.6,
+          0
+        ],
+        [
+          7.6,
+          7.8
+        ],
+        [
+          0,
+          7.8
+        ]
+      ],
+      "surfaces": [],
+      "walls": [
+        {
+          "a": [
+            0,
+            7.8
+          ],
+          "b": [
+            7.6,
+            7.8
+          ],
+          "thickness": 0.21,
+          "color": "#dedbd1",
+          "openings": [
+            {
+              "start": 0.9,
+              "end": 2.56,
+              "sill": 0.8,
+              "height": 1.28,
+              "kind": "window"
+            },
+            {
+              "start": 3.74,
+              "end": 6.1,
+              "sill": 0.68,
+              "height": 1.46,
+              "kind": "window"
+            }
+          ]
+        }
+      ],
+      "components": [
+        {
+          "kind": "box",
+          "center": [
+            3.8,
+            0.36,
+            8.25
+          ],
+          "size": [
+            7.61,
+            0.69,
+            0.18
+          ],
+          "color": "#dedbd1"
+        },
+        {
+          "kind": "box",
+          "center": [
+            3.8,
+            0.12,
+            8.19
+          ],
+          "size": [
+            7.61,
+            0.25,
+            0.94
+          ],
+          "color": "#dedbd1"
+        },
+        {
+          "kind": "box",
+          "center": [
+            0.78,
+            1.04,
+            8.36
+          ],
+          "size": [
+            0.032,
+            0.91,
+            0.033
+          ],
+          "color": "#44332b"
+        },
+        {
+          "kind": "box",
+          "center": [
+            0.9228571428571428,
+            1.04,
+            8.36
+          ],
+          "size": [
+            0.032,
+            0.91,
+            0.033
+          ],
+          "color": "#44332b"
+        },
+        {
+          "kind": "box",
+          "center": [
+            1.0657142857142858,
+            1.04,
+            8.36
+          ],
+          "size": [
+            0.032,
+            0.91,
+            0.033
+          ],
+          "color": "#44332b"
+        },
+        {
+          "kind": "box",
+          "center": [
+            1.2085714285714286,
+            1.04,
+            8.36
+          ],
+          "size": [
+            0.032,
+            0.91,
+            0.033
+          ],
+          "color": "#44332b"
+        },
+        {
+          "kind": "box",
+          "center": [
+            1.3514285714285714,
+            1.04,
+            8.36
+          ],
+          "size": [
+            0.032,
+            0.91,
+            0.033
+          ],
+          "color": "#44332b"
+        },
+        {
+          "kind": "box",
+          "center": [
+            1.4942857142857142,
+            1.04,
+            8.36
+          ],
+          "size": [
+            0.032,
+            0.91,
+            0.033
+          ],
+          "color": "#44332b"
+        },
+        {
+          "kind": "box",
+          "center": [
+            1.637142857142857,
+            1.04,
+            8.36
+          ],
+          "size": [
+            0.032,
+            0.91,
+            0.033
+          ],
+          "color": "#44332b"
+        },
+        {
+          "kind": "box",
+          "center": [
+            1.7799999999999998,
+            1.04,
+            8.36
+          ],
+          "size": [
+            0.032,
+            0.91,
+            0.033
+          ],
+          "color": "#44332b"
+        },
+        {
+          "kind": "box",
+          "center": [
+            1.9228571428571428,
+            1.04,
+            8.36
+          ],
+          "size": [
+            0.032,
+            0.91,
+            0.033
+          ],
+          "color": "#44332b"
+        },
+        {
+          "kind": "box",
+          "center": [
+            2.0657142857142854,
+            1.04,
+            8.36
+          ],
+          "size": [
+            0.032,
+            0.91,
+            0.033
+          ],
+          "color": "#44332b"
+        },
+        {
+          "kind": "box",
+          "center": [
+            2.208571428571428,
+            1.04,
+            8.36
+          ],
+          "size": [
+            0.032,
+            0.91,
+            0.033
+          ],
+          "color": "#44332b"
+        },
+        {
+          "kind": "box",
+          "center": [
+            2.3514285714285714,
+            1.04,
+            8.36
+          ],
+          "size": [
+            0.032,
+            0.91,
+            0.033
+          ],
+          "color": "#44332b"
+        },
+        {
+          "kind": "box",
+          "center": [
+            2.4942857142857138,
+            1.04,
+            8.36
+          ],
+          "size": [
+            0.032,
+            0.91,
+            0.033
+          ],
+          "color": "#44332b"
+        },
+        {
+          "kind": "box",
+          "center": [
+            2.637142857142857,
+            1.04,
+            8.36
+          ],
+          "size": [
+            0.032,
+            0.91,
+            0.033
+          ],
+          "color": "#44332b"
+        },
+        {
+          "kind": "box",
+          "center": [
+            2.78,
+            1.04,
+            8.36
+          ],
+          "size": [
+            0.032,
+            0.91,
+            0.033
+          ],
+          "color": "#44332b"
+        },
+        {
+          "kind": "box",
+          "center": [
+            1.7799999999999998,
+            1.52,
+            8.36
+          ],
+          "size": [
+            1.9999999999999998,
+            0.04,
+            0.05
+          ],
+          "color": "#44332b"
+        },
+        {
+          "kind": "box",
+          "center": [
+            3.58,
+            1.04,
+            8.36
+          ],
+          "size": [
+            0.032,
+            0.91,
+            0.033
+          ],
+          "color": "#44332b"
+        },
+        {
+          "kind": "box",
+          "center": [
+            3.7721428571428572,
+            1.04,
+            8.36
+          ],
+          "size": [
+            0.032,
+            0.91,
+            0.033
+          ],
+          "color": "#44332b"
+        },
+        {
+          "kind": "box",
+          "center": [
+            3.9642857142857144,
+            1.04,
+            8.36
+          ],
+          "size": [
+            0.032,
+            0.91,
+            0.033
+          ],
+          "color": "#44332b"
+        },
+        {
+          "kind": "box",
+          "center": [
+            4.156428571428571,
+            1.04,
+            8.36
+          ],
+          "size": [
+            0.032,
+            0.91,
+            0.033
+          ],
+          "color": "#44332b"
+        },
+        {
+          "kind": "box",
+          "center": [
+            4.348571428571429,
+            1.04,
+            8.36
+          ],
+          "size": [
+            0.032,
+            0.91,
+            0.033
+          ],
+          "color": "#44332b"
+        },
+        {
+          "kind": "box",
+          "center": [
+            4.5407142857142855,
+            1.04,
+            8.36
+          ],
+          "size": [
+            0.032,
+            0.91,
+            0.033
+          ],
+          "color": "#44332b"
+        },
+        {
+          "kind": "box",
+          "center": [
+            4.732857142857142,
+            1.04,
+            8.36
+          ],
+          "size": [
+            0.032,
+            0.91,
+            0.033
+          ],
+          "color": "#44332b"
+        },
+        {
+          "kind": "box",
+          "center": [
+            4.925,
+            1.04,
+            8.36
+          ],
+          "size": [
+            0.032,
+            0.91,
+            0.033
+          ],
+          "color": "#44332b"
+        },
+        {
+          "kind": "box",
+          "center": [
+            5.117142857142857,
+            1.04,
+            8.36
+          ],
+          "size": [
+            0.032,
+            0.91,
+            0.033
+          ],
+          "color": "#44332b"
+        },
+        {
+          "kind": "box",
+          "center": [
+            5.309285714285714,
+            1.04,
+            8.36
+          ],
+          "size": [
+            0.032,
+            0.91,
+            0.033
+          ],
+          "color": "#44332b"
+        },
+        {
+          "kind": "box",
+          "center": [
+            5.501428571428571,
+            1.04,
+            8.36
+          ],
+          "size": [
+            0.032,
+            0.91,
+            0.033
+          ],
+          "color": "#44332b"
+        },
+        {
+          "kind": "box",
+          "center": [
+            5.6935714285714285,
+            1.04,
+            8.36
+          ],
+          "size": [
+            0.032,
+            0.91,
+            0.033
+          ],
+          "color": "#44332b"
+        },
+        {
+          "kind": "box",
+          "center": [
+            5.885714285714285,
+            1.04,
+            8.36
+          ],
+          "size": [
+            0.032,
+            0.91,
+            0.033
+          ],
+          "color": "#44332b"
+        },
+        {
+          "kind": "box",
+          "center": [
+            6.077857142857143,
+            1.04,
+            8.36
+          ],
+          "size": [
+            0.032,
+            0.91,
+            0.033
+          ],
+          "color": "#44332b"
+        },
+        {
+          "kind": "box",
+          "center": [
+            6.27,
+            1.04,
+            8.36
+          ],
+          "size": [
+            0.032,
+            0.91,
+            0.033
+          ],
+          "color": "#44332b"
+        },
+        {
+          "kind": "box",
+          "center": [
+            4.925,
+            1.52,
+            8.36
+          ],
+          "size": [
+            2.6899999999999995,
+            0.04,
+            0.05
+          ],
+          "color": "#44332b"
+        },
+        {
+          "kind": "box",
+          "center": [
+            0.78,
+            1.44,
+            7.93
+          ],
+          "size": [
+            0.22,
+            1.28,
+            0.07
+          ],
+          "color": "#44332b"
+        },
+        {
+          "kind": "box",
+          "center": [
+            2.68,
+            1.44,
+            7.93
+          ],
+          "size": [
+            0.22,
+            1.28,
+            0.07
+          ],
+          "color": "#44332b"
+        },
+        {
+          "kind": "box",
+          "center": [
+            3.62,
+            1.41,
+            7.93
+          ],
+          "size": [
+            0.22,
+            1.46,
+            0.07
+          ],
+          "color": "#44332b"
+        },
+        {
+          "kind": "box",
+          "center": [
+            6.22,
+            1.41,
+            7.93
+          ],
+          "size": [
+            0.22,
+            1.46,
+            0.07
+          ],
+          "color": "#44332b"
+        }
+      ],
+      "stairs": []
+    }
+  ],
+  "exteriorLabel": "Fronte sul giardino e copertura fotografata",
+  "cameraX": 0.34,
+  "cameraY": 0.51,
+  "cameraZ": 1.34,
+  "roofs": [
+    {
+      "vertices": [
+        [
+          -0.22,
+          5.36,
+          8.43
+        ],
+        [
+          7.84,
+          5.36,
+          8.43
+        ],
+        [
+          7.84,
+          6.53,
+          3.98
+        ],
+        [
+          -0.22,
+          6.53,
+          3.98
+        ]
+      ],
+      "indices": [
+        0,
+        1,
+        2,
+        0,
+        2,
+        3
+      ],
+      "color": "#a05e43"
+    },
+    {
+      "vertices": [
+        [
+          -0.22,
+          6.53,
+          3.98
+        ],
+        [
+          7.84,
+          6.53,
+          3.98
+        ],
+        [
+          7.84,
+          5.36,
+          -0.32
+        ],
+        [
+          -0.22,
+          5.36,
+          -0.32
+        ]
+      ],
+      "indices": [
+        0,
+        1,
+        2,
+        0,
+        2,
+        3
+      ],
+      "color": "#a05e43"
+    }
+  ],
+  "exteriors": [
+    {
+      "kind": "box",
+      "center": [
+        3.8,
+        -0.22,
+        7.8
+      ],
+      "size": [
+        7.56,
+        0.22,
+        6.5
+      ],
+      "color": "#7c8752"
+    },
+    {
+      "kind": "box",
+      "center": [
+        3.7,
+        -0.08,
+        9.14
+      ],
+      "size": [
+        7.2,
+        0.07,
+        2.7
+      ],
+      "color": "#a9aaa0"
+    },
+    {
+      "kind": "box",
+      "center": [
+        5.74,
+        6.2,
+        2.92
+      ],
+      "size": [
+        0.44,
+        0.97,
+        0.58
+      ],
+      "color": "#978a80"
+    }
+  ],
+  "creationFinished": "2026-11-16T18:22:27.369963+01:00"
+}

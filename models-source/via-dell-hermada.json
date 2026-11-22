@@ -1,0 +1,580 @@
+{
+  "id": "via-dell-hermada",
+  "title": "Via dell’Hermada - esterni del progetto",
+  "creationStarted": "2026-11-09T22:15:46.336582+01:00",
+  "coverage": "exterior_only",
+  "unrenderedVolumes": [
+    "Interni, tramezzi, retro non visibile e distribuzione delle camere.",
+    "Giardino e confini di proprietà; unità e edifici vicini mostrati nei render.",
+    "Stato costruito attuale: questo è il progetto pubblicizzato, non un rilievo dell’opera realizzata."
+  ],
+  "sources": [
+    {
+      "id": "S3",
+      "type": "project-render",
+      "url": "https://pic.trovacasa.it/image/1848876831/xxl.jpg",
+      "pageUrl": "https://www.trovacasa.it/annunci/ts-tc-36387-69859642",
+      "sha256": "18d8f6cd1aaf94c324b88521ee5522f12f299406db1ab69126b8f0a2f750d375",
+      "actuallyInspected": true,
+      "inspectedAt": "2026-11-09T22:29:58.684394+01:00"
+    },
+    {
+      "id": "S4",
+      "type": "project-render",
+      "url": "https://pic.trovacasa.it/image/1848876849/xxl.jpg",
+      "pageUrl": "https://www.trovacasa.it/annunci/ts-tc-36387-69859642",
+      "sha256": "e3b79f32d6f360911bf05f8f5f7ea757895aa381873d0b32a742b4dc2306c6fb",
+      "actuallyInspected": true,
+      "inspectedAt": "2026-11-09T22:29:58.684394+01:00"
+    }
+  ],
+  "geometrySource": "visible-project-facades-proportional-reconstruction",
+  "limitations": [
+    "Due render dell’esatto annuncio mostrano volumi bassi intonacati, corpo marrone più alto, grandi vetrate e pergolato ligneo. Il modello restituisce soltanto tali parti.",
+    "Dimensioni, profondità e quote stimate dalle proporzioni; nessuna planimetria o misura metrica disponibile.",
+    "Il retro è lasciato aperto per non inventare finestre o stanze. La base verde è contesto, non il confine del giardino.",
+    "Viste del solo progetto pubblicizzato: non costituiscono prova dell’esistenza attuale delle opere.",
+    "Le porzioni aperte e non dettagliate corrispondono a facciate non documentate: non rappresentano aperture reali o locali interni."
+  ],
+  "levels": [
+    {
+      "label": "Fronti visibili del progetto",
+      "y": 0,
+      "height": 3.4,
+      "outline": [
+        [
+          0,
+          0
+        ],
+        [
+          7.2,
+          0
+        ],
+        [
+          7.2,
+          2
+        ],
+        [
+          10.6,
+          2
+        ],
+        [
+          10.6,
+          5.1
+        ],
+        [
+          7.2,
+          5.1
+        ],
+        [
+          7.2,
+          5.6
+        ],
+        [
+          0,
+          5.6
+        ]
+      ],
+      "walls": [
+        {
+          "a": [
+            0,
+            0
+          ],
+          "b": [
+            0,
+            5.6
+          ],
+          "thickness": 0.18,
+          "openings": [
+            {
+              "start": 1.0,
+              "end": 1.85,
+              "kind": "door",
+              "sill": 0,
+              "height": 2.1
+            }
+          ],
+          "height": 3.4,
+          "color": "#927b6d"
+        },
+        {
+          "a": [
+            0,
+            5.6
+          ],
+          "b": [
+            7.2,
+            5.6
+          ],
+          "thickness": 0.18,
+          "openings": [
+            {
+              "start": 0.45,
+              "end": 6.85,
+              "kind": "window",
+              "sill": 0,
+              "height": 2.65
+            }
+          ],
+          "height": 3.4,
+          "color": "#927b6d"
+        },
+        {
+          "a": [
+            7.2,
+            5.6
+          ],
+          "b": [
+            7.2,
+            2.0
+          ],
+          "thickness": 0.18,
+          "openings": [],
+          "height": 3.4,
+          "color": "#927b6d"
+        },
+        {
+          "a": [
+            7.2,
+            2.0
+          ],
+          "b": [
+            10.6,
+            2.0
+          ],
+          "thickness": 0.18,
+          "openings": [],
+          "height": 2.8,
+          "color": "#d4c7ad"
+        },
+        {
+          "a": [
+            10.6,
+            2.0
+          ],
+          "b": [
+            10.6,
+            5.1
+          ],
+          "thickness": 0.18,
+          "openings": [
+            {
+              "start": 0.7,
+              "end": 1.65,
+              "kind": "door",
+              "sill": 0,
+              "height": 2.1
+            }
+          ],
+          "height": 2.8,
+          "color": "#d4c7ad"
+        },
+        {
+          "a": [
+            10.6,
+            5.1
+          ],
+          "b": [
+            7.2,
+            5.1
+          ],
+          "thickness": 0.18,
+          "openings": [
+            {
+              "start": 1.1,
+              "end": 2.1,
+              "kind": "window",
+              "sill": 0.8,
+              "height": 1.4
+            }
+          ],
+          "height": 2.8,
+          "color": "#d4c7ad"
+        }
+      ],
+      "components": [
+        {
+          "center": [
+            0.35,
+            1.4,
+            8.0
+          ],
+          "size": [
+            0.17,
+            2.8,
+            0.17
+          ],
+          "color": "#73736c"
+        },
+        {
+          "center": [
+            6.85,
+            1.4,
+            8.0
+          ],
+          "size": [
+            0.17,
+            2.8,
+            0.17
+          ],
+          "color": "#73736c"
+        },
+        {
+          "center": [
+            3.6,
+            2.85,
+            8.0
+          ],
+          "size": [
+            7.6,
+            0.2,
+            0.18
+          ],
+          "color": "#ad8960"
+        },
+        {
+          "center": [
+            0.15,
+            3.0,
+            6.8
+          ],
+          "size": [
+            0.12,
+            0.22,
+            3.0
+          ],
+          "color": "#ad8960"
+        },
+        {
+          "center": [
+            0.77,
+            3.0,
+            6.8
+          ],
+          "size": [
+            0.12,
+            0.22,
+            3.0
+          ],
+          "color": "#ad8960"
+        },
+        {
+          "center": [
+            1.39,
+            3.0,
+            6.8
+          ],
+          "size": [
+            0.12,
+            0.22,
+            3.0
+          ],
+          "color": "#ad8960"
+        },
+        {
+          "center": [
+            2.01,
+            3.0,
+            6.8
+          ],
+          "size": [
+            0.12,
+            0.22,
+            3.0
+          ],
+          "color": "#ad8960"
+        },
+        {
+          "center": [
+            2.63,
+            3.0,
+            6.8
+          ],
+          "size": [
+            0.12,
+            0.22,
+            3.0
+          ],
+          "color": "#ad8960"
+        },
+        {
+          "center": [
+            3.25,
+            3.0,
+            6.8
+          ],
+          "size": [
+            0.12,
+            0.22,
+            3.0
+          ],
+          "color": "#ad8960"
+        },
+        {
+          "center": [
+            3.8699999999999997,
+            3.0,
+            6.8
+          ],
+          "size": [
+            0.12,
+            0.22,
+            3.0
+          ],
+          "color": "#ad8960"
+        },
+        {
+          "center": [
+            4.49,
+            3.0,
+            6.8
+          ],
+          "size": [
+            0.12,
+            0.22,
+            3.0
+          ],
+          "color": "#ad8960"
+        },
+        {
+          "center": [
+            5.11,
+            3.0,
+            6.8
+          ],
+          "size": [
+            0.12,
+            0.22,
+            3.0
+          ],
+          "color": "#ad8960"
+        },
+        {
+          "center": [
+            5.73,
+            3.0,
+            6.8
+          ],
+          "size": [
+            0.12,
+            0.22,
+            3.0
+          ],
+          "color": "#ad8960"
+        },
+        {
+          "center": [
+            6.3500000000000005,
+            3.0,
+            6.8
+          ],
+          "size": [
+            0.12,
+            0.22,
+            3.0
+          ],
+          "color": "#ad8960"
+        },
+        {
+          "center": [
+            6.970000000000001,
+            3.0,
+            6.8
+          ],
+          "size": [
+            0.12,
+            0.22,
+            3.0
+          ],
+          "color": "#ad8960"
+        },
+        {
+          "center": [
+            8.9,
+            2.85,
+            3.55
+          ],
+          "size": [
+            3.8,
+            0.23,
+            3.5
+          ],
+          "color": "#c4c4bd"
+        }
+      ],
+      "furniture": []
+    }
+  ],
+  "roofs": [
+    {
+      "vertices": [
+        [
+          0,
+          3.4,
+          5.6
+        ],
+        [
+          7.2,
+          3.4,
+          5.6
+        ],
+        [
+          7.2,
+          4.0,
+          0
+        ],
+        [
+          0,
+          4.0,
+          0
+        ]
+      ],
+      "indices": [
+        0,
+        1,
+        2,
+        0,
+        2,
+        3
+      ],
+      "color": "#7c6b61"
+    },
+    {
+      "vertices": [
+        [
+          0,
+          3.4,
+          0
+        ],
+        [
+          0,
+          3.4,
+          5.6
+        ],
+        [
+          0,
+          4,
+          0
+        ],
+        [
+          7.2,
+          3.4,
+          0
+        ],
+        [
+          7.2,
+          3.4,
+          5.6
+        ],
+        [
+          7.2,
+          4,
+          0
+        ]
+      ],
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        4
+      ],
+      "color": "#7c6b61"
+    }
+  ],
+  "exteriors": [
+    {
+      "points": [
+        [
+          -0.5,
+          5.1
+        ],
+        [
+          11.2,
+          5.1
+        ],
+        [
+          11.2,
+          8.7
+        ],
+        [
+          -0.5,
+          8.7
+        ]
+      ],
+      "y": -0.03,
+      "thickness": 0.12,
+      "color": "#d6d4ca"
+    },
+    {
+      "points": [
+        [
+          -2,
+          -1
+        ],
+        [
+          13,
+          -1
+        ],
+        [
+          13,
+          11
+        ],
+        [
+          -2,
+          11
+        ]
+      ],
+      "y": -0.18,
+      "thickness": 0.12,
+      "color": "#9da587"
+    }
+  ],
+  "colors": {
+    "walls": "#e5dfcf",
+    "frames": "#644735",
+    "floor": "#bdb09b",
+    "wood": "#705039",
+    "stairs": "#ad9b80",
+    "roof": "#a17051"
+  },
+  "views": [
+    {
+      "label": "Portico e fronti del progetto",
+      "level": null,
+      "camera": {
+        "yaw": -0.6,
+        "pitch": 0.45,
+        "distance": 24,
+        "target": [
+          4.8,
+          1.4,
+          4.3
+        ]
+      }
+    },
+    {
+      "label": "Vista laterale del progetto",
+      "level": null,
+      "camera": {
+        "yaw": 0.9,
+        "pitch": 0.55,
+        "distance": 24,
+        "target": [
+          4.8,
+          1.4,
+          4.3
+        ]
+      }
+    }
+  ],
+  "draftCreationStarted": "2026-11-09T21:04:20.313208+01:00",
+  "representationState": "advertised_project_not_built_state",
+  "creationFinished": "2026-11-09T22:29:58.684394+01:00",
+  "reviewNotes": [
+    "Due render del progetto confrontati con entrambe le viste finali: corpo alto marrone a falda unica, corpo laterale basso chiaro, vetrata continua, pergolato con appoggi. Retro non documentato aperto e dichiarato; nessuna distribuzione interna inventata.",
+    "Corretti raccordi fra parete laterale e falda; inquadratura mobile intera dopo correzione distanza per aspect ratio. Progetto pubblicizzato, non stato costruito."
+  ]
+}

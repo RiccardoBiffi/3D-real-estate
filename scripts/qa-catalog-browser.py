@@ -8,11 +8,34 @@ with sync_playwright() as pw:
  browser=pw.chromium.launch(executable_path=shutil.which('google-chrome'),headless=True,args=['--no-sandbox','--enable-unsafe-swiftshader','--use-angle=swiftshader'])
  for device,w,h in [('desktop',1280,800),('mobile',390,844)]:
   page=browser.new_page(viewport={'width':w,'height':h});errors=[];page.on('pageerror',lambda e:errors.append(str(e)));checks={};page.goto(a.base+'#panoramica');page.wait_for_function('document.querySelectorAll(".property-card").length>0')
-  page.locator('#availability-filter').select_option('all');checks['full_catalog']=page.locator('.property-card').count()==len(properties)
-  page.locator('#availability-filter').select_option('archived');checks['archive']=page.locator('.property-card').count()==sum(x['availability']['status']=='archived' for x in properties.values())
-  page.locator('#availability-filter').select_option('all');page.locator('#model-filter').select_option('ready');checks['ready_filter']=page.locator('.property-card').count()==sum(x['model']['status']=='ready' for x in properties.values())
+  published=[x for x in properties.values() if x['availability']['status']=='published']
+  archived=[x for x in properties.values() if x['availability']['status']=='archived']
+  checks['panoramica_only_published']=page.locator('.property-card').count()==len(published) and page.locator('.property-card .archived').count()==0
+  if device=='mobile': page.locator('#open-menu').click()
+  page.locator('[data-nav="archivio"]').click()
+  page.wait_for_function("document.querySelector('#page-title').textContent==='Archivio'")
+  checks['archive_only_archived']=page.locator('.property-card').count()==len(archived) and page.locator('.property-card .published').count()==0
+  if archived:
+   page.locator('.property-card').first.click()
+   page.wait_for_selector('#property-details',state='visible')
+   checks['archive_back_link']=page.locator('#back-to-catalog').get_attribute('href')=='#archivio'
+   page.locator('#back-to-catalog').click()
+  page.goto(a.base+'#panoramica')
+  page.wait_for_function("document.querySelector('[data-nav=panoramica]').getAttribute('aria-current')==='page'")
+  page.locator('#model-filter').select_option('ready')
+  checks['ready_filter']=page.locator('.property-card').count()==sum(x['model']['status']=='ready' for x in published)
   for pid in a.ids:
-   model=properties[pid]['model'];assert model['status']=='ready';page.evaluate('(id)=>location.hash=id',pid);page.wait_for_function("document.querySelector('iframe')?.contentWindow.__sceneState?.ready",timeout=60000)
+   model=properties[pid]['model'];assert model['status']=='ready';page.evaluate('(id)=>location.hash=id',pid)
+   page.wait_for_function("""path => {
+     const frame = document.querySelector('iframe');
+     if (!frame || !new URL(frame.src).pathname.endsWith(path)) return false;
+     try {
+       return frame.contentWindow.__sceneState?.ready;
+     } catch (error) {
+       if (error.name !== 'SecurityError') throw error;
+       return false;
+     }
+   }""",arg=model['path'],timeout=60000)
    checks[pid+'_one_frame']=page.locator('iframe').count()==1;checks[pid+'_actual_views']=page.locator('#view-select option').count()==len(model['views'])
    if model['coverage']!='complete':
     text=page.locator('#model-coverage').inner_text();checks[pid+'_omissions_visible']=page.locator('#model-coverage').is_visible() and all(v in text for v in model['unrenderedVolumes'])

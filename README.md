@@ -30,3 +30,9 @@ Le prove browser usano Chromium desktop/mobile emulato con rendering software. N
 Usare il progetto Sites indicato in `.openai/hosting.json`, mantenendo il sito pubblico. Prima di pubblicare: validare il catalogo, generare `out` con `scripts/stage-release.py` includendo soltanto HTML approvati, creare un archivio dal commit effettivamente inviato al repository Sites, salvare e distribuire quella versione e confrontare i file serviti con quelli verificati. Un errore di pubblicazione non sostituisce il riferimento all’ultima versione valida.
 
 Il completamento del popolamento iniziale e l’attivazione dell’aggiornamento del lunedì sono tracciati nei file privati di gestione del lavoro; non sono implicitamente attestati da questo README.
+
+## Modelli e pubblicazione
+
+Il catalogo del 15 novembre 2026 deriva dalla versione 14 di Sites, integrata su GitHub con un merge che conserva le due cronologie. I modelli nuovi aggiornano solo il campo del modello nelle schede pubblicate. Ogni modello approvato ha un HTML autonomo e verificato offline. Le note della scheda indicano quali parti sono rappresentate e quali volumi mancano.
+
+Lo script `integrate-reviewed-models.py` verifica gli hash degli artefatti e richiede un esito di QA e revisione indipendente per i nuovi modelli. `stage-release.py --baseline-commit <SHA completo>` conserva i modelli identici alla versione distribuita e prepara la cartella pubblica `out`. Le evidenze originali e i rapporti di lavoro restano separati dal pacchetto.

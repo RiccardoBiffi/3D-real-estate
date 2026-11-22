@@ -22,6 +22,7 @@
     </div>
     <nav aria-label="Menù principale">
       <a class="nav-overview" href="#panoramica" data-nav="panoramica"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg><span>Panoramica</span></a>
+      <a class="nav-overview" href="#archivio" data-nav="archivio"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 4h18v4H3zM5 8v12h14V8m-9 4h4"/></svg><span>Archivio</span></a>
       <div class="nav-caption">GLI IMMOBILI</div>
       <div id="property-nav-list" class="property-nav-list"></div>
     </nav>
@@ -42,18 +43,18 @@
       </div>
     </header>
     <section id="overview" class="overview" aria-labelledby="overview-title">
-      <div class="intro"><h2 id="overview-title">Una casa.<br>Ogni prospettiva.</h2><p>Annunci, informazioni e modelli 3D.<br class="desktop-break"> Geometria dalle planimetrie, dettagli dalle foto.</p></div>
+      <div class="intro"><h2 id="overview-title">Una casa.<br>Ogni prospettiva.</h2><p id="overview-description">Annunci, informazioni e modelli 3D.</p></div>
       <p id="favorites-note" class="catalog-summary" hidden>I preferiti sono salvati in questo browser e restano qui anche quando un annuncio viene archiviato. Nessuna cancellazione automatica: solo tu puoi rimuoverli con la stella. Non sono sincronizzati tra dispositivi; cancellare i dati del browser elimina anche i preferiti.</p>
       <form class="catalog-filters" id="catalog-filters" role="search" aria-label="Cerca e filtra gli immobili">
         <label class="search-field">Cerca una casa<input id="catalog-search" type="search" placeholder="Indirizzo, titolo o località" autocomplete="off"></label>
         <label>Località<select id="locality-filter"><option value="">Tutte le località</option></select></label>
-        <label>Stato annuncio<select id="availability-filter"><option value="published">Pubblicati</option><option value="archived">Archiviati</option><option value="all">Tutti gli annunci</option></select></label>
+        <label id="availability-field" hidden>Stato annuncio<select id="availability-filter"><option value="published">Pubblicati</option><option value="archived">Archiviati</option><option value="all">Tutti gli annunci</option></select></label>
         <label>Modello<select id="model-filter"><option value="">Tutti i modelli</option><option value="ready">Con modello 3D</option><option value="awaiting_plans">Ricostruzione da preparare</option><option value="in_review">In revisione</option><option value="not_required">Scheda senza modello</option></select></label>
       </form>
       <p id="catalog-summary" class="catalog-summary" role="status" aria-live="polite">Caricamento del catalogo…</p>
       <div id="catalog-error" class="catalog-error" role="alert" hidden><p id="catalog-error-text"></p><button id="retry-catalog" type="button" class="text-button">Riprova</button></div>
       <div id="property-grid" class="property-grid"></div>
-      <p id="catalog-empty" class="catalog-empty" hidden>Nessuna casa corrisponde ai filtri. Prova un’altra ricerca o includi l’archivio.</p>
+      <p id="catalog-empty" class="catalog-empty" hidden>Nessuna casa corrisponde ai filtri. Prova un’altra ricerca.</p>
       <footer class="overview-footer"><span id="catalog-updated">Pubblicazione controllata sulle pagine delle fonti.</span><span>Senza una fonte fresca leggibile, l’annuncio viene archiviato.</span></footer>
     </section>
     <a id="back-to-catalog" class="back-to-catalog" href="#panoramica" hidden>← Tutte le case</a>

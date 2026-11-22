@@ -1,0 +1,1156 @@
+{
+  "id": "via-del-panorama-4",
+  "title": "Via del Panorama 4 - tre piani documentati, viste autonome",
+  "creationStarted": "2026-11-09T22:15:46.336582+01:00",
+  "coverage": "partial",
+  "unrenderedVolumes": [
+    "Coperture e facciate esterne dell’intero edificio: non ricostruite dalle sole piante.",
+    "Dependance, garage opzionale, giardino e parti del compendio vendute separatamente.",
+    "Scale, rampe e raccordi fra i tre livelli: i vani restano liberi, i piani sono esplorati separatamente senza registrazione verticale presunta."
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "type": "floor-plan",
+      "url": "https://triestevillas.com/foto/attUAF2qqsDP0pxbz/2000.webp",
+      "pageUrl": "https://triestevillas.com/annuncio/villa-storica-del-1789-con-vista-mare-e-giardino-0171",
+      "sha256": "af61edfb724bcf624baa8c80d122190e4b01535dfb1b7f21188bd45e2d156071",
+      "actuallyInspected": true,
+      "inspectedAt": "2026-11-09T22:53:38.721334+01:00"
+    }
+  ],
+  "geometrySource": "manual-source-pixel-trace",
+  "limitations": [
+    "Tre diagrammi FLOOR1/FLOOR2/FLOOR3 della stessa tavola ricalcati, senza specchiature o deformazioni separate degli assi.",
+    "Ogni piano è mostrato in una vista autonoma alla medesima quota convenzionale: non si afferma un allineamento verticale non dimostrato.",
+    "Scala uniforme stimata0,015725m/pixel originale (0,0185 nel ricalco ridotto). Le dimensioni scritte sono un controllo di proporzione, non un rilievo.",
+    "Altezze, spessori e altezze delle aperture sono stime; porte e finestre seguono la tavola; interni superiori e inferiori privi di arredi aggiunti."
+  ],
+  "levels": [
+    {
+      "label": "FLOOR 1: family room, bagno e lavanderia",
+      "y": 0,
+      "height": 2.7,
+      "outline": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          7.6109,
+          0.0
+        ],
+        [
+          7.6109,
+          8.33425
+        ],
+        [
+          3.6482,
+          8.33425
+        ],
+        [
+          3.6482,
+          5.9755
+        ],
+        [
+          3.30225,
+          5.9755
+        ],
+        [
+          3.30225,
+          6.7303
+        ],
+        [
+          0.59755,
+          6.7303
+        ],
+        [
+          0.59755,
+          4.403
+        ],
+        [
+          0.40885,
+          4.403
+        ],
+        [
+          0.40885,
+          2.78333
+        ]
+      ],
+      "walls": [
+        {
+          "a": [
+            0.0,
+            0.0
+          ],
+          "b": [
+            7.6109,
+            0.0
+          ],
+          "thickness": 0.18,
+          "openings": [
+            {
+              "start": 0.7233499999999999,
+              "end": 1.8083749999999998,
+              "kind": "window",
+              "sill": 0.85,
+              "height": 1.35
+            },
+            {
+              "start": 4.0256,
+              "end": 4.81185,
+              "kind": "door",
+              "sill": 0,
+              "height": 2.05
+            },
+            {
+              "start": 6.13275,
+              "end": 7.0447999999999995,
+              "kind": "window",
+              "sill": 0.85,
+              "height": 1.35
+            }
+          ]
+        },
+        {
+          "a": [
+            7.6109,
+            0.0
+          ],
+          "b": [
+            7.6109,
+            8.33425
+          ],
+          "thickness": 0.18,
+          "openings": []
+        },
+        {
+          "a": [
+            7.6109,
+            8.33425
+          ],
+          "b": [
+            3.6482,
+            8.33425
+          ],
+          "thickness": 0.18,
+          "openings": [
+            {
+              "start": 1.7926499999999999,
+              "end": 2.688975,
+              "kind": "window",
+              "sill": 0.85,
+              "height": 1.35
+            }
+          ]
+        },
+        {
+          "a": [
+            3.6482,
+            8.33425
+          ],
+          "b": [
+            3.6482,
+            5.9755
+          ],
+          "thickness": 0.18,
+          "openings": []
+        },
+        {
+          "a": [
+            3.6482,
+            5.9755
+          ],
+          "b": [
+            3.30225,
+            5.9755
+          ],
+          "thickness": 0.18,
+          "openings": []
+        },
+        {
+          "a": [
+            3.30225,
+            5.9755
+          ],
+          "b": [
+            3.30225,
+            6.7303
+          ],
+          "thickness": 0.18,
+          "openings": []
+        },
+        {
+          "a": [
+            3.30225,
+            6.7303
+          ],
+          "b": [
+            0.59755,
+            6.7303
+          ],
+          "thickness": 0.18,
+          "openings": []
+        },
+        {
+          "a": [
+            0.59755,
+            6.7303
+          ],
+          "b": [
+            0.59755,
+            4.403
+          ],
+          "thickness": 0.18,
+          "openings": []
+        },
+        {
+          "a": [
+            0.59755,
+            4.403
+          ],
+          "b": [
+            0.40885,
+            4.403
+          ],
+          "thickness": 0.18,
+          "openings": []
+        },
+        {
+          "a": [
+            0.40885,
+            4.403
+          ],
+          "b": [
+            0.40885,
+            2.78333
+          ],
+          "thickness": 0.18,
+          "openings": []
+        },
+        {
+          "a": [
+            0.40885,
+            2.78333
+          ],
+          "b": [
+            0.0,
+            0.0
+          ],
+          "thickness": 0.18,
+          "openings": []
+        },
+        {
+          "a": [
+            6.3529,
+            1.08502
+          ],
+          "b": [
+            6.3529,
+            4.403
+          ],
+          "thickness": 0.18,
+          "openings": []
+        },
+        {
+          "a": [
+            3.30225,
+            4.403
+          ],
+          "b": [
+            7.6109,
+            4.403
+          ],
+          "thickness": 0.18,
+          "openings": [
+            {
+              "start": 1.8241,
+              "end": 2.75188,
+              "kind": "door",
+              "sill": 0,
+              "height": 2.05
+            }
+          ]
+        },
+        {
+          "a": [
+            3.30225,
+            4.403
+          ],
+          "b": [
+            3.30225,
+            5.9755
+          ],
+          "thickness": 0.18,
+          "openings": []
+        },
+        {
+          "a": [
+            3.30225,
+            5.9755
+          ],
+          "b": [
+            5.032,
+            5.9755
+          ],
+          "thickness": 0.18,
+          "openings": []
+        },
+        {
+          "a": [
+            5.032,
+            4.403
+          ],
+          "b": [
+            5.032,
+            5.9755
+          ],
+          "thickness": 0.18,
+          "openings": [
+            {
+              "start": 0.20442,
+              "end": 1.1322,
+              "kind": "door",
+              "sill": 0,
+              "height": 2.05
+            }
+          ]
+        }
+      ],
+      "holes": [
+        [
+          [
+            5.56665,
+            0.07863
+          ],
+          [
+            7.53227,
+            0.07863
+          ],
+          [
+            7.53227,
+            4.35582
+          ],
+          [
+            6.3529,
+            4.35582
+          ],
+          [
+            6.3529,
+            1.08502
+          ],
+          [
+            5.56665,
+            1.08502
+          ]
+        ]
+      ],
+      "furniture": [],
+      "sourceTransform": {
+        "uniformMetresPerOriginalPixel": 0.015725,
+        "originPx": [
+          64,
+          220
+        ],
+        "rotationDegrees": 0,
+        "reflection": false,
+        "status": "independent source plane; not a registered storey"
+      },
+      "sourcePlan": "S1"
+    },
+    {
+      "label": "Piano giorno - tavola FLOOR 2",
+      "y": 0,
+      "height": 2.7,
+      "outline": [
+        [
+          0.0,
+          0.481
+        ],
+        [
+          10.952,
+          0.0
+        ],
+        [
+          10.952,
+          4.995
+        ],
+        [
+          11.174,
+          4.995
+        ],
+        [
+          11.174,
+          9.2685
+        ],
+        [
+          7.77,
+          9.2685
+        ],
+        [
+          7.77,
+          8.7135
+        ],
+        [
+          3.9405,
+          8.7135
+        ],
+        [
+          3.9405,
+          4.773
+        ],
+        [
+          0.0,
+          4.773
+        ]
+      ],
+      "holes": [
+        [
+          [
+            9.1575,
+            0.185
+          ],
+          [
+            10.9335,
+            0.074
+          ],
+          [
+            10.9335,
+            4.736
+          ],
+          [
+            9.1575,
+            4.736
+          ]
+        ]
+      ],
+      "walls": [
+        {
+          "a": [
+            0.0,
+            0.481
+          ],
+          "b": [
+            10.952,
+            0.0
+          ],
+          "thickness": 0.18,
+          "openings": [
+            {
+              "start": 0.148,
+              "end": 1.5725,
+              "kind": "window",
+              "sill": 0.85,
+              "height": 1.25
+            },
+            {
+              "start": 4.1625,
+              "end": 5.735,
+              "kind": "window",
+              "sill": 0.85,
+              "height": 1.25
+            },
+            {
+              "start": 6.438,
+              "end": 7.659,
+              "kind": "window",
+              "sill": 0.85,
+              "height": 1.25
+            },
+            {
+              "start": 9.3055,
+              "end": 10.36,
+              "kind": "window",
+              "sill": 0.85,
+              "height": 1.25
+            }
+          ]
+        },
+        {
+          "a": [
+            10.952,
+            0.0
+          ],
+          "b": [
+            10.952,
+            4.995
+          ],
+          "thickness": 0.18,
+          "openings": []
+        },
+        {
+          "a": [
+            10.952,
+            4.995
+          ],
+          "b": [
+            11.174,
+            4.995
+          ],
+          "thickness": 0.18,
+          "openings": []
+        },
+        {
+          "a": [
+            11.174,
+            4.995
+          ],
+          "b": [
+            11.174,
+            9.2685
+          ],
+          "thickness": 0.18,
+          "openings": []
+        },
+        {
+          "a": [
+            11.174,
+            9.2685
+          ],
+          "b": [
+            7.77,
+            9.2685
+          ],
+          "thickness": 0.18,
+          "openings": [
+            {
+              "start": 0.2405,
+              "end": 1.2395,
+              "kind": "window",
+              "sill": 0.85,
+              "height": 1.25
+            },
+            {
+              "start": 2.2015,
+              "end": 3.182,
+              "kind": "window",
+              "sill": 0.85,
+              "height": 1.25
+            }
+          ]
+        },
+        {
+          "a": [
+            7.77,
+            9.2685
+          ],
+          "b": [
+            7.77,
+            8.7135
+          ],
+          "thickness": 0.18,
+          "openings": []
+        },
+        {
+          "a": [
+            7.77,
+            8.7135
+          ],
+          "b": [
+            3.9405,
+            8.7135
+          ],
+          "thickness": 0.18,
+          "openings": [
+            {
+              "start": 2.072,
+              "end": 3.034,
+              "kind": "door",
+              "sill": 0,
+              "height": 2.1
+            },
+            {
+              "start": 0.592,
+              "end": 1.5355,
+              "kind": "window",
+              "sill": 0.85,
+              "height": 1.25
+            }
+          ]
+        },
+        {
+          "a": [
+            3.9405,
+            8.7135
+          ],
+          "b": [
+            3.9405,
+            4.773
+          ],
+          "thickness": 0.18,
+          "openings": []
+        },
+        {
+          "a": [
+            3.9405,
+            4.773
+          ],
+          "b": [
+            0.0,
+            4.773
+          ],
+          "thickness": 0.18,
+          "openings": []
+        },
+        {
+          "a": [
+            0.0,
+            4.773
+          ],
+          "b": [
+            0.0,
+            0.481
+          ],
+          "thickness": 0.18,
+          "openings": [
+            {
+              "start": 3.0525,
+              "end": 3.9775,
+              "kind": "window",
+              "sill": 0.85,
+              "height": 1.25
+            }
+          ]
+        },
+        {
+          "a": [
+            3.071,
+            0.37
+          ],
+          "b": [
+            3.367,
+            3.1265
+          ],
+          "thickness": 0.15,
+          "openings": []
+        },
+        {
+          "a": [
+            3.9405,
+            6.0495
+          ],
+          "b": [
+            6.7155,
+            6.0495
+          ],
+          "thickness": 0.15,
+          "openings": []
+        },
+        {
+          "a": [
+            5.9385,
+            6.0495
+          ],
+          "b": [
+            5.9385,
+            8.7135
+          ],
+          "thickness": 0.15,
+          "openings": [
+            {
+              "start": 0.6475,
+              "end": 1.4985,
+              "kind": "door",
+              "sill": 0,
+              "height": 2.1
+            }
+          ]
+        },
+        {
+          "a": [
+            7.7885,
+            6.0865
+          ],
+          "b": [
+            7.7885,
+            8.7135
+          ],
+          "thickness": 0.15,
+          "openings": []
+        },
+        {
+          "a": [
+            9.1575,
+            2.183
+          ],
+          "b": [
+            9.1575,
+            5.032
+          ],
+          "thickness": 0.15,
+          "openings": []
+        },
+        {
+          "a": [
+            9.1575,
+            2.9415
+          ],
+          "b": [
+            10.952,
+            2.9415
+          ],
+          "thickness": 0.15,
+          "openings": []
+        }
+      ],
+      "furniture": [
+        {
+          "kind": "table",
+          "x": 1.332,
+          "z": 2.109,
+          "width": 1.15,
+          "depth": 1.35,
+          "color": "#a88a65"
+        },
+        {
+          "kind": "sofa",
+          "x": 5.032,
+          "z": 0.8325,
+          "width": 1.8,
+          "depth": 0.72,
+          "color": "#c2b5a4"
+        },
+        {
+          "kind": "sofa",
+          "x": 3.848,
+          "z": 2.257,
+          "width": 1.65,
+          "depth": 0.72,
+          "rotation": 1.57,
+          "color": "#c2b5a4"
+        },
+        {
+          "kind": "table",
+          "x": 9.1205,
+          "z": 7.1225,
+          "width": 0.9,
+          "depth": 1.2,
+          "color": "#a88a65"
+        }
+      ],
+      "sourcePlan": "S1",
+      "sourceTransform": {
+        "uniformMetresPerOriginalPixel": 0.015725,
+        "originPx": [
+          620,
+          210
+        ],
+        "rotationDegrees": 0,
+        "reflection": false,
+        "status": "manual-trace-registration-not-metric-survey"
+      }
+    },
+    {
+      "label": "FLOOR 3: tre camere e due bagni",
+      "y": 0,
+      "height": 2.7,
+      "outline": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          6.82465,
+          0.0
+        ],
+        [
+          6.82465,
+          2.81478
+        ],
+        [
+          8.38143,
+          2.81478
+        ],
+        [
+          8.38143,
+          10.0011
+        ],
+        [
+          4.4659,
+          10.0011
+        ],
+        [
+          4.4659,
+          9.40355
+        ],
+        [
+          1.14792,
+          9.40355
+        ],
+        [
+          1.14792,
+          5.8497
+        ],
+        [
+          0.8806,
+          5.8497
+        ]
+      ],
+      "walls": [
+        {
+          "a": [
+            0.0,
+            0.0
+          ],
+          "b": [
+            6.82465,
+            0.0
+          ],
+          "thickness": 0.18,
+          "openings": [
+            {
+              "start": 1.6354,
+              "end": 2.6575249999999997,
+              "kind": "door",
+              "sill": 0,
+              "height": 2.05
+            }
+          ]
+        },
+        {
+          "a": [
+            6.82465,
+            0.0
+          ],
+          "b": [
+            6.82465,
+            2.81478
+          ],
+          "thickness": 0.18,
+          "openings": []
+        },
+        {
+          "a": [
+            6.82465,
+            2.81478
+          ],
+          "b": [
+            8.38143,
+            2.81478
+          ],
+          "thickness": 0.18,
+          "openings": []
+        },
+        {
+          "a": [
+            8.38143,
+            2.81478
+          ],
+          "b": [
+            8.38143,
+            10.0011
+          ],
+          "thickness": 0.18,
+          "openings": [
+            {
+              "start": 1.619675,
+              "end": 2.35875,
+              "kind": "window",
+              "sill": 0.9,
+              "height": 1.25
+            }
+          ]
+        },
+        {
+          "a": [
+            8.38143,
+            10.0011
+          ],
+          "b": [
+            4.4659,
+            10.0011
+          ],
+          "thickness": 0.18,
+          "openings": [
+            {
+              "start": 0.66045,
+              "end": 1.714025,
+              "kind": "window",
+              "sill": 0.85,
+              "height": 1.35
+            },
+            {
+              "start": 2.0757,
+              "end": 2.9877499999999997,
+              "kind": "door",
+              "sill": 0,
+              "height": 2.05
+            }
+          ]
+        },
+        {
+          "a": [
+            4.4659,
+            10.0011
+          ],
+          "b": [
+            4.4659,
+            9.40355
+          ],
+          "thickness": 0.18,
+          "openings": []
+        },
+        {
+          "a": [
+            4.4659,
+            9.40355
+          ],
+          "b": [
+            1.14792,
+            9.40355
+          ],
+          "thickness": 0.18,
+          "openings": [
+            {
+              "start": 0.1258,
+              "end": 1.0064,
+              "kind": "door",
+              "sill": 0,
+              "height": 2.05
+            },
+            {
+              "start": 1.85555,
+              "end": 2.814775,
+              "kind": "window",
+              "sill": 0.85,
+              "height": 1.35
+            }
+          ]
+        },
+        {
+          "a": [
+            1.14792,
+            9.40355
+          ],
+          "b": [
+            1.14792,
+            5.8497
+          ],
+          "thickness": 0.18,
+          "openings": []
+        },
+        {
+          "a": [
+            1.14792,
+            5.8497
+          ],
+          "b": [
+            0.8806,
+            5.8497
+          ],
+          "thickness": 0.18,
+          "openings": []
+        },
+        {
+          "a": [
+            0.8806,
+            5.8497
+          ],
+          "b": [
+            0.0,
+            0.0
+          ],
+          "thickness": 0.18,
+          "openings": []
+        },
+        {
+          "a": [
+            4.6546,
+            0.0
+          ],
+          "b": [
+            4.6546,
+            4.00988
+          ],
+          "thickness": 0.18,
+          "openings": []
+        },
+        {
+          "a": [
+            1.58822,
+            4.00988
+          ],
+          "b": [
+            4.6546,
+            4.00988
+          ],
+          "thickness": 0.18,
+          "openings": []
+        },
+        {
+          "a": [
+            3.4595,
+            4.00988
+          ],
+          "b": [
+            3.4595,
+            5.8497
+          ],
+          "thickness": 0.18,
+          "openings": [
+            {
+              "start": 0.04717,
+              "end": 0.97495,
+              "kind": "door",
+              "sill": 0,
+              "height": 2.05
+            }
+          ]
+        },
+        {
+          "a": [
+            4.6546,
+            2.81478
+          ],
+          "b": [
+            6.82465,
+            2.81478
+          ],
+          "thickness": 0.18,
+          "openings": [
+            {
+              "start": 0.1887,
+              "end": 1.10075,
+              "kind": "door",
+              "sill": 0,
+              "height": 2.05
+            }
+          ]
+        },
+        {
+          "a": [
+            6.0384,
+            4.0885
+          ],
+          "b": [
+            8.38143,
+            4.0885
+          ],
+          "thickness": 0.18,
+          "openings": []
+        },
+        {
+          "a": [
+            6.0384,
+            4.0885
+          ],
+          "b": [
+            6.0384,
+            5.8497
+          ],
+          "thickness": 0.18,
+          "openings": [
+            {
+              "start": 0.20442,
+              "end": 1.1322,
+              "kind": "door",
+              "sill": 0,
+              "height": 2.05
+            }
+          ]
+        },
+        {
+          "a": [
+            1.14792,
+            5.8497
+          ],
+          "b": [
+            8.38143,
+            5.8497
+          ],
+          "thickness": 0.18,
+          "openings": [
+            {
+              "start": 2.24867,
+              "end": 3.16072,
+              "kind": "door",
+              "sill": 0,
+              "height": 2.05
+            },
+            {
+              "start": 3.82117,
+              "end": 4.73323,
+              "kind": "door",
+              "sill": 0,
+              "height": 2.05
+            }
+          ]
+        },
+        {
+          "a": [
+            4.4659,
+            5.8497
+          ],
+          "b": [
+            4.4659,
+            9.40355
+          ],
+          "thickness": 0.18,
+          "openings": []
+        }
+      ],
+      "holes": [
+        [
+          [
+            6.05412,
+            2.86195
+          ],
+          [
+            8.31852,
+            2.86195
+          ],
+          [
+            8.31852,
+            4.04132
+          ],
+          [
+            6.05412,
+            4.04132
+          ]
+        ]
+      ],
+      "furniture": [],
+      "sourceTransform": {
+        "uniformMetresPerOriginalPixel": 0.015725,
+        "originPx": [
+          1414,
+          202
+        ],
+        "rotationDegrees": 0,
+        "reflection": false,
+        "status": "independent source plane; not a registered storey"
+      },
+      "sourcePlan": "S1"
+    }
+  ],
+  "roofs": [],
+  "exteriors": [],
+  "colors": {
+    "walls": "#e5dfcf",
+    "frames": "#644735",
+    "floor": "#bdb09b",
+    "wood": "#705039",
+    "stairs": "#ad9b80",
+    "roof": "#a17051"
+  },
+  "views": [
+    {
+      "label": "FLOOR 2: piano giorno autonomo",
+      "level": 1
+    },
+    {
+      "label": "FLOOR 3: piano notte autonomo",
+      "level": 2
+    },
+    {
+      "label": "FLOOR 1: livello inferiore autonomo",
+      "level": 0
+    }
+  ],
+  "draftCreationStarted": "2026-11-09T21:04:20.311314+01:00",
+  "creationFinished": "2026-11-09T22:53:38.721334+01:00",
+  "reviewNotes": [
+    "Ora tutti i diagrammi FLOOR1/FLOOR2/FLOOR3 sono ricalcati: family room/bagno/lavanderia, piano giorno/cucina/ingresso/ufficio, tre camere/due bagni/corridoio. Tre overlayWebGLortografici sulla stessa tavola verificano perimetri inclinati, rientri, setti, aperture e vani scala; nessuna specchiatura.",
+    "Viste autonome alla medesima quota, senza registrazione verticale arbitraria o rampe inventate. Giardino, dependance, garage opzionale e coperture omessi e dichiarati. Scala uniforme stimata0,015725m/pixel originale; QA3viste desktop/mobile offline passata."
+  ]
+}
