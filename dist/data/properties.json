@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-15T10:01:17.541322+01:00",
+  "updatedAt": "2026-11-22T09:53:39.535185+01:00",
   "properties": [
     {
       "id": "via-risano-raute",
@@ -43,7 +43,7 @@
       },
       "availability": {
         "status": "published",
-        "checkedAt": "2026-11-15T09:43:16.319252+01:00",
+        "checkedAt": "2026-11-22T09:44:06.788961+01:00",
         "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
         "verifiedSources": [
           {
@@ -64,10 +64,10 @@
         ]
       },
       "evidence": {
-        "listingReadAt": "2026-11-15T09:43:16.319252+01:00",
+        "listingReadAt": "2026-11-22T09:44:06.788961+01:00",
         "sourceUpdatedAt": null,
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 15 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
+        "note": "Controllo diretto dell’esatto URL eseguito il 22 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -114,7 +114,7 @@
       },
       "availability": {
         "status": "published",
-        "checkedAt": "2026-11-15T09:43:20.536709+01:00",
+        "checkedAt": "2026-11-22T09:44:12.777881+01:00",
         "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
         "verifiedSources": [
           {
@@ -141,10 +141,10 @@
         ]
       },
       "evidence": {
-        "listingReadAt": "2026-11-15T09:43:20.536709+01:00",
+        "listingReadAt": "2026-11-22T09:44:12.777881+01:00",
         "sourceUpdatedAt": null,
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 15 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
+        "note": "Controllo diretto dell’esatto URL eseguito il 22 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -189,7 +189,7 @@
       },
       "availability": {
         "status": "published",
-        "checkedAt": "2026-11-15T09:43:20.612743+01:00",
+        "checkedAt": "2026-11-22T09:44:12.737975+01:00",
         "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
         "verifiedSources": [
           {
@@ -210,10 +210,10 @@
         ]
       },
       "evidence": {
-        "listingReadAt": "2026-11-15T09:43:20.612743+01:00",
+        "listingReadAt": "2026-11-22T09:44:12.737975+01:00",
         "sourceUpdatedAt": "1 aprile",
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 15 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
+        "note": "Controllo diretto dell’esatto URL eseguito il 22 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -261,7 +261,7 @@
       },
       "availability": {
         "status": "published",
-        "checkedAt": "2026-11-15T09:43:24.912936+01:00",
+        "checkedAt": "2026-11-22T09:44:18.809224+01:00",
         "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
         "verifiedSources": [
           {
@@ -282,10 +282,10 @@
         ]
       },
       "evidence": {
-        "listingReadAt": "2026-11-15T09:43:24.912936+01:00",
+        "listingReadAt": "2026-11-22T09:44:18.809224+01:00",
         "sourceUpdatedAt": "13 luglio",
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 15 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
+        "note": "Controllo diretto dell’esatto URL eseguito il 22 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -339,23 +339,10 @@
         "description": "Villetta a schiera su tre livelli, con circa 250 m² di giardino, terrazze e tettoia per le auto. La via di accesso finale è stretta. Superficie dichiarata di 228 m², da distinguere dalle precedenti indicazioni."
       },
       "availability": {
-        "status": "published",
-        "checkedAt": "2026-11-15T09:43:35.631398+01:00",
-        "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
-        "verifiedSources": [
-          {
-            "url": "https://www.casa.it/immobili/54666169/",
-            "title": "Casa bifamiliare in Vendita in Via Bartolomeo Gianelli 7 a Trieste - 228mq - Casa.it",
-            "price": "€ 417.000",
-            "details": "vidi Salva Ingrandisci 1 / 54 Foto Planimetria Mappa Descrizione Italiano English Deutsch Nel cuore residenzi"
-          },
-          {
-            "url": "https://www.trovacasa.it/annunci/ts-tc-93198-72978713",
-            "title": "Villa a Schiera in vendita a Trieste via Bartolomeo Gianelli, 7, giardino privato, posto auto, terrazzo - TrovaCasa",
-            "price": "€ 417.000",
-            "details": "ia Bartolomeo Gianelli, 7 228 m² 5 locali GIANNELLI 7 COSTALUNGA Trieste, Via Bartolomeo Gianelli, 7 228 m"
-          }
-        ]
+        "status": "archived",
+        "checkedAt": "2026-11-22T09:44:27.785375+01:00",
+        "reason": "Nessuna fonte online fresca leggibile individuata nell’ultimo controllo. Questo stato non certifica la vendita o il ritiro dell’immobile.",
+        "verifiedSources": []
       },
       "model": {
         "status": "ready",
@@ -389,10 +376,10 @@
         "preview": "assets/via-gianelli-7-preview.jpg"
       },
       "evidence": {
-        "listingReadAt": "2026-11-15T09:43:35.631398+01:00",
+        "listingReadAt": "2026-11-22T09:44:27.785375+01:00",
         "sourceUpdatedAt": null,
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 15 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
+        "note": "Controllo diretto dell’esatto URL eseguito il 22 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -436,7 +423,7 @@
       },
       "availability": {
         "status": "published",
-        "checkedAt": "2026-11-15T09:43:26.205579+01:00",
+        "checkedAt": "2026-11-22T09:44:24.712149+01:00",
         "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
         "verifiedSources": [
           {
@@ -458,10 +445,10 @@
         ]
       },
       "evidence": {
-        "listingReadAt": "2026-11-15T09:43:26.205579+01:00",
+        "listingReadAt": "2026-11-22T09:44:24.712149+01:00",
         "sourceUpdatedAt": "20/03/2026",
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 15 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
+        "note": "Controllo diretto dell’esatto URL eseguito il 22 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -513,7 +500,7 @@
       },
       "availability": {
         "status": "published",
-        "checkedAt": "2026-11-15T09:43:35.582861+01:00",
+        "checkedAt": "2026-11-22T09:44:55.221216+01:00",
         "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
         "verifiedSources": [
           {
@@ -521,12 +508,6 @@
             "title": "Vendita Villa a schiera  in via dei Salici 22/1 Trieste. Ottimo stato, posto auto, con terrazza, riscaldamento autonomo, 203 m², rif. 131503174",
             "price": "€ 535.000",
             "details": "e Camera da letto Cucina 40 Foto 2 Planimetrie Villa a schiera via dei Salici 22/1, Opicina, Trieste Trieste "
-          },
-          {
-            "url": "https://www.trovacasa.it/annunci/ts-tc-44224-72706379",
-            "title": "Villa a Schiera in vendita a Trieste via dei Salici, 22/1, giardino privato, terrazzo, travi a vista - TrovaCasa",
-            "price": "€ 535.000",
-            "details": "ste, Via dei Salici, 22/1 203 m² 6 locali 131503174 Trieste, Via dei Salici, 22/1 203 m² 6 locali 535.000 "
           }
         ]
       },
@@ -577,10 +558,10 @@
         "preview": "assets/via-dei-salici-22-1.jpg"
       },
       "evidence": {
-        "listingReadAt": "2026-11-15T09:43:35.582861+01:00",
+        "listingReadAt": "2026-11-22T09:44:55.221216+01:00",
         "sourceUpdatedAt": null,
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 15 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
+        "note": "Controllo diretto dell’esatto URL eseguito il 22 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -625,7 +606,7 @@
       },
       "availability": {
         "status": "published",
-        "checkedAt": "2026-11-15T09:43:40.626035+01:00",
+        "checkedAt": "2026-11-22T09:44:29.699266+01:00",
         "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
         "verifiedSources": [
           {
@@ -681,10 +662,10 @@
         "preview": "assets/opicina-villa-126111987.jpg"
       },
       "evidence": {
-        "listingReadAt": "2026-11-15T09:43:40.626035+01:00",
+        "listingReadAt": "2026-11-22T09:44:29.699266+01:00",
         "sourceUpdatedAt": "29/07/2026",
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 15 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
+        "note": "Controllo diretto dell’esatto URL eseguito il 22 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -731,7 +712,7 @@
       },
       "availability": {
         "status": "archived",
-        "checkedAt": "2026-11-15T09:43:41.428072+01:00",
+        "checkedAt": "2026-11-22T09:44:36.330609+01:00",
         "reason": "Nessuna fonte online fresca leggibile individuata nell’ultimo controllo. Questo stato non certifica la vendita o il ritiro dell’immobile.",
         "verifiedSources": []
       },
@@ -744,10 +725,10 @@
         ]
       },
       "evidence": {
-        "listingReadAt": "2026-11-15T09:43:41.428072+01:00",
+        "listingReadAt": "2026-11-22T09:44:36.330609+01:00",
         "sourceUpdatedAt": null,
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 15 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
+        "note": "Controllo diretto dell’esatto URL eseguito il 22 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -796,7 +777,7 @@
       },
       "availability": {
         "status": "published",
-        "checkedAt": "2026-11-15T09:43:56.903089+01:00",
+        "checkedAt": "2026-11-22T09:44:57.302678+01:00",
         "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
         "verifiedSources": [
           {
@@ -873,10 +854,10 @@
         "preview": "assets/erta-di-sant-anna.jpg"
       },
       "evidence": {
-        "listingReadAt": "2026-11-15T09:43:56.903089+01:00",
+        "listingReadAt": "2026-11-22T09:44:57.302678+01:00",
         "sourceUpdatedAt": null,
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 15 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
+        "note": "Controllo diretto dell’esatto URL eseguito il 22 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -921,7 +902,7 @@
       },
       "availability": {
         "status": "published",
-        "checkedAt": "2026-11-15T09:43:49.717435+01:00",
+        "checkedAt": "2026-11-22T09:45:06.150029+01:00",
         "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
         "verifiedSources": [
           {
@@ -948,10 +929,10 @@
         ]
       },
       "evidence": {
-        "listingReadAt": "2026-11-15T09:43:49.717435+01:00",
+        "listingReadAt": "2026-11-22T09:45:06.150029+01:00",
         "sourceUpdatedAt": null,
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 15 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
+        "note": "Controllo diretto dell’esatto URL eseguito il 22 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -997,7 +978,7 @@
       },
       "availability": {
         "status": "archived",
-        "checkedAt": "2026-11-15T09:43:59.067548+01:00",
+        "checkedAt": "2026-11-22T09:45:05.559820+01:00",
         "reason": "Nessuna fonte online fresca leggibile individuata nell’ultimo controllo. Questo stato non certifica la vendita o il ritiro dell’immobile.",
         "verifiedSources": []
       },
@@ -1010,10 +991,10 @@
         ]
       },
       "evidence": {
-        "listingReadAt": "2026-11-15T09:43:59.067548+01:00",
+        "listingReadAt": "2026-11-22T09:45:05.559820+01:00",
         "sourceUpdatedAt": null,
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 15 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
+        "note": "Controllo diretto dell’esatto URL eseguito il 22 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -1059,7 +1040,7 @@
       },
       "availability": {
         "status": "published",
-        "checkedAt": "2026-11-15T09:43:59.167493+01:00",
+        "checkedAt": "2026-11-22T09:45:11.239796+01:00",
         "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
         "verifiedSources": [
           {
@@ -1108,10 +1089,10 @@
         "preview": "assets/fontanella-10-4.jpg"
       },
       "evidence": {
-        "listingReadAt": "2026-11-15T09:43:59.167493+01:00",
+        "listingReadAt": "2026-11-22T09:45:11.239796+01:00",
         "sourceUpdatedAt": "23/03/2026",
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 15 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
+        "note": "Controllo diretto dell’esatto URL eseguito il 22 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -1156,7 +1137,7 @@
       },
       "availability": {
         "status": "published",
-        "checkedAt": "2026-11-15T09:44:06.000621+01:00",
+        "checkedAt": "2026-11-22T09:45:15.708518+01:00",
         "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
         "verifiedSources": [
           {
@@ -1231,10 +1212,10 @@
         "preview": "assets/opicina-trifamiliare-tecnocasa-preview.jpg"
       },
       "evidence": {
-        "listingReadAt": "2026-11-15T09:44:06.000621+01:00",
+        "listingReadAt": "2026-11-22T09:45:15.708518+01:00",
         "sourceUpdatedAt": null,
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 15 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
+        "note": "Controllo diretto dell’esatto URL eseguito il 22 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -1282,7 +1263,7 @@
       },
       "availability": {
         "status": "published",
-        "checkedAt": "2026-11-15T09:44:05.388866+01:00",
+        "checkedAt": "2026-11-22T09:45:16.994916+01:00",
         "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
         "verifiedSources": [
           {
@@ -1303,10 +1284,10 @@
         ]
       },
       "evidence": {
-        "listingReadAt": "2026-11-15T09:44:05.388866+01:00",
+        "listingReadAt": "2026-11-22T09:45:16.994916+01:00",
         "sourceUpdatedAt": "15/01/2026",
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 15 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
+        "note": "Controllo diretto dell’esatto URL eseguito il 22 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -1351,7 +1332,7 @@
       },
       "availability": {
         "status": "archived",
-        "checkedAt": "2026-11-15T09:44:21.416842+01:00",
+        "checkedAt": "2026-11-22T09:45:31.815118+01:00",
         "reason": "Nessuna fonte online fresca leggibile individuata nell’ultimo controllo. Questo stato non certifica la vendita o il ritiro dell’immobile.",
         "verifiedSources": []
       },
@@ -1397,10 +1378,10 @@
         "preview": "assets/trebiciano-130356648.jpg"
       },
       "evidence": {
-        "listingReadAt": "2026-11-15T09:44:21.416842+01:00",
+        "listingReadAt": "2026-11-22T09:45:31.815118+01:00",
         "sourceUpdatedAt": null,
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 15 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
+        "note": "Controllo diretto dell’esatto URL eseguito il 22 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -1444,7 +1425,7 @@
       },
       "availability": {
         "status": "archived",
-        "checkedAt": "2026-11-15T09:44:10.963197+01:00",
+        "checkedAt": "2026-11-22T09:45:26.455093+01:00",
         "reason": "Nessuna fonte online fresca leggibile individuata nell’ultimo controllo. Questo stato non certifica la vendita o il ritiro dell’immobile.",
         "verifiedSources": []
       },
@@ -1460,10 +1441,10 @@
         ]
       },
       "evidence": {
-        "listingReadAt": "2026-11-15T09:44:10.963197+01:00",
+        "listingReadAt": "2026-11-22T09:45:26.455093+01:00",
         "sourceUpdatedAt": "09/09/2026",
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 15 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
+        "note": "Controllo diretto dell’esatto URL eseguito il 22 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -1519,7 +1500,7 @@
       },
       "availability": {
         "status": "archived",
-        "checkedAt": "2026-11-15T09:44:29.559858+01:00",
+        "checkedAt": "2026-11-22T09:45:41.652278+01:00",
         "reason": "Nessuna fonte online fresca leggibile individuata nell’ultimo controllo. Questo stato non certifica la vendita o il ritiro dell’immobile.",
         "verifiedSources": []
       },
@@ -1532,10 +1513,10 @@
         ]
       },
       "evidence": {
-        "listingReadAt": "2026-11-15T09:44:29.559858+01:00",
+        "listingReadAt": "2026-11-22T09:45:41.652278+01:00",
         "sourceUpdatedAt": "2026-10-02",
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 15 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
+        "note": "Controllo diretto dell’esatto URL eseguito il 22 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -1590,7 +1571,7 @@
       },
       "availability": {
         "status": "published",
-        "checkedAt": "2026-11-15T09:44:36.595162+01:00",
+        "checkedAt": "2026-11-22T09:45:48.681097+01:00",
         "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
         "verifiedSources": [
           {
@@ -1611,10 +1592,10 @@
         ]
       },
       "evidence": {
-        "listingReadAt": "2026-11-15T09:44:36.595162+01:00",
+        "listingReadAt": "2026-11-22T09:45:48.681097+01:00",
         "sourceUpdatedAt": null,
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 15 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
+        "note": "Controllo diretto dell’esatto URL eseguito il 22 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -1665,7 +1646,7 @@
       },
       "availability": {
         "status": "archived",
-        "checkedAt": "2026-11-15T09:44:36.156727+01:00",
+        "checkedAt": "2026-11-22T09:45:47.127087+01:00",
         "reason": "Nessuna fonte online fresca leggibile individuata nell’ultimo controllo. Questo stato non certifica la vendita o il ritiro dell’immobile.",
         "verifiedSources": []
       },
@@ -1678,10 +1659,10 @@
         ]
       },
       "evidence": {
-        "listingReadAt": "2026-11-15T09:44:36.156727+01:00",
+        "listingReadAt": "2026-11-22T09:45:47.127087+01:00",
         "sourceUpdatedAt": null,
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 15 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
+        "note": "Controllo diretto dell’esatto URL eseguito il 22 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -1728,7 +1709,7 @@
       },
       "availability": {
         "status": "published",
-        "checkedAt": "2026-11-15T09:44:40.673366+01:00",
+        "checkedAt": "2026-11-22T09:45:52.058681+01:00",
         "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
         "verifiedSources": [
           {
@@ -1751,10 +1732,10 @@
         ]
       },
       "evidence": {
-        "listingReadAt": "2026-11-15T09:44:40.673366+01:00",
+        "listingReadAt": "2026-11-22T09:45:52.058681+01:00",
         "sourceUpdatedAt": "09/09/2026",
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 15 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
+        "note": "Controllo diretto dell’esatto URL eseguito il 22 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -1799,7 +1780,7 @@
       },
       "availability": {
         "status": "published",
-        "checkedAt": "2026-11-15T09:44:42.652329+01:00",
+        "checkedAt": "2026-11-22T09:45:53.025930+01:00",
         "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
         "verifiedSources": [
           {
@@ -1820,10 +1801,10 @@
         ]
       },
       "evidence": {
-        "listingReadAt": "2026-11-15T09:44:42.652329+01:00",
+        "listingReadAt": "2026-11-22T09:45:53.025930+01:00",
         "sourceUpdatedAt": null,
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 15 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
+        "note": "Controllo diretto dell’esatto URL eseguito il 22 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -1871,14 +1852,20 @@
       },
       "availability": {
         "status": "published",
-        "checkedAt": "2026-11-15T09:44:51.703405+01:00",
+        "checkedAt": "2026-11-22T09:46:08.969525+01:00",
         "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
         "verifiedSources": [
+          {
+            "url": "https://www.immobiliare.it/annunci/130524822/",
+            "title": "Vendita Villa a schiera  in Località Basovizza 563/1 Trieste. Ottimo stato, posto auto, con terrazza, riscaldamento autonomo, 165 m², rif. 130524822",
+            "price": "€ 595.000",
+            "details": " Vendita Villa a schiera in Località Basovizza 563/1 Trieste. Ottimo stato, posto auto, con terrazz"
+          },
           {
             "url": "https://operaimmobiliarets.it/immobili/basovizza-villetta-a-schiera-pari-primo-ingresso/",
             "title": "BASOVIZZA – VILLETTA A SCHIERA PARI PRIMO INGRESSO – Opera Immobiliare",
             "price": "€ 595.000",
-            "details": " INGRESSO €595.000 Vendita Venduto Località Basovizza, 563/1, Trieste, TS, Italia 34 Opera Immobiliare Via"
+            "details": "RI PRIMO INGRESSO €595.000 Vendita Località Basovizza, 563/1, Trieste, TS, Italia 34 Opera Immobiliare Via"
           }
         ]
       },
@@ -1935,10 +1922,10 @@
         "preview": "assets/basovizza-563-1.jpg"
       },
       "evidence": {
-        "listingReadAt": "2026-11-15T09:44:51.703405+01:00",
+        "listingReadAt": "2026-11-22T09:46:08.969525+01:00",
         "sourceUpdatedAt": null,
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 15 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
+        "note": "Controllo diretto dell’esatto URL eseguito il 22 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -1985,7 +1972,7 @@
       },
       "availability": {
         "status": "archived",
-        "checkedAt": "2026-11-15T09:44:45.204727+01:00",
+        "checkedAt": "2026-11-22T09:45:57.039480+01:00",
         "reason": "Nessuna fonte online fresca leggibile individuata nell’ultimo controllo. Questo stato non certifica la vendita o il ritiro dell’immobile.",
         "verifiedSources": []
       },
@@ -2044,10 +2031,10 @@
         "preview": "assets/via-alberto-puschi.jpg"
       },
       "evidence": {
-        "listingReadAt": "2026-11-15T09:44:45.204727+01:00",
+        "listingReadAt": "2026-11-22T09:45:57.039480+01:00",
         "sourceUpdatedAt": "20/03/2026",
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 15 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
+        "note": "Controllo diretto dell’esatto URL eseguito il 22 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -2095,7 +2082,7 @@
       },
       "availability": {
         "status": "published",
-        "checkedAt": "2026-11-15T09:44:49.349811+01:00",
+        "checkedAt": "2026-11-22T09:46:04.553108+01:00",
         "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
         "verifiedSources": [
           {
@@ -2116,10 +2103,10 @@
         ]
       },
       "evidence": {
-        "listingReadAt": "2026-11-15T09:44:49.349811+01:00",
+        "listingReadAt": "2026-11-22T09:46:04.553108+01:00",
         "sourceUpdatedAt": "27 luglio",
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 15 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
+        "note": "Controllo diretto dell’esatto URL eseguito il 22 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -2166,7 +2153,7 @@
       },
       "availability": {
         "status": "published",
-        "checkedAt": "2026-11-15T09:44:53.888867+01:00",
+        "checkedAt": "2026-11-22T09:46:15.666218+01:00",
         "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
         "verifiedSources": [
           {
@@ -2187,10 +2174,10 @@
         ]
       },
       "evidence": {
-        "listingReadAt": "2026-11-15T09:44:53.888867+01:00",
+        "listingReadAt": "2026-11-22T09:46:15.666218+01:00",
         "sourceUpdatedAt": "21 febbraio",
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 15 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
+        "note": "Controllo diretto dell’esatto URL eseguito il 22 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -2236,7 +2223,7 @@
       },
       "availability": {
         "status": "archived",
-        "checkedAt": "2026-11-15T09:44:53.688770+01:00",
+        "checkedAt": "2026-11-22T09:46:15.466160+01:00",
         "reason": "Nessuna fonte online fresca leggibile individuata nell’ultimo controllo. Questo stato non certifica la vendita o il ritiro dell’immobile.",
         "verifiedSources": []
       },
@@ -2249,10 +2236,10 @@
         ]
       },
       "evidence": {
-        "listingReadAt": "2026-11-15T09:44:53.688770+01:00",
+        "listingReadAt": "2026-11-22T09:46:15.466160+01:00",
         "sourceUpdatedAt": "22 giugno",
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 15 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
+        "note": "Controllo diretto dell’esatto URL eseguito il 22 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -2306,7 +2293,7 @@
       },
       "availability": {
         "status": "published",
-        "checkedAt": "2026-11-15T09:44:57.786721+01:00",
+        "checkedAt": "2026-11-22T09:46:20.784593+01:00",
         "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
         "verifiedSources": [
           {
@@ -2362,10 +2349,10 @@
         "preview": "assets/via-angelo-de-valentini-10.jpg"
       },
       "evidence": {
-        "listingReadAt": "2026-11-15T09:44:57.786721+01:00",
+        "listingReadAt": "2026-11-22T09:46:20.784593+01:00",
         "sourceUpdatedAt": "03/09/2026",
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 15 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
+        "note": "Controllo diretto dell’esatto URL eseguito il 22 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -2411,7 +2398,7 @@
       },
       "availability": {
         "status": "archived",
-        "checkedAt": "2026-11-15T09:44:57.776613+01:00",
+        "checkedAt": "2026-11-22T09:46:20.675488+01:00",
         "reason": "Nessuna fonte online fresca leggibile individuata nell’ultimo controllo. Questo stato non certifica la vendita o il ritiro dell’immobile.",
         "verifiedSources": []
       },
@@ -2424,10 +2411,10 @@
         ]
       },
       "evidence": {
-        "listingReadAt": "2026-11-15T09:44:57.776613+01:00",
+        "listingReadAt": "2026-11-22T09:46:20.675488+01:00",
         "sourceUpdatedAt": "24/09/2026",
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 15 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
+        "note": "Controllo diretto dell’esatto URL eseguito il 22 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -2474,7 +2461,7 @@
       },
       "availability": {
         "status": "published",
-        "checkedAt": "2026-11-15T09:45:07.525405+01:00",
+        "checkedAt": "2026-11-22T09:46:31.456668+01:00",
         "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
         "verifiedSources": [
           {
@@ -2501,10 +2488,10 @@
         ]
       },
       "evidence": {
-        "listingReadAt": "2026-11-15T09:45:07.525405+01:00",
+        "listingReadAt": "2026-11-22T09:46:31.456668+01:00",
         "sourceUpdatedAt": null,
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 15 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
+        "note": "Controllo diretto dell’esatto URL eseguito il 22 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -2557,7 +2544,7 @@
       },
       "availability": {
         "status": "published",
-        "checkedAt": "2026-11-15T09:45:10.158361+01:00",
+        "checkedAt": "2026-11-22T09:46:31.372755+01:00",
         "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
         "verifiedSources": [
           {
@@ -2622,10 +2609,10 @@
         "preview": "assets/via-monte-d-oro.jpg"
       },
       "evidence": {
-        "listingReadAt": "2026-11-15T09:45:10.158361+01:00",
+        "listingReadAt": "2026-11-22T09:46:31.372755+01:00",
         "sourceUpdatedAt": null,
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 15 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
+        "note": "Controllo diretto dell’esatto URL eseguito il 22 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -2670,7 +2657,7 @@
       },
       "availability": {
         "status": "published",
-        "checkedAt": "2026-11-15T09:45:10.189559+01:00",
+        "checkedAt": "2026-11-22T09:46:40.147007+01:00",
         "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
         "verifiedSources": [
           {
@@ -2741,10 +2728,10 @@
         "preview": "assets/via-dei-cardi-19.jpg"
       },
       "evidence": {
-        "listingReadAt": "2026-11-15T09:45:10.189559+01:00",
+        "listingReadAt": "2026-11-22T09:46:40.147007+01:00",
         "sourceUpdatedAt": "16/04/2026",
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 15 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
+        "note": "Controllo diretto dell’esatto URL eseguito il 22 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -2791,7 +2778,7 @@
       },
       "availability": {
         "status": "archived",
-        "checkedAt": "2026-11-15T09:45:14.716910+01:00",
+        "checkedAt": "2026-11-22T09:46:41.386267+01:00",
         "reason": "Nessuna fonte online fresca leggibile individuata nell’ultimo controllo. Questo stato non certifica la vendita o il ritiro dell’immobile.",
         "verifiedSources": []
       },
@@ -2804,10 +2791,10 @@
         ]
       },
       "evidence": {
-        "listingReadAt": "2026-11-15T09:45:14.716910+01:00",
+        "listingReadAt": "2026-11-22T09:46:41.386267+01:00",
         "sourceUpdatedAt": null,
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 15 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
+        "note": "Controllo diretto dell’esatto URL eseguito il 22 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -2854,7 +2841,7 @@
       },
       "availability": {
         "status": "archived",
-        "checkedAt": "2026-11-15T09:45:16.147195+01:00",
+        "checkedAt": "2026-11-22T09:46:46.315388+01:00",
         "reason": "Nessuna fonte online fresca leggibile individuata nell’ultimo controllo. Questo stato non certifica la vendita o il ritiro dell’immobile.",
         "verifiedSources": []
       },
@@ -2867,10 +2854,10 @@
         ]
       },
       "evidence": {
-        "listingReadAt": "2026-11-15T09:45:16.147195+01:00",
+        "listingReadAt": "2026-11-22T09:46:46.315388+01:00",
         "sourceUpdatedAt": "28/09/2026",
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 15 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
+        "note": "Controllo diretto dell’esatto URL eseguito il 22 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -2915,7 +2902,7 @@
       },
       "availability": {
         "status": "archived",
-        "checkedAt": "2026-11-15T09:45:16.148914+01:00",
+        "checkedAt": "2026-11-22T09:46:46.346856+01:00",
         "reason": "Nessuna fonte online fresca leggibile individuata nell’ultimo controllo. Questo stato non certifica la vendita o il ritiro dell’immobile.",
         "verifiedSources": []
       },
@@ -2928,10 +2915,10 @@
         ]
       },
       "evidence": {
-        "listingReadAt": "2026-11-15T09:45:16.148914+01:00",
+        "listingReadAt": "2026-11-22T09:46:46.346856+01:00",
         "sourceUpdatedAt": null,
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 15 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
+        "note": "Controllo diretto dell’esatto URL eseguito il 22 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -2978,7 +2965,7 @@
       },
       "availability": {
         "status": "published",
-        "checkedAt": "2026-11-15T09:45:21.056699+01:00",
+        "checkedAt": "2026-11-22T09:46:53.410636+01:00",
         "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
         "verifiedSources": [
           {
@@ -3052,10 +3039,10 @@
         "preview": "assets/aurisina.jpg"
       },
       "evidence": {
-        "listingReadAt": "2026-11-15T09:45:21.056699+01:00",
+        "listingReadAt": "2026-11-22T09:46:53.410636+01:00",
         "sourceUpdatedAt": "02/08/2026",
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 15 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
+        "note": "Controllo diretto dell’esatto URL eseguito il 22 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -3100,7 +3087,7 @@
       },
       "availability": {
         "status": "published",
-        "checkedAt": "2026-11-15T09:45:22.315258+01:00",
+        "checkedAt": "2026-11-22T09:46:53.356035+01:00",
         "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
         "verifiedSources": [
           {
@@ -3153,10 +3140,10 @@
         "preview": "assets/via-del-collio-9-model-preview.jpg"
       },
       "evidence": {
-        "listingReadAt": "2026-11-15T09:45:22.315258+01:00",
+        "listingReadAt": "2026-11-22T09:46:53.356035+01:00",
         "sourceUpdatedAt": null,
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 15 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
+        "note": "Controllo diretto dell’esatto URL eseguito il 22 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -3201,7 +3188,7 @@
       },
       "availability": {
         "status": "published",
-        "checkedAt": "2026-11-15T09:45:27.007267+01:00",
+        "checkedAt": "2026-11-22T09:46:58.791370+01:00",
         "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
         "verifiedSources": [
           {
@@ -3222,10 +3209,10 @@
         ]
       },
       "evidence": {
-        "listingReadAt": "2026-11-15T09:45:27.007267+01:00",
+        "listingReadAt": "2026-11-22T09:46:58.791370+01:00",
         "sourceUpdatedAt": null,
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 15 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
+        "note": "Controllo diretto dell’esatto URL eseguito il 22 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -3268,7 +3255,7 @@
       },
       "availability": {
         "status": "archived",
-        "checkedAt": "2026-11-15T09:45:26.893864+01:00",
+        "checkedAt": "2026-11-22T09:46:59.056049+01:00",
         "reason": "Nessuna fonte online fresca leggibile individuata nell’ultimo controllo. Questo stato non certifica la vendita o il ritiro dell’immobile.",
         "verifiedSources": []
       },
@@ -3281,10 +3268,10 @@
         ]
       },
       "evidence": {
-        "listingReadAt": "2026-11-15T09:45:26.893864+01:00",
+        "listingReadAt": "2026-11-22T09:46:59.056049+01:00",
         "sourceUpdatedAt": null,
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 15 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
+        "note": "Controllo diretto dell’esatto URL eseguito il 22 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -3329,7 +3316,7 @@
       },
       "availability": {
         "status": "archived",
-        "checkedAt": "2026-11-15T09:45:31.547326+01:00",
+        "checkedAt": "2026-11-22T09:47:05.644243+01:00",
         "reason": "Nessuna fonte online fresca leggibile individuata nell’ultimo controllo. Questo stato non certifica la vendita o il ritiro dell’immobile.",
         "verifiedSources": []
       },
@@ -3394,10 +3381,10 @@
         "preview": "assets/muggia.jpg"
       },
       "evidence": {
-        "listingReadAt": "2026-11-15T09:45:31.547326+01:00",
+        "listingReadAt": "2026-11-22T09:47:05.644243+01:00",
         "sourceUpdatedAt": "16/07/2026",
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 15 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
+        "note": "Controllo diretto dell’esatto URL eseguito il 22 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -3444,7 +3431,7 @@
       },
       "availability": {
         "status": "published",
-        "checkedAt": "2026-11-15T09:45:31.754970+01:00",
+        "checkedAt": "2026-11-22T09:47:06.469253+01:00",
         "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
         "verifiedSources": [
           {
@@ -3496,10 +3483,10 @@
         "preview": "assets/sistiana-10.jpg"
       },
       "evidence": {
-        "listingReadAt": "2026-11-15T09:45:31.754970+01:00",
+        "listingReadAt": "2026-11-22T09:47:06.469253+01:00",
         "sourceUpdatedAt": "13/07/2026",
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 15 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
+        "note": "Controllo diretto dell’esatto URL eseguito il 22 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -3545,7 +3532,7 @@
       },
       "availability": {
         "status": "archived",
-        "checkedAt": "2026-11-15T09:45:35.934105+01:00",
+        "checkedAt": "2026-11-22T09:47:11.398239+01:00",
         "reason": "Nessuna fonte online fresca leggibile individuata nell’ultimo controllo. Questo stato non certifica la vendita o il ritiro dell’immobile.",
         "verifiedSources": []
       },
@@ -3558,10 +3545,10 @@
         ]
       },
       "evidence": {
-        "listingReadAt": "2026-11-15T09:45:35.934105+01:00",
+        "listingReadAt": "2026-11-22T09:47:11.398239+01:00",
         "sourceUpdatedAt": null,
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 15 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
+        "note": "Controllo diretto dell’esatto URL eseguito il 22 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -3616,7 +3603,7 @@
       },
       "availability": {
         "status": "archived",
-        "checkedAt": "2026-11-15T09:45:43.798813+01:00",
+        "checkedAt": "2026-11-22T09:47:17.959164+01:00",
         "reason": "Nessuna fonte online fresca leggibile individuata nell’ultimo controllo. Questo stato non certifica la vendita o il ritiro dell’immobile.",
         "verifiedSources": []
       },
@@ -3668,10 +3655,10 @@
         "preview": "assets/via-monte-carso.jpg"
       },
       "evidence": {
-        "listingReadAt": "2026-11-15T09:45:43.798813+01:00",
+        "listingReadAt": "2026-11-22T09:47:17.959164+01:00",
         "sourceUpdatedAt": null,
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 15 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
+        "note": "Controllo diretto dell’esatto URL eseguito il 22 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -3720,7 +3707,7 @@
       },
       "availability": {
         "status": "archived",
-        "checkedAt": "2026-11-15T09:46:05.351441+01:00",
+        "checkedAt": "2026-11-22T09:47:42.541631+01:00",
         "reason": "Nessuna fonte online fresca leggibile individuata nell’ultimo controllo. Questo stato non certifica la vendita o il ritiro dell’immobile.",
         "verifiedSources": []
       },
@@ -3780,10 +3767,10 @@
         "preview": "assets/via-dei-gravisi-4.jpg"
       },
       "evidence": {
-        "listingReadAt": "2026-11-15T09:46:05.351441+01:00",
+        "listingReadAt": "2026-11-22T09:47:42.541631+01:00",
         "sourceUpdatedAt": null,
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 15 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
+        "note": "Controllo diretto dell’esatto URL eseguito il 22 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -3832,7 +3819,7 @@
       },
       "availability": {
         "status": "published",
-        "checkedAt": "2026-11-15T09:45:55.197851+01:00",
+        "checkedAt": "2026-11-22T09:47:48.062858+01:00",
         "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
         "verifiedSources": [
           {
@@ -3840,12 +3827,6 @@
             "title": "Vendita Villa a schiera  in via dei Papaveri 3/16 Trieste. Buono stato, posto auto, con terrazza, riscaldamento autonomo, 192 m², rif. 133093042",
             "price": "€ 375.000",
             "details": "e Camera da letto Cucina 25 Foto 2 Planimetrie Villa a schiera via dei Papaveri 3/16, Opicina, Trieste Triest"
-          },
-          {
-            "url": "https://www.trovacasa.it/annunci/ts-tc-77909-73363655",
-            "title": "Villa a Schiera in vendita a Trieste via dei Papaveri, 3/16, arredato, giardino privato, posto auto - TrovaCasa",
-            "price": "€ 375.000",
-            "details": "e, Via dei Papaveri, 3/16 192 m² 5 locali PAPVERI316 Trieste, Via dei Papaveri, 3/16 192 m² 5 locali 375.0"
           }
         ]
       },
@@ -3900,10 +3881,10 @@
         "preview": "assets/via-dei-papaveri-3-16.jpg"
       },
       "evidence": {
-        "listingReadAt": "2026-11-15T09:45:55.197851+01:00",
+        "listingReadAt": "2026-11-22T09:47:48.062858+01:00",
         "sourceUpdatedAt": null,
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 15 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
+        "note": "Controllo diretto dell’esatto URL eseguito il 22 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -3955,7 +3936,7 @@
       },
       "availability": {
         "status": "published",
-        "checkedAt": "2026-11-15T09:45:59.479774+01:00",
+        "checkedAt": "2026-11-22T09:47:47.955960+01:00",
         "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
         "verifiedSources": [
           {
@@ -4027,10 +4008,10 @@
         "preview": "assets/via-dello-scoglio-173.jpg"
       },
       "evidence": {
-        "listingReadAt": "2026-11-15T09:45:59.479774+01:00",
+        "listingReadAt": "2026-11-22T09:47:47.955960+01:00",
         "sourceUpdatedAt": "2026-10-14",
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 15 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
+        "note": "Controllo diretto dell’esatto URL eseguito il 22 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -4075,7 +4056,7 @@
       },
       "availability": {
         "status": "published",
-        "checkedAt": "2026-11-15T09:46:03.904044+01:00",
+        "checkedAt": "2026-11-22T09:47:53.283993+01:00",
         "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
         "verifiedSources": [
           {
@@ -4134,10 +4115,10 @@
         "preview": "assets/malchina-47-a.jpg"
       },
       "evidence": {
-        "listingReadAt": "2026-11-15T09:46:03.904044+01:00",
+        "listingReadAt": "2026-11-22T09:47:53.283993+01:00",
         "sourceUpdatedAt": "17/03/2026",
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 15 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
+        "note": "Controllo diretto dell’esatto URL eseguito il 22 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -4192,7 +4173,7 @@
       },
       "availability": {
         "status": "published",
-        "checkedAt": "2026-11-15T09:46:23.210336+01:00",
+        "checkedAt": "2026-11-22T09:48:06.295749+01:00",
         "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
         "verifiedSources": [
           {
@@ -4272,10 +4253,10 @@
         "preview": "assets/duino-villa-129888594.jpg"
       },
       "evidence": {
-        "listingReadAt": "2026-11-15T09:46:23.210336+01:00",
+        "listingReadAt": "2026-11-22T09:48:06.295749+01:00",
         "sourceUpdatedAt": "2026-10-09",
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 15 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
+        "note": "Controllo diretto dell’esatto URL eseguito il 22 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -4322,7 +4303,7 @@
       },
       "availability": {
         "status": "published",
-        "checkedAt": "2026-11-15T09:46:08.300197+01:00",
+        "checkedAt": "2026-11-22T09:47:58.318587+01:00",
         "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
         "verifiedSources": [
           {
@@ -4343,10 +4324,10 @@
         ]
       },
       "evidence": {
-        "listingReadAt": "2026-11-15T09:46:08.300197+01:00",
+        "listingReadAt": "2026-11-22T09:47:58.318587+01:00",
         "sourceUpdatedAt": null,
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 15 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
+        "note": "Controllo diretto dell’esatto URL eseguito il 22 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -4395,7 +4376,7 @@
       },
       "availability": {
         "status": "archived",
-        "checkedAt": "2026-11-15T09:46:12.700302+01:00",
+        "checkedAt": "2026-11-22T09:48:02.263663+01:00",
         "reason": "Nessuna fonte online fresca leggibile individuata nell’ultimo controllo. Questo stato non certifica la vendita o il ritiro dell’immobile.",
         "verifiedSources": []
       },
@@ -4455,10 +4436,10 @@
         "preview": "assets/aurisina-cave-77-b.jpg"
       },
       "evidence": {
-        "listingReadAt": "2026-11-15T09:46:12.700302+01:00",
+        "listingReadAt": "2026-11-22T09:48:02.263663+01:00",
         "sourceUpdatedAt": "11/09/2026",
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 15 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
+        "note": "Controllo diretto dell’esatto URL eseguito il 22 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -4504,7 +4485,7 @@
       },
       "availability": {
         "status": "published",
-        "checkedAt": "2026-11-15T09:46:42.191038+01:00",
+        "checkedAt": "2026-11-22T09:48:37.907443+01:00",
         "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
         "verifiedSources": [
           {
@@ -4564,10 +4545,10 @@
         "preview": "assets/malchina-1.jpg"
       },
       "evidence": {
-        "listingReadAt": "2026-11-15T09:46:42.191038+01:00",
+        "listingReadAt": "2026-11-22T09:48:37.907443+01:00",
         "sourceUpdatedAt": null,
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 15 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
+        "note": "Controllo diretto dell’esatto URL eseguito il 22 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -4613,7 +4594,7 @@
       },
       "availability": {
         "status": "published",
-        "checkedAt": "2026-11-15T09:46:27.844077+01:00",
+        "checkedAt": "2026-11-22T09:48:12.909571+01:00",
         "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
         "verifiedSources": [
           {
@@ -4670,10 +4651,10 @@
         "preview": "assets/via-umberto-veruda.jpg"
       },
       "evidence": {
-        "listingReadAt": "2026-11-15T09:46:27.844077+01:00",
+        "listingReadAt": "2026-11-22T09:48:12.909571+01:00",
         "sourceUpdatedAt": "02/04/2026",
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 15 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
+        "note": "Controllo diretto dell’esatto URL eseguito il 22 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -4717,17 +4698,10 @@
         "description": "Casa a Duino con 180 m² commerciali e giardino di 700 m². La superficie abitativa, la presenza di un posto auto e il percorso verso la linea 44 non sono documentati."
       },
       "availability": {
-        "status": "published",
-        "checkedAt": "2026-11-15T09:46:32.084876+01:00",
-        "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
-        "verifiedSources": [
-          {
-            "url": "https://www.idealista.it/immobile/35776471/",
-            "title": "Villa in vendita in Frazione Duino, 4, Duino-Aurisina — idealista, N.1 in Italia",
-            "price": "€ 490.000",
-            "details": " modificata con IA 1/ 19 19 foto 3 planimetrie Mappa Villa in vendita in Frazione Duino, 4 villa 490.000 € 5 "
-          }
-        ]
+        "status": "archived",
+        "checkedAt": "2026-11-22T09:48:17.298716+01:00",
+        "reason": "Nessuna fonte online fresca leggibile individuata nell’ultimo controllo. Questo stato non certifica la vendita o il ritiro dell’immobile.",
+        "verifiedSources": []
       },
       "model": {
         "status": "awaiting_plans",
@@ -4739,10 +4713,10 @@
         ]
       },
       "evidence": {
-        "listingReadAt": "2026-11-15T09:46:32.084876+01:00",
+        "listingReadAt": "2026-11-22T09:48:17.298716+01:00",
         "sourceUpdatedAt": "3 giugno",
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 15 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
+        "note": "Controllo diretto dell’esatto URL eseguito il 22 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -4788,7 +4762,7 @@
       },
       "availability": {
         "status": "archived",
-        "checkedAt": "2026-11-15T09:46:37.290970+01:00",
+        "checkedAt": "2026-11-22T09:48:22.049652+01:00",
         "reason": "Nessuna fonte online fresca leggibile individuata nell’ultimo controllo. Questo stato non certifica la vendita o il ritiro dell’immobile.",
         "verifiedSources": []
       },
@@ -4802,10 +4776,10 @@
         ]
       },
       "evidence": {
-        "listingReadAt": "2026-11-15T09:46:37.290970+01:00",
+        "listingReadAt": "2026-11-22T09:48:22.049652+01:00",
         "sourceUpdatedAt": "2026-10-16",
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 15 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
+        "note": "Controllo diretto dell’esatto URL eseguito il 22 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -4852,7 +4826,7 @@
       },
       "availability": {
         "status": "archived",
-        "checkedAt": "2026-11-15T09:46:42.307078+01:00",
+        "checkedAt": "2026-11-22T09:48:27.177086+01:00",
         "reason": "Nessuna fonte online fresca leggibile individuata nell’ultimo controllo. Questo stato non certifica la vendita o il ritiro dell’immobile.",
         "verifiedSources": []
       },
@@ -4865,10 +4839,10 @@
         ]
       },
       "evidence": {
-        "listingReadAt": "2026-11-15T09:46:42.307078+01:00",
+        "listingReadAt": "2026-11-22T09:48:27.177086+01:00",
         "sourceUpdatedAt": "2026-10-01",
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 15 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
+        "note": "Controllo diretto dell’esatto URL eseguito il 22 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -4914,7 +4888,7 @@
       },
       "availability": {
         "status": "published",
-        "checkedAt": "2026-11-15T09:46:46.341861+01:00",
+        "checkedAt": "2026-11-22T09:48:32.819473+01:00",
         "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
         "verifiedSources": [
           {
@@ -4935,10 +4909,10 @@
         ]
       },
       "evidence": {
-        "listingReadAt": "2026-11-15T09:46:46.341861+01:00",
+        "listingReadAt": "2026-11-22T09:48:32.819473+01:00",
         "sourceUpdatedAt": null,
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 15 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
+        "note": "Controllo diretto dell’esatto URL eseguito il 22 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -4985,7 +4959,7 @@
       },
       "availability": {
         "status": "archived",
-        "checkedAt": "2026-11-15T09:46:55.400145+01:00",
+        "checkedAt": "2026-11-22T09:48:44.052071+01:00",
         "reason": "Nessuna fonte online fresca leggibile individuata nell’ultimo controllo. Questo stato non certifica la vendita o il ritiro dell’immobile.",
         "verifiedSources": []
       },
@@ -4998,10 +4972,10 @@
         ]
       },
       "evidence": {
-        "listingReadAt": "2026-11-15T09:46:55.400145+01:00",
+        "listingReadAt": "2026-11-22T09:48:44.052071+01:00",
         "sourceUpdatedAt": "2026-10-07",
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 15 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
+        "note": "Controllo diretto dell’esatto URL eseguito il 22 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -5048,7 +5022,7 @@
       },
       "availability": {
         "status": "published",
-        "checkedAt": "2026-11-15T09:46:51.415328+01:00",
+        "checkedAt": "2026-11-22T09:48:42.858176+01:00",
         "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
         "verifiedSources": [
           {
@@ -5069,10 +5043,10 @@
         ]
       },
       "evidence": {
-        "listingReadAt": "2026-11-15T09:46:51.415328+01:00",
+        "listingReadAt": "2026-11-22T09:48:42.858176+01:00",
         "sourceUpdatedAt": null,
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 15 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
+        "note": "Controllo diretto dell’esatto URL eseguito il 22 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -5119,17 +5093,10 @@
         "works": null
       },
       "availability": {
-        "status": "published",
-        "checkedAt": "2026-11-15T09:46:57.299270+01:00",
-        "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
-        "verifiedSources": [
-          {
-            "url": "https://www.immobiliare.it/annunci/131610062/",
-            "title": "Vendita Villa unifamiliare  in via Marco Polo 5 Trieste. Buono stato, posto auto, con balcone, riscaldamento autonomo, 133 m², rif. 131610062",
-            "price": "€ 430.000",
-            "details": "one Camera da letto Cucina 38 Foto Planimetria Virtual tour Villa unifamiliare via Marco Polo 5, San Giacomo,"
-          }
-        ]
+        "status": "archived",
+        "checkedAt": "2026-11-22T09:48:47.800935+01:00",
+        "reason": "Nessuna fonte online fresca leggibile individuata nell’ultimo controllo. Questo stato non certifica la vendita o il ritiro dell’immobile.",
+        "verifiedSources": []
       },
       "model": {
         "status": "awaiting_plans",
@@ -5141,10 +5108,10 @@
         ]
       },
       "evidence": {
-        "listingReadAt": "2026-11-15T09:46:57.299270+01:00",
+        "listingReadAt": "2026-11-22T09:48:47.800935+01:00",
         "sourceUpdatedAt": "2026-10-12",
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 15 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
+        "note": "Controllo diretto dell’esatto URL eseguito il 22 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -5199,7 +5166,7 @@
       },
       "availability": {
         "status": "published",
-        "checkedAt": "2026-11-15T09:47:35.400397+01:00",
+        "checkedAt": "2026-11-22T09:49:26.703691+01:00",
         "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
         "verifiedSources": [
           {
@@ -5212,7 +5179,7 @@
             "url": "https://www.subito.it/ville-singole-e-a-schiera/rif-609-bifamiliare-muggia-trieste-646999592.htm",
             "title": "Subito - B.G. REAL ESTATE SRL - Rif.609- bifamiliare muggia - Ville singole e a schiera In vendita a Trieste",
             "price": "€ 650.000",
-            "details": "ine fotografiche muggia bmw muggia camerette muggia moto usate muggia muggia nautica Friuli Venezia Giulia"
+            "details": "v) Muggia 1/30 Dati principali 325 mq 6 Locali Su più livelli 2 Bagni Descrizione 609 TRIESTE - MUGGIA"
           }
         ]
       },
@@ -5255,10 +5222,10 @@
         "preview": "assets/fontanella-villa-panoramica.jpg"
       },
       "evidence": {
-        "listingReadAt": "2026-11-15T09:47:35.400397+01:00",
+        "listingReadAt": "2026-11-22T09:49:26.703691+01:00",
         "sourceUpdatedAt": null,
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 15 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
+        "note": "Controllo diretto dell’esatto URL eseguito il 22 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -5303,7 +5270,7 @@
       },
       "availability": {
         "status": "published",
-        "checkedAt": "2026-11-15T09:47:03.144305+01:00",
+        "checkedAt": "2026-11-22T09:48:53.925298+01:00",
         "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
         "verifiedSources": [
           {
@@ -5323,10 +5290,10 @@
         ]
       },
       "evidence": {
-        "listingReadAt": "2026-11-15T09:47:03.144305+01:00",
+        "listingReadAt": "2026-11-22T09:48:53.925298+01:00",
         "sourceUpdatedAt": null,
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 15 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
+        "note": "Controllo diretto dell’esatto URL eseguito il 22 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -5372,14 +5339,14 @@
       },
       "availability": {
         "status": "published",
-        "checkedAt": "2026-11-15T09:47:08.362448+01:00",
+        "checkedAt": "2026-11-22T09:49:00.395716+01:00",
         "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
         "verifiedSources": [
           {
             "url": "https://friulivillas.com/annuncio/villetta-con-giardino-le-vigne-duino-b3uzt",
             "title": "Villetta con giardino «Le Vigne» — Duino · FriuliVillas",
             "price": "€ 575.000",
-            "details": "O-LEVIGNE · Frazione Duino/Devin — Località Duino Stazione (complesso «Le Vigne»), Duino-Aurisina 575.000 "
+            "details": "O-LEVIGNE · Frazione Duino/Devin — Località Duino Stazione (complesso «Le Vigne») 5/K, Duino-Aurisina 575."
           }
         ]
       },
@@ -5392,10 +5359,10 @@
         ]
       },
       "evidence": {
-        "listingReadAt": "2026-11-15T09:47:08.362448+01:00",
+        "listingReadAt": "2026-11-22T09:49:00.395716+01:00",
         "sourceUpdatedAt": null,
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 15 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
+        "note": "Controllo diretto dell’esatto URL eseguito il 22 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -5442,7 +5409,7 @@
       },
       "availability": {
         "status": "published",
-        "checkedAt": "2026-11-15T09:47:17.409569+01:00",
+        "checkedAt": "2026-11-22T09:49:10.896928+01:00",
         "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
         "verifiedSources": [
           {
@@ -5468,10 +5435,10 @@
         ]
       },
       "evidence": {
-        "listingReadAt": "2026-11-15T09:47:17.409569+01:00",
+        "listingReadAt": "2026-11-22T09:49:10.896928+01:00",
         "sourceUpdatedAt": "2026-10-06",
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 15 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
+        "note": "Controllo diretto dell’esatto URL eseguito il 22 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -5518,7 +5485,7 @@
       },
       "availability": {
         "status": "published",
-        "checkedAt": "2026-11-15T09:47:21.826802+01:00",
+        "checkedAt": "2026-11-22T09:49:16.014989+01:00",
         "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
         "verifiedSources": [
           {
@@ -5538,10 +5505,10 @@
         ]
       },
       "evidence": {
-        "listingReadAt": "2026-11-15T09:47:21.826802+01:00",
+        "listingReadAt": "2026-11-22T09:49:16.014989+01:00",
         "sourceUpdatedAt": "2026-01-15",
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 15 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
+        "note": "Controllo diretto dell’esatto URL eseguito il 22 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -5588,7 +5555,7 @@
       },
       "availability": {
         "status": "published",
-        "checkedAt": "2026-11-15T09:47:25.966942+01:00",
+        "checkedAt": "2026-11-22T09:49:22.058657+01:00",
         "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
         "verifiedSources": [
           {
@@ -5608,10 +5575,10 @@
         ]
       },
       "evidence": {
-        "listingReadAt": "2026-11-15T09:47:25.966942+01:00",
+        "listingReadAt": "2026-11-22T09:49:22.058657+01:00",
         "sourceUpdatedAt": "2026-09-22",
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 15 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
+        "note": "Controllo diretto dell’esatto URL eseguito il 22 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -5658,7 +5625,7 @@
       },
       "availability": {
         "status": "published",
-        "checkedAt": "2026-11-15T09:47:31.227289+01:00",
+        "checkedAt": "2026-11-22T09:49:28.639269+01:00",
         "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
         "verifiedSources": [
           {
@@ -5678,10 +5645,10 @@
         ]
       },
       "evidence": {
-        "listingReadAt": "2026-11-15T09:47:31.227289+01:00",
+        "listingReadAt": "2026-11-22T09:49:28.639269+01:00",
         "sourceUpdatedAt": "2026-06-14",
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 15 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
+        "note": "Controllo diretto dell’esatto URL eseguito il 22 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -5727,7 +5694,7 @@
       },
       "availability": {
         "status": "published",
-        "checkedAt": "2026-11-15T09:47:35.813206+01:00",
+        "checkedAt": "2026-11-22T09:49:28.283273+01:00",
         "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
         "verifiedSources": [
           {
@@ -5747,10 +5714,10 @@
         ]
       },
       "evidence": {
-        "listingReadAt": "2026-11-15T09:47:35.813206+01:00",
+        "listingReadAt": "2026-11-22T09:49:28.283273+01:00",
         "sourceUpdatedAt": "2026-05-25",
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 15 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
+        "note": "Controllo diretto dell’esatto URL eseguito il 22 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -5796,7 +5763,7 @@
       },
       "availability": {
         "status": "published",
-        "checkedAt": "2026-11-15T09:47:39.879788+01:00",
+        "checkedAt": "2026-11-22T09:49:34.180268+01:00",
         "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
         "verifiedSources": [
           {
@@ -5816,10 +5783,10 @@
         ]
       },
       "evidence": {
-        "listingReadAt": "2026-11-15T09:47:39.879788+01:00",
+        "listingReadAt": "2026-11-22T09:49:34.180268+01:00",
         "sourceUpdatedAt": "2026-10-09",
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 15 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
+        "note": "Controllo diretto dell’esatto URL eseguito il 22 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -5866,7 +5833,7 @@
       },
       "availability": {
         "status": "published",
-        "checkedAt": "2026-11-15T09:47:43.031206+01:00",
+        "checkedAt": "2026-11-22T09:49:33.561600+01:00",
         "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
         "verifiedSources": [
           {
@@ -5886,10 +5853,10 @@
         ]
       },
       "evidence": {
-        "listingReadAt": "2026-11-15T09:47:43.031206+01:00",
+        "listingReadAt": "2026-11-22T09:49:33.561600+01:00",
         "sourceUpdatedAt": "2026-10-20",
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 15 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
+        "note": "Controllo diretto dell’esatto URL eseguito il 22 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -5936,7 +5903,7 @@
       },
       "availability": {
         "status": "published",
-        "checkedAt": "2026-11-15T09:47:44.747277+01:00",
+        "checkedAt": "2026-11-22T09:49:39.465475+01:00",
         "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
         "verifiedSources": [
           {
@@ -5956,10 +5923,10 @@
         ]
       },
       "evidence": {
-        "listingReadAt": "2026-11-15T09:47:44.747277+01:00",
+        "listingReadAt": "2026-11-22T09:49:39.465475+01:00",
         "sourceUpdatedAt": null,
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 15 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
+        "note": "Controllo diretto dell’esatto URL eseguito il 22 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -6006,7 +5973,7 @@
       },
       "availability": {
         "status": "published",
-        "checkedAt": "2026-11-15T09:47:53.766681+01:00",
+        "checkedAt": "2026-11-22T09:49:44.053750+01:00",
         "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
         "verifiedSources": [
           {
@@ -6032,10 +5999,10 @@
         ]
       },
       "evidence": {
-        "listingReadAt": "2026-11-15T09:47:53.766681+01:00",
+        "listingReadAt": "2026-11-22T09:49:44.053750+01:00",
         "sourceUpdatedAt": null,
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 15 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
+        "note": "Controllo diretto dell’esatto URL eseguito il 22 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -6082,7 +6049,7 @@
       },
       "availability": {
         "status": "published",
-        "checkedAt": "2026-11-15T09:47:49.398911+01:00",
+        "checkedAt": "2026-11-22T09:49:46.634480+01:00",
         "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
         "verifiedSources": [
           {
@@ -6102,10 +6069,10 @@
         ]
       },
       "evidence": {
-        "listingReadAt": "2026-11-15T09:47:49.398911+01:00",
+        "listingReadAt": "2026-11-22T09:49:46.634480+01:00",
         "sourceUpdatedAt": "2025-05-19",
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 15 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
+        "note": "Controllo diretto dell’esatto URL eseguito il 22 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -6151,7 +6118,7 @@
       },
       "availability": {
         "status": "published",
-        "checkedAt": "2026-11-15T09:47:56.120210+01:00",
+        "checkedAt": "2026-11-22T09:49:46.739368+01:00",
         "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
         "verifiedSources": [
           {
@@ -6171,10 +6138,10 @@
         ]
       },
       "evidence": {
-        "listingReadAt": "2026-11-15T09:47:56.120210+01:00",
+        "listingReadAt": "2026-11-22T09:49:46.739368+01:00",
         "sourceUpdatedAt": "2026-09-22",
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 15 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
+        "note": "Controllo diretto dell’esatto URL eseguito il 22 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -6221,7 +6188,7 @@
       },
       "availability": {
         "status": "published",
-        "checkedAt": "2026-11-15T09:47:56.105216+01:00",
+        "checkedAt": "2026-11-22T09:49:51.946877+01:00",
         "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
         "verifiedSources": [
           {
@@ -6241,10 +6208,10 @@
         ]
       },
       "evidence": {
-        "listingReadAt": "2026-11-15T09:47:56.105216+01:00",
+        "listingReadAt": "2026-11-22T09:49:51.946877+01:00",
         "sourceUpdatedAt": "2026-03-28",
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 15 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
+        "note": "Controllo diretto dell’esatto URL eseguito il 22 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -6294,7 +6261,7 @@
       },
       "availability": {
         "status": "published",
-        "checkedAt": "2026-11-15T09:48:10.461310+01:00",
+        "checkedAt": "2026-11-22T09:50:02.933334+01:00",
         "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
         "verifiedSources": [
           {
@@ -6326,10 +6293,10 @@
         ]
       },
       "evidence": {
-        "listingReadAt": "2026-11-15T09:48:10.461310+01:00",
+        "listingReadAt": "2026-11-22T09:50:02.933334+01:00",
         "sourceUpdatedAt": null,
         "method": "direct_http",
-        "note": "Controllo diretto dell’esatto URL eseguito il 15 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
+        "note": "Controllo diretto dell’esatto URL eseguito il 22 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -6374,14 +6341,14 @@
       },
       "availability": {
         "status": "published",
-        "checkedAt": "2026-11-15T10:01:17.541322+01:00",
-        "reason": "Pagina identificativa dell’esatto immobile letta direttamente: titolo, prezzo e informazioni dell’annuncio accessibili.",
+        "checkedAt": "2026-11-22T09:49:56.237838+01:00",
+        "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
         "verifiedSources": [
           {
             "url": "https://www.immobiliare.it/annunci/133024742/",
-            "title": "Casa a schiera via di Conconello 69/1, Opicina, Trieste",
+            "title": "Vendita Villa a schiera  in via di Conconello 69/1 Trieste. Ottimo stato, posto auto, con terrazza, riscaldamento autonomo, 185 m², rif. 133024742",
             "price": "€ 485.000",
-            "details": "185 m² commerciali; 158 m² classificati come abitazione; giardino 55 m²; garage/portico."
+            "details": "e Camera da letto Cucina 58 Foto 2 Planimetrie Villa a schiera via di Conconello 69/1, Opicina, Trieste Tries"
           }
         ]
       },
@@ -6395,10 +6362,10 @@
         ]
       },
       "evidence": {
-        "listingReadAt": "2026-11-15T10:01:17.541322+01:00",
+        "listingReadAt": "2026-11-22T09:49:56.237838+01:00",
         "sourceUpdatedAt": null,
         "method": "direct_http",
-        "note": "Pagina diretta dell’esatto annuncio letta il 15 novembre 2026; i risultati indicizzati sono stati usati soltanto per la scoperta."
+        "note": "Controllo diretto dell’esatto URL eseguito il 22 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -6443,14 +6410,14 @@
       },
       "availability": {
         "status": "published",
-        "checkedAt": "2026-11-15T10:01:17.541322+01:00",
-        "reason": "Pagina identificativa dell’esatto immobile letta direttamente: titolo, prezzo e informazioni dell’annuncio accessibili.",
+        "checkedAt": "2026-11-22T09:50:01.023293+01:00",
+        "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
         "verifiedSources": [
           {
             "url": "https://www.immobiliare.it/annunci/133157838/",
-            "title": "Villa a schiera Località Villa Opicina 1179, Trieste",
+            "title": "Vendita Villa a schiera  in Località Villa Opicina 1179 Trieste. Riscaldamento autonomo, 146 m², rif. 133157838",
             "price": "€ 560.000",
-            "details": "146 m²; tre camere e tre bagni; giardino privato; posti auto dedicati."
+            "details": " Vendita Villa a schiera in Località Villa Opicina 1179 Trieste. Riscaldamento autonomo, 146 m², ri"
           }
         ]
       },
@@ -6464,10 +6431,10 @@
         ]
       },
       "evidence": {
-        "listingReadAt": "2026-11-15T10:01:17.541322+01:00",
+        "listingReadAt": "2026-11-22T09:50:01.023293+01:00",
         "sourceUpdatedAt": null,
         "method": "direct_http",
-        "note": "Pagina diretta dell’esatto annuncio letta il 15 novembre 2026; i risultati indicizzati sono stati usati soltanto per la scoperta."
+        "note": "Controllo diretto dell’esatto URL eseguito il 22 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -6512,14 +6479,14 @@
       },
       "availability": {
         "status": "published",
-        "checkedAt": "2026-11-15T10:01:17.541322+01:00",
-        "reason": "Pagina identificativa dell’esatto immobile letta direttamente: titolo, prezzo e informazioni dell’annuncio accessibili.",
+        "checkedAt": "2026-11-22T09:50:06.716209+01:00",
+        "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
         "verifiedSources": [
           {
             "url": "https://www.immobiliare.it/annunci/133175612/",
-            "title": "Casa a schiera via Giuseppe Bruni 1/1, Gretta, Trieste",
+            "title": "Vendita Villa a schiera  in via Giuseppe Bruni , 1/1 Trieste. Buono stato, posto auto, con terrazza, riscaldamento autonomo, 204 m², rif. 133175612",
             "price": "€ 670.000",
-            "details": "204 m² dichiarati; giardino; box; tre camere, tre bagni, taverna e mansarda."
+            "details": "e accesso al giardino, cucina, tre camere, tre bagni ed un panoramico terrazzo. Completa la proprietà un’a"
           }
         ]
       },
@@ -6533,10 +6500,10 @@
         ]
       },
       "evidence": {
-        "listingReadAt": "2026-11-15T10:01:17.541322+01:00",
+        "listingReadAt": "2026-11-22T09:50:06.716209+01:00",
         "sourceUpdatedAt": null,
         "method": "direct_http",
-        "note": "Pagina diretta dell’esatto annuncio letta il 15 novembre 2026; i risultati indicizzati sono stati usati soltanto per la scoperta."
+        "note": "Controllo diretto dell’esatto URL eseguito il 22 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -6581,14 +6548,14 @@
       },
       "availability": {
         "status": "published",
-        "checkedAt": "2026-11-15T10:01:17.541322+01:00",
-        "reason": "Pagina identificativa dell’esatto immobile letta direttamente: titolo, prezzo e informazioni dell’annuncio accessibili.",
+        "checkedAt": "2026-11-22T09:50:06.732381+01:00",
+        "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
         "verifiedSources": [
           {
             "url": "https://www.immobiliare.it/annunci/133755712/",
-            "title": "Casa indipendente via Plinio 11, Costiera, Trieste",
+            "title": "Vendita Villa plurifamiliare  in via Plinio 11 Trieste. Ottimo stato, posto auto, con terrazza, riscaldamento autonomo, 237 m², rif. 133755712",
             "price": "€ 516.000",
-            "details": "170 m² abitativi più 70 m² di cantina; 237 m² commerciali; corte-giardino 25 m²; posto auto."
+            "details": "one Camera da letto Cucina 52 Foto Planimetria Villa plurifamiliare via Plinio 11, Costiera - Grignano, Tries"
           }
         ]
       },
@@ -6602,10 +6569,10 @@
         ]
       },
       "evidence": {
-        "listingReadAt": "2026-11-15T10:01:17.541322+01:00",
+        "listingReadAt": "2026-11-22T09:50:06.732381+01:00",
         "sourceUpdatedAt": null,
         "method": "direct_http",
-        "note": "Pagina diretta dell’esatto annuncio letta il 15 novembre 2026; i risultati indicizzati sono stati usati soltanto per la scoperta."
+        "note": "Controllo diretto dell’esatto URL eseguito il 22 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -6650,14 +6617,14 @@
       },
       "availability": {
         "status": "published",
-        "checkedAt": "2026-11-15T10:01:17.541322+01:00",
-        "reason": "Pagina identificativa dell’esatto immobile letta direttamente: titolo, prezzo e informazioni dell’annuncio accessibili.",
+        "checkedAt": "2026-11-22T09:50:11.919200+01:00",
+        "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
         "verifiedSources": [
           {
             "url": "https://www.immobiliare.it/annunci/131674284/",
-            "title": "Casa a schiera via Timignano 26, San Giovanni, Trieste",
+            "title": "Vendita Villa a schiera  in via Timignano 26 Trieste. Buono stato, posto auto, riscaldamento autonomo, 174 m², rif. 131674284",
             "price": "€ 309.000",
-            "details": "174 m² abitativi; cortiletto; un posto auto; tre camere e due bagni."
+            "details": "e Camera da letto Cucina 20 Foto 2 Planimetrie Villa a schiera via Timignano 26, San Giovanni, Trieste Triest"
           }
         ]
       },
@@ -6671,10 +6638,10 @@
         ]
       },
       "evidence": {
-        "listingReadAt": "2026-11-15T10:01:17.541322+01:00",
+        "listingReadAt": "2026-11-22T09:50:11.919200+01:00",
         "sourceUpdatedAt": null,
         "method": "direct_http",
-        "note": "Pagina diretta dell’esatto annuncio letta il 15 novembre 2026; i risultati indicizzati sono stati usati soltanto per la scoperta."
+        "note": "Controllo diretto dell’esatto URL eseguito il 22 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
       }
     },
     {
@@ -6719,14 +6686,14 @@
       },
       "availability": {
         "status": "published",
-        "checkedAt": "2026-11-15T10:01:17.541322+01:00",
-        "reason": "Pagina identificativa dell’esatto immobile letta direttamente: titolo, prezzo e informazioni dell’annuncio accessibili.",
+        "checkedAt": "2026-11-22T09:50:12.304075+01:00",
+        "reason": "Pagina identificativa letta direttamente: titolo, prezzo e informazioni sull’immobile accessibili.",
         "verifiedSources": [
           {
             "url": "https://www.immobiliare.it/annunci/133801130/",
-            "title": "Villa unifamiliare con piscina, Villa Opicina, Trieste",
+            "title": "Vendita Villa unifamiliare  Trieste. Ottimo stato, posto auto, riscaldamento autonomo, 115 m², rif. 133801130",
             "price": "€ 550.000",
-            "details": "90 m² abitazione più 10 m² altro; 115 m² commerciali; giardino 570 m²; quattro posti auto."
+            "details": "e Camera da letto Cucina 20 Foto 2 Planimetrie Villa unifamiliare, ottimo stato, 115 m², Opicina, Trieste Tri"
           }
         ]
       },
@@ -6740,10 +6707,645 @@
         ]
       },
       "evidence": {
-        "listingReadAt": "2026-11-15T10:01:17.541322+01:00",
+        "listingReadAt": "2026-11-22T09:50:12.304075+01:00",
         "sourceUpdatedAt": null,
         "method": "direct_http",
-        "note": "Pagina diretta dell’esatto annuncio letta il 15 novembre 2026; i risultati indicizzati sono stati usati soltanto per la scoperta."
+        "note": "Controllo diretto dell’esatto URL eseguito il 22 novembre 2026; i risultati indicizzati non sono stati usati come prova di pubblicazione."
+      }
+    },
+    {
+      "id": "via-baiardi-88",
+      "title": "Casa con terreno edificabile in Via Baiardi 88",
+      "locality": "Trieste",
+      "address": "Via Baiardi 88",
+      "sourceUrls": [
+        "https://www.immobiliare.it/annunci/133898177/"
+      ],
+      "historicalPrices": [
+        {
+          "priceEur": 173000,
+          "date": "2026-11-22",
+          "source": "https://www.immobiliare.it/annunci/133898177/"
+        }
+      ],
+      "facts": {
+        "priceEur": 173000,
+        "areaHabitableM2": 120,
+        "areaWalkableM2": null,
+        "areaCommercialM2": 120,
+        "areaNotes": "Il dettaglio superfici classifica 120 m² come abitazione; la casa è disposta su tre livelli.",
+        "gardenM2": null,
+        "landM2": 2300,
+        "parking": "Pastino di proprietà utilizzabile per due automobili.",
+        "floors": 3,
+        "bedrooms": 3,
+        "bathrooms": 1,
+        "condition": "Interamente da ristrutturare.",
+        "energy": "In attesa di certificazione.",
+        "bus": "Fermata della linea 3 all’innesto fra Strada Nuova per Opicina e Via Baiardi; percorso dal civico 88 stimato entro 5–10 minuti, da confermare sul posto.",
+        "highlights": [
+          "Casa di testa/accostata con grande terreno.",
+          "2.300 m² di terreno, di cui 600 m² dichiarati edificabili.",
+          "Due posti auto."
+        ],
+        "limitations": [
+          "La superficie specifica del giardino adiacente non è separata dai 2.300 m² di terreno.",
+          "Percorso pedonale esatto alla fermata da confermare."
+        ],
+        "description": "Casa accostata da ristrutturare a Scorcola con 120 m² abitativi, grande giardino adiacente, 2.300 m² di terreno e spazio per due auto. Candidatura molto vicina ai criteri; metratura del solo giardino e percorso bus restano da confermare."
+      },
+      "availability": {
+        "status": "published",
+        "checkedAt": "2026-11-22T09:53:39.535185+01:00",
+        "reason": "Pagina identificativa dell’esatto immobile letta direttamente: titolo, prezzo e informazioni dell’annuncio accessibili.",
+        "verifiedSources": [
+          {
+            "url": "https://www.immobiliare.it/annunci/133898177/",
+            "title": "Villa a schiera via Baiardi 88, Cologna - Università, Trieste",
+            "price": "€ 173.000",
+            "details": "120 m² classificati come abitazione; grande giardino; terreno 2.300 m²; due posti auto; tre livelli."
+          }
+        ]
+      },
+      "model": {
+        "status": "in_review",
+        "path": null,
+        "views": [],
+        "notes": [
+          "Una planimetria e fotografie dell’esatto annuncio sono disponibili.",
+          "Ricostruzione non pubblicata: confronto geometrico e collaudo browser ancora da completare."
+        ]
+      },
+      "evidence": {
+        "listingReadAt": "2026-11-22T09:53:39.535185+01:00",
+        "sourceUpdatedAt": "2026-10-26",
+        "method": "direct_http",
+        "note": "Pagina diretta dell’esatto annuncio letta il 22 novembre 2026; i risultati indicizzati sono stati usati soltanto per la scoperta."
+      }
+    },
+    {
+      "id": "fontanella-villa-grezzo-129398656",
+      "title": "Villa accostata al grezzo a Fontanella",
+      "locality": "Muggia",
+      "address": "Località Fontanella (civico non indicato)",
+      "sourceUrls": [
+        "https://www.immobiliare.it/annunci/129398656/"
+      ],
+      "historicalPrices": [
+        {
+          "priceEur": 650000,
+          "date": "2026-11-22",
+          "source": "https://www.immobiliare.it/annunci/129398656/"
+        }
+      ],
+      "facts": {
+        "priceEur": 650000,
+        "areaHabitableM2": 300,
+        "areaWalkableM2": null,
+        "areaCommercialM2": 343,
+        "areaNotes": "Il dettaglio superfici classifica come abitazione tre livelli da 100 m² ciascuno; superficie commerciale totale 343 m².",
+        "gardenM2": 250,
+        "landM2": null,
+        "parking": "Box di circa 20 m² e quattro ulteriori posti auto.",
+        "floors": 3,
+        "bedrooms": 3,
+        "bathrooms": 3,
+        "condition": "Nuova costruzione venduta al grezzo; finiture da completare.",
+        "energy": "A4 dichiarata.",
+        "bus": "Fermate delle linee 7/27 in località Fontanella; distanza dalla singola villa da confermare perché il civico non è pubblicato.",
+        "highlights": [
+          "300 m² classificati come abitazione.",
+          "Giardino di circa 250 m².",
+          "Box e quattro posti auto."
+        ],
+        "limitations": [
+          "Indirizzo esatto e distanza pedonale alla fermata non pubblicati.",
+          "Immobile al grezzo: costo di completamento non incluso nel prezzo."
+        ],
+        "description": "Villa accostata al grezzo a Fontanella con circa 300 m² abitativi, 343 m² commerciali, giardino di 250 m², box e quattro posti auto. Rispetta i criteri dimensionali e di prezzo; bus da confermare."
+      },
+      "availability": {
+        "status": "published",
+        "checkedAt": "2026-11-22T09:53:39.535185+01:00",
+        "reason": "Pagina identificativa dell’esatto immobile letta direttamente: titolo, prezzo e informazioni dell’annuncio accessibili.",
+        "verifiedSources": [
+          {
+            "url": "https://www.immobiliare.it/annunci/129398656/",
+            "title": "Villa unifamiliare, nuova, 343 m², Centro, Muggia",
+            "price": "€ 650.000",
+            "details": "Tre livelli abitativi da circa 100 m²; giardino 250 m²; box e quattro posti auto; prezzo 650.000 euro."
+          }
+        ]
+      },
+      "model": {
+        "status": "awaiting_plans",
+        "path": null,
+        "views": [],
+        "notes": [
+          "Le fotografie documentano esterni e ambienti, ma la pagina diretta non espone una planimetria identificativa utilizzabile.",
+          "È possibile in futuro un modello dei soli esterni, con omissione dichiarata degli interni non documentati."
+        ]
+      },
+      "evidence": {
+        "listingReadAt": "2026-11-22T09:53:39.535185+01:00",
+        "sourceUpdatedAt": "2026-05-26",
+        "method": "direct_http",
+        "note": "Pagina diretta dell’esatto annuncio letta il 22 novembre 2026; i risultati indicizzati sono stati usati soltanto per la scoperta."
+      }
+    },
+    {
+      "id": "puglie-di-domio-55075263",
+      "title": "Villa indipendente a Puglie di Domio",
+      "locality": "San Dorligo della Valle",
+      "address": "Puglie di Domio (posizione oscurata)",
+      "sourceUrls": [
+        "https://www.casa.it/immobili/55075263/"
+      ],
+      "historicalPrices": [
+        {
+          "priceEur": 348000,
+          "date": "2026-11-22",
+          "source": "https://www.casa.it/immobili/55075263/"
+        }
+      ],
+      "facts": {
+        "priceEur": 348000,
+        "areaHabitableM2": 75,
+        "areaWalkableM2": null,
+        "areaCommercialM2": 135,
+        "areaNotes": "La pagina indica 135 m² complessivi, ma descrive soltanto 75 m² di abitazione al primo piano; al piano terra sono presenti 125 m² di cantine e locali di sgombero.",
+        "gardenM2": 1300,
+        "landM2": null,
+        "parking": "Ingresso carrabile e due posti auto scoperti.",
+        "floors": 2,
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "condition": "Abitabile; stato al rogito indicato come occupato.",
+        "energy": "Esente.",
+        "bus": "Da confermare: l’indirizzo è oscurato; nell’area di Domio le fermate risultano generalmente a circa 2–7 minuti a piedi.",
+        "highlights": [
+          "Area esterna di circa 1.300 m².",
+          "Ingresso carrabile e due posti auto.",
+          "Casa indipendente."
+        ],
+        "limitations": [
+          "Solo 75 m² risultano descritti come abitazione, sotto la soglia di 120 m².",
+          "Distanza bus da confermare per posizione oscurata."
+        ],
+        "description": "Casa indipendente a Puglie di Domio con 75 m² abitativi dichiarati, 125 m² di depositi, area esterna di circa 1.300 m² e due posti auto. Near-match: manca la superficie abitativa minima."
+      },
+      "availability": {
+        "status": "published",
+        "checkedAt": "2026-11-22T09:53:39.535185+01:00",
+        "reason": "Pagina identificativa dell’esatto immobile letta direttamente: titolo, prezzo e informazioni dell’annuncio accessibili.",
+        "verifiedSources": [
+          {
+            "url": "https://www.casa.it/immobili/55075263/",
+            "title": "Villa in Vendita in zona Domio a San Dorligo della Valle - 135mq - Casa.it",
+            "price": "€ 348.000",
+            "details": "75 m² di abitazione, 125 m² di depositi, 1.300 m² esterni, ingresso carrabile e due posti auto."
+          }
+        ]
+      },
+      "model": {
+        "status": "awaiting_plans",
+        "path": null,
+        "views": [],
+        "notes": [
+          "La lettura diretta espone una galleria e dichiara planimetrie, ma non una tavola identificativa scaricabile nel materiale acquisito.",
+          "Non ricostruire gli interni dei locali di sgombero senza una pianta leggibile."
+        ]
+      },
+      "evidence": {
+        "listingReadAt": "2026-11-22T09:53:39.535185+01:00",
+        "sourceUpdatedAt": "2026-11-05",
+        "method": "direct_http",
+        "note": "Pagina diretta dell’esatto annuncio letta il 22 novembre 2026; i risultati indicizzati sono stati usati soltanto per la scoperta."
+      }
+    },
+    {
+      "id": "salita-di-raute-mazzini-659",
+      "title": "Villetta indipendente con dépendance in Salita di Raute",
+      "locality": "Trieste",
+      "address": "Salita di Raute (civico non indicato)",
+      "sourceUrls": [
+        "https://www.mazzini-immobiliare.it/scheda_ap.php?id=659"
+      ],
+      "historicalPrices": [
+        {
+          "priceEur": 345000,
+          "date": "2026-11-22",
+          "source": "https://www.mazzini-immobiliare.it/scheda_ap.php?id=659"
+        }
+      ],
+      "facts": {
+        "priceEur": 345000,
+        "areaHabitableM2": 155,
+        "areaWalkableM2": null,
+        "areaCommercialM2": null,
+        "areaNotes": "110 m² nella casa principale più 45 m² in una dépendance indipendente; i 155 m² non costituiscono un unico corpo abitativo.",
+        "gardenM2": 200,
+        "landM2": null,
+        "parking": "Accesso auto con piazzale di parcheggio.",
+        "floors": 2,
+        "bedrooms": 2,
+        "bathrooms": 3,
+        "condition": "Ristrutturata internamente; fotovoltaico dichiarato.",
+        "energy": "In fase di rilascio.",
+        "bus": "Fermata Raute delle linee 13/22 lungo la salita; distanza dal civico non pubblicato da confermare, ma la via è servita direttamente.",
+        "highlights": [
+          "Giardino di circa 200 m² e piccola piscina.",
+          "Casa principale più dépendance indipendente.",
+          "Accesso auto."
+        ],
+        "limitations": [
+          "La casa principale misura 110 m²; i restanti 45 m² sono una dépendance separata.",
+          "Civico e distanza esatta dalla fermata non pubblicati."
+        ],
+        "description": "Villetta indipendente in Salita di Raute con casa principale di 110 m², dépendance di 45 m², giardino di circa 200 m², piccola piscina e accesso auto. Near-match: la soglia interna è raggiunta solo sommando due corpi separati."
+      },
+      "availability": {
+        "status": "published",
+        "checkedAt": "2026-11-22T09:53:39.535185+01:00",
+        "reason": "Pagina identificativa dell’esatto immobile letta direttamente: titolo, prezzo e informazioni dell’annuncio accessibili.",
+        "verifiedSources": [
+          {
+            "url": "https://www.mazzini-immobiliare.it/scheda_ap.php?id=659",
+            "title": "Casa e/o villa in vendita - Trieste, Salita di Raute",
+            "price": "€ 345.000",
+            "details": "110 m² su due livelli più dépendance di 45 m²; giardino 200 m²; accesso auto e parcheggio."
+          }
+        ]
+      },
+      "model": {
+        "status": "awaiting_plans",
+        "path": null,
+        "views": [],
+        "notes": [
+          "La pagina dell’agenzia non espone planimetrie utilizzabili né un inventario fotografico sufficiente per una ricostruzione fedele.",
+          "Non unire geometricamente casa e dépendance senza fonti sulla loro posizione relativa."
+        ]
+      },
+      "evidence": {
+        "listingReadAt": "2026-11-22T09:53:39.535185+01:00",
+        "sourceUpdatedAt": null,
+        "method": "direct_http",
+        "note": "Pagina diretta dell’esatto annuncio letta il 22 novembre 2026; i risultati indicizzati sono stati usati soltanto per la scoperta."
+      }
+    },
+    {
+      "id": "via-dei-baseggio-39",
+      "title": "Casa di testa in Via dei Baseggio 39",
+      "locality": "Trieste",
+      "address": "Via dei Baseggio 39",
+      "sourceUrls": [
+        "https://www.immobiliare.it/annunci/130329136/"
+      ],
+      "historicalPrices": [
+        {
+          "priceEur": 330000,
+          "date": "2026-11-22",
+          "source": "https://www.immobiliare.it/annunci/130329136/"
+        }
+      ],
+      "facts": {
+        "priceEur": 330000,
+        "areaHabitableM2": 119,
+        "areaWalkableM2": null,
+        "areaCommercialM2": 122,
+        "areaNotes": "119 m² classificati come abitazione; 122 m² commerciali includendo la ponderazione del cortile.",
+        "gardenM2": 30,
+        "landM2": null,
+        "parking": "Cortile carrabile per due automobili.",
+        "floors": 2,
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "condition": "Completamente ristrutturata.",
+        "energy": "In attesa di certificazione.",
+        "bus": "Fermate delle linee 38 e 26/42/44/46/57 a circa 40–150 m dalla via; dal civico 39 stimata entro 2–4 minuti.",
+        "highlights": [
+          "Casa di testa ristrutturata.",
+          "Due posti auto nel cortile.",
+          "Fermate bus molto vicine."
+        ],
+        "limitations": [
+          "119 m² abitativi, un metro sotto la soglia.",
+          "Cortile/giardino di 30 m², sotto la soglia di 60 m²."
+        ],
+        "description": "Casa di testa ristrutturata a Gretta con 119 m² abitativi, 122 m² commerciali, cortile carrabile di 30 m² per due auto e autobus a pochi minuti. Near-match: manca un metro interno e il giardino è troppo piccolo."
+      },
+      "availability": {
+        "status": "published",
+        "checkedAt": "2026-11-22T09:53:39.535185+01:00",
+        "reason": "Pagina identificativa dell’esatto immobile letta direttamente: titolo, prezzo e informazioni dell’annuncio accessibili.",
+        "verifiedSources": [
+          {
+            "url": "https://www.immobiliare.it/annunci/130329136/",
+            "title": "Villa a schiera via dei Baseggio 39, Gretta, Trieste",
+            "price": "€ 330.000",
+            "details": "119 m² abitativi; 122 m² commerciali; cortile 30 m²; due posti auto."
+          }
+        ]
+      },
+      "model": {
+        "status": "in_review",
+        "path": null,
+        "views": [],
+        "notes": [
+          "Una planimetria e fotografie dell’esatto immobile sono disponibili.",
+          "Ricostruzione non pubblicata: confronto geometrico e collaudo browser ancora da completare."
+        ]
+      },
+      "evidence": {
+        "listingReadAt": "2026-11-22T09:53:39.535185+01:00",
+        "sourceUpdatedAt": "2026-06-26",
+        "method": "direct_http",
+        "note": "Pagina diretta dell’esatto annuncio letta il 22 novembre 2026; i risultati indicizzati sono stati usati soltanto per la scoperta."
+      }
+    },
+    {
+      "id": "strada-del-friuli-293",
+      "title": "Casa accostata in Strada del Friuli 293",
+      "locality": "Trieste",
+      "address": "Strada del Friuli 293",
+      "sourceUrls": [
+        "https://www.immobiliare.it/annunci/134068679/"
+      ],
+      "historicalPrices": [
+        {
+          "priceEur": 298000,
+          "date": "2026-11-22",
+          "source": "https://www.immobiliare.it/annunci/134068679/"
+        }
+      ],
+      "facts": {
+        "priceEur": 298000,
+        "areaHabitableM2": 111,
+        "areaWalkableM2": null,
+        "areaCommercialM2": 111,
+        "areaNotes": "L’annuncio dichiara e classifica come abitazione 111 m² interni su due livelli.",
+        "gardenM2": null,
+        "landM2": null,
+        "parking": "Spazio esterno antistante utilizzabile per due automobili.",
+        "floors": 2,
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "condition": "Risanata e ristrutturata; buone condizioni generali.",
+        "energy": "G, 281,31 kWh/m² anno.",
+        "bus": "Fermata Strada del Friuli 293 a circa 10 m, servita dalle linee 42, 44, 46 e 57.",
+        "highlights": [
+          "Casa accostata ristrutturata.",
+          "Due posti auto.",
+          "Fermata bus davanti all’immobile."
+        ],
+        "limitations": [
+          "111 m² abitativi, sotto la soglia di 120 m².",
+          "Lo spazio esterno è destinato al parcheggio e non è descritto come giardino di almeno 60 m²."
+        ],
+        "description": "Casa accostata a Barcola con 111 m² interni, spazio per due auto e fermata bus a circa 10 metri. Near-match: superficie interna inferiore alla soglia e nessun giardino qualificato."
+      },
+      "availability": {
+        "status": "published",
+        "checkedAt": "2026-11-22T09:53:39.535185+01:00",
+        "reason": "Pagina identificativa dell’esatto immobile letta direttamente: titolo, prezzo e informazioni dell’annuncio accessibili.",
+        "verifiedSources": [
+          {
+            "url": "https://www.immobiliare.it/annunci/134068679/",
+            "title": "Villa a schiera Strada del Friuli 293, Barcola, Trieste",
+            "price": "€ 298.000",
+            "details": "111 m² interni; due posti auto; due livelli; fermata bus al civico."
+          }
+        ]
+      },
+      "model": {
+        "status": "in_review",
+        "path": null,
+        "views": [],
+        "notes": [
+          "Due planimetrie catastali e fotografie dell’esatto immobile sono disponibili.",
+          "Ricostruzione non pubblicata: confronto geometrico e collaudo browser ancora da completare."
+        ]
+      },
+      "evidence": {
+        "listingReadAt": "2026-11-22T09:53:39.535185+01:00",
+        "sourceUpdatedAt": "2026-10-29",
+        "method": "direct_http",
+        "note": "Pagina diretta dell’esatto annuncio letta il 22 novembre 2026; i risultati indicizzati sono stati usati soltanto per la scoperta."
+      }
+    },
+    {
+      "id": "via-dei-pagliaricci-villa-55248385",
+      "title": "Villa monopiano in Via dei Pagliaricci",
+      "locality": "Trieste",
+      "address": "Via dei Pagliaricci (civico oscurato)",
+      "sourceUrls": [
+        "https://www.casa.it/immobili/55248385/"
+      ],
+      "historicalPrices": [
+        {
+          "priceEur": 740000,
+          "date": "2026-11-22",
+          "source": "https://www.casa.it/immobili/55248385/"
+        }
+      ],
+      "facts": {
+        "priceEur": 740000,
+        "areaHabitableM2": 130,
+        "areaWalkableM2": null,
+        "areaCommercialM2": 130,
+        "areaNotes": "La descrizione indica circa 130 m² interni su un unico livello.",
+        "gardenM2": 700,
+        "landM2": null,
+        "parking": "Quattro posti auto scoperti.",
+        "floors": 1,
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "condition": "Recente costruzione, ottime condizioni.",
+        "energy": "A2.",
+        "bus": "Via dei Pagliaricci è servita da fermate a circa 68–200 m, ma il civico è oscurato: percorso esatto da confermare.",
+        "highlights": [
+          "Villa indipendente monopiano.",
+          "Giardino di circa 700 m².",
+          "Quattro posti auto."
+        ],
+        "limitations": [
+          "Prezzo di 740.000 euro, 40.000 euro sopra il limite.",
+          "Distanza bus da confermare per civico oscurato."
+        ],
+        "description": "Villa indipendente monopiano a San Giovanni con circa 130 m² interni, giardino di 700 m² e quattro posti auto. Near-match molto forte: supera il budget di 40.000 euro; bus da confermare."
+      },
+      "availability": {
+        "status": "published",
+        "checkedAt": "2026-11-22T09:53:39.535185+01:00",
+        "reason": "Pagina identificativa dell’esatto immobile letta direttamente: titolo, prezzo e informazioni dell’annuncio accessibili.",
+        "verifiedSources": [
+          {
+            "url": "https://www.casa.it/immobili/55248385/",
+            "title": "Villa in Vendita in Via dei Pagliaricci a Trieste - 130mq - Casa.it",
+            "price": "€ 740.000",
+            "details": "130 m² interni; giardino 700 m²; quattro posti auto; tre camere e due bagni."
+          }
+        ]
+      },
+      "model": {
+        "status": "awaiting_plans",
+        "path": null,
+        "views": [],
+        "notes": [
+          "La pagina pubblica acquisita non espone una planimetria identificativa; le fotografie complete sono offerte dall’agenzia su richiesta.",
+          "Non ricostruire interni o facciate mancanti da una sola immagine pubblica."
+        ]
+      },
+      "evidence": {
+        "listingReadAt": "2026-11-22T09:53:39.535185+01:00",
+        "sourceUpdatedAt": "2026-11-18",
+        "method": "direct_http",
+        "note": "Pagina diretta dell’esatto annuncio letta il 22 novembre 2026; i risultati indicizzati sono stati usati soltanto per la scoperta."
+      }
+    },
+    {
+      "id": "scorcola-villa-126673705",
+      "title": "Villa anni Trenta con giardino a Scorcola",
+      "locality": "Trieste",
+      "address": "Scorcola (indirizzo non pubblicato)",
+      "sourceUrls": [
+        "https://www.immobiliare.it/annunci/126673705/"
+      ],
+      "historicalPrices": [
+        {
+          "priceEur": 780000,
+          "date": "2026-11-05",
+          "source": "pagina diretta, prezzo precedente mostrato"
+        },
+        {
+          "priceEur": 730000,
+          "date": "2026-11-22",
+          "source": "https://www.immobiliare.it/annunci/126673705/"
+        }
+      ],
+      "facts": {
+        "priceEur": 730000,
+        "areaHabitableM2": 124,
+        "areaWalkableM2": null,
+        "areaCommercialM2": 234,
+        "areaNotes": "Due piani classificati come abitazione da 62 m² ciascuno (124 m²); il seminterrato di 62 m² è classificato come altro. Superficie commerciale 234 m².",
+        "gardenM2": 450,
+        "landM2": null,
+        "parking": "Un posto auto scoperto per vettura piccola; garage acquistabile separatamente.",
+        "floors": 3,
+        "bedrooms": 3,
+        "bathrooms": 3,
+        "condition": "Ristrutturata strutturalmente e negli impianti; ottime condizioni dichiarate.",
+        "energy": "F, 248,57 kWh/m² anno.",
+        "bus": "Da confermare: l’annuncio non pubblica l’indirizzo esatto nel quartiere Scorcola.",
+        "highlights": [
+          "124 m² classificati come abitazione più taverna/seminterrato.",
+          "Giardino di circa 450 m².",
+          "Riduzione da 780.000 a 730.000 euro mostrata dalla pagina."
+        ],
+        "limitations": [
+          "Prezzo di 730.000 euro, 30.000 euro sopra il limite.",
+          "Posto auto adatto soltanto a una vettura piccola; bus da confermare."
+        ],
+        "description": "Villa unifamiliare anni Trenta a Scorcola con 124 m² abitativi, 234 m² commerciali, giardino di circa 450 m² e un posto auto. Near-match: costa 30.000 euro oltre il limite."
+      },
+      "availability": {
+        "status": "published",
+        "checkedAt": "2026-11-22T09:53:39.535185+01:00",
+        "reason": "Pagina identificativa dell’esatto immobile letta direttamente: titolo, prezzo e informazioni dell’annuncio accessibili.",
+        "verifiedSources": [
+          {
+            "url": "https://www.immobiliare.it/annunci/126673705/",
+            "title": "Villa unifamiliare 234 m², Scorcola, Trieste",
+            "price": "€ 730.000",
+            "details": "124 m² di abitazione più 62 m² seminterrati; giardino 450 m²; un posto auto; prezzo ridotto a 730.000 euro."
+          }
+        ]
+      },
+      "model": {
+        "status": "in_review",
+        "path": null,
+        "views": [],
+        "notes": [
+          "Tre planimetrie e fotografie dell’esatto immobile sono disponibili.",
+          "Ricostruzione non pubblicata: confronto geometrico e collaudo browser ancora da completare."
+        ]
+      },
+      "evidence": {
+        "listingReadAt": "2026-11-22T09:53:39.535185+01:00",
+        "sourceUpdatedAt": "2026-11-05",
+        "method": "direct_http",
+        "note": "Pagina diretta dell’esatto annuncio letta il 22 novembre 2026; i risultati indicizzati sono stati usati soltanto per la scoperta."
+      }
+    },
+    {
+      "id": "via-delle-campanelle-252",
+      "title": "Casa indipendente ristrutturata in Via delle Campanelle 252",
+      "locality": "Trieste",
+      "address": "Via delle Campanelle 252",
+      "sourceUrls": [
+        "https://www.casa.it/immobili/53540799/"
+      ],
+      "historicalPrices": [
+        {
+          "priceEur": 348000,
+          "date": "2026-11-22",
+          "source": "https://www.casa.it/immobili/53540799/"
+        }
+      ],
+      "facts": {
+        "priceEur": 348000,
+        "areaHabitableM2": 142,
+        "areaWalkableM2": null,
+        "areaCommercialM2": 142,
+        "areaNotes": "La pagina dichiara 142 m² e descrive salone, cucina, taverna, tre stanze e tre bagni; non espone una scomposizione commerciale separata.",
+        "gardenM2": null,
+        "landM2": null,
+        "parking": "Giardinetto carrabile capace di ospitare un’automobile.",
+        "floors": 2,
+        "bedrooms": 3,
+        "bathrooms": 3,
+        "condition": "Ristrutturazione globale in corso; consegna finita dichiarata.",
+        "energy": "C dichiarata.",
+        "bus": "Fermate delle linee 33/C a circa 60–70 m dal civico.",
+        "highlights": [
+          "Casa indipendente in ristrutturazione globale.",
+          "142 m² dichiarati.",
+          "Autobus a circa un minuto a piedi."
+        ],
+        "limitations": [
+          "Metratura del giardinetto non pubblicata e probabilmente inferiore a 60 m².",
+          "Il posto auto occupa lo stesso spazio esterno del giardino."
+        ],
+        "description": "Casa indipendente in Via delle Campanelle con 142 m² dichiarati, tre camere, tre bagni, giardinetto carrabile per un’auto e autobus a 60–70 metri. Near-match: dimensione del giardino non dichiarata."
+      },
+      "availability": {
+        "status": "published",
+        "checkedAt": "2026-11-22T09:53:39.535185+01:00",
+        "reason": "Pagina identificativa dell’esatto immobile letta direttamente: titolo, prezzo e informazioni dell’annuncio accessibili.",
+        "verifiedSources": [
+          {
+            "url": "https://www.casa.it/immobili/53540799/",
+            "title": "Casa indipendente in Vendita in Via delle Campanelle 252 a Trieste - 142mq - Casa.it",
+            "price": "€ 348.000",
+            "details": "142 m²; tre camere e tre bagni; giardinetto carrabile per un’auto; fermate bus a 60–70 m."
+          }
+        ]
+      },
+      "model": {
+        "status": "in_review",
+        "path": null,
+        "views": [],
+        "notes": [
+          "La pagina dichiara foto e planimetrie dell’esatto immobile.",
+          "Ricostruzione non pubblicata: confronto geometrico e collaudo browser ancora da completare."
+        ]
+      },
+      "evidence": {
+        "listingReadAt": "2026-11-22T09:53:39.535185+01:00",
+        "sourceUpdatedAt": "2026-11-02",
+        "method": "direct_http",
+        "note": "Pagina diretta dell’esatto annuncio letta il 22 novembre 2026; i risultati indicizzati sono stati usati soltanto per la scoperta."
       }
     }
   ]
