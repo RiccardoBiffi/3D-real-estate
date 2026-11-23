@@ -1,0 +1,62 @@
+{
+  "id": "malchina-villa-nuova",
+  "status": "ready",
+  "path": "modelli/malchina-villa-nuova.html",
+  "views": [
+    {
+      "label": "Esterno",
+      "level": null
+    },
+    {
+      "label": "Primo piano",
+      "level": 1
+    },
+    {
+      "label": "Piano terra · villa nuova",
+      "level": 0
+    }
+  ],
+  "notes": [
+    "Edificio nuovo, locali in gran parte liberi e sanitari chiari con elementi antracite. Il mobilio rimane essenziale.",
+    "I contorni e le divisioni seguono le tavole indicate. Le misure assolute prive di quota, alcune aperture, le altezze e le dimensioni dei mobili sono stime."
+  ],
+  "verifiedAt": "2026-11-23T12:47:02+01:00",
+  "artifactSha256": "157559abe656c497b56cbcb8a3a49f73f729daf1dec6bdc8812ab55f3ae3aac5",
+  "sourcePlans": [
+    {
+      "label": "Piante della villa",
+      "url": "https://images-1.casa.it/1600x1200-fit/listing/0/be/fc/99/856634755.jpg"
+    },
+    {
+      "label": "Prospetti e sezioni",
+      "url": "https://images-1.casa.it/1600x1200-fit/listing/0/83/e9/75/856634785.jpg"
+    },
+    {
+      "label": "Documentazione di progetto",
+      "url": "https://images-1.casa.it/1600x1200-fit/listing/0/bb/ba/e1/856634806.jpg"
+    }
+  ],
+  "unrenderedVolumes": [
+    "Scala di collegamento tra i livelli e particolari di copertura non accertati.",
+    "Rampe o tratti di scala senza raccordo verticale verificabile tra le tavole."
+  ],
+  "coverage": "partial",
+  "preview": "assets/malchina-villa-nuova.jpg",
+  "qa": {
+    "staticPassed": true,
+    "browserPassed": true,
+    "geometryPassed": true,
+    "orthographicPassed": true
+  },
+  "fidelity": {
+    "passed": true,
+    "basis": "Riesame visivo dei fronti fotografati e delle parti modellate."
+  },
+  "independentReview": {
+    "passed": true,
+    "artifactSha256": "157559abe656c497b56cbcb8a3a49f73f729daf1dec6bdc8812ab55f3ae3aac5",
+    "method": "Seconda lettura di fotografie, viste renderizzate e sovrapposizioni disponibili. Le misure e le parti omesse sono dichiarate nella scheda."
+  },
+  "evidenceIndex": "ricostruzioni/2026-11-23/index.html#malchina-villa-nuova",
+  "browserReport": "ricostruzioni/2026-11-23/verifiche/risultati.json"
+}

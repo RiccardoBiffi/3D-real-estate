@@ -1,804 +1,516 @@
 {
-  "id": "basovizza-218",
-  "title": "Basovizza 218 \u00b7 stato attuale",
-  "creationStarted": "2026-11-16T18:15:40.563699+01:00",
-  "coverage": "partial",
-  "unrenderedVolumes": [
-    "Scalinata esterna di accesso e raccordo alla cantina: rampe e collegamenti non ricostruiti.",
-    "Terrapieno accanto alle cantine rappresentato solo come appoggio semplificato del portico. Giardino completo e confini del lotto esclusi."
-  ],
-  "geometrySource": "manual-source-plan-trace",
-  "sources": [
-    {
-      "url": "https://www.immobiliare.it/annunci/133886068/"
-    }
-  ],
-  "sourcePlans": [
-    {
-      "url": "https://pic.im-cdn.it/plan/136800678/xxl.jpg",
-      "file": "root-acquired/asset-40.jpg",
-      "levels": [
-        "basement"
-      ]
-    },
-    {
-      "url": "https://pic.im-cdn.it/plan/136800658/xxl.jpg",
-      "file": "root-acquired/asset-39.jpg",
-      "levels": [
-        "ground"
-      ]
-    }
-  ],
-  "traceTransforms": {
-    "basement": {
-      "origin": [
-        7,
-        218
-      ],
-      "scale": 0.03293233082706767,
-      "sourceFile": "root-acquired/asset-40.jpg",
-      "bounds": [
-        0,
-        207,
-        511,
-        480
-      ]
-    },
-    "ground": {
-      "origin": [
-        22,
-        166
-      ],
-      "scale": 0.036,
-      "sourceFile": "root-acquired/asset-39.jpg",
-      "bounds": [
-        10,
-        153,
-        488,
-        410
-      ]
-    }
-  },
   "levels": [
     {
-      "id": "basement",
-      "label": "Scantinato \u00b7 due cantine",
-      "y": -1.55,
-      "height": 2.4,
+      "id": "piano-0",
+      "label": "Scantinato · stato attuale",
+      "y": -2.55,
+      "height": 2.55,
       "outline": [
         [
-          0.0,
-          0.0
+          -4.3,
+          -6.2723
         ],
         [
-          13.139999999999999,
-          0.0
+          -0.1,
+          -6.2723
         ],
         [
-          13.139999999999999,
-          4.808120300751879
+          -0.1,
+          -4.9418
         ],
         [
-          0.0,
-          4.906917293233082
+          1.5,
+          -4.9418
+        ],
+        [
+          1.5,
+          1.3305
+        ],
+        [
+          -0.1,
+          1.3305
+        ],
+        [
+          -0.1,
+          7.4127
+        ],
+        [
+          -4.4,
+          7.4127
         ]
+      ],
+      "surfaces": [
+        {
+          "points": [
+            [
+              -4.3,
+              -6.2723
+            ],
+            [
+              -0.1,
+              -6.2723
+            ],
+            [
+              -0.1,
+              -4.9418
+            ],
+            [
+              1.5,
+              -4.9418
+            ],
+            [
+              1.5,
+              1.3305
+            ],
+            [
+              -0.1,
+              1.3305
+            ],
+            [
+              -0.1,
+              7.4127
+            ],
+            [
+              -4.4,
+              7.4127
+            ]
+          ],
+          "color": "#b5aaa0",
+          "finish": "mineral",
+          "holes": []
+        }
       ],
       "walls": [
         {
           "a": [
-            0.0,
-            0.0
+            -4.3,
+            -6.2723
           ],
           "b": [
-            13.139999999999999,
-            0.0
+            -0.1,
+            -6.2723
           ],
-          "thickness": 0.18,
-          "openings": []
+          "thickness": 0.25,
+          "outer": true,
+          "openings": [],
+          "insideFace": true
         },
         {
           "a": [
-            13.139999999999999,
-            0.0
+            -0.1342,
+            -6.2723
           ],
           "b": [
-            13.139999999999999,
-            4.808120300751879
+            -0.1342,
+            -4.9418
           ],
-          "thickness": 0.18,
-          "openings": []
+          "thickness": 0.23,
+          "outer": true,
+          "openings": [],
+          "insideFace": true
         },
         {
           "a": [
-            13.139999999999999,
-            4.808120300751879
+            -0.1,
+            -4.9075
           ],
           "b": [
-            0.0,
-            4.906917293233082
+            1.5,
+            -4.9075
           ],
-          "thickness": 0.18,
+          "thickness": 0.23,
+          "outer": true,
+          "openings": [],
+          "insideFace": true
+        },
+        {
+          "a": [
+            1.4658,
+            -4.9418
+          ],
+          "b": [
+            1.4658,
+            1.3305
+          ],
+          "thickness": 0.23,
+          "outer": true,
+          "openings": [],
+          "insideFace": true
+        },
+        {
+          "a": [
+            1.5,
+            1.4332
+          ],
+          "b": [
+            -0.1,
+            1.4332
+          ],
+          "thickness": 0.23,
+          "outer": true,
+          "openings": [],
+          "insideFace": true
+        },
+        {
+          "a": [
+            -0.1342,
+            1.3305
+          ],
+          "b": [
+            -0.1342,
+            7.4127
+          ],
+          "thickness": 0.23,
+          "outer": true,
           "openings": [
             {
-              "start": 1.4160902255639096,
-              "end": 2.6016541353383458,
-              "sill": 1.25,
-              "height": 0.7,
-              "kind": "window"
-            },
-            {
-              "start": 5.730225563909774,
-              "end": 6.981654135338346,
-              "sill": 1.25,
-              "height": 0.7,
-              "kind": "window"
-            },
-            {
-              "start": 10.571278195488722,
-              "end": 11.690977443609022,
-              "sill": 1.25,
-              "height": 0.7,
-              "kind": "window"
+              "kind": "window",
+              "start": 2.111,
+              "end": 3.211,
+              "sill": 0.9,
+              "height": 1.24
             }
-          ]
+          ],
+          "insideFace": true
         },
         {
           "a": [
-            0.0,
-            4.906917293233082
+            -0.1,
+            7.3784
           ],
           "b": [
-            0.0,
-            0.0
+            -4.4,
+            7.3784
           ],
-          "thickness": 0.18,
+          "thickness": 0.23,
+          "outer": true,
           "openings": [
             {
-              "start": 1.6136842105263156,
-              "end": 3.3261654135338343,
-              "sill": 1.15,
-              "height": 0.85,
-              "kind": "window"
+              "kind": "window",
+              "start": 1.55,
+              "end": 2.65,
+              "sill": 0.9,
+              "height": 1.24
             }
-          ]
+          ],
+          "insideFace": true
         },
         {
           "a": [
-            7.245112781954886,
-            0.5269172932330827
+            -4.3658,
+            7.4129
           ],
           "b": [
-            7.245112781954886,
-            4.3141353383458645
+            -4.2658,
+            -6.272
           ],
-          "thickness": 0.18,
+          "thickness": 0.23,
+          "outer": true,
+          "openings": [],
+          "insideFace": true
+        },
+        {
+          "a": [
+            -4.3,
+            -0.1558
+          ],
+          "b": [
+            -0.1,
+            -0.1558
+          ],
+          "thickness": 0.12,
+          "outer": false,
+          "openings": [],
+          "color": "#e5e0d7"
+        },
+        {
+          "a": [
+            -0.1342,
+            -4.9418
+          ],
+          "b": [
+            -0.1342,
+            1.3305
+          ],
+          "thickness": 0.12,
+          "outer": false,
           "openings": [
             {
-              "start": 2.7992481203007515,
-              "end": 3.7213533834586463,
+              "kind": "door",
+              "start": 2.621,
+              "end": 3.461,
               "sill": 0,
-              "height": 2.1,
-              "kind": "door"
+              "height": 2.06
             }
-          ]
+          ],
+          "color": "#e5e0d7"
         }
       ],
       "holes": [],
       "furniture": [],
-      "exteriorVisible": true
-    },
-    {
-      "id": "ground",
-      "label": "Piano terra \u00b7 abitazione",
-      "y": 1.02,
-      "height": 2.7,
-      "outline": [
-        [
-          0.0,
-          0.0
-        ],
-        [
-          13.139999999999999,
-          0.072
-        ],
-        [
-          13.139999999999999,
-          4.824
-        ],
-        [
-          0.0,
-          4.752
-        ]
+      "sourcePlan": "p00",
+      "sourceBox": [
+        139,
+        157,
+        431,
+        712
       ],
-      "walls": [
-        {
-          "a": [
-            0.0,
-            0.0
-          ],
-          "b": [
-            13.139999999999999,
-            0.072
-          ],
-          "thickness": 0.18,
-          "openings": [
-            {
-              "start": 4.968,
-              "end": 5.867999999999999,
-              "sill": 0.95,
-              "height": 1.2,
-              "kind": "window"
-            },
-            {
-              "start": 7.02,
-              "end": 8.712,
-              "sill": 0.95,
-              "height": 1.2,
-              "kind": "window"
-            }
-          ]
-        },
-        {
-          "a": [
-            13.139999999999999,
-            0.072
-          ],
-          "b": [
-            13.139999999999999,
-            4.824
-          ],
-          "thickness": 0.18,
-          "openings": []
-        },
-        {
-          "a": [
-            13.139999999999999,
-            4.824
-          ],
-          "b": [
-            0.0,
-            4.752
-          ],
-          "thickness": 0.18,
-          "openings": [
-            {
-              "start": 1.5119999999999998,
-              "end": 2.5919999999999996,
-              "sill": 0.95,
-              "height": 1.2,
-              "kind": "window"
-            },
-            {
-              "start": 5.688,
-              "end": 7.236,
-              "sill": 0,
-              "height": 2.1,
-              "kind": "door"
-            },
-            {
-              "start": 8.1,
-              "end": 9.0,
-              "sill": 0.95,
-              "height": 1.2,
-              "kind": "window"
-            },
-            {
-              "start": 10.584,
-              "end": 11.556,
-              "sill": 0.95,
-              "height": 1.2,
-              "kind": "window"
-            }
-          ]
-        },
-        {
-          "a": [
-            0.0,
-            4.752
-          ],
-          "b": [
-            0.0,
-            0.0
-          ],
-          "thickness": 0.18,
-          "openings": [
-            {
-              "start": 1.7639999999999998,
-              "end": 2.88,
-              "sill": 0.95,
-              "height": 1.2,
-              "kind": "window"
-            }
-          ]
-        },
-        {
-          "a": [
-            0.36,
-            2.52
-          ],
-          "b": [
-            3.7439999999999998,
-            2.5559999999999996
-          ],
-          "thickness": 0.18,
-          "openings": [
-            {
-              "start": 1.404,
-              "end": 2.304,
-              "sill": 0,
-              "height": 2.1,
-              "kind": "door"
-            }
-          ]
-        },
-        {
-          "a": [
-            3.7439999999999998,
-            2.5559999999999996
-          ],
-          "b": [
-            3.7439999999999998,
-            4.319999999999999
-          ],
-          "thickness": 0.18,
-          "openings": []
-        },
-        {
-          "a": [
-            3.7439999999999998,
-            3.2399999999999998
-          ],
-          "b": [
-            9.287999999999998,
-            3.276
-          ],
-          "thickness": 0.18,
-          "openings": [
-            {
-              "start": 0.612,
-              "end": 1.8719999999999999,
-              "sill": 0,
-              "height": 2.1,
-              "kind": "door"
-            },
-            {
-              "start": 3.5999999999999996,
-              "end": 4.608,
-              "sill": 0,
-              "height": 2.1,
-              "kind": "door"
-            }
-          ]
-        },
-        {
-          "a": [
-            5.795999999999999,
-            3.276
-          ],
-          "b": [
-            5.795999999999999,
-            4.536
-          ],
-          "thickness": 0.18,
-          "openings": [
-            {
-              "start": 0.39599999999999996,
-              "end": 0.972,
-              "sill": 0,
-              "height": 2.1,
-              "kind": "door"
-            }
-          ]
-        },
-        {
-          "a": [
-            6.8759999999999994,
-            0.43199999999999994
-          ],
-          "b": [
-            6.8759999999999994,
-            3.276
-          ],
-          "thickness": 0.18,
-          "openings": [
-            {
-              "start": 1.3679999999999999,
-              "end": 2.52,
-              "sill": 0,
-              "height": 2.1,
-              "kind": "door"
-            }
-          ]
-        },
-        {
-          "a": [
-            9.36,
-            0.43199999999999994
-          ],
-          "b": [
-            9.36,
-            4.5
-          ],
-          "thickness": 0.18,
-          "openings": [
-            {
-              "start": 3.276,
-              "end": 3.9959999999999996,
-              "sill": 0,
-              "height": 2.1,
-              "kind": "door"
-            }
-          ]
-        }
+      "sourceOrigin": [
+        302.52,
+        462.25
       ],
-      "holes": [],
-      "furniture": [],
-      "exteriorVisible": true
+      "sourceScale": 0.0342465753,
+      "separate": false,
+      "traceIndex": 0,
+      "comparison": "basovizza-218-01.jpg"
     }
   ],
-  "roofs": [
-    {
-      "vertices": [
-        [
-          -0.25,
-          3.8,
-          -0.28
-        ],
-        [
-          13.33,
-          3.8,
-          -0.28
-        ],
-        [
-          13.33,
-          5.1,
-          2.375
-        ],
-        [
-          -0.25,
-          5.1,
-          2.375
-        ]
-      ],
-      "indices": [
-        0,
-        1,
-        2,
-        0,
-        2,
-        3
-      ],
-      "color": "#985e45"
-    },
-    {
-      "vertices": [
-        [
-          -0.25,
-          5.1,
-          2.375
-        ],
-        [
-          13.33,
-          5.1,
-          2.375
-        ],
-        [
-          13.33,
-          3.8,
-          5.03
-        ],
-        [
-          -0.25,
-          3.8,
-          5.03
-        ]
-      ],
-      "indices": [
-        0,
-        1,
-        2,
-        0,
-        2,
-        3
-      ],
-      "color": "#985e45"
-    },
-    {
-      "vertices": [
-        [
-          -0.25,
-          3.8,
-          -0.28
-        ],
-        [
-          -0.25,
-          5.1,
-          2.375
-        ],
-        [
-          -0.25,
-          3.8,
-          5.03
-        ]
-      ],
-      "indices": [
-        0,
-        1,
-        2
-      ],
-      "color": "#dbd5c2"
-    },
-    {
-      "vertices": [
-        [
-          13.33,
-          3.8,
-          -0.28
-        ],
-        [
-          13.33,
-          5.1,
-          2.375
-        ],
-        [
-          13.33,
-          3.8,
-          5.03
-        ]
-      ],
-      "indices": [
-        0,
-        1,
-        2
-      ],
-      "color": "#dbd5c2"
-    },
-    {
-      "vertices": [
-        [
-          5.76,
-          3.4788,
-          4.824
-        ],
-        [
-          13.139999999999999,
-          3.4788,
-          4.824
-        ],
-        [
-          13.139999999999999,
-          3.7056,
-          0.288
-        ],
-        [
-          14.184,
-          3.7092,
-          0.21599999999999997
-        ],
-        [
-          16.451999999999998,
-          3.3168,
-          8.064
-        ],
-        [
-          12.024,
-          3.2988,
-          8.424
-        ],
-        [
-          11.627999999999998,
-          3.4284000000000003,
-          5.832
-        ],
-        [
-          5.76,
-          3.4284000000000003,
-          5.832
-        ]
-      ],
-      "indices": [
-        0,
-        1,
-        6,
-        0,
-        6,
-        7,
-        1,
-        2,
-        3,
-        1,
-        3,
-        4,
-        1,
-        4,
-        6,
-        4,
-        5,
-        6
-      ],
-      "color": "#9c7457"
-    }
-  ],
-  "exteriors": [
-    {
-      "points": [
-        [
-          -2,
-          -2
-        ],
-        [
-          18,
-          -2
-        ],
-        [
-          18,
-          10
-        ],
-        [
-          -2,
-          10
-        ]
-      ],
-      "y": -1.67,
-      "thickness": 0.16,
-      "color": "#89946c"
-    },
-    {
-      "points": [
-        [
-          5.76,
-          4.824
-        ],
-        [
-          13.139999999999999,
-          4.824
-        ],
-        [
-          13.139999999999999,
-          0.288
-        ],
-        [
-          14.184,
-          0.21599999999999997
-        ],
-        [
-          16.451999999999998,
-          8.064
-        ],
-        [
-          12.024,
-          8.424
-        ],
-        [
-          11.627999999999998,
-          5.832
-        ],
-        [
-          5.76,
-          5.832
-        ]
-      ],
-      "y": 1.02,
-      "thickness": 0.18,
-      "color": "#a98767"
-    },
-    {
-      "kind": "box",
-      "center": [
-        14.32,
-        -0.36,
-        6.47
-      ],
-      "size": [
-        3.32,
-        2.58,
-        3.76
-      ],
-      "color": "#827867"
-    },
-    {
-      "kind": "box",
-      "center": [
-        5.9399999999999995,
-        2.2269,
-        5.723999999999999
-      ],
-      "size": [
-        0.13,
-        2.4138,
-        0.13
-      ],
-      "color": "#856b52"
-    },
-    {
-      "kind": "box",
-      "center": [
-        7.811999999999999,
-        2.2269,
-        5.723999999999999
-      ],
-      "size": [
-        0.13,
-        2.4138,
-        0.13
-      ],
-      "color": "#856b52"
-    },
-    {
-      "kind": "box",
-      "center": [
-        9.719999999999999,
-        2.2269,
-        5.723999999999999
-      ],
-      "size": [
-        0.13,
-        2.4138,
-        0.13
-      ],
-      "color": "#856b52"
-    },
-    {
-      "kind": "box",
-      "center": [
-        11.556,
-        2.2269,
-        5.723999999999999
-      ],
-      "size": [
-        0.13,
-        2.4138,
-        0.13
-      ],
-      "color": "#856b52"
-    },
-    {
-      "kind": "box",
-      "center": [
-        12.095999999999998,
-        2.1630000000000003,
-        8.28
-      ],
-      "size": [
-        0.13,
-        2.286,
-        0.13
-      ],
-      "color": "#856b52"
-    },
-    {
-      "kind": "box",
-      "center": [
-        16.235999999999997,
-        2.1702000000000004,
-        7.991999999999999
-      ],
-      "size": [
-        0.13,
-        2.3004000000000002,
-        0.13
-      ],
-      "color": "#856b52"
-    }
-  ],
+  "roofs": [],
   "colors": {
-    "walls": "#dbd5c2",
-    "frames": "#70513a",
-    "floor": "#b4a38e"
+    "walls": "#c3bcb0",
+    "floor": "#9e9990",
+    "roof": "#746557",
+    "frames": "#64574a",
+    "wood": "#88674c"
   },
-  "cameraX": 0.66,
-  "cameraY": 0.66,
-  "cameraZ": 0.83,
-  "estimates": [
-    "Scala assoluta stimata da larghezza porte, senza forzare l\u2019area commerciale. Le due immagini sono scalate uniformemente usando il tratto di facciata principale come asse comune.",
-    "Facciata, portico e aperture ricavati dai diagrammi originali e dalle foto attuali 05,07,09,11,12,14,16,17,20\u201328,30\u201336,38; versioni di allestimento assistito da IA escluse.",
-    "Quote del piano terra e delle cantine lette sulle tavole, rapporto verticale e falde stimati."
+  "coverage": "partial",
+  "unrenderedVolumes": [
+    "Abitazione al piano terra e relativi arredi. La tavola disponibile mostra lo stato anteriore.",
+    "Terrapieno e collegamento con la cantina."
   ],
-  "rendering": {
-    "textured": true,
-    "exposure": 1.02,
-    "hemisphereIntensity": 1.65,
-    "sunIntensity": 2.65
-  },
-  "creationFinished": "2026-11-16T18:39:32.746486+01:00"
+  "geometrySource": "Ricalco dei perimetri e dei tramezzi su ritagli delle tavole pubblicate, con registrazione isotropa delle linee alla scansione. Dimensioni assolute e imbotti stimati salvo quote esplicite.",
+  "id": "basovizza-218",
+  "title": "Basovizza 218",
+  "creationStarted": "2026-11-23T11:47:20+01:00",
+  "creationFinished": "2026-11-23T12:47:02+01:00",
+  "sources": [
+    "https://www.casa.it/immobili/54714337/"
+  ],
+  "sourceReadAt": "2026-11-23T11:49:18+01:00",
+  "sourceMedia": [
+    {
+      "key": "p00",
+      "usedUrl": "https://images-1.casa.it/1600x1200-fit/listing/0/bf/4b/4a/836700349.jpg",
+      "caption": "",
+      "plan": true,
+      "size": [
+        545,
+        792
+      ],
+      "pageUrl": "https://www.casa.it/immobili/54714337/"
+    },
+    {
+      "key": "p01",
+      "usedUrl": "https://images-1.casa.it/1600x1200-fit/listing/0/44/3f/73/836700352.jpg",
+      "caption": "",
+      "plan": true,
+      "size": [
+        550,
+        813
+      ],
+      "pageUrl": "https://www.casa.it/immobili/54714337/"
+    },
+    {
+      "key": "p02",
+      "usedUrl": "https://images-1.casa.it/1600x1200-fit/listing/0/1a/25/fb/836700383.jpg",
+      "caption": "",
+      "plan": true,
+      "size": [
+        530,
+        556
+      ],
+      "pageUrl": "https://www.casa.it/immobili/54714337/"
+    },
+    {
+      "key": "f00",
+      "usedUrl": "https://images-1.casa.it/1200x900-fit/listing/0/27/d3/a5/836699341.jpg",
+      "caption": "Giardino",
+      "plan": false,
+      "size": [
+        1072,
+        900
+      ],
+      "pageUrl": "https://www.casa.it/immobili/54714337/"
+    },
+    {
+      "key": "f01",
+      "usedUrl": "https://images-1.casa.it/1200x900-fit/listing/0/b6/8e/36/836699394.jpg",
+      "caption": "Facciata",
+      "plan": false,
+      "size": [
+        1075,
+        900
+      ],
+      "pageUrl": "https://www.casa.it/immobili/54714337/"
+    },
+    {
+      "key": "f02",
+      "usedUrl": "https://images-1.casa.it/1200x900-fit/listing/0/07/ef/39/836699339.jpg",
+      "caption": "Terrazza",
+      "plan": false,
+      "size": [
+        1067,
+        900
+      ],
+      "pageUrl": "https://www.casa.it/immobili/54714337/"
+    },
+    {
+      "key": "f03",
+      "usedUrl": "https://images-1.casa.it/1200x900-fit/listing/0/4b/93/82/836699340.jpg",
+      "caption": "Terrazza",
+      "plan": false,
+      "size": [
+        1070,
+        900
+      ],
+      "pageUrl": "https://www.casa.it/immobili/54714337/"
+    },
+    {
+      "key": "f04",
+      "usedUrl": "https://images-1.casa.it/1200x900-fit/listing/0/e0/48/7e/836699112.jpg",
+      "caption": "Terrazza",
+      "plan": false,
+      "size": [
+        1069,
+        900
+      ],
+      "pageUrl": "https://www.casa.it/immobili/54714337/"
+    },
+    {
+      "key": "f05",
+      "usedUrl": "https://images-1.casa.it/1200x900-fit/listing/0/35/71/58/836699402.jpg",
+      "caption": "Terrazza",
+      "plan": false,
+      "size": [
+        1067,
+        900
+      ],
+      "pageUrl": "https://www.casa.it/immobili/54714337/"
+    },
+    {
+      "key": "f06",
+      "usedUrl": "https://images-1.casa.it/1200x900-fit/listing/0/84/ea/62/836699380.jpg",
+      "caption": "Area comune",
+      "plan": false,
+      "size": [
+        1065,
+        900
+      ],
+      "pageUrl": "https://www.casa.it/immobili/54714337/"
+    },
+    {
+      "key": "f07",
+      "usedUrl": "https://images-1.casa.it/1200x900-fit/listing/0/7a/97/82/836699393.jpg",
+      "caption": "Corridoio",
+      "plan": false,
+      "size": [
+        1058,
+        900
+      ],
+      "pageUrl": "https://www.casa.it/immobili/54714337/"
+    },
+    {
+      "key": "f08",
+      "usedUrl": "https://images-1.casa.it/1200x900-fit/listing/0/43/2f/fa/836699396.jpg",
+      "caption": "Cucina",
+      "plan": false,
+      "size": [
+        1069,
+        900
+      ],
+      "pageUrl": "https://www.casa.it/immobili/54714337/"
+    },
+    {
+      "key": "f09",
+      "usedUrl": "https://images-1.casa.it/1200x900-fit/listing/0/cf/7f/7a/836699397.jpg",
+      "caption": "",
+      "plan": false,
+      "size": [
+        1071,
+        900
+      ],
+      "pageUrl": "https://www.casa.it/immobili/54714337/"
+    },
+    {
+      "key": "f10",
+      "usedUrl": "https://images-1.casa.it/1200x900-fit/listing/0/58/26/76/836699398.jpg",
+      "caption": "Cucina",
+      "plan": false,
+      "size": [
+        1076,
+        900
+      ],
+      "pageUrl": "https://www.casa.it/immobili/54714337/"
+    },
+    {
+      "key": "f11",
+      "usedUrl": "https://images-1.casa.it/1200x900-fit/listing/0/38/f4/b5/836699399.jpg",
+      "caption": "Soggiorno",
+      "plan": false,
+      "size": [
+        1072,
+        900
+      ],
+      "pageUrl": "https://www.casa.it/immobili/54714337/"
+    },
+    {
+      "key": "f12",
+      "usedUrl": "https://images-1.casa.it/1200x900-fit/listing/0/99/b8/8f/836699395.jpg",
+      "caption": "Camera da letto",
+      "plan": false,
+      "size": [
+        1069,
+        900
+      ],
+      "pageUrl": "https://www.casa.it/immobili/54714337/"
+    },
+    {
+      "key": "f13",
+      "usedUrl": "https://images-1.casa.it/1200x900-fit/listing/0/e4/f9/32/836699400.jpg",
+      "caption": "",
+      "plan": false,
+      "size": [
+        1073,
+        900
+      ],
+      "pageUrl": "https://www.casa.it/immobili/54714337/"
+    },
+    {
+      "key": "f14",
+      "usedUrl": "https://images-1.casa.it/1200x900-fit/listing/0/e6/6a/d5/836699403.jpg",
+      "caption": "Bagno",
+      "plan": false,
+      "size": [
+        1062,
+        900
+      ],
+      "pageUrl": "https://www.casa.it/immobili/54714337/"
+    },
+    {
+      "key": "f15",
+      "usedUrl": "https://images-1.casa.it/1200x900-fit/listing/0/51/a3/9f/836699342.jpg",
+      "caption": "",
+      "plan": false,
+      "size": [
+        1071,
+        900
+      ],
+      "pageUrl": "https://www.casa.it/immobili/54714337/"
+    }
+  ],
+  "photoNotes": "La cantina mostra muratura e intonaco a vista. Armadio e cucina si vedono al piano abitativo, la cui sola tavola porta la dicitura «stato anteriore».",
+  "photoEvidence": {},
+  "representation": "Stato documentato nelle fonti",
+  "saleNote": null,
+  "skillVersion": "1.2.0",
+  "views": [
+    {
+      "label": "Esterno",
+      "level": null
+    },
+    {
+      "label": "Scantinato · stato attuale",
+      "level": 0
+    }
+  ]
 }

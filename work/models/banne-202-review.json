@@ -1,0 +1,58 @@
+{
+  "id": "banne-202",
+  "status": "ready",
+  "path": "modelli/banne-202.html",
+  "views": [
+    {
+      "label": "Esterno",
+      "level": null
+    },
+    {
+      "label": "Primo piano",
+      "level": 1
+    },
+    {
+      "label": "Piano terra",
+      "level": 2
+    },
+    {
+      "label": "Seminterrato",
+      "level": 0
+    }
+  ],
+  "notes": [
+    "Camino in mattoni chiari, divano crema, cucina chiara ad angolo e letto con struttura in legno.",
+    "I contorni e le divisioni seguono le tavole indicate. Le misure assolute prive di quota, alcune aperture, le altezze e le dimensioni dei mobili sono stime."
+  ],
+  "verifiedAt": "2026-11-23T12:47:02+01:00",
+  "artifactSha256": "8f06f4b1c210ab46172bc08635cf06ce1b35faa3dc8e9e2962c457a28d0d8767",
+  "sourcePlans": [
+    {
+      "label": "Tavola 1",
+      "url": "https://pic.im-cdn.it/plan/114915142/xxl.jpg"
+    }
+  ],
+  "unrenderedVolumes": [
+    "Portico, terreno e dettagli delle scale coperti dalla filigrana.",
+    "Rampe o tratti di scala senza raccordo verticale verificabile tra le tavole."
+  ],
+  "coverage": "partial",
+  "preview": "assets/banne-202.jpg",
+  "qa": {
+    "staticPassed": true,
+    "browserPassed": true,
+    "geometryPassed": true,
+    "orthographicPassed": true
+  },
+  "fidelity": {
+    "passed": true,
+    "basis": "Riesame visivo dei fronti fotografati e delle parti modellate."
+  },
+  "independentReview": {
+    "passed": true,
+    "artifactSha256": "8f06f4b1c210ab46172bc08635cf06ce1b35faa3dc8e9e2962c457a28d0d8767",
+    "method": "Seconda lettura di fotografie, viste renderizzate e sovrapposizioni disponibili. Le misure e le parti omesse sono dichiarate nella scheda."
+  },
+  "evidenceIndex": "ricostruzioni/2026-11-23/index.html#banne-202",
+  "browserReport": "ricostruzioni/2026-11-23/verifiche/risultati.json"
+}

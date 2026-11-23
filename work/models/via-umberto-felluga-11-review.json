@@ -1,0 +1,66 @@
+{
+  "id": "via-umberto-felluga-11",
+  "status": "ready",
+  "path": "modelli/via-umberto-felluga-11.html",
+  "views": [
+    {
+      "label": "Esterno",
+      "level": null
+    },
+    {
+      "label": "Piano rialzato",
+      "level": 0
+    },
+    {
+      "label": "Scantinato",
+      "level": 1
+    }
+  ],
+  "notes": [
+    "Stanze in gran parte vuote. Nelle foto si distinguono un tavolino rotondo scuro e un armadio bruno. Le viste di ristrutturazione sono separate.",
+    "I contorni e le divisioni seguono le tavole indicate. Le misure assolute prive di quota, alcune aperture, le altezze e le dimensioni dei mobili sono stime."
+  ],
+  "verifiedAt": "2026-11-23T12:47:02+01:00",
+  "artifactSha256": "6dc06cafd94ea81c50d4a94395d3d226fccb5c3715367586688b2cc6d44ca2a7",
+  "sourcePlans": [
+    {
+      "label": "Piano rialzato, stato catastale",
+      "url": "https://images-1.casa.it/1600x1200-fit/listing/0/27/b1/b9/823557074.jpg"
+    },
+    {
+      "label": "Scantinato, stato catastale",
+      "url": "https://images-1.casa.it/1600x1200-fit/listing/0/00/6c/03/823557084.jpg"
+    },
+    {
+      "label": "Proposta di ristrutturazione",
+      "url": "https://images-1.casa.it/1600x1200-fit/listing/0/4b/9d/41/823556706.jpg"
+    },
+    {
+      "label": "Proposta di ristrutturazione",
+      "url": "https://images-1.casa.it/1600x1200-fit/listing/0/39/be/dd/823556707.jpg"
+    }
+  ],
+  "unrenderedVolumes": [
+    "Scale esterne di collegamento, parapetto del balcone e confini del lotto.",
+    "Rampe o tratti di scala senza raccordo verticale verificabile tra le tavole."
+  ],
+  "coverage": "partial",
+  "preview": "assets/via-umberto-felluga-11.jpg",
+  "qa": {
+    "staticPassed": true,
+    "browserPassed": true,
+    "geometryPassed": true,
+    "orthographicPassed": true
+  },
+  "fidelity": {
+    "passed": true,
+    "basis": "Riesame visivo dei fronti fotografati e delle parti modellate."
+  },
+  "independentReview": {
+    "passed": true,
+    "artifactSha256": "6dc06cafd94ea81c50d4a94395d3d226fccb5c3715367586688b2cc6d44ca2a7",
+    "method": "Seconda lettura di fotografie, viste renderizzate e sovrapposizioni disponibili. Le misure e le parti omesse sono dichiarate nella scheda."
+  },
+  "evidenceIndex": "ricostruzioni/2026-11-23/index.html#via-umberto-felluga-11",
+  "browserReport": "ricostruzioni/2026-11-23/verifiche/risultati.json"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "via-dei-pagliaricci-villa-55248385",
+  "status": "ready",
+  "path": "modelli/via-dei-pagliaricci-villa-55248385.html",
+  "views": [
+    {
+      "id": "view-0",
+      "label": "Portico e giardino visibili"
+    },
+    {
+      "id": "view-1",
+      "label": "Tavolo e sedute del portico"
+    },
+    {
+      "id": "view-2",
+      "label": "Prato e recinzione"
+    }
+  ],
+  "coverage": "exterior_only",
+  "unrenderedVolumes": [
+    "Corpo e copertura della villa oltre il tratto del portico fotografato.",
+    "Distribuzione del salone con cucina, delle tre camere e dei due bagni.",
+    "Deposito e lavanderia, quattro posti auto e perimetro completo del giardino."
+  ],
+  "notes": [
+    "La scheda di Via dei Pagliaricci mostra il prato. L’altra inserzione di Casaimmedia, con identici prezzo, metratura, dotazioni e descrizione, mostra lo stesso tipo di recinzione e il portico arredato. Sono ripresi la pavimentazione a lastre, il tavolo bianco con sedie, gli ombrelloni chiusi e gli elementi in intreccio grigio. Il modello riguarda la porzione di portico e di giardino visibile. La posizione della casa è oscurata sui due annunci. Dimensioni e distanze tra gli elementi sono indicative."
+  ],
+  "verifiedAt": "2026-11-23T13:13:24+01:00",
+  "artifactSha256": "906c6d12e833407252342761f99cb3069ae700975042ed6f767d3c1b7842eb22",
+  "sourcePlans": [],
+  "preview": "assets/via-dei-pagliaricci-villa-55248385.jpg",
+  "qa": {
+    "staticPassed": true,
+    "browserPassed": true,
+    "geometryPassed": true,
+    "orthographicPassed": null
+  },
+  "fidelity": {
+    "passed": true,
+    "basis": "Riesame visivo dei fronti fotografati e delle parti modellate."
+  },
+  "independentReview": {
+    "passed": true,
+    "artifactSha256": "906c6d12e833407252342761f99cb3069ae700975042ed6f767d3c1b7842eb22",
+    "method": "Seconda lettura di fotografie, viste renderizzate e sovrapposizioni disponibili. Le misure e le parti omesse sono dichiarate nella scheda."
+  },
+  "evidenceIndex": "ricostruzioni/2026-11-23/index.html#via-dei-pagliaricci-villa-55248385",
+  "browserReport": "ricostruzioni/2026-11-23/verifiche/risultati.json"
+}

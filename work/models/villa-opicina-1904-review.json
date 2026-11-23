@@ -1,0 +1,58 @@
+{
+  "id": "villa-opicina-1904",
+  "status": "ready",
+  "path": "modelli/villa-opicina-1904.html",
+  "views": [
+    {
+      "label": "Esterno",
+      "level": null
+    },
+    {
+      "label": "Casa esistente · piano terra",
+      "level": 0
+    },
+    {
+      "label": "Cantina",
+      "level": 1
+    }
+  ],
+  "notes": [
+    "Casa esistente con divano in pelle marrone, mobile TV, credenza e letto con tessuto a motivi. Le immagini del possibile uso assistenziale sono escluse.",
+    "I contorni e le divisioni seguono le tavole indicate. Le misure assolute prive di quota, alcune aperture, le altezze e le dimensioni dei mobili sono stime."
+  ],
+  "verifiedAt": "2026-11-23T12:47:02+01:00",
+  "artifactSha256": "4e4596cdb2e5c8fb76254b61d175dfe815d0113074bee2ada22ffce4e52e684b",
+  "sourcePlans": [
+    {
+      "label": "Casa esistente, piano terra",
+      "url": "https://pic.im-cdn.it/plan/114155612/xxl.jpg"
+    },
+    {
+      "label": "Casa esistente, cantina",
+      "url": "https://pic.im-cdn.it/plan/114155632/xxl.jpg"
+    }
+  ],
+  "unrenderedVolumes": [
+    "Progetto di riconversione assistenziale, pertinenze del terreno e raccordo della scala verso la cantina.",
+    "Rampe o tratti di scala senza raccordo verticale verificabile tra le tavole."
+  ],
+  "coverage": "partial",
+  "preview": "assets/villa-opicina-1904.jpg",
+  "qa": {
+    "staticPassed": true,
+    "browserPassed": true,
+    "geometryPassed": true,
+    "orthographicPassed": true
+  },
+  "fidelity": {
+    "passed": true,
+    "basis": "Riesame visivo dei fronti fotografati e delle parti modellate."
+  },
+  "independentReview": {
+    "passed": true,
+    "artifactSha256": "4e4596cdb2e5c8fb76254b61d175dfe815d0113074bee2ada22ffce4e52e684b",
+    "method": "Seconda lettura di fotografie, viste renderizzate e sovrapposizioni disponibili. Le misure e le parti omesse sono dichiarate nella scheda."
+  },
+  "evidenceIndex": "ricostruzioni/2026-11-23/index.html#villa-opicina-1904",
+  "browserReport": "ricostruzioni/2026-11-23/verifiche/risultati.json"
+}

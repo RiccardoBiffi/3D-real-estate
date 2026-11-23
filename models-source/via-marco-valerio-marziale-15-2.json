@@ -1,1835 +1,2168 @@
 {
-  "id": "via-marco-valerio-marziale-15-2",
-  "title": "Villetta in Via Marco Valerio Marziale 15/2",
-  "creationStarted": "2026-11-09T21:21:20.287418+00:00",
-  "coverage": "exterior_only",
-  "unrenderedVolumes": [
-    "Tutti gli interni dei tre livelli e la distribuzione del garage: nessuna pianta utilizzabile acquisita.",
-    "Parti accostate e facciate laterali nascoste; confini e dislivelli dell’intero giardino.",
-    "Gradini del vialetto d’ingresso: la singola inquadratura non fornisce quote, profondità e raccordo con il terreno."
-  ],
-  "geometrySource": "photograph-inferred-exterior-shell-no-internal-layout",
-  "sources": [
-    {
-      "url": "https://pic.trovacasa.it/image/1930734782/xxl.jpg",
-      "pageUrl": "https://www.trovacasa.it/annunci/ts-tc-19779-71738778",
-      "sha256": "102df44cad6c1d026cc867854ce2793f9370416bf9797d54b6f6ff4b8d06d945",
-      "id": "F1",
-      "type": "photograph",
-      "actuallyInspected": true
-    },
-    {
-      "url": "https://pic.trovacasa.it/image/1930734786/xxl.jpg",
-      "pageUrl": "https://www.trovacasa.it/annunci/ts-tc-19779-71738778",
-      "sha256": "789672d1eab3991e91b59e9b6a84521160f678989ba697ba15ba05c12ae90631",
-      "id": "F2",
-      "type": "photograph",
-      "actuallyInspected": true
-    },
-    {
-      "url": "https://pic.trovacasa.it/image/1930735782/xxl.jpg",
-      "pageUrl": "https://www.trovacasa.it/annunci/ts-tc-19779-71738778",
-      "sha256": "0a90dc4a7258c3bfe29445cdc23ad085a05d1ed9bfd8a607b718eec381f91537",
-      "id": "F3",
-      "type": "photograph",
-      "actuallyInspected": true
-    },
-    {
-      "url": "https://pic.trovacasa.it/image/1930735784/xxl.jpg",
-      "pageUrl": "https://www.trovacasa.it/annunci/ts-tc-19779-71738778",
-      "sha256": "f8044860af3c6a91bcb4b3073feee8b029e097b48d6cde3f42d20e7c2476561d",
-      "id": "F4",
-      "type": "photograph",
-      "actuallyInspected": true
-    },
-    {
-      "url": "https://pic.trovacasa.it/image/1930735840/xxl.jpg",
-      "pageUrl": "https://www.trovacasa.it/annunci/ts-tc-19779-71738778",
-      "sha256": "c148754f23aeb30338e9503033dc5e1ab139de1e837bc86bb8bd64a3ce2277bd",
-      "id": "F18",
-      "type": "photograph",
-      "actuallyInspected": true
-    },
-    {
-      "url": "https://pic.trovacasa.it/image/1930735896/xxl.jpg",
-      "pageUrl": "https://www.trovacasa.it/annunci/ts-tc-19779-71738778",
-      "sha256": "ce29de05de6001e1b456611d32eec76ffedb832920a3c0941e648260a790fc4c",
-      "id": "F25",
-      "type": "photograph",
-      "actuallyInspected": true
-    },
-    {
-      "url": "https://pic.trovacasa.it/image/1930735898/xxl.jpg",
-      "pageUrl": "https://www.trovacasa.it/annunci/ts-tc-19779-71738778",
-      "sha256": "39c103f124c13435251ce79897cc85263c03bb1d81213e6d34b5f51bc2ee16f9",
-      "id": "F26",
-      "type": "photograph",
-      "actuallyInspected": true
-    },
-    {
-      "url": "https://pic.trovacasa.it/image/1930735780/xxl.jpg",
-      "pageUrl": "https://www.trovacasa.it/annunci/ts-tc-19779-71738778",
-      "sha256": "60d145ff1edfe32fe7005c74626404cc110a3799ab797d61bf882402a3988c82",
-      "id": "F27",
-      "type": "photograph",
-      "actuallyInspected": true
-    }
-  ],
-  "limitations": [
-    "Scala uniforme da ricalco; ove mancano quote la scala assoluta è stimata, non derivata dalla superficie commerciale.",
-    "Altezze e spessori non quotati stimati dalle foto e dalla leggibilità delle piante. Arredi non fotografati omessi.",
-    "Geometria visuale approssimata; orientamento solare artistico. Il contesto non identifica confini o diritti di proprietà.",
-    "Dimensioni assolute, profondità e pendenza di copertura sono dedotte dalle fotografie e stimate; il guscio esterno non espone interni."
-  ],
-  "state": "existing",
   "levels": [
     {
-      "label": "Guscio esterno — fascia0",
+      "label": "Prospetti fotografati",
       "y": 0,
-      "height": 2.9,
-      "outline": [
-        [
-          6.4,
-          1.8
-        ],
-        [
-          4.4,
-          1.8
-        ],
-        [
-          4.4,
-          0
-        ],
-        [
-          0.0,
-          0
-        ],
-        [
-          0.0,
-          8.8
-        ],
-        [
-          6.4,
-          8.8
-        ]
-      ],
+      "height": 2.35,
       "walls": [
         {
           "a": [
-            4.4,
-            0
+            -3,
+            -5
           ],
           "b": [
-            0.0,
-            0
+            3,
+            -5
           ],
-          "thickness": 0.25,
+          "height": 2.35,
+          "thickness": 0.24,
           "openings": [
             {
-              "start": 0.75,
-              "end": 4.0,
               "kind": "door",
+              "start": 1.9150000000000003,
+              "end": 4.565,
               "sill": 0,
-              "height": 2.5
+              "height": 2.12
             }
-          ]
+          ],
+          "color": "#c7bfad"
         },
         {
           "a": [
-            6.4,
-            1.8
+            3,
+            -5
           ],
           "b": [
-            4.4,
-            1.8
+            3,
+            5
           ],
-          "thickness": 0.25,
-          "openings": [
-            {
-              "start": 0.4,
-              "end": 1.5,
-              "kind": "door",
-              "sill": 1.28,
-              "height": 1.6199999999999999
-            }
-          ]
+          "height": 2.35,
+          "thickness": 0.24,
+          "openings": [],
+          "color": "#c7bfad"
         },
         {
           "a": [
-            6.4,
-            1.8
+            3,
+            5
           ],
           "b": [
-            6.4,
-            8.8
+            -3,
+            5
           ],
-          "thickness": 0.25,
-          "openings": []
+          "height": 2.35,
+          "thickness": 0.24,
+          "openings": [],
+          "color": "#c7bfad"
         },
         {
           "a": [
-            4.4,
-            0
+            -3,
+            5
           ],
           "b": [
-            4.4,
-            1.8
+            -3,
+            -5
           ],
-          "thickness": 0.25,
-          "openings": []
-        },
-        {
-          "a": [
-            0.0,
-            0
-          ],
-          "b": [
-            0.0,
-            8.8
-          ],
-          "thickness": 0.25,
-          "openings": []
-        },
-        {
-          "a": [
-            6.4,
-            8.8
-          ],
-          "b": [
-            0.0,
-            8.8
-          ],
-          "thickness": 0.25,
-          "openings": [
-            {
-              "start": 0.5,
-              "end": 1.7,
-              "kind": "window",
-              "sill": 1.1,
-              "height": 1.1
-            },
-            {
-              "start": 4.8,
-              "end": 5.8,
-              "kind": "door",
-              "sill": 0,
-              "height": 2.1
-            }
-          ]
+          "height": 2.35,
+          "thickness": 0.24,
+          "openings": [],
+          "color": "#c7bfad"
         }
       ],
-      "furniture": [],
-      "stairs": [],
-      "holes": [],
-      "sourcePlan": "01-102df44cad6c.jpg",
-      "trace": {
-        "image": "01-102df44cad6c.jpg",
-        "originPixel": [
-          0,
-          0
-        ],
-        "uniformMetresPerPixel": 1,
-        "axis": "X=image right; Z=image down; no reflection; source trace kept in pixel coordinates"
-      },
-      "pixelOutline": [
+      "outline": [
         [
-          0,
-          1.8
+          -3,
+          -5
         ],
         [
-          2,
-          1.8
+          3,
+          -5
         ],
         [
-          2,
-          0
+          3,
+          5
         ],
         [
-          6.4,
-          0
-        ],
-        [
-          6.4,
-          8.8
-        ],
-        [
-          0,
-          8.8
+          -3,
+          5
         ]
-      ],
-      "pixelWalls": [
-        {
-          "a": [
-            2,
-            0
-          ],
-          "b": [
-            6.4,
-            0
-          ],
-          "openings": [
-            [
-              2.75,
-              6.0,
-              "door",
-              0,
-              2.5
-            ],
-            [
-              3.15,
-              3.8,
-              "window",
-              3.7,
-              1.45
-            ],
-            [
-              4.4,
-              5.8,
-              "window",
-              3.7,
-              1.45
-            ]
-          ]
-        },
-        {
-          "a": [
-            0,
-            1.8
-          ],
-          "b": [
-            2,
-            1.8
-          ],
-          "openings": [
-            [
-              0.4,
-              1.5,
-              "door",
-              1.28,
-              2.1
-            ],
-            [
-              0.4,
-              1.5,
-              "door",
-              5.8,
-              2.1
-            ]
-          ]
-        },
-        {
-          "a": [
-            0,
-            1.8
-          ],
-          "b": [
-            0,
-            8.8
-          ],
-          "openings": []
-        },
-        {
-          "a": [
-            2,
-            0
-          ],
-          "b": [
-            2,
-            1.8
-          ],
-          "openings": []
-        },
-        {
-          "a": [
-            6.4,
-            0
-          ],
-          "b": [
-            6.4,
-            8.8
-          ],
-          "openings": []
-        },
-        {
-          "a": [
-            0,
-            8.8
-          ],
-          "b": [
-            6.4,
-            8.8
-          ],
-          "openings": [
-            [
-              0.5,
-              1.7,
-              "window",
-              1.1,
-              1.1
-            ],
-            [
-              4.8,
-              5.8,
-              "door",
-              0,
-              2.1
-            ],
-            [
-              1.4,
-              4.9,
-              "door",
-              3.1,
-              2.1
-            ]
-          ]
-        },
-        {
-          "a": [
-            0,
-            0
-          ],
-          "b": [
-            2,
-            0
-          ],
-          "openings": []
-        }
       ],
       "components": [
         {
-          "points": [
-            [
-              6.4,
-              0
-            ],
-            [
-              4.4,
-              0
-            ],
-            [
-              4.4,
-              1.8
-            ],
-            [
-              6.4,
-              1.8
-            ]
-          ],
-          "rise": 5.7,
-          "thickness": 0.14,
-          "color": "#c2bcab"
-        },
-        {
-          "points": [
-            [
-              6.4,
-              8.8
-            ],
-            [
-              0.0,
-              8.8
-            ],
-            [
-              0.0,
-              10.3
-            ],
-            [
-              6.4,
-              10.3
-            ]
-          ],
-          "rise": 3,
-          "thickness": 0.14,
-          "color": "#c2bcab"
-        },
-        {
-          "kind": "beam",
-          "a": [
-            6.4,
-            5.7,
-            0
-          ],
-          "b": [
-            6.4,
-            6.7,
-            0
-          ],
-          "radius": 0.018,
-          "color": "#444b46"
-        },
-        {
-          "kind": "beam",
-          "a": [
-            6.1777778,
-            5.7,
-            0
-          ],
-          "b": [
-            6.1777778,
-            6.7,
-            0
-          ],
-          "radius": 0.018,
-          "color": "#444b46"
-        },
-        {
-          "kind": "beam",
-          "a": [
-            5.9555556,
-            5.7,
-            0
-          ],
-          "b": [
-            5.9555556,
-            6.7,
-            0
-          ],
-          "radius": 0.018,
-          "color": "#444b46"
-        },
-        {
-          "kind": "beam",
-          "a": [
-            5.7333333,
-            5.7,
-            0
-          ],
-          "b": [
-            5.7333333,
-            6.7,
-            0
-          ],
-          "radius": 0.018,
-          "color": "#444b46"
-        },
-        {
-          "kind": "beam",
-          "a": [
-            5.5111111,
-            5.7,
-            0
-          ],
-          "b": [
-            5.5111111,
-            6.7,
-            0
-          ],
-          "radius": 0.018,
-          "color": "#444b46"
-        },
-        {
-          "kind": "beam",
-          "a": [
-            5.2888889,
-            5.7,
-            0
-          ],
-          "b": [
-            5.2888889,
-            6.7,
-            0
-          ],
-          "radius": 0.018,
-          "color": "#444b46"
-        },
-        {
-          "kind": "beam",
-          "a": [
-            5.0666667,
-            5.7,
-            0
-          ],
-          "b": [
-            5.0666667,
-            6.7,
-            0
-          ],
-          "radius": 0.018,
-          "color": "#444b46"
-        },
-        {
-          "kind": "beam",
-          "a": [
-            4.8444444,
-            5.7,
-            0
-          ],
-          "b": [
-            4.8444444,
-            6.7,
-            0
-          ],
-          "radius": 0.018,
-          "color": "#444b46"
-        },
-        {
-          "kind": "beam",
-          "a": [
-            4.6222222,
-            5.7,
-            0
-          ],
-          "b": [
-            4.6222222,
-            6.7,
-            0
-          ],
-          "radius": 0.018,
-          "color": "#444b46"
-        },
-        {
-          "kind": "beam",
-          "a": [
-            4.4,
-            5.7,
-            0
-          ],
-          "b": [
-            4.4,
-            6.7,
-            0
-          ],
-          "radius": 0.018,
-          "color": "#444b46"
-        },
-        {
-          "kind": "beam",
-          "a": [
-            6.4,
-            6.7,
-            0
-          ],
-          "b": [
-            4.4,
-            6.7,
-            0
-          ],
-          "radius": 0.025,
-          "color": "#444b46"
-        },
-        {
-          "kind": "beam",
-          "a": [
-            6.4,
-            3,
-            10.3
-          ],
-          "b": [
-            6.4,
-            4,
-            10.3
-          ],
-          "radius": 0.018,
-          "color": "#444b46"
-        },
-        {
-          "kind": "beam",
-          "a": [
-            6.1793103,
-            3,
-            10.3
-          ],
-          "b": [
-            6.1793103,
-            4,
-            10.3
-          ],
-          "radius": 0.018,
-          "color": "#444b46"
-        },
-        {
-          "kind": "beam",
-          "a": [
-            5.9586207,
-            3,
-            10.3
-          ],
-          "b": [
-            5.9586207,
-            4,
-            10.3
-          ],
-          "radius": 0.018,
-          "color": "#444b46"
-        },
-        {
-          "kind": "beam",
-          "a": [
-            5.737931,
-            3,
-            10.3
-          ],
-          "b": [
-            5.737931,
-            4,
-            10.3
-          ],
-          "radius": 0.018,
-          "color": "#444b46"
-        },
-        {
-          "kind": "beam",
-          "a": [
-            5.5172414,
-            3,
-            10.3
-          ],
-          "b": [
-            5.5172414,
-            4,
-            10.3
-          ],
-          "radius": 0.018,
-          "color": "#444b46"
-        },
-        {
-          "kind": "beam",
-          "a": [
-            5.2965517,
-            3,
-            10.3
-          ],
-          "b": [
-            5.2965517,
-            4,
-            10.3
-          ],
-          "radius": 0.018,
-          "color": "#444b46"
-        },
-        {
-          "kind": "beam",
-          "a": [
-            5.0758621,
-            3,
-            10.3
-          ],
-          "b": [
-            5.0758621,
-            4,
-            10.3
-          ],
-          "radius": 0.018,
-          "color": "#444b46"
-        },
-        {
-          "kind": "beam",
-          "a": [
-            4.8551724,
-            3,
-            10.3
-          ],
-          "b": [
-            4.8551724,
-            4,
-            10.3
-          ],
-          "radius": 0.018,
-          "color": "#444b46"
-        },
-        {
-          "kind": "beam",
-          "a": [
-            4.6344828,
-            3,
-            10.3
-          ],
-          "b": [
-            4.6344828,
-            4,
-            10.3
-          ],
-          "radius": 0.018,
-          "color": "#444b46"
-        },
-        {
-          "kind": "beam",
-          "a": [
-            4.4137931,
-            3,
-            10.3
-          ],
-          "b": [
-            4.4137931,
-            4,
-            10.3
-          ],
-          "radius": 0.018,
-          "color": "#444b46"
-        },
-        {
-          "kind": "beam",
-          "a": [
-            4.1931034,
-            3,
-            10.3
-          ],
-          "b": [
-            4.1931034,
-            4,
-            10.3
-          ],
-          "radius": 0.018,
-          "color": "#444b46"
-        },
-        {
-          "kind": "beam",
-          "a": [
-            3.9724138,
-            3,
-            10.3
-          ],
-          "b": [
-            3.9724138,
-            4,
-            10.3
-          ],
-          "radius": 0.018,
-          "color": "#444b46"
-        },
-        {
-          "kind": "beam",
-          "a": [
-            3.7517241,
-            3,
-            10.3
-          ],
-          "b": [
-            3.7517241,
-            4,
-            10.3
-          ],
-          "radius": 0.018,
-          "color": "#444b46"
-        },
-        {
-          "kind": "beam",
-          "a": [
-            3.5310345,
-            3,
-            10.3
-          ],
-          "b": [
-            3.5310345,
-            4,
-            10.3
-          ],
-          "radius": 0.018,
-          "color": "#444b46"
-        },
-        {
-          "kind": "beam",
-          "a": [
-            3.3103448,
-            3,
-            10.3
-          ],
-          "b": [
-            3.3103448,
-            4,
-            10.3
-          ],
-          "radius": 0.018,
-          "color": "#444b46"
-        },
-        {
-          "kind": "beam",
-          "a": [
-            3.0896552,
-            3,
-            10.3
-          ],
-          "b": [
-            3.0896552,
-            4,
-            10.3
-          ],
-          "radius": 0.018,
-          "color": "#444b46"
-        },
-        {
-          "kind": "beam",
-          "a": [
-            2.8689655,
-            3,
-            10.3
-          ],
-          "b": [
-            2.8689655,
-            4,
-            10.3
-          ],
-          "radius": 0.018,
-          "color": "#444b46"
-        },
-        {
-          "kind": "beam",
-          "a": [
-            2.6482759,
-            3,
-            10.3
-          ],
-          "b": [
-            2.6482759,
-            4,
-            10.3
-          ],
-          "radius": 0.018,
-          "color": "#444b46"
-        },
-        {
-          "kind": "beam",
-          "a": [
-            2.4275862,
-            3,
-            10.3
-          ],
-          "b": [
-            2.4275862,
-            4,
-            10.3
-          ],
-          "radius": 0.018,
-          "color": "#444b46"
-        },
-        {
-          "kind": "beam",
-          "a": [
-            2.2068966,
-            3,
-            10.3
-          ],
-          "b": [
-            2.2068966,
-            4,
-            10.3
-          ],
-          "radius": 0.018,
-          "color": "#444b46"
-        },
-        {
-          "kind": "beam",
-          "a": [
-            1.9862069,
-            3,
-            10.3
-          ],
-          "b": [
-            1.9862069,
-            4,
-            10.3
-          ],
-          "radius": 0.018,
-          "color": "#444b46"
-        },
-        {
-          "kind": "beam",
-          "a": [
-            1.7655172,
-            3,
-            10.3
-          ],
-          "b": [
-            1.7655172,
-            4,
-            10.3
-          ],
-          "radius": 0.018,
-          "color": "#444b46"
-        },
-        {
-          "kind": "beam",
-          "a": [
-            1.5448276,
-            3,
-            10.3
-          ],
-          "b": [
-            1.5448276,
-            4,
-            10.3
-          ],
-          "radius": 0.018,
-          "color": "#444b46"
-        },
-        {
-          "kind": "beam",
-          "a": [
-            1.3241379,
-            3,
-            10.3
-          ],
-          "b": [
-            1.3241379,
-            4,
-            10.3
-          ],
-          "radius": 0.018,
-          "color": "#444b46"
-        },
-        {
-          "kind": "beam",
-          "a": [
-            1.1034483,
-            3,
-            10.3
-          ],
-          "b": [
-            1.1034483,
-            4,
-            10.3
-          ],
-          "radius": 0.018,
-          "color": "#444b46"
-        },
-        {
-          "kind": "beam",
-          "a": [
-            0.8827586,
-            3,
-            10.3
-          ],
-          "b": [
-            0.8827586,
-            4,
-            10.3
-          ],
-          "radius": 0.018,
-          "color": "#444b46"
-        },
-        {
-          "kind": "beam",
-          "a": [
-            0.662069,
-            3,
-            10.3
-          ],
-          "b": [
-            0.662069,
-            4,
-            10.3
-          ],
-          "radius": 0.018,
-          "color": "#444b46"
-        },
-        {
-          "kind": "beam",
-          "a": [
-            0.4413793,
-            3,
-            10.3
-          ],
-          "b": [
-            0.4413793,
-            4,
-            10.3
-          ],
-          "radius": 0.018,
-          "color": "#444b46"
-        },
-        {
-          "kind": "beam",
-          "a": [
-            0.2206897,
-            3,
-            10.3
-          ],
-          "b": [
-            0.2206897,
-            4,
-            10.3
-          ],
-          "radius": 0.018,
-          "color": "#444b46"
-        },
-        {
-          "kind": "beam",
-          "a": [
-            0.0,
-            3,
-            10.3
-          ],
-          "b": [
-            0.0,
-            4,
-            10.3
-          ],
-          "radius": 0.018,
-          "color": "#444b46"
-        },
-        {
-          "kind": "beam",
-          "a": [
-            6.4,
-            4,
-            10.3
-          ],
-          "b": [
-            0.0,
-            4,
-            10.3
-          ],
-          "radius": 0.025,
-          "color": "#444b46"
+          "center": [
+            0.24,
+            1.06,
+            -5.012
+          ],
+          "size": [
+            2.6250000000000004,
+            2.1,
+            0.06
+          ],
+          "color": "#756659"
         },
         {
           "center": [
-            2.025,
-            1.25,
-            0.025
+            0.24,
+            0.22,
+            -5.05
           ],
           "size": [
-            3.23,
-            2.48,
-            0.04
+            2.6000000000000005,
+            0.029,
+            0.015
           ],
-          "color": "#5f4736"
+          "color": "#554d45"
         },
         {
           "center": [
-            5.45,
-            2.33,
-            1.83
+            0.24,
+            0.564,
+            -5.05
           ],
           "size": [
-            1.08,
-            2.08,
-            0.045
+            2.6000000000000005,
+            0.029,
+            0.015
           ],
-          "color": "#5f4736"
+          "color": "#554d45"
         },
         {
           "center": [
-            5.45,
-            6.85,
-            1.83
+            0.24,
+            0.908,
+            -5.05
           ],
           "size": [
-            1.08,
-            2.08,
-            0.045
+            2.6000000000000005,
+            0.029,
+            0.015
           ],
-          "color": "#5f4736"
+          "color": "#554d45"
         },
         {
           "center": [
-            6.3,
-            3.65,
-            0.21
+            0.24,
+            1.252,
+            -5.05
           ],
           "size": [
-            0.2,
-            7.3,
-            0.22
+            2.6000000000000005,
+            0.029,
+            0.015
           ],
-          "color": "#d6cbb7"
+          "color": "#554d45"
         },
         {
-          "points": [
-            [
-              6.3,
-              1.0
-            ],
-            [
-              4.4,
-              1.0
-            ],
-            [
-              4.4,
-              1.8
-            ],
-            [
-              6.3,
-              1.8
-            ]
+          "center": [
+            0.24,
+            1.596,
+            -5.05
           ],
-          "rise": 1.28,
-          "thickness": 0.18,
-          "color": "#beb5a3"
+          "size": [
+            2.6000000000000005,
+            0.029,
+            0.015
+          ],
+          "color": "#554d45"
+        },
+        {
+          "center": [
+            0.24,
+            1.94,
+            -5.05
+          ],
+          "size": [
+            2.6000000000000005,
+            0.029,
+            0.015
+          ],
+          "color": "#554d45"
         }
       ],
-      "surfaces": []
+      "surfaces": [
+        {
+          "points": [
+            [
+              -3,
+              -5
+            ],
+            [
+              3,
+              -5
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              -3,
+              5
+            ]
+          ],
+          "color": "#b4a995"
+        }
+      ]
     },
     {
-      "label": "Guscio esterno — fascia1",
-      "y": 2.9,
-      "height": 2.9,
-      "outline": [
-        [
-          6.4,
-          1.8
-        ],
-        [
-          4.4,
-          1.8
-        ],
-        [
-          4.4,
-          0
-        ],
-        [
-          0.0,
-          0
-        ],
-        [
-          0.0,
-          8.8
-        ],
-        [
-          6.4,
-          8.8
-        ]
-      ],
+      "label": "Prospetti fotografati",
+      "y": 2.35,
+      "height": 2.72,
       "walls": [
         {
           "a": [
-            4.4,
-            0
+            -3,
+            -5
           ],
           "b": [
-            0.0,
-            0
+            3,
+            -5
           ],
-          "thickness": 0.25,
+          "height": 2.72,
+          "thickness": 0.24,
           "openings": [
             {
-              "start": 1.15,
-              "end": 1.7999999999999998,
               "kind": "window",
-              "sill": 0.8000000000000003,
-              "height": 1.4500000000000002
+              "start": 0.96,
+              "end": 2.04,
+              "sill": 0.85,
+              "height": 1.18
             },
             {
-              "start": 2.4000000000000004,
-              "end": 3.8,
               "kind": "window",
-              "sill": 0.8000000000000003,
-              "height": 1.4500000000000002
+              "start": 3.5999999999999996,
+              "end": 4.68,
+              "sill": 0.85,
+              "height": 1.18
             }
-          ]
+          ],
+          "color": "#e4ded1"
         },
         {
           "a": [
-            6.4,
-            1.8
+            3,
+            -5
           ],
           "b": [
-            4.4,
-            1.8
+            3,
+            5
           ],
-          "thickness": 0.25,
+          "height": 2.72,
+          "thickness": 0.24,
+          "openings": [],
+          "color": "#e4ded1"
+        },
+        {
+          "a": [
+            3,
+            5
+          ],
+          "b": [
+            -3,
+            5
+          ],
+          "height": 2.72,
+          "thickness": 0.24,
           "openings": [
             {
-              "start": 0.4,
-              "end": 1.5,
               "kind": "door",
-              "sill": 0.0,
-              "height": 0.48
-            }
-          ]
-        },
-        {
-          "a": [
-            6.4,
-            1.8
-          ],
-          "b": [
-            6.4,
-            8.8
-          ],
-          "thickness": 0.25,
-          "openings": []
-        },
-        {
-          "a": [
-            4.4,
-            0
-          ],
-          "b": [
-            4.4,
-            1.8
-          ],
-          "thickness": 0.25,
-          "openings": []
-        },
-        {
-          "a": [
-            0.0,
-            0
-          ],
-          "b": [
-            0.0,
-            8.8
-          ],
-          "thickness": 0.25,
-          "openings": []
-        },
-        {
-          "a": [
-            6.4,
-            8.8
-          ],
-          "b": [
-            0.0,
-            8.8
-          ],
-          "thickness": 0.25,
-          "openings": [
+              "start": 1.9000000000000004,
+              "end": 2.9000000000000004,
+              "sill": 0,
+              "height": 2.12
+            },
             {
-              "start": 1.4,
-              "end": 4.9,
-              "kind": "door",
-              "sill": 0.20000000000000018,
-              "height": 2.1
+              "kind": "window",
+              "start": 3.96,
+              "end": 5.04,
+              "sill": 0.85,
+              "height": 1.18
             }
-          ]
+          ],
+          "color": "#e4ded1"
+        },
+        {
+          "a": [
+            -3,
+            5
+          ],
+          "b": [
+            -3,
+            -5
+          ],
+          "height": 2.72,
+          "thickness": 0.24,
+          "openings": [],
+          "color": "#e4ded1"
         }
       ],
-      "furniture": [],
-      "stairs": [],
-      "holes": [],
-      "sourcePlan": "01-102df44cad6c.jpg",
-      "trace": {
-        "image": "01-102df44cad6c.jpg",
-        "originPixel": [
-          0,
-          0
-        ],
-        "uniformMetresPerPixel": 1,
-        "axis": "X=image right; Z=image down; no reflection; source trace kept in pixel coordinates"
-      },
-      "pixelOutline": [
-        [
-          0,
-          1.8
-        ],
-        [
-          2,
-          1.8
-        ],
-        [
-          2,
-          0
-        ],
-        [
-          6.4,
-          0
-        ],
-        [
-          6.4,
-          8.8
-        ],
-        [
-          0,
-          8.8
-        ]
-      ],
-      "pixelWalls": [
-        {
-          "a": [
-            2,
-            0
-          ],
-          "b": [
-            6.4,
-            0
-          ],
-          "openings": [
-            [
-              2.75,
-              6.0,
-              "door",
-              0,
-              2.5
-            ],
-            [
-              3.15,
-              3.8,
-              "window",
-              3.7,
-              1.45
-            ],
-            [
-              4.4,
-              5.8,
-              "window",
-              3.7,
-              1.45
-            ]
-          ]
-        },
-        {
-          "a": [
-            0,
-            1.8
-          ],
-          "b": [
-            2,
-            1.8
-          ],
-          "openings": [
-            [
-              0.4,
-              1.5,
-              "door",
-              1.28,
-              2.1
-            ],
-            [
-              0.4,
-              1.5,
-              "door",
-              5.8,
-              2.1
-            ]
-          ]
-        },
-        {
-          "a": [
-            0,
-            1.8
-          ],
-          "b": [
-            0,
-            8.8
-          ],
-          "openings": []
-        },
-        {
-          "a": [
-            2,
-            0
-          ],
-          "b": [
-            2,
-            1.8
-          ],
-          "openings": []
-        },
-        {
-          "a": [
-            6.4,
-            0
-          ],
-          "b": [
-            6.4,
-            8.8
-          ],
-          "openings": []
-        },
-        {
-          "a": [
-            0,
-            8.8
-          ],
-          "b": [
-            6.4,
-            8.8
-          ],
-          "openings": [
-            [
-              0.5,
-              1.7,
-              "window",
-              1.1,
-              1.1
-            ],
-            [
-              4.8,
-              5.8,
-              "door",
-              0,
-              2.1
-            ],
-            [
-              1.4,
-              4.9,
-              "door",
-              3.1,
-              2.1
-            ]
-          ]
-        },
-        {
-          "a": [
-            0,
-            0
-          ],
-          "b": [
-            2,
-            0
-          ],
-          "openings": []
-        }
-      ],
-      "components": [],
-      "surfaces": []
-    },
-    {
-      "label": "Guscio esterno — fascia2",
-      "y": 5.8,
-      "height": 2.6,
       "outline": [
         [
-          6.4,
-          1.8
+          -3,
+          -5
         ],
         [
-          4.4,
-          1.8
+          3,
+          -5
         ],
         [
-          4.4,
-          0
+          3,
+          5
         ],
         [
-          0.0,
-          0
-        ],
-        [
-          0.0,
-          8.8
-        ],
-        [
-          6.4,
-          8.8
+          -3,
+          5
         ]
       ],
+      "components": [
+        {
+          "center": [
+            -1.5,
+            0.835,
+            -5.13
+          ],
+          "size": [
+            1.26,
+            0.075,
+            0.23
+          ],
+          "color": "#c0b49d"
+        },
+        {
+          "center": [
+            -2.3176,
+            1.44,
+            -5.144
+          ],
+          "size": [
+            0.4428,
+            1.23,
+            0.055
+          ],
+          "color": "#625f59"
+        },
+        {
+          "center": [
+            -2.3176,
+            1.0,
+            -5.181
+          ],
+          "size": [
+            0.378,
+            0.018,
+            0.014
+          ],
+          "color": "#84715a"
+        },
+        {
+          "center": [
+            -2.3176,
+            1.212,
+            -5.181
+          ],
+          "size": [
+            0.378,
+            0.018,
+            0.014
+          ],
+          "color": "#84715a"
+        },
+        {
+          "center": [
+            -2.3176,
+            1.425,
+            -5.181
+          ],
+          "size": [
+            0.378,
+            0.018,
+            0.014
+          ],
+          "color": "#84715a"
+        },
+        {
+          "center": [
+            -2.3176,
+            1.637,
+            -5.181
+          ],
+          "size": [
+            0.378,
+            0.018,
+            0.014
+          ],
+          "color": "#84715a"
+        },
+        {
+          "center": [
+            -2.3176,
+            1.85,
+            -5.181
+          ],
+          "size": [
+            0.378,
+            0.018,
+            0.014
+          ],
+          "color": "#84715a"
+        },
+        {
+          "center": [
+            -0.6824,
+            1.44,
+            -5.144
+          ],
+          "size": [
+            0.4428,
+            1.23,
+            0.055
+          ],
+          "color": "#625f59"
+        },
+        {
+          "center": [
+            -0.6824,
+            1.0,
+            -5.181
+          ],
+          "size": [
+            0.378,
+            0.018,
+            0.014
+          ],
+          "color": "#84715a"
+        },
+        {
+          "center": [
+            -0.6824,
+            1.212,
+            -5.181
+          ],
+          "size": [
+            0.378,
+            0.018,
+            0.014
+          ],
+          "color": "#84715a"
+        },
+        {
+          "center": [
+            -0.6824,
+            1.425,
+            -5.181
+          ],
+          "size": [
+            0.378,
+            0.018,
+            0.014
+          ],
+          "color": "#84715a"
+        },
+        {
+          "center": [
+            -0.6824,
+            1.637,
+            -5.181
+          ],
+          "size": [
+            0.378,
+            0.018,
+            0.014
+          ],
+          "color": "#84715a"
+        },
+        {
+          "center": [
+            -0.6824,
+            1.85,
+            -5.181
+          ],
+          "size": [
+            0.378,
+            0.018,
+            0.014
+          ],
+          "color": "#84715a"
+        },
+        {
+          "center": [
+            1.14,
+            0.835,
+            -5.13
+          ],
+          "size": [
+            1.26,
+            0.075,
+            0.23
+          ],
+          "color": "#c0b49d"
+        },
+        {
+          "center": [
+            0.3224,
+            1.44,
+            -5.144
+          ],
+          "size": [
+            0.4428,
+            1.23,
+            0.055
+          ],
+          "color": "#625f59"
+        },
+        {
+          "center": [
+            0.3224,
+            1.0,
+            -5.181
+          ],
+          "size": [
+            0.378,
+            0.018,
+            0.014
+          ],
+          "color": "#84715a"
+        },
+        {
+          "center": [
+            0.3224,
+            1.212,
+            -5.181
+          ],
+          "size": [
+            0.378,
+            0.018,
+            0.014
+          ],
+          "color": "#84715a"
+        },
+        {
+          "center": [
+            0.3224,
+            1.425,
+            -5.181
+          ],
+          "size": [
+            0.378,
+            0.018,
+            0.014
+          ],
+          "color": "#84715a"
+        },
+        {
+          "center": [
+            0.3224,
+            1.637,
+            -5.181
+          ],
+          "size": [
+            0.378,
+            0.018,
+            0.014
+          ],
+          "color": "#84715a"
+        },
+        {
+          "center": [
+            0.3224,
+            1.85,
+            -5.181
+          ],
+          "size": [
+            0.378,
+            0.018,
+            0.014
+          ],
+          "color": "#84715a"
+        },
+        {
+          "center": [
+            1.9576,
+            1.44,
+            -5.144
+          ],
+          "size": [
+            0.4428,
+            1.23,
+            0.055
+          ],
+          "color": "#625f59"
+        },
+        {
+          "center": [
+            1.9576,
+            1.0,
+            -5.181
+          ],
+          "size": [
+            0.378,
+            0.018,
+            0.014
+          ],
+          "color": "#84715a"
+        },
+        {
+          "center": [
+            1.9576,
+            1.212,
+            -5.181
+          ],
+          "size": [
+            0.378,
+            0.018,
+            0.014
+          ],
+          "color": "#84715a"
+        },
+        {
+          "center": [
+            1.9576,
+            1.425,
+            -5.181
+          ],
+          "size": [
+            0.378,
+            0.018,
+            0.014
+          ],
+          "color": "#84715a"
+        },
+        {
+          "center": [
+            1.9576,
+            1.637,
+            -5.181
+          ],
+          "size": [
+            0.378,
+            0.018,
+            0.014
+          ],
+          "color": "#84715a"
+        },
+        {
+          "center": [
+            1.9576,
+            1.85,
+            -5.181
+          ],
+          "size": [
+            0.378,
+            0.018,
+            0.014
+          ],
+          "color": "#84715a"
+        },
+        {
+          "center": [
+            0.6,
+            1.06,
+            5.0
+          ],
+          "size": [
+            0.965,
+            2.1,
+            0.05
+          ],
+          "color": "#7e6552"
+        },
+        {
+          "center": [
+            0.31,
+            1.039,
+            5.045
+          ],
+          "size": [
+            0.035,
+            0.16,
+            0.035
+          ],
+          "color": "#9f9988"
+        },
+        {
+          "center": [
+            -1.5,
+            0.835,
+            5.13
+          ],
+          "size": [
+            1.26,
+            0.075,
+            0.23
+          ],
+          "color": "#c0b49d"
+        },
+        {
+          "center": [
+            -0.6824,
+            1.44,
+            5.144
+          ],
+          "size": [
+            0.4428,
+            1.23,
+            0.055
+          ],
+          "color": "#625f59"
+        },
+        {
+          "center": [
+            -0.6824,
+            1.0,
+            5.181
+          ],
+          "size": [
+            0.378,
+            0.018,
+            0.014
+          ],
+          "color": "#84715a"
+        },
+        {
+          "center": [
+            -0.6824,
+            1.212,
+            5.181
+          ],
+          "size": [
+            0.378,
+            0.018,
+            0.014
+          ],
+          "color": "#84715a"
+        },
+        {
+          "center": [
+            -0.6824,
+            1.425,
+            5.181
+          ],
+          "size": [
+            0.378,
+            0.018,
+            0.014
+          ],
+          "color": "#84715a"
+        },
+        {
+          "center": [
+            -0.6824,
+            1.637,
+            5.181
+          ],
+          "size": [
+            0.378,
+            0.018,
+            0.014
+          ],
+          "color": "#84715a"
+        },
+        {
+          "center": [
+            -0.6824,
+            1.85,
+            5.181
+          ],
+          "size": [
+            0.378,
+            0.018,
+            0.014
+          ],
+          "color": "#84715a"
+        },
+        {
+          "center": [
+            -2.3176,
+            1.44,
+            5.144
+          ],
+          "size": [
+            0.4428,
+            1.23,
+            0.055
+          ],
+          "color": "#625f59"
+        },
+        {
+          "center": [
+            -2.3176,
+            1.0,
+            5.181
+          ],
+          "size": [
+            0.378,
+            0.018,
+            0.014
+          ],
+          "color": "#84715a"
+        },
+        {
+          "center": [
+            -2.3176,
+            1.212,
+            5.181
+          ],
+          "size": [
+            0.378,
+            0.018,
+            0.014
+          ],
+          "color": "#84715a"
+        },
+        {
+          "center": [
+            -2.3176,
+            1.425,
+            5.181
+          ],
+          "size": [
+            0.378,
+            0.018,
+            0.014
+          ],
+          "color": "#84715a"
+        },
+        {
+          "center": [
+            -2.3176,
+            1.637,
+            5.181
+          ],
+          "size": [
+            0.378,
+            0.018,
+            0.014
+          ],
+          "color": "#84715a"
+        },
+        {
+          "center": [
+            -2.3176,
+            1.85,
+            5.181
+          ],
+          "size": [
+            0.378,
+            0.018,
+            0.014
+          ],
+          "color": "#84715a"
+        }
+      ],
+      "surfaces": [
+        {
+          "points": [
+            [
+              -3,
+              -5
+            ],
+            [
+              3,
+              -5
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              -3,
+              5
+            ]
+          ],
+          "color": "#b4a995"
+        }
+      ]
+    },
+    {
+      "label": "Prospetti fotografati",
+      "y": 5.07,
+      "height": 2.56,
       "walls": [
         {
           "a": [
-            4.4,
-            0
+            -3,
+            -5
           ],
           "b": [
-            0.0,
-            0
+            3,
+            -5
           ],
-          "thickness": 0.25,
-          "openings": []
-        },
-        {
-          "a": [
-            6.4,
-            1.8
-          ],
-          "b": [
-            4.4,
-            1.8
-          ],
-          "thickness": 0.25,
+          "height": 2.56,
+          "thickness": 0.24,
           "openings": [
             {
-              "start": 0.4,
-              "end": 1.5,
-              "kind": "door",
-              "sill": 0.0,
-              "height": 2.1000000000000005
+              "kind": "window",
+              "start": 1.1400000000000001,
+              "end": 2.22,
+              "sill": 0.85,
+              "height": 1.18
+            },
+            {
+              "kind": "window",
+              "start": 3.7800000000000002,
+              "end": 4.86,
+              "sill": 0.85,
+              "height": 1.18
             }
-          ]
+          ],
+          "color": "#e3ddce"
         },
         {
           "a": [
-            6.4,
-            1.8
+            3,
+            -5
           ],
           "b": [
-            6.4,
-            8.8
+            3,
+            5
           ],
-          "thickness": 0.25,
-          "openings": []
+          "height": 2.56,
+          "thickness": 0.24,
+          "openings": [],
+          "color": "#e3ddce"
         },
         {
           "a": [
-            4.4,
-            0
+            3,
+            5
           ],
           "b": [
-            4.4,
-            1.8
+            -3,
+            5
           ],
-          "thickness": 0.25,
-          "openings": []
+          "height": 2.56,
+          "thickness": 0.24,
+          "openings": [
+            {
+              "kind": "door",
+              "start": 2.74,
+              "end": 3.74,
+              "sill": 0,
+              "height": 2.12
+            }
+          ],
+          "color": "#e3ddce"
         },
         {
           "a": [
-            0.0,
-            0
+            -3,
+            5
           ],
           "b": [
-            0.0,
-            8.8
+            -3,
+            -5
           ],
-          "thickness": 0.25,
-          "openings": []
-        },
-        {
-          "a": [
-            6.4,
-            8.8
-          ],
-          "b": [
-            0.0,
-            8.8
-          ],
-          "thickness": 0.25,
-          "openings": []
+          "height": 2.56,
+          "thickness": 0.24,
+          "openings": [],
+          "color": "#e3ddce"
         }
       ],
-      "furniture": [],
-      "stairs": [],
-      "holes": [],
-      "sourcePlan": "01-102df44cad6c.jpg",
-      "trace": {
-        "image": "01-102df44cad6c.jpg",
-        "originPixel": [
-          0,
-          0
-        ],
-        "uniformMetresPerPixel": 1,
-        "axis": "X=image right; Z=image down; no reflection; source trace kept in pixel coordinates"
-      },
-      "pixelOutline": [
+      "outline": [
         [
-          0,
-          1.8
+          -3,
+          -5
         ],
         [
-          2,
-          1.8
+          3,
+          -5
         ],
         [
-          2,
-          0
+          3,
+          5
         ],
         [
-          6.4,
-          0
-        ],
-        [
-          6.4,
-          8.8
-        ],
-        [
-          0,
-          8.8
+          -3,
+          5
         ]
       ],
-      "pixelWalls": [
+      "components": [
         {
-          "a": [
-            2,
-            0
+          "center": [
+            -1.32,
+            0.835,
+            -5.13
           ],
-          "b": [
-            6.4,
-            0
+          "size": [
+            1.26,
+            0.075,
+            0.23
           ],
-          "openings": [
-            [
-              2.75,
-              6.0,
-              "door",
-              0,
-              2.5
-            ],
-            [
-              3.15,
-              3.8,
-              "window",
-              3.7,
-              1.45
-            ],
-            [
-              4.4,
-              5.8,
-              "window",
-              3.7,
-              1.45
-            ]
-          ]
+          "color": "#c0b49d"
         },
         {
-          "a": [
-            0,
-            1.8
+          "center": [
+            -2.1376,
+            1.44,
+            -5.144
           ],
-          "b": [
-            2,
-            1.8
+          "size": [
+            0.4428,
+            1.23,
+            0.055
           ],
-          "openings": [
-            [
-              0.4,
-              1.5,
-              "door",
-              1.28,
-              2.1
-            ],
-            [
-              0.4,
-              1.5,
-              "door",
-              5.8,
-              2.1
-            ]
-          ]
+          "color": "#625f59"
         },
         {
-          "a": [
-            0,
-            1.8
+          "center": [
+            -2.1376,
+            1.0,
+            -5.181
           ],
-          "b": [
-            0,
-            8.8
+          "size": [
+            0.378,
+            0.018,
+            0.014
           ],
-          "openings": []
+          "color": "#84715a"
         },
         {
-          "a": [
-            2,
-            0
+          "center": [
+            -2.1376,
+            1.212,
+            -5.181
           ],
-          "b": [
-            2,
-            1.8
+          "size": [
+            0.378,
+            0.018,
+            0.014
           ],
-          "openings": []
+          "color": "#84715a"
         },
         {
-          "a": [
-            6.4,
-            0
+          "center": [
+            -2.1376,
+            1.425,
+            -5.181
           ],
-          "b": [
-            6.4,
-            8.8
+          "size": [
+            0.378,
+            0.018,
+            0.014
           ],
-          "openings": []
+          "color": "#84715a"
         },
         {
-          "a": [
-            0,
-            8.8
+          "center": [
+            -2.1376,
+            1.637,
+            -5.181
           ],
-          "b": [
-            6.4,
-            8.8
+          "size": [
+            0.378,
+            0.018,
+            0.014
           ],
-          "openings": [
-            [
-              0.5,
-              1.7,
-              "window",
-              1.1,
-              1.1
-            ],
-            [
-              4.8,
-              5.8,
-              "door",
-              0,
-              2.1
-            ],
-            [
-              1.4,
-              4.9,
-              "door",
-              3.1,
-              2.1
-            ]
-          ]
+          "color": "#84715a"
         },
         {
-          "a": [
-            0,
-            0
+          "center": [
+            -2.1376,
+            1.85,
+            -5.181
           ],
-          "b": [
-            2,
-            0
+          "size": [
+            0.378,
+            0.018,
+            0.014
           ],
-          "openings": []
+          "color": "#84715a"
+        },
+        {
+          "center": [
+            -0.5024,
+            1.44,
+            -5.144
+          ],
+          "size": [
+            0.4428,
+            1.23,
+            0.055
+          ],
+          "color": "#625f59"
+        },
+        {
+          "center": [
+            -0.5024,
+            1.0,
+            -5.181
+          ],
+          "size": [
+            0.378,
+            0.018,
+            0.014
+          ],
+          "color": "#84715a"
+        },
+        {
+          "center": [
+            -0.5024,
+            1.212,
+            -5.181
+          ],
+          "size": [
+            0.378,
+            0.018,
+            0.014
+          ],
+          "color": "#84715a"
+        },
+        {
+          "center": [
+            -0.5024,
+            1.425,
+            -5.181
+          ],
+          "size": [
+            0.378,
+            0.018,
+            0.014
+          ],
+          "color": "#84715a"
+        },
+        {
+          "center": [
+            -0.5024,
+            1.637,
+            -5.181
+          ],
+          "size": [
+            0.378,
+            0.018,
+            0.014
+          ],
+          "color": "#84715a"
+        },
+        {
+          "center": [
+            -0.5024,
+            1.85,
+            -5.181
+          ],
+          "size": [
+            0.378,
+            0.018,
+            0.014
+          ],
+          "color": "#84715a"
+        },
+        {
+          "center": [
+            1.32,
+            0.835,
+            -5.13
+          ],
+          "size": [
+            1.26,
+            0.075,
+            0.23
+          ],
+          "color": "#c0b49d"
+        },
+        {
+          "center": [
+            0.5024,
+            1.44,
+            -5.144
+          ],
+          "size": [
+            0.4428,
+            1.23,
+            0.055
+          ],
+          "color": "#625f59"
+        },
+        {
+          "center": [
+            0.5024,
+            1.0,
+            -5.181
+          ],
+          "size": [
+            0.378,
+            0.018,
+            0.014
+          ],
+          "color": "#84715a"
+        },
+        {
+          "center": [
+            0.5024,
+            1.212,
+            -5.181
+          ],
+          "size": [
+            0.378,
+            0.018,
+            0.014
+          ],
+          "color": "#84715a"
+        },
+        {
+          "center": [
+            0.5024,
+            1.425,
+            -5.181
+          ],
+          "size": [
+            0.378,
+            0.018,
+            0.014
+          ],
+          "color": "#84715a"
+        },
+        {
+          "center": [
+            0.5024,
+            1.637,
+            -5.181
+          ],
+          "size": [
+            0.378,
+            0.018,
+            0.014
+          ],
+          "color": "#84715a"
+        },
+        {
+          "center": [
+            0.5024,
+            1.85,
+            -5.181
+          ],
+          "size": [
+            0.378,
+            0.018,
+            0.014
+          ],
+          "color": "#84715a"
+        },
+        {
+          "center": [
+            2.1376,
+            1.44,
+            -5.144
+          ],
+          "size": [
+            0.4428,
+            1.23,
+            0.055
+          ],
+          "color": "#625f59"
+        },
+        {
+          "center": [
+            2.1376,
+            1.0,
+            -5.181
+          ],
+          "size": [
+            0.378,
+            0.018,
+            0.014
+          ],
+          "color": "#84715a"
+        },
+        {
+          "center": [
+            2.1376,
+            1.212,
+            -5.181
+          ],
+          "size": [
+            0.378,
+            0.018,
+            0.014
+          ],
+          "color": "#84715a"
+        },
+        {
+          "center": [
+            2.1376,
+            1.425,
+            -5.181
+          ],
+          "size": [
+            0.378,
+            0.018,
+            0.014
+          ],
+          "color": "#84715a"
+        },
+        {
+          "center": [
+            2.1376,
+            1.637,
+            -5.181
+          ],
+          "size": [
+            0.378,
+            0.018,
+            0.014
+          ],
+          "color": "#84715a"
+        },
+        {
+          "center": [
+            2.1376,
+            1.85,
+            -5.181
+          ],
+          "size": [
+            0.378,
+            0.018,
+            0.014
+          ],
+          "color": "#84715a"
+        },
+        {
+          "center": [
+            -0.24,
+            1.06,
+            5.0
+          ],
+          "size": [
+            0.965,
+            2.1,
+            0.05
+          ],
+          "color": "#7e6552"
+        },
+        {
+          "center": [
+            -0.53,
+            1.039,
+            5.045
+          ],
+          "size": [
+            0.035,
+            0.16,
+            0.035
+          ],
+          "color": "#9f9988"
         }
       ],
-      "components": [],
-      "surfaces": []
+      "surfaces": [
+        {
+          "points": [
+            [
+              -3,
+              -5
+            ],
+            [
+              3,
+              -5
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              -3,
+              5
+            ]
+          ],
+          "color": "#b4a995"
+        }
+      ]
     }
   ],
   "roofs": [
     {
       "vertices": [
         [
-          6.65,
-          8.45,
-          -0.25
+          -3.0,
+          7.685,
+          5.0
         ],
         [
-          6.65,
-          8.45,
-          9.05
+          -3.0,
+          7.685,
+          -5.0
         ],
         [
-          6.65,
-          8.85,
-          4.4
+          0.0,
+          8.645,
+          -5.0
         ],
         [
-          -0.25,
-          8.45,
-          -0.25
+          -3.0,
+          7.685,
+          5.0
         ],
         [
-          -0.25,
-          8.45,
-          9.05
+          0.0,
+          8.645,
+          -5.0
         ],
         [
-          -0.25,
-          8.85,
-          4.4
+          0.0,
+          8.645,
+          5.0
+        ],
+        [
+          0.0,
+          8.645,
+          5.0
+        ],
+        [
+          0.0,
+          8.645,
+          -5.0
+        ],
+        [
+          3.0,
+          7.685,
+          -5.0
+        ],
+        [
+          0.0,
+          8.645,
+          5.0
+        ],
+        [
+          3.0,
+          7.685,
+          -5.0
+        ],
+        [
+          3.0,
+          7.685,
+          5.0
         ]
       ],
       "indices": [
         0,
-        5,
-        3,
-        0,
-        2,
-        5,
-        2,
-        4,
-        5,
-        2,
-        1,
-        4,
-        0,
         1,
         2,
         3,
+        4,
         5,
-        4
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
       ],
-      "color": "#474a46"
+      "color": "#836b58"
+    },
+    {
+      "vertices": [
+        [
+          -3.0,
+          7.614999999999999,
+          -5.0
+        ],
+        [
+          -3.0,
+          7.685,
+          -5.0
+        ],
+        [
+          0.0,
+          8.645,
+          -5.0
+        ],
+        [
+          0.0,
+          7.614999999999999,
+          -5.0
+        ]
+      ],
+      "indices": [
+        0,
+        1,
+        2,
+        0,
+        2,
+        3
+      ],
+      "color": "#e3ddce"
+    },
+    {
+      "vertices": [
+        [
+          -3.0,
+          7.614999999999999,
+          5.0
+        ],
+        [
+          -3.0,
+          7.685,
+          5.0
+        ],
+        [
+          0.0,
+          8.645,
+          5.0
+        ],
+        [
+          0.0,
+          7.614999999999999,
+          5.0
+        ]
+      ],
+      "indices": [
+        0,
+        1,
+        2,
+        0,
+        2,
+        3
+      ],
+      "color": "#e3ddce"
+    },
+    {
+      "vertices": [
+        [
+          0.0,
+          7.614999999999999,
+          -5.0
+        ],
+        [
+          0.0,
+          8.645,
+          -5.0
+        ],
+        [
+          3.0,
+          7.685,
+          -5.0
+        ],
+        [
+          3.0,
+          7.614999999999999,
+          -5.0
+        ]
+      ],
+      "indices": [
+        0,
+        1,
+        2,
+        0,
+        2,
+        3
+      ],
+      "color": "#e3ddce"
+    },
+    {
+      "vertices": [
+        [
+          0.0,
+          7.614999999999999,
+          5.0
+        ],
+        [
+          0.0,
+          8.645,
+          5.0
+        ],
+        [
+          3.0,
+          7.685,
+          5.0
+        ],
+        [
+          3.0,
+          7.614999999999999,
+          5.0
+        ]
+      ],
+      "indices": [
+        0,
+        1,
+        2,
+        0,
+        2,
+        3
+      ],
+      "color": "#e3ddce"
     }
   ],
-  "exteriors": [],
+  "exteriors": [
+    {
+      "kind": "box",
+      "center": [
+        0,
+        2.35,
+        5.47
+      ],
+      "size": [
+        5.9,
+        0.16,
+        1.1
+      ],
+      "color": "#c4baaa"
+    },
+    {
+      "kind": "box",
+      "center": [
+        -2.95,
+        2.85,
+        5.949999999999999
+      ],
+      "size": [
+        0.032,
+        1,
+        0.032
+      ],
+      "color": "#68685e"
+    },
+    {
+      "kind": "box",
+      "center": [
+        -2.4583333333333335,
+        2.85,
+        5.949999999999999
+      ],
+      "size": [
+        0.032,
+        1,
+        0.032
+      ],
+      "color": "#68685e"
+    },
+    {
+      "kind": "box",
+      "center": [
+        -1.9666666666666668,
+        2.85,
+        5.949999999999999
+      ],
+      "size": [
+        0.032,
+        1,
+        0.032
+      ],
+      "color": "#68685e"
+    },
+    {
+      "kind": "box",
+      "center": [
+        -1.4749999999999999,
+        2.85,
+        5.949999999999999
+      ],
+      "size": [
+        0.032,
+        1,
+        0.032
+      ],
+      "color": "#68685e"
+    },
+    {
+      "kind": "box",
+      "center": [
+        -0.9833333333333334,
+        2.85,
+        5.949999999999999
+      ],
+      "size": [
+        0.032,
+        1,
+        0.032
+      ],
+      "color": "#68685e"
+    },
+    {
+      "kind": "box",
+      "center": [
+        -0.4916666666666667,
+        2.85,
+        5.949999999999999
+      ],
+      "size": [
+        0.032,
+        1,
+        0.032
+      ],
+      "color": "#68685e"
+    },
+    {
+      "kind": "box",
+      "center": [
+        4.440892098500626e-16,
+        2.85,
+        5.949999999999999
+      ],
+      "size": [
+        0.032,
+        1,
+        0.032
+      ],
+      "color": "#68685e"
+    },
+    {
+      "kind": "box",
+      "center": [
+        0.4916666666666667,
+        2.85,
+        5.949999999999999
+      ],
+      "size": [
+        0.032,
+        1,
+        0.032
+      ],
+      "color": "#68685e"
+    },
+    {
+      "kind": "box",
+      "center": [
+        0.9833333333333334,
+        2.85,
+        5.949999999999999
+      ],
+      "size": [
+        0.032,
+        1,
+        0.032
+      ],
+      "color": "#68685e"
+    },
+    {
+      "kind": "box",
+      "center": [
+        1.4749999999999996,
+        2.85,
+        5.949999999999999
+      ],
+      "size": [
+        0.032,
+        1,
+        0.032
+      ],
+      "color": "#68685e"
+    },
+    {
+      "kind": "box",
+      "center": [
+        1.9666666666666668,
+        2.85,
+        5.949999999999999
+      ],
+      "size": [
+        0.032,
+        1,
+        0.032
+      ],
+      "color": "#68685e"
+    },
+    {
+      "kind": "box",
+      "center": [
+        2.458333333333334,
+        2.85,
+        5.949999999999999
+      ],
+      "size": [
+        0.032,
+        1,
+        0.032
+      ],
+      "color": "#68685e"
+    },
+    {
+      "kind": "box",
+      "center": [
+        2.950000000000001,
+        2.85,
+        5.949999999999999
+      ],
+      "size": [
+        0.032,
+        1,
+        0.032
+      ],
+      "color": "#68685e"
+    },
+    {
+      "kind": "box",
+      "center": [
+        0,
+        3.35,
+        5.949999999999999
+      ],
+      "size": [
+        5.9,
+        0.05,
+        0.05
+      ],
+      "color": "#68685e"
+    },
+    {
+      "points": [
+        [
+          -2.8,
+          -5
+        ],
+        [
+          2.8,
+          -5
+        ],
+        [
+          2.8,
+          -7.1
+        ],
+        [
+          -2.8,
+          -7.1
+        ]
+      ],
+      "y": -0.07,
+      "color": "#a69c8b"
+    }
+  ],
   "colors": {
-    "walls": "#ded9c8",
-    "floor": "#a69d8c",
-    "frames": "#3e3d36",
-    "roof": "#474a46"
+    "frames": "#685641",
+    "floor": "#b8a485"
   },
+  "coverage": "exterior_only",
+  "unrenderedVolumes": [
+    "Distribuzione interna, mansarda, box doppio e confini del giardino."
+  ],
+  "geometrySource": "Volumi, aperture e proporzioni dedotti dai fronti fotografati. Dimensioni, profondità e pendenze stimate.",
+  "id": "via-marco-valerio-marziale-15-2",
+  "title": "Villetta in Via Marco Valerio Marziale 15/2",
+  "creationStarted": "2026-11-23T11:47:20+01:00",
+  "creationFinished": "2026-11-23T12:47:02+01:00",
+  "sources": [
+    "https://www.immobiliare.it/annunci/129341838/"
+  ],
+  "sourceReadAt": "2026-11-23T11:49:25+01:00",
+  "sourceMedia": [
+    {
+      "key": "f00",
+      "usedUrl": "https://pwm.im-cdn.it/image/1930734858/xxl.jpg",
+      "caption": "Vista",
+      "plan": false,
+      "size": [
+        1400,
+        1050
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/129341838/"
+    },
+    {
+      "key": "f01",
+      "usedUrl": "https://pwm.im-cdn.it/image/1930734782/xxl.jpg",
+      "caption": "Facciata",
+      "plan": false,
+      "size": [
+        787,
+        1050
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/129341838/"
+    },
+    {
+      "key": "f02",
+      "usedUrl": "https://pwm.im-cdn.it/image/1930734786/xxl.jpg",
+      "caption": "Facciata",
+      "plan": false,
+      "size": [
+        765,
+        1050
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/129341838/"
+    },
+    {
+      "key": "f03",
+      "usedUrl": "https://pwm.im-cdn.it/image/1930735782/xxl.jpg",
+      "caption": "Facciata",
+      "plan": false,
+      "size": [
+        787,
+        1050
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/129341838/"
+    },
+    {
+      "key": "f04",
+      "usedUrl": "https://pwm.im-cdn.it/image/1930735784/xxl.jpg",
+      "caption": "Facciata",
+      "plan": false,
+      "size": [
+        787,
+        1050
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/129341838/"
+    },
+    {
+      "key": "f05",
+      "usedUrl": "https://pwm.im-cdn.it/image/1930734798/xxl.jpg",
+      "caption": "Salone",
+      "plan": false,
+      "size": [
+        1400,
+        1050
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/129341838/"
+    },
+    {
+      "key": "f06",
+      "usedUrl": "https://pwm.im-cdn.it/image/1930734800/xxl.jpg",
+      "caption": "Cantina",
+      "plan": false,
+      "size": [
+        1400,
+        1050
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/129341838/"
+    },
+    {
+      "key": "f07",
+      "usedUrl": "https://pwm.im-cdn.it/image/1930734802/xxl.jpg",
+      "caption": "Cantina",
+      "plan": false,
+      "size": [
+        1400,
+        1050
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/129341838/"
+    },
+    {
+      "key": "f08",
+      "usedUrl": "https://pwm.im-cdn.it/image/1930735800/xxl.jpg",
+      "caption": "Salone",
+      "plan": false,
+      "size": [
+        787,
+        1050
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/129341838/"
+    },
+    {
+      "key": "f09",
+      "usedUrl": "https://pwm.im-cdn.it/image/1930734810/xxl.jpg",
+      "caption": "Salone",
+      "plan": false,
+      "size": [
+        1400,
+        1050
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/129341838/"
+    },
+    {
+      "key": "f10",
+      "usedUrl": "https://pwm.im-cdn.it/image/1930734814/xxl.jpg",
+      "caption": "Salone",
+      "plan": false,
+      "size": [
+        1400,
+        1050
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/129341838/"
+    },
+    {
+      "key": "f11",
+      "usedUrl": "https://pwm.im-cdn.it/image/1930734818/xxl.jpg",
+      "caption": "Salone",
+      "plan": false,
+      "size": [
+        1400,
+        1050
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/129341838/"
+    },
+    {
+      "key": "f12",
+      "usedUrl": "https://pwm.im-cdn.it/image/1930734826/xxl.jpg",
+      "caption": "Cucina",
+      "plan": false,
+      "size": [
+        1400,
+        1050
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/129341838/"
+    },
+    {
+      "key": "f13",
+      "usedUrl": "https://pwm.im-cdn.it/image/1930734834/xxl.jpg",
+      "caption": "Cucina",
+      "plan": false,
+      "size": [
+        1400,
+        1050
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/129341838/"
+    },
+    {
+      "key": "f14",
+      "usedUrl": "https://pwm.im-cdn.it/image/1930735816/xxl.jpg",
+      "caption": "Bagno",
+      "plan": false,
+      "size": [
+        787,
+        1050
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/129341838/"
+    },
+    {
+      "key": "f15",
+      "usedUrl": "https://pwm.im-cdn.it/image/1930735826/xxl.jpg",
+      "caption": "Veranda",
+      "plan": false,
+      "size": [
+        787,
+        1050
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/129341838/"
+    },
+    {
+      "key": "f16",
+      "usedUrl": "https://pwm.im-cdn.it/image/1930734852/xxl.jpg",
+      "caption": "Vista",
+      "plan": false,
+      "size": [
+        1400,
+        1050
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/129341838/"
+    },
+    {
+      "key": "f17",
+      "usedUrl": "https://pwm.im-cdn.it/image/1930735832/xxl.jpg",
+      "caption": "Vista",
+      "plan": false,
+      "size": [
+        787,
+        1050
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/129341838/"
+    },
+    {
+      "key": "f18",
+      "usedUrl": "https://pwm.im-cdn.it/image/1930735840/xxl.jpg",
+      "caption": "Terrazzo",
+      "plan": false,
+      "size": [
+        787,
+        1050
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/129341838/"
+    },
+    {
+      "key": "f19",
+      "usedUrl": "https://pwm.im-cdn.it/image/1930734866/xxl.jpg",
+      "caption": "Camera da letto",
+      "plan": false,
+      "size": [
+        1400,
+        1050
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/129341838/"
+    },
+    {
+      "key": "f20",
+      "usedUrl": "https://pwm.im-cdn.it/image/1930735844/xxl.jpg",
+      "caption": "Camera da letto",
+      "plan": false,
+      "size": [
+        787,
+        1050
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/129341838/"
+    },
+    {
+      "key": "f21",
+      "usedUrl": "https://pwm.im-cdn.it/image/1930735850/xxl.jpg",
+      "caption": "Bagno",
+      "plan": false,
+      "size": [
+        787,
+        1050
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/129341838/"
+    },
+    {
+      "key": "f22",
+      "usedUrl": "https://pwm.im-cdn.it/image/1930735854/xxl.jpg",
+      "caption": "Studio",
+      "plan": false,
+      "size": [
+        787,
+        1050
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/129341838/"
+    },
+    {
+      "key": "f23",
+      "usedUrl": "https://pwm.im-cdn.it/image/1930735858/xxl.jpg",
+      "caption": "Balcone",
+      "plan": false,
+      "size": [
+        787,
+        1050
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/129341838/"
+    },
+    {
+      "key": "f24",
+      "usedUrl": "https://pwm.im-cdn.it/image/1930735862/xxl.jpg",
+      "caption": "Terrazzo",
+      "plan": false,
+      "size": [
+        787,
+        1050
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/129341838/"
+    },
+    {
+      "key": "f25",
+      "usedUrl": "https://pwm.im-cdn.it/image/1930735896/xxl.jpg",
+      "caption": "Giardino",
+      "plan": false,
+      "size": [
+        787,
+        1050
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/129341838/"
+    },
+    {
+      "key": "f26",
+      "usedUrl": "https://pwm.im-cdn.it/image/1930735898/xxl.jpg",
+      "caption": "Giardino",
+      "plan": false,
+      "size": [
+        787,
+        1050
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/129341838/"
+    },
+    {
+      "key": "f27",
+      "usedUrl": "https://pwm.im-cdn.it/image/1930735780/xxl.jpg",
+      "caption": "Magazzino",
+      "plan": false,
+      "size": [
+        1400,
+        1050
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/129341838/"
+    }
+  ],
+  "photoNotes": "Fronti chiari con scuri scuri, terrazzo e portone del garage. All’interno si distinguono cucina blu, divani bruni e tavolo da pranzo lungo.",
+  "photoEvidence": {},
+  "representation": "Stato documentato nelle fonti",
+  "saleNote": null,
+  "skillVersion": "1.2.0",
   "views": [
     {
-      "label": "Esterno documentato",
-      "level": null
+      "label": "Esterno · primo fronte",
+      "level": null,
+      "camera": {
+        "yaw": 0.73,
+        "pitch": 0.48
+      }
+    },
+    {
+      "label": "Esterno · fronte opposto",
+      "level": null,
+      "camera": {
+        "yaw": -2.38,
+        "pitch": 0.54
+      }
     }
-  ],
-  "cameraX": 0.28,
-  "cameraY": 0.52,
-  "cameraZ": -1.27,
-  "creationFinished": "2026-11-16T18:30:31.081273+01:00"
+  ]
 }

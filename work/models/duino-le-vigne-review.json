@@ -1,0 +1,65 @@
+{
+  "id": "duino-le-vigne",
+  "status": "ready",
+  "path": "modelli/duino-le-vigne.html",
+  "views": [
+    {
+      "label": "Esterno",
+      "level": null
+    },
+    {
+      "label": "Mansarda",
+      "level": 2
+    },
+    {
+      "label": "Piano terra",
+      "level": 1
+    },
+    {
+      "label": "Scantinato",
+      "level": 0
+    }
+  ],
+  "notes": [
+    "Locali in gran parte vuoti con pareti bianche e pavimento di legno. Per questa casa si sono usate le prime immagini della galleria dell’agenzia.",
+    "I contorni e le divisioni seguono le tavole indicate. Le misure assolute prive di quota, alcune aperture, le altezze e le dimensioni dei mobili sono stime."
+  ],
+  "verifiedAt": "2026-11-23T12:47:02+01:00",
+  "artifactSha256": "dae7cd4e6e4e1fce61e5efda7543dad60f95f2edf3db584fbe0f960d86ea0708",
+  "sourcePlans": [
+    {
+      "label": "Scantinato e piano terra",
+      "url": "https://friulivillas.com/foto/attuJKlnEqbHF6JG6/800-p.webp"
+    },
+    {
+      "label": "Mansarda",
+      "url": "https://friulivillas.com/foto/attpinDKMffzJy4Zq/800-p.webp"
+    },
+    {
+      "label": "Schema commerciale dei livelli",
+      "url": "https://friulivillas.com/foto/attUBHOsxBHUea6Oh/800.webp"
+    }
+  ],
+  "unrenderedVolumes": [
+    "Bussola seminterrata, sagoma precisa delle falde e confini esterni."
+  ],
+  "coverage": "partial",
+  "preview": "assets/duino-le-vigne.jpg",
+  "qa": {
+    "staticPassed": true,
+    "browserPassed": true,
+    "geometryPassed": true,
+    "orthographicPassed": true
+  },
+  "fidelity": {
+    "passed": true,
+    "basis": "Riesame visivo dei fronti fotografati e delle parti modellate."
+  },
+  "independentReview": {
+    "passed": true,
+    "artifactSha256": "dae7cd4e6e4e1fce61e5efda7543dad60f95f2edf3db584fbe0f960d86ea0708",
+    "method": "Seconda lettura di fotografie, viste renderizzate e sovrapposizioni disponibili. Le misure e le parti omesse sono dichiarate nella scheda."
+  },
+  "evidenceIndex": "ricostruzioni/2026-11-23/index.html#duino-le-vigne",
+  "browserReport": "ricostruzioni/2026-11-23/verifiche/risultati.json"
+}

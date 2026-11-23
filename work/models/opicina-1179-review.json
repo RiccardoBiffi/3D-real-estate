@@ -1,0 +1,69 @@
+{
+  "id": "opicina-1179",
+  "status": "ready",
+  "path": "modelli/opicina-1179.html",
+  "views": [
+    {
+      "id": "view-0",
+      "label": "Esterno della tipologia di progetto"
+    },
+    {
+      "id": "view-1",
+      "label": "Primo piano della tipologia"
+    },
+    {
+      "id": "view-2",
+      "label": "Piano terra della tipologia"
+    },
+    {
+      "id": "view-3",
+      "label": "Taverna interrata opzionale"
+    }
+  ],
+  "coverage": "partial",
+  "unrenderedVolumes": [
+    "Le altre quattro abitazioni del complesso, i confini dei giardini, i posti auto e la piscina del masterplan. L’annuncio non associa la tipologia illustrata a un lotto né al prezzo di una singola unità.",
+    "Raccordi e quote verticali di progetto privi di sezioni quotate. La taverna compare come opzione in una vista dedicata."
+  ],
+  "notes": [
+    "L’annuncio Colori del Carso illustra cinque abitazioni di progetto e fornisce le piante arredate di una tipologia. I render mostrano il soggiorno con divano chiaro e tavolo da pranzo, il legno a vista e la camera con tessili neutri. La posizione degli arredi segue i disegni commerciali. La taverna opzionale conserva la disposizione disegnata del divano a L e della zona studio."
+  ],
+  "verifiedAt": "2026-11-23T13:03:50+01:00",
+  "artifactSha256": "7aa5bf21ede1afebda9ed584a93b89a7fb7f408af9fe65e01356b0ab97ee867c",
+  "sourcePlans": [
+    {
+      "url": "https://pic.im-cdn.it/plan/135461064/xxl.jpg",
+      "label": "Masterplan generale, cinque abitazioni"
+    },
+    {
+      "url": "https://pic.im-cdn.it/plan/135461062/xxl.jpg",
+      "label": "Primo piano della tipologia illustrata"
+    },
+    {
+      "url": "https://pic.im-cdn.it/plan/135461060/xxl.jpg",
+      "label": "Interrato opzionale della tipologia"
+    },
+    {
+      "url": "https://pic.im-cdn.it/plan/135461058/xxl.jpg",
+      "label": "Piano terra della tipologia illustrata"
+    }
+  ],
+  "preview": "assets/opicina-1179.jpg",
+  "qa": {
+    "staticPassed": true,
+    "browserPassed": true,
+    "geometryPassed": true,
+    "orthographicPassed": true
+  },
+  "fidelity": {
+    "passed": true,
+    "basis": "Riesame visivo dei fronti fotografati e delle parti modellate."
+  },
+  "independentReview": {
+    "passed": true,
+    "artifactSha256": "7aa5bf21ede1afebda9ed584a93b89a7fb7f408af9fe65e01356b0ab97ee867c",
+    "method": "Seconda lettura di fotografie, viste renderizzate e sovrapposizioni disponibili. Le misure e le parti omesse sono dichiarate nella scheda."
+  },
+  "evidenceIndex": "ricostruzioni/2026-11-23/index.html#opicina-1179",
+  "browserReport": "ricostruzioni/2026-11-23/verifiche/risultati.json"
+}

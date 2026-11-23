@@ -1,6 +1,75 @@
 {
-  "artifactId": "duino-villa-129888594",
-  "artifactSha256": "2fc168e1d26550ba89c9d7d2ffe5d38003d16ff4d60d45858b6cec9c17e62e3d",
+  "id": "duino-villa-129888594",
+  "status": "ready",
+  "path": "modelli/duino-villa-129888594.html",
+  "views": [
+    {
+      "label": "Esterno",
+      "level": null
+    },
+    {
+      "label": "Primo piano · soffitte e terrazza",
+      "level": 3
+    },
+    {
+      "label": "Piano terra",
+      "level": 2
+    },
+    {
+      "label": "Interrato · cantine, lavanderia e centrale termica",
+      "level": 0
+    },
+    {
+      "label": "Autorimessa · interrato",
+      "level": 1
+    }
+  ],
+  "notes": [
+    "Divani chiari con motivi blu, credenza e sedie in noce, cucina miele e letto bianco.",
+    "I contorni e le divisioni seguono le tavole indicate. Le misure assolute prive di quota, alcune aperture, le altezze e le dimensioni dei mobili sono stime."
+  ],
+  "verifiedAt": "2026-11-23T12:47:02+01:00",
+  "artifactSha256": "8b8cfef2056a149a1aee427e20f1bff1a1507747571eec28f8e9d67e36fc1a45",
+  "sourcePlans": [
+    {
+      "label": "plan modificata - Copia",
+      "url": "https://pic.im-cdn.it/plan/119878907/xxl.jpg"
+    },
+    {
+      "label": "plan 1",
+      "url": "https://pic.im-cdn.it/plan/119878911/xxl.jpg"
+    },
+    {
+      "label": "plan modificata",
+      "url": "https://pic.im-cdn.it/plan/119878913/xxl.jpg"
+    },
+    {
+      "label": "plan 2",
+      "url": "https://pic.im-cdn.it/plan/119878915/xxl.jpg"
+    },
+    {
+      "label": "PLAN PT",
+      "url": "https://pic.im-cdn.it/plan/129243456/xxl.jpg"
+    },
+    {
+      "label": "PLAN PRIMO P",
+      "url": "https://pic.im-cdn.it/plan/129243458/xxl.jpg"
+    },
+    {
+      "label": "PLAN P-INT",
+      "url": "https://pic.im-cdn.it/plan/129243460/xxl.jpg"
+    },
+    {
+      "label": "PLAN BOX",
+      "url": "https://pic.im-cdn.it/plan/129243462/xxl.jpg"
+    }
+  ],
+  "unrenderedVolumes": [
+    "Scale interne tra i tre livelli e rampa/gradini esterni: geometria verticale e intradossi non ricostruiti; vani e vuoti delle piante preservati.",
+    "Collegamento interno tra autorimessa e cantine, non concordante nelle tavole separate: omesso."
+  ],
+  "coverage": "partial",
+  "preview": "assets/duino-villa-129888594.jpg",
   "qa": {
     "staticPassed": true,
     "browserPassed": true,
@@ -9,10 +78,13 @@
   },
   "fidelity": {
     "passed": true,
-    "basis": "Approvazione precedente conservata; digest dell’artefatto immutato."
+    "basis": "Riesame visivo dei fronti fotografati e delle parti modellate."
   },
   "independentReview": {
     "passed": true,
-    "artifactSha256": "2fc168e1d26550ba89c9d7d2ffe5d38003d16ff4d60d45858b6cec9c17e62e3d"
-  }
+    "artifactSha256": "8b8cfef2056a149a1aee427e20f1bff1a1507747571eec28f8e9d67e36fc1a45",
+    "method": "Seconda lettura di fotografie, viste renderizzate e sovrapposizioni disponibili. Le misure e le parti omesse sono dichiarate nella scheda."
+  },
+  "evidenceIndex": "ricostruzioni/2026-11-23/index.html#duino-villa-129888594",
+  "browserReport": "ricostruzioni/2026-11-23/verifiche/risultati.json"
 }

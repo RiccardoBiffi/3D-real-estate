@@ -1,7 +1,7 @@
 {
   "id": "via-giuseppe-bruni-1-1",
   "title": "Via Giuseppe Bruni 1/1",
-  "creationStarted": "2026-11-16T18:18:44.216391+01:00",
+  "creationStarted": "2026-11-23T12:56:20+01:00",
   "coverage": "exterior_only",
   "geometrySource": "photo-traced-garden-elevation",
   "unrenderedVolumes": [
@@ -12,34 +12,40 @@
   "sourcePlans": [],
   "sources": [
     {
-      "url": "https://pwm.im-cdn.it/image/2049134251/cover-m-c.jpg",
-      "sha256": "5b4ed76e8582bb4062cddc11338988aa0ce242b78af6d04df61e7d2e9d9b05f9",
-      "pageUrl": "https://www.immobiliare.it/annunci/133175612/",
-      "type": "photograph"
+      "url": "https://pwm.im-cdn.it/image/2058769319/xxl.jpg",
+      "label": "Fronte sul giardino",
+      "type": "photos",
+      "localFile": "f02.jpg"
     },
     {
-      "url": "https://pwm.im-cdn.it/image/2049134261/m-c.jpg",
-      "sha256": "be583e70137975037757985ed6b0bfc2ade30861128f3956a5b79c07cf6de018",
-      "pageUrl": "https://www.immobiliare.it/annunci/133175612/",
-      "type": "photograph"
+      "url": "https://pwm.im-cdn.it/image/2049134267/xxl.jpg",
+      "label": "Coperture della schiera",
+      "type": "photos",
+      "localFile": "f04.jpg"
     },
     {
-      "url": "https://pwm.im-cdn.it/image/2049134267/m-c.jpg",
-      "sha256": "c12cc33a56031554b0cbd6b0f6efdc72f91b88e2f0da7e7f617e37aae11fc9aa",
-      "pageUrl": "https://www.immobiliare.it/annunci/133175612/",
-      "type": "photograph"
+      "url": "https://pwm.im-cdn.it/image/2058769311/xxl.jpg",
+      "label": "Terrazza, tenda e tavolo da giardino",
+      "type": "photos",
+      "localFile": "f01.jpg"
     },
     {
-      "url": "https://pwm.im-cdn.it/image/2020758536/m-c.jpg",
-      "sha256": "d0b609582855a7d40009bcc11bb1ea86ef43be88a726ecbe903aabbb35fbed34",
-      "pageUrl": "https://www.immobiliare.it/annunci/133175612/",
-      "type": "photograph"
+      "url": "https://pwm.im-cdn.it/image/2020758578/xxl.jpg",
+      "label": "Veranda e divano",
+      "type": "photos",
+      "localFile": "f11.jpg"
     },
     {
-      "url": "https://pwm.im-cdn.it/image/2020758542/m-c.jpg",
-      "sha256": "de9e7897599c34b786df2db6d481d48b7124e87ec2d647313e0b762b64a26423",
-      "pageUrl": "https://www.immobiliare.it/annunci/133175612/",
-      "type": "photograph"
+      "url": "https://pwm.im-cdn.it/image/2020758582/xxl.jpg",
+      "label": "Cucina e zona pranzo",
+      "type": "photos",
+      "localFile": "f13.jpg"
+    },
+    {
+      "url": "https://pwm.im-cdn.it/image/2020758590/xxl.jpg",
+      "label": "Camera principale",
+      "type": "photos",
+      "localFile": "f15.jpg"
     }
   ],
   "levels": [
@@ -167,9 +173,896 @@
             0.05
           ],
           "color": "#b29b80"
+        },
+        {
+          "kind": "box",
+          "center": [
+            4.03,
+            1.0,
+            8.24
+          ],
+          "size": [
+            0.038,
+            1.0,
+            0.038
+          ],
+          "color": "#443d36"
+        },
+        {
+          "kind": "box",
+          "center": [
+            4.03,
+            1.0,
+            8.67
+          ],
+          "size": [
+            0.038,
+            1.0,
+            0.038
+          ],
+          "color": "#443d36"
+        },
+        {
+          "kind": "box",
+          "center": [
+            4.03,
+            1.0,
+            9.12
+          ],
+          "size": [
+            0.038,
+            1.0,
+            0.038
+          ],
+          "color": "#443d36"
+        },
+        {
+          "kind": "box",
+          "center": [
+            4.03,
+            1.49,
+            8.69
+          ],
+          "size": [
+            0.048,
+            0.048,
+            0.96
+          ],
+          "color": "#494036"
+        },
+        {
+          "kind": "box",
+          "center": [
+            6.85,
+            1.0,
+            8.24
+          ],
+          "size": [
+            0.038,
+            1.0,
+            0.038
+          ],
+          "color": "#443d36"
+        },
+        {
+          "kind": "box",
+          "center": [
+            6.85,
+            1.0,
+            8.67
+          ],
+          "size": [
+            0.038,
+            1.0,
+            0.038
+          ],
+          "color": "#443d36"
+        },
+        {
+          "kind": "box",
+          "center": [
+            6.85,
+            1.0,
+            9.12
+          ],
+          "size": [
+            0.038,
+            1.0,
+            0.038
+          ],
+          "color": "#443d36"
+        },
+        {
+          "kind": "box",
+          "center": [
+            6.85,
+            1.49,
+            8.69
+          ],
+          "size": [
+            0.048,
+            0.048,
+            0.96
+          ],
+          "color": "#494036"
+        },
+        {
+          "kind": "glass",
+          "center": [
+            2.1,
+            1.51,
+            7.79
+          ],
+          "size": [
+            2.9,
+            1.58,
+            0.026
+          ],
+          "color": "#8d9d83"
+        },
+        {
+          "kind": "box",
+          "center": [
+            0.65,
+            1.51,
+            7.92
+          ],
+          "size": [
+            0.045,
+            1.58,
+            0.07
+          ],
+          "color": "#5b4131"
+        },
+        {
+          "kind": "box",
+          "center": [
+            1.6166666666666667,
+            1.51,
+            7.92
+          ],
+          "size": [
+            0.045,
+            1.58,
+            0.07
+          ],
+          "color": "#5b4131"
+        },
+        {
+          "kind": "box",
+          "center": [
+            2.5833333333333335,
+            1.51,
+            7.92
+          ],
+          "size": [
+            0.045,
+            1.58,
+            0.07
+          ],
+          "color": "#5b4131"
+        },
+        {
+          "kind": "box",
+          "center": [
+            3.55,
+            1.51,
+            7.92
+          ],
+          "size": [
+            0.045,
+            1.58,
+            0.07
+          ],
+          "color": "#5b4131"
+        },
+        {
+          "kind": "glass",
+          "center": [
+            5.385,
+            1.32,
+            7.79
+          ],
+          "size": [
+            2.49,
+            2.0,
+            0.026
+          ],
+          "color": "#8d9d83"
+        },
+        {
+          "kind": "box",
+          "center": [
+            4.14,
+            1.32,
+            7.92
+          ],
+          "size": [
+            0.045,
+            2.0,
+            0.07
+          ],
+          "color": "#5b4131"
+        },
+        {
+          "kind": "box",
+          "center": [
+            4.97,
+            1.32,
+            7.92
+          ],
+          "size": [
+            0.045,
+            2.0,
+            0.07
+          ],
+          "color": "#5b4131"
+        },
+        {
+          "kind": "box",
+          "center": [
+            5.8,
+            1.32,
+            7.92
+          ],
+          "size": [
+            0.045,
+            2.0,
+            0.07
+          ],
+          "color": "#5b4131"
+        },
+        {
+          "kind": "box",
+          "center": [
+            6.63,
+            1.32,
+            7.92
+          ],
+          "size": [
+            0.045,
+            2.0,
+            0.07
+          ],
+          "color": "#5b4131"
+        },
+        {
+          "kind": "box",
+          "center": [
+            0.32,
+            2.43,
+            9.19
+          ],
+          "size": [
+            0.165,
+            0.18,
+            0.032
+          ],
+          "color": "#7c5e50"
+        },
+        {
+          "kind": "box",
+          "center": [
+            0.49,
+            2.43,
+            9.19
+          ],
+          "size": [
+            0.165,
+            0.18,
+            0.032
+          ],
+          "color": "#af8a69"
+        },
+        {
+          "kind": "box",
+          "center": [
+            0.66,
+            2.43,
+            9.19
+          ],
+          "size": [
+            0.165,
+            0.18,
+            0.032
+          ],
+          "color": "#af8a69"
+        },
+        {
+          "kind": "box",
+          "center": [
+            0.8300000000000001,
+            2.43,
+            9.19
+          ],
+          "size": [
+            0.165,
+            0.18,
+            0.032
+          ],
+          "color": "#7c5e50"
+        },
+        {
+          "kind": "box",
+          "center": [
+            1.0,
+            2.43,
+            9.19
+          ],
+          "size": [
+            0.165,
+            0.18,
+            0.032
+          ],
+          "color": "#af8a69"
+        },
+        {
+          "kind": "box",
+          "center": [
+            1.1700000000000002,
+            2.43,
+            9.19
+          ],
+          "size": [
+            0.165,
+            0.18,
+            0.032
+          ],
+          "color": "#af8a69"
+        },
+        {
+          "kind": "box",
+          "center": [
+            1.34,
+            2.43,
+            9.19
+          ],
+          "size": [
+            0.165,
+            0.18,
+            0.032
+          ],
+          "color": "#7c5e50"
+        },
+        {
+          "kind": "box",
+          "center": [
+            1.5100000000000002,
+            2.43,
+            9.19
+          ],
+          "size": [
+            0.165,
+            0.18,
+            0.032
+          ],
+          "color": "#af8a69"
+        },
+        {
+          "kind": "box",
+          "center": [
+            1.6800000000000002,
+            2.43,
+            9.19
+          ],
+          "size": [
+            0.165,
+            0.18,
+            0.032
+          ],
+          "color": "#af8a69"
+        },
+        {
+          "kind": "box",
+          "center": [
+            1.85,
+            2.43,
+            9.19
+          ],
+          "size": [
+            0.165,
+            0.18,
+            0.032
+          ],
+          "color": "#7c5e50"
+        },
+        {
+          "kind": "box",
+          "center": [
+            2.02,
+            2.43,
+            9.19
+          ],
+          "size": [
+            0.165,
+            0.18,
+            0.032
+          ],
+          "color": "#af8a69"
+        },
+        {
+          "kind": "box",
+          "center": [
+            2.19,
+            2.43,
+            9.19
+          ],
+          "size": [
+            0.165,
+            0.18,
+            0.032
+          ],
+          "color": "#af8a69"
+        },
+        {
+          "kind": "box",
+          "center": [
+            2.36,
+            2.43,
+            9.19
+          ],
+          "size": [
+            0.165,
+            0.18,
+            0.032
+          ],
+          "color": "#7c5e50"
+        },
+        {
+          "kind": "box",
+          "center": [
+            2.53,
+            2.43,
+            9.19
+          ],
+          "size": [
+            0.165,
+            0.18,
+            0.032
+          ],
+          "color": "#af8a69"
+        },
+        {
+          "kind": "box",
+          "center": [
+            2.7,
+            2.43,
+            9.19
+          ],
+          "size": [
+            0.165,
+            0.18,
+            0.032
+          ],
+          "color": "#af8a69"
+        },
+        {
+          "kind": "box",
+          "center": [
+            2.87,
+            2.43,
+            9.19
+          ],
+          "size": [
+            0.165,
+            0.18,
+            0.032
+          ],
+          "color": "#7c5e50"
+        },
+        {
+          "kind": "box",
+          "center": [
+            3.04,
+            2.43,
+            9.19
+          ],
+          "size": [
+            0.165,
+            0.18,
+            0.032
+          ],
+          "color": "#af8a69"
+        },
+        {
+          "kind": "box",
+          "center": [
+            3.21,
+            2.43,
+            9.19
+          ],
+          "size": [
+            0.165,
+            0.18,
+            0.032
+          ],
+          "color": "#af8a69"
+        },
+        {
+          "kind": "box",
+          "center": [
+            3.38,
+            2.43,
+            9.19
+          ],
+          "size": [
+            0.165,
+            0.18,
+            0.032
+          ],
+          "color": "#7c5e50"
+        },
+        {
+          "kind": "box",
+          "center": [
+            3.5500000000000003,
+            2.43,
+            9.19
+          ],
+          "size": [
+            0.165,
+            0.18,
+            0.032
+          ],
+          "color": "#af8a69"
+        },
+        {
+          "kind": "box",
+          "center": [
+            3.72,
+            2.43,
+            9.19
+          ],
+          "size": [
+            0.165,
+            0.18,
+            0.032
+          ],
+          "color": "#af8a69"
+        },
+        {
+          "kind": "box",
+          "center": [
+            3.89,
+            2.43,
+            9.19
+          ],
+          "size": [
+            0.165,
+            0.18,
+            0.032
+          ],
+          "color": "#7c5e50"
+        },
+        {
+          "kind": "box",
+          "center": [
+            4.0600000000000005,
+            2.43,
+            9.19
+          ],
+          "size": [
+            0.165,
+            0.18,
+            0.032
+          ],
+          "color": "#af8a69"
+        },
+        {
+          "kind": "box",
+          "center": [
+            4.23,
+            2.43,
+            9.19
+          ],
+          "size": [
+            0.165,
+            0.18,
+            0.032
+          ],
+          "color": "#af8a69"
+        },
+        {
+          "kind": "box",
+          "center": [
+            4.4,
+            2.43,
+            9.19
+          ],
+          "size": [
+            0.165,
+            0.18,
+            0.032
+          ],
+          "color": "#7c5e50"
+        },
+        {
+          "kind": "box",
+          "center": [
+            4.57,
+            2.43,
+            9.19
+          ],
+          "size": [
+            0.165,
+            0.18,
+            0.032
+          ],
+          "color": "#af8a69"
+        },
+        {
+          "kind": "box",
+          "center": [
+            4.74,
+            2.43,
+            9.19
+          ],
+          "size": [
+            0.165,
+            0.18,
+            0.032
+          ],
+          "color": "#af8a69"
+        },
+        {
+          "kind": "box",
+          "center": [
+            4.910000000000001,
+            2.43,
+            9.19
+          ],
+          "size": [
+            0.165,
+            0.18,
+            0.032
+          ],
+          "color": "#7c5e50"
+        },
+        {
+          "kind": "box",
+          "center": [
+            5.080000000000001,
+            2.43,
+            9.19
+          ],
+          "size": [
+            0.165,
+            0.18,
+            0.032
+          ],
+          "color": "#af8a69"
+        },
+        {
+          "kind": "box",
+          "center": [
+            5.250000000000001,
+            2.43,
+            9.19
+          ],
+          "size": [
+            0.165,
+            0.18,
+            0.032
+          ],
+          "color": "#af8a69"
+        },
+        {
+          "kind": "box",
+          "center": [
+            5.420000000000001,
+            2.43,
+            9.19
+          ],
+          "size": [
+            0.165,
+            0.18,
+            0.032
+          ],
+          "color": "#7c5e50"
+        },
+        {
+          "kind": "box",
+          "center": [
+            5.590000000000001,
+            2.43,
+            9.19
+          ],
+          "size": [
+            0.165,
+            0.18,
+            0.032
+          ],
+          "color": "#af8a69"
+        },
+        {
+          "kind": "box",
+          "center": [
+            5.760000000000001,
+            2.43,
+            9.19
+          ],
+          "size": [
+            0.165,
+            0.18,
+            0.032
+          ],
+          "color": "#af8a69"
+        },
+        {
+          "kind": "box",
+          "center": [
+            5.930000000000001,
+            2.43,
+            9.19
+          ],
+          "size": [
+            0.165,
+            0.18,
+            0.032
+          ],
+          "color": "#7c5e50"
+        },
+        {
+          "kind": "box",
+          "center": [
+            6.1000000000000005,
+            2.43,
+            9.19
+          ],
+          "size": [
+            0.165,
+            0.18,
+            0.032
+          ],
+          "color": "#af8a69"
+        },
+        {
+          "kind": "box",
+          "center": [
+            6.2700000000000005,
+            2.43,
+            9.19
+          ],
+          "size": [
+            0.165,
+            0.18,
+            0.032
+          ],
+          "color": "#af8a69"
+        },
+        {
+          "kind": "box",
+          "center": [
+            6.44,
+            2.43,
+            9.19
+          ],
+          "size": [
+            0.165,
+            0.18,
+            0.032
+          ],
+          "color": "#7c5e50"
+        },
+        {
+          "kind": "box",
+          "center": [
+            6.61,
+            2.43,
+            9.19
+          ],
+          "size": [
+            0.165,
+            0.18,
+            0.032
+          ],
+          "color": "#af8a69"
+        },
+        {
+          "kind": "box",
+          "center": [
+            6.780000000000001,
+            2.43,
+            9.19
+          ],
+          "size": [
+            0.165,
+            0.18,
+            0.032
+          ],
+          "color": "#af8a69"
+        },
+        {
+          "kind": "box",
+          "center": [
+            6.950000000000001,
+            2.43,
+            9.19
+          ],
+          "size": [
+            0.165,
+            0.18,
+            0.032
+          ],
+          "color": "#7c5e50"
+        },
+        {
+          "kind": "box",
+          "center": [
+            7.120000000000001,
+            2.43,
+            9.19
+          ],
+          "size": [
+            0.165,
+            0.18,
+            0.032
+          ],
+          "color": "#af8a69"
+        },
+        {
+          "kind": "box",
+          "center": [
+            7.290000000000001,
+            2.43,
+            9.19
+          ],
+          "size": [
+            0.165,
+            0.18,
+            0.032
+          ],
+          "color": "#af8a69"
         }
       ],
-      "stairs": []
+      "stairs": [],
+      "furniture": [
+        {
+          "kind": "table",
+          "x": 3.76,
+          "z": 10.72,
+          "width": 1.47,
+          "depth": 0.95,
+          "round": true,
+          "color": "#a9aaa1"
+        },
+        {
+          "kind": "chair",
+          "x": 3.76,
+          "z": 9.94,
+          "width": 0.5,
+          "depth": 0.52,
+          "rotation": 0,
+          "color": "#c4c4b5"
+        },
+        {
+          "kind": "chair",
+          "x": 3.76,
+          "z": 11.52,
+          "width": 0.51,
+          "depth": 0.5,
+          "rotation": 3.141592653589793,
+          "color": "#c2c4b6"
+        },
+        {
+          "kind": "chair",
+          "x": 2.8,
+          "z": 10.72,
+          "width": 0.51,
+          "depth": 0.5,
+          "rotation": 1.5707963267948966,
+          "color": "#babcae"
+        },
+        {
+          "kind": "chair",
+          "x": 4.7,
+          "z": 10.72,
+          "width": 0.51,
+          "depth": 0.5,
+          "rotation": -1.5707963267948966,
+          "color": "#bfc1b2"
+        }
+      ]
     },
     {
       "id": "upper",
@@ -839,27 +1732,27 @@
       "kind": "box",
       "center": [
         3.8,
-        -0.22,
-        7.8
+        -0.25,
+        12.5
       ],
       "size": [
         7.56,
-        0.22,
-        6.5
+        0.23,
+        9.45
       ],
       "color": "#7c8752"
     },
     {
       "kind": "box",
       "center": [
-        3.7,
-        -0.08,
-        9.14
+        3.72,
+        -0.085,
+        10.37
       ],
       "size": [
         7.2,
-        0.07,
-        2.7
+        0.08,
+        3.5
       ],
       "color": "#a9aaa0"
     },
@@ -878,5 +1771,30 @@
       "color": "#978a80"
     }
   ],
-  "creationFinished": "2026-11-16T18:22:27.369963+01:00"
+  "creationFinished": "2026-11-23T13:02:09+01:00",
+  "views": [
+    {
+      "label": "Fronte sul giardino e copertura",
+      "level": null,
+      "camera": {
+        "yaw": 0.32,
+        "pitch": 0.38
+      }
+    },
+    {
+      "label": "Terrazza e veranda sul giardino",
+      "level": null,
+      "camera": {
+        "yaw": -0.25,
+        "pitch": 0.19,
+        "target": [
+          3.8,
+          1.82,
+          8.75
+        ]
+      }
+    }
+  ],
+  "sourceUrl": "https://www.immobiliare.it/annunci/133175612/",
+  "photoNotes": "Il fronte fotografato ha due ringhiere scure al piano alto, tenda a righe sulla veranda, gradini in cotto e tavolo con sedie chiare sul lastrico. Le fotografie degli interni mostrano un divano scuro nella veranda, tavolo da pranzo, cucina chiara, letti e librerie. La loro posizione sugli ambienti della casa resta indeterminata per l’assenza di piante."
 }

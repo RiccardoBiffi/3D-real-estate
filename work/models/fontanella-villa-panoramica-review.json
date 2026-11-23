@@ -1,18 +1,49 @@
 {
-  "artifactId": "fontanella-villa-panoramica",
-  "artifactSha256": "7c2edca938c86347ad3f0f0f441558693c82b01fe3c4835dd02d4fd6ff20493a",
+  "id": "fontanella-villa-panoramica",
+  "status": "ready",
+  "path": "modelli/fontanella-villa-panoramica.html",
+  "views": [
+    {
+      "id": "exterior",
+      "label": "Esterno · cortile e balcone"
+    },
+    {
+      "id": "exterior-terrace",
+      "label": "Esterno · terrazza e falde"
+    }
+  ],
+  "notes": [
+    "Facciate intonacate chiare, copertura scura e terrazza aperta verso valle.",
+    "Involucro ricostruito dalle immagini. Le dimensioni e le profondità sono indicative."
+  ],
+  "verifiedAt": "2026-11-23T12:47:02+01:00",
+  "artifactSha256": "f49784fc2bd5a1d11031e1d9394e0f8c91f412332d198c6a81f59b84e2f782c3",
+  "sourcePlans": [],
+  "unrenderedVolumes": [
+    "Interni appartamento padronale al primo piano: nessuna planimetria disponibile.",
+    "Interni appartamento al piano terra: nessuna planimetria disponibile.",
+    "Cantina e zona hobby: distribuzione e raccordi non documentati.",
+    "Garage: posizione e sagoma non identificabili con sicurezza.",
+    "Sottotetto: sola sagoma esterna, distribuzione non documentata.",
+    "Giardino completo di 1500m² e confini: non rilevati; solo contesto indicativo vicino alla casa."
+  ],
+  "coverage": "exterior_only",
+  "preview": "assets/fontanella-villa-panoramica.jpg",
   "qa": {
     "staticPassed": true,
     "browserPassed": true,
     "geometryPassed": true,
-    "orthographicPassed": true
+    "orthographicPassed": null
   },
   "fidelity": {
     "passed": true,
-    "basis": "Approvazione precedente conservata; digest dell’artefatto immutato."
+    "basis": "Riesame visivo dei fronti fotografati e delle parti modellate."
   },
   "independentReview": {
     "passed": true,
-    "artifactSha256": "7c2edca938c86347ad3f0f0f441558693c82b01fe3c4835dd02d4fd6ff20493a"
-  }
+    "artifactSha256": "f49784fc2bd5a1d11031e1d9394e0f8c91f412332d198c6a81f59b84e2f782c3",
+    "method": "Seconda lettura di fotografie, viste renderizzate e sovrapposizioni disponibili. Le misure e le parti omesse sono dichiarate nella scheda."
+  },
+  "evidenceIndex": "ricostruzioni/2026-11-23/index.html#fontanella-villa-panoramica",
+  "browserReport": "ricostruzioni/2026-11-23/verifiche/risultati.json"
 }

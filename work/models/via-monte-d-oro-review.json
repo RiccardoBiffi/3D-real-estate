@@ -1,6 +1,48 @@
 {
-  "artifactId": "via-monte-d-oro",
-  "artifactSha256": "c5cf70961f81d8a813a4474680e521bc8b65bf593dae724b70fd9d3307d73f1c",
+  "id": "via-monte-d-oro",
+  "status": "ready",
+  "path": "modelli/via-monte-d-oro.html",
+  "views": [
+    {
+      "id": "exterior",
+      "label": "Volume tavola 1, senza copertura",
+      "level": null
+    },
+    {
+      "id": "tavola-1",
+      "label": "Appartamento — tavola 1",
+      "level": 0
+    },
+    {
+      "id": "tavola-2",
+      "label": "Appartamento — tavola 2",
+      "level": 1
+    }
+  ],
+  "notes": [
+    "Divano scuro e mobile in legno accanto al passaggio ad arco, tavolo rettangolare con sedie scure.",
+    "I contorni e le divisioni seguono le tavole indicate. Le misure assolute prive di quota, alcune aperture, le altezze e le dimensioni dei mobili sono stime."
+  ],
+  "verifiedAt": "2026-11-23T12:47:02+01:00",
+  "artifactSha256": "d35dc14ea221f94e5dfd53f843fa87d821bec839db0f45df4d6e08a75d375d29",
+  "sourcePlans": [
+    {
+      "label": "Planimetria",
+      "url": "https://pic.im-cdn.it/plan/120376627/xxl.jpg"
+    },
+    {
+      "label": "Planimetria",
+      "url": "https://pic.im-cdn.it/plan/120376629/xxl.jpg"
+    }
+  ],
+  "unrenderedVolumes": [
+    "Box singolo e due cantine citati nell’annuncio: piante e posizione non disponibili.",
+    "Scala esterna e ballatoio: impronta parziale visibile ma quote e raccordo fra tavole non verificabili; rampe e pianerottoli omessi.",
+    "Assemblaggio dei due appartamenti nell’edificio e copertura: tavole prive di nomi dei livelli e quote comuni; mostrate come unità separate, senza sovrapposizione inventata.",
+    "Giardino e accessi carrabili: confini e dislivelli non ricostruiti."
+  ],
+  "coverage": "partial",
+  "preview": "assets/via-monte-d-oro.jpg",
   "qa": {
     "staticPassed": true,
     "browserPassed": true,
@@ -9,10 +51,13 @@
   },
   "fidelity": {
     "passed": true,
-    "basis": "Approvazione precedente conservata; digest dell’artefatto immutato."
+    "basis": "Riesame visivo dei fronti fotografati e delle parti modellate."
   },
   "independentReview": {
     "passed": true,
-    "artifactSha256": "c5cf70961f81d8a813a4474680e521bc8b65bf593dae724b70fd9d3307d73f1c"
-  }
+    "artifactSha256": "d35dc14ea221f94e5dfd53f843fa87d821bec839db0f45df4d6e08a75d375d29",
+    "method": "Seconda lettura di fotografie, viste renderizzate e sovrapposizioni disponibili. Le misure e le parti omesse sono dichiarate nella scheda."
+  },
+  "evidenceIndex": "ricostruzioni/2026-11-23/index.html#via-monte-d-oro",
+  "browserReport": "ricostruzioni/2026-11-23/verifiche/risultati.json"
 }

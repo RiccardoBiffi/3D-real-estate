@@ -1,0 +1,74 @@
+{
+  "id": "via-risano-raute",
+  "status": "ready",
+  "path": "modelli/via-risano-raute.html",
+  "views": [
+    {
+      "label": "Esterno",
+      "level": null
+    },
+    {
+      "label": "Piano abitativo",
+      "level": 0
+    },
+    {
+      "label": "Seminterrato",
+      "level": 1
+    },
+    {
+      "label": "Piscina fuori terra · vista autonoma",
+      "level": 3
+    },
+    {
+      "label": "Tettoia e intercapedine · tavola autonoma",
+      "level": 2
+    }
+  ],
+  "notes": [
+    "Cucina chiara, tavolo di legno con sedie grigie, divano grigio, credenza in legno, letto chiaro e mosaico turchese in bagno.",
+    "I contorni e le divisioni seguono le tavole indicate. Le misure assolute prive di quota, alcune aperture, le altezze e le dimensioni dei mobili sono stime."
+  ],
+  "verifiedAt": "2026-11-23T12:47:02+01:00",
+  "artifactSha256": "c18ea7ac54c3932334af7ba9d04363765b637d31a0ddce6c0ca261c6da499b8e",
+  "sourcePlans": [
+    {
+      "label": "Piano abitativo e sistemazioni esterne",
+      "url": "https://images-1.casa.it/1600x1200-fit/listing/0/cc/52/f5/731906775.jpg"
+    },
+    {
+      "label": "Piano interrato",
+      "url": "https://images-1.casa.it/1600x1200-fit/listing/0/db/de/bc/731906813.jpg"
+    },
+    {
+      "label": "Inquadramento del lotto",
+      "url": "https://images-1.casa.it/1600x1200-fit/listing/0/27/50/8a/731906816.jpg"
+    },
+    {
+      "label": "Intercapedine e tettoia",
+      "url": "https://images-1.casa.it/1600x1200-fit/listing/0/ef/42/68/731906776.jpg"
+    }
+  ],
+  "unrenderedVolumes": [
+    "Posizione esatta di tettoia e intercapedine rispetto alla casa. Il contorno ha una vista autonoma.",
+    "Posizione e confini del giardino, parcheggi e della piscina. La piscina fotografata è mostrata in una vista autonoma."
+  ],
+  "coverage": "partial",
+  "preview": "assets/via-risano-raute.jpg",
+  "qa": {
+    "staticPassed": true,
+    "browserPassed": true,
+    "geometryPassed": true,
+    "orthographicPassed": true
+  },
+  "fidelity": {
+    "passed": true,
+    "basis": "Riesame visivo dei fronti fotografati e delle parti modellate."
+  },
+  "independentReview": {
+    "passed": true,
+    "artifactSha256": "c18ea7ac54c3932334af7ba9d04363765b637d31a0ddce6c0ca261c6da499b8e",
+    "method": "Seconda lettura di fotografie, viste renderizzate e sovrapposizioni disponibili. Le misure e le parti omesse sono dichiarate nella scheda."
+  },
+  "evidenceIndex": "ricostruzioni/2026-11-23/index.html#via-risano-raute",
+  "browserReport": "ricostruzioni/2026-11-23/verifiche/risultati.json"
+}

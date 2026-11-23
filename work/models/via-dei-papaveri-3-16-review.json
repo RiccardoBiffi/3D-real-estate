@@ -1,6 +1,55 @@
 {
-  "artifactId": "via-dei-papaveri-3-16",
-  "artifactSha256": "cd8c6286d6afe70574f5767e88470be664aed27ef59e864cb926b81ab8d14ab9",
+  "id": "via-dei-papaveri-3-16",
+  "status": "ready",
+  "path": "modelli/via-dei-papaveri-3-16.html",
+  "views": [
+    {
+      "id": "exterior",
+      "label": "Esterno",
+      "level": null
+    },
+    {
+      "id": "soffitta",
+      "label": "Secondo piano (soffitta)",
+      "level": 3
+    },
+    {
+      "id": "primo",
+      "label": "Primo piano",
+      "level": 2
+    },
+    {
+      "id": "terra",
+      "label": "Piano terra",
+      "level": 1
+    },
+    {
+      "id": "sottostrada",
+      "label": "Sottostrada (garage/SUB.2 omesso)",
+      "level": 0
+    }
+  ],
+  "notes": [
+    "Divani grigio scuro con cuscini rossi, cucina bianca, letto con fascia rossa e tavolo in legno nel seminterrato.",
+    "I contorni e le divisioni seguono le tavole indicate. Le misure assolute prive di quota, alcune aperture, le altezze e le dimensioni dei mobili sono stime."
+  ],
+  "verifiedAt": "2026-11-23T12:47:02+01:00",
+  "artifactSha256": "440f88cc5e33962ac165f86a2925b37f1372e61fe167738c93d4d720ca18ab65",
+  "sourcePlans": [
+    {
+      "label": "Plan Sito 2",
+      "url": "https://pic.im-cdn.it/plan/135395338/xxl.jpg"
+    },
+    {
+      "label": "Plan Sito 1",
+      "url": "https://pic.im-cdn.it/plan/135395344/xxl.jpg"
+    }
+  ],
+  "unrenderedVolumes": [
+    "Garage annunciato / volume SUB.2 al sottostrada: le tavole non attribuiscono con certezza il box a quel contorno; volume e portone non renderizzati."
+  ],
+  "coverage": "partial",
+  "preview": "assets/via-dei-papaveri-3-16.jpg",
   "qa": {
     "staticPassed": true,
     "browserPassed": true,
@@ -9,10 +58,13 @@
   },
   "fidelity": {
     "passed": true,
-    "basis": "Approvazione precedente conservata; digest dell’artefatto immutato."
+    "basis": "Riesame visivo dei fronti fotografati e delle parti modellate."
   },
   "independentReview": {
     "passed": true,
-    "artifactSha256": "cd8c6286d6afe70574f5767e88470be664aed27ef59e864cb926b81ab8d14ab9"
-  }
+    "artifactSha256": "440f88cc5e33962ac165f86a2925b37f1372e61fe167738c93d4d720ca18ab65",
+    "method": "Seconda lettura di fotografie, viste renderizzate e sovrapposizioni disponibili. Le misure e le parti omesse sono dichiarate nella scheda."
+  },
+  "evidenceIndex": "ricostruzioni/2026-11-23/index.html#via-dei-papaveri-3-16",
+  "browserReport": "ricostruzioni/2026-11-23/verifiche/risultati.json"
 }

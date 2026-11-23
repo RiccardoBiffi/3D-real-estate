@@ -1,7 +1,7 @@
 {
   "id": "via-gianelli-18",
-  "title": "Via Gianelli 18 - involucro e accessi esterni",
-  "creationStarted": "2026-11-09T22:15:46.336582+01:00",
+  "title": "Via Bartolomeo Gianelli 18",
+  "creationStarted": "2026-11-23T11:47:20+01:00",
   "coverage": "exterior_only",
   "unrenderedVolumes": [
     "Tutti gli interni, inclusi quelli dell’altra unità della bifamiliare.",
@@ -9,24 +9,7 @@
     "La sagoma è quella dell’edificio di contesto, non una delimitazione catastale della porzione in vendita."
   ],
   "sources": [
-    {
-      "id": "S0",
-      "type": "photo",
-      "url": "https://cdn-media.medialabtc.it/it/agencies/tsce4/estates/61221689/images/64860345/gallery.jpeg",
-      "pageUrl": "https://www.tecnocasa.it/vendita/ville/trieste/trieste/61221689.html",
-      "sha256": "dae31df98e426d4c094d8ceeddd3adfb439e5014a6fdebc42a07cc2267e4e1a6",
-      "actuallyInspected": true,
-      "inspectedAt": "2026-11-09T22:46:19.310702+01:00"
-    },
-    {
-      "id": "S4",
-      "type": "photo",
-      "url": "https://cdn-media.medialabtc.it/it/agencies/tsce4/estates/61221689/images/64860748/gallery.jpeg",
-      "pageUrl": "https://www.tecnocasa.it/vendita/ville/trieste/trieste/61221689.html",
-      "sha256": "7f72576dcfa25c5fce887ee9f8a7d45a4b62f3dfc87fb42b6c6463fd5f4c5b1e",
-      "actuallyInspected": true,
-      "inspectedAt": "2026-11-09T22:46:19.310702+01:00"
-    }
+    "https://www.immobiliare.it/annunci/129124134/"
   ],
   "geometrySource": "manual-observed-facade-and-roof-proportions",
   "limitations": [
@@ -34,9 +17,7 @@
     "Dimensioni, profondità e altezze non quotate sono stimate dalle proporzioni fotografiche; il modello non è metrico.",
     "Le superfici di contesto non identificano confini, accessi legali o pertinenze di proprietà.",
     "La fonte vende una porzione di bifamiliare. Il modello mostra l’involucro fotografato per orientamento, senza attribuire l’intero edificio all’offerta.",
-    "Tetto principale a capanna e rampe esterne rappresentati schematicamente; nodo della falda posteriore e pendenze esatte non ricostruiti. Scale esterne: numero gradini e alzate stimati.",
-    "Le porzioni aperte e non dettagliate corrispondono a facciate non documentate: non rappresentano aperture reali o locali interni.",
-    "Corretto ritmo della facciata dal giardino senza alterare gli accessi posteriori: veranda vetrata a sinistra e porta a destra nella vista fotografica; serramenti e pensilina coerenti."
+    "Tetto principale a capanna e rampe esterne rappresentati schematicamente; nodo della falda posteriore e pendenze esatte non ricostruiti. Scale esterne: numero gradini e alzate stimati."
   ],
   "levels": [
     {
@@ -90,22 +71,22 @@
           "thickness": 0.18,
           "openings": [
             {
-              "start": 4.0,
-              "end": 6.0,
+              "start": 1.0,
+              "end": 3.0,
               "kind": "window",
               "sill": 0.3,
               "height": 1.7
             },
             {
-              "start": 2.5999999999999996,
-              "end": 3.45,
+              "start": 3.55,
+              "end": 4.4,
               "kind": "door",
               "sill": 0,
               "height": 2.15
             },
             {
-              "start": 0.7999999999999998,
-              "end": 1.7999999999999998,
+              "start": 5.2,
+              "end": 6.2,
               "kind": "door",
               "sill": 0,
               "height": 1.8
@@ -210,7 +191,7 @@
       "components": [
         {
           "center": [
-            5.0,
+            2.0,
             1.0,
             -0.7
           ],
@@ -223,7 +204,7 @@
         },
         {
           "center": [
-            3.15,
+            3.85,
             1.0,
             -0.7
           ],
@@ -236,7 +217,7 @@
         },
         {
           "center": [
-            3.15,
+            3.85,
             1.02,
             -0.78
           ],
@@ -424,186 +405,6 @@
             1.0
           ],
           "color": "#a7a49b"
-        },
-        {
-          "kind": "beam",
-          "a": [
-            5.7,
-            1.0,
-            11.8
-          ],
-          "b": [
-            5.7,
-            3.7,
-            8.3
-          ],
-          "radius": 0.025,
-          "color": "#634f43"
-        },
-        {
-          "kind": "beam",
-          "a": [
-            5.7,
-            0.0,
-            11.8
-          ],
-          "b": [
-            5.7,
-            1.0,
-            11.8
-          ],
-          "radius": 0.018,
-          "color": "#634f43"
-        },
-        {
-          "kind": "beam",
-          "a": [
-            5.7,
-            0.675,
-            10.925
-          ],
-          "b": [
-            5.7,
-            1.675,
-            10.925
-          ],
-          "radius": 0.018,
-          "color": "#634f43"
-        },
-        {
-          "kind": "beam",
-          "a": [
-            5.7,
-            1.35,
-            10.05
-          ],
-          "b": [
-            5.7,
-            2.35,
-            10.05
-          ],
-          "radius": 0.018,
-          "color": "#634f43"
-        },
-        {
-          "kind": "beam",
-          "a": [
-            5.7,
-            2.0250000000000004,
-            9.175
-          ],
-          "b": [
-            5.7,
-            3.0250000000000004,
-            9.175
-          ],
-          "radius": 0.018,
-          "color": "#634f43"
-        },
-        {
-          "kind": "beam",
-          "a": [
-            5.7,
-            2.7,
-            8.3
-          ],
-          "b": [
-            5.7,
-            3.7,
-            8.3
-          ],
-          "radius": 0.018,
-          "color": "#634f43"
-        },
-        {
-          "kind": "beam",
-          "a": [
-            6.8999999999999995,
-            1.0,
-            11.8
-          ],
-          "b": [
-            6.8999999999999995,
-            3.7,
-            8.3
-          ],
-          "radius": 0.025,
-          "color": "#634f43"
-        },
-        {
-          "kind": "beam",
-          "a": [
-            6.8999999999999995,
-            0.0,
-            11.8
-          ],
-          "b": [
-            6.8999999999999995,
-            1.0,
-            11.8
-          ],
-          "radius": 0.018,
-          "color": "#634f43"
-        },
-        {
-          "kind": "beam",
-          "a": [
-            6.8999999999999995,
-            0.675,
-            10.925
-          ],
-          "b": [
-            6.8999999999999995,
-            1.675,
-            10.925
-          ],
-          "radius": 0.018,
-          "color": "#634f43"
-        },
-        {
-          "kind": "beam",
-          "a": [
-            6.8999999999999995,
-            1.35,
-            10.05
-          ],
-          "b": [
-            6.8999999999999995,
-            2.35,
-            10.05
-          ],
-          "radius": 0.018,
-          "color": "#634f43"
-        },
-        {
-          "kind": "beam",
-          "a": [
-            6.8999999999999995,
-            2.0250000000000004,
-            9.175
-          ],
-          "b": [
-            6.8999999999999995,
-            3.0250000000000004,
-            9.175
-          ],
-          "radius": 0.018,
-          "color": "#634f43"
-        },
-        {
-          "kind": "beam",
-          "a": [
-            6.8999999999999995,
-            2.7,
-            8.3
-          ],
-          "b": [
-            6.8999999999999995,
-            3.7,
-            8.3
-          ],
-          "radius": 0.018,
-          "color": "#634f43"
         }
       ],
       "stairs": [
@@ -673,15 +474,15 @@
           "thickness": 0.18,
           "openings": [
             {
-              "start": 4.35,
-              "end": 5.4,
+              "start": 1.6,
+              "end": 2.65,
               "kind": "window",
               "sill": 0.75,
               "height": 1.4
             },
             {
-              "start": 3.0,
-              "end": 3.9,
+              "start": 3.1,
+              "end": 4.0,
               "kind": "window",
               "sill": 0.75,
               "height": 1.4
@@ -812,366 +613,6 @@
             0.7
           ],
           "color": "#a3a198"
-        },
-        {
-          "kind": "beam",
-          "a": [
-            0.17499999999999993,
-            1.0,
-            11.5
-          ],
-          "b": [
-            0.17499999999999993,
-            3.0,
-            8.9
-          ],
-          "radius": 0.025,
-          "color": "#634f43"
-        },
-        {
-          "kind": "beam",
-          "a": [
-            0.17499999999999993,
-            0.0,
-            11.5
-          ],
-          "b": [
-            0.17499999999999993,
-            1.0,
-            11.5
-          ],
-          "radius": 0.018,
-          "color": "#634f43"
-        },
-        {
-          "kind": "beam",
-          "a": [
-            0.17499999999999993,
-            0.5,
-            10.85
-          ],
-          "b": [
-            0.17499999999999993,
-            1.5,
-            10.85
-          ],
-          "radius": 0.018,
-          "color": "#634f43"
-        },
-        {
-          "kind": "beam",
-          "a": [
-            0.17499999999999993,
-            1.0,
-            10.2
-          ],
-          "b": [
-            0.17499999999999993,
-            2.0,
-            10.2
-          ],
-          "radius": 0.018,
-          "color": "#634f43"
-        },
-        {
-          "kind": "beam",
-          "a": [
-            0.17499999999999993,
-            1.5,
-            9.55
-          ],
-          "b": [
-            0.17499999999999993,
-            2.5,
-            9.55
-          ],
-          "radius": 0.018,
-          "color": "#634f43"
-        },
-        {
-          "kind": "beam",
-          "a": [
-            0.17499999999999993,
-            2.0,
-            8.9
-          ],
-          "b": [
-            0.17499999999999993,
-            3.0,
-            8.9
-          ],
-          "radius": 0.018,
-          "color": "#634f43"
-        },
-        {
-          "kind": "beam",
-          "a": [
-            1.225,
-            1.0,
-            11.5
-          ],
-          "b": [
-            1.225,
-            3.0,
-            8.9
-          ],
-          "radius": 0.025,
-          "color": "#634f43"
-        },
-        {
-          "kind": "beam",
-          "a": [
-            1.225,
-            0.0,
-            11.5
-          ],
-          "b": [
-            1.225,
-            1.0,
-            11.5
-          ],
-          "radius": 0.018,
-          "color": "#634f43"
-        },
-        {
-          "kind": "beam",
-          "a": [
-            1.225,
-            0.5,
-            10.85
-          ],
-          "b": [
-            1.225,
-            1.5,
-            10.85
-          ],
-          "radius": 0.018,
-          "color": "#634f43"
-        },
-        {
-          "kind": "beam",
-          "a": [
-            1.225,
-            1.0,
-            10.2
-          ],
-          "b": [
-            1.225,
-            2.0,
-            10.2
-          ],
-          "radius": 0.018,
-          "color": "#634f43"
-        },
-        {
-          "kind": "beam",
-          "a": [
-            1.225,
-            1.5,
-            9.55
-          ],
-          "b": [
-            1.225,
-            2.5,
-            9.55
-          ],
-          "radius": 0.018,
-          "color": "#634f43"
-        },
-        {
-          "kind": "beam",
-          "a": [
-            1.225,
-            2.0,
-            8.9
-          ],
-          "b": [
-            1.225,
-            3.0,
-            8.9
-          ],
-          "radius": 0.018,
-          "color": "#634f43"
-        },
-        {
-          "kind": "beam",
-          "a": [
-            0.562639436051311,
-            1.0,
-            8.119238026179588
-          ],
-          "b": [
-            3.362639436051311,
-            1.85,
-            7.319238026179589
-          ],
-          "radius": 0.025,
-          "color": "#634f43"
-        },
-        {
-          "kind": "beam",
-          "a": [
-            0.562639436051311,
-            0.0,
-            8.119238026179588
-          ],
-          "b": [
-            0.562639436051311,
-            1.0,
-            8.119238026179588
-          ],
-          "radius": 0.018,
-          "color": "#634f43"
-        },
-        {
-          "kind": "beam",
-          "a": [
-            1.2626394360513111,
-            0.2125,
-            7.919238026179588
-          ],
-          "b": [
-            1.2626394360513111,
-            1.2125,
-            7.919238026179588
-          ],
-          "radius": 0.018,
-          "color": "#634f43"
-        },
-        {
-          "kind": "beam",
-          "a": [
-            1.962639436051311,
-            0.425,
-            7.719238026179588
-          ],
-          "b": [
-            1.962639436051311,
-            1.425,
-            7.719238026179588
-          ],
-          "radius": 0.018,
-          "color": "#634f43"
-        },
-        {
-          "kind": "beam",
-          "a": [
-            2.662639436051311,
-            0.6375,
-            7.519238026179588
-          ],
-          "b": [
-            2.662639436051311,
-            1.6375,
-            7.519238026179588
-          ],
-          "radius": 0.018,
-          "color": "#634f43"
-        },
-        {
-          "kind": "beam",
-          "a": [
-            3.362639436051311,
-            0.85,
-            7.319238026179589
-          ],
-          "b": [
-            3.362639436051311,
-            1.85,
-            7.319238026179589
-          ],
-          "radius": 0.018,
-          "color": "#634f43"
-        },
-        {
-          "kind": "beam",
-          "a": [
-            0.837360563948689,
-            1.0,
-            9.080761973820412
-          ],
-          "b": [
-            3.637360563948689,
-            1.85,
-            8.280761973820411
-          ],
-          "radius": 0.025,
-          "color": "#634f43"
-        },
-        {
-          "kind": "beam",
-          "a": [
-            0.837360563948689,
-            0.0,
-            9.080761973820412
-          ],
-          "b": [
-            0.837360563948689,
-            1.0,
-            9.080761973820412
-          ],
-          "radius": 0.018,
-          "color": "#634f43"
-        },
-        {
-          "kind": "beam",
-          "a": [
-            1.537360563948689,
-            0.2125,
-            8.880761973820412
-          ],
-          "b": [
-            1.537360563948689,
-            1.2125,
-            8.880761973820412
-          ],
-          "radius": 0.018,
-          "color": "#634f43"
-        },
-        {
-          "kind": "beam",
-          "a": [
-            2.237360563948689,
-            0.425,
-            8.680761973820411
-          ],
-          "b": [
-            2.237360563948689,
-            1.425,
-            8.680761973820411
-          ],
-          "radius": 0.018,
-          "color": "#634f43"
-        },
-        {
-          "kind": "beam",
-          "a": [
-            2.9373605639486886,
-            0.6375,
-            8.48076197382041
-          ],
-          "b": [
-            2.9373605639486886,
-            1.6375,
-            8.48076197382041
-          ],
-          "radius": 0.018,
-          "color": "#634f43"
-        },
-        {
-          "kind": "beam",
-          "a": [
-            3.637360563948689,
-            0.85,
-            8.280761973820411
-          ],
-          "b": [
-            3.637360563948689,
-            1.85,
-            8.280761973820411
-          ],
-          "radius": 0.018,
-          "color": "#634f43"
         }
       ],
       "stairs": [
@@ -1255,15 +696,15 @@
           "thickness": 0.18,
           "openings": [
             {
-              "start": 4.35,
-              "end": 5.4,
+              "start": 1.6,
+              "end": 2.65,
               "kind": "window",
               "sill": 0.75,
               "height": 1.4
             },
             {
-              "start": 3.0,
-              "end": 3.9,
+              "start": 3.1,
+              "end": 4.0,
               "kind": "window",
               "sill": 0.75,
               "height": 1.4
@@ -1389,22 +830,22 @@
     {
       "vertices": [
         [
-          6.35,
+          0.65,
           2.23,
           -1.0
         ],
         [
-          2.3,
+          4.7,
           2.23,
           -1.0
         ],
         [
-          2.3,
+          4.7,
           2.55,
           0.2
         ],
         [
-          6.35,
+          0.65,
           2.55,
           0.2
         ]
@@ -1479,7 +920,7 @@
     {
       "kind": "box",
       "center": [
-        5.7,
+        1.3,
         9.75,
         3.1
       ],
@@ -1493,7 +934,7 @@
     {
       "kind": "box",
       "center": [
-        4.8,
+        2.2,
         9.75,
         3.1
       ],
@@ -1541,7 +982,7 @@
       "label": "Fronte dal giardino",
       "level": null,
       "camera": {
-        "yaw": 2.721592653589793,
+        "yaw": -0.42,
         "pitch": 0.35,
         "distance": 27,
         "target": [
@@ -1555,7 +996,7 @@
       "label": "Accessi posteriori",
       "level": null,
       "camera": {
-        "yaw": 0.5,
+        "yaw": 2.6,
         "pitch": 0.4,
         "distance": 28,
         "target": [
@@ -1566,10 +1007,365 @@
       }
     }
   ],
-  "draftCreationStarted": "2026-11-09T21:12:00.527955+01:00",
-  "creationFinished": "2026-11-09T22:46:19.310702+01:00",
-  "reviewNotes": [
-    "Facciata dal giardino corretta dalla foto S0: vetrata veranda a sinistra, porta a destra, pensilina e coppie di serramenti coerenti con l’asimmetria osservata. Accessi posteriori S4 conservati: due rampe indipendenti a sinistra/destra, rientro ingressi e ringhiere.",
-    "Tre livelli esterni della bifamiliare come involucro di orientamento, senza attribuire l’intero fabbricato alla porzione in vendita; interni e fianchi non leggibili esplicitamente omessi. QA ripetuta dopo la correzione, camera e dimensioni mobile leggibili."
-  ]
+  "creationFinished": "2026-11-23T12:47:02+01:00",
+  "sourceReadAt": "2026-11-23T11:49:18+01:00",
+  "sourceMedia": [
+    {
+      "key": "f00",
+      "usedUrl": "https://pwm.im-cdn.it/image/1925460812/xxl.jpg",
+      "caption": "Giardino",
+      "plan": false,
+      "size": [
+        1154,
+        864
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/129124134/"
+    },
+    {
+      "key": "f01",
+      "usedUrl": "https://pwm.im-cdn.it/image/1925460794/xxl.jpg",
+      "caption": "Giardino",
+      "plan": false,
+      "size": [
+        1154,
+        864
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/129124134/"
+    },
+    {
+      "key": "f02",
+      "usedUrl": "https://pwm.im-cdn.it/image/1925460808/xxl.jpg",
+      "caption": "Giardino",
+      "plan": false,
+      "size": [
+        1154,
+        865
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/129124134/"
+    },
+    {
+      "key": "f03",
+      "usedUrl": "https://pwm.im-cdn.it/image/1925460814/xxl.jpg",
+      "caption": "Giardino",
+      "plan": false,
+      "size": [
+        1154,
+        864
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/129124134/"
+    },
+    {
+      "key": "f04",
+      "usedUrl": "https://pwm.im-cdn.it/image/1925460820/xxl.jpg",
+      "caption": "Facciata",
+      "plan": false,
+      "size": [
+        1154,
+        878
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/129124134/"
+    },
+    {
+      "key": "f05",
+      "usedUrl": "https://pwm.im-cdn.it/image/1925460818/xxl.jpg",
+      "caption": "Terrazzo",
+      "plan": false,
+      "size": [
+        1154,
+        865
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/129124134/"
+    },
+    {
+      "key": "f06",
+      "usedUrl": "https://pwm.im-cdn.it/image/1925460840/xxl.jpg",
+      "caption": "Cucina",
+      "plan": false,
+      "size": [
+        1154,
+        892
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/129124134/"
+    },
+    {
+      "key": "f07",
+      "usedUrl": "https://pwm.im-cdn.it/image/1925460836/xxl.jpg",
+      "caption": "Cucina",
+      "plan": false,
+      "size": [
+        1154,
+        864
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/129124134/"
+    },
+    {
+      "key": "f08",
+      "usedUrl": "https://pwm.im-cdn.it/image/1925460848/xxl.jpg",
+      "caption": "Cucina",
+      "plan": false,
+      "size": [
+        1154,
+        864
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/129124134/"
+    },
+    {
+      "key": "f09",
+      "usedUrl": "https://pwm.im-cdn.it/image/1925460844/xxl.jpg",
+      "caption": "Cucina",
+      "plan": false,
+      "size": [
+        1154,
+        865
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/129124134/"
+    },
+    {
+      "key": "f10",
+      "usedUrl": "https://pwm.im-cdn.it/image/1925460846/xxl.jpg",
+      "caption": "Cucina",
+      "plan": false,
+      "size": [
+        1154,
+        864
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/129124134/"
+    },
+    {
+      "key": "f11",
+      "usedUrl": "https://pwm.im-cdn.it/image/1925460852/xxl.jpg",
+      "caption": "Disimpegno",
+      "plan": false,
+      "size": [
+        1154,
+        865
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/129124134/"
+    },
+    {
+      "key": "f12",
+      "usedUrl": "https://pwm.im-cdn.it/image/1925460854/xxl.jpg",
+      "caption": "Disimpegno",
+      "plan": false,
+      "size": [
+        1154,
+        865
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/129124134/"
+    },
+    {
+      "key": "f13",
+      "usedUrl": "https://pwm.im-cdn.it/image/1925460858/xxl.jpg",
+      "caption": "Corridoio",
+      "plan": false,
+      "size": [
+        1154,
+        865
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/129124134/"
+    },
+    {
+      "key": "f14",
+      "usedUrl": "https://pwm.im-cdn.it/image/1925460860/xxl.jpg",
+      "caption": "Camera da letto",
+      "plan": false,
+      "size": [
+        1154,
+        865
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/129124134/"
+    },
+    {
+      "key": "f15",
+      "usedUrl": "https://pwm.im-cdn.it/image/1925460866/xxl.jpg",
+      "caption": "Camera da letto",
+      "plan": false,
+      "size": [
+        1154,
+        865
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/129124134/"
+    },
+    {
+      "key": "f16",
+      "usedUrl": "https://pwm.im-cdn.it/image/1925460868/xxl.jpg",
+      "caption": "Bagno",
+      "plan": false,
+      "size": [
+        1154,
+        865
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/129124134/"
+    },
+    {
+      "key": "f17",
+      "usedUrl": "https://pwm.im-cdn.it/image/1925460872/xxl.jpg",
+      "caption": "Bagno",
+      "plan": false,
+      "size": [
+        1154,
+        865
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/129124134/"
+    },
+    {
+      "key": "f18",
+      "usedUrl": "https://pwm.im-cdn.it/image/1925460878/xxl.jpg",
+      "caption": "Bagno",
+      "plan": false,
+      "size": [
+        1154,
+        865
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/129124134/"
+    },
+    {
+      "key": "f19",
+      "usedUrl": "https://pwm.im-cdn.it/image/1925460874/xxl.jpg",
+      "caption": "Bagno",
+      "plan": false,
+      "size": [
+        1154,
+        865
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/129124134/"
+    },
+    {
+      "key": "f20",
+      "usedUrl": "https://pwm.im-cdn.it/image/1925460826/xxl.jpg",
+      "caption": "Giardino",
+      "plan": false,
+      "size": [
+        1154,
+        865
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/129124134/"
+    },
+    {
+      "key": "f21",
+      "usedUrl": "https://pwm.im-cdn.it/image/1925460824/xxl.jpg",
+      "caption": "Vista",
+      "plan": false,
+      "size": [
+        1154,
+        864
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/129124134/"
+    },
+    {
+      "key": "f22",
+      "usedUrl": "https://pwm.im-cdn.it/image/1925460830/xxl.jpg",
+      "caption": "Giardino",
+      "plan": false,
+      "size": [
+        1154,
+        864
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/129124134/"
+    },
+    {
+      "key": "f23",
+      "usedUrl": "https://pwm.im-cdn.it/image/1925460832/xxl.jpg",
+      "caption": "Giardino",
+      "plan": false,
+      "size": [
+        1154,
+        865
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/129124134/"
+    },
+    {
+      "key": "f24",
+      "usedUrl": "https://pwm.im-cdn.it/image/1925460880/xxl.jpg",
+      "caption": "Cucina",
+      "plan": false,
+      "size": [
+        1154,
+        865
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/129124134/"
+    },
+    {
+      "key": "f25",
+      "usedUrl": "https://pwm.im-cdn.it/image/1925460882/xxl.jpg",
+      "caption": "Camera da letto",
+      "plan": false,
+      "size": [
+        1154,
+        865
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/129124134/"
+    },
+    {
+      "key": "f26",
+      "usedUrl": "https://pwm.im-cdn.it/image/1925460886/xxl.jpg",
+      "caption": "Camera da letto",
+      "plan": false,
+      "size": [
+        1154,
+        865
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/129124134/"
+    },
+    {
+      "key": "f27",
+      "usedUrl": "https://pwm.im-cdn.it/image/1925460888/xxl.jpg",
+      "caption": "Cucina",
+      "plan": false,
+      "size": [
+        1154,
+        865
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/129124134/"
+    },
+    {
+      "key": "f28",
+      "usedUrl": "https://pwm.im-cdn.it/image/1925460892/xxl.jpg",
+      "caption": "Bagno",
+      "plan": false,
+      "size": [
+        1154,
+        865
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/129124134/"
+    },
+    {
+      "key": "f29",
+      "usedUrl": "https://pwm.im-cdn.it/image/1925460894/xxl.jpg",
+      "caption": "Camera da letto",
+      "plan": false,
+      "size": [
+        1154,
+        865
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/129124134/"
+    },
+    {
+      "key": "f30",
+      "usedUrl": "https://pwm.im-cdn.it/image/1925460898/xxl.jpg",
+      "caption": "Cantina",
+      "plan": false,
+      "size": [
+        1154,
+        865
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/129124134/"
+    },
+    {
+      "key": "f31",
+      "usedUrl": "https://pwm.im-cdn.it/image/1925460900/xxl.jpg",
+      "caption": "Altro",
+      "plan": false,
+      "size": [
+        1154,
+        967
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/129124134/"
+    }
+  ],
+  "photoNotes": "Sono leggibili il basamento, le terrazze e le aperture dei fronti fotografati.",
+  "photoEvidence": {},
+  "representation": "Stato documentato nelle fonti",
+  "saleNote": null,
+  "skillVersion": "1.2.0"
 }

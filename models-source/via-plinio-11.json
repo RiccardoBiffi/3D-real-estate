@@ -1,31 +1,77 @@
 {
   "id": "via-plinio-11",
   "title": "Via Plinio 11",
-  "creationStarted": "2026-11-16T18:51:07.344506+01:00",
+  "creationStarted": "2026-11-23T12:55:42+01:00",
   "coverage": "partial",
   "unrenderedVolumes": [
-    "Scala fra i piani: la posizione dei vani è visibile, ma l’alzata e il raccordo tridimensionale non sono verificabili. I vani e le impronte delle rampe sono conservati nelle viste.",
-    "Involucro continuo della villa accostata, copertura, giardino completo e parti comuni del complesso.",
-    "Arredi e finiture non leggibili dalla tavola."
+    "Involucro tridimensionale completo, giardino complessivo, parti comuni e raccordo della scala tra i tre piani. Il prospetto su strada è mostrato in vista autonoma.",
+    "Soppalco citato nell’annuncio e attribuzione della terza camera. La pianta del primo piano distingue due stanze.",
+    "Arredi di sfondo senza posizione identificabile. La disposizione e le dimensioni degli arredi visibili sono indicative."
   ],
   "sources": [
     {
-      "file": "plan-136530782.jpg",
-      "url": "https://pic.im-cdn.it/plan/136530782/xxl.jpg",
-      "sha256": "56fefd02130ccf86685e7b46321c9f645e9b9ebcfdec0acd48f1ab2dbeb6f076",
-      "id": "listing-asset-1",
-      "pageUrl": "https://www.immobiliare.it/annunci/133755712/",
-      "type": "plan",
-      "actuallyInspected": true
+      "url": "https://www.immobiliare.it/annunci/133755712/",
+      "type": "listing"
     },
     {
-      "file": "photo-2033839296.jpg",
-      "url": "https://pwm.im-cdn.it/image/2033839296/cover-m-c.jpg",
-      "sha256": "758251dfff162b11a2f1febed86dd0866f490a33e4fa8de31b037786d15285fc",
-      "id": "listing-asset-2",
-      "pageUrl": "https://www.immobiliare.it/annunci/133755712/",
       "type": "photograph",
-      "actuallyInspected": true
+      "file": "foto-f03.jpg",
+      "url": "https://pwm.im-cdn.it/image/2033839654/xxl.jpg",
+      "label": "Veranda"
+    },
+    {
+      "type": "photograph",
+      "file": "foto-f04.jpg",
+      "url": "https://pwm.im-cdn.it/image/2033840196/xxl.jpg",
+      "label": "Salone"
+    },
+    {
+      "type": "photograph",
+      "file": "foto-f10.jpg",
+      "url": "https://pwm.im-cdn.it/image/2033841010/xxl.jpg",
+      "label": "Cucina"
+    },
+    {
+      "type": "photograph",
+      "file": "foto-f18.jpg",
+      "url": "https://pwm.im-cdn.it/image/2033845414/xxl.jpg",
+      "label": "Camera da letto"
+    },
+    {
+      "type": "photograph",
+      "file": "foto-f25.jpg",
+      "url": "https://pwm.im-cdn.it/image/2033840214/xxl.jpg",
+      "label": "Salone"
+    },
+    {
+      "type": "photograph",
+      "file": "foto-f33.jpg",
+      "url": "https://pwm.im-cdn.it/image/2033844724/xxl.jpg",
+      "label": "Camera da letto"
+    },
+    {
+      "type": "photograph",
+      "file": "foto-f38.jpg",
+      "url": "https://pwm.im-cdn.it/image/2033841426/xxl.jpg",
+      "label": "Cantina"
+    },
+    {
+      "type": "photograph",
+      "file": "foto-f41.jpg",
+      "url": "https://pwm.im-cdn.it/image/2033843630/xxl.jpg",
+      "label": "Facciata"
+    },
+    {
+      "type": "photograph",
+      "file": "foto-f47.jpg",
+      "url": "https://pwm.im-cdn.it/image/2033844860/xxl.jpg",
+      "label": "Bagno"
+    },
+    {
+      "type": "floorplan",
+      "file": "tavola-p00.jpg",
+      "url": "https://pic.im-cdn.it/plan/136530782/xxl.jpg",
+      "label": "Planimetria_1-1 1"
     }
   ],
   "geometrySource": "manual-plan-trace",
@@ -502,7 +548,203 @@
           ]
         }
       ],
-      "furniture": [],
+      "furniture": [
+        {
+          "kind": "sofa",
+          "x": 3.02,
+          "z": 3.57,
+          "width": 2.21,
+          "depth": 0.9,
+          "rotation": -1.5707963267948966,
+          "color": "#a72439",
+          "photoId": "f25"
+        },
+        {
+          "kind": "sofa",
+          "x": 1.16,
+          "z": 4.68,
+          "width": 1.84,
+          "depth": 0.85,
+          "rotation": 0.0,
+          "color": "#b32a3e",
+          "photoId": "f04"
+        },
+        {
+          "kind": "rug",
+          "x": 2.35,
+          "z": 4.46,
+          "width": 2.18,
+          "depth": 1.72,
+          "rotation": 0.0,
+          "color": "#6e453f",
+          "photoId": "f04"
+        },
+        {
+          "kind": "fireplace",
+          "x": 3.93,
+          "z": 1.79,
+          "width": 0.88,
+          "depth": 0.49,
+          "rotation": -1.5707963267948966,
+          "color": "#d3cabf",
+          "photoId": "f25"
+        },
+        {
+          "kind": "cabinet",
+          "x": 0.37,
+          "z": 3.29,
+          "width": 1.87,
+          "depth": 0.42,
+          "rotation": 1.5707963267948966,
+          "color": "#dcd9ce",
+          "photoId": "f26"
+        },
+        {
+          "kind": "kitchen",
+          "x": 9.75,
+          "z": 4.58,
+          "width": 2.69,
+          "depth": 0.56,
+          "rotation": -1.5707963267948966,
+          "color": "#e5e1d5",
+          "photoId": "f11",
+          "counter": "#999c96"
+        },
+        {
+          "kind": "kitchen",
+          "x": 8.64,
+          "z": 3.13,
+          "width": 1.57,
+          "depth": 0.51,
+          "rotation": 0.0,
+          "color": "#e5e2d9",
+          "photoId": "f10",
+          "counter": "#999c96"
+        },
+        {
+          "kind": "kitchen",
+          "x": 7.81,
+          "z": 6.33,
+          "width": 1.84,
+          "depth": 0.54,
+          "rotation": 1.5707963267948966,
+          "color": "#dad9d0",
+          "photoId": "f10",
+          "counter": "#999c96"
+        },
+        {
+          "kind": "cabinet",
+          "x": 9.2,
+          "z": 3.0,
+          "width": 1.18,
+          "depth": 0.28,
+          "rotation": 0.0,
+          "color": "#99483e",
+          "photoId": "f11"
+        },
+        {
+          "kind": "basin",
+          "x": 0.43,
+          "z": 8.29,
+          "width": 0.85,
+          "depth": 0.47,
+          "rotation": 1.5707963267948966,
+          "color": "#a68a73",
+          "photoId": "f44"
+        },
+        {
+          "kind": "bath",
+          "x": 1.71,
+          "z": 9.18,
+          "width": 0.65,
+          "depth": 1.41,
+          "rotation": 0.0,
+          "color": "#dedad1",
+          "photoId": "f44"
+        },
+        {
+          "kind": "table",
+          "x": 1.48,
+          "z": 1.08,
+          "width": 1.7,
+          "depth": 0.8,
+          "rotation": 0.0,
+          "color": "#b7aa91",
+          "photoId": "f03",
+          "round": false
+        },
+        {
+          "kind": "chair",
+          "x": 1.055,
+          "z": 1.6300000000000001,
+          "width": 0.42,
+          "depth": 0.44,
+          "rotation": 3.141592653589793,
+          "color": "#dbd7ce",
+          "photoId": "f03"
+        },
+        {
+          "kind": "chair",
+          "x": 1.055,
+          "z": 0.53,
+          "width": 0.42,
+          "depth": 0.44,
+          "rotation": 0.0,
+          "color": "#dbd7ce",
+          "photoId": "f03"
+        },
+        {
+          "kind": "chair",
+          "x": 1.905,
+          "z": 1.6300000000000001,
+          "width": 0.42,
+          "depth": 0.44,
+          "rotation": 3.141592653589793,
+          "color": "#dbd7ce",
+          "photoId": "f03"
+        },
+        {
+          "kind": "chair",
+          "x": 1.905,
+          "z": 0.53,
+          "width": 0.42,
+          "depth": 0.44,
+          "rotation": 0.0,
+          "color": "#dbd7ce",
+          "photoId": "f03"
+        },
+        {
+          "kind": "table",
+          "x": 9.48,
+          "z": 6.38,
+          "width": 1.28,
+          "depth": 0.69,
+          "rotation": 1.5707963267948966,
+          "color": "#9caeaa",
+          "photoId": "f10",
+          "round": false
+        },
+        {
+          "kind": "chair",
+          "x": 9.965,
+          "z": 6.38,
+          "width": 0.42,
+          "depth": 0.44,
+          "rotation": 4.71238898038469,
+          "color": "#847a69",
+          "photoId": "f10"
+        },
+        {
+          "kind": "chair",
+          "x": 8.995000000000001,
+          "z": 6.38,
+          "width": 0.42,
+          "depth": 0.44,
+          "rotation": 1.5707963267948966,
+          "color": "#847a69",
+          "photoId": "f10"
+        }
+      ],
       "stairs": [],
       "holes": [
         [
@@ -1009,7 +1251,84 @@
         }
       ],
       "exteriorVisible": true,
-      "registration": "autonomous-unregistered"
+      "registration": "autonomous-unregistered",
+      "separate": true,
+      "surfaces": [
+        {
+          "points": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              4.30279,
+              0.0
+            ],
+            [
+              4.30279,
+              1.83267
+            ],
+            [
+              6.81275,
+              2.23108
+            ],
+            [
+              6.81275,
+              2.749
+            ],
+            [
+              10.23904,
+              2.749
+            ],
+            [
+              10.23904,
+              5.57769
+            ],
+            [
+              15.25896,
+              5.57769
+            ],
+            [
+              15.25896,
+              10.1992
+            ],
+            [
+              0.0,
+              10.1992
+            ]
+          ],
+          "holes": [
+            [
+              [
+                4.38247,
+                7.01195
+              ],
+              [
+                5.2988,
+                7.01195
+              ],
+              [
+                5.2988,
+                9.04382
+              ],
+              [
+                6.77291,
+                9.04382
+              ],
+              [
+                6.77291,
+                10.11952
+              ],
+              [
+                4.38247,
+                10.11952
+              ]
+            ]
+          ],
+          "color": "#b5957c",
+          "finish": "wood"
+        }
+      ]
     },
     {
       "label": "Primo piano — vista autonoma, h 2,76 m",
@@ -1276,7 +1595,88 @@
           "openings": []
         }
       ],
-      "furniture": [],
+      "furniture": [
+        {
+          "kind": "bed",
+          "x": 5.09,
+          "z": 2.37,
+          "width": 1.53,
+          "depth": 1.98,
+          "rotation": 1.5707963267948966,
+          "color": "#b4a286",
+          "photoId": "f18"
+        },
+        {
+          "kind": "wardrobe",
+          "x": 6.53,
+          "z": 2.86,
+          "width": 2.08,
+          "depth": 0.49,
+          "rotation": -1.5707963267948966,
+          "color": "#aa7852",
+          "photoId": "f18"
+        },
+        {
+          "kind": "bed",
+          "x": 1.23,
+          "z": 2.46,
+          "width": 0.85,
+          "depth": 1.87,
+          "rotation": 1.5707963267948966,
+          "color": "#bc9576",
+          "photoId": "f35"
+        },
+        {
+          "kind": "bookcase",
+          "x": 2.62,
+          "z": 2.25,
+          "width": 1.57,
+          "depth": 0.31,
+          "rotation": -1.5707963267948966,
+          "color": "#81a4a5",
+          "photoId": "f33"
+        },
+        {
+          "kind": "table",
+          "x": 0.49,
+          "z": 1.21,
+          "width": 1.08,
+          "depth": 0.53,
+          "rotation": 1.5707963267948966,
+          "color": "#af895f",
+          "photoId": "f33"
+        },
+        {
+          "kind": "bath",
+          "x": 5.07,
+          "z": 7.53,
+          "width": 1.44,
+          "depth": 0.76,
+          "rotation": 0.0,
+          "color": "#e3ded0",
+          "photoId": "f47"
+        },
+        {
+          "kind": "basin",
+          "x": 6.52,
+          "z": 7.29,
+          "width": 0.73,
+          "depth": 0.46,
+          "rotation": -1.5707963267948966,
+          "color": "#706257",
+          "photoId": "f47"
+        },
+        {
+          "kind": "toilet",
+          "x": 4.01,
+          "z": 6.44,
+          "width": 0.44,
+          "depth": 0.54,
+          "rotation": 1.5707963267948966,
+          "color": "#e5dfd0",
+          "photoId": "f47"
+        }
+      ],
       "stairs": [],
       "holes": [
         [
@@ -1590,7 +1990,60 @@
         }
       ],
       "exteriorVisible": false,
-      "registration": "autonomous-unregistered"
+      "registration": "autonomous-unregistered",
+      "separate": true,
+      "surfaces": [
+        {
+          "points": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              3.86454,
+              0.0
+            ],
+            [
+              3.86454,
+              0.47809
+            ],
+            [
+              6.93227,
+              0.47809
+            ],
+            [
+              6.93227,
+              8.12749
+            ],
+            [
+              0.0,
+              8.12749
+            ]
+          ],
+          "holes": [
+            [
+              [
+                0.15936,
+                5.69721
+              ],
+              [
+                3.38645,
+                5.69721
+              ],
+              [
+                3.38645,
+                8.00797
+              ],
+              [
+                0.15936,
+                8.00797
+              ]
+            ]
+          ],
+          "color": "#c59368",
+          "finish": "wood"
+        }
+      ]
     },
     {
       "label": "Seminterrato — vista autonoma, h 2,25 m",
@@ -1736,7 +2189,38 @@
           "openings": []
         }
       ],
-      "furniture": [],
+      "furniture": [
+        {
+          "kind": "bookcase",
+          "x": 0.42,
+          "z": 2.81,
+          "width": 2.58,
+          "depth": 0.5,
+          "rotation": 1.5707963267948966,
+          "color": "#8e918c",
+          "photoId": "f38"
+        },
+        {
+          "kind": "bookcase",
+          "x": 5.65,
+          "z": 4.67,
+          "width": 2.72,
+          "depth": 0.49,
+          "rotation": -1.5707963267948966,
+          "color": "#848780",
+          "photoId": "f38"
+        },
+        {
+          "kind": "cabinet",
+          "x": 4.09,
+          "z": 7.28,
+          "width": 1.37,
+          "depth": 0.43,
+          "rotation": 3.141592653589793,
+          "color": "#7c7972",
+          "photoId": "f43"
+        }
+      ],
       "stairs": [],
       "holes": [],
       "sourcePlan": "plan-136530782-rotated.png",
@@ -1946,17 +2430,1222 @@
         }
       ],
       "exteriorVisible": false,
-      "registration": "autonomous-unregistered"
+      "registration": "autonomous-unregistered",
+      "separate": true,
+      "surfaces": [
+        {
+          "points": [
+            [
+              0.0,
+              0.63745
+            ],
+            [
+              1.23506,
+              0.63745
+            ],
+            [
+              1.23506,
+              -0.07968
+            ],
+            [
+              2.66932,
+              -0.07968
+            ],
+            [
+              2.66932,
+              0.83665
+            ],
+            [
+              6.09562,
+              0.83665
+            ],
+            [
+              6.09562,
+              7.68924
+            ],
+            [
+              0.0,
+              7.68924
+            ]
+          ],
+          "holes": [],
+          "color": "#b0a99c",
+          "finish": "tile"
+        }
+      ]
+    },
+    {
+      "label": "Basamento del prospetto fotografato",
+      "y": 0,
+      "height": 2.39,
+      "outline": [
+        [
+          -7.7,
+          -0.35
+        ],
+        [
+          7.7,
+          -0.35
+        ],
+        [
+          7.7,
+          0.02
+        ],
+        [
+          -7.7,
+          0.02
+        ]
+      ],
+      "walls": [
+        {
+          "a": [
+            -7.7,
+            0
+          ],
+          "b": [
+            7.7,
+            0
+          ],
+          "thickness": 0.27,
+          "openings": [
+            {
+              "kind": "window",
+              "start": 1.05,
+              "end": 1.4,
+              "sill": 0.56,
+              "height": 1.22
+            },
+            {
+              "kind": "window",
+              "start": 1.68,
+              "end": 1.99,
+              "sill": 0.56,
+              "height": 1.22
+            },
+            {
+              "kind": "window",
+              "start": 6.5,
+              "end": 7.15,
+              "sill": 0.56,
+              "height": 1.22
+            },
+            {
+              "kind": "window",
+              "start": 10.31,
+              "end": 10.86,
+              "sill": 0.56,
+              "height": 1.22
+            },
+            {
+              "kind": "window",
+              "start": 13.19,
+              "end": 13.53,
+              "sill": 0.56,
+              "height": 1.22
+            }
+          ],
+          "color": "#a9a8a1"
+        }
+      ],
+      "furniture": [],
+      "components": []
+    },
+    {
+      "label": "Piano con scuri nella fotografia",
+      "y": 2.39,
+      "height": 2.81,
+      "outline": [
+        [
+          -7.7,
+          -0.35
+        ],
+        [
+          7.7,
+          -0.35
+        ],
+        [
+          7.7,
+          0.02
+        ],
+        [
+          -7.7,
+          0.02
+        ]
+      ],
+      "walls": [
+        {
+          "a": [
+            -7.7,
+            0
+          ],
+          "b": [
+            7.7,
+            0
+          ],
+          "thickness": 0.27,
+          "openings": [
+            {
+              "kind": "window",
+              "start": 5.96,
+              "end": 6.83,
+              "sill": 0.65,
+              "height": 1.57
+            },
+            {
+              "kind": "window",
+              "start": 8.1,
+              "end": 8.95,
+              "sill": 0.65,
+              "height": 1.57
+            },
+            {
+              "kind": "window",
+              "start": 10.47,
+              "end": 11.27,
+              "sill": 0.65,
+              "height": 1.57
+            },
+            {
+              "kind": "window",
+              "start": 12.46,
+              "end": 13.15,
+              "sill": 0.65,
+              "height": 1.57
+            },
+            {
+              "kind": "window",
+              "start": 14.17,
+              "end": 14.81,
+              "sill": 0.65,
+              "height": 1.57
+            }
+          ],
+          "color": "#d9d4c5"
+        }
+      ],
+      "furniture": [],
+      "components": []
+    },
+    {
+      "label": "Cornicione fotografato",
+      "y": 5.2,
+      "height": 1.03,
+      "outline": [
+        [
+          -7.7,
+          -0.35
+        ],
+        [
+          7.7,
+          -0.35
+        ],
+        [
+          7.7,
+          0.02
+        ],
+        [
+          -7.7,
+          0.02
+        ]
+      ],
+      "walls": [
+        {
+          "a": [
+            -7.7,
+            0
+          ],
+          "b": [
+            7.7,
+            0
+          ],
+          "thickness": 0.27,
+          "openings": [
+            {
+              "kind": "window",
+              "start": 7.37,
+              "end": 8.04,
+              "sill": 0.32,
+              "height": 0.49
+            },
+            {
+              "kind": "window",
+              "start": 10.87,
+              "end": 11.52,
+              "sill": 0.32,
+              "height": 0.49
+            }
+          ],
+          "color": "#d9d4c5"
+        }
+      ],
+      "furniture": [],
+      "components": []
     }
   ],
-  "roofs": [],
-  "exteriors": [],
+  "roofs": [
+    {
+      "vertices": [
+        [
+          -7.85,
+          6.34,
+          0.34
+        ],
+        [
+          7.85,
+          6.34,
+          0.34
+        ],
+        [
+          7.85,
+          6.75,
+          -1.16
+        ],
+        [
+          -7.85,
+          6.75,
+          -1.16
+        ]
+      ],
+      "color": "#a96a48"
+    }
+  ],
+  "exteriors": [
+    {
+      "kind": "box",
+      "center": [
+        -1.9200000000000002,
+        3.83,
+        0.168
+      ],
+      "size": [
+        0.36,
+        1.64,
+        0.06
+      ],
+      "color": "#62544c"
+    },
+    {
+      "kind": "box",
+      "center": [
+        -1.9200000000000002,
+        3.13,
+        0.204
+      ],
+      "size": [
+        0.29,
+        0.025,
+        0.02
+      ],
+      "color": "#4f4943"
+    },
+    {
+      "kind": "box",
+      "center": [
+        -1.9200000000000002,
+        3.255,
+        0.204
+      ],
+      "size": [
+        0.29,
+        0.025,
+        0.02
+      ],
+      "color": "#4f4943"
+    },
+    {
+      "kind": "box",
+      "center": [
+        -1.9200000000000002,
+        3.38,
+        0.204
+      ],
+      "size": [
+        0.29,
+        0.025,
+        0.02
+      ],
+      "color": "#4f4943"
+    },
+    {
+      "kind": "box",
+      "center": [
+        -1.9200000000000002,
+        3.505,
+        0.204
+      ],
+      "size": [
+        0.29,
+        0.025,
+        0.02
+      ],
+      "color": "#4f4943"
+    },
+    {
+      "kind": "box",
+      "center": [
+        -1.9200000000000002,
+        3.63,
+        0.204
+      ],
+      "size": [
+        0.29,
+        0.025,
+        0.02
+      ],
+      "color": "#4f4943"
+    },
+    {
+      "kind": "box",
+      "center": [
+        -1.9200000000000002,
+        3.755,
+        0.204
+      ],
+      "size": [
+        0.29,
+        0.025,
+        0.02
+      ],
+      "color": "#4f4943"
+    },
+    {
+      "kind": "box",
+      "center": [
+        -1.9200000000000002,
+        3.88,
+        0.204
+      ],
+      "size": [
+        0.29,
+        0.025,
+        0.02
+      ],
+      "color": "#4f4943"
+    },
+    {
+      "kind": "box",
+      "center": [
+        -1.9200000000000002,
+        4.005,
+        0.204
+      ],
+      "size": [
+        0.29,
+        0.025,
+        0.02
+      ],
+      "color": "#4f4943"
+    },
+    {
+      "kind": "box",
+      "center": [
+        -1.9200000000000002,
+        4.13,
+        0.204
+      ],
+      "size": [
+        0.29,
+        0.025,
+        0.02
+      ],
+      "color": "#4f4943"
+    },
+    {
+      "kind": "box",
+      "center": [
+        -1.9200000000000002,
+        4.255,
+        0.204
+      ],
+      "size": [
+        0.29,
+        0.025,
+        0.02
+      ],
+      "color": "#4f4943"
+    },
+    {
+      "kind": "box",
+      "center": [
+        -1.9200000000000002,
+        4.38,
+        0.204
+      ],
+      "size": [
+        0.29,
+        0.025,
+        0.02
+      ],
+      "color": "#4f4943"
+    },
+    {
+      "kind": "box",
+      "center": [
+        -1.9200000000000002,
+        4.505,
+        0.204
+      ],
+      "size": [
+        0.29,
+        0.025,
+        0.02
+      ],
+      "color": "#4f4943"
+    },
+    {
+      "kind": "box",
+      "center": [
+        0.21999999999999947,
+        3.83,
+        0.168
+      ],
+      "size": [
+        0.36,
+        1.64,
+        0.06
+      ],
+      "color": "#62544c"
+    },
+    {
+      "kind": "box",
+      "center": [
+        0.21999999999999947,
+        3.13,
+        0.204
+      ],
+      "size": [
+        0.29,
+        0.025,
+        0.02
+      ],
+      "color": "#4f4943"
+    },
+    {
+      "kind": "box",
+      "center": [
+        0.21999999999999947,
+        3.255,
+        0.204
+      ],
+      "size": [
+        0.29,
+        0.025,
+        0.02
+      ],
+      "color": "#4f4943"
+    },
+    {
+      "kind": "box",
+      "center": [
+        0.21999999999999947,
+        3.38,
+        0.204
+      ],
+      "size": [
+        0.29,
+        0.025,
+        0.02
+      ],
+      "color": "#4f4943"
+    },
+    {
+      "kind": "box",
+      "center": [
+        0.21999999999999947,
+        3.505,
+        0.204
+      ],
+      "size": [
+        0.29,
+        0.025,
+        0.02
+      ],
+      "color": "#4f4943"
+    },
+    {
+      "kind": "box",
+      "center": [
+        0.21999999999999947,
+        3.63,
+        0.204
+      ],
+      "size": [
+        0.29,
+        0.025,
+        0.02
+      ],
+      "color": "#4f4943"
+    },
+    {
+      "kind": "box",
+      "center": [
+        0.21999999999999947,
+        3.755,
+        0.204
+      ],
+      "size": [
+        0.29,
+        0.025,
+        0.02
+      ],
+      "color": "#4f4943"
+    },
+    {
+      "kind": "box",
+      "center": [
+        0.21999999999999947,
+        3.88,
+        0.204
+      ],
+      "size": [
+        0.29,
+        0.025,
+        0.02
+      ],
+      "color": "#4f4943"
+    },
+    {
+      "kind": "box",
+      "center": [
+        0.21999999999999947,
+        4.005,
+        0.204
+      ],
+      "size": [
+        0.29,
+        0.025,
+        0.02
+      ],
+      "color": "#4f4943"
+    },
+    {
+      "kind": "box",
+      "center": [
+        0.21999999999999947,
+        4.13,
+        0.204
+      ],
+      "size": [
+        0.29,
+        0.025,
+        0.02
+      ],
+      "color": "#4f4943"
+    },
+    {
+      "kind": "box",
+      "center": [
+        0.21999999999999947,
+        4.255,
+        0.204
+      ],
+      "size": [
+        0.29,
+        0.025,
+        0.02
+      ],
+      "color": "#4f4943"
+    },
+    {
+      "kind": "box",
+      "center": [
+        0.21999999999999947,
+        4.38,
+        0.204
+      ],
+      "size": [
+        0.29,
+        0.025,
+        0.02
+      ],
+      "color": "#4f4943"
+    },
+    {
+      "kind": "box",
+      "center": [
+        0.21999999999999947,
+        4.505,
+        0.204
+      ],
+      "size": [
+        0.29,
+        0.025,
+        0.02
+      ],
+      "color": "#4f4943"
+    },
+    {
+      "kind": "box",
+      "center": [
+        2.5900000000000003,
+        3.83,
+        0.168
+      ],
+      "size": [
+        0.36,
+        1.64,
+        0.06
+      ],
+      "color": "#62544c"
+    },
+    {
+      "kind": "box",
+      "center": [
+        2.5900000000000003,
+        3.13,
+        0.204
+      ],
+      "size": [
+        0.29,
+        0.025,
+        0.02
+      ],
+      "color": "#4f4943"
+    },
+    {
+      "kind": "box",
+      "center": [
+        2.5900000000000003,
+        3.255,
+        0.204
+      ],
+      "size": [
+        0.29,
+        0.025,
+        0.02
+      ],
+      "color": "#4f4943"
+    },
+    {
+      "kind": "box",
+      "center": [
+        2.5900000000000003,
+        3.38,
+        0.204
+      ],
+      "size": [
+        0.29,
+        0.025,
+        0.02
+      ],
+      "color": "#4f4943"
+    },
+    {
+      "kind": "box",
+      "center": [
+        2.5900000000000003,
+        3.505,
+        0.204
+      ],
+      "size": [
+        0.29,
+        0.025,
+        0.02
+      ],
+      "color": "#4f4943"
+    },
+    {
+      "kind": "box",
+      "center": [
+        2.5900000000000003,
+        3.63,
+        0.204
+      ],
+      "size": [
+        0.29,
+        0.025,
+        0.02
+      ],
+      "color": "#4f4943"
+    },
+    {
+      "kind": "box",
+      "center": [
+        2.5900000000000003,
+        3.755,
+        0.204
+      ],
+      "size": [
+        0.29,
+        0.025,
+        0.02
+      ],
+      "color": "#4f4943"
+    },
+    {
+      "kind": "box",
+      "center": [
+        2.5900000000000003,
+        3.88,
+        0.204
+      ],
+      "size": [
+        0.29,
+        0.025,
+        0.02
+      ],
+      "color": "#4f4943"
+    },
+    {
+      "kind": "box",
+      "center": [
+        2.5900000000000003,
+        4.005,
+        0.204
+      ],
+      "size": [
+        0.29,
+        0.025,
+        0.02
+      ],
+      "color": "#4f4943"
+    },
+    {
+      "kind": "box",
+      "center": [
+        2.5900000000000003,
+        4.13,
+        0.204
+      ],
+      "size": [
+        0.29,
+        0.025,
+        0.02
+      ],
+      "color": "#4f4943"
+    },
+    {
+      "kind": "box",
+      "center": [
+        2.5900000000000003,
+        4.255,
+        0.204
+      ],
+      "size": [
+        0.29,
+        0.025,
+        0.02
+      ],
+      "color": "#4f4943"
+    },
+    {
+      "kind": "box",
+      "center": [
+        2.5900000000000003,
+        4.38,
+        0.204
+      ],
+      "size": [
+        0.29,
+        0.025,
+        0.02
+      ],
+      "color": "#4f4943"
+    },
+    {
+      "kind": "box",
+      "center": [
+        2.5900000000000003,
+        4.505,
+        0.204
+      ],
+      "size": [
+        0.29,
+        0.025,
+        0.02
+      ],
+      "color": "#4f4943"
+    },
+    {
+      "kind": "box",
+      "center": [
+        4.580000000000001,
+        3.83,
+        0.168
+      ],
+      "size": [
+        0.36,
+        1.64,
+        0.06
+      ],
+      "color": "#62544c"
+    },
+    {
+      "kind": "box",
+      "center": [
+        4.580000000000001,
+        3.13,
+        0.204
+      ],
+      "size": [
+        0.29,
+        0.025,
+        0.02
+      ],
+      "color": "#4f4943"
+    },
+    {
+      "kind": "box",
+      "center": [
+        4.580000000000001,
+        3.255,
+        0.204
+      ],
+      "size": [
+        0.29,
+        0.025,
+        0.02
+      ],
+      "color": "#4f4943"
+    },
+    {
+      "kind": "box",
+      "center": [
+        4.580000000000001,
+        3.38,
+        0.204
+      ],
+      "size": [
+        0.29,
+        0.025,
+        0.02
+      ],
+      "color": "#4f4943"
+    },
+    {
+      "kind": "box",
+      "center": [
+        4.580000000000001,
+        3.505,
+        0.204
+      ],
+      "size": [
+        0.29,
+        0.025,
+        0.02
+      ],
+      "color": "#4f4943"
+    },
+    {
+      "kind": "box",
+      "center": [
+        4.580000000000001,
+        3.63,
+        0.204
+      ],
+      "size": [
+        0.29,
+        0.025,
+        0.02
+      ],
+      "color": "#4f4943"
+    },
+    {
+      "kind": "box",
+      "center": [
+        4.580000000000001,
+        3.755,
+        0.204
+      ],
+      "size": [
+        0.29,
+        0.025,
+        0.02
+      ],
+      "color": "#4f4943"
+    },
+    {
+      "kind": "box",
+      "center": [
+        4.580000000000001,
+        3.88,
+        0.204
+      ],
+      "size": [
+        0.29,
+        0.025,
+        0.02
+      ],
+      "color": "#4f4943"
+    },
+    {
+      "kind": "box",
+      "center": [
+        4.580000000000001,
+        4.005,
+        0.204
+      ],
+      "size": [
+        0.29,
+        0.025,
+        0.02
+      ],
+      "color": "#4f4943"
+    },
+    {
+      "kind": "box",
+      "center": [
+        4.580000000000001,
+        4.13,
+        0.204
+      ],
+      "size": [
+        0.29,
+        0.025,
+        0.02
+      ],
+      "color": "#4f4943"
+    },
+    {
+      "kind": "box",
+      "center": [
+        4.580000000000001,
+        4.255,
+        0.204
+      ],
+      "size": [
+        0.29,
+        0.025,
+        0.02
+      ],
+      "color": "#4f4943"
+    },
+    {
+      "kind": "box",
+      "center": [
+        4.580000000000001,
+        4.38,
+        0.204
+      ],
+      "size": [
+        0.29,
+        0.025,
+        0.02
+      ],
+      "color": "#4f4943"
+    },
+    {
+      "kind": "box",
+      "center": [
+        4.580000000000001,
+        4.505,
+        0.204
+      ],
+      "size": [
+        0.29,
+        0.025,
+        0.02
+      ],
+      "color": "#4f4943"
+    },
+    {
+      "kind": "box",
+      "center": [
+        6.29,
+        3.83,
+        0.168
+      ],
+      "size": [
+        0.36,
+        1.64,
+        0.06
+      ],
+      "color": "#62544c"
+    },
+    {
+      "kind": "box",
+      "center": [
+        6.29,
+        3.13,
+        0.204
+      ],
+      "size": [
+        0.29,
+        0.025,
+        0.02
+      ],
+      "color": "#4f4943"
+    },
+    {
+      "kind": "box",
+      "center": [
+        6.29,
+        3.255,
+        0.204
+      ],
+      "size": [
+        0.29,
+        0.025,
+        0.02
+      ],
+      "color": "#4f4943"
+    },
+    {
+      "kind": "box",
+      "center": [
+        6.29,
+        3.38,
+        0.204
+      ],
+      "size": [
+        0.29,
+        0.025,
+        0.02
+      ],
+      "color": "#4f4943"
+    },
+    {
+      "kind": "box",
+      "center": [
+        6.29,
+        3.505,
+        0.204
+      ],
+      "size": [
+        0.29,
+        0.025,
+        0.02
+      ],
+      "color": "#4f4943"
+    },
+    {
+      "kind": "box",
+      "center": [
+        6.29,
+        3.63,
+        0.204
+      ],
+      "size": [
+        0.29,
+        0.025,
+        0.02
+      ],
+      "color": "#4f4943"
+    },
+    {
+      "kind": "box",
+      "center": [
+        6.29,
+        3.755,
+        0.204
+      ],
+      "size": [
+        0.29,
+        0.025,
+        0.02
+      ],
+      "color": "#4f4943"
+    },
+    {
+      "kind": "box",
+      "center": [
+        6.29,
+        3.88,
+        0.204
+      ],
+      "size": [
+        0.29,
+        0.025,
+        0.02
+      ],
+      "color": "#4f4943"
+    },
+    {
+      "kind": "box",
+      "center": [
+        6.29,
+        4.005,
+        0.204
+      ],
+      "size": [
+        0.29,
+        0.025,
+        0.02
+      ],
+      "color": "#4f4943"
+    },
+    {
+      "kind": "box",
+      "center": [
+        6.29,
+        4.13,
+        0.204
+      ],
+      "size": [
+        0.29,
+        0.025,
+        0.02
+      ],
+      "color": "#4f4943"
+    },
+    {
+      "kind": "box",
+      "center": [
+        6.29,
+        4.255,
+        0.204
+      ],
+      "size": [
+        0.29,
+        0.025,
+        0.02
+      ],
+      "color": "#4f4943"
+    },
+    {
+      "kind": "box",
+      "center": [
+        6.29,
+        4.38,
+        0.204
+      ],
+      "size": [
+        0.29,
+        0.025,
+        0.02
+      ],
+      "color": "#4f4943"
+    },
+    {
+      "kind": "box",
+      "center": [
+        6.29,
+        4.505,
+        0.204
+      ],
+      "size": [
+        0.29,
+        0.025,
+        0.02
+      ],
+      "color": "#4f4943"
+    },
+    {
+      "kind": "box",
+      "center": [
+        0,
+        6.22,
+        0.12
+      ],
+      "size": [
+        15.65,
+        0.16,
+        0.5
+      ],
+      "color": "#d4d1c3"
+    }
+  ],
   "colors": {
-    "walls": "#e1d6bb",
-    "floor": "#bbb09b",
-    "frames": "#635647"
+    "walls": "#e4ddd3",
+    "floor": "#bd9877",
+    "frames": "#805d46",
+    "wood": "#875f43"
   },
   "views": [
+    {
+      "label": "Prospetto su strada, vista autonoma",
+      "level": null
+    },
     {
       "label": "Piano terra — vista autonoma, h 2,81 m",
       "level": 0
@@ -1973,5 +3662,6 @@
   "cameraX": 0.55,
   "cameraY": 0.7,
   "cameraZ": 1.07,
-  "creationFinished": "2026-11-16T18:56:34.650692+01:00"
+  "creationFinished": "2026-11-23T13:07:37+01:00",
+  "descriptionPhotos": "Il soggiorno riprende le sedute rosse, il camino, il mobile TV chiaro e il tavolo vicino alle finestre visibili da più angolazioni. La cucina è bianca, con mensole rosse. Al primo piano sono visibili letti e armadi in legno, mentre la cantina ha scaffali metallici. L’agenzia segnala immagini modificate con IA. Le versioni del soggiorno con gli arredi bianchi e della stanza stilizzata sono escluse dalla ricostruzione."
 }

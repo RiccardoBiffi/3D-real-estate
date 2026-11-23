@@ -1,0 +1,57 @@
+{
+  "id": "via-almerigotti",
+  "status": "ready",
+  "path": "modelli/via-almerigotti.html",
+  "views": [
+    {
+      "label": "Esterno",
+      "level": null
+    },
+    {
+      "label": "Primo piano",
+      "level": 0
+    },
+    {
+      "label": "Piano inferiore",
+      "level": 1
+    }
+  ],
+  "notes": [
+    "Tavolo e sedie in legno scuro, cucina miele e letto singolo con coperta rossa.",
+    "I contorni e le divisioni seguono le tavole indicate. Le misure assolute prive di quota, alcune aperture, le altezze e le dimensioni dei mobili sono stime."
+  ],
+  "verifiedAt": "2026-11-23T12:47:02+01:00",
+  "artifactSha256": "3f40f19bc9209c6794f45fa99bb54c6bf4f00187f07ee10bea80a274f5eb811e",
+  "sourcePlans": [
+    {
+      "label": "Tavola 1",
+      "url": "https://images-1.casa.it/1600x1200-fit/listing/0/5c/0a/ff/823826368.jpg"
+    },
+    {
+      "label": "Tavola 2",
+      "url": "https://images-1.casa.it/1600x1200-fit/listing/0/c3/c2/0f/823826369.jpg"
+    }
+  ],
+  "unrenderedVolumes": [
+    "Raccordo tra i due corpi dei subalterni e scale esterne."
+  ],
+  "coverage": "partial",
+  "preview": "assets/via-almerigotti.jpg",
+  "qa": {
+    "staticPassed": true,
+    "browserPassed": true,
+    "geometryPassed": true,
+    "orthographicPassed": true
+  },
+  "fidelity": {
+    "passed": true,
+    "basis": "Riesame visivo dei fronti fotografati e delle parti modellate."
+  },
+  "independentReview": {
+    "passed": true,
+    "artifactSha256": "3f40f19bc9209c6794f45fa99bb54c6bf4f00187f07ee10bea80a274f5eb811e",
+    "method": "Seconda lettura di fotografie, viste renderizzate e sovrapposizioni disponibili. Le misure e le parti omesse sono dichiarate nella scheda."
+  },
+  "evidenceIndex": "ricostruzioni/2026-11-23/index.html#via-almerigotti",
+  "browserReport": "ricostruzioni/2026-11-23/verifiche/risultati.json"
+}

@@ -1,0 +1,70 @@
+{
+  "id": "vanisella-1-a",
+  "status": "ready",
+  "path": "modelli/vanisella-1-a.html",
+  "views": [
+    {
+      "label": "Esterno",
+      "level": null
+    },
+    {
+      "label": "Primo piano e mansarda",
+      "level": 2
+    },
+    {
+      "label": "Piano terra",
+      "level": 1
+    },
+    {
+      "label": "Seminterrato e box",
+      "level": 0
+    }
+  ],
+  "notes": [
+    "Divano ad angolo chiaro, cucina grigio caldo e letto con testiera crema. L’agenzia segnala immagini rielaborate. L’allestimento è indicativo.",
+    "I contorni e le divisioni seguono le tavole indicate. Le misure assolute prive di quota, alcune aperture, le altezze e le dimensioni dei mobili sono stime."
+  ],
+  "verifiedAt": "2026-11-23T12:47:02+01:00",
+  "artifactSha256": "8d25106c4ce3cd44281347218054a1033af1aa0bf316092b49141bd045e575d8",
+  "sourcePlans": [
+    {
+      "label": "Tavola 1",
+      "url": "https://triestevillas.com/foto/attMkkccUuc6K3MDu/2000.webp"
+    },
+    {
+      "label": "Planimetrie · Piano terra",
+      "url": "https://triestevillas.com/foto/attkoFm9Oo68GoAVV/2000.webp"
+    },
+    {
+      "label": "Tavola 3",
+      "url": "https://triestevillas.com/foto/attP0t0m6EfeFkvbJ/2000.webp"
+    },
+    {
+      "label": "Tavola 4",
+      "url": "https://triestevillas.com/foto/attKfrOV5yl0K3rxm/2000.webp"
+    }
+  ],
+  "unrenderedVolumes": [
+    "Distribuzione successiva al progetto delle tavole, giardino completo e dislivelli del lotto.",
+    "Rampe o tratti di scala senza raccordo verticale verificabile tra le tavole."
+  ],
+  "coverage": "partial",
+  "preview": "assets/vanisella-1-a.jpg",
+  "qa": {
+    "staticPassed": true,
+    "browserPassed": true,
+    "geometryPassed": true,
+    "orthographicPassed": true
+  },
+  "fidelity": {
+    "passed": true,
+    "basis": "Riesame visivo dei fronti fotografati e delle parti modellate."
+  },
+  "independentReview": {
+    "passed": true,
+    "artifactSha256": "8d25106c4ce3cd44281347218054a1033af1aa0bf316092b49141bd045e575d8",
+    "method": "Seconda lettura di fotografie, viste renderizzate e sovrapposizioni disponibili. Le misure e le parti omesse sono dichiarate nella scheda."
+  },
+  "evidenceIndex": "ricostruzioni/2026-11-23/index.html#vanisella-1-a",
+  "browserReport": "ricostruzioni/2026-11-23/verifiche/risultati.json"
+}

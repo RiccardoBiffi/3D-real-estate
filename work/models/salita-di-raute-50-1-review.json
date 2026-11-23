@@ -1,0 +1,58 @@
+{
+  "id": "salita-di-raute-50-1",
+  "status": "ready",
+  "path": "modelli/salita-di-raute-50-1.html",
+  "views": [
+    {
+      "id": "exterior",
+      "label": "Esterno e ballatoio"
+    },
+    {
+      "id": "night",
+      "label": "Semipiano camere e bagno"
+    },
+    {
+      "id": "living",
+      "label": "Soggiorno e angolo cottura"
+    },
+    {
+      "id": "ground",
+      "label": "Piano terra catastale · stanza, WC e disimpegni"
+    }
+  ],
+  "coverage": "partial",
+  "unrenderedVolumes": [
+    "Interno di garage, lavanderia e locale tecnico al livello inferiore, assenti dalla pianta catastale pubblicata. Il portone è ricostruito dalla fotografia.",
+    "Intercapedine e volumi confinanti indicati come sub. 2.",
+    "Prosecuzione del percorso esterno oltre la scala del ballatoio, finiture del giardino e quote dei dislivelli non interamente documentate."
+  ],
+  "notes": [
+    "La cucina ha frontali chiari, basi tortora, penisola, tavolo in legno e sedie bianche. Il divano componibile beige occupa il soggiorno inferiore. La camera fotografata ha un letto con coperta scura e un armadio chiaro. Il ricalco usa la barra di 10 m del catasto. Sui semipiani, altezze d’imposta, dislivelli e posizione dei mobili sono indicativi."
+  ],
+  "verifiedAt": "2026-11-23T13:09:43+01:00",
+  "artifactSha256": "7837fca16f12cd1218d73cda904e74a944115ad2b0e5ea36eae6fd0794d38a5c",
+  "sourcePlans": [
+    {
+      "url": "https://pic.im-cdn.it/plan/134201862/xxl.jpg",
+      "label": "Catasto, piano terra e primo · dati personali del margine oscurati"
+    }
+  ],
+  "preview": "assets/salita-di-raute-50-1.jpg",
+  "qa": {
+    "staticPassed": true,
+    "browserPassed": true,
+    "geometryPassed": true,
+    "orthographicPassed": true
+  },
+  "fidelity": {
+    "passed": true,
+    "basis": "Riesame visivo dei fronti fotografati e delle parti modellate."
+  },
+  "independentReview": {
+    "passed": true,
+    "artifactSha256": "7837fca16f12cd1218d73cda904e74a944115ad2b0e5ea36eae6fd0794d38a5c",
+    "method": "Seconda lettura di fotografie, viste renderizzate e sovrapposizioni disponibili. Le misure e le parti omesse sono dichiarate nella scheda."
+  },
+  "evidenceIndex": "ricostruzioni/2026-11-23/index.html#salita-di-raute-50-1",
+  "browserReport": "ricostruzioni/2026-11-23/verifiche/risultati.json"
+}

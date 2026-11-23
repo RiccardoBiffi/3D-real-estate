@@ -1,6 +1,56 @@
 {
-  "artifactId": "basovizza-563-1",
-  "artifactSha256": "911c9c06fc7defdb6bb76bd297c7d1777cb9267de46fc8cdcc6d8f21e706b7bb",
+  "id": "basovizza-563-1",
+  "status": "ready",
+  "path": "modelli/basovizza-563-1.html",
+  "views": [
+    {
+      "id": "exterior",
+      "label": "Esterno"
+    },
+    {
+      "id": "primo",
+      "label": "Primo piano"
+    },
+    {
+      "id": "terra",
+      "label": "Piano terra"
+    },
+    {
+      "id": "interrato",
+      "label": "Piano interrato"
+    }
+  ],
+  "notes": [
+    "Sedute chiare, poltroncine rosse, sgabelli in rovere e biancheria verde a righe.",
+    "I contorni e le divisioni seguono le tavole indicate. Le misure assolute prive di quota, alcune aperture, le altezze e le dimensioni dei mobili sono stime."
+  ],
+  "verifiedAt": "2026-11-23T12:47:02+01:00",
+  "artifactSha256": "656af402cc6ead7cbadbcb2164e297948baa1ea9b30b430c7695c591e8f24cd3",
+  "sourcePlans": [
+    {
+      "label": "3",
+      "url": "https://pic.im-cdn.it/plan/130349722/xxl.jpg"
+    },
+    {
+      "label": "1",
+      "url": "https://pic.im-cdn.it/plan/130349726/xxl.jpg"
+    },
+    {
+      "label": "2",
+      "url": "https://pic.im-cdn.it/plan/130349724/xxl.jpg"
+    },
+    {
+      "label": "4",
+      "url": "https://pic.im-cdn.it/plan/130349728/xxl.jpg"
+    },
+    {
+      "label": "Fascicolo originale Opera Immobiliare",
+      "url": "https://operaimmobiliarets.it/wp-content/uploads/2026/06/IntestazionePlanimetriaBasovizza563.1.pdf"
+    }
+  ],
+  "unrenderedVolumes": [],
+  "coverage": "complete",
+  "preview": "assets/basovizza-563-1.jpg",
   "qa": {
     "staticPassed": true,
     "browserPassed": true,
@@ -9,10 +59,13 @@
   },
   "fidelity": {
     "passed": true,
-    "basis": "Approvazione precedente conservata; digest dell’artefatto immutato."
+    "basis": "Riesame visivo dei fronti fotografati e delle parti modellate."
   },
   "independentReview": {
     "passed": true,
-    "artifactSha256": "911c9c06fc7defdb6bb76bd297c7d1777cb9267de46fc8cdcc6d8f21e706b7bb"
-  }
+    "artifactSha256": "656af402cc6ead7cbadbcb2164e297948baa1ea9b30b430c7695c591e8f24cd3",
+    "method": "Seconda lettura di fotografie, viste renderizzate e sovrapposizioni disponibili. Le misure e le parti omesse sono dichiarate nella scheda."
+  },
+  "evidenceIndex": "ricostruzioni/2026-11-23/index.html#basovizza-563-1",
+  "browserReport": "ricostruzioni/2026-11-23/verifiche/risultati.json"
 }

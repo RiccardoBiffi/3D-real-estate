@@ -1,0 +1,70 @@
+{
+  "id": "strada-di-fiume-370",
+  "status": "ready",
+  "path": "modelli/strada-di-fiume-370.html",
+  "views": [
+    {
+      "id": "view-0",
+      "label": "Esterno attuale · giardino"
+    },
+    {
+      "id": "view-1",
+      "label": "Esterno attuale · scala e terrazza"
+    },
+    {
+      "id": "view-2",
+      "label": "Progetto · sottotetto"
+    },
+    {
+      "id": "view-3",
+      "label": "Progetto · piano primo"
+    },
+    {
+      "id": "view-4",
+      "label": "Progetto · piano terra e cantine"
+    }
+  ],
+  "coverage": "partial",
+  "unrenderedVolumes": [
+    "Distribuzione interna attuale precedente ai lavori. I tre piani esplorabili riproducono esclusivamente la proposta approvata.",
+    "Impianti, finiture definitive, tettoie, recinzioni e quote dell’intero giardino.",
+    "Altezze libere sotto falda e geometria dei lucernari. Il piano sottotetto documenta l’altezza massima di 2,77 m."
+  ],
+  "notes": [
+    "Le foto mostrano la casa da ristrutturare, con murature a vista e mansarda libera. I tre tagli rappresentano lo stato di progetto quotato. Divano chiaro, tavolino in legno, cucina e letti verdi si ispirano ai render dell’agenzia. Il posizionamento del mobilio è indicativo."
+  ],
+  "verifiedAt": "2026-11-23T13:04:34+01:00",
+  "artifactSha256": "cf75860e645916a5ec70b714297d8c2505eb1cdccb7495880d19de21cac5b672",
+  "sourcePlans": [
+    {
+      "url": "https://pic.im-cdn.it/plan/132190010/xxl.jpg",
+      "label": "Progetto · sottotetto"
+    },
+    {
+      "url": "https://pic.im-cdn.it/plan/132190014/xxl.jpg",
+      "label": "Progetto · piano primo"
+    },
+    {
+      "url": "https://pic.im-cdn.it/plan/132190012/xxl.jpg",
+      "label": "Progetto · piano terra e cantine"
+    }
+  ],
+  "preview": "assets/strada-di-fiume-370.jpg",
+  "qa": {
+    "staticPassed": true,
+    "browserPassed": true,
+    "geometryPassed": true,
+    "orthographicPassed": true
+  },
+  "fidelity": {
+    "passed": true,
+    "basis": "Riesame visivo dei fronti fotografati e delle parti modellate."
+  },
+  "independentReview": {
+    "passed": true,
+    "artifactSha256": "cf75860e645916a5ec70b714297d8c2505eb1cdccb7495880d19de21cac5b672",
+    "method": "Seconda lettura di fotografie, viste renderizzate e sovrapposizioni disponibili. Le misure e le parti omesse sono dichiarate nella scheda."
+  },
+  "evidenceIndex": "ricostruzioni/2026-11-23/index.html#strada-di-fiume-370",
+  "browserReport": "ricostruzioni/2026-11-23/verifiche/risultati.json"
+}

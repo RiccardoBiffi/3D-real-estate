@@ -1,6 +1,60 @@
 {
-  "artifactId": "via-dello-scoglio-173",
-  "artifactSha256": "09affd7a97697f4fa40025a4eca394d46186b7f1f7d8f53b6c6d44c0dfd5d789",
+  "id": "via-dello-scoglio-173",
+  "status": "ready",
+  "path": "modelli/via-dello-scoglio-173.html",
+  "views": [
+    {
+      "id": "exterior",
+      "label": "Esterno"
+    },
+    {
+      "id": "primo",
+      "label": "Primo piano"
+    },
+    {
+      "id": "terra",
+      "label": "Piano terra"
+    },
+    {
+      "id": "interrato",
+      "label": "Seminterrato"
+    },
+    {
+      "id": "box",
+      "label": "Box auto: vista autonoma"
+    },
+    {
+      "id": "cantina-box",
+      "label": "Cantina box: vista autonoma"
+    }
+  ],
+  "notes": [
+    "Divano lilla, piano cucina scuro e armadi in legno con letto chiaro.",
+    "I contorni e le divisioni seguono le tavole indicate. Le misure assolute prive di quota, alcune aperture, le altezze e le dimensioni dei mobili sono stime."
+  ],
+  "verifiedAt": "2026-11-23T12:47:02+01:00",
+  "artifactSha256": "f789bade14b669d8d9a91c8983fac58a581536c02935bdaf1e9c699644906d55",
+  "sourcePlans": [
+    {
+      "label": "2 planimetria per pubblicita 1",
+      "url": "https://pic.im-cdn.it/plan/132851160/xxl.jpg"
+    },
+    {
+      "label": "2 planimetria per pubblicita 2",
+      "url": "https://pic.im-cdn.it/plan/132851162/xxl.jpg"
+    },
+    {
+      "label": "2 planimetria per pubblicita 3",
+      "url": "https://pic.im-cdn.it/plan/132851164/xxl.jpg"
+    }
+  ],
+  "unrenderedVolumes": [
+    "Posizione del corpo garage/cantina rispetto alla villa: non documentata nel lotto; ricostruito soltanto nelle due viste autonome.",
+    "Rampe e collegamenti delle due scale interne: impronte non allineabili con certezza fra piante; nessun collegamento inventato. Fori documentati mostrati nei piani superiori.",
+    "Cortile rialzato di accesso100mq, confini di pertinenze non disegnati e rapporto col garage: non ricostruiti."
+  ],
+  "coverage": "partial",
+  "preview": "assets/via-dello-scoglio-173.jpg",
   "qa": {
     "staticPassed": true,
     "browserPassed": true,
@@ -9,10 +63,13 @@
   },
   "fidelity": {
     "passed": true,
-    "basis": "Approvazione precedente conservata; digest dell’artefatto immutato."
+    "basis": "Riesame visivo dei fronti fotografati e delle parti modellate."
   },
   "independentReview": {
     "passed": true,
-    "artifactSha256": "09affd7a97697f4fa40025a4eca394d46186b7f1f7d8f53b6c6d44c0dfd5d789"
-  }
+    "artifactSha256": "f789bade14b669d8d9a91c8983fac58a581536c02935bdaf1e9c699644906d55",
+    "method": "Seconda lettura di fotografie, viste renderizzate e sovrapposizioni disponibili. Le misure e le parti omesse sono dichiarate nella scheda."
+  },
+  "evidenceIndex": "ricostruzioni/2026-11-23/index.html#via-dello-scoglio-173",
+  "browserReport": "ricostruzioni/2026-11-23/verifiche/risultati.json"
 }

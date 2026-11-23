@@ -1,19 +1,51 @@
 #!/usr/bin/env python3
 """Build a public static directory containing only the catalog's approved assets."""
-import argparse,hashlib,json,shutil,tempfile
+import argparse,hashlib,json,re,shutil,tempfile
 from pathlib import Path
 import importlib.util
 spec=importlib.util.spec_from_file_location('catalog_validator',Path(__file__).with_name('validate-catalog.py'));validator=importlib.util.module_from_spec(spec);spec.loader.exec_module(validator)
+
+def collection_files(catalog, dist):
+ collection=catalog.get('reconstructionCollection')
+ if not collection:
+  return set()
+ directory=collection['directory']
+ if not re.fullmatch(r'ricostruzioni/\d{4}-\d{2}-\d{2}',directory):
+  raise ValueError('Invalid reconstruction collection directory')
+ collection_index=json.loads((dist/directory/'fonti-e-copertura.json').read_text())
+ names={'index.html','fonti-e-copertura.json','verifica-annunci.csv','verifiche/risultati.json','verifiche/catalogo.json'}
+ approved={p['id'] for p in catalog['properties'] if p['model']['status']=='ready'}
+ for house in collection_index['properties']:
+  pid=house['id']
+  if pid not in approved:
+   raise ValueError(f'{pid}: collection entry has no approved model')
+  for source in [*house['planFiles'], *house['thumbs']]:
+   name=source['path']
+   if not re.fullmatch(r'fonti/'+re.escape(pid)+r'/[\w.-]+\.(jpg|jpeg|png|webp|pdf)',name,re.I):
+    raise ValueError(f'{pid}: invalid source asset {name}')
+   names.add(name)
+  for comparison in house['comparisons']:
+   name=comparison['file']
+   if not re.fullmatch(re.escape(pid)+r'[-\w.]*\.(jpg|jpeg|png|webp)',name,re.I):
+    raise ValueError(f'{pid}: invalid comparison asset {name}')
+   names.add('confronti/'+name)
+ return {f'{directory}/{name}' for name in names}
+
 def stage(dist,out,work,baseline=None):
  catalog=json.loads((dist/'data/catalog.json').read_text());errors=validator.validate(catalog,dist,work,baseline)
  if errors:raise ValueError(errors)
  allowed={'index.html','app.js','styles.css','assets/favicon.svg','data/catalog.json'}
+ allowed.update(collection_files(catalog,dist))
  models=[]
  for prop in catalog['properties']:
   model=prop['model']
   if model['status']=='ready':
    allowed.add(model['path'])
    if model.get('preview'):allowed.add(model['preview'])
+   for alias in model.get('previewAliases',[]):
+    if not re.fullmatch(r'assets/[a-z0-9-]+\.jpg',alias):
+     raise ValueError(f'Invalid public preview alias {alias}')
+    allowed.add(alias)
    models.append({'id':prop['id'],'path':model['path'],'sha256':model['artifactSha256'],'coverage':model['coverage']})
  with tempfile.TemporaryDirectory(prefix='case-release-',dir=out.parent) as tmp:
   target=Path(tmp)/'public'

@@ -1,0 +1,52 @@
+{
+  "id": "trebiciano-257",
+  "status": "ready",
+  "path": "modelli/trebiciano-257.html",
+  "views": [
+    {
+      "label": "Esterno · primo fronte",
+      "level": null,
+      "camera": {
+        "yaw": 0.73,
+        "pitch": 0.48
+      }
+    },
+    {
+      "label": "Esterno · fronte opposto",
+      "level": null,
+      "camera": {
+        "yaw": -2.38,
+        "pitch": 0.54
+      }
+    }
+  ],
+  "notes": [
+    "Intonaco ocra, basamento e box in pietra, falde inclinate. Le foto interne mostrano sedute rosse, cucina in legno e piscina coperta.",
+    "Involucro ricostruito dalle immagini. Le dimensioni e le profondità sono indicative."
+  ],
+  "verifiedAt": "2026-11-23T12:47:02+01:00",
+  "artifactSha256": "56888cfa5e0efaca4ae18e3e85be3ad8220caca5b1ebac83d16e41c8bed64e96",
+  "sourcePlans": [],
+  "unrenderedVolumes": [
+    "Interni, piscina coperta, rampe e confini del parco."
+  ],
+  "coverage": "exterior_only",
+  "preview": "assets/trebiciano-257.jpg",
+  "qa": {
+    "staticPassed": true,
+    "browserPassed": true,
+    "geometryPassed": true,
+    "orthographicPassed": null
+  },
+  "fidelity": {
+    "passed": true,
+    "basis": "Riesame visivo dei fronti fotografati e delle parti modellate."
+  },
+  "independentReview": {
+    "passed": true,
+    "artifactSha256": "56888cfa5e0efaca4ae18e3e85be3ad8220caca5b1ebac83d16e41c8bed64e96",
+    "method": "Seconda lettura di fotografie, viste renderizzate e sovrapposizioni disponibili. Le misure e le parti omesse sono dichiarate nella scheda."
+  },
+  "evidenceIndex": "ricostruzioni/2026-11-23/index.html#trebiciano-257",
+  "browserReport": "ricostruzioni/2026-11-23/verifiche/risultati.json"
+}

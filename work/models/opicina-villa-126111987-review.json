@@ -1,6 +1,47 @@
 {
-  "artifactId": "opicina-villa-126111987",
-  "artifactSha256": "b53a87868aaf810d2330f906e0bee781960133e4d53e1b3bfa7977231fc3158e",
+  "id": "opicina-villa-126111987",
+  "status": "ready",
+  "path": "modelli/opicina-villa-126111987.html",
+  "views": [
+    {
+      "id": "exterior",
+      "label": "Esterno della casa principale",
+      "level": null
+    },
+    {
+      "id": "terra",
+      "label": "Piano terra",
+      "level": 1
+    },
+    {
+      "id": "cantina",
+      "label": "Cantina (tavola catastale, scala omessa)",
+      "level": 0
+    }
+  ],
+  "notes": [
+    "Divano rosso, isola scura in cucina, letto verde petrolio e camino in pietra.",
+    "I contorni e le divisioni seguono le tavole indicate. Le misure assolute prive di quota, alcune aperture, le altezze e le dimensioni dei mobili sono stime."
+  ],
+  "verifiedAt": "2026-11-23T12:47:02+01:00",
+  "artifactSha256": "69002c402a041c76c65dffc98e5444001ba5bc3093f980219d07064e4fb6096b",
+  "sourcePlans": [
+    {
+      "label": "Planimetria Catastale via Fiordalisi 3 Opicina Tri",
+      "url": "https://pic.im-cdn.it/plan/121975469/xxl.jpg"
+    },
+    {
+      "label": "Planimetria Catastale via Fiordalisi 3 Opicina Tri",
+      "url": "https://pic.im-cdn.it/plan/122300559/xxl.jpg"
+    }
+  ],
+  "unrenderedVolumes": [
+    "Taverna e sue divisioni attuali: fotografate ma non riportate nelle tavole, non renderizzate.",
+    "Magazzini/accessori SUB.2 e SUB.3: nella pianta sono soltanto sagome senza distribuzione e aperture, non renderizzati.",
+    "Scala esterna della cantina: le due tavole non consentono un raccordo certo tra quote e posizione; collegamento non renderizzato."
+  ],
+  "coverage": "partial",
+  "preview": "assets/opicina-villa-126111987.jpg",
   "qa": {
     "staticPassed": true,
     "browserPassed": true,
@@ -9,10 +50,13 @@
   },
   "fidelity": {
     "passed": true,
-    "basis": "Approvazione precedente conservata; digest dell’artefatto immutato."
+    "basis": "Riesame visivo dei fronti fotografati e delle parti modellate."
   },
   "independentReview": {
     "passed": true,
-    "artifactSha256": "b53a87868aaf810d2330f906e0bee781960133e4d53e1b3bfa7977231fc3158e"
-  }
+    "artifactSha256": "69002c402a041c76c65dffc98e5444001ba5bc3093f980219d07064e4fb6096b",
+    "method": "Seconda lettura di fotografie, viste renderizzate e sovrapposizioni disponibili. Le misure e le parti omesse sono dichiarate nella scheda."
+  },
+  "evidenceIndex": "ricostruzioni/2026-11-23/index.html#opicina-villa-126111987",
+  "browserReport": "ricostruzioni/2026-11-23/verifiche/risultati.json"
 }

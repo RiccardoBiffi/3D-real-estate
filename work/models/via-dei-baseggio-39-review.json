@@ -1,0 +1,53 @@
+{
+  "id": "via-dei-baseggio-39",
+  "status": "ready",
+  "path": "modelli/via-dei-baseggio-39.html",
+  "views": [
+    {
+      "id": "view-0",
+      "label": "Esterno"
+    },
+    {
+      "id": "view-1",
+      "label": "Piano primo"
+    },
+    {
+      "id": "view-2",
+      "label": "Piano terra"
+    }
+  ],
+  "coverage": "partial",
+  "unrenderedVolumes": [
+    "Ripostiglio al piano terra citato nel testo dell’annuncio. La tavola consente di tracciare la scala e il bagno, senza un perimetro distinto del ripostiglio.",
+    "Confine del cortile presso i fabbricati accostati e dettagli minuti della copertura."
+  ],
+  "notes": [
+    "Le foto dello stato ristrutturato mostrano stanze libere, parquet chiaro, pareti bianche, scala grigia e sanitari bianchi. Gli arredi del salone e delle due camere compaiono esclusivamente nelle immagini di allestimento virtuale dell’agenzia. Nel modello sono presenti i sanitari documentati. I vani sono ricalcati sulla tavola dello stato di fatto e scalati sulla quota di 3,45 m della camera."
+  ],
+  "verifiedAt": "2026-11-23T13:14:20+01:00",
+  "artifactSha256": "52ad8479dad1ca1c7fff12982dbef7d573bc7244ba4bdc66da5d1cda7212d875",
+  "sourcePlans": [
+    {
+      "url": "https://pic.im-cdn.it/plan/130058664/xxl.jpg",
+      "label": "Prospetto, sezione e piante dello stato di fatto"
+    }
+  ],
+  "preview": "assets/via-dei-baseggio-39.jpg",
+  "qa": {
+    "staticPassed": true,
+    "browserPassed": true,
+    "geometryPassed": true,
+    "orthographicPassed": true
+  },
+  "fidelity": {
+    "passed": true,
+    "basis": "Riesame visivo dei fronti fotografati e delle parti modellate."
+  },
+  "independentReview": {
+    "passed": true,
+    "artifactSha256": "52ad8479dad1ca1c7fff12982dbef7d573bc7244ba4bdc66da5d1cda7212d875",
+    "method": "Seconda lettura di fotografie, viste renderizzate e sovrapposizioni disponibili. Le misure e le parti omesse sono dichiarate nella scheda."
+  },
+  "evidenceIndex": "ricostruzioni/2026-11-23/index.html#via-dei-baseggio-39",
+  "browserReport": "ricostruzioni/2026-11-23/verifiche/risultati.json"
+}

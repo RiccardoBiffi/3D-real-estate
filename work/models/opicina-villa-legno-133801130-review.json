@@ -1,0 +1,59 @@
+{
+  "id": "opicina-villa-legno-133801130",
+  "status": "ready",
+  "path": "modelli/opicina-villa-legno-133801130.html",
+  "views": [
+    {
+      "id": "view-0",
+      "label": "Esterno, piscina e portico"
+    },
+    {
+      "id": "view-1",
+      "label": "Piano terra della villa"
+    },
+    {
+      "id": "view-2",
+      "label": "Deposito attrezzi, vista autonoma"
+    }
+  ],
+  "coverage": "partial",
+  "unrenderedVolumes": [
+    "Confini e quote del terreno, strada privata e ricoveri accessori privi di geometria leggibile.",
+    "Posizione e raccordi del deposito attrezzi rispetto al corpo principale: ricostruzione in vista autonoma. Il bagno del magazzino descritto dall’annuncio non compare nella sua tavola ed è omesso.",
+    "Volumi accessori, terrazze e portico lato accesso non registrabili fra tavola e fotografia: sono mostrati il portico accanto alla piscina e il corpo principale.",
+    "Arredo della seconda stanza e raccordi verticali sotto le falde privi di un riscontro fotografico sicuro."
+  ],
+  "notes": [
+    "La zona giorno ha una cucina grigia con penisola, tavolo tondo chiaro e sedie scure, divano grigio, mobile TV in legno e libreria. Nella camera affacciata sulla piscina sono riconoscibili il letto matrimoniale con tessili azzurri e l’armadiatura. L’ingresso ospita librerie in legno e una seduta verde. Il tavolo con sedie in legno segue la veranda fotografata. Ingombri e posizioni fini sono approssimati."
+  ],
+  "verifiedAt": "2026-11-23T13:04:50+01:00",
+  "artifactSha256": "e7ad73d8b38366dae034db1f1507064bdc7c8a0b4b9f6894fdc8a8a456f3d16f",
+  "sourcePlans": [
+    {
+      "url": "https://pic.im-cdn.it/plan/136602442/xxl.jpg",
+      "label": "Planimetria della villa e del lotto"
+    },
+    {
+      "url": "https://pic.im-cdn.it/plan/136602444/xxl.jpg",
+      "label": "Planimetria autonoma del deposito"
+    }
+  ],
+  "preview": "assets/opicina-villa-legno-133801130.jpg",
+  "qa": {
+    "staticPassed": true,
+    "browserPassed": true,
+    "geometryPassed": true,
+    "orthographicPassed": true
+  },
+  "fidelity": {
+    "passed": true,
+    "basis": "Riesame visivo dei fronti fotografati e delle parti modellate."
+  },
+  "independentReview": {
+    "passed": true,
+    "artifactSha256": "e7ad73d8b38366dae034db1f1507064bdc7c8a0b4b9f6894fdc8a8a456f3d16f",
+    "method": "Seconda lettura di fotografie, viste renderizzate e sovrapposizioni disponibili. Le misure e le parti omesse sono dichiarate nella scheda."
+  },
+  "evidenceIndex": "ricostruzioni/2026-11-23/index.html#opicina-villa-legno-133801130",
+  "browserReport": "ricostruzioni/2026-11-23/verifiche/risultati.json"
+}

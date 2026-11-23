@@ -1,40 +1,83 @@
 {
   "id": "conconello-69-1",
   "title": "Via di Conconello 69/1",
-  "creationStarted": "2026-11-16T18:49:43.607486+01:00",
+  "creationStarted": "2026-11-23T12:55:42+01:00",
   "coverage": "partial",
   "unrenderedVolumes": [
-    "Sviluppo verticale delle rampe e raccordi fra piani: restano i vani, le impronte e i pianerottoli leggibili.",
-    "Tetto, composizione del fronte della schiera e allineamento del posto auto alla casa.",
-    "Locali e terreni confinanti esterni alla porzione indicata."
+    "Raccordo altimetrico preciso delle scale e del portico. La scala interna in legno è indicativa.",
+    "Relazione fra il posto auto coperto catastale, mostrato separatamente, e la schiera. Perimetro dei lotti confinanti.",
+    "Profondità della bussola, falde nascoste e attacco alla villetta limitrofa: la forma del tetto è dedotta dalle riprese aeree."
   ],
   "sources": [
     {
-      "file": "plan-135334968.jpg",
-      "url": "https://pic.im-cdn.it/plan/135334968/xxl.jpg",
-      "sha256": "4c961a16dea1e22d4adc24dd1919c0d347429329f0ab924d3d317fa4fe83cea9",
-      "id": "listing-asset-1",
-      "pageUrl": "https://www.immobiliare.it/annunci/133024742/",
-      "type": "plan",
-      "actuallyInspected": true
+      "url": "https://www.immobiliare.it/annunci/133024742/",
+      "type": "listing"
     },
     {
-      "file": "plan-135334970.jpg",
-      "url": "https://pic.im-cdn.it/plan/135334970/xxl.jpg",
-      "sha256": "f04adb885d31e28880b0d359ad3df3e71f2b8a0154e8fa57d8b97d3a8084276f",
-      "id": "listing-asset-2",
-      "pageUrl": "https://www.immobiliare.it/annunci/133024742/",
-      "type": "plan",
-      "actuallyInspected": true
-    },
-    {
-      "file": "photo-2018666604.jpg",
-      "url": "https://pwm.im-cdn.it/image/2018666604/cover-m-c.jpg",
-      "sha256": "7c0ffb1fdeef719c3188f0f09de87b7a52ebcada2e2e975a6c4f53569fd461f7",
-      "id": "listing-asset-3",
-      "pageUrl": "https://www.immobiliare.it/annunci/133024742/",
       "type": "photograph",
-      "actuallyInspected": true
+      "file": "foto-f04.jpg",
+      "url": "https://pwm.im-cdn.it/image/2017581054/xxl.jpg",
+      "label": "Facciata"
+    },
+    {
+      "type": "photograph",
+      "file": "foto-f08.jpg",
+      "url": "https://pwm.im-cdn.it/image/2036928358/xxl.jpg",
+      "label": "Taverna"
+    },
+    {
+      "type": "photograph",
+      "file": "foto-f21.jpg",
+      "url": "https://pwm.im-cdn.it/image/2017580330/xxl.jpg",
+      "label": "Salone"
+    },
+    {
+      "type": "photograph",
+      "file": "foto-f23.jpg",
+      "url": "https://pwm.im-cdn.it/image/2017580412/xxl.jpg",
+      "label": "Salone"
+    },
+    {
+      "type": "photograph",
+      "file": "foto-f31.jpg",
+      "url": "https://pwm.im-cdn.it/image/2036928528/xxl.jpg",
+      "label": "Camera da letto"
+    },
+    {
+      "type": "photograph",
+      "file": "foto-f38.jpg",
+      "url": "https://pwm.im-cdn.it/image/2036928646/xxl.jpg",
+      "label": "Cucina"
+    },
+    {
+      "type": "photograph",
+      "file": "foto-f43.jpg",
+      "url": "https://pwm.im-cdn.it/image/2017580652/xxl.jpg",
+      "label": "Camera da letto"
+    },
+    {
+      "type": "photograph",
+      "file": "foto-f50.jpg",
+      "url": "https://pwm.im-cdn.it/image/2023562982/xxl.jpg",
+      "label": "Camera da letto"
+    },
+    {
+      "type": "photograph",
+      "file": "foto-f54.jpg",
+      "url": "https://pwm.im-cdn.it/image/2017580934/xxl.jpg",
+      "label": "Facciata"
+    },
+    {
+      "type": "floorplan",
+      "file": "tavola-p00.jpg",
+      "url": "https://pic.im-cdn.it/plan/135334968/xxl.jpg",
+      "label": "PLN via di Conconello 1"
+    },
+    {
+      "type": "floorplan",
+      "file": "tavola-p01.jpg",
+      "url": "https://pic.im-cdn.it/plan/135334970/xxl.jpg",
+      "label": "PLN via di Conconello 2"
     }
   ],
   "geometrySource": "manual-plan-trace",
@@ -136,9 +179,123 @@
           ],
           "thickness": 0.18,
           "openings": []
+        },
+        {
+          "a": [
+            0,
+            -0.13
+          ],
+          "b": [
+            4.68,
+            -0.13
+          ],
+          "thickness": 0.085,
+          "openings": [
+            {
+              "kind": "window",
+              "start": 0.25,
+              "end": 4.36,
+              "sill": 0.03,
+              "height": 2.09
+            }
+          ],
+          "color": "#ded8c7",
+          "height": 2.28
         }
       ],
-      "furniture": [],
+      "furniture": [
+        {
+          "kind": "fireplace",
+          "x": 4.27,
+          "z": 1.22,
+          "width": 1.01,
+          "depth": 0.54,
+          "rotation": -1.5707963267948966,
+          "color": "#d6cabc",
+          "photoId": "f08"
+        },
+        {
+          "kind": "sofa",
+          "x": 1.09,
+          "z": 2.88,
+          "width": 1.55,
+          "depth": 0.74,
+          "rotation": 1.5707963267948966,
+          "color": "#4b4942",
+          "photoId": "f10"
+        },
+        {
+          "kind": "cabinet",
+          "x": 4.27,
+          "z": 2.25,
+          "width": 0.9,
+          "depth": 0.4,
+          "rotation": -1.5707963267948966,
+          "color": "#8c6849",
+          "photoId": "f08"
+        },
+        {
+          "kind": "basin",
+          "x": 4.22,
+          "z": 3.4,
+          "width": 0.55,
+          "depth": 0.42,
+          "rotation": -1.5707963267948966,
+          "color": "#ccc8bb",
+          "photoId": "f08"
+        },
+        {
+          "kind": "table",
+          "x": 2.13,
+          "z": 1.18,
+          "width": 1.38,
+          "depth": 0.72,
+          "rotation": 1.5707963267948966,
+          "color": "#b9975c",
+          "photoId": "f08",
+          "round": false
+        },
+        {
+          "kind": "chair",
+          "x": 2.6399999999999997,
+          "z": 1.525,
+          "width": 0.42,
+          "depth": 0.44,
+          "rotation": 4.71238898038469,
+          "color": "#73543c",
+          "photoId": "f08"
+        },
+        {
+          "kind": "chair",
+          "x": 1.6199999999999999,
+          "z": 1.525,
+          "width": 0.42,
+          "depth": 0.44,
+          "rotation": 1.5707963267948966,
+          "color": "#73543c",
+          "photoId": "f08"
+        },
+        {
+          "kind": "chair",
+          "x": 2.6399999999999997,
+          "z": 0.835,
+          "width": 0.42,
+          "depth": 0.44,
+          "rotation": 4.71238898038469,
+          "color": "#73543c",
+          "photoId": "f08"
+        },
+        {
+          "kind": "chair",
+          "x": 1.6199999999999999,
+          "z": 0.835,
+          "width": 0.42,
+          "depth": 0.44,
+          "rotation": 1.5707963267948966,
+          "color": "#73543c",
+          "photoId": "f08"
+        }
+      ],
       "stairs": [],
       "holes": [],
       "sourcePlan": "plan-135334968.jpg",
@@ -313,13 +470,38 @@
           "color": "#b9b2a2"
         }
       ],
-      "floorUse": "Portico, WC/lavanderia e porzione di giardino e passaggio aperti.",
+      "floorUse": "Portico catastale con uso di taverna visibile nelle fotografie. Posizione dell’arredo indicativa.",
       "exteriorVisible": false,
-      "registration": "autonomous-unregistered"
+      "registration": "autonomous-unregistered",
+      "surfaces": [
+        {
+          "points": [
+            [
+              -0.046,
+              -0.138
+            ],
+            [
+              4.692,
+              -0.138
+            ],
+            [
+              4.692,
+              4.278
+            ],
+            [
+              -0.046,
+              4.278
+            ]
+          ],
+          "holes": [],
+          "color": "#aaa69e",
+          "finish": "tile"
+        }
+      ]
     },
     {
       "label": "Primo piano — zona abitativa, h 2,60 m",
-      "y": 0,
+      "y": 2.46,
       "height": 2.6,
       "outline": [
         [
@@ -517,7 +699,150 @@
           "height": 0.92
         }
       ],
-      "furniture": [],
+      "furniture": [
+        {
+          "kind": "sofa",
+          "x": 1.27,
+          "z": 2.91,
+          "width": 2.12,
+          "depth": 0.85,
+          "rotation": 1.5707963267948966,
+          "color": "#c58b39",
+          "photoId": "f21"
+        },
+        {
+          "kind": "rug",
+          "x": 2.2,
+          "z": 3.13,
+          "width": 1.51,
+          "depth": 2.3,
+          "rotation": 0.0,
+          "color": "#813e36",
+          "photoId": "f23"
+        },
+        {
+          "kind": "table",
+          "x": 1.75,
+          "z": 2.88,
+          "width": 0.57,
+          "depth": 0.55,
+          "rotation": 0.0,
+          "color": "#42403b",
+          "photoId": "f21"
+        },
+        {
+          "kind": "cabinet",
+          "x": 4.44,
+          "z": 2.86,
+          "width": 1.72,
+          "depth": 0.41,
+          "rotation": -1.5707963267948966,
+          "color": "#977048",
+          "photoId": "f23"
+        },
+        {
+          "kind": "kitchen",
+          "x": 0.43,
+          "z": 6.78,
+          "width": 2.73,
+          "depth": 0.55,
+          "rotation": 1.5707963267948966,
+          "color": "#514f4c",
+          "photoId": "f38",
+          "counter": "#d4d0c9"
+        },
+        {
+          "kind": "table",
+          "x": 1.55,
+          "z": 7.35,
+          "width": 0.94,
+          "depth": 0.38,
+          "rotation": -1.5707963267948966,
+          "color": "#b7a99a",
+          "photoId": "f38"
+        },
+        {
+          "kind": "bed",
+          "x": 3.55,
+          "z": 7.1,
+          "width": 1.49,
+          "depth": 1.86,
+          "rotation": 1.5707963267948966,
+          "color": "#c5baba",
+          "photoId": "f31"
+        },
+        {
+          "kind": "wardrobe",
+          "x": 2.09,
+          "z": 7.29,
+          "width": 1.49,
+          "depth": 0.35,
+          "rotation": 1.5707963267948966,
+          "color": "#d7d6cc",
+          "photoId": "f31"
+        },
+        {
+          "kind": "basin",
+          "x": 4.42,
+          "z": 4.78,
+          "width": 0.56,
+          "depth": 0.36,
+          "rotation": -1.5707963267948966,
+          "color": "#c7c5bd",
+          "photoId": "f45"
+        },
+        {
+          "kind": "table",
+          "x": 3.63,
+          "z": 1.07,
+          "width": 1.33,
+          "depth": 0.73,
+          "rotation": 0.0,
+          "color": "#d0c4ad",
+          "photoId": "f23",
+          "round": false
+        },
+        {
+          "kind": "chair",
+          "x": 3.2975,
+          "z": 1.585,
+          "width": 0.42,
+          "depth": 0.44,
+          "rotation": 3.141592653589793,
+          "color": "#454b4b",
+          "photoId": "f23"
+        },
+        {
+          "kind": "chair",
+          "x": 3.2975,
+          "z": 0.555,
+          "width": 0.42,
+          "depth": 0.44,
+          "rotation": 0.0,
+          "color": "#454b4b",
+          "photoId": "f23"
+        },
+        {
+          "kind": "chair",
+          "x": 3.9625,
+          "z": 1.585,
+          "width": 0.42,
+          "depth": 0.44,
+          "rotation": 3.141592653589793,
+          "color": "#454b4b",
+          "photoId": "f23"
+        },
+        {
+          "kind": "chair",
+          "x": 3.9625,
+          "z": 0.555,
+          "width": 0.42,
+          "depth": 0.44,
+          "rotation": 0.0,
+          "color": "#454b4b",
+          "photoId": "f23"
+        }
+      ],
       "stairs": [],
       "holes": [
         [
@@ -796,15 +1121,1291 @@
           "rise": 0,
           "thickness": 0.14,
           "color": "#b9b09d"
+        },
+        {
+          "kind": "beam",
+          "a": [
+            0.83,
+            0.18266666666666667,
+            3.366
+          ],
+          "b": [
+            0.83,
+            0.9626666666666667,
+            3.366
+          ],
+          "color": "#746d61",
+          "radius": 0.016
+        },
+        {
+          "kind": "beam",
+          "a": [
+            0.83,
+            0.548,
+            2.95
+          ],
+          "b": [
+            0.83,
+            1.328,
+            2.95
+          ],
+          "color": "#746d61",
+          "radius": 0.016
+        },
+        {
+          "kind": "beam",
+          "a": [
+            0.83,
+            0.9133333333333334,
+            2.5340000000000003
+          ],
+          "b": [
+            0.83,
+            1.6933333333333334,
+            2.5340000000000003
+          ],
+          "color": "#746d61",
+          "radius": 0.016
+        },
+        {
+          "kind": "beam",
+          "a": [
+            0.83,
+            1.2786666666666666,
+            2.1180000000000003
+          ],
+          "b": [
+            0.83,
+            2.0586666666666664,
+            2.1180000000000003
+          ],
+          "color": "#746d61",
+          "radius": 0.016
+        },
+        {
+          "kind": "beam",
+          "a": [
+            0.83,
+            1.6440000000000003,
+            1.7020000000000002
+          ],
+          "b": [
+            0.83,
+            2.4240000000000004,
+            1.7020000000000002
+          ],
+          "color": "#746d61",
+          "radius": 0.016
+        },
+        {
+          "kind": "beam",
+          "a": [
+            0.83,
+            2.009333333333333,
+            1.2860000000000005
+          ],
+          "b": [
+            0.83,
+            2.7893333333333334,
+            1.2860000000000005
+          ],
+          "color": "#746d61",
+          "radius": 0.016
+        },
+        {
+          "kind": "beam",
+          "a": [
+            0.83,
+            2.374666666666667,
+            0.8700000000000001
+          ],
+          "b": [
+            0.83,
+            3.1546666666666674,
+            0.8700000000000001
+          ],
+          "color": "#746d61",
+          "radius": 0.016
+        },
+        {
+          "kind": "beam",
+          "a": [
+            0.83,
+            2.74,
+            0.4540000000000002
+          ],
+          "b": [
+            0.83,
+            3.5200000000000005,
+            0.4540000000000002
+          ],
+          "color": "#746d61",
+          "radius": 0.016
+        },
+        {
+          "kind": "beam",
+          "a": [
+            0.8,
+            0.89,
+            3.36
+          ],
+          "b": [
+            0.8,
+            3.54,
+            0.43
+          ],
+          "radius": 0.036,
+          "color": "#674d3b"
+        },
+        {
+          "kind": "beam",
+          "a": [
+            0.47,
+            0.05,
+            3.41
+          ],
+          "b": [
+            0.47,
+            2.59,
+            0.43
+          ],
+          "radius": 0.058,
+          "color": "#694d3a"
+        },
+        {
+          "kind": "beam",
+          "a": [
+            1.73,
+            0.14,
+            -1.71
+          ],
+          "b": [
+            4.8,
+            0.14,
+            -1.71
+          ],
+          "color": "#c5c3b6",
+          "radius": 0.028
+        },
+        {
+          "kind": "beam",
+          "a": [
+            1.73,
+            0.91,
+            -1.71
+          ],
+          "b": [
+            4.8,
+            0.91,
+            -1.71
+          ],
+          "color": "#c5c3b6",
+          "radius": 0.028
+        },
+        {
+          "kind": "beam",
+          "a": [
+            1.73,
+            0.03,
+            -1.71
+          ],
+          "b": [
+            1.73,
+            0.91,
+            -1.71
+          ],
+          "color": "#c5c3b6",
+          "radius": 0.016
+        },
+        {
+          "kind": "beam",
+          "a": [
+            2.071111111111111,
+            0.03,
+            -1.71
+          ],
+          "b": [
+            2.071111111111111,
+            0.91,
+            -1.71
+          ],
+          "color": "#c5c3b6",
+          "radius": 0.016
+        },
+        {
+          "kind": "beam",
+          "a": [
+            2.4122222222222223,
+            0.03,
+            -1.71
+          ],
+          "b": [
+            2.4122222222222223,
+            0.91,
+            -1.71
+          ],
+          "color": "#c5c3b6",
+          "radius": 0.016
+        },
+        {
+          "kind": "beam",
+          "a": [
+            2.753333333333333,
+            0.03,
+            -1.71
+          ],
+          "b": [
+            2.753333333333333,
+            0.91,
+            -1.71
+          ],
+          "color": "#c5c3b6",
+          "radius": 0.016
+        },
+        {
+          "kind": "beam",
+          "a": [
+            3.094444444444444,
+            0.03,
+            -1.71
+          ],
+          "b": [
+            3.094444444444444,
+            0.91,
+            -1.71
+          ],
+          "color": "#c5c3b6",
+          "radius": 0.016
+        },
+        {
+          "kind": "beam",
+          "a": [
+            3.4355555555555553,
+            0.03,
+            -1.71
+          ],
+          "b": [
+            3.4355555555555553,
+            0.91,
+            -1.71
+          ],
+          "color": "#c5c3b6",
+          "radius": 0.016
+        },
+        {
+          "kind": "beam",
+          "a": [
+            3.7766666666666664,
+            0.03,
+            -1.71
+          ],
+          "b": [
+            3.7766666666666664,
+            0.91,
+            -1.71
+          ],
+          "color": "#c5c3b6",
+          "radius": 0.016
+        },
+        {
+          "kind": "beam",
+          "a": [
+            4.1177777777777775,
+            0.03,
+            -1.71
+          ],
+          "b": [
+            4.1177777777777775,
+            0.91,
+            -1.71
+          ],
+          "color": "#c5c3b6",
+          "radius": 0.016
+        },
+        {
+          "kind": "beam",
+          "a": [
+            4.458888888888889,
+            0.03,
+            -1.71
+          ],
+          "b": [
+            4.458888888888889,
+            0.91,
+            -1.71
+          ],
+          "color": "#c5c3b6",
+          "radius": 0.016
+        },
+        {
+          "kind": "beam",
+          "a": [
+            4.8,
+            0.03,
+            -1.71
+          ],
+          "b": [
+            4.8,
+            0.91,
+            -1.71
+          ],
+          "color": "#c5c3b6",
+          "radius": 0.016
+        },
+        {
+          "kind": "beam",
+          "a": [
+            4.8,
+            0.14,
+            -1.71
+          ],
+          "b": [
+            4.8,
+            0.14,
+            -0.05
+          ],
+          "color": "#c5c3b6",
+          "radius": 0.028
+        },
+        {
+          "kind": "beam",
+          "a": [
+            4.8,
+            0.91,
+            -1.71
+          ],
+          "b": [
+            4.8,
+            0.91,
+            -0.05
+          ],
+          "color": "#c5c3b6",
+          "radius": 0.028
+        },
+        {
+          "kind": "beam",
+          "a": [
+            4.8,
+            0.03,
+            -1.71
+          ],
+          "b": [
+            4.8,
+            0.91,
+            -1.71
+          ],
+          "color": "#c5c3b6",
+          "radius": 0.016
+        },
+        {
+          "kind": "beam",
+          "a": [
+            4.8,
+            0.03,
+            -1.378
+          ],
+          "b": [
+            4.8,
+            0.91,
+            -1.378
+          ],
+          "color": "#c5c3b6",
+          "radius": 0.016
+        },
+        {
+          "kind": "beam",
+          "a": [
+            4.8,
+            0.03,
+            -1.0459999999999998
+          ],
+          "b": [
+            4.8,
+            0.91,
+            -1.0459999999999998
+          ],
+          "color": "#c5c3b6",
+          "radius": 0.016
+        },
+        {
+          "kind": "beam",
+          "a": [
+            4.8,
+            0.03,
+            -0.7140000000000001
+          ],
+          "b": [
+            4.8,
+            0.91,
+            -0.7140000000000001
+          ],
+          "color": "#c5c3b6",
+          "radius": 0.016
+        },
+        {
+          "kind": "beam",
+          "a": [
+            4.8,
+            0.03,
+            -0.3819999999999999
+          ],
+          "b": [
+            4.8,
+            0.91,
+            -0.3819999999999999
+          ],
+          "color": "#c5c3b6",
+          "radius": 0.016
+        },
+        {
+          "kind": "beam",
+          "a": [
+            4.8,
+            0.03,
+            -0.050000000000000044
+          ],
+          "b": [
+            4.8,
+            0.91,
+            -0.050000000000000044
+          ],
+          "color": "#c5c3b6",
+          "radius": 0.016
+        },
+        {
+          "kind": "beam",
+          "a": [
+            0.05,
+            0.14,
+            9.4
+          ],
+          "b": [
+            4.81,
+            0.14,
+            9.4
+          ],
+          "color": "#c5c3b6",
+          "radius": 0.028
+        },
+        {
+          "kind": "beam",
+          "a": [
+            0.05,
+            0.91,
+            9.4
+          ],
+          "b": [
+            4.81,
+            0.91,
+            9.4
+          ],
+          "color": "#c5c3b6",
+          "radius": 0.028
+        },
+        {
+          "kind": "beam",
+          "a": [
+            0.05,
+            0.03,
+            9.4
+          ],
+          "b": [
+            0.05,
+            0.91,
+            9.4
+          ],
+          "color": "#c5c3b6",
+          "radius": 0.016
+        },
+        {
+          "kind": "beam",
+          "a": [
+            0.38999999999999996,
+            0.03,
+            9.4
+          ],
+          "b": [
+            0.38999999999999996,
+            0.91,
+            9.4
+          ],
+          "color": "#c5c3b6",
+          "radius": 0.016
+        },
+        {
+          "kind": "beam",
+          "a": [
+            0.73,
+            0.03,
+            9.4
+          ],
+          "b": [
+            0.73,
+            0.91,
+            9.4
+          ],
+          "color": "#c5c3b6",
+          "radius": 0.016
+        },
+        {
+          "kind": "beam",
+          "a": [
+            1.0699999999999998,
+            0.03,
+            9.4
+          ],
+          "b": [
+            1.0699999999999998,
+            0.91,
+            9.4
+          ],
+          "color": "#c5c3b6",
+          "radius": 0.016
+        },
+        {
+          "kind": "beam",
+          "a": [
+            1.41,
+            0.03,
+            9.4
+          ],
+          "b": [
+            1.41,
+            0.91,
+            9.4
+          ],
+          "color": "#c5c3b6",
+          "radius": 0.016
+        },
+        {
+          "kind": "beam",
+          "a": [
+            1.75,
+            0.03,
+            9.4
+          ],
+          "b": [
+            1.75,
+            0.91,
+            9.4
+          ],
+          "color": "#c5c3b6",
+          "radius": 0.016
+        },
+        {
+          "kind": "beam",
+          "a": [
+            2.0899999999999994,
+            0.03,
+            9.4
+          ],
+          "b": [
+            2.0899999999999994,
+            0.91,
+            9.4
+          ],
+          "color": "#c5c3b6",
+          "radius": 0.016
+        },
+        {
+          "kind": "beam",
+          "a": [
+            2.4299999999999997,
+            0.03,
+            9.4
+          ],
+          "b": [
+            2.4299999999999997,
+            0.91,
+            9.4
+          ],
+          "color": "#c5c3b6",
+          "radius": 0.016
+        },
+        {
+          "kind": "beam",
+          "a": [
+            2.7699999999999996,
+            0.03,
+            9.4
+          ],
+          "b": [
+            2.7699999999999996,
+            0.91,
+            9.4
+          ],
+          "color": "#c5c3b6",
+          "radius": 0.016
+        },
+        {
+          "kind": "beam",
+          "a": [
+            3.11,
+            0.03,
+            9.4
+          ],
+          "b": [
+            3.11,
+            0.91,
+            9.4
+          ],
+          "color": "#c5c3b6",
+          "radius": 0.016
+        },
+        {
+          "kind": "beam",
+          "a": [
+            3.4499999999999997,
+            0.03,
+            9.4
+          ],
+          "b": [
+            3.4499999999999997,
+            0.91,
+            9.4
+          ],
+          "color": "#c5c3b6",
+          "radius": 0.016
+        },
+        {
+          "kind": "beam",
+          "a": [
+            3.7899999999999996,
+            0.03,
+            9.4
+          ],
+          "b": [
+            3.7899999999999996,
+            0.91,
+            9.4
+          ],
+          "color": "#c5c3b6",
+          "radius": 0.016
+        },
+        {
+          "kind": "beam",
+          "a": [
+            4.129999999999999,
+            0.03,
+            9.4
+          ],
+          "b": [
+            4.129999999999999,
+            0.91,
+            9.4
+          ],
+          "color": "#c5c3b6",
+          "radius": 0.016
+        },
+        {
+          "kind": "beam",
+          "a": [
+            4.47,
+            0.03,
+            9.4
+          ],
+          "b": [
+            4.47,
+            0.91,
+            9.4
+          ],
+          "color": "#c5c3b6",
+          "radius": 0.016
+        },
+        {
+          "kind": "beam",
+          "a": [
+            4.81,
+            0.03,
+            9.4
+          ],
+          "b": [
+            4.81,
+            0.91,
+            9.4
+          ],
+          "color": "#c5c3b6",
+          "radius": 0.016
+        },
+        {
+          "kind": "beam",
+          "a": [
+            0.05,
+            0.14,
+            8.46
+          ],
+          "b": [
+            0.05,
+            0.14,
+            9.4
+          ],
+          "color": "#c5c3b6",
+          "radius": 0.028
+        },
+        {
+          "kind": "beam",
+          "a": [
+            0.05,
+            0.91,
+            8.46
+          ],
+          "b": [
+            0.05,
+            0.91,
+            9.4
+          ],
+          "color": "#c5c3b6",
+          "radius": 0.028
+        },
+        {
+          "kind": "beam",
+          "a": [
+            0.05,
+            0.03,
+            8.46
+          ],
+          "b": [
+            0.05,
+            0.91,
+            8.46
+          ],
+          "color": "#c5c3b6",
+          "radius": 0.016
+        },
+        {
+          "kind": "beam",
+          "a": [
+            0.05,
+            0.03,
+            8.773333333333333
+          ],
+          "b": [
+            0.05,
+            0.91,
+            8.773333333333333
+          ],
+          "color": "#c5c3b6",
+          "radius": 0.016
+        },
+        {
+          "kind": "beam",
+          "a": [
+            0.05,
+            0.03,
+            9.086666666666668
+          ],
+          "b": [
+            0.05,
+            0.91,
+            9.086666666666668
+          ],
+          "color": "#c5c3b6",
+          "radius": 0.016
+        },
+        {
+          "kind": "beam",
+          "a": [
+            0.05,
+            0.03,
+            9.4
+          ],
+          "b": [
+            0.05,
+            0.91,
+            9.4
+          ],
+          "color": "#c5c3b6",
+          "radius": 0.016
+        },
+        {
+          "kind": "beam",
+          "a": [
+            4.81,
+            0.14,
+            8.46
+          ],
+          "b": [
+            4.81,
+            0.14,
+            9.4
+          ],
+          "color": "#c5c3b6",
+          "radius": 0.028
+        },
+        {
+          "kind": "beam",
+          "a": [
+            4.81,
+            0.91,
+            8.46
+          ],
+          "b": [
+            4.81,
+            0.91,
+            9.4
+          ],
+          "color": "#c5c3b6",
+          "radius": 0.028
+        },
+        {
+          "kind": "beam",
+          "a": [
+            4.81,
+            0.03,
+            8.46
+          ],
+          "b": [
+            4.81,
+            0.91,
+            8.46
+          ],
+          "color": "#c5c3b6",
+          "radius": 0.016
+        },
+        {
+          "kind": "beam",
+          "a": [
+            4.81,
+            0.03,
+            8.773333333333333
+          ],
+          "b": [
+            4.81,
+            0.91,
+            8.773333333333333
+          ],
+          "color": "#c5c3b6",
+          "radius": 0.016
+        },
+        {
+          "kind": "beam",
+          "a": [
+            4.81,
+            0.03,
+            9.086666666666668
+          ],
+          "b": [
+            4.81,
+            0.91,
+            9.086666666666668
+          ],
+          "color": "#c5c3b6",
+          "radius": 0.016
+        },
+        {
+          "kind": "beam",
+          "a": [
+            4.81,
+            0.03,
+            9.4
+          ],
+          "b": [
+            4.81,
+            0.91,
+            9.4
+          ],
+          "color": "#c5c3b6",
+          "radius": 0.016
         }
       ],
       "exteriorVisible": true,
-      "registration": "autonomous-unregistered"
+      "registration": "autonomous-unregistered",
+      "surfaces": [
+        {
+          "points": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              4.876,
+              0.0
+            ],
+            [
+              4.876,
+              8.418
+            ],
+            [
+              0.0,
+              8.418
+            ]
+          ],
+          "holes": [
+            [
+              [
+                0.184,
+                0.552
+              ],
+              [
+                0.782,
+                0.552
+              ],
+              [
+                0.782,
+                1.656
+              ],
+              [
+                0.184,
+                1.656
+              ]
+            ]
+          ],
+          "color": "#d6c8b3",
+          "finish": "tile"
+        }
+      ],
+      "stairTreads": [
+        {
+          "points": [
+            [
+              0.12,
+              3.236
+            ],
+            [
+              0.83,
+              3.236
+            ],
+            [
+              0.83,
+              3.496
+            ],
+            [
+              0.12,
+              3.496
+            ]
+          ],
+          "rise": 0.18266666666666667,
+          "thickness": 0.066,
+          "color": "#895c3d"
+        },
+        {
+          "points": [
+            [
+              0.12,
+              3.0280000000000005
+            ],
+            [
+              0.83,
+              3.0280000000000005
+            ],
+            [
+              0.83,
+              3.2880000000000003
+            ],
+            [
+              0.12,
+              3.2880000000000003
+            ]
+          ],
+          "rise": 0.36533333333333334,
+          "thickness": 0.066,
+          "color": "#895c3d"
+        },
+        {
+          "points": [
+            [
+              0.12,
+              2.8200000000000003
+            ],
+            [
+              0.83,
+              2.8200000000000003
+            ],
+            [
+              0.83,
+              3.08
+            ],
+            [
+              0.12,
+              3.08
+            ]
+          ],
+          "rise": 0.548,
+          "thickness": 0.066,
+          "color": "#895c3d"
+        },
+        {
+          "points": [
+            [
+              0.12,
+              2.612
+            ],
+            [
+              0.83,
+              2.612
+            ],
+            [
+              0.83,
+              2.872
+            ],
+            [
+              0.12,
+              2.872
+            ]
+          ],
+          "rise": 0.7306666666666667,
+          "thickness": 0.066,
+          "color": "#895c3d"
+        },
+        {
+          "points": [
+            [
+              0.12,
+              2.4040000000000004
+            ],
+            [
+              0.83,
+              2.4040000000000004
+            ],
+            [
+              0.83,
+              2.664
+            ],
+            [
+              0.12,
+              2.664
+            ]
+          ],
+          "rise": 0.9133333333333334,
+          "thickness": 0.066,
+          "color": "#895c3d"
+        },
+        {
+          "points": [
+            [
+              0.12,
+              2.1960000000000006
+            ],
+            [
+              0.83,
+              2.1960000000000006
+            ],
+            [
+              0.83,
+              2.4560000000000004
+            ],
+            [
+              0.12,
+              2.4560000000000004
+            ]
+          ],
+          "rise": 1.096,
+          "thickness": 0.066,
+          "color": "#895c3d"
+        },
+        {
+          "points": [
+            [
+              0.12,
+              1.9880000000000004
+            ],
+            [
+              0.83,
+              1.9880000000000004
+            ],
+            [
+              0.83,
+              2.248
+            ],
+            [
+              0.12,
+              2.248
+            ]
+          ],
+          "rise": 1.2786666666666666,
+          "thickness": 0.066,
+          "color": "#895c3d"
+        },
+        {
+          "points": [
+            [
+              0.12,
+              1.7800000000000002
+            ],
+            [
+              0.83,
+              1.7800000000000002
+            ],
+            [
+              0.83,
+              2.04
+            ],
+            [
+              0.12,
+              2.04
+            ]
+          ],
+          "rise": 1.4613333333333334,
+          "thickness": 0.066,
+          "color": "#895c3d"
+        },
+        {
+          "points": [
+            [
+              0.12,
+              1.572
+            ],
+            [
+              0.83,
+              1.572
+            ],
+            [
+              0.83,
+              1.8320000000000003
+            ],
+            [
+              0.12,
+              1.8320000000000003
+            ]
+          ],
+          "rise": 1.6440000000000003,
+          "thickness": 0.066,
+          "color": "#895c3d"
+        },
+        {
+          "points": [
+            [
+              0.12,
+              1.3640000000000003
+            ],
+            [
+              0.83,
+              1.3640000000000003
+            ],
+            [
+              0.83,
+              1.624
+            ],
+            [
+              0.12,
+              1.624
+            ]
+          ],
+          "rise": 1.8266666666666669,
+          "thickness": 0.066,
+          "color": "#895c3d"
+        },
+        {
+          "points": [
+            [
+              0.12,
+              1.1560000000000006
+            ],
+            [
+              0.83,
+              1.1560000000000006
+            ],
+            [
+              0.83,
+              1.4160000000000004
+            ],
+            [
+              0.12,
+              1.4160000000000004
+            ]
+          ],
+          "rise": 2.009333333333333,
+          "thickness": 0.066,
+          "color": "#895c3d"
+        },
+        {
+          "points": [
+            [
+              0.12,
+              0.9479999999999998
+            ],
+            [
+              0.83,
+              0.9479999999999998
+            ],
+            [
+              0.83,
+              1.2079999999999997
+            ],
+            [
+              0.12,
+              1.2079999999999997
+            ]
+          ],
+          "rise": 2.192,
+          "thickness": 0.066,
+          "color": "#895c3d"
+        },
+        {
+          "points": [
+            [
+              0.12,
+              0.7400000000000001
+            ],
+            [
+              0.83,
+              0.7400000000000001
+            ],
+            [
+              0.83,
+              1.0
+            ],
+            [
+              0.12,
+              1.0
+            ]
+          ],
+          "rise": 2.374666666666667,
+          "thickness": 0.066,
+          "color": "#895c3d"
+        },
+        {
+          "points": [
+            [
+              0.12,
+              0.5319999999999999
+            ],
+            [
+              0.83,
+              0.5319999999999999
+            ],
+            [
+              0.83,
+              0.7919999999999999
+            ],
+            [
+              0.12,
+              0.7919999999999999
+            ]
+          ],
+          "rise": 2.5573333333333332,
+          "thickness": 0.066,
+          "color": "#895c3d"
+        },
+        {
+          "points": [
+            [
+              0.12,
+              0.3240000000000002
+            ],
+            [
+              0.83,
+              0.3240000000000002
+            ],
+            [
+              0.83,
+              0.5840000000000002
+            ],
+            [
+              0.12,
+              0.5840000000000002
+            ]
+          ],
+          "rise": 2.74,
+          "thickness": 0.066,
+          "color": "#895c3d"
+        }
+      ]
     },
     {
       "label": "Sottotetto — locali accessori",
-      "y": 0,
-      "height": 2.15,
+      "y": 5.22,
+      "height": 1.67,
       "outline": [
         [
           0.046,
@@ -997,9 +2598,79 @@
           "openings": []
         }
       ],
-      "furniture": [],
+      "furniture": [
+        {
+          "kind": "bed",
+          "x": 3.62,
+          "z": 1.41,
+          "width": 1.45,
+          "depth": 1.89,
+          "rotation": -1.5707963267948966,
+          "color": "#e5dcd2",
+          "photoId": "f43"
+        },
+        {
+          "kind": "bed",
+          "x": 3.7,
+          "z": 3.85,
+          "width": 1.4,
+          "depth": 1.89,
+          "rotation": -1.5707963267948966,
+          "color": "#c7bbae",
+          "photoId": "f50"
+        },
+        {
+          "kind": "cabinet",
+          "x": 4.69,
+          "z": 4.95,
+          "width": 0.5,
+          "depth": 0.33,
+          "rotation": -1.5707963267948966,
+          "color": "#d8d3c8",
+          "photoId": "f50"
+        },
+        {
+          "kind": "basin",
+          "x": 0.79,
+          "z": 3.8,
+          "width": 0.67,
+          "depth": 0.36,
+          "rotation": 0.0,
+          "color": "#aaa59c",
+          "photoId": "f45"
+        },
+        {
+          "kind": "toilet",
+          "x": 0.43,
+          "z": 2.84,
+          "width": 0.4,
+          "depth": 0.47,
+          "rotation": 0.0,
+          "color": "#e0dacc",
+          "photoId": "f45"
+        }
+      ],
       "stairs": [],
-      "holes": [],
+      "holes": [
+        [
+          [
+            0.1,
+            0.25
+          ],
+          [
+            0.86,
+            0.25
+          ],
+          [
+            0.86,
+            1.47
+          ],
+          [
+            0.1,
+            1.47
+          ]
+        ]
+      ],
       "sourcePlan": "plan-135334968.jpg",
       "trace": {
         "image": "plan-135334968.jpg",
@@ -1230,10 +2901,369 @@
           "rise": 0,
           "thickness": 0.14,
           "color": "#beb49f"
+        },
+        {
+          "kind": "beam",
+          "a": [
+            1.88,
+            0.14,
+            -2.36
+          ],
+          "b": [
+            4.68,
+            0.14,
+            -2.36
+          ],
+          "color": "#c5c3b6",
+          "radius": 0.028
+        },
+        {
+          "kind": "beam",
+          "a": [
+            1.88,
+            0.74,
+            -2.36
+          ],
+          "b": [
+            4.68,
+            0.74,
+            -2.36
+          ],
+          "color": "#c5c3b6",
+          "radius": 0.028
+        },
+        {
+          "kind": "beam",
+          "a": [
+            1.88,
+            0.03,
+            -2.36
+          ],
+          "b": [
+            1.88,
+            0.74,
+            -2.36
+          ],
+          "color": "#c5c3b6",
+          "radius": 0.016
+        },
+        {
+          "kind": "beam",
+          "a": [
+            2.23,
+            0.03,
+            -2.36
+          ],
+          "b": [
+            2.23,
+            0.74,
+            -2.36
+          ],
+          "color": "#c5c3b6",
+          "radius": 0.016
+        },
+        {
+          "kind": "beam",
+          "a": [
+            2.58,
+            0.03,
+            -2.36
+          ],
+          "b": [
+            2.58,
+            0.74,
+            -2.36
+          ],
+          "color": "#c5c3b6",
+          "radius": 0.016
+        },
+        {
+          "kind": "beam",
+          "a": [
+            2.9299999999999997,
+            0.03,
+            -2.36
+          ],
+          "b": [
+            2.9299999999999997,
+            0.74,
+            -2.36
+          ],
+          "color": "#c5c3b6",
+          "radius": 0.016
+        },
+        {
+          "kind": "beam",
+          "a": [
+            3.28,
+            0.03,
+            -2.36
+          ],
+          "b": [
+            3.28,
+            0.74,
+            -2.36
+          ],
+          "color": "#c5c3b6",
+          "radius": 0.016
+        },
+        {
+          "kind": "beam",
+          "a": [
+            3.63,
+            0.03,
+            -2.36
+          ],
+          "b": [
+            3.63,
+            0.74,
+            -2.36
+          ],
+          "color": "#c5c3b6",
+          "radius": 0.016
+        },
+        {
+          "kind": "beam",
+          "a": [
+            3.9799999999999995,
+            0.03,
+            -2.36
+          ],
+          "b": [
+            3.9799999999999995,
+            0.74,
+            -2.36
+          ],
+          "color": "#c5c3b6",
+          "radius": 0.016
+        },
+        {
+          "kind": "beam",
+          "a": [
+            4.33,
+            0.03,
+            -2.36
+          ],
+          "b": [
+            4.33,
+            0.74,
+            -2.36
+          ],
+          "color": "#c5c3b6",
+          "radius": 0.016
+        },
+        {
+          "kind": "beam",
+          "a": [
+            4.68,
+            0.03,
+            -2.36
+          ],
+          "b": [
+            4.68,
+            0.74,
+            -2.36
+          ],
+          "color": "#c5c3b6",
+          "radius": 0.016
+        },
+        {
+          "kind": "beam",
+          "a": [
+            4.68,
+            0.14,
+            -2.36
+          ],
+          "b": [
+            4.68,
+            0.14,
+            -0.04
+          ],
+          "color": "#c5c3b6",
+          "radius": 0.028
+        },
+        {
+          "kind": "beam",
+          "a": [
+            4.68,
+            0.74,
+            -2.36
+          ],
+          "b": [
+            4.68,
+            0.74,
+            -0.04
+          ],
+          "color": "#c5c3b6",
+          "radius": 0.028
+        },
+        {
+          "kind": "beam",
+          "a": [
+            4.68,
+            0.03,
+            -2.36
+          ],
+          "b": [
+            4.68,
+            0.74,
+            -2.36
+          ],
+          "color": "#c5c3b6",
+          "radius": 0.016
+        },
+        {
+          "kind": "beam",
+          "a": [
+            4.68,
+            0.03,
+            -2.0285714285714285
+          ],
+          "b": [
+            4.68,
+            0.74,
+            -2.0285714285714285
+          ],
+          "color": "#c5c3b6",
+          "radius": 0.016
+        },
+        {
+          "kind": "beam",
+          "a": [
+            4.68,
+            0.03,
+            -1.697142857142857
+          ],
+          "b": [
+            4.68,
+            0.74,
+            -1.697142857142857
+          ],
+          "color": "#c5c3b6",
+          "radius": 0.016
+        },
+        {
+          "kind": "beam",
+          "a": [
+            4.68,
+            0.03,
+            -1.3657142857142857
+          ],
+          "b": [
+            4.68,
+            0.74,
+            -1.3657142857142857
+          ],
+          "color": "#c5c3b6",
+          "radius": 0.016
+        },
+        {
+          "kind": "beam",
+          "a": [
+            4.68,
+            0.03,
+            -1.0342857142857143
+          ],
+          "b": [
+            4.68,
+            0.74,
+            -1.0342857142857143
+          ],
+          "color": "#c5c3b6",
+          "radius": 0.016
+        },
+        {
+          "kind": "beam",
+          "a": [
+            4.68,
+            0.03,
+            -0.7028571428571428
+          ],
+          "b": [
+            4.68,
+            0.74,
+            -0.7028571428571428
+          ],
+          "color": "#c5c3b6",
+          "radius": 0.016
+        },
+        {
+          "kind": "beam",
+          "a": [
+            4.68,
+            0.03,
+            -0.37142857142857144
+          ],
+          "b": [
+            4.68,
+            0.74,
+            -0.37142857142857144
+          ],
+          "color": "#c5c3b6",
+          "radius": 0.016
+        },
+        {
+          "kind": "beam",
+          "a": [
+            4.68,
+            0.03,
+            -0.040000000000000036
+          ],
+          "b": [
+            4.68,
+            0.74,
+            -0.040000000000000036
+          ],
+          "color": "#c5c3b6",
+          "radius": 0.016
         }
       ],
       "exteriorVisible": false,
-      "registration": "autonomous-unregistered"
+      "registration": "autonomous-unregistered",
+      "surfaces": [
+        {
+          "points": [
+            [
+              0.046,
+              0.092
+            ],
+            [
+              5.06,
+              0.092
+            ],
+            [
+              5.06,
+              5.29
+            ],
+            [
+              0.046,
+              5.29
+            ]
+          ],
+          "holes": [
+            [
+              [
+                0.1,
+                0.25
+              ],
+              [
+                0.86,
+                0.25
+              ],
+              [
+                0.86,
+                1.47
+              ],
+              [
+                0.1,
+                1.47
+              ]
+            ]
+          ],
+          "color": "#a77b58",
+          "finish": "wood"
+        }
+      ]
     },
     {
       "label": "Posto auto coperto — vista autonoma, h 2,28 m",
@@ -1417,17 +3447,1835 @@
       ],
       "boundaryTreatment": "Il tratteggio del lato aperto è mantenuto come limite del pavimento, senza muro inventato.",
       "exteriorVisible": false,
-      "registration": "autonomous-unregistered"
+      "registration": "autonomous-unregistered",
+      "separate": true
     }
   ],
-  "roofs": [],
-  "exteriors": [],
+  "roofs": [
+    {
+      "vertices": [
+        [
+          -0.09,
+          7.99,
+          3.23
+        ],
+        [
+          5.05,
+          7.99,
+          3.23
+        ],
+        [
+          5.05,
+          5.77,
+          8.59
+        ],
+        [
+          -0.09,
+          5.77,
+          8.59
+        ]
+      ],
+      "color": "#a96e45"
+    },
+    {
+      "vertices": [
+        [
+          -0.09,
+          5.69,
+          -2.5
+        ],
+        [
+          0.2,
+          5.69,
+          -2.5
+        ],
+        [
+          0.2,
+          7.99,
+          3.23
+        ],
+        [
+          -0.09,
+          7.99,
+          3.23
+        ]
+      ],
+      "color": "#b2794e"
+    },
+    {
+      "vertices": [
+        [
+          0.2,
+          6.7617277486911,
+          0.17
+        ],
+        [
+          4.27,
+          6.7617277486911,
+          0.17
+        ],
+        [
+          4.27,
+          7.99,
+          3.23
+        ],
+        [
+          0.2,
+          7.99,
+          3.23
+        ]
+      ],
+      "color": "#b2794e"
+    },
+    {
+      "vertices": [
+        [
+          4.27,
+          5.69,
+          -2.5
+        ],
+        [
+          5.05,
+          5.69,
+          -2.5
+        ],
+        [
+          5.05,
+          7.99,
+          3.23
+        ],
+        [
+          4.27,
+          7.99,
+          3.23
+        ]
+      ],
+      "color": "#b2794e"
+    },
+    {
+      "vertices": [
+        [
+          -0.045,
+          5.2,
+          -2.5
+        ],
+        [
+          -0.045,
+          5.66,
+          -2.5
+        ],
+        [
+          -0.045,
+          7.95,
+          3.23
+        ],
+        [
+          -0.045,
+          5.739999999999999,
+          8.59
+        ],
+        [
+          -0.045,
+          5.2,
+          8.59
+        ]
+      ],
+      "color": "#d9d2be"
+    },
+    {
+      "vertices": [
+        [
+          4.952,
+          5.2,
+          -2.5
+        ],
+        [
+          4.952,
+          5.66,
+          -2.5
+        ],
+        [
+          4.952,
+          7.95,
+          3.23
+        ],
+        [
+          4.952,
+          5.739999999999999,
+          8.59
+        ],
+        [
+          4.952,
+          5.2,
+          8.59
+        ]
+      ],
+      "color": "#d9d2be"
+    },
+    {
+      "vertices": [
+        [
+          -0.09,
+          5.69,
+          -2.5
+        ],
+        [
+          0.2,
+          5.69,
+          -2.5
+        ],
+        [
+          0.2,
+          5.5600000000000005,
+          -2.5
+        ],
+        [
+          -0.09,
+          5.5600000000000005,
+          -2.5
+        ]
+      ],
+      "color": "#c4b59c"
+    },
+    {
+      "vertices": [
+        [
+          0.2,
+          6.7617277486911,
+          0.17
+        ],
+        [
+          4.27,
+          6.7617277486911,
+          0.17
+        ],
+        [
+          4.27,
+          6.6317277486911,
+          0.17
+        ],
+        [
+          0.2,
+          6.6317277486911,
+          0.17
+        ]
+      ],
+      "color": "#c4b59c"
+    },
+    {
+      "vertices": [
+        [
+          4.27,
+          5.69,
+          -2.5
+        ],
+        [
+          5.05,
+          5.69,
+          -2.5
+        ],
+        [
+          5.05,
+          5.5600000000000005,
+          -2.5
+        ],
+        [
+          4.27,
+          5.5600000000000005,
+          -2.5
+        ]
+      ],
+      "color": "#c4b59c"
+    },
+    {
+      "vertices": [
+        [
+          -0.09,
+          5.77,
+          8.59
+        ],
+        [
+          5.05,
+          5.77,
+          8.59
+        ],
+        [
+          5.05,
+          5.64,
+          8.59
+        ],
+        [
+          -0.09,
+          5.64,
+          8.59
+        ]
+      ],
+      "color": "#c4b59c"
+    },
+    {
+      "vertices": [
+        [
+          -0.09,
+          7.86325,
+          3.565
+        ],
+        [
+          5.05,
+          7.86325,
+          3.565
+        ],
+        [
+          5.05,
+          7.85455223880597,
+          3.586
+        ],
+        [
+          -0.09,
+          7.85455223880597,
+          3.586
+        ]
+      ],
+      "color": "#965d40"
+    },
+    {
+      "vertices": [
+        [
+          -0.09,
+          7.7245,
+          3.9
+        ],
+        [
+          5.05,
+          7.7245,
+          3.9
+        ],
+        [
+          5.05,
+          7.71580223880597,
+          3.921
+        ],
+        [
+          -0.09,
+          7.71580223880597,
+          3.921
+        ]
+      ],
+      "color": "#965d40"
+    },
+    {
+      "vertices": [
+        [
+          -0.09,
+          7.58575,
+          4.234999999999999
+        ],
+        [
+          5.05,
+          7.58575,
+          4.234999999999999
+        ],
+        [
+          5.05,
+          7.57705223880597,
+          4.255999999999999
+        ],
+        [
+          -0.09,
+          7.57705223880597,
+          4.255999999999999
+        ]
+      ],
+      "color": "#965d40"
+    },
+    {
+      "vertices": [
+        [
+          -0.09,
+          7.447,
+          4.57
+        ],
+        [
+          5.05,
+          7.447,
+          4.57
+        ],
+        [
+          5.05,
+          7.43830223880597,
+          4.591
+        ],
+        [
+          -0.09,
+          7.43830223880597,
+          4.591
+        ]
+      ],
+      "color": "#965d40"
+    },
+    {
+      "vertices": [
+        [
+          -0.09,
+          7.308249999999999,
+          4.904999999999999
+        ],
+        [
+          5.05,
+          7.308249999999999,
+          4.904999999999999
+        ],
+        [
+          5.05,
+          7.299552238805969,
+          4.925999999999999
+        ],
+        [
+          -0.09,
+          7.299552238805969,
+          4.925999999999999
+        ]
+      ],
+      "color": "#965d40"
+    },
+    {
+      "vertices": [
+        [
+          -0.09,
+          7.169499999999999,
+          5.24
+        ],
+        [
+          5.05,
+          7.169499999999999,
+          5.24
+        ],
+        [
+          5.05,
+          7.160802238805969,
+          5.261
+        ],
+        [
+          -0.09,
+          7.160802238805969,
+          5.261
+        ]
+      ],
+      "color": "#965d40"
+    },
+    {
+      "vertices": [
+        [
+          -0.09,
+          7.030749999999999,
+          5.574999999999999
+        ],
+        [
+          5.05,
+          7.030749999999999,
+          5.574999999999999
+        ],
+        [
+          5.05,
+          7.022052238805969,
+          5.595999999999999
+        ],
+        [
+          -0.09,
+          7.022052238805969,
+          5.595999999999999
+        ]
+      ],
+      "color": "#965d40"
+    },
+    {
+      "vertices": [
+        [
+          -0.09,
+          6.8919999999999995,
+          5.91
+        ],
+        [
+          5.05,
+          6.8919999999999995,
+          5.91
+        ],
+        [
+          5.05,
+          6.883302238805969,
+          5.931
+        ],
+        [
+          -0.09,
+          6.883302238805969,
+          5.931
+        ]
+      ],
+      "color": "#965d40"
+    },
+    {
+      "vertices": [
+        [
+          -0.09,
+          6.7532499999999995,
+          6.244999999999999
+        ],
+        [
+          5.05,
+          6.7532499999999995,
+          6.244999999999999
+        ],
+        [
+          5.05,
+          6.744552238805969,
+          6.265999999999999
+        ],
+        [
+          -0.09,
+          6.744552238805969,
+          6.265999999999999
+        ]
+      ],
+      "color": "#965d40"
+    },
+    {
+      "vertices": [
+        [
+          -0.09,
+          6.6145,
+          6.58
+        ],
+        [
+          5.05,
+          6.6145,
+          6.58
+        ],
+        [
+          5.05,
+          6.605802238805969,
+          6.601
+        ],
+        [
+          -0.09,
+          6.605802238805969,
+          6.601
+        ]
+      ],
+      "color": "#965d40"
+    },
+    {
+      "vertices": [
+        [
+          -0.09,
+          6.475749999999999,
+          6.914999999999999
+        ],
+        [
+          5.05,
+          6.475749999999999,
+          6.914999999999999
+        ],
+        [
+          5.05,
+          6.467052238805969,
+          6.935999999999999
+        ],
+        [
+          -0.09,
+          6.467052238805969,
+          6.935999999999999
+        ]
+      ],
+      "color": "#965d40"
+    },
+    {
+      "vertices": [
+        [
+          -0.09,
+          6.336999999999999,
+          7.25
+        ],
+        [
+          5.05,
+          6.336999999999999,
+          7.25
+        ],
+        [
+          5.05,
+          6.328302238805969,
+          7.271
+        ],
+        [
+          -0.09,
+          6.328302238805969,
+          7.271
+        ]
+      ],
+      "color": "#965d40"
+    },
+    {
+      "vertices": [
+        [
+          -0.09,
+          6.198249999999999,
+          7.584999999999999
+        ],
+        [
+          5.05,
+          6.198249999999999,
+          7.584999999999999
+        ],
+        [
+          5.05,
+          6.189552238805969,
+          7.605999999999999
+        ],
+        [
+          -0.09,
+          6.189552238805969,
+          7.605999999999999
+        ]
+      ],
+      "color": "#965d40"
+    },
+    {
+      "vertices": [
+        [
+          -0.09,
+          6.059499999999999,
+          7.92
+        ],
+        [
+          5.05,
+          6.059499999999999,
+          7.92
+        ],
+        [
+          5.05,
+          6.050802238805969,
+          7.941
+        ],
+        [
+          -0.09,
+          6.050802238805969,
+          7.941
+        ]
+      ],
+      "color": "#965d40"
+    },
+    {
+      "vertices": [
+        [
+          -0.09,
+          5.920749999999999,
+          8.254999999999999
+        ],
+        [
+          5.05,
+          5.920749999999999,
+          8.254999999999999
+        ],
+        [
+          5.05,
+          5.912052238805969,
+          8.276
+        ],
+        [
+          -0.09,
+          5.912052238805969,
+          8.276
+        ]
+      ],
+      "color": "#965d40"
+    },
+    {
+      "vertices": [
+        [
+          -0.09,
+          5.837294117647059,
+          -2.1629411764705884
+        ],
+        [
+          0.2,
+          5.837294117647059,
+          -2.1629411764705884
+        ],
+        [
+          0.2,
+          5.845723437018787,
+          -2.1419411764705885
+        ],
+        [
+          -0.09,
+          5.845723437018787,
+          -2.1419411764705885
+        ]
+      ],
+      "color": "#965d40"
+    },
+    {
+      "vertices": [
+        [
+          -0.09,
+          5.9725882352941175,
+          -1.8258823529411763
+        ],
+        [
+          0.2,
+          5.9725882352941175,
+          -1.8258823529411763
+        ],
+        [
+          0.2,
+          5.981017554665845,
+          -1.8048823529411764
+        ],
+        [
+          -0.09,
+          5.981017554665845,
+          -1.8048823529411764
+        ]
+      ],
+      "color": "#965d40"
+    },
+    {
+      "vertices": [
+        [
+          -0.09,
+          6.107882352941177,
+          -1.4888235294117647
+        ],
+        [
+          0.2,
+          6.107882352941177,
+          -1.4888235294117647
+        ],
+        [
+          0.2,
+          6.1163116723129045,
+          -1.4678235294117647
+        ],
+        [
+          -0.09,
+          6.1163116723129045,
+          -1.4678235294117647
+        ]
+      ],
+      "color": "#965d40"
+    },
+    {
+      "vertices": [
+        [
+          -0.09,
+          6.243176470588235,
+          -1.1517647058823528
+        ],
+        [
+          0.2,
+          6.243176470588235,
+          -1.1517647058823528
+        ],
+        [
+          0.2,
+          6.251605789959963,
+          -1.130764705882353
+        ],
+        [
+          -0.09,
+          6.251605789959963,
+          -1.130764705882353
+        ]
+      ],
+      "color": "#965d40"
+    },
+    {
+      "vertices": [
+        [
+          -0.09,
+          6.378470588235294,
+          -0.814705882352941
+        ],
+        [
+          0.2,
+          6.378470588235294,
+          -0.814705882352941
+        ],
+        [
+          0.2,
+          6.386899907607022,
+          -0.7937058823529409
+        ],
+        [
+          -0.09,
+          6.386899907607022,
+          -0.7937058823529409
+        ]
+      ],
+      "color": "#965d40"
+    },
+    {
+      "vertices": [
+        [
+          -0.09,
+          6.513764705882353,
+          -0.4776470588235293
+        ],
+        [
+          0.2,
+          6.513764705882353,
+          -0.4776470588235293
+        ],
+        [
+          0.2,
+          6.52219402525408,
+          -0.4566470588235293
+        ],
+        [
+          -0.09,
+          6.52219402525408,
+          -0.4566470588235293
+        ]
+      ],
+      "color": "#965d40"
+    },
+    {
+      "vertices": [
+        [
+          -0.09,
+          6.649058823529412,
+          -0.14058823529411768
+        ],
+        [
+          0.2,
+          6.649058823529412,
+          -0.14058823529411768
+        ],
+        [
+          0.2,
+          6.65748814290114,
+          -0.11958823529411768
+        ],
+        [
+          -0.09,
+          6.65748814290114,
+          -0.11958823529411768
+        ]
+      ],
+      "color": "#965d40"
+    },
+    {
+      "vertices": [
+        [
+          -0.09,
+          6.78435294117647,
+          0.1964705882352944
+        ],
+        [
+          0.2,
+          6.78435294117647,
+          0.1964705882352944
+        ],
+        [
+          0.2,
+          6.792782260548198,
+          0.2174705882352944
+        ],
+        [
+          -0.09,
+          6.792782260548198,
+          0.2174705882352944
+        ]
+      ],
+      "color": "#965d40"
+    },
+    {
+      "vertices": [
+        [
+          -0.09,
+          6.9196470588235295,
+          0.533529411764706
+        ],
+        [
+          0.2,
+          6.9196470588235295,
+          0.533529411764706
+        ],
+        [
+          0.2,
+          6.928076378195257,
+          0.554529411764706
+        ],
+        [
+          -0.09,
+          6.928076378195257,
+          0.554529411764706
+        ]
+      ],
+      "color": "#965d40"
+    },
+    {
+      "vertices": [
+        [
+          -0.09,
+          7.054941176470588,
+          0.8705882352941181
+        ],
+        [
+          0.2,
+          7.054941176470588,
+          0.8705882352941181
+        ],
+        [
+          0.2,
+          7.063370495842316,
+          0.8915882352941181
+        ],
+        [
+          -0.09,
+          7.063370495842316,
+          0.8915882352941181
+        ]
+      ],
+      "color": "#965d40"
+    },
+    {
+      "vertices": [
+        [
+          -0.09,
+          7.190235294117647,
+          1.2076470588235297
+        ],
+        [
+          0.2,
+          7.190235294117647,
+          1.2076470588235297
+        ],
+        [
+          0.2,
+          7.198664613489375,
+          1.2286470588235296
+        ],
+        [
+          -0.09,
+          7.198664613489375,
+          1.2286470588235296
+        ]
+      ],
+      "color": "#965d40"
+    },
+    {
+      "vertices": [
+        [
+          -0.09,
+          7.325529411764706,
+          1.5447058823529414
+        ],
+        [
+          0.2,
+          7.325529411764706,
+          1.5447058823529414
+        ],
+        [
+          0.2,
+          7.333958731136434,
+          1.5657058823529413
+        ],
+        [
+          -0.09,
+          7.333958731136434,
+          1.5657058823529413
+        ]
+      ],
+      "color": "#965d40"
+    },
+    {
+      "vertices": [
+        [
+          -0.09,
+          7.460823529411765,
+          1.881764705882353
+        ],
+        [
+          0.2,
+          7.460823529411765,
+          1.881764705882353
+        ],
+        [
+          0.2,
+          7.469252848783492,
+          1.902764705882353
+        ],
+        [
+          -0.09,
+          7.469252848783492,
+          1.902764705882353
+        ]
+      ],
+      "color": "#965d40"
+    },
+    {
+      "vertices": [
+        [
+          -0.09,
+          7.596117647058823,
+          2.2188235294117646
+        ],
+        [
+          0.2,
+          7.596117647058823,
+          2.2188235294117646
+        ],
+        [
+          0.2,
+          7.604546966430551,
+          2.2398235294117645
+        ],
+        [
+          -0.09,
+          7.604546966430551,
+          2.2398235294117645
+        ]
+      ],
+      "color": "#965d40"
+    },
+    {
+      "vertices": [
+        [
+          -0.09,
+          7.731411764705882,
+          2.5558823529411763
+        ],
+        [
+          0.2,
+          7.731411764705882,
+          2.5558823529411763
+        ],
+        [
+          0.2,
+          7.73984108407761,
+          2.576882352941176
+        ],
+        [
+          -0.09,
+          7.73984108407761,
+          2.576882352941176
+        ]
+      ],
+      "color": "#965d40"
+    },
+    {
+      "vertices": [
+        [
+          -0.09,
+          7.866705882352941,
+          2.892941176470589
+        ],
+        [
+          0.2,
+          7.866705882352941,
+          2.892941176470589
+        ],
+        [
+          0.2,
+          7.875135201724669,
+          2.9139411764705887
+        ],
+        [
+          -0.09,
+          7.875135201724669,
+          2.9139411764705887
+        ]
+      ],
+      "color": "#965d40"
+    },
+    {
+      "vertices": [
+        [
+          0.2,
+          6.910202443280977,
+          0.51
+        ],
+        [
+          4.27,
+          6.910202443280977,
+          0.51
+        ],
+        [
+          4.27,
+          6.918631762652705,
+          0.531
+        ],
+        [
+          0.2,
+          6.918631762652705,
+          0.531
+        ]
+      ],
+      "color": "#965d40"
+    },
+    {
+      "vertices": [
+        [
+          0.2,
+          7.046677137870855,
+          0.85
+        ],
+        [
+          4.27,
+          7.046677137870855,
+          0.85
+        ],
+        [
+          4.27,
+          7.055106457242583,
+          0.871
+        ],
+        [
+          0.2,
+          7.055106457242583,
+          0.871
+        ]
+      ],
+      "color": "#965d40"
+    },
+    {
+      "vertices": [
+        [
+          0.2,
+          7.183151832460733,
+          1.19
+        ],
+        [
+          4.27,
+          7.183151832460733,
+          1.19
+        ],
+        [
+          4.27,
+          7.191581151832461,
+          1.2109999999999999
+        ],
+        [
+          0.2,
+          7.191581151832461,
+          1.2109999999999999
+        ]
+      ],
+      "color": "#965d40"
+    },
+    {
+      "vertices": [
+        [
+          0.2,
+          7.319626527050611,
+          1.5299999999999998
+        ],
+        [
+          4.27,
+          7.319626527050611,
+          1.5299999999999998
+        ],
+        [
+          4.27,
+          7.328055846422338,
+          1.5509999999999997
+        ],
+        [
+          0.2,
+          7.328055846422338,
+          1.5509999999999997
+        ]
+      ],
+      "color": "#965d40"
+    },
+    {
+      "vertices": [
+        [
+          0.2,
+          7.4561012216404885,
+          1.87
+        ],
+        [
+          4.27,
+          7.4561012216404885,
+          1.87
+        ],
+        [
+          4.27,
+          7.464530541012216,
+          1.891
+        ],
+        [
+          0.2,
+          7.464530541012216,
+          1.891
+        ]
+      ],
+      "color": "#965d40"
+    },
+    {
+      "vertices": [
+        [
+          0.2,
+          7.592575916230366,
+          2.21
+        ],
+        [
+          4.27,
+          7.592575916230366,
+          2.21
+        ],
+        [
+          4.27,
+          7.601005235602094,
+          2.231
+        ],
+        [
+          0.2,
+          7.601005235602094,
+          2.231
+        ]
+      ],
+      "color": "#965d40"
+    },
+    {
+      "vertices": [
+        [
+          0.2,
+          7.729050610820244,
+          2.55
+        ],
+        [
+          4.27,
+          7.729050610820244,
+          2.55
+        ],
+        [
+          4.27,
+          7.737479930191972,
+          2.5709999999999997
+        ],
+        [
+          0.2,
+          7.737479930191972,
+          2.5709999999999997
+        ]
+      ],
+      "color": "#965d40"
+    },
+    {
+      "vertices": [
+        [
+          0.2,
+          7.865525305410122,
+          2.8899999999999997
+        ],
+        [
+          4.27,
+          7.865525305410122,
+          2.8899999999999997
+        ],
+        [
+          4.27,
+          7.87395462478185,
+          2.9109999999999996
+        ],
+        [
+          0.2,
+          7.87395462478185,
+          2.9109999999999996
+        ]
+      ],
+      "color": "#965d40"
+    },
+    {
+      "vertices": [
+        [
+          4.27,
+          5.837294117647059,
+          -2.1629411764705884
+        ],
+        [
+          5.05,
+          5.837294117647059,
+          -2.1629411764705884
+        ],
+        [
+          5.05,
+          5.845723437018787,
+          -2.1419411764705885
+        ],
+        [
+          4.27,
+          5.845723437018787,
+          -2.1419411764705885
+        ]
+      ],
+      "color": "#965d40"
+    },
+    {
+      "vertices": [
+        [
+          4.27,
+          5.9725882352941175,
+          -1.8258823529411763
+        ],
+        [
+          5.05,
+          5.9725882352941175,
+          -1.8258823529411763
+        ],
+        [
+          5.05,
+          5.981017554665845,
+          -1.8048823529411764
+        ],
+        [
+          4.27,
+          5.981017554665845,
+          -1.8048823529411764
+        ]
+      ],
+      "color": "#965d40"
+    },
+    {
+      "vertices": [
+        [
+          4.27,
+          6.107882352941177,
+          -1.4888235294117647
+        ],
+        [
+          5.05,
+          6.107882352941177,
+          -1.4888235294117647
+        ],
+        [
+          5.05,
+          6.1163116723129045,
+          -1.4678235294117647
+        ],
+        [
+          4.27,
+          6.1163116723129045,
+          -1.4678235294117647
+        ]
+      ],
+      "color": "#965d40"
+    },
+    {
+      "vertices": [
+        [
+          4.27,
+          6.243176470588235,
+          -1.1517647058823528
+        ],
+        [
+          5.05,
+          6.243176470588235,
+          -1.1517647058823528
+        ],
+        [
+          5.05,
+          6.251605789959963,
+          -1.130764705882353
+        ],
+        [
+          4.27,
+          6.251605789959963,
+          -1.130764705882353
+        ]
+      ],
+      "color": "#965d40"
+    },
+    {
+      "vertices": [
+        [
+          4.27,
+          6.378470588235294,
+          -0.814705882352941
+        ],
+        [
+          5.05,
+          6.378470588235294,
+          -0.814705882352941
+        ],
+        [
+          5.05,
+          6.386899907607022,
+          -0.7937058823529409
+        ],
+        [
+          4.27,
+          6.386899907607022,
+          -0.7937058823529409
+        ]
+      ],
+      "color": "#965d40"
+    },
+    {
+      "vertices": [
+        [
+          4.27,
+          6.513764705882353,
+          -0.4776470588235293
+        ],
+        [
+          5.05,
+          6.513764705882353,
+          -0.4776470588235293
+        ],
+        [
+          5.05,
+          6.52219402525408,
+          -0.4566470588235293
+        ],
+        [
+          4.27,
+          6.52219402525408,
+          -0.4566470588235293
+        ]
+      ],
+      "color": "#965d40"
+    },
+    {
+      "vertices": [
+        [
+          4.27,
+          6.649058823529412,
+          -0.14058823529411768
+        ],
+        [
+          5.05,
+          6.649058823529412,
+          -0.14058823529411768
+        ],
+        [
+          5.05,
+          6.65748814290114,
+          -0.11958823529411768
+        ],
+        [
+          4.27,
+          6.65748814290114,
+          -0.11958823529411768
+        ]
+      ],
+      "color": "#965d40"
+    },
+    {
+      "vertices": [
+        [
+          4.27,
+          6.78435294117647,
+          0.1964705882352944
+        ],
+        [
+          5.05,
+          6.78435294117647,
+          0.1964705882352944
+        ],
+        [
+          5.05,
+          6.792782260548198,
+          0.2174705882352944
+        ],
+        [
+          4.27,
+          6.792782260548198,
+          0.2174705882352944
+        ]
+      ],
+      "color": "#965d40"
+    },
+    {
+      "vertices": [
+        [
+          4.27,
+          6.9196470588235295,
+          0.533529411764706
+        ],
+        [
+          5.05,
+          6.9196470588235295,
+          0.533529411764706
+        ],
+        [
+          5.05,
+          6.928076378195257,
+          0.554529411764706
+        ],
+        [
+          4.27,
+          6.928076378195257,
+          0.554529411764706
+        ]
+      ],
+      "color": "#965d40"
+    },
+    {
+      "vertices": [
+        [
+          4.27,
+          7.054941176470588,
+          0.8705882352941181
+        ],
+        [
+          5.05,
+          7.054941176470588,
+          0.8705882352941181
+        ],
+        [
+          5.05,
+          7.063370495842316,
+          0.8915882352941181
+        ],
+        [
+          4.27,
+          7.063370495842316,
+          0.8915882352941181
+        ]
+      ],
+      "color": "#965d40"
+    },
+    {
+      "vertices": [
+        [
+          4.27,
+          7.190235294117647,
+          1.2076470588235297
+        ],
+        [
+          5.05,
+          7.190235294117647,
+          1.2076470588235297
+        ],
+        [
+          5.05,
+          7.198664613489375,
+          1.2286470588235296
+        ],
+        [
+          4.27,
+          7.198664613489375,
+          1.2286470588235296
+        ]
+      ],
+      "color": "#965d40"
+    },
+    {
+      "vertices": [
+        [
+          4.27,
+          7.325529411764706,
+          1.5447058823529414
+        ],
+        [
+          5.05,
+          7.325529411764706,
+          1.5447058823529414
+        ],
+        [
+          5.05,
+          7.333958731136434,
+          1.5657058823529413
+        ],
+        [
+          4.27,
+          7.333958731136434,
+          1.5657058823529413
+        ]
+      ],
+      "color": "#965d40"
+    },
+    {
+      "vertices": [
+        [
+          4.27,
+          7.460823529411765,
+          1.881764705882353
+        ],
+        [
+          5.05,
+          7.460823529411765,
+          1.881764705882353
+        ],
+        [
+          5.05,
+          7.469252848783492,
+          1.902764705882353
+        ],
+        [
+          4.27,
+          7.469252848783492,
+          1.902764705882353
+        ]
+      ],
+      "color": "#965d40"
+    },
+    {
+      "vertices": [
+        [
+          4.27,
+          7.596117647058823,
+          2.2188235294117646
+        ],
+        [
+          5.05,
+          7.596117647058823,
+          2.2188235294117646
+        ],
+        [
+          5.05,
+          7.604546966430551,
+          2.2398235294117645
+        ],
+        [
+          4.27,
+          7.604546966430551,
+          2.2398235294117645
+        ]
+      ],
+      "color": "#965d40"
+    },
+    {
+      "vertices": [
+        [
+          4.27,
+          7.731411764705882,
+          2.5558823529411763
+        ],
+        [
+          5.05,
+          7.731411764705882,
+          2.5558823529411763
+        ],
+        [
+          5.05,
+          7.73984108407761,
+          2.576882352941176
+        ],
+        [
+          4.27,
+          7.73984108407761,
+          2.576882352941176
+        ]
+      ],
+      "color": "#965d40"
+    },
+    {
+      "vertices": [
+        [
+          4.27,
+          7.866705882352941,
+          2.892941176470589
+        ],
+        [
+          5.05,
+          7.866705882352941,
+          2.892941176470589
+        ],
+        [
+          5.05,
+          7.875135201724669,
+          2.9139411764705887
+        ],
+        [
+          4.27,
+          7.875135201724669,
+          2.9139411764705887
+        ]
+      ],
+      "color": "#965d40"
+    },
+    {
+      "vertices": [
+        [
+          2.45,
+          7.134970331588133,
+          1.06
+        ],
+        [
+          3.16,
+          7.134970331588133,
+          1.06
+        ],
+        [
+          3.16,
+          7.560450261780105,
+          2.12
+        ],
+        [
+          2.45,
+          7.560450261780105,
+          2.12
+        ]
+      ],
+      "color": "#57493d"
+    },
+    {
+      "vertices": [
+        [
+          2.5050000000000003,
+          7.1469703315881326,
+          1.1
+        ],
+        [
+          3.105,
+          7.1469703315881326,
+          1.1
+        ],
+        [
+          3.105,
+          7.572450261780104,
+          2.08
+        ],
+        [
+          2.5050000000000003,
+          7.572450261780104,
+          2.08
+        ]
+      ],
+      "color": "#657f82"
+    },
+    {
+      "vertices": [
+        [
+          2.11,
+          6.896,
+          5.91
+        ],
+        [
+          2.84,
+          6.896,
+          5.91
+        ],
+        [
+          2.84,
+          6.593649253731343,
+          6.64
+        ],
+        [
+          2.11,
+          6.593649253731343,
+          6.64
+        ]
+      ],
+      "color": "#57493d"
+    },
+    {
+      "vertices": [
+        [
+          2.155,
+          6.9079999999999995,
+          5.95
+        ],
+        [
+          2.795,
+          6.9079999999999995,
+          5.95
+        ],
+        [
+          2.795,
+          6.605649253731342,
+          6.6
+        ],
+        [
+          2.155,
+          6.605649253731342,
+          6.6
+        ]
+      ],
+      "color": "#657f82"
+    }
+  ],
+  "exteriors": [
+    {
+      "kind": "box",
+      "center": [
+        1.24,
+        1.022,
+        -0.14
+      ],
+      "size": [
+        0.049,
+        2.045,
+        0.071
+      ],
+      "color": "#62584e"
+    },
+    {
+      "kind": "box",
+      "center": [
+        2.42,
+        1.022,
+        -0.14
+      ],
+      "size": [
+        0.049,
+        2.045,
+        0.071
+      ],
+      "color": "#62584e"
+    },
+    {
+      "kind": "box",
+      "center": [
+        3.49,
+        1.022,
+        -0.14
+      ],
+      "size": [
+        0.049,
+        2.045,
+        0.071
+      ],
+      "color": "#62584e"
+    },
+    {
+      "kind": "box",
+      "center": [
+        0.055,
+        1.11,
+        8.26
+      ],
+      "size": [
+        0.2,
+        2.24,
+        0.23
+      ],
+      "color": "#c8c1ae"
+    },
+    {
+      "kind": "box",
+      "center": [
+        4.67,
+        1.11,
+        8.26
+      ],
+      "size": [
+        0.2,
+        2.24,
+        0.23
+      ],
+      "color": "#c8c1ae"
+    }
+  ],
   "colors": {
-    "walls": "#e1d6bb",
+    "walls": "#e8e1d3",
     "floor": "#bbb09b",
-    "frames": "#635647"
+    "frames": "#624838",
+    "roof": "#a5633d",
+    "wood": "#7b5337"
   },
   "views": [
+    {
+      "label": "Esterno della porzione di testa",
+      "level": null,
+      "camera": {
+        "yaw": 3.55,
+        "pitch": 0.43
+      }
+    },
     {
       "label": "Primo piano — zona abitativa, h 2,60 m",
       "level": 1
@@ -1448,5 +5296,6 @@
   "cameraX": 0.55,
   "cameraY": 0.7,
   "cameraZ": 1.07,
-  "creationFinished": "2026-11-16T18:53:04.350372+01:00"
+  "creationFinished": "2026-11-23T13:09:36+01:00",
+  "descriptionPhotos": "Nella zona giorno le foto mostrano un divano ocra sotto la scala in legno, un tappeto bordeaux, tavolo da pranzo e mobile TV. La cucina ha basi scure e piano chiaro. La taverna fotografata è rappresentata nell’area che la tavola registra come portico. Le foto del sottotetto mostrano letti chiari e legno a vista nei locali catastalmente accessori. La copertura in coppi con terrazza incassata riprende le riprese dall’alto."
 }

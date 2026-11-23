@@ -1,7 +1,7 @@
 {
   "id": "via-dell-hermada",
-  "title": "Via dell’Hermada - esterni del progetto",
-  "creationStarted": "2026-11-09T22:15:46.336582+01:00",
+  "title": "Villa nuova in Via dell'Hermada",
+  "creationStarted": "2026-11-23T11:47:20+01:00",
   "coverage": "exterior_only",
   "unrenderedVolumes": [
     "Interni, tramezzi, retro non visibile e distribuzione delle camere.",
@@ -9,32 +9,13 @@
     "Stato costruito attuale: questo è il progetto pubblicizzato, non un rilievo dell’opera realizzata."
   ],
   "sources": [
-    {
-      "id": "S3",
-      "type": "project-render",
-      "url": "https://pic.trovacasa.it/image/1848876831/xxl.jpg",
-      "pageUrl": "https://www.trovacasa.it/annunci/ts-tc-36387-69859642",
-      "sha256": "18d8f6cd1aaf94c324b88521ee5522f12f299406db1ab69126b8f0a2f750d375",
-      "actuallyInspected": true,
-      "inspectedAt": "2026-11-09T22:29:58.684394+01:00"
-    },
-    {
-      "id": "S4",
-      "type": "project-render",
-      "url": "https://pic.trovacasa.it/image/1848876849/xxl.jpg",
-      "pageUrl": "https://www.trovacasa.it/annunci/ts-tc-36387-69859642",
-      "sha256": "e3b79f32d6f360911bf05f8f5f7ea757895aa381873d0b32a742b4dc2306c6fb",
-      "actuallyInspected": true,
-      "inspectedAt": "2026-11-09T22:29:58.684394+01:00"
-    }
+    "https://www.immobiliare.it/annunci/125934421/"
   ],
   "geometrySource": "visible-project-facades-proportional-reconstruction",
   "limitations": [
     "Due render dell’esatto annuncio mostrano volumi bassi intonacati, corpo marrone più alto, grandi vetrate e pergolato ligneo. Il modello restituisce soltanto tali parti.",
     "Dimensioni, profondità e quote stimate dalle proporzioni; nessuna planimetria o misura metrica disponibile.",
-    "Il retro è lasciato aperto per non inventare finestre o stanze. La base verde è contesto, non il confine del giardino.",
-    "Viste del solo progetto pubblicizzato: non costituiscono prova dell’esistenza attuale delle opere.",
-    "Le porzioni aperte e non dettagliate corrispondono a facciate non documentate: non rappresentano aperture reali o locali interni."
+    "Il retro è lasciato aperto per non inventare finestre o stanze. La base verde è contesto, non il confine del giardino."
   ],
   "levels": [
     {
@@ -439,49 +420,6 @@
         3
       ],
       "color": "#7c6b61"
-    },
-    {
-      "vertices": [
-        [
-          0,
-          3.4,
-          0
-        ],
-        [
-          0,
-          3.4,
-          5.6
-        ],
-        [
-          0,
-          4,
-          0
-        ],
-        [
-          7.2,
-          3.4,
-          0
-        ],
-        [
-          7.2,
-          3.4,
-          5.6
-        ],
-        [
-          7.2,
-          4,
-          0
-        ]
-      ],
-      "indices": [
-        0,
-        1,
-        2,
-        3,
-        5,
-        4
-      ],
-      "color": "#7c6b61"
     }
   ],
   "exteriors": [
@@ -570,11 +508,68 @@
       }
     }
   ],
-  "draftCreationStarted": "2026-11-09T21:04:20.313208+01:00",
-  "representationState": "advertised_project_not_built_state",
-  "creationFinished": "2026-11-09T22:29:58.684394+01:00",
-  "reviewNotes": [
-    "Due render del progetto confrontati con entrambe le viste finali: corpo alto marrone a falda unica, corpo laterale basso chiaro, vetrata continua, pergolato con appoggi. Retro non documentato aperto e dichiarato; nessuna distribuzione interna inventata.",
-    "Corretti raccordi fra parete laterale e falda; inquadratura mobile intera dopo correzione distanza per aspect ratio. Progetto pubblicizzato, non stato costruito."
-  ]
+  "creationFinished": "2026-11-23T12:47:02+01:00",
+  "sourceReadAt": "2026-11-23T11:49:17+01:00",
+  "sourceMedia": [
+    {
+      "key": "f00",
+      "usedUrl": "https://pwm.im-cdn.it/image/1848872461/xxl.jpg",
+      "caption": "Vista",
+      "plan": false,
+      "size": [
+        1680,
+        945
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/125934421/"
+    },
+    {
+      "key": "f01",
+      "usedUrl": "https://pwm.im-cdn.it/image/1848873031/xxl.jpg",
+      "caption": "Facciata",
+      "plan": false,
+      "size": [
+        1680,
+        944
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/125934421/"
+    },
+    {
+      "key": "f02",
+      "usedUrl": "https://pwm.im-cdn.it/image/1848873175/xxl.jpg",
+      "caption": "Giardino",
+      "plan": false,
+      "size": [
+        1680,
+        944
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/125934421/"
+    },
+    {
+      "key": "f03",
+      "usedUrl": "https://pwm.im-cdn.it/image/1848876831/xxl.jpg",
+      "caption": "Giardino",
+      "plan": false,
+      "size": [
+        1680,
+        945
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/125934421/"
+    },
+    {
+      "key": "f04",
+      "usedUrl": "https://pwm.im-cdn.it/image/1848876849/xxl.jpg",
+      "caption": "Giardino",
+      "plan": false,
+      "size": [
+        1680,
+        945
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/125934421/"
+    }
+  ],
+  "photoNotes": "Prospetti del progetto con intonaco chiaro, serramenti scuri e pergola. Nessun arredo installato documentato.",
+  "photoEvidence": {},
+  "representation": "Progetto o proposta di allestimento",
+  "saleNote": null,
+  "skillVersion": "1.2.0"
 }

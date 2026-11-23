@@ -1,0 +1,58 @@
+{
+  "id": "basovizza-218",
+  "status": "ready",
+  "path": "modelli/basovizza-218.html",
+  "views": [
+    {
+      "label": "Esterno",
+      "level": null
+    },
+    {
+      "label": "Scantinato · stato attuale",
+      "level": 0
+    }
+  ],
+  "notes": [
+    "La cantina mostra muratura e intonaco a vista. Armadio e cucina si vedono al piano abitativo, la cui sola tavola porta la dicitura «stato anteriore».",
+    "I contorni e le divisioni seguono le tavole indicate. Le misure assolute prive di quota, alcune aperture, le altezze e le dimensioni dei mobili sono stime."
+  ],
+  "verifiedAt": "2026-11-23T12:47:02+01:00",
+  "artifactSha256": "2aa454439374e92f231020431a1a13b48b4b88d2ebb15bea59d9f4c48073ed8f",
+  "sourcePlans": [
+    {
+      "label": "Scantinato, stato attuale",
+      "url": "https://images-1.casa.it/1600x1200-fit/listing/0/bf/4b/4a/836700349.jpg"
+    },
+    {
+      "label": "Piano terra, stato anteriore",
+      "url": "https://images-1.casa.it/1600x1200-fit/listing/0/44/3f/73/836700352.jpg"
+    },
+    {
+      "label": "Tavola storica dello scantinato",
+      "url": "https://images-1.casa.it/1600x1200-fit/listing/0/1a/25/fb/836700383.jpg"
+    }
+  ],
+  "unrenderedVolumes": [
+    "Abitazione al piano terra e relativi arredi. La tavola disponibile mostra lo stato anteriore.",
+    "Terrapieno e collegamento con la cantina."
+  ],
+  "coverage": "partial",
+  "preview": "assets/basovizza-218.jpg",
+  "qa": {
+    "staticPassed": true,
+    "browserPassed": true,
+    "geometryPassed": true,
+    "orthographicPassed": true
+  },
+  "fidelity": {
+    "passed": true,
+    "basis": "Riesame visivo dei fronti fotografati e delle parti modellate."
+  },
+  "independentReview": {
+    "passed": true,
+    "artifactSha256": "2aa454439374e92f231020431a1a13b48b4b88d2ebb15bea59d9f4c48073ed8f",
+    "method": "Seconda lettura di fotografie, viste renderizzate e sovrapposizioni disponibili. Le misure e le parti omesse sono dichiarate nella scheda."
+  },
+  "evidenceIndex": "ricostruzioni/2026-11-23/index.html#basovizza-218",
+  "browserReport": "ricostruzioni/2026-11-23/verifiche/risultati.json"
+}

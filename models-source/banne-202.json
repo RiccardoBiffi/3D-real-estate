@@ -1,1456 +1,1851 @@
 {
-  "id": "banne-202",
-  "title": "Banne 202",
-  "creationStarted": "2026-11-09T22:19:40.697113+01:00",
-  "geometrySource": "manual-source-plan-trace",
-  "coverage": "partial",
-  "unrenderedVolumes": [
-    "Box auto indipendente: pianta assente, sagoma completa non misurabile dalle fotografie.",
-    "Vano scala tra i tre livelli: ricalco del solo ingombro; rampe, pianerottoli e collegamenti omessi per mancata lettura certa delle quote.",
-    "Interno intercapedine al primo piano: altezza e accesso non ricostruiti; soltanto involucro esterno."
-  ],
-  "scale": {
-    "uniformMetersPerPixel": 0.065,
-    "basis": "Stima assoluta da moduli porte; proporzioni dei ricalchi conservate, non superficie commerciale."
-  },
-  "sourcePlans": [
-    {
-      "path": "work/evidence/banne-202/plan-1.jpg",
-      "url": "https://pic.im-cdn.it/plan/114915142/xxl.jpg",
-      "levels": [
-        "basement",
-        "ground",
-        "first"
-      ]
-    }
-  ],
-  "traceTransforms": {
-    "ground": {
-      "origin": [
-        198,
-        536
-      ],
-      "scale": 0.065
-    },
-    "basement": {
-      "origin": [
-        41,
-        234
-      ],
-      "scale": 0.065
-    },
-    "first": {
-      "origin": [
-        309,
-        234
-      ],
-      "scale": 0.065
-    }
-  },
   "levels": [
     {
-      "id": "basement",
+      "id": "piano-0",
       "label": "Seminterrato",
-      "y": -2.56,
-      "height": 2.4,
+      "y": -2.7,
+      "height": 2.66,
       "outline": [
         [
-          0.0,
-          1.3
+          -1.76,
+          0.3738
         ],
         [
-          1.56,
-          0.0
+          -0.66,
+          -0.4984
         ],
         [
-          13.0,
-          0.0
+          7.92,
+          -0.4984
         ],
         [
-          13.0,
-          1.82
+          7.92,
+          0.9345
         ],
         [
-          12.285,
-          2.6
+          7.48,
+          1.3706
         ],
         [
-          12.285,
-          5.915
+          7.48,
+          3.8004
         ],
         [
-          0.0,
-          5.915
+          -1.76,
+          3.8004
         ]
+      ],
+      "surfaces": [
+        {
+          "points": [
+            [
+              -1.76,
+              0.3738
+            ],
+            [
+              -0.66,
+              -0.4984
+            ],
+            [
+              7.92,
+              -0.4984
+            ],
+            [
+              7.92,
+              0.9345
+            ],
+            [
+              7.48,
+              1.3706
+            ],
+            [
+              7.48,
+              3.8004
+            ],
+            [
+              -1.76,
+              3.8004
+            ]
+          ],
+          "color": "#b5aaa0",
+          "finish": "mineral",
+          "holes": []
+        }
       ],
       "walls": [
         {
           "a": [
-            0.0,
-            1.3
+            -1.6995,
+            0.4501
           ],
           "b": [
-            1.56,
-            0.0
+            -0.5995,
+            -0.4221
           ],
-          "thickness": 0.17,
-          "openings": []
+          "thickness": 0.23,
+          "outer": true,
+          "openings": [],
+          "insideFace": true
         },
         {
           "a": [
-            1.56,
-            0.0
+            -0.66,
+            -0.4984
           ],
           "b": [
-            13.0,
-            0.0
+            7.92,
+            -0.4984
           ],
-          "thickness": 0.17,
+          "thickness": 0.25,
+          "outer": true,
+          "openings": [],
+          "insideFace": true
+        },
+        {
+          "a": [
+            8.0173,
+            -0.4984
+          ],
+          "b": [
+            8.0173,
+            0.9345
+          ],
+          "thickness": 0.23,
+          "outer": true,
+          "openings": [],
+          "insideFace": true
+        },
+        {
+          "a": [
+            7.92,
+            0.9345
+          ],
+          "b": [
+            7.48,
+            1.3706
+          ],
+          "thickness": 0.23,
+          "outer": true,
+          "openings": [],
+          "insideFace": true
+        },
+        {
+          "a": [
+            7.48,
+            1.3706
+          ],
+          "b": [
+            7.48,
+            3.8004
+          ],
+          "thickness": 0.23,
+          "outer": true,
+          "openings": [],
+          "insideFace": true
+        },
+        {
+          "a": [
+            7.48,
+            3.8977
+          ],
+          "b": [
+            -1.76,
+            3.8977
+          ],
+          "thickness": 0.23,
+          "outer": true,
           "openings": [
             {
-              "start": 9.425,
-              "end": 10.075000000000001,
-              "sill": 1.75,
-              "height": 0.45,
-              "kind": "window"
-            }
-          ]
-        },
-        {
-          "a": [
-            13.0,
-            0.0
-          ],
-          "b": [
-            13.0,
-            1.82
-          ],
-          "thickness": 0.17,
-          "openings": []
-        },
-        {
-          "a": [
-            13.0,
-            1.82
-          ],
-          "b": [
-            12.285,
-            2.6
-          ],
-          "thickness": 0.17,
-          "openings": [
-            {
-              "start": 0.325,
-              "end": 1.04,
-              "sill": 0.92,
-              "height": 1.3,
-              "kind": "window"
-            }
-          ]
-        },
-        {
-          "a": [
-            12.285,
-            2.6
-          ],
-          "b": [
-            12.285,
-            5.915
-          ],
-          "thickness": 0.17,
-          "openings": []
-        },
-        {
-          "a": [
-            12.285,
-            5.915
-          ],
-          "b": [
-            0.0,
-            5.915
-          ],
-          "thickness": 0.17,
-          "openings": [
-            {
-              "start": 1.04,
-              "end": 2.6,
-              "sill": 0,
-              "height": 2,
-              "kind": "door"
+              "kind": "window",
+              "start": 0.77,
+              "end": 1.87,
+              "sill": 0.9,
+              "height": 1.24
             },
             {
-              "start": 6.24,
-              "end": 7.605,
-              "sill": 0,
-              "height": 2,
-              "kind": "door"
+              "kind": "window",
+              "start": 5.17,
+              "end": 6.27,
+              "sill": 0.9,
+              "height": 1.24
             }
-          ]
+          ],
+          "insideFace": true
         },
         {
           "a": [
-            0.0,
-            5.915
+            -1.6627,
+            3.8004
           ],
           "b": [
-            0.0,
-            1.3
+            -1.6627,
+            0.3738
           ],
-          "thickness": 0.17,
-          "openings": []
+          "thickness": 0.23,
+          "outer": true,
+          "openings": [],
+          "insideFace": true
         },
         {
           "a": [
-            4.095,
-            0.325
+            1.2587,
+            -0.4361
           ],
           "b": [
-            4.095,
-            2.21
+            1.2587,
+            0.9968
           ],
-          "thickness": 0.17,
-          "openings": []
+          "thickness": 0.12,
+          "outer": false,
+          "openings": [],
+          "color": "#e5e0d7"
         },
         {
           "a": [
-            4.095,
-            2.21
+            1.21,
+            0.9968
           ],
           "b": [
-            8.515,
-            2.21
+            7.26,
+            0.9968
           ],
-          "thickness": 0.17,
+          "thickness": 0.12,
+          "outer": false,
           "openings": [
             {
-              "start": 3.5100000000000002,
-              "end": 4.16,
+              "kind": "door",
+              "start": 1.67,
+              "end": 2.51,
               "sill": 0,
-              "height": 2.1,
-              "kind": "door"
+              "height": 2.06
+            },
+            {
+              "kind": "door",
+              "start": 2.88,
+              "end": 3.72,
+              "sill": 0,
+              "height": 2.06
             }
-          ]
+          ],
+          "color": "#e5e0d7"
         },
         {
           "a": [
-            8.515,
-            0.325
+            4.5713,
+            0.9968
           ],
           "b": [
-            8.515,
-            1.43
+            4.5713,
+            3.7381
           ],
-          "thickness": 0.17,
-          "openings": []
+          "thickness": 0.097,
+          "outer": false,
+          "openings": [],
+          "color": "#e5e0d7"
         },
         {
           "a": [
-            8.515,
-            2.21
+            4.5713,
+            -0.3738
           ],
           "b": [
-            12.285,
-            2.21
+            4.5713,
+            0.9345
           ],
-          "thickness": 0.17,
-          "openings": []
+          "thickness": 0.097,
+          "outer": false,
+          "openings": [],
+          "color": "#e5e0d7"
         },
         {
           "a": [
-            10.205,
-            0.325
+            -0.44,
+            -0.4361
           ],
           "b": [
-            10.205,
-            1.43
+            0.77,
+            -0.4361
           ],
-          "thickness": 0.17,
-          "openings": []
+          "thickness": 0.12,
+          "outer": false,
+          "openings": [],
+          "color": "#e5e0d7"
         },
         {
           "a": [
-            8.515,
-            3.12
+            0.77,
+            -0.4361
           ],
           "b": [
-            8.515,
-            5.655
+            0.77,
+            0.4361
           ],
-          "thickness": 0.17,
-          "openings": []
+          "thickness": 0.14,
+          "outer": false,
+          "openings": [],
+          "color": "#e5e0d7"
         }
       ],
       "holes": [],
       "furniture": [],
-      "stairs": []
+      "sourcePlan": "p00",
+      "sourceBox": [
+        26,
+        216,
+        252,
+        344
+      ],
+      "sourceOrigin": [
+        77.98,
+        246.72
+      ],
+      "sourceScale": 0.0486725664,
+      "separate": false,
+      "traceIndex": 0,
+      "stairSpec": {
+        "a": [
+          0.0,
+          0.0623
+        ],
+        "b": [
+          0.44,
+          0.0623
+        ],
+        "width": 0.8
+      },
+      "uncertainStair": true,
+      "comparison": "banne-202-01.jpg"
     },
     {
-      "id": "ground",
+      "id": "piano-1",
+      "label": "Primo piano",
+      "y": 2.95,
+      "height": 2.66,
+      "outline": [
+        [
+          -1.65,
+          0.3491
+        ],
+        [
+          -0.66,
+          -0.4655
+        ],
+        [
+          7.37,
+          -0.4655
+        ],
+        [
+          7.37,
+          0.8727
+        ],
+        [
+          6.93,
+          1.3382
+        ],
+        [
+          6.93,
+          3.5491
+        ],
+        [
+          -1.65,
+          3.5491
+        ]
+      ],
+      "surfaces": [
+        {
+          "points": [
+            [
+              -1.65,
+              0.3491
+            ],
+            [
+              -0.66,
+              -0.4655
+            ],
+            [
+              7.37,
+              -0.4655
+            ],
+            [
+              7.37,
+              0.8727
+            ],
+            [
+              6.93,
+              1.3382
+            ],
+            [
+              6.93,
+              3.5491
+            ],
+            [
+              -1.65,
+              3.5491
+            ]
+          ],
+          "color": "#b79469",
+          "finish": "wood",
+          "holes": []
+        }
+      ],
+      "walls": [
+        {
+          "a": [
+            -1.6211,
+            0.3842
+          ],
+          "b": [
+            -0.6311,
+            -0.4304
+          ],
+          "thickness": 0.23,
+          "outer": true,
+          "openings": [],
+          "insideFace": true
+        },
+        {
+          "a": [
+            -0.66,
+            -0.3745
+          ],
+          "b": [
+            7.37,
+            -0.3745
+          ],
+          "thickness": 0.23,
+          "outer": true,
+          "openings": [],
+          "insideFace": true
+        },
+        {
+          "a": [
+            7.37,
+            -0.4655
+          ],
+          "b": [
+            7.37,
+            0.8727
+          ],
+          "thickness": 0.25,
+          "outer": true,
+          "openings": [],
+          "insideFace": true
+        },
+        {
+          "a": [
+            7.37,
+            0.8727
+          ],
+          "b": [
+            6.93,
+            1.3382
+          ],
+          "thickness": 0.23,
+          "outer": true,
+          "openings": [],
+          "insideFace": true
+        },
+        {
+          "a": [
+            6.9755,
+            1.3382
+          ],
+          "b": [
+            6.9755,
+            3.5491
+          ],
+          "thickness": 0.23,
+          "outer": true,
+          "openings": [],
+          "insideFace": true
+        },
+        {
+          "a": [
+            6.93,
+            3.64
+          ],
+          "b": [
+            -1.65,
+            3.64
+          ],
+          "thickness": 0.23,
+          "outer": true,
+          "openings": [
+            {
+              "kind": "window",
+              "start": 0.33,
+              "end": 1.43,
+              "sill": 0.9,
+              "height": 1.24
+            },
+            {
+              "kind": "window",
+              "start": 3.63,
+              "end": 4.73,
+              "sill": 0.9,
+              "height": 1.24
+            }
+          ],
+          "insideFace": true
+        },
+        {
+          "a": [
+            -1.5591,
+            3.5491
+          ],
+          "b": [
+            -1.5591,
+            0.3491
+          ],
+          "thickness": 0.23,
+          "outer": true,
+          "openings": [],
+          "insideFace": true
+        },
+        {
+          "a": [
+            -0.2845,
+            0.9891
+          ],
+          "b": [
+            -0.2845,
+            3.4909
+          ],
+          "thickness": 0.091,
+          "outer": false,
+          "openings": [],
+          "color": "#e5e0d7"
+        },
+        {
+          "a": [
+            -1.65,
+            1.9455
+          ],
+          "b": [
+            1.65,
+            1.9455
+          ],
+          "thickness": 0.12,
+          "outer": false,
+          "openings": [],
+          "color": "#e5e0d7"
+        },
+        {
+          "a": [
+            1.54,
+            -0.4073
+          ],
+          "b": [
+            1.54,
+            3.4909
+          ],
+          "thickness": 0.091,
+          "outer": false,
+          "openings": [
+            {
+              "kind": "door",
+              "start": 1.035,
+              "end": 1.875,
+              "sill": 0,
+              "height": 2.06
+            }
+          ],
+          "color": "#e5e0d7"
+        },
+        {
+          "a": [
+            -1.54,
+            0.3164
+          ],
+          "b": [
+            1.43,
+            0.3164
+          ],
+          "thickness": 0.12,
+          "outer": false,
+          "openings": [],
+          "color": "#e5e0d7"
+        },
+        {
+          "a": [
+            -0.33,
+            1.08
+          ],
+          "b": [
+            1.43,
+            1.08
+          ],
+          "thickness": 0.12,
+          "outer": false,
+          "openings": [],
+          "color": "#e5e0d7"
+        },
+        {
+          "a": [
+            4.2445,
+            -0.4073
+          ],
+          "b": [
+            4.2445,
+            3.4909
+          ],
+          "thickness": 0.12,
+          "outer": false,
+          "openings": [
+            {
+              "kind": "door",
+              "start": 1.384,
+              "end": 2.224,
+              "sill": 0,
+              "height": 2.06
+            }
+          ],
+          "color": "#e5e0d7"
+        },
+        {
+          "a": [
+            4.4,
+            0.7436
+          ],
+          "b": [
+            7.15,
+            0.7436
+          ],
+          "thickness": 0.12,
+          "outer": false,
+          "openings": [],
+          "color": "#e5e0d7"
+        }
+      ],
+      "holes": [],
+      "furniture": [
+        {
+          "kind": "bed",
+          "x": 2.75,
+          "z": 1.396,
+          "rotation": 1.5708,
+          "width": 1.48,
+          "depth": 2.0,
+          "color": "#bc9d77",
+          "photoId": "f25",
+          "placement": "Posizione indicativa nel vano, proporzioni e materiali da fotografia."
+        }
+      ],
+      "sourcePlan": "p00",
+      "sourceBox": [
+        292,
+        216,
+        534,
+        344
+      ],
+      "sourceOrigin": [
+        347.66,
+        246.72
+      ],
+      "sourceScale": 0.0454545455,
+      "separate": false,
+      "traceIndex": 1,
+      "comparison": "banne-202-02.jpg"
+    },
+    {
+      "id": "piano-2",
       "label": "Piano terra",
-      "y": 0,
-      "height": 2.6,
+      "y": 0.0,
+      "height": 2.66,
       "outline": [
         [
-          0.0,
-          1.3
+          -1.76,
+          0.3911
         ],
         [
-          1.56,
-          0.0
+          -0.88,
+          -0.5029
         ],
         [
-          13.0,
-          0.0
+          7.04,
+          -0.5029
         ],
         [
-          13.0,
-          1.82
+          7.04,
+          0.8381
         ],
         [
-          12.285,
-          2.6
+          6.49,
+          1.1175
         ],
         [
-          12.285,
-          5.915
+          6.49,
+          3.3524
         ],
         [
-          3.055,
-          5.915
-        ],
-        [
-          3.055,
-          5.525
-        ],
-        [
-          2.015,
-          5.525
-        ],
-        [
-          2.015,
-          5.915
-        ],
-        [
-          0.0,
-          5.915
+          -1.76,
+          3.3524
         ]
       ],
-      "holes": [
-        [
-          [
-            0.195,
-            1.43
+      "surfaces": [
+        {
+          "points": [
+            [
+              -1.76,
+              0.3911
+            ],
+            [
+              -0.88,
+              -0.5029
+            ],
+            [
+              7.04,
+              -0.5029
+            ],
+            [
+              7.04,
+              0.8381
+            ],
+            [
+              6.49,
+              1.1175
+            ],
+            [
+              6.49,
+              3.3524
+            ],
+            [
+              -1.76,
+              3.3524
+            ]
           ],
-          [
-            1.69,
-            0.195
-          ],
-          [
-            3.51,
-            0.195
-          ],
-          [
-            3.51,
-            1.885
-          ],
-          [
-            2.34,
-            1.885
-          ],
-          [
-            1.43,
-            1.365
-          ],
-          [
-            0.65,
-            2.015
-          ]
-        ]
+          "color": "#b79469",
+          "finish": "wood",
+          "holes": []
+        }
       ],
       "walls": [
         {
           "a": [
-            0.0,
-            1.3
+            -1.7756,
+            0.3758
           ],
           "b": [
-            1.56,
-            0.0
+            -0.8956,
+            -0.5182
           ],
-          "thickness": 0.17,
-          "openings": []
+          "thickness": 0.19,
+          "outer": true,
+          "openings": [],
+          "insideFace": true
         },
         {
           "a": [
-            1.56,
-            0.0
+            -0.88,
+            -0.5247
           ],
           "b": [
-            13.0,
-            0.0
+            7.04,
+            -0.5247
           ],
-          "thickness": 0.17,
+          "thickness": 0.218,
+          "outer": true,
+          "openings": [],
+          "insideFace": true
+        },
+        {
+          "a": [
+            7.0837,
+            -0.5029
+          ],
+          "b": [
+            7.0837,
+            0.8381
+          ],
+          "thickness": 0.23,
+          "outer": true,
+          "openings": [],
+          "insideFace": true
+        },
+        {
+          "a": [
+            7.0202,
+            0.7992
+          ],
+          "b": [
+            6.4702,
+            1.0785
+          ],
+          "thickness": 0.19,
+          "outer": true,
+          "openings": [],
+          "insideFace": true
+        },
+        {
+          "a": [
+            6.5773,
+            1.1175
+          ],
+          "b": [
+            6.5773,
+            3.3524
+          ],
+          "thickness": 0.23,
+          "outer": true,
+          "openings": [],
+          "insideFace": true
+        },
+        {
+          "a": [
+            6.49,
+            3.4397
+          ],
+          "b": [
+            -1.76,
+            3.4397
+          ],
+          "thickness": 0.23,
+          "outer": true,
           "openings": [
             {
-              "start": 3.64,
-              "end": 4.29,
-              "sill": 0,
-              "height": 2.1,
-              "kind": "door"
-            }
-          ]
-        },
-        {
-          "a": [
-            13.0,
-            0.0
-          ],
-          "b": [
-            13.0,
-            1.82
-          ],
-          "thickness": 0.17,
-          "openings": []
-        },
-        {
-          "a": [
-            13.0,
-            1.82
-          ],
-          "b": [
-            12.285,
-            2.6
-          ],
-          "thickness": 0.17,
-          "openings": [
-            {
-              "start": 0.325,
-              "end": 1.04,
-              "sill": 0.92,
-              "height": 1.3,
-              "kind": "window"
-            }
-          ]
-        },
-        {
-          "a": [
-            12.285,
-            2.6
-          ],
-          "b": [
-            12.285,
-            5.915
-          ],
-          "thickness": 0.17,
-          "openings": []
-        },
-        {
-          "a": [
-            12.285,
-            5.915
-          ],
-          "b": [
-            3.055,
-            5.915
-          ],
-          "thickness": 0.17,
-          "openings": [
-            {
-              "start": 0.7150000000000001,
-              "end": 1.82,
+              "kind": "window",
+              "start": 0.55,
+              "end": 1.65,
               "sill": 0.9,
-              "height": 1.25,
-              "kind": "window"
+              "height": 1.24
             },
             {
-              "start": 4.94,
-              "end": 5.59,
+              "kind": "window",
+              "start": 3.08,
+              "end": 4.18,
               "sill": 0.9,
-              "height": 1.25,
-              "kind": "window"
+              "height": 1.24
             },
             {
-              "start": 7.215,
-              "end": 8.125,
+              "kind": "door",
+              "height": 2.15,
               "sill": 0,
-              "height": 2.1,
-              "kind": "door"
+              "start": 5.965,
+              "end": 7.015
             }
-          ]
+          ],
+          "insideFace": true
         },
         {
           "a": [
-            0.0,
-            5.915
+            -1.629,
+            3.3524
           ],
           "b": [
-            0.0,
-            1.3
+            -1.629,
+            0.3911
           ],
-          "thickness": 0.17,
+          "thickness": 0.23,
+          "outer": true,
+          "openings": [],
+          "insideFace": true
+        },
+        {
+          "a": [
+            1.0563,
+            -0.5029
+          ],
+          "b": [
+            1.0563,
+            1.0616
+          ],
+          "thickness": 0.12,
+          "outer": false,
+          "openings": [],
+          "color": "#e5e0d7"
+        },
+        {
+          "a": [
+            2.3537,
+            -0.5029
+          ],
+          "b": [
+            2.3537,
+            3.2965
+          ],
+          "thickness": 0.12,
+          "outer": false,
           "openings": [
             {
-              "start": 1.17,
-              "end": 2.015,
-              "sill": 0.9,
-              "height": 1.25,
-              "kind": "window"
+              "kind": "door",
+              "start": 1.815,
+              "end": 2.655,
+              "sill": 0,
+              "height": 2.06
             }
-          ]
+          ],
+          "color": "#e5e0d7"
         },
         {
           "a": [
-            6.175,
-            0.325
+            2.31,
+            0.9062
           ],
           "b": [
-            6.175,
-            1.17
+            6.6,
+            0.9062
           ],
-          "thickness": 0.17,
-          "openings": []
-        },
-        {
-          "a": [
-            6.175,
-            2.21
-          ],
-          "b": [
-            6.175,
-            5.655
-          ],
-          "thickness": 0.17,
-          "openings": []
-        },
-        {
-          "a": [
-            8.32,
-            2.21
-          ],
-          "b": [
-            8.32,
-            5.655
-          ],
-          "thickness": 0.17,
-          "openings": []
-        },
-        {
-          "a": [
-            6.175,
-            2.08
-          ],
-          "b": [
-            12.285,
-            2.08
-          ],
-          "thickness": 0.17,
+          "thickness": 0.12,
+          "outer": false,
           "openings": [
             {
-              "start": 0.195,
-              "end": 0.91,
+              "kind": "door",
+              "start": 1.67,
+              "end": 2.51,
               "sill": 0,
-              "height": 2.1,
-              "kind": "door"
-            },
-            {
-              "start": 2.47,
-              "end": 3.185,
-              "sill": 0,
-              "height": 2.1,
-              "kind": "door"
+              "height": 2.06
             }
-          ]
+          ],
+          "color": "#e5e0d7"
         },
         {
           "a": [
-            7.93,
-            0.325
+            3.85,
+            0.9498
           ],
           "b": [
-            7.93,
-            1.755
+            3.85,
+            3.2965
           ],
-          "thickness": 0.17,
-          "openings": []
+          "thickness": 0.12,
+          "outer": false,
+          "openings": [],
+          "color": "#e5e0d7"
         },
         {
           "a": [
-            9.685,
-            0.325
+            3.3,
+            -0.5029
           ],
           "b": [
-            9.685,
-            2.08
+            3.3,
+            0.2794
           ],
-          "thickness": 0.17,
-          "openings": [
-            {
-              "start": 1.04,
-              "end": 1.625,
-              "sill": 0,
-              "height": 2.1,
-              "kind": "door"
-            }
-          ]
+          "thickness": 0.14,
+          "outer": false,
+          "openings": [],
+          "color": "#e5e0d7"
         },
         {
           "a": [
-            6.175,
-            1.3
+            4.7737,
+            -0.5029
           ],
           "b": [
-            7.93,
-            1.3
+            4.7737,
+            1.0057
           ],
-          "thickness": 0.17,
-          "openings": [
-            {
-              "start": 0.65,
-              "end": 1.3,
-              "sill": 0,
-              "height": 2.1,
-              "kind": "door"
-            }
-          ]
-        },
-        {
-          "a": [
-            3.51,
-            0.325
-          ],
-          "b": [
-            3.51,
-            1.885
-          ],
-          "thickness": 0.17,
-          "openings": []
-        },
-        {
-          "a": [
-            3.055,
-            5.915
-          ],
-          "b": [
-            3.055,
-            5.525
-          ],
-          "thickness": 0.17,
-          "openings": []
-        },
-        {
-          "a": [
-            3.055,
-            5.525
-          ],
-          "b": [
-            2.015,
-            5.525
-          ],
-          "thickness": 0.17,
-          "openings": []
-        },
-        {
-          "a": [
-            2.015,
-            5.525
-          ],
-          "b": [
-            2.015,
-            5.915
-          ],
-          "thickness": 0.17,
-          "openings": []
-        },
-        {
-          "a": [
-            2.015,
-            5.915
-          ],
-          "b": [
-            0.0,
-            5.915
-          ],
-          "thickness": 0.17,
-          "openings": [
-            {
-              "start": 0.7150000000000001,
-              "end": 1.4300000000000002,
-              "sill": 0,
-              "height": 2.1,
-              "kind": "door"
-            }
-          ]
+          "thickness": 0.12,
+          "outer": false,
+          "openings": [],
+          "color": "#e5e0d7"
         }
       ],
-      "furniture": [],
-      "stairs": []
-    },
-    {
-      "id": "first",
-      "label": "Piano primo e terrazza",
-      "y": 2.76,
-      "height": 2.5,
-      "outline": [
-        [
-          0.0,
-          1.3
-        ],
-        [
-          1.56,
-          0.0
-        ],
-        [
-          13.0,
-          0.0
-        ],
-        [
-          13.0,
-          1.82
-        ],
-        [
-          12.285,
-          2.6
-        ],
-        [
-          12.285,
-          5.915
-        ],
-        [
-          0.0,
-          5.915
-        ]
-      ],
-      "holes": [
-        [
-          [
-            0.195,
-            1.43
-          ],
-          [
-            1.69,
-            0.195
-          ],
-          [
-            3.51,
-            0.195
-          ],
-          [
-            3.51,
-            1.885
-          ],
-          [
-            2.34,
-            1.885
-          ],
-          [
-            1.43,
-            1.365
-          ],
-          [
-            0.65,
-            2.015
-          ]
-        ]
-      ],
-      "walls": [
+      "holes": [],
+      "furniture": [
         {
-          "a": [
-            0.0,
-            1.3
-          ],
-          "b": [
-            1.56,
-            0.0
-          ],
-          "thickness": 0.17,
-          "openings": []
+          "kind": "sofa",
+          "x": -0.883,
+          "z": 2.178,
+          "rotation": 1.5708,
+          "width": 2.05,
+          "depth": 0.87,
+          "color": "#dbd0bc",
+          "photoId": "f01",
+          "placement": "Posizione indicativa nel vano, proporzioni e materiali da fotografia."
         },
         {
-          "a": [
-            1.56,
-            0.0
-          ],
-          "b": [
-            13.0,
-            0.0
-          ],
-          "thickness": 0.17,
-          "openings": []
+          "kind": "kitchen",
+          "x": 2.857,
+          "z": 2.234,
+          "rotation": 1.5708,
+          "width": 2.1,
+          "depth": 0.62,
+          "color": "#d7d4c3",
+          "photoId": "f17",
+          "placement": "Posizione indicativa nel vano, proporzioni e materiali da fotografia."
         },
         {
-          "a": [
-            13.0,
-            0.0
-          ],
-          "b": [
-            13.0,
-            1.82
-          ],
-          "thickness": 0.17,
-          "openings": []
-        },
-        {
-          "a": [
-            13.0,
-            1.82
-          ],
-          "b": [
-            12.285,
-            2.6
-          ],
-          "thickness": 0.17,
-          "openings": [
-            {
-              "start": 0.325,
-              "end": 1.04,
-              "sill": 0.92,
-              "height": 1.3,
-              "kind": "window"
-            }
-          ],
-          "height": 0.95
-        },
-        {
-          "a": [
-            12.285,
-            2.6
-          ],
-          "b": [
-            12.285,
-            5.915
-          ],
-          "thickness": 0.17,
-          "openings": [],
-          "height": 0.95
-        },
-        {
-          "a": [
-            12.285,
-            5.915
-          ],
-          "b": [
-            8.645,
-            5.915
-          ],
-          "thickness": 0.17,
-          "openings": [],
-          "height": 0.95
-        },
-        {
-          "a": [
-            0.0,
-            5.915
-          ],
-          "b": [
-            0.0,
-            1.3
-          ],
-          "thickness": 0.17,
-          "openings": [
-            {
-              "start": 1.3,
-              "end": 2.145,
-              "sill": 0.9,
-              "height": 1.1,
-              "kind": "window"
-            }
-          ]
-        },
-        {
-          "a": [
-            4.42,
-            0.325
-          ],
-          "b": [
-            4.42,
-            5.655
-          ],
-          "thickness": 0.17,
-          "openings": [
-            {
-              "start": 1.17,
-              "end": 2.015,
-              "sill": 0,
-              "height": 2.1,
-              "kind": "door"
-            }
-          ]
-        },
-        {
-          "a": [
-            2.015,
-            2.275
-          ],
-          "b": [
-            2.015,
-            5.655
-          ],
-          "thickness": 0.17,
-          "openings": []
-        },
-        {
-          "a": [
-            2.015,
-            2.275
-          ],
-          "b": [
-            4.42,
-            2.275
-          ],
-          "thickness": 0.17,
-          "openings": [
-            {
-              "start": 0.65,
-              "end": 1.3,
-              "sill": 0,
-              "height": 2.1,
-              "kind": "door"
-            }
-          ]
-        },
-        {
-          "a": [
-            0.26,
-            2.925
-          ],
-          "b": [
-            2.015,
-            2.925
-          ],
-          "thickness": 0.17,
-          "openings": [
-            {
-              "start": 0.325,
-              "end": 1.04,
-              "sill": 0,
-              "height": 2.1,
-              "kind": "door"
-            }
-          ]
-        },
-        {
-          "a": [
-            8.645,
-            0.325
-          ],
-          "b": [
-            8.645,
-            5.655
-          ],
-          "thickness": 0.17,
-          "openings": [
-            {
-              "start": 2.47,
-              "end": 3.575,
-              "sill": 0,
-              "height": 2.2,
-              "kind": "door"
-            }
-          ]
-        },
-        {
-          "a": [
-            8.645,
-            1.56
-          ],
-          "b": [
-            12.74,
-            1.56
-          ],
-          "thickness": 0.17,
-          "openings": []
-        },
-        {
-          "a": [
-            8.645,
-            5.915
-          ],
-          "b": [
-            0.0,
-            5.915
-          ],
-          "thickness": 0.17,
-          "openings": [
-            {
-              "start": 3.185,
-              "end": 3.9000000000000004,
-              "sill": 0.9,
-              "height": 1.1,
-              "kind": "window"
-            },
-            {
-              "start": 4.875,
-              "end": 5.655,
-              "sill": 0.9,
-              "height": 1.1,
-              "kind": "window"
-            }
-          ]
+          "kind": "fireplace",
+          "x": 0.77,
+          "z": 2.905,
+          "rotation": 0.0,
+          "width": 0.88,
+          "depth": 0.45,
+          "color": "#af8671",
+          "photoId": "f33",
+          "placement": "Posizione indicativa nel vano, proporzioni e materiali da fotografia."
         }
       ],
-      "furniture": [],
-      "stairs": []
+      "sourcePlan": "p00",
+      "sourceBox": [
+        164,
+        521,
+        416,
+        649
+      ],
+      "sourceOrigin": [
+        239.6,
+        547.88
+      ],
+      "sourceScale": 0.0436507937,
+      "separate": false,
+      "traceIndex": 2,
+      "stairSpec": {
+        "a": [
+          -0.44,
+          0.1117
+        ],
+        "b": [
+          0.66,
+          0.1117
+        ],
+        "width": 0.85
+      },
+      "uncertainStair": true,
+      "comparison": "banne-202-03.jpg"
     }
   ],
   "roofs": [
     {
       "vertices": [
         [
-          -0.325,
-          5.3,
-          -0.325
+          -1.65,
+          6.3073,
+          1.5418
         ],
         [
-          8.71,
-          5.3,
-          -0.325
+          -1.65,
+          5.9257,
+          0.3491
         ],
         [
-          8.71,
-          6.7,
-          2.8600000000000003
+          -0.66,
+          5.665,
+          -0.4655
         ],
         [
-          -0.325,
-          6.7,
-          2.8600000000000003
+          -1.65,
+          6.3073,
+          1.5418
+        ],
+        [
+          -0.66,
+          5.665,
+          -0.4655
+        ],
+        [
+          6.93,
+          6.3073,
+          1.5418
+        ],
+        [
+          6.93,
+          6.3073,
+          1.5418
+        ],
+        [
+          -0.66,
+          5.665,
+          -0.4655
+        ],
+        [
+          6.93,
+          6.2422,
+          1.3382
+        ],
+        [
+          7.37,
+          6.0932,
+          0.8727
+        ],
+        [
+          6.93,
+          6.2422,
+          1.3382
+        ],
+        [
+          7.37,
+          5.665,
+          -0.4655
+        ],
+        [
+          7.37,
+          5.665,
+          -0.4655
+        ],
+        [
+          6.93,
+          6.2422,
+          1.3382
+        ],
+        [
+          -0.66,
+          5.665,
+          -0.4655
+        ],
+        [
+          -1.65,
+          5.665,
+          3.5491
+        ],
+        [
+          -1.65,
+          6.3073,
+          1.5418
+        ],
+        [
+          6.93,
+          6.3073,
+          1.5418
+        ],
+        [
+          -1.65,
+          5.665,
+          3.5491
+        ],
+        [
+          6.93,
+          6.3073,
+          1.5418
+        ],
+        [
+          6.93,
+          5.665,
+          3.5491
         ]
       ],
       "indices": [
         0,
         1,
         2,
-        0,
-        2,
-        3
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
       ],
-      "color": "#a76a46"
+      "color": "#654f46"
     },
     {
       "vertices": [
         [
-          -0.325,
-          6.7,
-          2.8600000000000003
+          -1.65,
+          5.595,
+          0.3491
         ],
         [
-          8.71,
-          6.7,
-          2.8600000000000003
+          -1.65,
+          5.9257,
+          0.3491
         ],
         [
-          8.71,
-          5.3,
-          6.24
+          -1.65,
+          6.3073,
+          1.5418
         ],
         [
-          -0.325,
-          5.3,
-          6.24
+          -1.65,
+          5.595,
+          0.3491
+        ],
+        [
+          -1.65,
+          6.3073,
+          1.5418
+        ],
+        [
+          -1.65,
+          5.595,
+          1.5418
+        ],
+        [
+          -1.65,
+          5.595,
+          0.3491
+        ],
+        [
+          -1.65,
+          5.9257,
+          0.3491
+        ],
+        [
+          -0.66,
+          5.665,
+          -0.4655
+        ],
+        [
+          -1.65,
+          5.595,
+          0.3491
+        ],
+        [
+          -0.66,
+          5.665,
+          -0.4655
+        ],
+        [
+          -0.66,
+          5.595,
+          -0.4655
+        ],
+        [
+          6.93,
+          5.595,
+          1.3382
+        ],
+        [
+          6.93,
+          6.2422,
+          1.3382
+        ],
+        [
+          6.93,
+          6.3073,
+          1.5418
+        ],
+        [
+          6.93,
+          5.595,
+          1.3382
+        ],
+        [
+          6.93,
+          6.3073,
+          1.5418
+        ],
+        [
+          6.93,
+          5.595,
+          1.5418
+        ],
+        [
+          6.93,
+          5.595,
+          1.3382
+        ],
+        [
+          6.93,
+          6.2422,
+          1.3382
+        ],
+        [
+          7.37,
+          6.0932,
+          0.8727
+        ],
+        [
+          6.93,
+          5.595,
+          1.3382
+        ],
+        [
+          7.37,
+          6.0932,
+          0.8727
+        ],
+        [
+          7.37,
+          5.595,
+          0.8727
+        ],
+        [
+          7.37,
+          5.595,
+          -0.4655
+        ],
+        [
+          7.37,
+          5.665,
+          -0.4655
+        ],
+        [
+          7.37,
+          6.0932,
+          0.8727
+        ],
+        [
+          7.37,
+          5.595,
+          -0.4655
+        ],
+        [
+          7.37,
+          6.0932,
+          0.8727
+        ],
+        [
+          7.37,
+          5.595,
+          0.8727
+        ],
+        [
+          -1.65,
+          5.595,
+          3.5491
+        ],
+        [
+          -1.65,
+          5.665,
+          3.5491
+        ],
+        [
+          -1.65,
+          6.3073,
+          1.5418
+        ],
+        [
+          -1.65,
+          5.595,
+          3.5491
+        ],
+        [
+          -1.65,
+          6.3073,
+          1.5418
+        ],
+        [
+          -1.65,
+          5.595,
+          1.5418
+        ],
+        [
+          6.93,
+          5.595,
+          3.5491
+        ],
+        [
+          6.93,
+          5.665,
+          3.5491
+        ],
+        [
+          6.93,
+          6.3073,
+          1.5418
+        ],
+        [
+          6.93,
+          5.595,
+          3.5491
+        ],
+        [
+          6.93,
+          6.3073,
+          1.5418
+        ],
+        [
+          6.93,
+          5.595,
+          1.5418
         ]
       ],
       "indices": [
         0,
         1,
         2,
-        0,
-        2,
-        3
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41
       ],
-      "color": "#a76a46"
-    },
-    {
-      "vertices": [
-        [
-          8.71,
-          5.3,
-          -0.325
-        ],
-        [
-          13.325000000000001,
-          5.3,
-          -0.325
-        ],
-        [
-          13.325000000000001,
-          5.7,
-          0.78
-        ],
-        [
-          8.71,
-          5.7,
-          0.78
-        ]
-      ],
-      "indices": [
-        0,
-        1,
-        2,
-        0,
-        2,
-        3
-      ],
-      "color": "#a76a46"
-    },
-    {
-      "vertices": [
-        [
-          8.71,
-          5.7,
-          0.78
-        ],
-        [
-          13.325000000000001,
-          5.7,
-          0.78
-        ],
-        [
-          13.325000000000001,
-          5.3,
-          1.7550000000000001
-        ],
-        [
-          8.71,
-          5.3,
-          1.7550000000000001
-        ]
-      ],
-      "indices": [
-        0,
-        1,
-        2,
-        0,
-        2,
-        3
-      ],
-      "color": "#a76a46"
-    },
-    {
-      "vertices": [
-        [
-          8.71,
-          5.3,
-          5.785
-        ],
-        [
-          12.675,
-          5.3,
-          5.785
-        ],
-        [
-          12.675,
-          4.3,
-          6.305000000000001
-        ],
-        [
-          8.71,
-          4.3,
-          6.305000000000001
-        ]
-      ],
-      "indices": [
-        0,
-        1,
-        2,
-        0,
-        2,
-        3
-      ],
-      "color": "#a76a46"
-    },
-    {
-      "vertices": [
-        [
-          1.7550000000000001,
-          5.3,
-          6.305000000000001
-        ],
-        [
-          4.2250000000000005,
-          6.7,
-          6.305000000000001
-        ],
-        [
-          4.2250000000000005,
-          6.7,
-          2.8600000000000003
-        ]
-      ],
-      "indices": [
-        0,
-        1,
-        2
-      ],
-      "color": "#a76a46"
-    },
-    {
-      "vertices": [
-        [
-          4.2250000000000005,
-          6.7,
-          6.305000000000001
-        ],
-        [
-          6.76,
-          5.3,
-          6.305000000000001
-        ],
-        [
-          4.2250000000000005,
-          6.7,
-          2.8600000000000003
-        ]
-      ],
-      "indices": [
-        0,
-        1,
-        2
-      ],
-      "color": "#a76a46"
-    },
-    {
-      "vertices": [
-        [
-          1.7550000000000001,
-          5.3,
-          5.915
-        ],
-        [
-          4.2250000000000005,
-          6.7,
-          5.915
-        ],
-        [
-          6.76,
-          5.3,
-          5.915
-        ]
-      ],
-      "indices": [
-        0,
-        1,
-        2
-      ],
-      "color": "#e4d9bf"
-    },
-    {
-      "vertices": [
-        [
-          -2.6,
-          2.55,
-          2.9250000000000003
-        ],
-        [
-          5.46,
-          2.55,
-          2.9250000000000003
-        ],
-        [
-          5.46,
-          2.15,
-          8.775
-        ],
-        [
-          -2.6,
-          2.15,
-          8.775
-        ]
-      ],
-      "indices": [
-        0,
-        1,
-        2,
-        0,
-        2,
-        3
-      ],
-      "color": "#a76a46"
-    },
-    {
-      "vertices": [
-        [
-          -0.325,
-          5.3,
-          -0.325
-        ],
-        [
-          -0.325,
-          6.7,
-          2.8600000000000003
-        ],
-        [
-          -0.325,
-          5.3,
-          6.24
-        ]
-      ],
-      "indices": [
-        0,
-        1,
-        2
-      ],
-      "color": "#e4d9bf"
-    },
-    {
-      "vertices": [
-        [
-          8.71,
-          5.3,
-          -0.325
-        ],
-        [
-          8.71,
-          6.7,
-          2.8600000000000003
-        ],
-        [
-          8.71,
-          5.3,
-          6.24
-        ]
-      ],
-      "indices": [
-        0,
-        1,
-        2
-      ],
-      "color": "#e4d9bf"
-    }
-  ],
-  "exteriors": [
-    {
-      "points": [
-        [
-          -3,
-          -3
-        ],
-        [
-          16,
-          -3
-        ],
-        [
-          16,
-          10
-        ],
-        [
-          -3,
-          10
-        ]
-      ],
-      "y": -0.22,
-      "thickness": 0.16,
-      "color": "#85946b"
-    },
-    {
-      "points": [
-        [
-          -2.47,
-          2.99
-        ],
-        [
-          5.265,
-          2.99
-        ],
-        [
-          5.265,
-          8.58
-        ],
-        [
-          -2.47,
-          8.58
-        ]
-      ],
-      "y": -0.01,
-      "color": "#b4ad9d"
-    },
-    {
-      "kind": "box",
-      "center": [
-        -2.275,
-        1.04,
-        5.2
-      ],
-      "size": [
-        0.24,
-        2.08,
-        0.24
-      ],
-      "color": "#dfd2b8"
-    },
-    {
-      "kind": "box",
-      "center": [
-        -2.275,
-        1.04,
-        8.32
-      ],
-      "size": [
-        0.24,
-        2.08,
-        0.24
-      ],
-      "color": "#dfd2b8"
-    },
-    {
-      "kind": "box",
-      "center": [
-        2.08,
-        1.04,
-        8.32
-      ],
-      "size": [
-        0.24,
-        2.08,
-        0.24
-      ],
-      "color": "#dfd2b8"
-    },
-    {
-      "kind": "box",
-      "center": [
-        5.07,
-        1.04,
-        8.32
-      ],
-      "size": [
-        0.24,
-        2.08,
-        0.24
-      ],
-      "color": "#dfd2b8"
+      "color": "#e0d9bf"
     }
   ],
   "colors": {
-    "walls": "#e4d9bf",
-    "floor": "#c7bca4",
-    "frames": "#72523c",
-    "wood": "#866549"
+    "walls": "#e0d9bf",
+    "floor": "#b79469",
+    "roof": "#654f46",
+    "frames": "#64574a",
+    "wood": "#88674c"
   },
+  "coverage": "partial",
+  "unrenderedVolumes": [
+    "Portico, terreno e dettagli delle scale coperti dalla filigrana.",
+    "Rampe o tratti di scala senza raccordo verticale verificabile tra le tavole."
+  ],
+  "geometrySource": "Ricalco dei perimetri e dei tramezzi su ritagli delle tavole pubblicate, con registrazione isotropa delle linee alla scansione. Dimensioni assolute e imbotti stimati salvo quote esplicite.",
+  "id": "banne-202",
+  "title": "Banne 202",
+  "creationStarted": "2026-11-23T11:47:20+01:00",
+  "creationFinished": "2026-11-23T12:47:02+01:00",
   "sources": [
+    "https://www.immobiliare.it/annunci/121323776/"
+  ],
+  "sourceReadAt": "2026-11-23T11:49:18+01:00",
+  "sourceMedia": [
     {
-      "url": "https://www.immobiliare.it/annunci/121323776/",
-      "readAt": "2026-11-09T22:19:40.697113+01:00",
-      "type": "listing"
+      "key": "p00",
+      "usedUrl": "https://pic.im-cdn.it/plan/114915142/xxl.jpg",
+      "caption": "",
+      "plan": true,
+      "size": [
+        595,
+        842
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/121323776/"
     },
     {
-      "url": "https://pic.im-cdn.it/plan/114915142/xxl.jpg",
-      "type": "floorplan"
+      "key": "f00",
+      "usedUrl": "https://pwm.im-cdn.it/image/1860876591/xxl.jpg",
+      "caption": "",
+      "plan": false,
+      "size": [
+        1680,
+        937
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/121323776/"
     },
     {
-      "file": "photos.json",
-      "type": "photographs"
+      "key": "f01",
+      "usedUrl": "https://pwm.im-cdn.it/image/1860876607/xxl.jpg",
+      "caption": "",
+      "plan": false,
+      "size": [
+        1680,
+        937
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/121323776/"
+    },
+    {
+      "key": "f02",
+      "usedUrl": "https://pwm.im-cdn.it/image/1860876615/xxl.jpg",
+      "caption": "",
+      "plan": false,
+      "size": [
+        1680,
+        937
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/121323776/"
+    },
+    {
+      "key": "f03",
+      "usedUrl": "https://pwm.im-cdn.it/image/1860876629/xxl.jpg",
+      "caption": "",
+      "plan": false,
+      "size": [
+        1680,
+        937
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/121323776/"
+    },
+    {
+      "key": "f04",
+      "usedUrl": "https://pwm.im-cdn.it/image/1860876641/xxl.jpg",
+      "caption": "",
+      "plan": false,
+      "size": [
+        1680,
+        937
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/121323776/"
+    },
+    {
+      "key": "f05",
+      "usedUrl": "https://pwm.im-cdn.it/image/1860876653/xxl.jpg",
+      "caption": "",
+      "plan": false,
+      "size": [
+        1680,
+        937
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/121323776/"
+    },
+    {
+      "key": "f06",
+      "usedUrl": "https://pwm.im-cdn.it/image/1860876665/xxl.jpg",
+      "caption": "",
+      "plan": false,
+      "size": [
+        1680,
+        937
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/121323776/"
+    },
+    {
+      "key": "f07",
+      "usedUrl": "https://pwm.im-cdn.it/image/1860876675/xxl.jpg",
+      "caption": "",
+      "plan": false,
+      "size": [
+        1680,
+        937
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/121323776/"
+    },
+    {
+      "key": "f08",
+      "usedUrl": "https://pwm.im-cdn.it/image/1860876683/xxl.jpg",
+      "caption": "",
+      "plan": false,
+      "size": [
+        1680,
+        937
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/121323776/"
+    },
+    {
+      "key": "f09",
+      "usedUrl": "https://pwm.im-cdn.it/image/1860876697/xxl.jpg",
+      "caption": "",
+      "plan": false,
+      "size": [
+        1680,
+        937
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/121323776/"
+    },
+    {
+      "key": "f10",
+      "usedUrl": "https://pwm.im-cdn.it/image/1860876713/xxl.jpg",
+      "caption": "",
+      "plan": false,
+      "size": [
+        1680,
+        937
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/121323776/"
+    },
+    {
+      "key": "f11",
+      "usedUrl": "https://pwm.im-cdn.it/image/1860876725/xxl.jpg",
+      "caption": "",
+      "plan": false,
+      "size": [
+        1680,
+        937
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/121323776/"
+    },
+    {
+      "key": "f12",
+      "usedUrl": "https://pwm.im-cdn.it/image/1860876733/xxl.jpg",
+      "caption": "",
+      "plan": false,
+      "size": [
+        1680,
+        937
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/121323776/"
+    },
+    {
+      "key": "f13",
+      "usedUrl": "https://pwm.im-cdn.it/image/1860876743/xxl.jpg",
+      "caption": "",
+      "plan": false,
+      "size": [
+        1680,
+        937
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/121323776/"
+    },
+    {
+      "key": "f14",
+      "usedUrl": "https://pwm.im-cdn.it/image/1860876757/xxl.jpg",
+      "caption": "",
+      "plan": false,
+      "size": [
+        1680,
+        937
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/121323776/"
+    },
+    {
+      "key": "f15",
+      "usedUrl": "https://pwm.im-cdn.it/image/1860876771/xxl.jpg",
+      "caption": "",
+      "plan": false,
+      "size": [
+        1680,
+        937
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/121323776/"
+    },
+    {
+      "key": "f16",
+      "usedUrl": "https://pwm.im-cdn.it/image/1860876779/xxl.jpg",
+      "caption": "",
+      "plan": false,
+      "size": [
+        1680,
+        937
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/121323776/"
+    },
+    {
+      "key": "f17",
+      "usedUrl": "https://pwm.im-cdn.it/image/1860876789/xxl.jpg",
+      "caption": "",
+      "plan": false,
+      "size": [
+        1680,
+        937
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/121323776/"
+    },
+    {
+      "key": "f18",
+      "usedUrl": "https://pwm.im-cdn.it/image/1860876799/xxl.jpg",
+      "caption": "",
+      "plan": false,
+      "size": [
+        1680,
+        937
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/121323776/"
+    },
+    {
+      "key": "f19",
+      "usedUrl": "https://pwm.im-cdn.it/image/1860876805/xxl.jpg",
+      "caption": "",
+      "plan": false,
+      "size": [
+        1680,
+        937
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/121323776/"
+    },
+    {
+      "key": "f20",
+      "usedUrl": "https://pwm.im-cdn.it/image/1860876811/xxl.jpg",
+      "caption": "",
+      "plan": false,
+      "size": [
+        1680,
+        937
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/121323776/"
+    },
+    {
+      "key": "f21",
+      "usedUrl": "https://pwm.im-cdn.it/image/1860876815/xxl.jpg",
+      "caption": "",
+      "plan": false,
+      "size": [
+        1680,
+        937
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/121323776/"
+    },
+    {
+      "key": "f22",
+      "usedUrl": "https://pwm.im-cdn.it/image/1860876819/xxl.jpg",
+      "caption": "",
+      "plan": false,
+      "size": [
+        1680,
+        937
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/121323776/"
+    },
+    {
+      "key": "f23",
+      "usedUrl": "https://pwm.im-cdn.it/image/1860876823/xxl.jpg",
+      "caption": "",
+      "plan": false,
+      "size": [
+        1680,
+        937
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/121323776/"
+    },
+    {
+      "key": "f24",
+      "usedUrl": "https://pwm.im-cdn.it/image/1860876831/xxl.jpg",
+      "caption": "",
+      "plan": false,
+      "size": [
+        1680,
+        937
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/121323776/"
+    },
+    {
+      "key": "f25",
+      "usedUrl": "https://pwm.im-cdn.it/image/1860876839/xxl.jpg",
+      "caption": "",
+      "plan": false,
+      "size": [
+        1680,
+        937
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/121323776/"
+    },
+    {
+      "key": "f26",
+      "usedUrl": "https://pwm.im-cdn.it/image/1860876861/xxl.jpg",
+      "caption": "",
+      "plan": false,
+      "size": [
+        1680,
+        937
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/121323776/"
+    },
+    {
+      "key": "f27",
+      "usedUrl": "https://pwm.im-cdn.it/image/1860876875/xxl.jpg",
+      "caption": "",
+      "plan": false,
+      "size": [
+        1680,
+        937
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/121323776/"
+    },
+    {
+      "key": "f28",
+      "usedUrl": "https://pwm.im-cdn.it/image/1860876885/xxl.jpg",
+      "caption": "",
+      "plan": false,
+      "size": [
+        1680,
+        937
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/121323776/"
+    },
+    {
+      "key": "f29",
+      "usedUrl": "https://pwm.im-cdn.it/image/1860876893/xxl.jpg",
+      "caption": "",
+      "plan": false,
+      "size": [
+        1680,
+        937
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/121323776/"
+    },
+    {
+      "key": "f30",
+      "usedUrl": "https://pwm.im-cdn.it/image/1860876903/xxl.jpg",
+      "caption": "",
+      "plan": false,
+      "size": [
+        1680,
+        937
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/121323776/"
+    },
+    {
+      "key": "f31",
+      "usedUrl": "https://pwm.im-cdn.it/image/1860876909/xxl.jpg",
+      "caption": "",
+      "plan": false,
+      "size": [
+        1680,
+        937
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/121323776/"
+    },
+    {
+      "key": "f32",
+      "usedUrl": "https://pwm.im-cdn.it/image/1860876917/xxl.jpg",
+      "caption": "",
+      "plan": false,
+      "size": [
+        1680,
+        937
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/121323776/"
+    },
+    {
+      "key": "f33",
+      "usedUrl": "https://pwm.im-cdn.it/image/1860876929/xxl.jpg",
+      "caption": "",
+      "plan": false,
+      "size": [
+        1680,
+        937
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/121323776/"
     }
   ],
-  "estimates": [
-    "Altezze, spessori e dimensioni assolute stimati; contorni e partizioni ricalcati dalla pianta.",
-    "Geometria delle falde semplificata dalle fotografie 0,5,7; nessuna piscina aggiunta.",
-    "Giardino limitato al contesto vicino; dolina e confini di propriet\u00e0 non rappresentati."
-  ],
-  "creationFinished": "2026-11-09T22:44:01.838433+01:00",
-  "rendering": {
-    "textured": true,
-    "exposure": 1.02,
-    "hemisphereIntensity": 1.65,
-    "sunIntensity": 2.65
-  }
+  "photoNotes": "Camino in mattoni chiari, divano crema, cucina chiara ad angolo e letto con struttura in legno.",
+  "photoEvidence": {
+    "sofa": {
+      "id": "f01",
+      "color": "#dbd0bc"
+    },
+    "kitchen": {
+      "id": "f17",
+      "color": "#d7d4c3"
+    },
+    "bed": {
+      "id": "f25",
+      "color": "#bc9d77"
+    },
+    "fireplace": {
+      "id": "f33",
+      "color": "#af8671"
+    }
+  },
+  "representation": "Stato documentato nelle fonti",
+  "saleNote": null,
+  "skillVersion": "1.2.0",
+  "views": [
+    {
+      "label": "Esterno",
+      "level": null
+    },
+    {
+      "label": "Primo piano",
+      "level": 1
+    },
+    {
+      "label": "Piano terra",
+      "level": 2
+    },
+    {
+      "label": "Seminterrato",
+      "level": 0
+    }
+  ]
 }

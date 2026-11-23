@@ -1,0 +1,45 @@
+{
+  "id": "via-giuseppe-bruni-1-1",
+  "status": "ready",
+  "path": "modelli/via-giuseppe-bruni-1-1.html",
+  "views": [
+    {
+      "id": "view-0",
+      "label": "Fronte sul giardino e copertura"
+    },
+    {
+      "id": "view-1",
+      "label": "Terrazza e veranda sul giardino"
+    }
+  ],
+  "coverage": "exterior_only",
+  "unrenderedVolumes": [
+    "Interni dei due piani, soffitta, taverna e box: nessuna planimetria utilizzabile acquisita.",
+    "Retro, pareti accostate e porzioni nascoste del piano inferiore.",
+    "Unità vicine, giardino oltre il contesto immediato, confini e dislivello del pendio."
+  ],
+  "notes": [
+    "Il fronte fotografato ha due ringhiere scure al piano alto, tenda a righe sulla veranda, gradini in cotto e tavolo con sedie chiare sul lastrico. Le fotografie degli interni mostrano un divano scuro nella veranda, tavolo da pranzo, cucina chiara, letti e librerie. La loro posizione sugli ambienti della casa resta indeterminata per l’assenza di piante."
+  ],
+  "verifiedAt": "2026-11-23T13:02:09+01:00",
+  "artifactSha256": "8d206e0e7194c17fd095142ef62575deab435ab093c1eb088ed7d8b94389b16d",
+  "sourcePlans": [],
+  "preview": "assets/via-giuseppe-bruni-1-1.jpg",
+  "qa": {
+    "staticPassed": true,
+    "browserPassed": true,
+    "geometryPassed": true,
+    "orthographicPassed": null
+  },
+  "fidelity": {
+    "passed": true,
+    "basis": "Riesame visivo dei fronti fotografati e delle parti modellate."
+  },
+  "independentReview": {
+    "passed": true,
+    "artifactSha256": "8d206e0e7194c17fd095142ef62575deab435ab093c1eb088ed7d8b94389b16d",
+    "method": "Seconda lettura di fotografie, viste renderizzate e sovrapposizioni disponibili. Le misure e le parti omesse sono dichiarate nella scheda."
+  },
+  "evidenceIndex": "ricostruzioni/2026-11-23/index.html#via-giuseppe-bruni-1-1",
+  "browserReport": "ricostruzioni/2026-11-23/verifiche/risultati.json"
+}

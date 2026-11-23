@@ -1,0 +1,62 @@
+{
+  "id": "zolla-60",
+  "status": "ready",
+  "path": "modelli/zolla-60.html",
+  "views": [
+    {
+      "label": "Esterno",
+      "level": null
+    },
+    {
+      "label": "Sottotetto",
+      "level": 2
+    },
+    {
+      "label": "Piano terra",
+      "level": 1
+    },
+    {
+      "label": "Seminterrato",
+      "level": 0
+    }
+  ],
+  "notes": [
+    "Sedute chiare, scaffali in legno, cucina color panna e letto azzurro.",
+    "I contorni e le divisioni seguono le tavole indicate. Le misure assolute prive di quota, alcune aperture, le altezze e le dimensioni dei mobili sono stime."
+  ],
+  "verifiedAt": "2026-11-23T12:47:02+01:00",
+  "artifactSha256": "3345632e06857a12a3666bbf47d35d9abad3df6a11f6b0eb76391aadee23268d",
+  "sourcePlans": [
+    {
+      "label": "PLN Zolla copia",
+      "url": "https://pic.im-cdn.it/plan/126911984/xxl.jpg"
+    },
+    {
+      "label": "PLN Zolla ,",
+      "url": "https://pic.im-cdn.it/plan/126911986/xxl.jpg"
+    }
+  ],
+  "unrenderedVolumes": [
+    "Parapetti dei balconi, scala esterna e sagoma esatta delle falde.",
+    "Rampe o tratti di scala senza raccordo verticale verificabile tra le tavole."
+  ],
+  "coverage": "partial",
+  "preview": "assets/zolla-60.jpg",
+  "qa": {
+    "staticPassed": true,
+    "browserPassed": true,
+    "geometryPassed": true,
+    "orthographicPassed": true
+  },
+  "fidelity": {
+    "passed": true,
+    "basis": "Riesame visivo dei fronti fotografati e delle parti modellate."
+  },
+  "independentReview": {
+    "passed": true,
+    "artifactSha256": "3345632e06857a12a3666bbf47d35d9abad3df6a11f6b0eb76391aadee23268d",
+    "method": "Seconda lettura di fotografie, viste renderizzate e sovrapposizioni disponibili. Le misure e le parti omesse sono dichiarate nella scheda."
+  },
+  "evidenceIndex": "ricostruzioni/2026-11-23/index.html#zolla-60",
+  "browserReport": "ricostruzioni/2026-11-23/verifiche/risultati.json"
+}

@@ -1,6 +1,57 @@
 {
-  "artifactId": "erta-di-sant-anna",
-  "artifactSha256": "3d10ae00850b577a6a968814ed0638b195d72077a55461c1200dd72a3e63e309",
+  "id": "erta-di-sant-anna",
+  "status": "ready",
+  "path": "modelli/erta-di-sant-anna.html",
+  "views": [
+    {
+      "id": "esterno",
+      "label": "Esterno",
+      "level": null
+    },
+    {
+      "id": "primo",
+      "label": "Primo piano",
+      "level": 2
+    },
+    {
+      "id": "terra",
+      "label": "Piano terra",
+      "level": 1
+    },
+    {
+      "id": "seminterrato",
+      "label": "Seminterrato e accessori",
+      "level": 0
+    },
+    {
+      "id": "box",
+      "label": "Box auto",
+      "level": 3
+    }
+  ],
+  "notes": [
+    "Cucina in legno chiaro e avorio, tavolo scuro, camera con copriletto chiaro su pavimento di legno.",
+    "I contorni e le divisioni seguono le tavole indicate. Le misure assolute prive di quota, alcune aperture, le altezze e le dimensioni dei mobili sono stime."
+  ],
+  "verifiedAt": "2026-11-23T12:47:02+01:00",
+  "artifactSha256": "284035969b088cedadbf7bf219ecef0bab27b4d015eab2a12d350814cd3e8c2f",
+  "sourcePlans": [
+    {
+      "label": "PLN_241681395_1 2",
+      "url": "https://pic.im-cdn.it/plan/129731456/xxl.jpg"
+    },
+    {
+      "label": "PLN_241681395_1 1",
+      "url": "https://pic.im-cdn.it/plan/129731458/xxl.jpg"
+    },
+    {
+      "label": "PLN_241681395_2 1",
+      "url": "https://pic.im-cdn.it/plan/129731460/xxl.jpg"
+    }
+  ],
+  "unrenderedVolumes": [],
+  "coverage": "complete",
+  "preview": "assets/erta-di-sant-anna.jpg",
   "qa": {
     "staticPassed": true,
     "browserPassed": true,
@@ -9,10 +60,13 @@
   },
   "fidelity": {
     "passed": true,
-    "basis": "Approvazione precedente conservata; digest dell’artefatto immutato."
+    "basis": "Riesame visivo dei fronti fotografati e delle parti modellate."
   },
   "independentReview": {
     "passed": true,
-    "artifactSha256": "3d10ae00850b577a6a968814ed0638b195d72077a55461c1200dd72a3e63e309"
-  }
+    "artifactSha256": "284035969b088cedadbf7bf219ecef0bab27b4d015eab2a12d350814cd3e8c2f",
+    "method": "Seconda lettura di fotografie, viste renderizzate e sovrapposizioni disponibili. Le misure e le parti omesse sono dichiarate nella scheda."
+  },
+  "evidenceIndex": "ricostruzioni/2026-11-23/index.html#erta-di-sant-anna",
+  "browserReport": "ricostruzioni/2026-11-23/verifiche/risultati.json"
 }

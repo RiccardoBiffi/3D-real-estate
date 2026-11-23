@@ -1,6 +1,41 @@
 {
-  "artifactId": "via-angelo-de-valentini-10",
-  "artifactSha256": "68ef52f2f5126f4bfe6896c10bba482f2fbe3dcf1a49c6254064339fdd06f00f",
+  "id": "via-angelo-de-valentini-10",
+  "status": "ready",
+  "path": "modelli/via-angelo-de-valentini-10.html",
+  "views": [
+    {
+      "label": "Esterno",
+      "level": null
+    },
+    {
+      "label": "Primo piano: camere, studio e poggiolo",
+      "level": 1
+    },
+    {
+      "label": "Piano terra e bussola verandata",
+      "level": 0
+    }
+  ],
+  "notes": [
+    "Divano tortora davanti alla parete TV, libreria, cucina bicolore e letto singolo bianco.",
+    "I contorni e le divisioni seguono le tavole indicate. Le misure assolute prive di quota, alcune aperture, le altezze e le dimensioni dei mobili sono stime."
+  ],
+  "verifiedAt": "2026-11-23T12:47:02+01:00",
+  "artifactSha256": "14836130fd621ac81707e786fe67083f31c0921379faf821307bdb0baa88a08f",
+  "sourcePlans": [
+    {
+      "label": "cattura wmk 0",
+      "url": "https://pic.im-cdn.it/plan/133803352/xxl.jpg"
+    }
+  ],
+  "unrenderedVolumes": [
+    "Seminterrato e taverna climatizzata: manca la pianta.",
+    "Soffitta con abbaini e volume della copertura: mancano pianta e sagoma esterna completa; taglio superiore al primo piano.",
+    "Deposito/cantina esterno e casetta per attrezzi: piante mancanti.",
+    "Scala interna e collegamenti ai livelli omessi: proiezioni PT/primo non concordanti e quote mancanti; foro primo preservato."
+  ],
+  "coverage": "partial",
+  "preview": "assets/via-angelo-de-valentini-10.jpg",
   "qa": {
     "staticPassed": true,
     "browserPassed": true,
@@ -9,10 +44,13 @@
   },
   "fidelity": {
     "passed": true,
-    "basis": "Approvazione precedente conservata; digest dell’artefatto immutato."
+    "basis": "Riesame visivo dei fronti fotografati e delle parti modellate."
   },
   "independentReview": {
     "passed": true,
-    "artifactSha256": "68ef52f2f5126f4bfe6896c10bba482f2fbe3dcf1a49c6254064339fdd06f00f"
-  }
+    "artifactSha256": "14836130fd621ac81707e786fe67083f31c0921379faf821307bdb0baa88a08f",
+    "method": "Seconda lettura di fotografie, viste renderizzate e sovrapposizioni disponibili. Le misure e le parti omesse sono dichiarate nella scheda."
+  },
+  "evidenceIndex": "ricostruzioni/2026-11-23/index.html#via-angelo-de-valentini-10",
+  "browserReport": "ricostruzioni/2026-11-23/verifiche/risultati.json"
 }

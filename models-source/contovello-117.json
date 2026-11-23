@@ -1,2814 +1,1844 @@
 {
-  "id": "contovello-117",
-  "title": "Villa bifamiliare a Contovello 117",
-  "creationStarted": "2026-11-09T21:16:39.587909+00:00",
-  "coverage": "partial",
-  "unrenderedVolumes": [
-    "Progetto di collegamento interno alla cantina e possibile ascensore/posteggio futuro: non realizzati e non rappresentati.",
-    "Terreni, vigna e bosco di 4.300 m²: confini e dislivelli completi non ricostruiti.",
-    "Registrazione del sottotetto rispetto ai vani inferiori: la pianta è ricostruita integralmente in vista autonoma con quote relative, senza attribuire un accesso non disegnato.",
-    "Profilo completo del terreno e volumi di sostegno non leggibili: il terreno collinare non è ricostruito e i livelli sono isolati per l’esplorazione."
-  ],
-  "geometrySource": "manual-uniform-pixel-trace-from-exact-listing-plans",
-  "sources": [
-    {
-      "id": "S0",
-      "url": "https://pic.im-cdn.it/plan/129194910/m.jpg",
-      "pageUrl": "https://www.immobiliare.it/annunci/129859908/",
-      "sha256": "c26274129dc1d497d15fe2f026dec17b37729c2b0d6d305bd503de0a69ff3aee",
-      "actuallyInspected": true,
-      "type": "plan"
-    },
-    {
-      "id": "S1",
-      "url": "https://pic.im-cdn.it/plan/129194950/m.jpg",
-      "pageUrl": "https://www.immobiliare.it/annunci/129859908/",
-      "sha256": "0d21fffe2ef3bfc60c0a6aa6ac31fe4d08ef64e1c100ec41e6f739e97f5fa250",
-      "actuallyInspected": true,
-      "type": "plan"
-    },
-    {
-      "id": "S2",
-      "url": "https://pic.im-cdn.it/plan/129194962/m.jpg",
-      "pageUrl": "https://www.immobiliare.it/annunci/129859908/",
-      "sha256": "5bbb356c90133998f6c1853f212954b54fb3e767ffa055233e503c4c8a9958fa",
-      "actuallyInspected": true,
-      "type": "plan"
-    },
-    {
-      "id": "S3",
-      "url": "https://pic.im-cdn.it/plan/129195120/m.jpg",
-      "pageUrl": "https://www.immobiliare.it/annunci/129859908/",
-      "sha256": "1b00d730a3e82537f2950353870ed559c6480af0b80b6a6dfbcbce26094b792e",
-      "actuallyInspected": true,
-      "type": "plan"
-    },
-    {
-      "id": "S4",
-      "url": "https://pwm.im-cdn.it/image/1943802696/m-c.jpg",
-      "pageUrl": "https://www.immobiliare.it/annunci/129859908/",
-      "sha256": "5b42b7b98046c84b27d45a88ae67b8c79b8a7df480855646483610249a4224c6",
-      "actuallyInspected": true,
-      "type": "photograph"
-    },
-    {
-      "id": "S5",
-      "url": "https://pwm.im-cdn.it/image/1943804258/m-c.jpg",
-      "pageUrl": "https://www.immobiliare.it/annunci/129859908/",
-      "sha256": "9dc5a37f0c7705ff12e6c3d7bf77bf5d86606e9f7f3941a746934cf0068ac523",
-      "actuallyInspected": true,
-      "type": "photograph"
-    }
-  ],
-  "limitations": [
-    "Scala uniforme da ricalco; ove mancano quote la scala assoluta è stimata, non derivata dalla superficie commerciale.",
-    "Altezze e spessori non quotati stimati dalle foto e dalla leggibilità delle piante. Arredi non fotografati omessi.",
-    "Geometria visuale approssimata; orientamento solare artistico. Il contesto non identifica confini o diritti di proprietà."
-  ],
-  "state": "existing",
   "levels": [
     {
-      "label": "Seminterrato — due cantine",
-      "y": -3.21,
-      "height": 2.98,
+      "id": "piano-0",
+      "label": "Piano terra",
+      "y": 0.0,
+      "height": 2.66,
       "outline": [
         [
-          0.0,
-          0.0
-        ],
-        [
-          7.161,
-          0.0
-        ],
-        [
-          7.161,
-          8.239
+          -6.674,
+          -6.5611
         ],
         [
           0.0,
-          8.239
+          -6.5611
+        ],
+        [
+          0.0,
+          -6.9548
+        ],
+        [
+          5.964,
+          -6.9548
+        ],
+        [
+          5.964,
+          -0.1312
+        ],
+        [
+          1.988,
+          -0.1312
+        ],
+        [
+          1.988,
+          1.5747
+        ],
+        [
+          -1.988,
+          1.5747
+        ],
+        [
+          -1.988,
+          1.181
+        ],
+        [
+          -6.674,
+          1.181
         ]
+      ],
+      "surfaces": [
+        {
+          "points": [
+            [
+              -6.674,
+              -6.5611
+            ],
+            [
+              0.0,
+              -6.5611
+            ],
+            [
+              0.0,
+              -6.9548
+            ],
+            [
+              5.964,
+              -6.9548
+            ],
+            [
+              5.964,
+              -0.1312
+            ],
+            [
+              1.988,
+              -0.1312
+            ],
+            [
+              1.988,
+              1.5747
+            ],
+            [
+              -1.988,
+              1.5747
+            ],
+            [
+              -1.988,
+              1.181
+            ],
+            [
+              -6.674,
+              1.181
+            ]
+          ],
+          "color": "#b19072",
+          "finish": "wood",
+          "holes": []
+        },
+        {
+          "points": [
+            [
+              4.97,
+              -9.8417
+            ],
+            [
+              0.142,
+              -9.8417
+            ],
+            [
+              0.142,
+              -6.9548
+            ],
+            [
+              4.97,
+              -6.9548
+            ]
+          ],
+          "color": "#c1afa0",
+          "finish": "tile",
+          "externalPaving": true,
+          "holes": []
+        }
       ],
       "walls": [
         {
           "a": [
-            0.0,
-            0.0
-          ],
-          "b": [
-            7.161,
-            0.0
-          ],
-          "thickness": 0.25,
-          "openings": []
-        },
-        {
-          "a": [
-            7.161,
-            0.0
-          ],
-          "b": [
-            7.161,
-            8.239
-          ],
-          "thickness": 0.25,
-          "openings": []
-        },
-        {
-          "a": [
-            7.161,
-            8.239
+            -6.674,
+            -6.4803
           ],
           "b": [
             0.0,
-            8.239
+            -6.4803
           ],
-          "thickness": 0.25,
+          "thickness": 0.23,
+          "outer": true,
           "openings": [
             {
-              "start": 1.694,
-              "end": 2.541,
-              "kind": "door",
-              "sill": 0,
-              "height": 2
-            }
-          ]
-        },
-        {
-          "a": [
-            0.0,
-            8.239
-          ],
-          "b": [
-            0.0,
-            0.0
-          ],
-          "thickness": 0.25,
-          "openings": [
-            {
-              "start": 6.006,
-              "end": 7.084,
               "kind": "window",
-              "sill": 1.2,
-              "height": 0.8
-            },
-            {
-              "start": 1.463,
-              "end": 2.5025,
-              "kind": "door",
-              "sill": 0,
-              "height": 2.05
+              "start": 2.006,
+              "end": 3.106,
+              "sill": 0.9,
+              "height": 1.24
             }
-          ]
+          ],
+          "insideFace": true
         },
         {
           "a": [
             0.0,
-            3.927
+            -6.5611
           ],
           "b": [
-            7.161,
-            3.927
+            0.0,
+            -6.9548
           ],
-          "thickness": 0.18,
-          "openings": [
-            {
-              "start": 0.8085,
-              "end": 1.8865,
-              "kind": "door",
-              "sill": 0,
-              "height": 2.05
-            },
-            {
-              "start": 5.005,
-              "end": 5.9675,
-              "kind": "door",
-              "sill": 0,
-              "height": 2.05
-            }
-          ]
-        }
-      ],
-      "furniture": [],
-      "stairs": [
+          "thickness": 0.25,
+          "outer": true,
+          "openings": [],
+          "insideFace": true
+        },
         {
           "a": [
-            6.5835,
-            8.9705
+            0.0,
+            -6.82
           ],
           "b": [
-            5.082,
-            8.9705
+            5.964,
+            -6.82
           ],
-          "rise": 0.7,
-          "width": 0.9,
-          "steps": 4,
-          "startRise": 0
+          "thickness": 0.23,
+          "outer": true,
+          "openings": [
+            {
+              "kind": "window",
+              "start": 1.864,
+              "end": 2.964,
+              "sill": 0.9,
+              "height": 1.24
+            }
+          ],
+          "insideFace": true
+        },
+        {
+          "a": [
+            5.964,
+            -6.9548
+          ],
+          "b": [
+            5.964,
+            -0.1312
+          ],
+          "thickness": 0.23,
+          "outer": true,
+          "openings": [],
+          "insideFace": true
+        },
+        {
+          "a": [
+            5.964,
+            -0.2659
+          ],
+          "b": [
+            1.988,
+            -0.2659
+          ],
+          "thickness": 0.23,
+          "outer": true,
+          "openings": [
+            {
+              "kind": "window",
+              "start": 1.58,
+              "end": 2.68,
+              "sill": 0.9,
+              "height": 1.24
+            }
+          ],
+          "insideFace": true
+        },
+        {
+          "a": [
+            2.1497,
+            -0.1312
+          ],
+          "b": [
+            2.1497,
+            1.5747
+          ],
+          "thickness": 0.23,
+          "outer": true,
+          "openings": [],
+          "insideFace": true
+        },
+        {
+          "a": [
+            1.988,
+            1.6286
+          ],
+          "b": [
+            -1.988,
+            1.6286
+          ],
+          "thickness": 0.23,
+          "outer": true,
+          "openings": [],
+          "insideFace": true
+        },
+        {
+          "a": [
+            -1.9476,
+            1.5747
+          ],
+          "b": [
+            -1.9476,
+            1.181
+          ],
+          "thickness": 0.19,
+          "outer": true,
+          "openings": [],
+          "insideFace": true
+        },
+        {
+          "a": [
+            -1.988,
+            1.2079
+          ],
+          "b": [
+            -6.674,
+            1.2079
+          ],
+          "thickness": 0.23,
+          "outer": true,
+          "openings": [],
+          "insideFace": true
+        },
+        {
+          "a": [
+            -6.6471,
+            1.181
+          ],
+          "b": [
+            -6.6471,
+            -6.5611
+          ],
+          "thickness": 0.23,
+          "outer": true,
+          "openings": [],
+          "insideFace": true
+        },
+        {
+          "a": [
+            -2.1435,
+            -6.4299
+          ],
+          "b": [
+            -2.1435,
+            -2.6244
+          ],
+          "thickness": 0.09,
+          "outer": false,
+          "openings": [],
+          "color": "#e5e0d7"
+        },
+        {
+          "a": [
+            0.2094,
+            -6.8235
+          ],
+          "b": [
+            0.2094,
+            -2.6244
+          ],
+          "thickness": 0.135,
+          "outer": false,
+          "openings": [],
+          "color": "#e5e0d7"
+        },
+        {
+          "a": [
+            -6.6746,
+            -2.5471
+          ],
+          "b": [
+            5.9634,
+            -2.6783
+          ],
+          "thickness": 0.12,
+          "outer": false,
+          "openings": [
+            {
+              "kind": "door",
+              "start": 3.98,
+              "end": 4.82,
+              "sill": 0,
+              "height": 2.06
+            },
+            {
+              "kind": "door",
+              "start": 5.542,
+              "end": 6.382,
+              "sill": 0,
+              "height": 2.06
+            },
+            {
+              "kind": "door",
+              "start": 6.823,
+              "end": 7.663,
+              "sill": 0,
+              "height": 2.06
+            }
+          ],
+          "color": "#e5e0d7"
+        },
+        {
+          "a": [
+            -2.7788,
+            -2.4932
+          ],
+          "b": [
+            -2.7788,
+            1.3122
+          ],
+          "thickness": 0.12,
+          "outer": false,
+          "openings": [
+            {
+              "kind": "door",
+              "start": 0.35,
+              "end": 0.997,
+              "sill": 0,
+              "height": 2.06
+            }
+          ],
+          "color": "#e5e0d7"
+        },
+        {
+          "a": [
+            -1.846,
+            -1.4669
+          ],
+          "b": [
+            0.0,
+            -1.4669
+          ],
+          "thickness": 0.12,
+          "outer": false,
+          "openings": [],
+          "color": "#e5e0d7"
+        },
+        {
+          "a": [
+            -0.0539,
+            -1.5747
+          ],
+          "b": [
+            -0.0539,
+            1.5747
+          ],
+          "thickness": 0.12,
+          "outer": false,
+          "openings": [],
+          "color": "#e5e0d7"
+        },
+        {
+          "a": [
+            0.142,
+            -0.2624
+          ],
+          "b": [
+            5.964,
+            -0.2624
+          ],
+          "thickness": 0.12,
+          "outer": false,
+          "openings": [
+            {
+              "kind": "door",
+              "start": 0.716,
+              "end": 1.556,
+              "sill": 0,
+              "height": 2.06
+            }
+          ],
+          "color": "#e5e0d7"
+        },
+        {
+          "a": [
+            2.1974,
+            -2.4932
+          ],
+          "b": [
+            2.1974,
+            -0.1312
+          ],
+          "thickness": 0.09,
+          "outer": false,
+          "openings": [],
+          "color": "#e5e0d7"
         }
       ],
       "holes": [],
-      "sourcePlan": "plan-1.jpg",
-      "trace": {
-        "image": "plan-1.jpg",
-        "originPixel": [
-          153,
-          252
-        ],
-        "uniformMetresPerPixel": 0.0385,
-        "axis": "X=image right; Z=image down; no reflection; source trace kept in pixel coordinates"
-      },
-      "pixelOutline": [
-        [
-          153,
-          252
-        ],
-        [
-          339,
-          252
-        ],
-        [
-          339,
-          466
-        ],
-        [
-          153,
-          466
-        ]
-      ],
-      "pixelWalls": [
+      "furniture": [
         {
-          "a": [
-            153,
-            252
-          ],
-          "b": [
-            339,
-            252
-          ],
-          "openings": []
+          "kind": "sofa",
+          "x": 3.692,
+          "z": -4.462,
+          "rotation": 0.0,
+          "width": 2.22,
+          "depth": 0.9,
+          "color": "#ac9d8a",
+          "photoId": "f14",
+          "placement": "Posizione indicativa nel vano, proporzioni e materiali da fotografia."
         },
         {
-          "a": [
-            339,
-            252
-          ],
-          "b": [
-            339,
-            466
-          ],
-          "openings": []
+          "kind": "kitchen",
+          "x": 4.118,
+          "z": -1.181,
+          "rotation": 0.0,
+          "width": 2.3,
+          "depth": 0.62,
+          "color": "#d8d3c1",
+          "photoId": "f16",
+          "placement": "Posizione indicativa nel vano, proporzioni e materiali da fotografia."
         },
         {
-          "a": [
-            339,
-            466
-          ],
-          "b": [
-            153,
-            466
-          ],
-          "openings": [
-            [
-              273,
-              295,
-              "door",
-              0,
-              2
-            ]
-          ]
-        },
-        {
-          "a": [
-            153,
-            466
-          ],
-          "b": [
-            153,
-            252
-          ],
-          "openings": [
-            [
-              282,
-              310,
-              "window",
-              1.2,
-              0.8
-            ],
-            [
-              401,
-              428,
-              "door"
-            ]
-          ]
-        },
-        {
-          "a": [
-            153,
-            354
-          ],
-          "b": [
-            339,
-            354
-          ],
-          "openings": [
-            [
-              174,
-              202,
-              "door"
-            ],
-            [
-              283,
-              308,
-              "door"
-            ]
-          ]
+          "kind": "bed",
+          "x": -4.118,
+          "z": -4.462,
+          "rotation": 1.5708,
+          "width": 1.52,
+          "depth": 2.0,
+          "color": "#985b64",
+          "photoId": "f17",
+          "placement": "Posizione indicativa nel vano, proporzioni e materiali da fotografia."
         }
-      ]
+      ],
+      "sourcePlan": "p01",
+      "sourceBox": [
+        163,
+        163,
+        690,
+        650
+      ],
+      "sourceOrigin": [
+        452.85,
+        586.69
+      ],
+      "sourceScale": 0.0269449715,
+      "separate": false,
+      "traceIndex": 0,
+      "comparison": "contovello-117-01.jpg"
     },
     {
-      "label": "Piano rialzato",
-      "y": 0,
-      "height": 3,
+      "id": "piano-1",
+      "label": "Seminterrato",
+      "y": -2.68,
+      "height": 2.66,
       "outline": [
         [
-          0.0,
-          0.0
+          -3.969,
+          -6.8096
         ],
         [
-          13.475,
-          0.0
+          2.511,
+          -6.8096
         ],
         [
-          13.475,
-          7.084
+          2.511,
+          -3.6318
         ],
         [
-          9.2015,
-          7.084
+          2.349,
+          -3.6318
         ],
         [
-          9.2015,
-          8.7395
+          2.349,
+          0.454
         ],
         [
-          4.928,
-          8.7395
+          -3.969,
+          0.454
         ],
         [
-          4.928,
-          8.393
+          -3.969,
+          -1.7251
         ],
         [
-          0.0,
-          8.393
+          -4.293,
+          -1.7251
+        ],
+        [
+          -4.293,
+          -4.5397
+        ],
+        [
+          -3.969,
+          -4.5397
         ]
+      ],
+      "surfaces": [
+        {
+          "points": [
+            [
+              -3.969,
+              -6.8096
+            ],
+            [
+              2.511,
+              -6.8096
+            ],
+            [
+              2.511,
+              -3.6318
+            ],
+            [
+              2.349,
+              -3.6318
+            ],
+            [
+              2.349,
+              0.454
+            ],
+            [
+              -3.969,
+              0.454
+            ],
+            [
+              -3.969,
+              -1.7251
+            ],
+            [
+              -4.293,
+              -1.7251
+            ],
+            [
+              -4.293,
+              -4.5397
+            ],
+            [
+              -3.969,
+              -4.5397
+            ]
+          ],
+          "color": "#b5aaa0",
+          "finish": "mineral",
+          "holes": []
+        }
       ],
       "walls": [
         {
           "a": [
-            0.0,
-            0.0
+            -3.969,
+            -6.8096
           ],
           "b": [
-            13.475,
-            0.0
+            2.511,
+            -6.8096
           ],
           "thickness": 0.25,
-          "openings": [
-            {
-              "start": 1.6555,
-              "end": 2.7335,
-              "kind": "window",
-              "sill": 1,
-              "height": 1.25
-            },
-            {
-              "start": 5.544,
-              "end": 6.3525,
-              "kind": "window",
-              "sill": 1,
-              "height": 1.25
-            },
-            {
-              "start": 8.239,
-              "end": 9.24,
-              "kind": "door",
-              "sill": 0,
-              "height": 2.05
-            }
-          ]
-        },
-        {
-          "a": [
-            13.475,
-            0.0
-          ],
-          "b": [
-            13.475,
-            7.084
-          ],
-          "thickness": 0.25,
-          "openings": [
-            {
-              "start": 1.1165,
-              "end": 3.388,
-              "kind": "window",
-              "sill": 1,
-              "height": 1.25
-            }
-          ]
-        },
-        {
-          "a": [
-            13.475,
-            7.084
-          ],
-          "b": [
-            9.2015,
-            7.084
-          ],
-          "thickness": 0.25,
-          "openings": [
-            {
-              "start": 1.771,
-              "end": 2.8875,
-              "kind": "window",
-              "sill": 1,
-              "height": 1.25
-            }
-          ]
-        },
-        {
-          "a": [
-            9.2015,
-            7.084
-          ],
-          "b": [
-            9.2015,
-            8.7395
-          ],
-          "thickness": 0.25,
-          "openings": [
-            {
-              "start": 0.5005,
-              "end": 1.386,
-              "kind": "door",
-              "sill": 0,
-              "height": 2.05
-            }
-          ]
-        },
-        {
-          "a": [
-            9.2015,
-            8.7395
-          ],
-          "b": [
-            4.928,
-            8.7395
-          ],
-          "thickness": 0.25,
-          "openings": [
-            {
-              "start": 2.7335,
-              "end": 3.5805,
-              "kind": "window",
-              "sill": 1.3,
-              "height": 1
-            }
-          ]
-        },
-        {
-          "a": [
-            4.928,
-            8.7395
-          ],
-          "b": [
-            4.928,
-            8.393
-          ],
-          "thickness": 0.25,
-          "openings": []
-        },
-        {
-          "a": [
-            4.928,
-            8.393
-          ],
-          "b": [
-            0.0,
-            8.393
-          ],
-          "thickness": 0.25,
-          "openings": [
-            {
-              "start": 2.5795,
-              "end": 3.927,
-              "kind": "window",
-              "sill": 1,
-              "height": 1.25
-            }
-          ]
-        },
-        {
-          "a": [
-            0.0,
-            8.393
-          ],
-          "b": [
-            0.0,
-            0.0
-          ],
-          "thickness": 0.25,
-          "openings": [
-            {
-              "start": 5.9675,
-              "end": 6.9685,
-              "kind": "window",
-              "sill": 1,
-              "height": 1.25
-            },
-            {
-              "start": 2.31,
-              "end": 3.2725,
-              "kind": "window",
-              "sill": 1,
-              "height": 1.25
-            }
-          ]
-        },
-        {
-          "a": [
-            4.7355,
-            0.0
-          ],
-          "b": [
-            4.7355,
-            4.235
-          ],
-          "thickness": 0.18,
-          "openings": [
-            {
-              "start": 3.08,
-              "end": 4.004,
-              "kind": "door",
-              "sill": 0,
-              "height": 2.05
-            }
-          ]
-        },
-        {
-          "a": [
-            7.238,
-            0.0
-          ],
-          "b": [
-            7.238,
-            4.235
-          ],
-          "thickness": 0.18,
-          "openings": [
-            {
-              "start": 3.1185,
-              "end": 4.004,
-              "kind": "door",
-              "sill": 0,
-              "height": 2.05
-            }
-          ]
-        },
-        {
-          "a": [
-            0.0,
-            4.2735
-          ],
-          "b": [
-            7.238,
-            4.2735
-          ],
-          "thickness": 0.18,
-          "openings": [
-            {
-              "start": 3.5035,
-              "end": 4.389,
-              "kind": "door",
-              "sill": 0,
-              "height": 2.05
-            },
-            {
-              "start": 5.082,
-              "end": 5.929,
-              "kind": "door",
-              "sill": 0,
-              "height": 2.05
-            }
-          ]
-        },
-        {
-          "a": [
-            4.081,
-            4.2735
-          ],
-          "b": [
-            4.081,
-            8.393
-          ],
-          "thickness": 0.18,
-          "openings": [
-            {
-              "start": 0.385,
-              "end": 1.2705,
-              "kind": "door",
-              "sill": 0,
-              "height": 2.05
-            }
-          ]
-        },
-        {
-          "a": [
-            4.9665,
-            5.544
-          ],
-          "b": [
-            7.2765,
-            5.544
-          ],
-          "thickness": 0.18,
-          "openings": [
-            {
-              "start": 0.3465,
-              "end": 1.2705,
-              "kind": "door",
-              "sill": 0,
-              "height": 2.05
-            }
-          ]
-        },
-        {
-          "a": [
-            4.9665,
-            5.544
-          ],
-          "b": [
-            4.9665,
-            8.7395
-          ],
-          "thickness": 0.18,
-          "openings": [
-            {
-              "start": 1.8479999999999999,
-              "end": 2.695,
-              "kind": "door",
-              "sill": 0,
-              "height": 2.05
-            }
-          ]
-        },
-        {
-          "a": [
-            7.2765,
-            4.2735
-          ],
-          "b": [
-            7.2765,
-            7.084
-          ],
-          "thickness": 0.18,
-          "openings": [
-            {
-              "start": 0.385,
-              "end": 1.3475,
-              "kind": "door",
-              "sill": 0,
-              "height": 2.05
-            }
-          ]
-        },
-        {
-          "a": [
-            9.24,
-            4.2735
-          ],
-          "b": [
-            9.24,
-            7.084
-          ],
-          "thickness": 0.18,
-          "openings": [
-            {
-              "start": 0.8085,
-              "end": 1.694,
-              "kind": "door",
-              "sill": 0,
-              "height": 2.05
-            }
-          ]
-        },
-        {
-          "a": [
-            7.2765,
-            7.084
-          ],
-          "b": [
-            9.2015,
-            7.084
-          ],
-          "thickness": 0.18,
-          "openings": [
-            {
-              "start": 0.4235,
-              "end": 1.5015,
-              "kind": "door",
-              "sill": 0,
-              "height": 2.05
-            }
-          ]
-        },
-        {
-          "a": [
-            7.238,
-            4.2735
-          ],
-          "b": [
-            13.475,
-            4.2735
-          ],
-          "thickness": 0.18,
-          "openings": [
-            {
-              "start": 0.847,
-              "end": 1.8094999999999999,
-              "kind": "door",
-              "sill": 0,
-              "height": 2.05
-            }
-          ]
-        },
-        {
-          "a": [
-            6.7375,
-            -3.388
-          ],
-          "b": [
-            12.2815,
-            -3.388
-          ],
-          "thickness": 0.08,
+          "outer": true,
           "openings": [],
-          "height": 1
+          "insideFace": true
         },
         {
           "a": [
-            12.2815,
-            -3.388
+            2.5375,
+            -6.8096
           ],
           "b": [
-            12.2815,
-            0.0
+            2.5375,
+            -3.6318
           ],
-          "thickness": 0.08,
+          "thickness": 0.23,
+          "outer": true,
           "openings": [],
-          "height": 1
+          "insideFace": true
         },
         {
           "a": [
-            6.7375,
-            -3.388
+            2.511,
+            -3.6847
           ],
           "b": [
-            6.7375,
-            0.0
+            2.349,
+            -3.6847
           ],
-          "thickness": 0.08,
+          "thickness": 0.23,
+          "outer": true,
           "openings": [],
-          "height": 1
+          "insideFace": true
+        },
+        {
+          "a": [
+            2.3225,
+            -3.6318
+          ],
+          "b": [
+            2.3225,
+            0.454
+          ],
+          "thickness": 0.23,
+          "outer": true,
+          "openings": [],
+          "insideFace": true
+        },
+        {
+          "a": [
+            2.349,
+            0.3746
+          ],
+          "b": [
+            -3.969,
+            0.3746
+          ],
+          "thickness": 0.23,
+          "outer": true,
+          "openings": [
+            {
+              "kind": "window",
+              "start": 0.989,
+              "end": 2.089,
+              "sill": 0.9,
+              "height": 1.24
+            },
+            {
+              "kind": "window",
+              "start": 3.5,
+              "end": 4.6,
+              "sill": 0.9,
+              "height": 1.24
+            }
+          ],
+          "insideFace": true
+        },
+        {
+          "a": [
+            -3.969,
+            0.454
+          ],
+          "b": [
+            -3.969,
+            -1.7251
+          ],
+          "thickness": 0.23,
+          "outer": true,
+          "openings": [],
+          "insideFace": true
+        },
+        {
+          "a": [
+            -3.969,
+            -1.8045
+          ],
+          "b": [
+            -4.293,
+            -1.8045
+          ],
+          "thickness": 0.23,
+          "outer": true,
+          "openings": [],
+          "insideFace": true
+        },
+        {
+          "a": [
+            -4.293,
+            -1.7251
+          ],
+          "b": [
+            -4.293,
+            -4.5397
+          ],
+          "thickness": 0.25,
+          "outer": true,
+          "openings": [],
+          "insideFace": true
+        },
+        {
+          "a": [
+            -4.293,
+            -4.5662
+          ],
+          "b": [
+            -3.969,
+            -4.5662
+          ],
+          "thickness": 0.23,
+          "outer": true,
+          "openings": [],
+          "insideFace": true
+        },
+        {
+          "a": [
+            -3.8896,
+            -4.5397
+          ],
+          "b": [
+            -3.8896,
+            -6.8096
+          ],
+          "thickness": 0.23,
+          "outer": true,
+          "openings": [],
+          "insideFace": true
+        },
+        {
+          "a": [
+            -3.888,
+            -3.5939
+          ],
+          "b": [
+            2.349,
+            -3.5939
+          ],
+          "thickness": 0.12,
+          "outer": false,
+          "openings": [
+            {
+              "kind": "door",
+              "start": 4.035,
+              "end": 4.875,
+              "sill": 0,
+              "height": 2.06
+            }
+          ],
+          "color": "#e5e0d7"
         }
       ],
-      "furniture": [],
-      "stairs": [],
       "holes": [],
-      "sourcePlan": "plan-0.jpg",
-      "trace": {
-        "image": "plan-0.jpg",
-        "originPixel": [
-          150,
-          245
-        ],
-        "uniformMetresPerPixel": 0.0385,
-        "axis": "X=image right; Z=image down; no reflection; source trace kept in pixel coordinates"
-      },
-      "pixelOutline": [
-        [
-          150,
-          245
-        ],
-        [
-          500,
-          245
-        ],
-        [
-          500,
-          429
-        ],
-        [
-          389,
-          429
-        ],
-        [
-          389,
-          472
-        ],
-        [
-          278,
-          472
-        ],
-        [
-          278,
-          463
-        ],
-        [
-          150,
-          463
-        ]
+      "furniture": [],
+      "sourcePlan": "p02",
+      "sourceBox": [
+        192,
+        315,
+        498,
+        658
       ],
-      "pixelWalls": [
-        {
-          "a": [
-            150,
-            245
-          ],
-          "b": [
-            500,
-            245
-          ],
-          "openings": [
-            [
-              193,
-              221,
-              "window"
-            ],
-            [
-              294,
-              315,
-              "window"
-            ],
-            [
-              364,
-              390,
-              "door"
-            ]
-          ]
-        },
-        {
-          "a": [
-            500,
-            245
-          ],
-          "b": [
-            500,
-            429
-          ],
-          "openings": [
-            [
-              274,
-              333,
-              "window"
-            ]
-          ]
-        },
-        {
-          "a": [
-            500,
-            429
-          ],
-          "b": [
-            389,
-            429
-          ],
-          "openings": [
-            [
-              425,
-              454,
-              "window"
-            ]
-          ]
-        },
-        {
-          "a": [
-            389,
-            429
-          ],
-          "b": [
-            389,
-            472
-          ],
-          "openings": [
-            [
-              442,
-              465,
-              "door"
-            ]
-          ]
-        },
-        {
-          "a": [
-            389,
-            472
-          ],
-          "b": [
-            278,
-            472
-          ],
-          "openings": [
-            [
-              296,
-              318,
-              "window",
-              1.3,
-              1
-            ]
-          ]
-        },
-        {
-          "a": [
-            278,
-            472
-          ],
-          "b": [
-            278,
-            463
-          ],
-          "openings": []
-        },
-        {
-          "a": [
-            278,
-            463
-          ],
-          "b": [
-            150,
-            463
-          ],
-          "openings": [
-            [
-              176,
-              211,
-              "window"
-            ]
-          ]
-        },
-        {
-          "a": [
-            150,
-            463
-          ],
-          "b": [
-            150,
-            245
-          ],
-          "openings": [
-            [
-              282,
-              308,
-              "window"
-            ],
-            [
-              378,
-              403,
-              "window"
-            ]
-          ]
-        },
-        {
-          "a": [
-            273,
-            245
-          ],
-          "b": [
-            273,
-            355
-          ],
-          "openings": [
-            [
-              325,
-              349,
-              "door"
-            ]
-          ]
-        },
-        {
-          "a": [
-            338,
-            245
-          ],
-          "b": [
-            338,
-            355
-          ],
-          "openings": [
-            [
-              326,
-              349,
-              "door"
-            ]
-          ]
-        },
-        {
-          "a": [
-            150,
-            356
-          ],
-          "b": [
-            338,
-            356
-          ],
-          "openings": [
-            [
-              241,
-              264,
-              "door"
-            ],
-            [
-              282,
-              304,
-              "door"
-            ]
-          ]
-        },
-        {
-          "a": [
-            256,
-            356
-          ],
-          "b": [
-            256,
-            463
-          ],
-          "openings": [
-            [
-              366,
-              389,
-              "door"
-            ]
-          ]
-        },
-        {
-          "a": [
-            279,
-            389
-          ],
-          "b": [
-            339,
-            389
-          ],
-          "openings": [
-            [
-              288,
-              312,
-              "door"
-            ]
-          ]
-        },
-        {
-          "a": [
-            279,
-            389
-          ],
-          "b": [
-            279,
-            472
-          ],
-          "openings": [
-            [
-              437,
-              459,
-              "door"
-            ]
-          ]
-        },
-        {
-          "a": [
-            339,
-            356
-          ],
-          "b": [
-            339,
-            429
-          ],
-          "openings": [
-            [
-              366,
-              391,
-              "door"
-            ]
-          ]
-        },
-        {
-          "a": [
-            390,
-            356
-          ],
-          "b": [
-            390,
-            429
-          ],
-          "openings": [
-            [
-              377,
-              400,
-              "door"
-            ]
-          ]
-        },
-        {
-          "a": [
-            339,
-            429
-          ],
-          "b": [
-            389,
-            429
-          ],
-          "openings": [
-            [
-              350,
-              378,
-              "door"
-            ]
-          ]
-        },
-        {
-          "a": [
-            338,
-            356
-          ],
-          "b": [
-            500,
-            356
-          ],
-          "openings": [
-            [
-              360,
-              385,
-              "door"
-            ]
-          ]
-        },
-        {
-          "a": [
-            325,
-            157
-          ],
-          "b": [
-            469,
-            157
-          ],
-          "openings": []
-        },
-        {
-          "a": [
-            469,
-            157
-          ],
-          "b": [
-            469,
-            245
-          ],
-          "openings": []
-        },
-        {
-          "a": [
-            325,
-            157
-          ],
-          "b": [
-            325,
-            245
-          ],
-          "openings": []
-        }
+      "sourceOrigin": [
+        372.54,
+        613.41
       ],
-      "components": [
-        {
-          "points": [
-            [
-              6.7375,
-              -3.388
-            ],
-            [
-              12.2815,
-              -3.388
-            ],
-            [
-              12.2815,
-              0.0
-            ],
-            [
-              6.7375,
-              0.0
-            ]
-          ],
-          "rise": 0,
-          "thickness": 0.14,
-          "color": "#d1c6b4"
-        },
-        {
-          "points": [
-            [
-              0.0,
-              0.0
-            ],
-            [
-              7.238,
-              0.0
-            ],
-            [
-              7.238,
-              4.235
-            ],
-            [
-              0.0,
-              4.235
-            ]
-          ],
-          "rise": 0.38,
-          "thickness": 0.38,
-          "color": "#b5a48b"
-        },
-        {
-          "points": [
-            [
-              0.0,
-              4.235
-            ],
-            [
-              6.083,
-              4.235
-            ],
-            [
-              6.083,
-              5.544
-            ],
-            [
-              7.2765,
-              5.544
-            ],
-            [
-              7.2765,
-              8.7395
-            ],
-            [
-              4.928,
-              8.7395
-            ],
-            [
-              4.928,
-              8.393
-            ],
-            [
-              0.0,
-              8.393
-            ]
-          ],
-          "rise": 0.38,
-          "thickness": 0.38,
-          "color": "#b5a48b"
-        },
-        {
-          "center": [
-            6.962083333333333,
-            0.06333333333333334,
-            4.774
-          ],
-          "size": [
-            0.32683333333333314,
-            0.12666666666666668,
-            1.1
-          ],
-          "color": "#b2a58a"
-        },
-        {
-          "center": [
-            6.641249999999999,
-            0.12666666666666668,
-            4.774
-          ],
-          "size": [
-            0.32683333333333314,
-            0.25333333333333335,
-            1.1
-          ],
-          "color": "#b2a58a"
-        },
-        {
-          "center": [
-            6.320416666666667,
-            0.19000000000000003,
-            4.774
-          ],
-          "size": [
-            0.32683333333333314,
-            0.38000000000000006,
-            1.1
-          ],
-          "color": "#b2a58a"
-        },
-        {
-          "center": [
-            10.3796,
-            -0.882,
-            7.854
-          ],
-          "size": [
-            0.2678000000000002,
-            0.196,
-            1
-          ],
-          "color": "#b2a58a"
-        },
-        {
-          "center": [
-            10.1178,
-            -0.784,
-            7.854
-          ],
-          "size": [
-            0.2678000000000002,
-            0.392,
-            1
-          ],
-          "color": "#b2a58a"
-        },
-        {
-          "center": [
-            9.856,
-            -0.6859999999999999,
-            7.854
-          ],
-          "size": [
-            0.2678000000000002,
-            0.588,
-            1
-          ],
-          "color": "#b2a58a"
-        },
-        {
-          "center": [
-            9.594199999999999,
-            -0.588,
-            7.854
-          ],
-          "size": [
-            0.2678000000000002,
-            0.784,
-            1
-          ],
-          "color": "#b2a58a"
-        },
-        {
-          "center": [
-            9.3324,
-            -0.48999999999999994,
-            7.854
-          ],
-          "size": [
-            0.2678000000000002,
-            0.9800000000000001,
-            1
-          ],
-          "color": "#b2a58a"
-        },
-        {
-          "center": [
-            5.356999999999999,
-            -0.8828571428571428,
-            9.394
-          ],
-          "size": [
-            0.248,
-            0.1942857142857143,
-            0.95
-          ],
-          "color": "#b2a58a"
-        },
-        {
-          "center": [
-            5.599,
-            -0.7857142857142857,
-            9.394
-          ],
-          "size": [
-            0.248,
-            0.3885714285714286,
-            0.95
-          ],
-          "color": "#b2a58a"
-        },
-        {
-          "center": [
-            5.840999999999999,
-            -0.6885714285714286,
-            9.394
-          ],
-          "size": [
-            0.248,
-            0.5828571428571429,
-            0.95
-          ],
-          "color": "#b2a58a"
-        },
-        {
-          "center": [
-            6.083,
-            -0.5914285714285714,
-            9.394
-          ],
-          "size": [
-            0.248,
-            0.7771428571428572,
-            0.95
-          ],
-          "color": "#b2a58a"
-        },
-        {
-          "center": [
-            6.324999999999999,
-            -0.4942857142857142,
-            9.394
-          ],
-          "size": [
-            0.248,
-            0.9714285714285715,
-            0.95
-          ],
-          "color": "#b2a58a"
-        },
-        {
-          "center": [
-            6.567,
-            -0.39714285714285713,
-            9.394
-          ],
-          "size": [
-            0.248,
-            1.1657142857142857,
-            0.95
-          ],
-          "color": "#b2a58a"
-        },
-        {
-          "center": [
-            6.808999999999999,
-            -0.29999999999999993,
-            9.394
-          ],
-          "size": [
-            0.248,
-            1.36,
-            0.95
-          ],
-          "color": "#b2a58a"
-        },
-        {
-          "points": [
-            [
-              5.8905,
-              8.7395
-            ],
-            [
-              7.315,
-              8.7395
-            ],
-            [
-              7.315,
-              9.9715
-            ],
-            [
-              5.8905,
-              9.9715
-            ]
-          ],
-          "rise": 0.38,
-          "thickness": 0.14,
-          "color": "#b2a58a"
-        }
-      ],
-      "slabThickness": 0.23,
-      "floorHeights": {
-        "atriumKitchenLiving": 0,
-        "bedroomsBathroomDisimpegno": 0.38,
-        "sourceQuotes": "10.98 / 11.36; exterior10.00, cellar7.77"
-      }
+      "sourceScale": 0.0264705882,
+      "separate": false,
+      "traceIndex": 1,
+      "comparison": "contovello-117-02.jpg"
     },
     {
-      "label": "Sottotetto — vista autonoma non registrata",
-      "y": 0,
-      "height": 1.92,
+      "id": "piano-2",
+      "label": "Sottotetto",
+      "y": 2.86,
+      "height": 2.66,
       "outline": [
         [
-          0.0,
-          0.0
-        ],
-        [
-          7.1225,
-          0.0
-        ],
-        [
-          7.1225,
-          -0.539
-        ],
-        [
-          13.321,
-          -0.539
-        ],
-        [
-          13.321,
-          6.391
-        ],
-        [
-          7.1225,
-          6.391
-        ],
-        [
-          7.1225,
-          7.931
+          -6.39,
+          -7.3914
         ],
         [
           0.0,
-          7.931
+          -7.3914
+        ],
+        [
+          0.0,
+          -7.8842
+        ],
+        [
+          6.39,
+          -7.8842
+        ],
+        [
+          6.39,
+          -0.5913
+        ],
+        [
+          0.426,
+          -0.5913
+        ],
+        [
+          0.426,
+          0.7884
+        ],
+        [
+          -6.39,
+          0.7884
         ]
+      ],
+      "surfaces": [
+        {
+          "points": [
+            [
+              -6.39,
+              -7.3914
+            ],
+            [
+              0.0,
+              -7.3914
+            ],
+            [
+              0.0,
+              -7.8842
+            ],
+            [
+              6.39,
+              -7.8842
+            ],
+            [
+              6.39,
+              -0.5913
+            ],
+            [
+              0.426,
+              -0.5913
+            ],
+            [
+              0.426,
+              0.7884
+            ],
+            [
+              -6.39,
+              0.7884
+            ]
+          ],
+          "color": "#b19072",
+          "finish": "wood",
+          "holes": []
+        }
       ],
       "walls": [
         {
           "a": [
+            -6.39,
+            -7.4179
+          ],
+          "b": [
             0.0,
-            0.0
+            -7.4179
           ],
-          "b": [
-            7.1225,
-            0.0
-          ],
-          "thickness": 0.18,
+          "thickness": 0.23,
+          "outer": true,
           "openings": [],
-          "height": 0.49
+          "insideFace": true
         },
         {
           "a": [
-            7.1225,
-            -0.539
+            0.0265,
+            -7.3914
           ],
           "b": [
-            13.321,
-            -0.539
+            0.0265,
+            -7.8842
           ],
-          "thickness": 0.18,
+          "thickness": 0.23,
+          "outer": true,
           "openings": [],
-          "height": 0.18
-        },
-        {
-          "a": [
-            0.0,
-            7.931
-          ],
-          "b": [
-            7.1225,
-            7.931
-          ],
-          "thickness": 0.18,
-          "openings": [],
-          "height": 0.49
-        },
-        {
-          "a": [
-            7.1225,
-            6.391
-          ],
-          "b": [
-            13.321,
-            6.391
-          ],
-          "thickness": 0.18,
-          "openings": [],
-          "height": 0.79
+          "insideFace": true
         },
         {
           "a": [
             0.0,
-            0.0
+            -7.8577
           ],
           "b": [
-            0.0,
-            0.39655
+            6.39,
+            -7.8577
           ],
-          "thickness": 0.18,
-          "openings": [],
-          "height": 0.5616752577319585
+          "thickness": 0.23,
+          "outer": true,
+          "openings": [
+            {
+              "kind": "window",
+              "start": 3.0,
+              "end": 4.1,
+              "sill": 0.9,
+              "height": 1.24
+            }
+          ],
+          "insideFace": true
         },
         {
           "a": [
-            0.0,
-            0.39655
+            6.5225,
+            -7.8842
           ],
           "b": [
-            0.0,
-            0.7931
+            6.5225,
+            -0.5913
           ],
-          "thickness": 0.18,
+          "thickness": 0.23,
+          "outer": true,
           "openings": [],
-          "height": 0.7050257731958769
+          "insideFace": true
         },
         {
           "a": [
-            0.0,
-            0.7931
+            6.39,
+            -0.5913
           ],
           "b": [
-            0.0,
-            1.18965
+            0.426,
+            -0.5913
           ],
-          "thickness": 0.18,
+          "thickness": 0.23,
+          "outer": true,
           "openings": [],
-          "height": 0.8483762886597939
+          "insideFace": true
         },
         {
           "a": [
-            0.0,
-            1.18965
+            0.5055,
+            -0.5913
           ],
           "b": [
-            0.0,
-            1.5862
+            0.5055,
+            0.7884
           ],
-          "thickness": 0.18,
+          "thickness": 0.23,
+          "outer": true,
           "openings": [],
-          "height": 0.9917268041237107
+          "insideFace": true
         },
         {
           "a": [
-            0.0,
-            1.5862
+            0.426,
+            0.8414
           ],
           "b": [
-            0.0,
-            1.98275
+            -6.39,
+            0.8414
           ],
-          "thickness": 0.18,
+          "thickness": 0.23,
+          "outer": true,
           "openings": [],
-          "height": 1.1350773195876291
+          "insideFace": true
         },
         {
           "a": [
-            0.0,
-            1.98275
+            -6.549,
+            0.7884
           ],
           "b": [
-            0.0,
-            2.3793
+            -6.549,
+            -7.3914
           ],
-          "thickness": 0.18,
+          "thickness": 0.23,
+          "outer": true,
           "openings": [],
-          "height": 1.2784278350515461
+          "insideFace": true
         },
         {
           "a": [
-            0.0,
-            2.3793
+            0.4392,
+            -7.3914
           ],
           "b": [
-            0.0,
-            2.77585
+            0.4392,
+            -4.3363
           ],
-          "thickness": 0.18,
-          "openings": [],
-          "height": 1.4217783505154644
+          "thickness": 0.238,
+          "outer": false,
+          "openings": [
+            {
+              "kind": "door",
+              "start": 2.195,
+              "end": 3.035,
+              "sill": 0,
+              "height": 2.06
+            }
+          ],
+          "color": "#e5e0d7"
         },
         {
           "a": [
-            0.0,
-            2.77585
+            0.3598,
+            -3.4493
           ],
           "b": [
-            0.0,
-            3.1724
+            0.3598,
+            -0.4928
           ],
-          "thickness": 0.18,
+          "thickness": 0.238,
+          "outer": false,
           "openings": [],
-          "height": 1.5651288659793816
-        },
-        {
-          "a": [
-            0.0,
-            3.1724
-          ],
-          "b": [
-            0.0,
-            3.56895
-          ],
-          "thickness": 0.18,
-          "openings": [],
-          "height": 1.7084793814432986
-        },
-        {
-          "a": [
-            0.0,
-            3.56895
-          ],
-          "b": [
-            0.0,
-            3.9655
-          ],
-          "thickness": 0.18,
-          "openings": [],
-          "height": 1.82947247706422
-        },
-        {
-          "a": [
-            0.0,
-            3.9655
-          ],
-          "b": [
-            0.0,
-            4.36205
-          ],
-          "thickness": 0.18,
-          "openings": [],
-          "height": 1.7019036697247711
-        },
-        {
-          "a": [
-            0.0,
-            4.36205
-          ],
-          "b": [
-            0.0,
-            4.7586
-          ],
-          "thickness": 0.18,
-          "openings": [],
-          "height": 1.5743348623853206
-        },
-        {
-          "a": [
-            0.0,
-            4.7586
-          ],
-          "b": [
-            0.0,
-            5.15515
-          ],
-          "thickness": 0.18,
-          "openings": [],
-          "height": 1.4467660550458716
-        },
-        {
-          "a": [
-            0.0,
-            5.15515
-          ],
-          "b": [
-            0.0,
-            5.5517
-          ],
-          "thickness": 0.18,
-          "openings": [],
-          "height": 1.3191972477064224
-        },
-        {
-          "a": [
-            0.0,
-            5.5517
-          ],
-          "b": [
-            0.0,
-            5.94825
-          ],
-          "thickness": 0.18,
-          "openings": [],
-          "height": 1.1916284403669724
-        },
-        {
-          "a": [
-            0.0,
-            5.94825
-          ],
-          "b": [
-            0.0,
-            6.3448
-          ],
-          "thickness": 0.18,
-          "openings": [],
-          "height": 1.0640596330275232
-        },
-        {
-          "a": [
-            0.0,
-            6.3448
-          ],
-          "b": [
-            0.0,
-            6.74135
-          ],
-          "thickness": 0.18,
-          "openings": [],
-          "height": 0.9364908256880728
-        },
-        {
-          "a": [
-            0.0,
-            6.74135
-          ],
-          "b": [
-            0.0,
-            7.1379
-          ],
-          "thickness": 0.18,
-          "openings": [],
-          "height": 0.8089220183486239
-        },
-        {
-          "a": [
-            0.0,
-            7.1379
-          ],
-          "b": [
-            0.0,
-            7.53445
-          ],
-          "thickness": 0.18,
-          "openings": [],
-          "height": 0.6813532110091749
-        },
-        {
-          "a": [
-            0.0,
-            7.53445
-          ],
-          "b": [
-            0.0,
-            7.931
-          ],
-          "thickness": 0.18,
-          "openings": [],
-          "height": 0.5537844036697245
-        },
-        {
-          "a": [
-            13.321,
-            -0.539
-          ],
-          "b": [
-            13.321,
-            -0.1925
-          ],
-          "thickness": 0.18,
-          "openings": [],
-          "height": 0.2404054054054054
-        },
-        {
-          "a": [
-            13.321,
-            -0.1925
-          ],
-          "b": [
-            13.321,
-            0.154
-          ],
-          "thickness": 0.18,
-          "openings": [],
-          "height": 0.3612162162162162
-        },
-        {
-          "a": [
-            13.321,
-            0.154
-          ],
-          "b": [
-            13.321,
-            0.5005
-          ],
-          "thickness": 0.18,
-          "openings": [],
-          "height": 0.482027027027027
-        },
-        {
-          "a": [
-            13.321,
-            0.5005
-          ],
-          "b": [
-            13.321,
-            0.847
-          ],
-          "thickness": 0.18,
-          "openings": [],
-          "height": 0.6028378378378378
-        },
-        {
-          "a": [
-            13.321,
-            0.847
-          ],
-          "b": [
-            13.321,
-            1.1935
-          ],
-          "thickness": 0.18,
-          "openings": [],
-          "height": 0.7236486486486486
-        },
-        {
-          "a": [
-            13.321,
-            1.1935
-          ],
-          "b": [
-            13.321,
-            1.54
-          ],
-          "thickness": 0.18,
-          "openings": [],
-          "height": 0.8444594594594594
-        },
-        {
-          "a": [
-            13.321,
-            1.54
-          ],
-          "b": [
-            13.321,
-            1.8865
-          ],
-          "thickness": 0.18,
-          "openings": [],
-          "height": 0.9652702702702702
-        },
-        {
-          "a": [
-            13.321,
-            1.8865
-          ],
-          "b": [
-            13.321,
-            2.233
-          ],
-          "thickness": 0.18,
-          "openings": [],
-          "height": 1.086081081081081
-        },
-        {
-          "a": [
-            13.321,
-            2.233
-          ],
-          "b": [
-            13.321,
-            2.5795
-          ],
-          "thickness": 0.18,
-          "openings": [],
-          "height": 1.2068918918918918
-        },
-        {
-          "a": [
-            13.321,
-            2.5795
-          ],
-          "b": [
-            13.321,
-            2.926
-          ],
-          "thickness": 0.18,
-          "openings": [],
-          "height": 1.3277027027027026
-        },
-        {
-          "a": [
-            13.321,
-            2.926
-          ],
-          "b": [
-            13.321,
-            3.2725
-          ],
-          "thickness": 0.18,
-          "openings": [],
-          "height": 1.4485135135135134
-        },
-        {
-          "a": [
-            13.321,
-            3.2725
-          ],
-          "b": [
-            13.321,
-            3.619
-          ],
-          "thickness": 0.18,
-          "openings": [],
-          "height": 1.5693243243243242
-        },
-        {
-          "a": [
-            13.321,
-            3.619
-          ],
-          "b": [
-            13.321,
-            3.9655
-          ],
-          "thickness": 0.18,
-          "openings": [],
-          "height": 1.6508695652173913
-        },
-        {
-          "a": [
-            13.321,
-            3.9655
-          ],
-          "b": [
-            13.321,
-            4.312
-          ],
-          "thickness": 0.18,
-          "openings": [],
-          "height": 1.5360869565217392
-        },
-        {
-          "a": [
-            13.321,
-            4.312
-          ],
-          "b": [
-            13.321,
-            4.6585
-          ],
-          "thickness": 0.18,
-          "openings": [],
-          "height": 1.421304347826087
-        },
-        {
-          "a": [
-            13.321,
-            4.6585
-          ],
-          "b": [
-            13.321,
-            5.005
-          ],
-          "thickness": 0.18,
-          "openings": [],
-          "height": 1.3065217391304347
-        },
-        {
-          "a": [
-            13.321,
-            5.005
-          ],
-          "b": [
-            13.321,
-            5.3515
-          ],
-          "thickness": 0.18,
-          "openings": [],
-          "height": 1.1917391304347826
-        },
-        {
-          "a": [
-            13.321,
-            5.3515
-          ],
-          "b": [
-            13.321,
-            5.698
-          ],
-          "thickness": 0.18,
-          "openings": [],
-          "height": 1.0769565217391304
-        },
-        {
-          "a": [
-            13.321,
-            5.698
-          ],
-          "b": [
-            13.321,
-            6.0445
-          ],
-          "thickness": 0.18,
-          "openings": [],
-          "height": 0.9621739130434783
-        },
-        {
-          "a": [
-            13.321,
-            6.0445
-          ],
-          "b": [
-            13.321,
-            6.391
-          ],
-          "thickness": 0.18,
-          "openings": [],
-          "height": 0.8473913043478261
-        },
-        {
-          "a": [
-            7.1225,
-            0.0
-          ],
-          "b": [
-            7.1225,
-            3.542
-          ],
-          "thickness": 0.18,
-          "openings": [],
-          "height": 1.4
-        },
-        {
-          "a": [
-            7.1225,
-            4.1195
-          ],
-          "b": [
-            7.1225,
-            6.391
-          ],
-          "thickness": 0.18,
-          "openings": [],
-          "height": 1.4
+          "color": "#e5e0d7"
         }
       ],
+      "holes": [],
       "furniture": [],
-      "stairs": [],
-      "holes": [
-        [
-          [
-            10.1255,
-            1.9635
-          ],
-          [
-            10.5875,
-            1.9635
-          ],
-          [
-            10.5875,
-            2.464
-          ],
-          [
-            10.1255,
-            2.464
-          ]
-        ]
+      "sourcePlan": "p03",
+      "sourceBox": [
+        118,
+        294,
+        654,
+        666
       ],
-      "sourcePlan": "plan-2.jpg",
-      "trace": {
-        "image": "plan-2.jpg",
-        "originPixel": [
-          109,
-          258
-        ],
-        "uniformMetresPerPixel": 0.0385,
-        "axis": "X=image right; Z=image down; no reflection; source trace kept in pixel coordinates"
-      },
-      "pixelOutline": [
-        [
-          109,
-          258
-        ],
-        [
-          294,
-          258
-        ],
-        [
-          294,
-          244
-        ],
-        [
-          455,
-          244
-        ],
-        [
-          455,
-          424
-        ],
-        [
-          294,
-          424
-        ],
-        [
-          294,
-          464
-        ],
-        [
-          109,
-          464
-        ]
+      "sourceOrigin": [
+        386.0,
+        613.92
       ],
-      "pixelWalls": [
-        {
-          "a": [
-            109,
-            258
-          ],
-          "b": [
-            294,
-            258
-          ],
-          "openings": []
-        },
-        {
-          "a": [
-            294,
-            244
-          ],
-          "b": [
-            455,
-            244
-          ],
-          "openings": []
-        },
-        {
-          "a": [
-            109,
-            464
-          ],
-          "b": [
-            294,
-            464
-          ],
-          "openings": []
-        },
-        {
-          "a": [
-            294,
-            424
-          ],
-          "b": [
-            455,
-            424
-          ],
-          "openings": []
-        },
-        {
-          "a": [
-            109,
-            258.0
-          ],
-          "b": [
-            109,
-            268.3
-          ],
-          "openings": []
-        },
-        {
-          "a": [
-            109,
-            268.3
-          ],
-          "b": [
-            109,
-            278.6
-          ],
-          "openings": []
-        },
-        {
-          "a": [
-            109,
-            278.6
-          ],
-          "b": [
-            109,
-            288.9
-          ],
-          "openings": []
-        },
-        {
-          "a": [
-            109,
-            288.9
-          ],
-          "b": [
-            109,
-            299.2
-          ],
-          "openings": []
-        },
-        {
-          "a": [
-            109,
-            299.2
-          ],
-          "b": [
-            109,
-            309.5
-          ],
-          "openings": []
-        },
-        {
-          "a": [
-            109,
-            309.5
-          ],
-          "b": [
-            109,
-            319.8
-          ],
-          "openings": []
-        },
-        {
-          "a": [
-            109,
-            319.8
-          ],
-          "b": [
-            109,
-            330.1
-          ],
-          "openings": []
-        },
-        {
-          "a": [
-            109,
-            330.1
-          ],
-          "b": [
-            109,
-            340.4
-          ],
-          "openings": []
-        },
-        {
-          "a": [
-            109,
-            340.4
-          ],
-          "b": [
-            109,
-            350.7
-          ],
-          "openings": []
-        },
-        {
-          "a": [
-            109,
-            350.7
-          ],
-          "b": [
-            109,
-            361.0
-          ],
-          "openings": []
-        },
-        {
-          "a": [
-            109,
-            361.0
-          ],
-          "b": [
-            109,
-            371.3
-          ],
-          "openings": []
-        },
-        {
-          "a": [
-            109,
-            371.3
-          ],
-          "b": [
-            109,
-            381.6
-          ],
-          "openings": []
-        },
-        {
-          "a": [
-            109,
-            381.6
-          ],
-          "b": [
-            109,
-            391.9
-          ],
-          "openings": []
-        },
-        {
-          "a": [
-            109,
-            391.9
-          ],
-          "b": [
-            109,
-            402.2
-          ],
-          "openings": []
-        },
-        {
-          "a": [
-            109,
-            402.2
-          ],
-          "b": [
-            109,
-            412.5
-          ],
-          "openings": []
-        },
-        {
-          "a": [
-            109,
-            412.5
-          ],
-          "b": [
-            109,
-            422.8
-          ],
-          "openings": []
-        },
-        {
-          "a": [
-            109,
-            422.8
-          ],
-          "b": [
-            109,
-            433.1
-          ],
-          "openings": []
-        },
-        {
-          "a": [
-            109,
-            433.1
-          ],
-          "b": [
-            109,
-            443.4
-          ],
-          "openings": []
-        },
-        {
-          "a": [
-            109,
-            443.4
-          ],
-          "b": [
-            109,
-            453.7
-          ],
-          "openings": []
-        },
-        {
-          "a": [
-            109,
-            453.7
-          ],
-          "b": [
-            109,
-            464.0
-          ],
-          "openings": []
-        },
-        {
-          "a": [
-            455,
-            244.0
-          ],
-          "b": [
-            455,
-            253.0
-          ],
-          "openings": []
-        },
-        {
-          "a": [
-            455,
-            253.0
-          ],
-          "b": [
-            455,
-            262.0
-          ],
-          "openings": []
-        },
-        {
-          "a": [
-            455,
-            262.0
-          ],
-          "b": [
-            455,
-            271.0
-          ],
-          "openings": []
-        },
-        {
-          "a": [
-            455,
-            271.0
-          ],
-          "b": [
-            455,
-            280.0
-          ],
-          "openings": []
-        },
-        {
-          "a": [
-            455,
-            280.0
-          ],
-          "b": [
-            455,
-            289.0
-          ],
-          "openings": []
-        },
-        {
-          "a": [
-            455,
-            289.0
-          ],
-          "b": [
-            455,
-            298.0
-          ],
-          "openings": []
-        },
-        {
-          "a": [
-            455,
-            298.0
-          ],
-          "b": [
-            455,
-            307.0
-          ],
-          "openings": []
-        },
-        {
-          "a": [
-            455,
-            307.0
-          ],
-          "b": [
-            455,
-            316.0
-          ],
-          "openings": []
-        },
-        {
-          "a": [
-            455,
-            316.0
-          ],
-          "b": [
-            455,
-            325.0
-          ],
-          "openings": []
-        },
-        {
-          "a": [
-            455,
-            325.0
-          ],
-          "b": [
-            455,
-            334.0
-          ],
-          "openings": []
-        },
-        {
-          "a": [
-            455,
-            334.0
-          ],
-          "b": [
-            455,
-            343.0
-          ],
-          "openings": []
-        },
-        {
-          "a": [
-            455,
-            343.0
-          ],
-          "b": [
-            455,
-            352.0
-          ],
-          "openings": []
-        },
-        {
-          "a": [
-            455,
-            352.0
-          ],
-          "b": [
-            455,
-            361.0
-          ],
-          "openings": []
-        },
-        {
-          "a": [
-            455,
-            361.0
-          ],
-          "b": [
-            455,
-            370.0
-          ],
-          "openings": []
-        },
-        {
-          "a": [
-            455,
-            370.0
-          ],
-          "b": [
-            455,
-            379.0
-          ],
-          "openings": []
-        },
-        {
-          "a": [
-            455,
-            379.0
-          ],
-          "b": [
-            455,
-            388.0
-          ],
-          "openings": []
-        },
-        {
-          "a": [
-            455,
-            388.0
-          ],
-          "b": [
-            455,
-            397.0
-          ],
-          "openings": []
-        },
-        {
-          "a": [
-            455,
-            397.0
-          ],
-          "b": [
-            455,
-            406.0
-          ],
-          "openings": []
-        },
-        {
-          "a": [
-            455,
-            406.0
-          ],
-          "b": [
-            455,
-            415.0
-          ],
-          "openings": []
-        },
-        {
-          "a": [
-            455,
-            415.0
-          ],
-          "b": [
-            455,
-            424.0
-          ],
-          "openings": []
-        },
-        {
-          "a": [
-            294,
-            258
-          ],
-          "b": [
-            294,
-            350
-          ],
-          "openings": []
-        },
-        {
-          "a": [
-            294,
-            365
-          ],
-          "b": [
-            294,
-            424
-          ],
-          "openings": []
-        }
-      ],
-      "exteriorVisible": false,
-      "registration": "autonomous-unregistered",
-      "floorHeights": {
-        "left": 0.25,
-        "right": 0,
-        "sourceQuotes": "14.53 /14.28"
-      },
-      "components": [
-        {
-          "points": [
-            [
-              0.0,
-              0.0
-            ],
-            [
-              7.1225,
-              0.0
-            ],
-            [
-              7.1225,
-              7.931
-            ],
-            [
-              0.0,
-              7.931
-            ]
-          ],
-          "rise": 0.25,
-          "thickness": 0.25,
-          "color": "#b5a48b"
-        }
-      ]
+      "sourceScale": 0.0264925373,
+      "separate": false,
+      "traceIndex": 2,
+      "comparison": "contovello-117-03.jpg"
     }
   ],
   "roofs": [
     {
       "vertices": [
         [
-          -0.25,
-          3.15,
-          -0.3
+          -6.39,
+          6.9626,
+          -3.5479
         ],
         [
-          -0.25,
-          3.15,
-          8.9
+          -6.39,
+          5.7327,
+          -7.3914
         ],
         [
-          -0.25,
-          5.25,
-          4.3
+          0.0,
+          5.7327,
+          -7.3914
         ],
         [
-          13.75,
-          3.15,
-          -0.3
+          -6.39,
+          6.9626,
+          -3.5479
         ],
         [
-          13.75,
-          3.15,
-          8.9
+          0.0,
+          5.7327,
+          -7.3914
         ],
         [
-          13.75,
-          5.25,
-          4.3
+          6.39,
+          6.9626,
+          -3.5479
+        ],
+        [
+          6.39,
+          6.9626,
+          -3.5479
+        ],
+        [
+          0.0,
+          5.7327,
+          -7.3914
+        ],
+        [
+          6.39,
+          5.575,
+          -7.8842
+        ],
+        [
+          6.39,
+          5.575,
+          -7.8842
+        ],
+        [
+          0.0,
+          5.7327,
+          -7.3914
+        ],
+        [
+          0.0,
+          5.575,
+          -7.8842
+        ],
+        [
+          -6.39,
+          5.575,
+          0.7884
+        ],
+        [
+          -6.39,
+          6.9626,
+          -3.5479
+        ],
+        [
+          0.426,
+          6.0165,
+          -0.5913
+        ],
+        [
+          -6.39,
+          5.575,
+          0.7884
+        ],
+        [
+          0.426,
+          6.0165,
+          -0.5913
+        ],
+        [
+          0.426,
+          5.575,
+          0.7884
+        ],
+        [
+          6.39,
+          6.0165,
+          -0.5913
+        ],
+        [
+          0.426,
+          6.0165,
+          -0.5913
+        ],
+        [
+          6.39,
+          6.9626,
+          -3.5479
+        ],
+        [
+          6.39,
+          6.9626,
+          -3.5479
+        ],
+        [
+          0.426,
+          6.0165,
+          -0.5913
+        ],
+        [
+          -6.39,
+          6.9626,
+          -3.5479
         ]
       ],
       "indices": [
         0,
-        3,
-        5,
-        0,
-        5,
-        2,
-        2,
-        5,
-        4,
-        2,
-        4,
         1,
-        0,
         2,
-        1,
         3,
         4,
-        5
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
       ],
-      "color": "#ac9270"
+      "color": "#9e7557"
+    },
+    {
+      "vertices": [
+        [
+          -6.39,
+          5.505,
+          -7.3914
+        ],
+        [
+          -6.39,
+          5.7327,
+          -7.3914
+        ],
+        [
+          -6.39,
+          6.9626,
+          -3.5479
+        ],
+        [
+          -6.39,
+          5.505,
+          -7.3914
+        ],
+        [
+          -6.39,
+          6.9626,
+          -3.5479
+        ],
+        [
+          -6.39,
+          5.505,
+          -3.5479
+        ],
+        [
+          -6.39,
+          5.505,
+          -7.3914
+        ],
+        [
+          -6.39,
+          5.7327,
+          -7.3914
+        ],
+        [
+          0.0,
+          5.7327,
+          -7.3914
+        ],
+        [
+          -6.39,
+          5.505,
+          -7.3914
+        ],
+        [
+          0.0,
+          5.7327,
+          -7.3914
+        ],
+        [
+          0.0,
+          5.505,
+          -7.3914
+        ],
+        [
+          6.39,
+          5.505,
+          -7.8842
+        ],
+        [
+          6.39,
+          5.575,
+          -7.8842
+        ],
+        [
+          6.39,
+          6.9626,
+          -3.5479
+        ],
+        [
+          6.39,
+          5.505,
+          -7.8842
+        ],
+        [
+          6.39,
+          6.9626,
+          -3.5479
+        ],
+        [
+          6.39,
+          5.505,
+          -3.5479
+        ],
+        [
+          0.0,
+          5.505,
+          -7.8842
+        ],
+        [
+          0.0,
+          5.575,
+          -7.8842
+        ],
+        [
+          0.0,
+          5.7327,
+          -7.3914
+        ],
+        [
+          0.0,
+          5.505,
+          -7.8842
+        ],
+        [
+          0.0,
+          5.7327,
+          -7.3914
+        ],
+        [
+          0.0,
+          5.505,
+          -7.3914
+        ],
+        [
+          -6.39,
+          5.505,
+          0.7884
+        ],
+        [
+          -6.39,
+          5.575,
+          0.7884
+        ],
+        [
+          -6.39,
+          6.9626,
+          -3.5479
+        ],
+        [
+          -6.39,
+          5.505,
+          0.7884
+        ],
+        [
+          -6.39,
+          6.9626,
+          -3.5479
+        ],
+        [
+          -6.39,
+          5.505,
+          -3.5479
+        ],
+        [
+          0.426,
+          5.505,
+          0.7884
+        ],
+        [
+          0.426,
+          5.575,
+          0.7884
+        ],
+        [
+          0.426,
+          6.0165,
+          -0.5913
+        ],
+        [
+          0.426,
+          5.505,
+          0.7884
+        ],
+        [
+          0.426,
+          6.0165,
+          -0.5913
+        ],
+        [
+          0.426,
+          5.505,
+          -0.5913
+        ],
+        [
+          0.426,
+          5.505,
+          -0.5913
+        ],
+        [
+          0.426,
+          6.0165,
+          -0.5913
+        ],
+        [
+          6.39,
+          6.0165,
+          -0.5913
+        ],
+        [
+          0.426,
+          5.505,
+          -0.5913
+        ],
+        [
+          6.39,
+          6.0165,
+          -0.5913
+        ],
+        [
+          6.39,
+          5.505,
+          -0.5913
+        ],
+        [
+          6.39,
+          5.505,
+          -0.5913
+        ],
+        [
+          6.39,
+          6.0165,
+          -0.5913
+        ],
+        [
+          6.39,
+          6.9626,
+          -3.5479
+        ],
+        [
+          6.39,
+          5.505,
+          -0.5913
+        ],
+        [
+          6.39,
+          6.9626,
+          -3.5479
+        ],
+        [
+          6.39,
+          5.505,
+          -3.5479
+        ]
+      ],
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47
+      ],
+      "color": "#e4ddca"
     }
   ],
-  "exteriors": [],
   "colors": {
-    "walls": "#ded8c9",
-    "floor": "#b5a48b",
-    "frames": "#6b5a45",
-    "roof": "#a67554"
+    "walls": "#e4ddca",
+    "floor": "#b19072",
+    "roof": "#9e7557",
+    "frames": "#64574a",
+    "wood": "#88674c"
   },
-  "creationFinished": "2026-11-16T18:35:16.831010+01:00"
+  "coverage": "partial",
+  "unrenderedVolumes": [
+    "Parapetto della terrazza, bussola e rampe esterne."
+  ],
+  "geometrySource": "Ricalco dei perimetri e dei tramezzi su ritagli delle tavole pubblicate, con registrazione isotropa delle linee alla scansione. Dimensioni assolute e imbotti stimati salvo quote esplicite.",
+  "id": "contovello-117",
+  "title": "Villa bifamiliare a Contovello 117",
+  "creationStarted": "2026-11-23T11:47:20+01:00",
+  "creationFinished": "2026-11-23T12:47:02+01:00",
+  "sources": [
+    "https://www.immobiliare.it/annunci/129859908/"
+  ],
+  "sourceReadAt": "2026-11-23T11:49:25+01:00",
+  "sourceMedia": [
+    {
+      "key": "p00",
+      "usedUrl": "https://pic.im-cdn.it/plan/133401632/xxl.jpg",
+      "caption": "mappa proprietà",
+      "plan": true,
+      "size": [
+        742,
+        1050
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/129859908/"
+    },
+    {
+      "key": "p01",
+      "usedUrl": "https://pic.im-cdn.it/plan/129194910/xxl.jpg",
+      "caption": "piano terra",
+      "plan": true,
+      "size": [
+        742,
+        1050
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/129859908/"
+    },
+    {
+      "key": "p02",
+      "usedUrl": "https://pic.im-cdn.it/plan/129194950/xxl.jpg",
+      "caption": "seminterrato",
+      "plan": true,
+      "size": [
+        742,
+        1050
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/129859908/"
+    },
+    {
+      "key": "p03",
+      "usedUrl": "https://pic.im-cdn.it/plan/129194962/xxl.jpg",
+      "caption": "soffitta",
+      "plan": true,
+      "size": [
+        742,
+        1050
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/129859908/"
+    },
+    {
+      "key": "p04",
+      "usedUrl": "https://pic.im-cdn.it/plan/129195120/xxl.jpg",
+      "caption": "sezioni",
+      "plan": true,
+      "size": [
+        595,
+        841
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/129859908/"
+    },
+    {
+      "key": "f00",
+      "usedUrl": "https://pwm.im-cdn.it/image/1943802696/xxl.jpg",
+      "caption": "Vista",
+      "plan": false,
+      "size": [
+        1680,
+        756
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/129859908/"
+    },
+    {
+      "key": "f01",
+      "usedUrl": "https://pwm.im-cdn.it/image/1943803040/xxl.jpg",
+      "caption": "Terreno",
+      "plan": false,
+      "size": [
+        472,
+        1050
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/129859908/"
+    },
+    {
+      "key": "f02",
+      "usedUrl": "https://pwm.im-cdn.it/image/1943803322/xxl.jpg",
+      "caption": "Giardino",
+      "plan": false,
+      "size": [
+        1680,
+        756
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/129859908/"
+    },
+    {
+      "key": "f03",
+      "usedUrl": "https://pwm.im-cdn.it/image/1943803370/xxl.jpg",
+      "caption": "Giardino",
+      "plan": false,
+      "size": [
+        1680,
+        756
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/129859908/"
+    },
+    {
+      "key": "f04",
+      "usedUrl": "https://pwm.im-cdn.it/image/1943803430/xxl.jpg",
+      "caption": "Giardino",
+      "plan": false,
+      "size": [
+        1680,
+        756
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/129859908/"
+    },
+    {
+      "key": "f05",
+      "usedUrl": "https://pwm.im-cdn.it/image/1943803464/xxl.jpg",
+      "caption": "Giardino",
+      "plan": false,
+      "size": [
+        1680,
+        756
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/129859908/"
+    },
+    {
+      "key": "f06",
+      "usedUrl": "https://pwm.im-cdn.it/image/1943803530/xxl.jpg",
+      "caption": "Terreno",
+      "plan": false,
+      "size": [
+        472,
+        1050
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/129859908/"
+    },
+    {
+      "key": "f07",
+      "usedUrl": "https://pwm.im-cdn.it/image/1943803696/xxl.jpg",
+      "caption": "Vista",
+      "plan": false,
+      "size": [
+        1680,
+        756
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/129859908/"
+    },
+    {
+      "key": "f08",
+      "usedUrl": "https://pwm.im-cdn.it/image/1943803752/xxl.jpg",
+      "caption": "Terreno",
+      "plan": false,
+      "size": [
+        1680,
+        756
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/129859908/"
+    },
+    {
+      "key": "f09",
+      "usedUrl": "https://pwm.im-cdn.it/image/1943803856/xxl.jpg",
+      "caption": "Zona",
+      "plan": false,
+      "size": [
+        1680,
+        756
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/129859908/"
+    },
+    {
+      "key": "f10",
+      "usedUrl": "https://pwm.im-cdn.it/image/1943803908/xxl.jpg",
+      "caption": "Terreno",
+      "plan": false,
+      "size": [
+        1680,
+        756
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/129859908/"
+    },
+    {
+      "key": "f11",
+      "usedUrl": "https://pwm.im-cdn.it/image/1943803962/xxl.jpg",
+      "caption": "Terreno",
+      "plan": false,
+      "size": [
+        1680,
+        756
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/129859908/"
+    },
+    {
+      "key": "f12",
+      "usedUrl": "https://pwm.im-cdn.it/image/1943804258/xxl.jpg",
+      "caption": "Terrazzo",
+      "plan": false,
+      "size": [
+        1680,
+        756
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/129859908/"
+    },
+    {
+      "key": "f13",
+      "usedUrl": "https://pwm.im-cdn.it/image/1943804280/xxl.jpg",
+      "caption": "Terrazzo",
+      "plan": false,
+      "size": [
+        1680,
+        756
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/129859908/"
+    },
+    {
+      "key": "f14",
+      "usedUrl": "https://pwm.im-cdn.it/image/1943804374/xxl.jpg",
+      "caption": "Salone",
+      "plan": false,
+      "size": [
+        1680,
+        756
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/129859908/"
+    },
+    {
+      "key": "f15",
+      "usedUrl": "https://pwm.im-cdn.it/image/1943804408/xxl.jpg",
+      "caption": "Salone",
+      "plan": false,
+      "size": [
+        1680,
+        756
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/129859908/"
+    },
+    {
+      "key": "f16",
+      "usedUrl": "https://pwm.im-cdn.it/image/1943804432/xxl.jpg",
+      "caption": "Cucina",
+      "plan": false,
+      "size": [
+        1680,
+        756
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/129859908/"
+    },
+    {
+      "key": "f17",
+      "usedUrl": "https://pwm.im-cdn.it/image/1943804516/xxl.jpg",
+      "caption": "Camera da letto",
+      "plan": false,
+      "size": [
+        1680,
+        756
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/129859908/"
+    },
+    {
+      "key": "f18",
+      "usedUrl": "https://pwm.im-cdn.it/image/1943804570/xxl.jpg",
+      "caption": "Camera da letto",
+      "plan": false,
+      "size": [
+        1680,
+        756
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/129859908/"
+    },
+    {
+      "key": "f19",
+      "usedUrl": "https://pwm.im-cdn.it/image/1943804606/xxl.jpg",
+      "caption": "Camera da letto",
+      "plan": false,
+      "size": [
+        1680,
+        756
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/129859908/"
+    },
+    {
+      "key": "f20",
+      "usedUrl": "https://pwm.im-cdn.it/image/1943804638/xxl.jpg",
+      "caption": "Bagno",
+      "plan": false,
+      "size": [
+        472,
+        1050
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/129859908/"
+    },
+    {
+      "key": "f21",
+      "usedUrl": "https://pwm.im-cdn.it/image/1943804734/xxl.jpg",
+      "caption": "Giardino",
+      "plan": false,
+      "size": [
+        1680,
+        756
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/129859908/"
+    }
+  ],
+  "photoNotes": "Divano tortora, cucina chiara con pavimento a quadri, letto bordeaux.",
+  "photoEvidence": {
+    "sofa": {
+      "id": "f14",
+      "color": "#ac9d8a"
+    },
+    "kitchen": {
+      "id": "f16",
+      "color": "#d8d3c1"
+    },
+    "bed": {
+      "id": "f17",
+      "color": "#985b64"
+    }
+  },
+  "representation": "Stato documentato nelle fonti",
+  "saleNote": null,
+  "skillVersion": "1.2.0",
+  "views": [
+    {
+      "label": "Esterno",
+      "level": null
+    },
+    {
+      "label": "Sottotetto",
+      "level": 2
+    },
+    {
+      "label": "Piano terra",
+      "level": 0
+    },
+    {
+      "label": "Seminterrato",
+      "level": 1
+    }
+  ]
 }

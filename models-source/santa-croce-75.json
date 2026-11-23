@@ -1,1126 +1,1395 @@
 {
-  "id": "santa-croce-75",
-  "title": "Villa singola a Santa Croce 75 — progetto illustrativo",
-  "creationStarted": "2026-11-09T21:16:39.593740+00:00",
-  "coverage": "partial",
-  "unrenderedVolumes": [
-    "Finiture e arredi sono proposte illustrate della ristrutturazione, non uno stato finito verificato.",
-    "Corpi adiacenti, l’intero aggregato edilizio e dettagli esterni non leggibili nelle viste aeree non ricostruiti.",
-    "Rampe e pianerottoli dei collegamenti verticali: i vani scala delle piante sono conservati come tagli, ma le rampe non sono ricostruite perché quote e sviluppo non sono univoci negli elaborati acquisiti."
-  ],
-  "geometrySource": "manual-uniform-pixel-trace-from-exact-listing-plans",
-  "sources": [
-    {
-      "id": "S0",
-      "url": "https://pic.im-cdn.it/plan/114260696/m.jpg",
-      "pageUrl": "https://www.immobiliare.it/annunci/120761098/",
-      "sha256": "4dc992ca08bfce1976b0b8d2ff2a590366b4983297bb3b2a31298a607fe66607",
-      "actuallyInspected": true,
-      "type": "plan"
-    },
-    {
-      "id": "S1",
-      "url": "https://pic.im-cdn.it/plan/114260688/m.jpg",
-      "pageUrl": "https://www.immobiliare.it/annunci/120761098/",
-      "sha256": "fa8222e1530ddbadc73bf1b1f8f80f7590b5cdd41a8ce2eb1f899be11789bc4e",
-      "actuallyInspected": true,
-      "type": "plan"
-    },
-    {
-      "id": "S2",
-      "url": "https://pic.im-cdn.it/plan/114260694/m.jpg",
-      "pageUrl": "https://www.immobiliare.it/annunci/120761098/",
-      "sha256": "02452c4d345de7450e7030d65cf91e4ff0b1243ba70923d6901fdeaf08010adf",
-      "actuallyInspected": true,
-      "type": "plan"
-    },
-    {
-      "id": "S3",
-      "url": "https://pwm.im-cdn.it/image/1758504022/m-c.jpg",
-      "pageUrl": "https://www.immobiliare.it/annunci/120761098/",
-      "sha256": "2c14ed419264960f4c9eedf7d13e89851cc8d1a77011d1a385236c211281ab96",
-      "actuallyInspected": true,
-      "type": "photograph"
-    },
-    {
-      "id": "S4",
-      "url": "https://pwm.im-cdn.it/image/1758505216/m-c.jpg",
-      "pageUrl": "https://www.immobiliare.it/annunci/120761098/",
-      "sha256": "2a6c61968bb94721bbb119c5266593230db63fb276f6236b3301e946adc36279",
-      "actuallyInspected": true,
-      "type": "photograph"
-    }
-  ],
-  "limitations": [
-    "Scala uniforme da ricalco; ove mancano quote la scala assoluta è stimata, non derivata dalla superficie commerciale.",
-    "Altezze e spessori non quotati stimati dalle foto e dalla leggibilità delle piante. Arredi non fotografati omessi.",
-    "Geometria visuale approssimata; orientamento solare artistico. Il contesto non identifica confini o diritti di proprietà.",
-    "Sono ricalcate le tre piante del progetto pubblicato: piano camere, zona giorno e soppalco. Le quote assolute e la copertura sono stimate."
-  ],
-  "state": "project",
   "levels": [
     {
-      "label": "Progetto — piano camere",
-      "y": 0,
-      "height": 2.8,
+      "id": "piano-0",
+      "label": "Piano terra · camere",
+      "y": 0.0,
+      "height": 2.66,
       "outline": [
         [
-          0.0,
-          0.0
+          -7.68,
+          -4.7029
         ],
         [
-          11.001,
-          -0.418
+          -1.32,
+          -5.0272
         ],
         [
-          11.058,
-          5.719
+          3.0,
+          -5.0272
         ],
         [
-          0.133,
-          5.871
+          3.12,
+          0.8108
+        ],
+        [
+          -7.56,
+          1.2973
         ]
       ],
-      "walls": [
-        {
-          "a": [
-            0.0,
-            0.0
-          ],
-          "b": [
-            11.001,
-            -0.418
-          ],
-          "thickness": 0.72,
-          "openings": [
-            {
-              "start": 1.197,
-              "end": 1.938,
-              "kind": "window",
-              "sill": 1,
-              "height": 1.25
-            },
-            {
-              "start": 4.522,
-              "end": 5.8709999999999996,
-              "kind": "window",
-              "sill": 1,
-              "height": 1.25
-            },
-            {
-              "start": 8.246,
-              "end": 9.025,
-              "kind": "window",
-              "sill": 1,
-              "height": 1.25
-            }
-          ]
-        },
-        {
-          "a": [
-            11.001,
-            -0.418
-          ],
-          "b": [
-            11.058,
-            5.719
-          ],
-          "thickness": 0.38,
-          "openings": []
-        },
-        {
-          "a": [
-            11.058,
-            5.719
-          ],
-          "b": [
-            0.133,
-            5.871
-          ],
-          "thickness": 0.72,
-          "openings": [
-            {
-              "start": 0.437,
-              "end": 1.3679999999999999,
-              "kind": "door",
-              "sill": 0,
-              "height": 2.05
-            },
-            {
-              "start": 5.491,
-              "end": 6.479,
-              "kind": "door",
-              "sill": 0,
-              "height": 2.05
-            },
-            {
-              "start": 8.549999999999999,
-              "end": 9.366999999999999,
-              "kind": "door",
-              "sill": 0,
-              "height": 2.05
-            }
-          ]
-        },
-        {
-          "a": [
-            0.133,
-            5.871
-          ],
-          "b": [
-            0.0,
-            0.0
-          ],
-          "thickness": 0.72,
-          "openings": []
-        },
-        {
-          "a": [
-            3.724,
-            0.323
-          ],
-          "b": [
-            3.724,
-            4.199
-          ],
-          "thickness": 0.18,
-          "openings": [
-            {
-              "start": 3.363,
-              "end": 3.8,
-              "kind": "door",
-              "sill": 0,
-              "height": 2.05
-            }
-          ]
-        },
-        {
-          "a": [
-            3.724,
-            2.622
-          ],
-          "b": [
-            6.118,
-            2.622
-          ],
-          "thickness": 0.18,
-          "openings": [
-            {
-              "start": 1.482,
-              "end": 1.976,
-              "kind": "door",
-              "sill": 0,
-              "height": 2.05
-            }
-          ]
-        },
-        {
-          "a": [
-            5.035,
-            2.622
-          ],
-          "b": [
-            5.035,
-            4.104
-          ],
-          "thickness": 0.18,
-          "openings": []
-        },
-        {
-          "a": [
-            3.724,
-            4.123
-          ],
-          "b": [
-            5.035,
-            4.123
-          ],
-          "thickness": 0.18,
-          "openings": []
-        },
-        {
-          "a": [
-            6.118,
-            0.038
-          ],
-          "b": [
-            6.118,
-            2.603
-          ],
-          "thickness": 0.18,
-          "openings": []
-        },
-        {
-          "a": [
-            6.118,
-            3.99
-          ],
-          "b": [
-            9.823,
-            3.99
-          ],
-          "thickness": 0.18,
-          "openings": [
-            {
-              "start": 0.475,
-              "end": 1.1019999999999999,
-              "kind": "door",
-              "sill": 0,
-              "height": 2.05
-            }
-          ]
-        },
-        {
-          "a": [
-            9.215,
-            3.99
-          ],
-          "b": [
-            9.215,
-            5.719
-          ],
-          "thickness": 0.18,
-          "openings": [
-            {
-              "start": 0.22799999999999998,
-              "end": 0.722,
-              "kind": "door",
-              "sill": 0,
-              "height": 2.05
-            }
-          ]
-        }
-      ],
-      "furniture": [
-        {
-          "kind": "bed",
-          "x": 2.109,
-          "z": 2.375,
-          "width": 1.6,
-          "depth": 2,
-          "color": "#c4b9a1"
-        },
-        {
-          "kind": "bed",
-          "x": 9.158,
-          "z": 2.109,
-          "width": 1.6,
-          "depth": 2,
-          "color": "#c4b9a1"
-        },
-        {
-          "kind": "bath",
-          "x": 5.586,
-          "z": 1.501,
-          "width": 0.65,
-          "depth": 1.8,
-          "color": "#e3dfd4"
-        }
-      ],
-      "stairs": [],
-      "holes": [],
-      "sourcePlan": "plan-0.jpg",
-      "trace": {
-        "image": "plan-0.jpg",
-        "originPixel": [
-          200,
-          110
-        ],
-        "uniformMetresPerPixel": 0.019,
-        "axis": "X=image right; Z=image down; no reflection; source trace kept in pixel coordinates"
-      },
-      "pixelOutline": [
-        [
-          200,
-          110
-        ],
-        [
-          779,
-          88
-        ],
-        [
-          782,
-          411
-        ],
-        [
-          207,
-          419
-        ]
-      ],
-      "pixelWalls": [
-        {
-          "a": [
-            200,
-            110
-          ],
-          "b": [
-            779,
-            88
-          ],
-          "openings": [
-            [
-              263,
-              302,
-              "window"
-            ],
-            [
-              438,
-              509,
-              "window"
-            ],
-            [
-              634,
-              675,
-              "window"
-            ]
-          ]
-        },
-        {
-          "a": [
-            779,
-            88
-          ],
-          "b": [
-            782,
-            411
-          ],
-          "openings": []
-        },
-        {
-          "a": [
-            782,
-            411
-          ],
-          "b": [
-            207,
-            419
-          ],
-          "openings": [
-            [
-              710,
-              759,
-              "door"
-            ],
-            [
-              441,
-              493,
-              "door"
-            ],
-            [
-              289,
-              332,
-              "door"
-            ]
-          ]
-        },
-        {
-          "a": [
-            207,
-            419
-          ],
-          "b": [
-            200,
-            110
-          ],
-          "openings": []
-        },
-        {
-          "a": [
-            396,
-            127
-          ],
-          "b": [
-            396,
-            331
-          ],
-          "openings": [
-            [
-              304,
-              327,
-              "door"
-            ]
-          ]
-        },
-        {
-          "a": [
-            396,
-            248
-          ],
-          "b": [
-            522,
-            248
-          ],
-          "openings": [
-            [
-              474,
-              500,
-              "door"
-            ]
-          ]
-        },
-        {
-          "a": [
-            465,
-            248
-          ],
-          "b": [
-            465,
-            326
-          ],
-          "openings": []
-        },
-        {
-          "a": [
-            396,
-            327
-          ],
-          "b": [
-            465,
-            327
-          ],
-          "openings": []
-        },
-        {
-          "a": [
-            522,
-            112
-          ],
-          "b": [
-            522,
-            247
-          ],
-          "openings": []
-        },
-        {
-          "a": [
-            522,
-            320
-          ],
-          "b": [
-            717,
-            320
-          ],
-          "openings": [
-            [
-              547,
-              580,
-              "door"
-            ]
-          ]
-        },
-        {
-          "a": [
-            685,
-            320
-          ],
-          "b": [
-            685,
-            411
-          ],
-          "openings": [
-            [
-              332,
-              358,
-              "door"
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "label": "Progetto — zona giorno",
-      "y": 3,
-      "height": 2.6,
-      "outline": [
-        [
-          0.0,
-          0.0
-        ],
-        [
-          11.001,
-          -0.418
-        ],
-        [
-          11.058,
-          5.719
-        ],
-        [
-          0.133,
-          5.871
-        ]
-      ],
-      "walls": [
-        {
-          "a": [
-            0.0,
-            0.0
-          ],
-          "b": [
-            11.001,
-            -0.418
-          ],
-          "thickness": 0.72,
-          "openings": [
-            {
-              "start": 1.197,
-              "end": 1.938,
-              "kind": "window",
-              "sill": 1,
-              "height": 1.25
-            },
-            {
-              "start": 4.826,
-              "end": 5.643,
-              "kind": "window",
-              "sill": 1,
-              "height": 1.25
-            },
-            {
-              "start": 8.246,
-              "end": 9.025,
-              "kind": "window",
-              "sill": 1,
-              "height": 1.25
-            }
-          ]
-        },
-        {
-          "a": [
-            11.001,
-            -0.418
-          ],
-          "b": [
-            11.058,
-            5.719
-          ],
-          "thickness": 0.38,
-          "openings": []
-        },
-        {
-          "a": [
-            11.058,
-            5.719
-          ],
-          "b": [
-            0.133,
-            5.871
-          ],
-          "thickness": 0.72,
-          "openings": [
-            {
-              "start": 0.323,
-              "end": 1.292,
-              "kind": "door",
-              "sill": 0,
-              "height": 2.05
-            },
-            {
-              "start": 5.054,
-              "end": 6.042,
-              "kind": "door",
-              "sill": 0,
-              "height": 2.05
-            },
-            {
-              "start": 8.549999999999999,
-              "end": 9.366999999999999,
-              "kind": "door",
-              "sill": 0,
-              "height": 2.05
-            }
-          ]
-        },
-        {
-          "a": [
-            0.133,
-            5.871
-          ],
-          "b": [
-            0.0,
-            0.0
-          ],
-          "thickness": 0.72,
-          "openings": []
-        },
-        {
-          "a": [
-            0.0,
-            6.897
-          ],
-          "b": [
-            11.02,
-            6.897
-          ],
-          "thickness": 0.07,
-          "openings": [],
-          "height": 1
-        }
-      ],
-      "furniture": [
-        {
-          "kind": "sofa",
-          "x": 2.679,
-          "z": 1.026,
-          "width": 2.5,
-          "depth": 0.85,
-          "color": "#c5bead"
-        },
-        {
-          "kind": "sofa",
-          "x": 2.679,
-          "z": 3.743,
-          "width": 2.5,
-          "depth": 0.85,
-          "color": "#c5bead"
-        },
-        {
-          "kind": "table",
-          "x": 5.947,
-          "z": 1.919,
-          "width": 1.6,
-          "depth": 1.6,
-          "color": "#a99370"
-        },
-        {
-          "kind": "kitchen",
-          "x": 8.721,
-          "z": 0.55,
-          "width": 2.7,
-          "depth": 0.6,
-          "color": "#d8d5ca"
-        }
-      ],
-      "stairs": [],
-      "holes": [
-        [
-          [
-            6.631,
-            4.104
-          ],
-          [
-            9.386,
-            4.104
-          ],
-          [
-            9.386,
-            5.206
-          ],
-          [
-            6.631,
-            5.206
-          ]
-        ]
-      ],
-      "sourcePlan": "plan-2.jpg",
-      "trace": {
-        "image": "plan-2.jpg",
-        "originPixel": [
-          200,
-          110
-        ],
-        "uniformMetresPerPixel": 0.019,
-        "axis": "X=image right; Z=image down; no reflection; source trace kept in pixel coordinates"
-      },
-      "pixelOutline": [
-        [
-          200,
-          110
-        ],
-        [
-          779,
-          88
-        ],
-        [
-          782,
-          411
-        ],
-        [
-          207,
-          419
-        ]
-      ],
-      "pixelWalls": [
-        {
-          "a": [
-            200,
-            110
-          ],
-          "b": [
-            779,
-            88
-          ],
-          "openings": [
-            [
-              263,
-              302,
-              "window"
-            ],
-            [
-              454,
-              497,
-              "window"
-            ],
-            [
-              634,
-              675,
-              "window"
-            ]
-          ]
-        },
-        {
-          "a": [
-            779,
-            88
-          ],
-          "b": [
-            782,
-            411
-          ],
-          "openings": []
-        },
-        {
-          "a": [
-            782,
-            411
-          ],
-          "b": [
-            207,
-            419
-          ],
-          "openings": [
-            [
-              714,
-              765,
-              "door"
-            ],
-            [
-              464,
-              516,
-              "door"
-            ],
-            [
-              289,
-              332,
-              "door"
-            ]
-          ]
-        },
-        {
-          "a": [
-            207,
-            419
-          ],
-          "b": [
-            200,
-            110
-          ],
-          "openings": []
-        },
-        {
-          "a": [
-            200,
-            473
-          ],
-          "b": [
-            780,
-            473
-          ],
-          "openings": []
-        }
-      ],
-      "components": [
+      "surfaces": [
         {
           "points": [
             [
-              0.0,
-              5.871
+              -7.68,
+              -4.7029
             ],
             [
-              11.02,
-              5.871
+              -1.32,
+              -5.0272
             ],
             [
-              11.02,
-              6.897
+              3.0,
+              -5.0272
             ],
             [
-              0.0,
-              6.897
+              3.12,
+              0.8108
+            ],
+            [
+              -7.56,
+              1.2973
             ]
           ],
-          "rise": 0,
-          "thickness": 0.14,
-          "color": "#b8ad99"
+          "color": "#bb9369",
+          "finish": "wood",
+          "holes": []
         }
-      ]
-    },
-    {
-      "label": "Progetto — soppalco",
-      "y": 5.6,
-      "height": 1.1,
-      "outline": [
-        [
-          6.08,
-          -0.019
-        ],
-        [
-          10.735,
-          -0.019
-        ],
-        [
-          10.735,
-          5.225
-        ],
-        [
-          6.08,
-          5.225
-        ]
       ],
       "walls": [
         {
           "a": [
-            6.08,
-            5.225
+            -7.6806,
+            -4.7149
           ],
           "b": [
-            6.08,
-            -0.019
+            -1.3206,
+            -5.0393
+          ],
+          "thickness": 0.23,
+          "outer": true,
+          "openings": [
+            {
+              "kind": "window",
+              "start": 1.256,
+              "end": 2.356,
+              "sill": 0.9,
+              "height": 1.24
+            },
+            {
+              "kind": "window",
+              "start": 2.12,
+              "end": 4.398,
+              "sill": 0.88,
+              "height": 1.25
+            }
+          ],
+          "insideFace": true
+        },
+        {
+          "a": [
+            -1.32,
+            -5.0875
+          ],
+          "b": [
+            3.0,
+            -5.0875
+          ],
+          "thickness": 0.23,
+          "outer": true,
+          "openings": [
+            {
+              "kind": "window",
+              "start": 1.61,
+              "end": 2.71,
+              "sill": 0.9,
+              "height": 1.24
+            }
+          ],
+          "insideFace": true
+        },
+        {
+          "a": [
+            2.994,
+            -5.0271
+          ],
+          "b": [
+            3.114,
+            0.811
+          ],
+          "thickness": 0.19,
+          "outer": true,
+          "openings": [],
+          "insideFace": true
+        },
+        {
+          "a": [
+            3.1195,
+            0.7988
+          ],
+          "b": [
+            -7.5605,
+            1.2853
+          ],
+          "thickness": 0.19,
+          "outer": true,
+          "openings": [
+            {
+              "kind": "window",
+              "start": 2.567,
+              "end": 3.667,
+              "sill": 0.9,
+              "height": 1.24
+            },
+            {
+              "kind": "window",
+              "start": 6.398,
+              "end": 8.0,
+              "sill": 0.88,
+              "height": 1.25
+            },
+            {
+              "kind": "door",
+              "height": 2.15,
+              "sill": 0,
+              "start": 4.409,
+              "end": 5.429
+            }
+          ],
+          "insideFace": true
+        },
+        {
+          "a": [
+            -7.56,
+            1.2973
+          ],
+          "b": [
+            -7.68,
+            -4.7029
           ],
           "thickness": 0.25,
+          "outer": true,
           "openings": [],
-          "height": 0.95
+          "insideFace": true
         },
         {
           "a": [
-            0.0,
-            0.0
+            -3.9419,
+            -4.7029
           ],
           "b": [
-            11.001,
-            -0.418
+            -3.9419,
+            -0.5676
           ],
-          "thickness": 0.72,
-          "openings": [],
-          "height": 1.3
+          "thickness": 0.157,
+          "outer": false,
+          "openings": [
+            {
+              "kind": "door",
+              "start": 3.275,
+              "end": 4.115,
+              "sill": 0,
+              "height": 2.06
+            }
+          ],
+          "color": "#e5e0d7"
         },
         {
           "a": [
-            11.001,
-            -0.418
+            -3.96,
+            -2.0239
           ],
           "b": [
-            11.058,
-            5.719
+            -2.64,
+            -2.0239
           ],
-          "thickness": 0.38,
+          "thickness": 0.12,
+          "outer": false,
           "openings": [],
-          "height": 1.3
+          "color": "#e5e0d7"
         },
         {
           "a": [
-            11.058,
-            5.719
+            -2.6641,
+            -2.1082
           ],
           "b": [
-            0.133,
-            5.871
+            -2.6641,
+            -0.5676
           ],
-          "thickness": 0.72,
+          "thickness": 0.12,
+          "outer": false,
           "openings": [],
-          "height": 1.3
+          "color": "#e5e0d7"
         },
         {
           "a": [
-            0.133,
-            5.871
+            -2.64,
+            -0.5796
           ],
           "b": [
-            0.0,
-            0.0
+            -3.96,
+            -0.5796
           ],
-          "thickness": 0.72,
+          "thickness": 0.12,
+          "outer": false,
           "openings": [],
-          "height": 1.3
+          "color": "#e5e0d7"
+        },
+        {
+          "a": [
+            -1.44,
+            -4.8651
+          ],
+          "b": [
+            -1.44,
+            -1.946
+          ],
+          "thickness": 0.14,
+          "outer": false,
+          "openings": [
+            {
+              "kind": "door",
+              "start": 2.059,
+              "end": 2.899,
+              "sill": 0,
+              "height": 2.06
+            }
+          ],
+          "color": "#e5e0d7"
+        },
+        {
+          "a": [
+            -1.44,
+            -0.6635
+          ],
+          "b": [
+            3.0,
+            -0.6635
+          ],
+          "thickness": 0.157,
+          "outer": false,
+          "openings": [
+            {
+              "kind": "door",
+              "start": 1.98,
+              "end": 2.82,
+              "sill": 0,
+              "height": 2.06
+            }
+          ],
+          "color": "#e5e0d7"
+        },
+        {
+          "a": [
+            1.4641,
+            -0.5676
+          ],
+          "b": [
+            1.4641,
+            0.7298
+          ],
+          "thickness": 0.12,
+          "outer": false,
+          "openings": [],
+          "color": "#e5e0d7"
         }
       ],
+      "holes": [],
       "furniture": [
         {
-          "kind": "chair",
-          "x": 7.258,
-          "z": 1.995,
-          "width": 0.85,
-          "depth": 0.85,
-          "color": "#c9b79d"
+          "kind": "bed",
+          "x": -5.28,
+          "z": -2.27,
+          "rotation": 1.5708,
+          "width": 1.45,
+          "depth": 2.0,
+          "color": "#d8c9ae",
+          "photoId": "f10",
+          "placement": "Posizione indicativa nel vano, proporzioni e materiali da fotografia."
         },
         {
-          "kind": "chair",
-          "x": 8.968,
-          "z": 3.154,
-          "width": 0.85,
-          "depth": 0.85,
-          "color": "#c9b79d"
+          "kind": "bed",
+          "x": 1.08,
+          "z": -2.27,
+          "rotation": -1.5708,
+          "width": 1.55,
+          "depth": 2.02,
+          "color": "#d8c9ae",
+          "photoId": "f10",
+          "placement": "Posizione indicativa nel vano, proporzioni e materiali da fotografia."
         }
       ],
-      "stairs": [],
-      "holes": [
-        [
-          [
-            6.821,
-            4.18
-          ],
-          [
-            9.234,
-            4.18
-          ],
-          [
-            9.234,
-            5.187
-          ],
-          [
-            6.821,
-            5.187
-          ]
-        ]
+      "sourcePlan": "p00",
+      "sourceBox": [
+        263,
+        88,
+        1259,
+        761
       ],
-      "sourcePlan": "plan-1.jpg",
-      "trace": {
-        "image": "plan-1.jpg",
-        "originPixel": [
-          200,
-          110
+      "sourceOrigin": [
+        950.24,
+        559.1
+      ],
+      "sourceScale": 0.0120481928,
+      "separate": false,
+      "traceIndex": 0,
+      "stairSpec": {
+        "a": [
+          -0.36,
+          -0.0811
         ],
-        "uniformMetresPerPixel": 0.019,
-        "axis": "X=image right; Z=image down; no reflection; source trace kept in pixel coordinates"
+        "b": [
+          0.96,
+          -0.0811
+        ],
+        "width": 0.87
       },
-      "pixelOutline": [
+      "uncertainStair": true,
+      "comparison": "santa-croce-75-01.jpg"
+    },
+    {
+      "id": "piano-1",
+      "label": "Piano primo · soggiorno",
+      "y": 2.85,
+      "height": 2.66,
+      "outline": [
         [
-          520,
-          109
+          -7.68,
+          -4.668
         ],
         [
-          765,
-          109
+          -1.32,
+          -4.9899
         ],
         [
-          765,
-          385
+          3.0,
+          -4.9899
         ],
         [
-          520,
-          385
+          3.12,
+          0.8048
+        ],
+        [
+          -7.56,
+          1.2877
         ]
       ],
-      "pixelWalls": [
+      "surfaces": [
         {
-          "a": [
-            520,
-            109
+          "points": [
+            [
+              -7.68,
+              -4.668
+            ],
+            [
+              -1.32,
+              -4.9899
+            ],
+            [
+              3.0,
+              -4.9899
+            ],
+            [
+              3.12,
+              0.8048
+            ],
+            [
+              -7.56,
+              1.2877
+            ]
           ],
-          "b": [
-            765,
-            109
-          ],
-          "openings": []
-        },
-        {
-          "a": [
-            765,
-            109
-          ],
-          "b": [
-            765,
-            385
-          ],
-          "openings": []
-        },
-        {
-          "a": [
-            765,
-            385
-          ],
-          "b": [
-            520,
-            385
-          ],
-          "openings": []
-        },
-        {
-          "a": [
-            520,
-            385
-          ],
-          "b": [
-            520,
-            109
-          ],
-          "openings": []
+          "color": "#bb9369",
+          "finish": "wood",
+          "holes": []
         }
-      ]
+      ],
+      "walls": [
+        {
+          "a": [
+            -7.6812,
+            -4.692
+          ],
+          "b": [
+            -1.3212,
+            -5.0139
+          ],
+          "thickness": 0.23,
+          "outer": true,
+          "openings": [
+            {
+              "kind": "window",
+              "start": 1.256,
+              "end": 2.356,
+              "sill": 0.9,
+              "height": 1.24
+            }
+          ],
+          "insideFace": true
+        },
+        {
+          "a": [
+            -1.32,
+            -5.0441
+          ],
+          "b": [
+            3.0,
+            -5.0441
+          ],
+          "thickness": 0.19,
+          "outer": true,
+          "openings": [
+            {
+              "kind": "window",
+              "start": 1.85,
+              "end": 2.95,
+              "sill": 0.9,
+              "height": 1.24
+            }
+          ],
+          "insideFace": true
+        },
+        {
+          "a": [
+            2.9759,
+            -4.9894
+          ],
+          "b": [
+            3.0959,
+            0.8053
+          ],
+          "thickness": 0.193,
+          "outer": true,
+          "openings": [
+            {
+              "kind": "window",
+              "start": 2.993,
+              "end": 4.093,
+              "sill": 0.9,
+              "height": 1.24
+            }
+          ],
+          "insideFace": true
+        },
+        {
+          "a": [
+            3.1211,
+            0.8289
+          ],
+          "b": [
+            -7.5589,
+            1.3118
+          ],
+          "thickness": 0.193,
+          "outer": true,
+          "openings": [
+            {
+              "kind": "window",
+              "start": 1.253,
+              "end": 2.349,
+              "sill": 0.88,
+              "height": 1.25
+            },
+            {
+              "kind": "window",
+              "start": 3.313,
+              "end": 4.651,
+              "sill": 0.88,
+              "height": 1.25
+            },
+            {
+              "kind": "door",
+              "height": 2.15,
+              "sill": 0,
+              "start": 0.02,
+              "end": 0.95
+            }
+          ],
+          "insideFace": true
+        },
+        {
+          "a": [
+            -7.56,
+            1.2877
+          ],
+          "b": [
+            -7.68,
+            -4.668
+          ],
+          "thickness": 0.25,
+          "outer": true,
+          "openings": [],
+          "insideFace": true
+        }
+      ],
+      "holes": [],
+      "furniture": [
+        {
+          "kind": "sofa",
+          "x": -4.68,
+          "z": -3.3,
+          "rotation": 0.0,
+          "width": 2.0,
+          "depth": 0.84,
+          "color": "#e2d6bf",
+          "photoId": "f06",
+          "placement": "Posizione indicativa nel vano, proporzioni e materiali da fotografia."
+        },
+        {
+          "kind": "sofa",
+          "x": -4.68,
+          "z": -0.805,
+          "rotation": 3.1416,
+          "width": 2.0,
+          "depth": 0.84,
+          "color": "#e2d6bf",
+          "photoId": "f06",
+          "placement": "Posizione indicativa nel vano, proporzioni e materiali da fotografia."
+        },
+        {
+          "kind": "table",
+          "x": -1.56,
+          "z": -2.414,
+          "rotation": 0.0,
+          "width": 1.12,
+          "depth": 1.12,
+          "color": "#b39274",
+          "photoId": "f06",
+          "placement": "Posizione indicativa nel vano, proporzioni e materiali da fotografia.",
+          "round": true
+        },
+        {
+          "kind": "chair",
+          "x": -1.56,
+          "z": -3.38,
+          "rotation": 3.1416,
+          "width": 0.47,
+          "depth": 0.5,
+          "color": "#bca68a",
+          "photoId": "f06",
+          "placement": "Posizione indicativa nel vano, proporzioni e materiali da fotografia."
+        },
+        {
+          "kind": "chair",
+          "x": -1.68,
+          "z": -1.449,
+          "rotation": 0.0,
+          "width": 0.47,
+          "depth": 0.5,
+          "color": "#bca68a",
+          "photoId": "f06",
+          "placement": "Posizione indicativa nel vano, proporzioni e materiali da fotografia."
+        }
+      ],
+      "sourcePlan": "p02",
+      "sourceBox": [
+        263,
+        88,
+        1259,
+        756
+      ],
+      "sourceOrigin": [
+        950.24,
+        555.6
+      ],
+      "sourceScale": 0.0120481928,
+      "separate": false,
+      "traceIndex": 1,
+      "stairSpec": {
+        "a": [
+          -0.36,
+          -0.0805
+        ],
+        "b": [
+          0.96,
+          -0.0805
+        ],
+        "width": 0.87
+      },
+      "uncertainStair": true,
+      "comparison": "santa-croce-75-02.jpg"
+    },
+    {
+      "id": "piano-2",
+      "label": "Soppalco",
+      "y": 5.43,
+      "height": 2.66,
+      "outline": [
+        [
+          -1.68,
+          -4.4745
+        ],
+        [
+          2.88,
+          -4.4745
+        ],
+        [
+          2.88,
+          0.7217
+        ],
+        [
+          -1.68,
+          0.7217
+        ]
+      ],
+      "surfaces": [
+        {
+          "points": [
+            [
+              -1.68,
+              -4.4745
+            ],
+            [
+              2.88,
+              -4.4745
+            ],
+            [
+              2.88,
+              0.7217
+            ],
+            [
+              -1.68,
+              0.7217
+            ]
+          ],
+          "color": "#bb9369",
+          "finish": "wood",
+          "holes": []
+        }
+      ],
+      "walls": [
+        {
+          "a": [
+            -1.68,
+            -4.5708
+          ],
+          "b": [
+            2.88,
+            -4.5708
+          ],
+          "thickness": 0.23,
+          "outer": true,
+          "openings": [],
+          "insideFace": true
+        },
+        {
+          "a": [
+            2.9402,
+            -4.4745
+          ],
+          "b": [
+            2.9402,
+            0.7217
+          ],
+          "thickness": 0.23,
+          "outer": true,
+          "openings": [
+            {
+              "kind": "window",
+              "start": 1.038,
+              "end": 2.138,
+              "sill": 0.9,
+              "height": 1.24
+            }
+          ],
+          "insideFace": true
+        },
+        {
+          "a": [
+            2.88,
+            0.6133
+          ],
+          "b": [
+            -1.68,
+            0.6133
+          ],
+          "thickness": 0.23,
+          "outer": true,
+          "openings": [],
+          "insideFace": true
+        },
+        {
+          "a": [
+            -1.6439,
+            0.7217
+          ],
+          "b": [
+            -1.6439,
+            -4.4745
+          ],
+          "thickness": 0.23,
+          "outer": true,
+          "openings": [],
+          "insideFace": true,
+          "height": 0.93
+        }
+      ],
+      "holes": [],
+      "furniture": [],
+      "sourcePlan": "p01",
+      "sourceBox": [
+        263,
+        88,
+        1259,
+        687
+      ],
+      "sourceOrigin": [
+        950.24,
+        549.23
+      ],
+      "sourceScale": 0.0120481928,
+      "separate": false,
+      "traceIndex": 2,
+      "comparison": "santa-croce-75-03.jpg"
     }
   ],
   "roofs": [
     {
       "vertices": [
         [
-          -0.4,
-          6.9,
-          -0.5
+          -7.6232,
+          9.1494,
+          -1.8511
         ],
         [
-          -0.4,
-          6.9,
-          6.4
+          -7.68,
+          8.248,
+          -4.668
         ],
         [
-          -0.4,
-          7.6,
-          2.95
+          -1.32,
+          8.145,
+          -4.9899
         ],
         [
-          11.5,
-          6.9,
-          -0.5
+          -7.6232,
+          9.1494,
+          -1.8511
         ],
         [
-          11.5,
-          6.9,
-          6.4
+          -1.32,
+          8.145,
+          -4.9899
         ],
         [
-          11.5,
-          7.6,
-          2.95
+          3.065,
+          9.1494,
+          -1.8511
+        ],
+        [
+          3.065,
+          9.1494,
+          -1.8511
+        ],
+        [
+          -1.32,
+          8.145,
+          -4.9899
+        ],
+        [
+          3.0,
+          8.145,
+          -4.9899
+        ],
+        [
+          -7.56,
+          8.145,
+          1.2877
+        ],
+        [
+          -7.6232,
+          9.1494,
+          -1.8511
+        ],
+        [
+          3.12,
+          8.2995,
+          0.8048
+        ],
+        [
+          3.12,
+          8.2995,
+          0.8048
+        ],
+        [
+          -7.6232,
+          9.1494,
+          -1.8511
+        ],
+        [
+          3.065,
+          9.1494,
+          -1.8511
         ]
       ],
       "indices": [
         0,
-        3,
-        5,
-        0,
-        5,
-        2,
-        2,
-        5,
-        4,
-        2,
-        4,
         1,
-        0,
         2,
-        1,
         3,
         4,
-        5
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
       ],
-      "color": "#9b7156"
+      "color": "#946448"
+    },
+    {
+      "vertices": [
+        [
+          -7.68,
+          8.075,
+          -4.668
+        ],
+        [
+          -7.68,
+          8.248,
+          -4.668
+        ],
+        [
+          -7.6232,
+          9.1494,
+          -1.8511
+        ],
+        [
+          -7.68,
+          8.075,
+          -4.668
+        ],
+        [
+          -7.6232,
+          9.1494,
+          -1.8511
+        ],
+        [
+          -7.6232,
+          8.075,
+          -1.8511
+        ],
+        [
+          -7.68,
+          8.075,
+          -4.668
+        ],
+        [
+          -7.68,
+          8.248,
+          -4.668
+        ],
+        [
+          -1.32,
+          8.145,
+          -4.9899
+        ],
+        [
+          -7.68,
+          8.075,
+          -4.668
+        ],
+        [
+          -1.32,
+          8.145,
+          -4.9899
+        ],
+        [
+          -1.32,
+          8.075,
+          -4.9899
+        ],
+        [
+          3.0,
+          8.075,
+          -4.9899
+        ],
+        [
+          3.0,
+          8.145,
+          -4.9899
+        ],
+        [
+          3.065,
+          9.1494,
+          -1.8511
+        ],
+        [
+          3.0,
+          8.075,
+          -4.9899
+        ],
+        [
+          3.065,
+          9.1494,
+          -1.8511
+        ],
+        [
+          3.065,
+          8.075,
+          -1.8511
+        ],
+        [
+          -7.6232,
+          8.075,
+          -1.8511
+        ],
+        [
+          -7.6232,
+          9.1494,
+          -1.8511
+        ],
+        [
+          -7.56,
+          8.145,
+          1.2877
+        ],
+        [
+          -7.6232,
+          8.075,
+          -1.8511
+        ],
+        [
+          -7.56,
+          8.145,
+          1.2877
+        ],
+        [
+          -7.56,
+          8.075,
+          1.2877
+        ],
+        [
+          -7.56,
+          8.075,
+          1.2877
+        ],
+        [
+          -7.56,
+          8.145,
+          1.2877
+        ],
+        [
+          3.12,
+          8.2995,
+          0.8048
+        ],
+        [
+          -7.56,
+          8.075,
+          1.2877
+        ],
+        [
+          3.12,
+          8.2995,
+          0.8048
+        ],
+        [
+          3.12,
+          8.075,
+          0.8048
+        ],
+        [
+          3.065,
+          8.075,
+          -1.8511
+        ],
+        [
+          3.065,
+          9.1494,
+          -1.8511
+        ],
+        [
+          3.12,
+          8.2995,
+          0.8048
+        ],
+        [
+          3.065,
+          8.075,
+          -1.8511
+        ],
+        [
+          3.12,
+          8.2995,
+          0.8048
+        ],
+        [
+          3.12,
+          8.075,
+          0.8048
+        ]
+      ],
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "color": "#e4d1ae"
     }
   ],
-  "exteriors": [],
   "colors": {
-    "walls": "#d3c9b8",
-    "floor": "#a58c69",
-    "frames": "#ddd7ca",
-    "roof": "#a87551"
+    "walls": "#e4d1ae",
+    "floor": "#bb9369",
+    "roof": "#946448",
+    "frames": "#64574a",
+    "wood": "#88674c"
   },
-  "creationFinished": "2026-11-16T18:23:24.553209+01:00"
+  "coverage": "partial",
+  "unrenderedVolumes": [
+    "Parti accessorie esterne e altezza verificata del soppalco.",
+    "Rampe o tratti di scala senza raccordo verticale verificabile tra le tavole."
+  ],
+  "geometrySource": "Ricalco dei perimetri e dei tramezzi su ritagli delle tavole pubblicate, con registrazione isotropa delle linee alla scansione. Dimensioni assolute e imbotti stimati salvo quote esplicite.",
+  "id": "santa-croce-75",
+  "title": "Villa singola a Santa Croce 75",
+  "creationStarted": "2026-11-23T11:47:20+01:00",
+  "creationFinished": "2026-11-23T12:47:02+01:00",
+  "sources": [
+    "https://www.immobiliare.it/annunci/120761098/"
+  ],
+  "sourceReadAt": "2026-11-23T11:49:25+01:00",
+  "sourceMedia": [
+    {
+      "key": "p00",
+      "usedUrl": "https://pic.im-cdn.it/plan/114260696/xxl.jpg",
+      "caption": "planimetria piano T",
+      "plan": true,
+      "size": [
+        1600,
+        914
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/120761098/"
+    },
+    {
+      "key": "p01",
+      "usedUrl": "https://pic.im-cdn.it/plan/114260688/xxl.jpg",
+      "caption": "planimetria soppalco",
+      "plan": true,
+      "size": [
+        1600,
+        914
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/120761098/"
+    },
+    {
+      "key": "p02",
+      "usedUrl": "https://pic.im-cdn.it/plan/114260694/xxl.jpg",
+      "caption": "planimetria piano 1",
+      "plan": true,
+      "size": [
+        1600,
+        914
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/120761098/"
+    },
+    {
+      "key": "f00",
+      "usedUrl": "https://pwm.im-cdn.it/image/1758504022/xxl.jpg",
+      "caption": "Vista",
+      "plan": false,
+      "size": [
+        1680,
+        945
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/120761098/"
+    },
+    {
+      "key": "f01",
+      "usedUrl": "https://pwm.im-cdn.it/image/1758505216/xxl.jpg",
+      "caption": "Vista",
+      "plan": false,
+      "size": [
+        1680,
+        945
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/120761098/"
+    },
+    {
+      "key": "f02",
+      "usedUrl": "https://pwm.im-cdn.it/image/1758503956/xxl.jpg",
+      "caption": "Mappa",
+      "plan": false,
+      "size": [
+        1680,
+        945
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/120761098/"
+    },
+    {
+      "key": "f03",
+      "usedUrl": "https://pwm.im-cdn.it/image/1758500248/xxl.jpg",
+      "caption": "Vista",
+      "plan": false,
+      "size": [
+        1680,
+        945
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/120761098/"
+    },
+    {
+      "key": "f04",
+      "usedUrl": "https://pwm.im-cdn.it/image/1758504058/xxl.jpg",
+      "caption": "Vista",
+      "plan": false,
+      "size": [
+        1680,
+        945
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/120761098/"
+    },
+    {
+      "key": "f05",
+      "usedUrl": "https://pwm.im-cdn.it/image/1924341466/xxl.jpg",
+      "caption": "Vista",
+      "plan": false,
+      "size": [
+        787,
+        1050
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/120761098/"
+    },
+    {
+      "key": "f06",
+      "usedUrl": "https://pwm.im-cdn.it/image/1712591820/xxl.jpg",
+      "caption": "Salone",
+      "plan": false,
+      "size": [
+        1423,
+        1050
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/120761098/"
+    },
+    {
+      "key": "f07",
+      "usedUrl": "https://pwm.im-cdn.it/image/1712591582/xxl.jpg",
+      "caption": "Facciata",
+      "plan": false,
+      "size": [
+        1280,
+        720
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/120761098/"
+    },
+    {
+      "key": "f08",
+      "usedUrl": "https://pwm.im-cdn.it/image/1712591610/xxl.jpg",
+      "caption": "Salone",
+      "plan": false,
+      "size": [
+        1423,
+        1050
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/120761098/"
+    },
+    {
+      "key": "f09",
+      "usedUrl": "https://pwm.im-cdn.it/image/1712591720/xxl.jpg",
+      "caption": "Interno non residenziale",
+      "plan": false,
+      "size": [
+        1423,
+        1050
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/120761098/"
+    },
+    {
+      "key": "f10",
+      "usedUrl": "https://pwm.im-cdn.it/image/1712591938/xxl.jpg",
+      "caption": "Camera da letto",
+      "plan": false,
+      "size": [
+        847,
+        1050
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/120761098/"
+    },
+    {
+      "key": "f11",
+      "usedUrl": "https://pwm.im-cdn.it/image/1712591770/xxl.jpg",
+      "caption": "Salone",
+      "plan": false,
+      "size": [
+        1423,
+        1050
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/120761098/"
+    },
+    {
+      "key": "f12",
+      "usedUrl": "https://pwm.im-cdn.it/image/1712591920/xxl.jpg",
+      "caption": "Camera da letto",
+      "plan": false,
+      "size": [
+        847,
+        1050
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/120761098/"
+    },
+    {
+      "key": "f13",
+      "usedUrl": "https://pwm.im-cdn.it/image/1712591948/xxl.jpg",
+      "caption": "Bagno",
+      "plan": false,
+      "size": [
+        847,
+        1050
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/120761098/"
+    },
+    {
+      "key": "f14",
+      "usedUrl": "https://pwm.im-cdn.it/image/1712591874/xxl.jpg",
+      "caption": "Camera da letto",
+      "plan": false,
+      "size": [
+        1423,
+        1050
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/120761098/"
+    },
+    {
+      "key": "f15",
+      "usedUrl": "https://pwm.im-cdn.it/image/1924341240/xxl.jpg",
+      "caption": "Facciata",
+      "plan": false,
+      "size": [
+        1600,
+        914
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/120761098/"
+    },
+    {
+      "key": "f16",
+      "usedUrl": "https://pwm.im-cdn.it/image/1743435088/xxl.jpg",
+      "caption": "Scala",
+      "plan": false,
+      "size": [
+        787,
+        1050
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/120761098/"
+    },
+    {
+      "key": "f17",
+      "usedUrl": "https://pwm.im-cdn.it/image/1743435448/xxl.jpg",
+      "caption": "Stanza non arredata",
+      "plan": false,
+      "size": [
+        787,
+        1050
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/120761098/"
+    },
+    {
+      "key": "f18",
+      "usedUrl": "https://pwm.im-cdn.it/image/1891882722/xxl.jpg",
+      "caption": "Interno non residenziale",
+      "plan": false,
+      "size": [
+        1152,
+        864
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/120761098/"
+    },
+    {
+      "key": "f19",
+      "usedUrl": "https://pwm.im-cdn.it/image/1891882708/xxl.jpg",
+      "caption": "Magazzino",
+      "plan": false,
+      "size": [
+        1152,
+        864
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/120761098/"
+    },
+    {
+      "key": "f20",
+      "usedUrl": "https://pwm.im-cdn.it/image/1712591780/xxl.jpg",
+      "caption": "Bagno",
+      "plan": false,
+      "size": [
+        847,
+        1050
+      ],
+      "pageUrl": "https://www.immobiliare.it/annunci/120761098/"
+    }
+  ],
+  "photoNotes": "Progetto arredato con divani crema, tavolo rotondo, letti chiari e travi a vista. Le posizioni principali sono disegnate sulle piante.",
+  "photoEvidence": {
+    "sofa": {
+      "id": "f06",
+      "color": "#e2d6bf"
+    },
+    "table": {
+      "id": "f06",
+      "color": "#b39274"
+    },
+    "chair": {
+      "id": "f06",
+      "color": "#bca68a"
+    },
+    "bed": {
+      "id": "f10",
+      "color": "#d8c9ae"
+    }
+  },
+  "representation": "Progetto o proposta di allestimento",
+  "saleNote": null,
+  "skillVersion": "1.2.0",
+  "views": [
+    {
+      "label": "Esterno",
+      "level": null
+    },
+    {
+      "label": "Soppalco",
+      "level": 2
+    },
+    {
+      "label": "Piano primo · soggiorno",
+      "level": 1
+    },
+    {
+      "label": "Piano terra · camere",
+      "level": 0
+    }
+  ]
 }

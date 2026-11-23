@@ -1,0 +1,48 @@
+{
+  "id": "salita-di-raute-mazzini-659",
+  "status": "ready",
+  "path": "modelli/salita-di-raute-mazzini-659.html",
+  "views": [
+    {
+      "id": "view-0",
+      "label": "Esterno, casa e dépendance"
+    },
+    {
+      "id": "view-1",
+      "label": "Prospetto dalla corte"
+    },
+    {
+      "id": "view-2",
+      "label": "Lato giardino"
+    }
+  ],
+  "coverage": "exterior_only",
+  "unrenderedVolumes": [
+    "Interni dei due piani della casa e della dépendance con angolo cottura, camere e bagni. La galleria pubblicata contiene fotografie prive di planimetria.",
+    "Posizione e forma della piscina, confine e dislivelli del giardino, area di sosta completa, pannelli fotovoltaici e parti dei fronti posteriori fuori inquadratura."
+  ],
+  "notes": [
+    "Il prospetto principale presenta intonaco chiaro, imposte scure e una pensilina davanti alla porta vetrata. Il corpo basso ha coppi e camino. Nelle foto interne si riconoscono il divano rosso, la cucina sotto le travi, due letti e la vasca angolare. La posizione dei vani rispetto all’esterno resta indeterminata."
+  ],
+  "verifiedAt": "2026-11-23T13:10:32+01:00",
+  "artifactSha256": "f09db70f2374ba819421c770bc7fe2ef2439cf29436cc228716c3a54fa66509c",
+  "sourcePlans": [],
+  "preview": "assets/salita-di-raute-mazzini-659.jpg",
+  "qa": {
+    "staticPassed": true,
+    "browserPassed": true,
+    "geometryPassed": true,
+    "orthographicPassed": null
+  },
+  "fidelity": {
+    "passed": true,
+    "basis": "Riesame visivo dei fronti fotografati e delle parti modellate."
+  },
+  "independentReview": {
+    "passed": true,
+    "artifactSha256": "f09db70f2374ba819421c770bc7fe2ef2439cf29436cc228716c3a54fa66509c",
+    "method": "Seconda lettura di fotografie, viste renderizzate e sovrapposizioni disponibili. Le misure e le parti omesse sono dichiarate nella scheda."
+  },
+  "evidenceIndex": "ricostruzioni/2026-11-23/index.html#salita-di-raute-mazzini-659",
+  "browserReport": "ricostruzioni/2026-11-23/verifiche/risultati.json"
+}

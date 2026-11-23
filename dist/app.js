@@ -181,6 +181,12 @@
       host.append(detailBlock('Prezzi registrati', rows));
     }
     const sources = el('section', 'detail-block source-links'); sources.append(el('h3', '', 'Annunci e fonti')); const ul = el('ul');
+    const collection = property.evidence?.reconstructionDate;
+    if (/^\d{4}-\d{2}-\d{2}$/.test(collection)) {
+      const item = el('li'), link = el('a', '', 'Confronta il modello con le foto e le planimetrie');
+      link.href = 'ricostruzioni/' + collection + '/index.html#' + encodeURIComponent(property.id);
+      item.append(link); ul.append(item);
+    }
     const urls = Array.isArray(property.sourceUrls) ? property.sourceUrls : [];
     urls.forEach(raw => {
       const url = sourceUrl(raw); if (!url) return;

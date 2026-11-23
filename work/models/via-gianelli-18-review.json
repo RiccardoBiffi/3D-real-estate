@@ -1,0 +1,66 @@
+{
+  "id": "via-gianelli-18",
+  "status": "ready",
+  "path": "modelli/via-gianelli-18.html",
+  "views": [
+    {
+      "label": "Fronte dal giardino",
+      "level": null,
+      "camera": {
+        "yaw": -0.42,
+        "pitch": 0.35,
+        "distance": 27,
+        "target": [
+          3.5,
+          4,
+          4
+        ]
+      }
+    },
+    {
+      "label": "Accessi posteriori",
+      "level": null,
+      "camera": {
+        "yaw": 2.6,
+        "pitch": 0.4,
+        "distance": 28,
+        "target": [
+          3.5,
+          4,
+          5
+        ]
+      }
+    }
+  ],
+  "notes": [
+    "Sono leggibili il basamento, le terrazze e le aperture dei fronti fotografati.",
+    "Involucro ricostruito dalle immagini. Le dimensioni e le profondità sono indicative."
+  ],
+  "verifiedAt": "2026-11-23T12:47:02+01:00",
+  "artifactSha256": "0971ceca0c5327fb2015d8657f8c05a0e9804c59d936e5f785c430288a357414",
+  "sourcePlans": [],
+  "unrenderedVolumes": [
+    "Tutti gli interni, inclusi quelli dell’altra unità della bifamiliare.",
+    "Facciate laterali non leggibili e rispettive aperture; confini del giardino e fabbricati vicini.",
+    "La sagoma è quella dell’edificio di contesto, non una delimitazione catastale della porzione in vendita."
+  ],
+  "coverage": "exterior_only",
+  "preview": "assets/via-gianelli-18.jpg",
+  "qa": {
+    "staticPassed": true,
+    "browserPassed": true,
+    "geometryPassed": true,
+    "orthographicPassed": null
+  },
+  "fidelity": {
+    "passed": true,
+    "basis": "Riesame visivo dei fronti fotografati e delle parti modellate."
+  },
+  "independentReview": {
+    "passed": true,
+    "artifactSha256": "0971ceca0c5327fb2015d8657f8c05a0e9804c59d936e5f785c430288a357414",
+    "method": "Seconda lettura di fotografie, viste renderizzate e sovrapposizioni disponibili. Le misure e le parti omesse sono dichiarate nella scheda."
+  },
+  "evidenceIndex": "ricostruzioni/2026-11-23/index.html#via-gianelli-18",
+  "browserReport": "ricostruzioni/2026-11-23/verifiche/risultati.json"
+}

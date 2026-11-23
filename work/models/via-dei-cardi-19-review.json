@@ -1,6 +1,64 @@
 {
-  "artifactId": "via-dei-cardi-19",
-  "artifactSha256": "3174dce9cab4d08842feacf57cd4929c58e39539f013e9c5866ace072b83c4d6",
+  "id": "via-dei-cardi-19",
+  "status": "ready",
+  "path": "modelli/via-dei-cardi-19.html",
+  "views": [
+    {
+      "id": "exterior",
+      "label": "Esterno",
+      "level": null
+    },
+    {
+      "id": "soffitta",
+      "label": "Soffitta",
+      "level": 3
+    },
+    {
+      "id": "primo",
+      "label": "Primo piano",
+      "level": 2
+    },
+    {
+      "id": "terra",
+      "label": "Piano terra",
+      "level": 1
+    },
+    {
+      "id": "interrato",
+      "label": "Piano interrato (box omesso)",
+      "level": 0
+    }
+  ],
+  "notes": [
+    "Divano rosso, cucina e mobili in legno, letto singolo con coperta chiara.",
+    "I contorni e le divisioni seguono le tavole indicate. Le misure assolute prive di quota, alcune aperture, le altezze e le dimensioni dei mobili sono stime."
+  ],
+  "verifiedAt": "2026-11-23T12:47:02+01:00",
+  "artifactSha256": "44d7956125489c4ad7302e142484763ef1d9383fc17e0ed495aad063982e4eed",
+  "sourcePlans": [
+    {
+      "label": "Tavola 1",
+      "url": "https://pic.im-cdn.it/plan/117726267/xxl.jpg"
+    },
+    {
+      "label": "Tavola 2",
+      "url": "https://pic.im-cdn.it/plan/117726305/xxl.jpg"
+    },
+    {
+      "label": "Tavola 3",
+      "url": "https://pic.im-cdn.it/plan/117726311/xxl.jpg"
+    },
+    {
+      "label": "Tavola 4",
+      "url": "https://pic.im-cdn.it/plan/117726317/xxl.jpg"
+    }
+  ],
+  "unrenderedVolumes": [
+    "Box auto dichiarato50m² Pianta del garage non identificata. AreaSUB.1 adiacente non attribuita al box venduto.",
+    "Porzione di riferimento PROPRIETÀ PRO-TEMPORE SUB.1 Area adiacente nella tavola interrato, senza destinazione o attribuzione al lotto venduto; interamente omessa."
+  ],
+  "coverage": "partial",
+  "preview": "assets/via-dei-cardi-19.jpg",
   "qa": {
     "staticPassed": true,
     "browserPassed": true,
@@ -9,10 +67,13 @@
   },
   "fidelity": {
     "passed": true,
-    "basis": "Approvazione precedente conservata; digest dell’artefatto immutato."
+    "basis": "Riesame visivo dei fronti fotografati e delle parti modellate."
   },
   "independentReview": {
     "passed": true,
-    "artifactSha256": "3174dce9cab4d08842feacf57cd4929c58e39539f013e9c5866ace072b83c4d6"
-  }
+    "artifactSha256": "44d7956125489c4ad7302e142484763ef1d9383fc17e0ed495aad063982e4eed",
+    "method": "Seconda lettura di fotografie, viste renderizzate e sovrapposizioni disponibili. Le misure e le parti omesse sono dichiarate nella scheda."
+  },
+  "evidenceIndex": "ricostruzioni/2026-11-23/index.html#via-dei-cardi-19",
+  "browserReport": "ricostruzioni/2026-11-23/verifiche/risultati.json"
 }

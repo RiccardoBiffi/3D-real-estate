@@ -1,0 +1,48 @@
+{
+  "id": "fontanella-villa-grezzo-129398656",
+  "status": "ready",
+  "path": "modelli/fontanella-villa-grezzo-129398656.html",
+  "views": [
+    {
+      "id": "view-0",
+      "label": "Facciata con terrazza e box"
+    },
+    {
+      "id": "view-1",
+      "label": "Porticato e scala esterna"
+    },
+    {
+      "id": "view-2",
+      "label": "Fronte sul giardino"
+    }
+  ],
+  "coverage": "exterior_only",
+  "unrenderedVolumes": [
+    "Distribuzione interna dei tre livelli, taverna, lavanderia, bagno, centrale termica e collegamenti verticali.",
+    "Interno del box, confini del terreno, porzione dell’unità adiacente e disegno verificato delle falde posteriori."
+  ],
+  "notes": [
+    "Le fotografie mostrano facciate grigio chiaro, serramenti bianchi, box aperto sul piazzale e una terrazza su pilastri con ringhiera metallica. Gli interni sono al grezzo, con massetto, pareti da finire e travi di legno nella mansarda. Le fotografie non mostrano arredi principali installati. Larghezze e profondità dei fronti, falde e quote della terrazza sono stimate dalle viste oblique."
+  ],
+  "verifiedAt": "2026-11-23T13:13:24+01:00",
+  "artifactSha256": "269b27296aefce4178bf026d923846463b8d4ab3e0401399853651b8f3cbdad0",
+  "sourcePlans": [],
+  "preview": "assets/fontanella-villa-grezzo-129398656.jpg",
+  "qa": {
+    "staticPassed": true,
+    "browserPassed": true,
+    "geometryPassed": true,
+    "orthographicPassed": null
+  },
+  "fidelity": {
+    "passed": true,
+    "basis": "Riesame visivo dei fronti fotografati e delle parti modellate."
+  },
+  "independentReview": {
+    "passed": true,
+    "artifactSha256": "269b27296aefce4178bf026d923846463b8d4ab3e0401399853651b8f3cbdad0",
+    "method": "Seconda lettura di fotografie, viste renderizzate e sovrapposizioni disponibili. Le misure e le parti omesse sono dichiarate nella scheda."
+  },
+  "evidenceIndex": "ricostruzioni/2026-11-23/index.html#fontanella-villa-grezzo-129398656",
+  "browserReport": "ricostruzioni/2026-11-23/verifiche/risultati.json"
+}

@@ -1,6 +1,46 @@
 {
-  "artifactId": "via-dei-salici-22-1",
-  "artifactSha256": "4703f6aaa509ea2b73e1f403dc23b7e5160f35c0510c6e485f84a1a3d41d02ed",
+  "id": "via-dei-salici-22-1",
+  "status": "ready",
+  "path": "modelli/via-dei-salici-22-1.html",
+  "views": [
+    {
+      "label": "Esterno",
+      "level": null
+    },
+    {
+      "label": "Sottotetto · mansarde e logge",
+      "level": 2
+    },
+    {
+      "label": "Piano terra",
+      "level": 1
+    },
+    {
+      "label": "Interrato · taverna",
+      "level": 0
+    }
+  ],
+  "notes": [
+    "Divano in tessuto grigio con motivi, tavolino in vetro, cucina in pino e coperta a colori.",
+    "I contorni e le divisioni seguono le tavole indicate. Le misure assolute prive di quota, alcune aperture, le altezze e le dimensioni dei mobili sono stime."
+  ],
+  "verifiedAt": "2026-11-23T12:47:02+01:00",
+  "artifactSha256": "be198a3991c588a2e9f21d49668e3e4a33c7393f3ada2fa1ba25e08fe7f79064",
+  "sourcePlans": [
+    {
+      "label": "plan",
+      "url": "https://pic.im-cdn.it/plan/132092656/xxl.jpg"
+    },
+    {
+      "label": "plan 1",
+      "url": "https://pic.im-cdn.it/plan/132092660/xxl.jpg"
+    }
+  ],
+  "unrenderedVolumes": [
+    "Prosecuzione del collegamento scala fra interrato e piano terra: la tavola inferiore ne rappresenta solo il tratto sotto la linea di taglio; collegamento non renderizzato."
+  ],
+  "coverage": "partial",
+  "preview": "assets/via-dei-salici-22-1.jpg",
   "qa": {
     "staticPassed": true,
     "browserPassed": true,
@@ -9,10 +49,13 @@
   },
   "fidelity": {
     "passed": true,
-    "basis": "Approvazione precedente conservata; digest dell’artefatto immutato."
+    "basis": "Riesame visivo dei fronti fotografati e delle parti modellate."
   },
   "independentReview": {
     "passed": true,
-    "artifactSha256": "4703f6aaa509ea2b73e1f403dc23b7e5160f35c0510c6e485f84a1a3d41d02ed"
-  }
+    "artifactSha256": "be198a3991c588a2e9f21d49668e3e4a33c7393f3ada2fa1ba25e08fe7f79064",
+    "method": "Seconda lettura di fotografie, viste renderizzate e sovrapposizioni disponibili. Le misure e le parti omesse sono dichiarate nella scheda."
+  },
+  "evidenceIndex": "ricostruzioni/2026-11-23/index.html#via-dei-salici-22-1",
+  "browserReport": "ricostruzioni/2026-11-23/verifiche/risultati.json"
 }

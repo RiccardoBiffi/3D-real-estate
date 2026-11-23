@@ -1,0 +1,57 @@
+{
+  "id": "via-delle-campanelle-252",
+  "status": "ready",
+  "path": "modelli/via-delle-campanelle-252.html",
+  "views": [
+    {
+      "id": "view-0",
+      "label": "Esterno in ristrutturazione"
+    },
+    {
+      "id": "view-1",
+      "label": "Primo piano di progetto"
+    },
+    {
+      "id": "view-2",
+      "label": "Piano terra di progetto"
+    }
+  ],
+  "coverage": "partial",
+  "unrenderedVolumes": [
+    "Dimensioni e confini del cortiletto, area di parcheggio, allacci e pertinenze oltre il muro verso le altre unità.",
+    "Distribuzione definitiva dei sanitari e delle finiture, posizione di eventuali arredi e dettaglio delle travature a cantiere concluso."
+  ],
+  "notes": [
+    "Le fotografie dell’inserzione aggiornata mostrano il cantiere, i travetti e le falde in legno, la facciata con serramenti verdi e il cortile. Gli ambienti fotografati sono privi di mobilio. Le tavole rappresentano la distribuzione prevista a lavori ultimati."
+  ],
+  "verifiedAt": "2026-11-23T13:10:30+01:00",
+  "artifactSha256": "573729dd714d91167adb791500b2e5169075db03599617e2b737beda134ede05",
+  "sourcePlans": [
+    {
+      "url": "https://pic.im-cdn.it/plan/136254742/xxl.jpg",
+      "label": "Progetto, piano terra"
+    },
+    {
+      "url": "https://pic.im-cdn.it/plan/136254758/xxl.jpg",
+      "label": "Progetto, primo piano"
+    }
+  ],
+  "preview": "assets/via-delle-campanelle-252.jpg",
+  "qa": {
+    "staticPassed": true,
+    "browserPassed": true,
+    "geometryPassed": true,
+    "orthographicPassed": true
+  },
+  "fidelity": {
+    "passed": true,
+    "basis": "Riesame visivo dei fronti fotografati e delle parti modellate."
+  },
+  "independentReview": {
+    "passed": true,
+    "artifactSha256": "573729dd714d91167adb791500b2e5169075db03599617e2b737beda134ede05",
+    "method": "Seconda lettura di fotografie, viste renderizzate e sovrapposizioni disponibili. Le misure e le parti omesse sono dichiarate nella scheda."
+  },
+  "evidenceIndex": "ricostruzioni/2026-11-23/index.html#via-delle-campanelle-252",
+  "browserReport": "ricostruzioni/2026-11-23/verifiche/risultati.json"
+}

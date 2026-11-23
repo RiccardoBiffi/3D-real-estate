@@ -1,6 +1,42 @@
 {
-  "artifactId": "sistiana-10",
-  "artifactSha256": "5b66af265d6015c3db325fc99dff0330d2a57018b76ae7108f576be2d6a812a0",
+  "id": "sistiana-10",
+  "status": "ready",
+  "path": "modelli/sistiana-10.html",
+  "views": [
+    {
+      "id": "exterior",
+      "label": "Esterno",
+      "level": null
+    },
+    {
+      "id": "primo",
+      "label": "Primo piano",
+      "level": 1
+    },
+    {
+      "id": "terra",
+      "label": "Piano terra",
+      "level": 0
+    }
+  ],
+  "notes": [
+    "Divano grigio-azzurro, tavolo in legno, cucina in pino e letto bianco.",
+    "I contorni e le divisioni seguono le tavole indicate. Le misure assolute prive di quota, alcune aperture, le altezze e le dimensioni dei mobili sono stime."
+  ],
+  "verifiedAt": "2026-11-23T12:47:02+01:00",
+  "artifactSha256": "414f0d54f64d91ac3afdc9d8d71daefb2d354cd30fb424ab84edda6660608c03",
+  "sourcePlans": [
+    {
+      "label": "PLN_233483521_1",
+      "url": "https://pic.im-cdn.it/plan/131048416/xxl.jpg"
+    }
+  ],
+  "unrenderedVolumes": [
+    "Soffitta uso deposito citata nell’annuncio: non distinta nella pianta catastale 2015, non renderizzata.",
+    "Porticato per posti auto e pertinenze esterne non delimitate dalla pianta 2015: sedime e ingombri non verificabili, non renderizzati."
+  ],
+  "coverage": "partial",
+  "preview": "assets/sistiana-10.jpg",
   "qa": {
     "staticPassed": true,
     "browserPassed": true,
@@ -9,10 +45,13 @@
   },
   "fidelity": {
     "passed": true,
-    "basis": "Approvazione precedente conservata; digest dell’artefatto immutato."
+    "basis": "Riesame visivo dei fronti fotografati e delle parti modellate."
   },
   "independentReview": {
     "passed": true,
-    "artifactSha256": "5b66af265d6015c3db325fc99dff0330d2a57018b76ae7108f576be2d6a812a0"
-  }
+    "artifactSha256": "414f0d54f64d91ac3afdc9d8d71daefb2d354cd30fb424ab84edda6660608c03",
+    "method": "Seconda lettura di fotografie, viste renderizzate e sovrapposizioni disponibili. Le misure e le parti omesse sono dichiarate nella scheda."
+  },
+  "evidenceIndex": "ricostruzioni/2026-11-23/index.html#sistiana-10",
+  "browserReport": "ricostruzioni/2026-11-23/verifiche/risultati.json"
 }

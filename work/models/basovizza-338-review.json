@@ -1,0 +1,66 @@
+{
+  "id": "basovizza-338",
+  "status": "ready",
+  "path": "modelli/basovizza-338.html",
+  "views": [
+    {
+      "label": "Esterno",
+      "level": null
+    },
+    {
+      "label": "Corpo principale · prima figura",
+      "level": 0
+    },
+    {
+      "label": "Corpo principale · seconda figura",
+      "level": 1
+    },
+    {
+      "label": "Deposito · tavola separata",
+      "level": 2
+    }
+  ],
+  "notes": [
+    "Frontali della cucina viola con piano chiaro, letto bianco e armadio in legno naturale.",
+    "I contorni e le divisioni seguono le tavole indicate. Le misure assolute prive di quota, alcune aperture, le altezze e le dimensioni dei mobili sono stime."
+  ],
+  "verifiedAt": "2026-11-23T12:47:02+01:00",
+  "artifactSha256": "7132a0a9b76cb2ba3beaaa6b7796c47ebc35a780f703bfc824f7af89e52f1049",
+  "sourcePlans": [
+    {
+      "label": "Planimetria",
+      "url": "https://img4.idealista.it/blur/WEB_DETAIL/0/id.pro.it.image.master/f3/b6/ca/682244288.jpg"
+    },
+    {
+      "label": "Planimetria",
+      "url": "https://img4.idealista.it/blur/WEB_DETAIL/0/id.pro.it.image.master/8b/57/27/682244289.jpg"
+    },
+    {
+      "label": "Attestato energetico",
+      "url": "https://img4.idealista.it/blur/WEB_DETAIL/0/id.pro.it.image.master/e1/9f/cb/682244895.jpg"
+    }
+  ],
+  "unrenderedVolumes": [
+    "Relazione spaziale fra le due figure abitative e il deposito nelle scansioni poco leggibili.",
+    "Piccolo corpo obliquo nella tavola abitativa e parti delle aperture illeggibili."
+  ],
+  "coverage": "partial",
+  "preview": "assets/basovizza-338.jpg",
+  "qa": {
+    "staticPassed": true,
+    "browserPassed": true,
+    "geometryPassed": true,
+    "orthographicPassed": true
+  },
+  "fidelity": {
+    "passed": true,
+    "basis": "Riesame visivo dei fronti fotografati e delle parti modellate."
+  },
+  "independentReview": {
+    "passed": true,
+    "artifactSha256": "7132a0a9b76cb2ba3beaaa6b7796c47ebc35a780f703bfc824f7af89e52f1049",
+    "method": "Seconda lettura di fotografie, viste renderizzate e sovrapposizioni disponibili. Le misure e le parti omesse sono dichiarate nella scheda."
+  },
+  "evidenceIndex": "ricostruzioni/2026-11-23/index.html#basovizza-338",
+  "browserReport": "ricostruzioni/2026-11-23/verifiche/risultati.json"
+}

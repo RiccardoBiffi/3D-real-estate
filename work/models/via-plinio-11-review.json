@@ -1,0 +1,58 @@
+{
+  "id": "via-plinio-11",
+  "status": "ready",
+  "path": "modelli/via-plinio-11.html",
+  "views": [
+    {
+      "id": "view-0",
+      "label": "Prospetto su strada, vista autonoma"
+    },
+    {
+      "id": "view-1",
+      "label": "Piano terra — vista autonoma, h 2,81 m"
+    },
+    {
+      "id": "view-2",
+      "label": "Primo piano — vista autonoma, h 2,76 m"
+    },
+    {
+      "id": "view-3",
+      "label": "Seminterrato — vista autonoma, h 2,25 m"
+    }
+  ],
+  "coverage": "partial",
+  "unrenderedVolumes": [
+    "Involucro tridimensionale completo, giardino complessivo, parti comuni e raccordo della scala tra i tre piani. Il prospetto su strada è mostrato in vista autonoma.",
+    "Soppalco citato nell’annuncio e attribuzione della terza camera. La pianta del primo piano distingue due stanze.",
+    "Arredi di sfondo senza posizione identificabile. La disposizione e le dimensioni degli arredi visibili sono indicative."
+  ],
+  "notes": [
+    "Il soggiorno riprende le sedute rosse, il camino, il mobile TV chiaro e il tavolo vicino alle finestre visibili da più angolazioni. La cucina è bianca, con mensole rosse. Al primo piano sono visibili letti e armadi in legno, mentre la cantina ha scaffali metallici. L’agenzia segnala immagini modificate con IA. Le versioni del soggiorno con gli arredi bianchi e della stanza stilizzata sono escluse dalla ricostruzione."
+  ],
+  "verifiedAt": "2026-11-23T13:07:37+01:00",
+  "artifactSha256": "60289b81132558c4a97e8b63a49e2b95cc8b43e18f9a006b4b319fb6a3184150",
+  "sourcePlans": [
+    {
+      "url": "https://pic.im-cdn.it/plan/136530782/xxl.jpg",
+      "label": "Planimetria_1-1 1"
+    }
+  ],
+  "preview": "assets/via-plinio-11.jpg",
+  "qa": {
+    "staticPassed": true,
+    "browserPassed": true,
+    "geometryPassed": true,
+    "orthographicPassed": true
+  },
+  "fidelity": {
+    "passed": true,
+    "basis": "Riesame visivo dei fronti fotografati e delle parti modellate."
+  },
+  "independentReview": {
+    "passed": true,
+    "artifactSha256": "60289b81132558c4a97e8b63a49e2b95cc8b43e18f9a006b4b319fb6a3184150",
+    "method": "Seconda lettura di fotografie, viste renderizzate e sovrapposizioni disponibili. Le misure e le parti omesse sono dichiarate nella scheda."
+  },
+  "evidenceIndex": "ricostruzioni/2026-11-23/index.html#via-plinio-11",
+  "browserReport": "ricostruzioni/2026-11-23/verifiche/risultati.json"
+}

@@ -1,0 +1,65 @@
+{
+  "id": "opicina-trifamiliare-via-basovizza",
+  "status": "ready",
+  "path": "modelli/opicina-trifamiliare-via-basovizza.html",
+  "views": [
+    {
+      "label": "Gruppo trifamiliare del progetto",
+      "level": null,
+      "camera": {
+        "yaw": -0.4,
+        "pitch": 0.45,
+        "distance": 38,
+        "target": [
+          9,
+          2.8,
+          3
+        ]
+      }
+    },
+    {
+      "label": "Coperture e verande di contesto",
+      "level": null,
+      "camera": {
+        "yaw": 0.65,
+        "pitch": 0.8,
+        "distance": 39,
+        "target": [
+          9,
+          2.8,
+          3
+        ]
+      }
+    }
+  ],
+  "notes": [
+    "Viste di progetto con volumi accostati, fronti grigi e vetrate con telaio scuro.",
+    "Involucro ricostruito dalle immagini. Le dimensioni e le profondità sono indicative."
+  ],
+  "verifiedAt": "2026-11-23T12:47:02+01:00",
+  "artifactSha256": "61b958d700048291aa1a17cee9074839f09a509d6bfc342d51ee2e7d633807d8",
+  "sourcePlans": [],
+  "unrenderedVolumes": [
+    "Distribuzione interna, parti posteriori non documentate e confini dei giardini.",
+    "Identificazione certa della singola unità oggetto di vendita all’interno delle tre rappresentate."
+  ],
+  "coverage": "exterior_only",
+  "preview": "assets/opicina-trifamiliare-via-basovizza.jpg",
+  "qa": {
+    "staticPassed": true,
+    "browserPassed": true,
+    "geometryPassed": true,
+    "orthographicPassed": null
+  },
+  "fidelity": {
+    "passed": true,
+    "basis": "Riesame visivo dei fronti fotografati e delle parti modellate."
+  },
+  "independentReview": {
+    "passed": true,
+    "artifactSha256": "61b958d700048291aa1a17cee9074839f09a509d6bfc342d51ee2e7d633807d8",
+    "method": "Seconda lettura di fotografie, viste renderizzate e sovrapposizioni disponibili. Le misure e le parti omesse sono dichiarate nella scheda."
+  },
+  "evidenceIndex": "ricostruzioni/2026-11-23/index.html#opicina-trifamiliare-via-basovizza",
+  "browserReport": "ricostruzioni/2026-11-23/verifiche/risultati.json"
+}

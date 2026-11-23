@@ -1,0 +1,77 @@
+{
+  "id": "puglie-di-domio-55075263",
+  "status": "ready",
+  "path": "modelli/puglie-di-domio-55075263.html",
+  "views": [
+    {
+      "id": "view-0",
+      "label": "Esterno e scala d’ingresso"
+    },
+    {
+      "id": "view-1",
+      "label": "Primo piano · abitazione"
+    },
+    {
+      "id": "view-2",
+      "label": "Piano terra · cantine e locale di sgombero"
+    },
+    {
+      "id": "view-3",
+      "label": "Corpo accessorio · tavola autonoma"
+    }
+  ],
+  "coverage": "partial",
+  "unrenderedVolumes": [
+    "Posizione del corpo accessorio rispetto alla casa e al giardino. Il suo tracciato è visibile nella vista autonoma.",
+    "Collocazione del bagno di servizio esterno rispetto al deposito, raccordi del cortile e confini dell’intero terreno."
+  ],
+  "notes": [
+    "Nella zona giorno le fotografie mostrano terrazzo alla veneziana scuro, divano viola, parete attrezzata in legno, tavolo e sedie e un cucinino con mobili in legno. Sono visibili una camera azzurra con letto matrimoniale e cassettiera, una stanza blu con armadi e un bagno con vasca. Negli spazi inferiori sono fotografati un divano grigio e un mobile TV su pavimento marrone. L’abbinamento delle due stanze da letto e degli arredi inferiori è dedotto da porte e finestre. La scala orizzontale usa come riferimento le due camere dichiarate da circa 18 m². Altezze, andamento delle falde e posizione del mobilio sono stime."
+  ],
+  "verifiedAt": "2026-11-23T13:13:24+01:00",
+  "artifactSha256": "bf605ff84c0b91680bff19ca94792f24ec7157bad5770025be542f82416e8e36",
+  "sourcePlans": [
+    {
+      "url": "https://images-1.casa.it/1600x1200-fit/listing/0/d3/0b/1f/851606431.jpg",
+      "label": "Primo piano, abitazione"
+    },
+    {
+      "url": "https://images-1.casa.it/1600x1200-fit/listing/0/67/19/30/851606443.jpg",
+      "label": "Piano terra, sgombero e cantine"
+    },
+    {
+      "url": "https://images-1.casa.it/1600x1200-fit/listing/0/97/bf/16/851606444.jpg",
+      "label": "Corpo accessorio, pianta separata"
+    },
+    {
+      "url": "https://images-1.casa.it/1600x1200-fit/listing/0/7f/0c/4d/851606429.jpg",
+      "label": "Vista dall’alto del modello commerciale"
+    },
+    {
+      "url": "https://images-1.casa.it/1600x1200-fit/listing/0/d6/09/91/851606430.jpg",
+      "label": "Vista prospettica del modello commerciale"
+    },
+    {
+      "url": "https://images-1.casa.it/1600x1200-fit/listing/0/91/34/c0/851606432.jpg",
+      "label": "Seconda immagine del primo piano"
+    }
+  ],
+  "preview": "assets/puglie-di-domio-55075263.jpg",
+  "qa": {
+    "staticPassed": true,
+    "browserPassed": true,
+    "geometryPassed": true,
+    "orthographicPassed": true
+  },
+  "fidelity": {
+    "passed": true,
+    "basis": "Riesame visivo dei fronti fotografati e delle parti modellate."
+  },
+  "independentReview": {
+    "passed": true,
+    "artifactSha256": "bf605ff84c0b91680bff19ca94792f24ec7157bad5770025be542f82416e8e36",
+    "method": "Seconda lettura di fotografie, viste renderizzate e sovrapposizioni disponibili. Le misure e le parti omesse sono dichiarate nella scheda."
+  },
+  "evidenceIndex": "ricostruzioni/2026-11-23/index.html#puglie-di-domio-55075263",
+  "browserReport": "ricostruzioni/2026-11-23/verifiche/risultati.json"
+}

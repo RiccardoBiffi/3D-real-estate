@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "checked": "2026-11-23T13:19:37.910512+01:00",
+  "devices": {
+    "desktop": true,
+    "touch": true
+  },
+  "models": 70,
+  "linksChecked": 759,
+  "errors": [],
+  "externalRequests": []
+}

@@ -1,0 +1,75 @@
+{
+  "id": "via-edgardo-morpurgo-1",
+  "status": "ready",
+  "path": "modelli/via-edgardo-morpurgo-1.html",
+  "views": [
+    {
+      "label": "Esterno",
+      "level": null
+    },
+    {
+      "label": "Unità di progetto lato sinistro · primo",
+      "level": 1
+    },
+    {
+      "label": "Unità di progetto lato sinistro · terra",
+      "level": 0
+    },
+    {
+      "label": "Unità di progetto lato sinistro · interrato",
+      "level": 2
+    }
+  ],
+  "notes": [
+    "Il render propone cucina scura, divano beige, tavolo chiaro e letto beige. Le due unità disegnate differiscono nell’interrato e nella numerazione dei vani.",
+    "I contorni e le divisioni seguono le tavole indicate. Le misure assolute prive di quota, alcune aperture, le altezze e le dimensioni dei mobili sono stime."
+  ],
+  "verifiedAt": "2026-11-23T12:47:02+01:00",
+  "artifactSha256": "b95c5e391a7cc312a77905458f19031b31f32ac0cf39091f8fd34ec8e4028d70",
+  "sourcePlans": [
+    {
+      "label": "Piano primo di progetto",
+      "url": "https://images-1.casa.it/1600x1200-fit/listing/0/77/a9/1f/849645430.jpg"
+    },
+    {
+      "label": "Tavola 2",
+      "url": "https://images-1.casa.it/1600x1200-fit/listing/0/41/f0/fa/849645442.jpg"
+    },
+    {
+      "label": "Seminterrato di progetto",
+      "url": "https://images-1.casa.it/1600x1200-fit/listing/0/a6/92/be/849645445.jpg"
+    },
+    {
+      "label": "Piano terra di progetto",
+      "url": "https://images-1.casa.it/1600x1200-fit/listing/0/2c/4c/7d/849645446.jpg"
+    },
+    {
+      "label": "Tavola 5",
+      "url": "https://images-1.casa.it/1600x1200-fit/listing/0/7f/ef/a7/849645455.jpg"
+    }
+  ],
+  "unrenderedVolumes": [
+    "Unità destra e sue pertinenze. Le planimetrie rappresentano due ville e il riferimento commerciale non identifica il lato.",
+    "Posizionamento del garage interrato rispetto al corpo fuori terra e tratto curvo della rampa.",
+    "Rampe o tratti di scala senza raccordo verticale verificabile tra le tavole."
+  ],
+  "coverage": "partial",
+  "preview": "assets/via-edgardo-morpurgo-1.jpg",
+  "qa": {
+    "staticPassed": true,
+    "browserPassed": true,
+    "geometryPassed": true,
+    "orthographicPassed": true
+  },
+  "fidelity": {
+    "passed": true,
+    "basis": "Riesame visivo dei fronti fotografati e delle parti modellate."
+  },
+  "independentReview": {
+    "passed": true,
+    "artifactSha256": "b95c5e391a7cc312a77905458f19031b31f32ac0cf39091f8fd34ec8e4028d70",
+    "method": "Seconda lettura di fotografie, viste renderizzate e sovrapposizioni disponibili. Le misure e le parti omesse sono dichiarate nella scheda."
+  },
+  "evidenceIndex": "ricostruzioni/2026-11-23/index.html#via-edgardo-morpurgo-1",
+  "browserReport": "ricostruzioni/2026-11-23/verifiche/risultati.json"
+}

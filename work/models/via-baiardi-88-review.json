@@ -1,0 +1,58 @@
+{
+  "id": "via-baiardi-88",
+  "status": "ready",
+  "path": "modelli/via-baiardi-88.html",
+  "views": [
+    {
+      "id": "view-0",
+      "label": "Esterno"
+    },
+    {
+      "id": "view-1",
+      "label": "Piano secondo · camere e ballatoio"
+    },
+    {
+      "id": "view-2",
+      "label": "Piano primo · cucina, soggiorno e camera"
+    },
+    {
+      "id": "view-3",
+      "label": "Piano terra · cantine e passaggio"
+    }
+  ],
+  "coverage": "partial",
+  "unrenderedVolumes": [
+    "Fabbricato accessorio e lastrico dei subalterni B e C disegnati nella riga inferiore. La tavola non ne colloca univocamente la posizione rispetto alla casa.",
+    "Confine e pendenza del terreno di 2.300 m², pastino per due auto e collegamento fra il terreno e la casa degli attrezzi.",
+    "Tratti di scala e passaggi coperti dal ballatoio e dai muri di sostegno. L’andamento completo dei raccordi verticali è indeterminato."
+  ],
+  "notes": [
+    "Le tre figure superiori della tavola catastale mostrano i livelli della casa. Le fotografie confermano il passaggio ad arco, le cantine, la cucina chiara con tavolo, il mobile a parete e il tavolo del soggiorno, i letti con testiere in legno e la seduta ocra. Sono visibili le campate metalliche del ballatoio e l’attrezzatura della taverna. Ingombri e colori del mobilio sono approssimati dalle fotografie. Le altezze annotate delle stanze sono mantenute come riferimento per gli interpiani."
+  ],
+  "verifiedAt": "2026-11-23T13:12:48+01:00",
+  "artifactSha256": "093bff5d06bbbc2b6cc08128718c3eff941db1356ae8254a3654db795817a694",
+  "sourcePlans": [
+    {
+      "url": "https://pic.im-cdn.it/plan/136813981/xxl.jpg",
+      "label": "Tavola catastale con casa, cortile e subalterni accessori distinti"
+    }
+  ],
+  "preview": "assets/via-baiardi-88.jpg",
+  "qa": {
+    "staticPassed": true,
+    "browserPassed": true,
+    "geometryPassed": true,
+    "orthographicPassed": true
+  },
+  "fidelity": {
+    "passed": true,
+    "basis": "Riesame visivo dei fronti fotografati e delle parti modellate."
+  },
+  "independentReview": {
+    "passed": true,
+    "artifactSha256": "093bff5d06bbbc2b6cc08128718c3eff941db1356ae8254a3654db795817a694",
+    "method": "Seconda lettura di fotografie, viste renderizzate e sovrapposizioni disponibili. Le misure e le parti omesse sono dichiarate nella scheda."
+  },
+  "evidenceIndex": "ricostruzioni/2026-11-23/index.html#via-baiardi-88",
+  "browserReport": "ricostruzioni/2026-11-23/verifiche/risultati.json"
+}

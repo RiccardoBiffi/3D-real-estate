@@ -1,6 +1,38 @@
 {
-  "artifactId": "fontanella-10-4",
-  "artifactSha256": "7686ba76775ab53c094f39633d94c61bb3d32e841cbd88f1cc0fcfaf6b1787c2",
+  "id": "fontanella-10-4",
+  "status": "ready",
+  "path": "modelli/fontanella-10-4.html",
+  "views": [
+    {
+      "id": "exterior",
+      "label": "Volume abitativo senza copertura",
+      "level": null
+    },
+    {
+      "id": "abitativo",
+      "label": "Piano abitativo e terrazzi",
+      "level": 0
+    }
+  ],
+  "notes": [
+    "Poltrone in vimini e tavolino nel soggiorno, tavolo da pranzo, cucina bianca ad angolo e due letti singoli con coperte a quadri.",
+    "I contorni e le divisioni seguono le tavole indicate. Le misure assolute prive di quota, alcune aperture, le altezze e le dimensioni dei mobili sono stime."
+  ],
+  "verifiedAt": "2026-11-23T12:47:02+01:00",
+  "artifactSha256": "e521b1d6f2ea612bbc92a14c404738d2b752459e4963575793dc49569a374c00",
+  "sourcePlans": [
+    {
+      "label": "Localit Fontanella 10 4 - Floor 1",
+      "url": "https://pic.im-cdn.it/plan/114310886/xxl.jpg"
+    }
+  ],
+  "unrenderedVolumes": [
+    "Piano seminterrato: cantina finestrata carrabile, spazi accessori e vano tecnico citati nell’annuncio; pianta non disponibile.",
+    "Box/posti auto coperti, accessi carrabili e collegamenti esterni: ingombri e quote non documentati dalla pianta abitativa.",
+    "Giardino e copertura, senza delimitazione in pianta."
+  ],
+  "coverage": "partial",
+  "preview": "assets/fontanella-10-4.jpg",
   "qa": {
     "staticPassed": true,
     "browserPassed": true,
@@ -9,10 +41,13 @@
   },
   "fidelity": {
     "passed": true,
-    "basis": "Approvazione precedente conservata; digest dell’artefatto immutato."
+    "basis": "Riesame visivo dei fronti fotografati e delle parti modellate."
   },
   "independentReview": {
     "passed": true,
-    "artifactSha256": "7686ba76775ab53c094f39633d94c61bb3d32e841cbd88f1cc0fcfaf6b1787c2"
-  }
+    "artifactSha256": "e521b1d6f2ea612bbc92a14c404738d2b752459e4963575793dc49569a374c00",
+    "method": "Seconda lettura di fotografie, viste renderizzate e sovrapposizioni disponibili. Le misure e le parti omesse sono dichiarate nella scheda."
+  },
+  "evidenceIndex": "ricostruzioni/2026-11-23/index.html#fontanella-10-4",
+  "browserReport": "ricostruzioni/2026-11-23/verifiche/risultati.json"
 }

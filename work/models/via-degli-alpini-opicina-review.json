@@ -1,0 +1,66 @@
+{
+  "id": "via-degli-alpini-opicina",
+  "status": "ready",
+  "path": "modelli/via-degli-alpini-opicina.html",
+  "views": [
+    {
+      "label": "Fronte d’ingresso documentato",
+      "level": null,
+      "camera": {
+        "yaw": -0.3,
+        "pitch": 0.3,
+        "distance": 21,
+        "target": [
+          4.6,
+          2.4,
+          0
+        ]
+      }
+    },
+    {
+      "label": "Portico e balcone",
+      "level": null,
+      "camera": {
+        "yaw": -0.8,
+        "pitch": 0.4,
+        "distance": 22,
+        "target": [
+          4.6,
+          2.4,
+          0
+        ]
+      }
+    }
+  ],
+  "notes": [
+    "La galleria documenta il fronte chiaro, il cancello d’ingresso, il portico e il piano con balcone.",
+    "Involucro ricostruito dalle immagini. Le dimensioni e le profondità sono indicative."
+  ],
+  "verifiedAt": "2026-11-23T12:47:02+01:00",
+  "artifactSha256": "fb928afae93cbeee266484f2ff4f8a410fe58c5d3a828a586d02a7e29dd28802",
+  "sourcePlans": [],
+  "unrenderedVolumes": [
+    "Interni, retro dell’edificio e copertura non leggibile dalle fotografie.",
+    "Mansarda e altri volumi oltre il fronte fotografato.",
+    "Confini e superficie del giardino; edifici accostati o vicini."
+  ],
+  "coverage": "exterior_only",
+  "preview": "assets/via-degli-alpini-opicina.jpg",
+  "qa": {
+    "staticPassed": true,
+    "browserPassed": true,
+    "geometryPassed": true,
+    "orthographicPassed": null
+  },
+  "fidelity": {
+    "passed": true,
+    "basis": "Riesame visivo dei fronti fotografati e delle parti modellate."
+  },
+  "independentReview": {
+    "passed": true,
+    "artifactSha256": "fb928afae93cbeee266484f2ff4f8a410fe58c5d3a828a586d02a7e29dd28802",
+    "method": "Seconda lettura di fotografie, viste renderizzate e sovrapposizioni disponibili. Le misure e le parti omesse sono dichiarate nella scheda."
+  },
+  "evidenceIndex": "ricostruzioni/2026-11-23/index.html#via-degli-alpini-opicina",
+  "browserReport": "ricostruzioni/2026-11-23/verifiche/risultati.json"
+}

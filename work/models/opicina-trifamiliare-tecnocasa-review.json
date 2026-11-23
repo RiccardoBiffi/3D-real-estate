@@ -1,6 +1,64 @@
 {
-  "artifactId": "opicina-trifamiliare-tecnocasa",
-  "artifactSha256": "afa52a71a07fb7dbd6cf7915cc4868ab4aefd9302df1ba2a588dbb83ecbe9fda",
+  "id": "opicina-trifamiliare-tecnocasa",
+  "status": "ready",
+  "path": "modelli/opicina-trifamiliare-tecnocasa.html",
+  "views": [
+    {
+      "label": "Esterno",
+      "level": null
+    },
+    {
+      "label": "Piano primo mansardato",
+      "level": 2
+    },
+    {
+      "label": "Piano terra",
+      "level": 1
+    },
+    {
+      "label": "Piano seminterrato",
+      "level": 0
+    }
+  ],
+  "notes": [
+    "Divano arancio, cucina in legno con piano scuro e letto in legno ciliegio.",
+    "I contorni e le divisioni seguono le tavole indicate. Le misure assolute prive di quota, alcune aperture, le altezze e le dimensioni dei mobili sono stime."
+  ],
+  "verifiedAt": "2026-11-23T12:47:02+01:00",
+  "artifactSha256": "82bb0d5ce32fd1ab370328e22f40375f8cfb91edff8533b1301125413dac60eb",
+  "sourcePlans": [
+    {
+      "label": "Tavola 1",
+      "url": "https://cdn-media.medialabtc.it/it/agencies/tscn7/estates/61227908/blueprints/284347049/gallery.jpeg"
+    },
+    {
+      "label": "Tavola 2",
+      "url": "https://cdn-media.medialabtc.it/it/agencies/tscn7/estates/61227908/blueprints/284347054/gallery.jpeg"
+    },
+    {
+      "label": "Tavola 3",
+      "url": "https://cdn-media.medialabtc.it/it/agencies/tscn7/estates/61227908/blueprints/284347094/gallery.jpeg"
+    },
+    {
+      "label": "Tavola 4",
+      "url": "https://cdn-media.medialabtc.it/it/agencies/tscn7/estates/61227908/blueprints/284347103/gallery.jpeg"
+    },
+    {
+      "label": "Tavola 5",
+      "url": "https://cdn-media.medialabtc.it/it/agencies/tscn7/estates/61227908/blueprints/284347479/gallery.jpeg"
+    }
+  ],
+  "unrenderedVolumes": [
+    "Rampe e raccordo verticale della scala interna: i tre disegni non consentono un allineamento certo di rampe e pianerottoli; restano soltanto i vani scala documentati.",
+    "Parti comuni e altri due alloggi della trifamiliare non compresi nella vendita: non ricostruiti.",
+    "Area parcheggio scoperta e cortile comune: planimetria separata senza raccordo altimetrico certo alla casa; omessi.",
+    "Scale esterne tra cortile e parcheggio: raccordo altimetrico non quotato; omesse, senza collegamento fittizio."
+  ],
+  "coverage": "partial",
+  "preview": "assets/opicina-trifamiliare-tecnocasa.jpg",
+  "previewAliases": [
+    "assets/opicina-trifamiliare-tecnocasa-preview.jpg"
+  ],
   "qa": {
     "staticPassed": true,
     "browserPassed": true,
@@ -9,10 +67,13 @@
   },
   "fidelity": {
     "passed": true,
-    "basis": "Approvazione precedente conservata; digest dell’artefatto immutato."
+    "basis": "Riesame visivo dei fronti fotografati e delle parti modellate."
   },
   "independentReview": {
     "passed": true,
-    "artifactSha256": "afa52a71a07fb7dbd6cf7915cc4868ab4aefd9302df1ba2a588dbb83ecbe9fda"
-  }
+    "artifactSha256": "82bb0d5ce32fd1ab370328e22f40375f8cfb91edff8533b1301125413dac60eb",
+    "method": "Seconda lettura di fotografie, viste renderizzate e sovrapposizioni disponibili. Le misure e le parti omesse sono dichiarate nella scheda."
+  },
+  "evidenceIndex": "ricostruzioni/2026-11-23/index.html#opicina-trifamiliare-tecnocasa",
+  "browserReport": "ricostruzioni/2026-11-23/verifiche/risultati.json"
 }

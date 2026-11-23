@@ -1,0 +1,52 @@
+{
+  "id": "via-marco-valerio-marziale-15-2",
+  "status": "ready",
+  "path": "modelli/via-marco-valerio-marziale-15-2.html",
+  "views": [
+    {
+      "label": "Esterno · primo fronte",
+      "level": null,
+      "camera": {
+        "yaw": 0.73,
+        "pitch": 0.48
+      }
+    },
+    {
+      "label": "Esterno · fronte opposto",
+      "level": null,
+      "camera": {
+        "yaw": -2.38,
+        "pitch": 0.54
+      }
+    }
+  ],
+  "notes": [
+    "Fronti chiari con scuri scuri, terrazzo e portone del garage. All’interno si distinguono cucina blu, divani bruni e tavolo da pranzo lungo.",
+    "Involucro ricostruito dalle immagini. Le dimensioni e le profondità sono indicative."
+  ],
+  "verifiedAt": "2026-11-23T12:47:02+01:00",
+  "artifactSha256": "d93b3f0c10d3f5656fbb5ed33dcb94db1fdc630f05609236ce923bb3806838ff",
+  "sourcePlans": [],
+  "unrenderedVolumes": [
+    "Distribuzione interna, mansarda, box doppio e confini del giardino."
+  ],
+  "coverage": "exterior_only",
+  "preview": "assets/via-marco-valerio-marziale-15-2.jpg",
+  "qa": {
+    "staticPassed": true,
+    "browserPassed": true,
+    "geometryPassed": true,
+    "orthographicPassed": null
+  },
+  "fidelity": {
+    "passed": true,
+    "basis": "Riesame visivo dei fronti fotografati e delle parti modellate."
+  },
+  "independentReview": {
+    "passed": true,
+    "artifactSha256": "d93b3f0c10d3f5656fbb5ed33dcb94db1fdc630f05609236ce923bb3806838ff",
+    "method": "Seconda lettura di fotografie, viste renderizzate e sovrapposizioni disponibili. Le misure e le parti omesse sono dichiarate nella scheda."
+  },
+  "evidenceIndex": "ricostruzioni/2026-11-23/index.html#via-marco-valerio-marziale-15-2",
+  "browserReport": "ricostruzioni/2026-11-23/verifiche/risultati.json"
+}

@@ -1,0 +1,58 @@
+{
+  "id": "via-dei-mulini-44",
+  "status": "ready",
+  "path": "modelli/via-dei-mulini-44.html",
+  "views": [
+    {
+      "label": "Esterno",
+      "level": null
+    },
+    {
+      "label": "Primo piano",
+      "level": 1
+    },
+    {
+      "label": "Piano terra",
+      "level": 0
+    },
+    {
+      "label": "Cantine",
+      "level": 2
+    }
+  ],
+  "notes": [
+    "Mobili alti in noce, tavolo scuro, divano con telo rosso presso il camino.",
+    "I contorni e le divisioni seguono le tavole indicate. Le misure assolute prive di quota, alcune aperture, le altezze e le dimensioni dei mobili sono stime."
+  ],
+  "verifiedAt": "2026-11-23T12:47:02+01:00",
+  "artifactSha256": "83cfa19c0deb49e88d6fb56f0cd48c55b66445cb2381dceed9383ebe87f603d4",
+  "sourcePlans": [
+    {
+      "label": "Tavola 1",
+      "url": "https://www.tirabora.it/admin/uploads/planimetrie/2084197561.pdf"
+    }
+  ],
+  "unrenderedVolumes": [
+    "Garage e pertinenze senza pianta, rapporto fra cantine e casa, meccanica dell’ascensore.",
+    "Rampe o tratti di scala senza raccordo verticale verificabile tra le tavole."
+  ],
+  "coverage": "partial",
+  "preview": "assets/via-dei-mulini-44.jpg",
+  "qa": {
+    "staticPassed": true,
+    "browserPassed": true,
+    "geometryPassed": true,
+    "orthographicPassed": true
+  },
+  "fidelity": {
+    "passed": true,
+    "basis": "Riesame visivo dei fronti fotografati e delle parti modellate."
+  },
+  "independentReview": {
+    "passed": true,
+    "artifactSha256": "83cfa19c0deb49e88d6fb56f0cd48c55b66445cb2381dceed9383ebe87f603d4",
+    "method": "Seconda lettura di fotografie, viste renderizzate e sovrapposizioni disponibili. Le misure e le parti omesse sono dichiarate nella scheda."
+  },
+  "evidenceIndex": "ricostruzioni/2026-11-23/index.html#via-dei-mulini-44",
+  "browserReport": "ricostruzioni/2026-11-23/verifiche/risultati.json"
+}

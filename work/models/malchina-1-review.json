@@ -1,6 +1,43 @@
 {
-  "artifactId": "malchina-1",
-  "artifactSha256": "4b04d8f37ff3da7faed7bf3c0836d3c46e5bdcef3a20af7f3355b3a3ba6860a4",
+  "id": "malchina-1",
+  "status": "ready",
+  "path": "modelli/malchina-1.html",
+  "views": [
+    {
+      "id": "view-0",
+      "label": "Esterno e portico"
+    },
+    {
+      "id": "view-1",
+      "label": "Primo piano · abitazione e veranda"
+    },
+    {
+      "id": "view-2",
+      "label": "Piano terra · ristorante C/1"
+    }
+  ],
+  "coverage": "partial",
+  "unrenderedVolumes": [
+    "Scala di collegamento tra i livelli. Il tracciato delle due tavole catastali del 1986 differisce dalla scala in legno visibile oggi; il foro di piano è indicato.",
+    "Interni del locale di accesso e della cantina a servizio dell’alloggio, oltre ai corpi inferiori esterni alla tavola del ristorante.",
+    "Garage e pertinenze isolate senza una pianta riconoscibile. Gradini e trasformazioni recenti della veranda con geometria incerta."
+  ],
+  "notes": [
+    "Nel ristorante si riconoscono tavoli e sedie in legno, cucina di servizio in acciaio e arredi chiari sotto il portico. Al primo piano si vedono sedute imbottite attorno al tappeto bordeaux, armadi in legno, letto con copriletto chiaro e letto con tessili rossi. Gli arredi principali approssimano queste fotografie. Gli usi attuali di alcune stanze differiscono dalla pianta catastale del 1986."
+  ],
+  "verifiedAt": "2026-11-23T13:14:09+01:00",
+  "artifactSha256": "a60721f6036c6ec02617521609d6f3259f1abd32ff61b74775b5c9f03764ebbe",
+  "sourcePlans": [
+    {
+      "url": "https://images-1.casa.it/1600x1200-fit/listing/0/10/42/d6/856863407.jpg",
+      "label": "Catasto 1986 · piano terra, ristorante C/1"
+    },
+    {
+      "url": "https://images-1.casa.it/1600x1200-fit/listing/0/ce/b1/36/856863408.jpg",
+      "label": "Catasto 1986 · primo piano, abitazione"
+    }
+  ],
+  "preview": "assets/malchina-1.jpg",
   "qa": {
     "staticPassed": true,
     "browserPassed": true,
@@ -9,10 +46,13 @@
   },
   "fidelity": {
     "passed": true,
-    "basis": "Approvazione precedente conservata; digest dell’artefatto immutato."
+    "basis": "Riesame visivo dei fronti fotografati e delle parti modellate."
   },
   "independentReview": {
     "passed": true,
-    "artifactSha256": "4b04d8f37ff3da7faed7bf3c0836d3c46e5bdcef3a20af7f3355b3a3ba6860a4"
-  }
+    "artifactSha256": "a60721f6036c6ec02617521609d6f3259f1abd32ff61b74775b5c9f03764ebbe",
+    "method": "Seconda lettura di fotografie, viste renderizzate e sovrapposizioni disponibili. Le misure e le parti omesse sono dichiarate nella scheda."
+  },
+  "evidenceIndex": "ricostruzioni/2026-11-23/index.html#malchina-1",
+  "browserReport": "ricostruzioni/2026-11-23/verifiche/risultati.json"
 }

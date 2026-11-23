@@ -1,0 +1,66 @@
+{
+  "id": "via-dei-calderai-15",
+  "status": "ready",
+  "path": "modelli/via-dei-calderai-15.html",
+  "views": [
+    {
+      "label": "Esterno",
+      "level": null
+    },
+    {
+      "label": "Secondo piano",
+      "level": 3
+    },
+    {
+      "label": "Primo piano",
+      "level": 2
+    },
+    {
+      "label": "Piano terra",
+      "level": 1
+    },
+    {
+      "label": "Piano interrato",
+      "level": 0
+    }
+  ],
+  "notes": [
+    "Tavolo e armadi alti in legno, letto con coperta chiara e divano grigio-crema.",
+    "I contorni e le divisioni seguono le tavole indicate. Le misure assolute prive di quota, alcune aperture, le altezze e le dimensioni dei mobili sono stime."
+  ],
+  "verifiedAt": "2026-11-23T12:47:02+01:00",
+  "artifactSha256": "0a0954c8e23fc7b45a9674ab10db50c4664f022f52759cdcba7f355814436862",
+  "sourcePlans": [
+    {
+      "label": "Planimetria",
+      "url": "https://img4.idealista.it/blur/WEB_DETAIL/0/id.pro.it.image.master/d8/b6/dc/815268130.jpg"
+    },
+    {
+      "label": "Planimetria",
+      "url": "https://img4.idealista.it/blur/WEB_DETAIL/0/id.pro.it.image.master/a6/12/27/815268131.jpg"
+    }
+  ],
+  "unrenderedVolumes": [
+    "Ringhiere di terrazza e poggiolo e posizione delle pertinenze distaccate.",
+    "Rampe o tratti di scala senza raccordo verticale verificabile tra le tavole."
+  ],
+  "coverage": "partial",
+  "preview": "assets/via-dei-calderai-15.jpg",
+  "qa": {
+    "staticPassed": true,
+    "browserPassed": true,
+    "geometryPassed": true,
+    "orthographicPassed": true
+  },
+  "fidelity": {
+    "passed": true,
+    "basis": "Riesame visivo dei fronti fotografati e delle parti modellate."
+  },
+  "independentReview": {
+    "passed": true,
+    "artifactSha256": "0a0954c8e23fc7b45a9674ab10db50c4664f022f52759cdcba7f355814436862",
+    "method": "Seconda lettura di fotografie, viste renderizzate e sovrapposizioni disponibili. Le misure e le parti omesse sono dichiarate nella scheda."
+  },
+  "evidenceIndex": "ricostruzioni/2026-11-23/index.html#via-dei-calderai-15",
+  "browserReport": "ricostruzioni/2026-11-23/verifiche/risultati.json"
+}

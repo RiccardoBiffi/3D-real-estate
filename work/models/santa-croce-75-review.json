@@ -1,0 +1,66 @@
+{
+  "id": "santa-croce-75",
+  "status": "ready",
+  "path": "modelli/santa-croce-75.html",
+  "views": [
+    {
+      "label": "Esterno",
+      "level": null
+    },
+    {
+      "label": "Soppalco",
+      "level": 2
+    },
+    {
+      "label": "Piano primo · soggiorno",
+      "level": 1
+    },
+    {
+      "label": "Piano terra · camere",
+      "level": 0
+    }
+  ],
+  "notes": [
+    "Progetto arredato con divani crema, tavolo rotondo, letti chiari e travi a vista. Le posizioni principali sono disegnate sulle piante.",
+    "I contorni e le divisioni seguono le tavole indicate. Le misure assolute prive di quota, alcune aperture, le altezze e le dimensioni dei mobili sono stime."
+  ],
+  "verifiedAt": "2026-11-23T12:47:02+01:00",
+  "artifactSha256": "7c264460c23268d49bfc6ede2e5a7b0e628f52a3cfd1060d05799a40b6ca3da6",
+  "sourcePlans": [
+    {
+      "label": "planimetria piano T",
+      "url": "https://pic.im-cdn.it/plan/114260696/xxl.jpg"
+    },
+    {
+      "label": "planimetria soppalco",
+      "url": "https://pic.im-cdn.it/plan/114260688/xxl.jpg"
+    },
+    {
+      "label": "planimetria piano 1",
+      "url": "https://pic.im-cdn.it/plan/114260694/xxl.jpg"
+    }
+  ],
+  "unrenderedVolumes": [
+    "Parti accessorie esterne e altezza verificata del soppalco.",
+    "Rampe o tratti di scala senza raccordo verticale verificabile tra le tavole."
+  ],
+  "coverage": "partial",
+  "preview": "assets/santa-croce-75.jpg",
+  "qa": {
+    "staticPassed": true,
+    "browserPassed": true,
+    "geometryPassed": true,
+    "orthographicPassed": true
+  },
+  "fidelity": {
+    "passed": true,
+    "basis": "Riesame visivo dei fronti fotografati e delle parti modellate."
+  },
+  "independentReview": {
+    "passed": true,
+    "artifactSha256": "7c264460c23268d49bfc6ede2e5a7b0e628f52a3cfd1060d05799a40b6ca3da6",
+    "method": "Seconda lettura di fotografie, viste renderizzate e sovrapposizioni disponibili. Le misure e le parti omesse sono dichiarate nella scheda."
+  },
+  "evidenceIndex": "ricostruzioni/2026-11-23/index.html#santa-croce-75",
+  "browserReport": "ricostruzioni/2026-11-23/verifiche/risultati.json"
+}

@@ -1,0 +1,62 @@
+{
+  "id": "via-di-santa-barbara-parco",
+  "status": "ready",
+  "path": "modelli/via-di-santa-barbara-parco.html",
+  "views": [
+    {
+      "id": "exterior",
+      "label": "Esterno e portico"
+    },
+    {
+      "id": "piano-terra",
+      "label": "Piano terra · abitazione e portico"
+    },
+    {
+      "id": "interrato",
+      "label": "Interrato · cantine, doccia e centrale termica"
+    },
+    {
+      "id": "garage",
+      "label": "Autorimessa · tavola autonoma"
+    }
+  ],
+  "coverage": "partial",
+  "unrenderedVolumes": [
+    "Collocazione tridimensionale del garage rispetto al corpo principale e tratto di collegamento. Il box è navigabile su una vista autonoma.",
+    "Volume dell’unità confinante indicata come altra u.i.u., impianti interni della centrale termica e laghetti del parco.",
+    "Parti lontane del giardino e dislivelli oltre il tratto di portico e scala rileggibile in pianta."
+  ],
+  "notes": [
+    "Gli ambienti in fotografia sono in gran parte vuoti. Il modello comprende la cucina in muratura con ante in legno, il camino del salone, il doppio lavabo del bagno e, nella cantina, il secondo camino e il lato cottura. Le tavole riportano altezze di 2,70 m, 2,78 m e 2,70 m rispettivamente per abitazione, interrato accessorio e box. Le misure orizzontali e la posizione degli elementi di arredo sono stimate."
+  ],
+  "verifiedAt": "2026-11-23T13:09:43+01:00",
+  "artifactSha256": "3f7f87ce1d733ca8aae00e594721d71527f532d2b8679de5dd0b3babf362142c",
+  "sourcePlans": [
+    {
+      "url": "https://img4.idealista.it/blur/HOME_WI_1500/0/id.pro.it.image.master/65/d1/31/859000918.jpg",
+      "label": "Catasto · piano terra, interrato e parco"
+    },
+    {
+      "url": "https://images-1.casa.it/1600x1200-fit/listing/0/c8/9c/bf/859001709.jpg",
+      "label": "Catasto · autorimessa interrata"
+    }
+  ],
+  "preview": "assets/via-di-santa-barbara-parco.jpg",
+  "qa": {
+    "staticPassed": true,
+    "browserPassed": true,
+    "geometryPassed": true,
+    "orthographicPassed": true
+  },
+  "fidelity": {
+    "passed": true,
+    "basis": "Riesame visivo dei fronti fotografati e delle parti modellate."
+  },
+  "independentReview": {
+    "passed": true,
+    "artifactSha256": "3f7f87ce1d733ca8aae00e594721d71527f532d2b8679de5dd0b3babf362142c",
+    "method": "Seconda lettura di fotografie, viste renderizzate e sovrapposizioni disponibili. Le misure e le parti omesse sono dichiarate nella scheda."
+  },
+  "evidenceIndex": "ricostruzioni/2026-11-23/index.html#via-di-santa-barbara-parco",
+  "browserReport": "ricostruzioni/2026-11-23/verifiche/risultati.json"
+}

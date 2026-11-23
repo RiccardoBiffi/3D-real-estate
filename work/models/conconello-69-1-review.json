@@ -1,0 +1,66 @@
+{
+  "id": "conconello-69-1",
+  "status": "ready",
+  "path": "modelli/conconello-69-1.html",
+  "views": [
+    {
+      "id": "view-0",
+      "label": "Esterno della porzione di testa"
+    },
+    {
+      "id": "view-1",
+      "label": "Primo piano — zona abitativa, h 2,60 m"
+    },
+    {
+      "id": "view-2",
+      "label": "Sottotetto — locali accessori"
+    },
+    {
+      "id": "view-3",
+      "label": "Piano terra — portico e WC-lavanderia, h 2,28 m"
+    },
+    {
+      "id": "view-4",
+      "label": "Posto auto coperto — vista autonoma, h 2,28 m"
+    }
+  ],
+  "coverage": "partial",
+  "unrenderedVolumes": [
+    "Raccordo altimetrico preciso delle scale e del portico. La scala interna in legno è indicativa.",
+    "Relazione fra il posto auto coperto catastale, mostrato separatamente, e la schiera. Perimetro dei lotti confinanti.",
+    "Profondità della bussola, falde nascoste e attacco alla villetta limitrofa: la forma del tetto è dedotta dalle riprese aeree."
+  ],
+  "notes": [
+    "Nella zona giorno le foto mostrano un divano ocra sotto la scala in legno, un tappeto bordeaux, tavolo da pranzo e mobile TV. La cucina ha basi scure e piano chiaro. La taverna fotografata è rappresentata nell’area che la tavola registra come portico. Le foto del sottotetto mostrano letti chiari e legno a vista nei locali catastalmente accessori. La copertura in coppi con terrazza incassata riprende le riprese dall’alto."
+  ],
+  "verifiedAt": "2026-11-23T13:09:36+01:00",
+  "artifactSha256": "1f7597770d8cd8edd5579fb998f140b07b651078f84206d29cc16307d73bd469",
+  "sourcePlans": [
+    {
+      "url": "https://pic.im-cdn.it/plan/135334968/xxl.jpg",
+      "label": "PLN via di Conconello 1"
+    },
+    {
+      "url": "https://pic.im-cdn.it/plan/135334970/xxl.jpg",
+      "label": "PLN via di Conconello 2"
+    }
+  ],
+  "preview": "assets/conconello-69-1.jpg",
+  "qa": {
+    "staticPassed": true,
+    "browserPassed": true,
+    "geometryPassed": true,
+    "orthographicPassed": true
+  },
+  "fidelity": {
+    "passed": true,
+    "basis": "Riesame visivo dei fronti fotografati e delle parti modellate."
+  },
+  "independentReview": {
+    "passed": true,
+    "artifactSha256": "1f7597770d8cd8edd5579fb998f140b07b651078f84206d29cc16307d73bd469",
+    "method": "Seconda lettura di fotografie, viste renderizzate e sovrapposizioni disponibili. Le misure e le parti omesse sono dichiarate nella scheda."
+  },
+  "evidenceIndex": "ricostruzioni/2026-11-23/index.html#conconello-69-1",
+  "browserReport": "ricostruzioni/2026-11-23/verifiche/risultati.json"
+}

@@ -1,6 +1,47 @@
 {
-  "artifactId": "malchina-47-a",
-  "artifactSha256": "7cd8572a440faf7a8e158a62910f285887ac4ec9f4e73e1327e75f2dbc75f631",
+  "id": "malchina-47-a",
+  "status": "ready",
+  "path": "modelli/malchina-47-a.html",
+  "views": [
+    {
+      "label": "Esterno",
+      "level": null
+    },
+    {
+      "label": "Primo piano",
+      "level": 2
+    },
+    {
+      "label": "Piano terra",
+      "level": 1
+    },
+    {
+      "label": "Seminterrato · cantine e tettoia",
+      "level": 0
+    }
+  ],
+  "notes": [
+    "Divano chiaro a fiori, pensili color miele con rivestimento verde salvia, armadio e scrittoio in legno.",
+    "I contorni e le divisioni seguono le tavole indicate. Le misure assolute prive di quota, alcune aperture, le altezze e le dimensioni dei mobili sono stime."
+  ],
+  "verifiedAt": "2026-11-23T12:47:02+01:00",
+  "artifactSha256": "222bbd5def3f34ef8332e0e9841b6ec3e3a8f8a0da0db7974032bcee81f233e0",
+  "sourcePlans": [
+    {
+      "label": "Planimetria Malchina 1",
+      "url": "https://pic.im-cdn.it/plan/115754372/xxl.jpg"
+    },
+    {
+      "label": "Planimetria Malchina 2",
+      "url": "https://pic.im-cdn.it/plan/115754376/xxl.jpg"
+    }
+  ],
+  "unrenderedVolumes": [
+    "Scala esterna d’ingresso: configurazione catastale e fotografica differente, non renderizzata.",
+    "Box indicato nei dati del portale: volume non identificato nelle piante acquisite, non renderizzato."
+  ],
+  "coverage": "partial",
+  "preview": "assets/malchina-47-a.jpg",
   "qa": {
     "staticPassed": true,
     "browserPassed": true,
@@ -9,10 +50,13 @@
   },
   "fidelity": {
     "passed": true,
-    "basis": "Approvazione precedente conservata; digest dell’artefatto immutato."
+    "basis": "Riesame visivo dei fronti fotografati e delle parti modellate."
   },
   "independentReview": {
     "passed": true,
-    "artifactSha256": "7cd8572a440faf7a8e158a62910f285887ac4ec9f4e73e1327e75f2dbc75f631"
-  }
+    "artifactSha256": "222bbd5def3f34ef8332e0e9841b6ec3e3a8f8a0da0db7974032bcee81f233e0",
+    "method": "Seconda lettura di fotografie, viste renderizzate e sovrapposizioni disponibili. Le misure e le parti omesse sono dichiarate nella scheda."
+  },
+  "evidenceIndex": "ricostruzioni/2026-11-23/index.html#malchina-47-a",
+  "browserReport": "ricostruzioni/2026-11-23/verifiche/risultati.json"
 }

@@ -1,0 +1,57 @@
+{
+  "id": "borgo-refosco",
+  "status": "ready",
+  "path": "modelli/borgo-refosco.html",
+  "views": [
+    {
+      "label": "Esterno",
+      "level": null
+    },
+    {
+      "label": "Piano primo · tre unità di progetto",
+      "level": 1
+    },
+    {
+      "label": "Piano terra · tre unità di progetto",
+      "level": 0
+    }
+  ],
+  "notes": [
+    "Il materiale pubblicato illustra il progetto delle tre unità B1–B3. Le tavole permettono di leggere la distribuzione. Gli arredi installati non sono documentati.",
+    "I contorni e le divisioni seguono le tavole indicate. Le misure assolute prive di quota, alcune aperture, le altezze e le dimensioni dei mobili sono stime."
+  ],
+  "verifiedAt": "2026-11-23T12:47:02+01:00",
+  "artifactSha256": "786436eb6ccbe3cd08120c1cb79c6380520b08a7bd490dc92c519931afdba45d",
+  "sourcePlans": [
+    {
+      "label": "PIANO TERRA",
+      "url": "https://pic.im-cdn.it/plan/116318612/xxl.jpg"
+    },
+    {
+      "label": "PRIMO PIANO",
+      "url": "https://pic.im-cdn.it/plan/116318620/xxl.jpg"
+    }
+  ],
+  "unrenderedVolumes": [
+    "Allineamento verticale puntuale dei giardini, porticati e rampe delle tre unità."
+  ],
+  "coverage": "partial",
+  "preview": "assets/borgo-refosco.jpg",
+  "qa": {
+    "staticPassed": true,
+    "browserPassed": true,
+    "geometryPassed": true,
+    "orthographicPassed": true
+  },
+  "fidelity": {
+    "passed": true,
+    "basis": "Riesame visivo dei fronti fotografati e delle parti modellate."
+  },
+  "independentReview": {
+    "passed": true,
+    "artifactSha256": "786436eb6ccbe3cd08120c1cb79c6380520b08a7bd490dc92c519931afdba45d",
+    "method": "Seconda lettura di fotografie, viste renderizzate e sovrapposizioni disponibili. Le misure e le parti omesse sono dichiarate nella scheda."
+  },
+  "evidenceIndex": "ricostruzioni/2026-11-23/index.html#borgo-refosco",
+  "browserReport": "ricostruzioni/2026-11-23/verifiche/risultati.json"
+}

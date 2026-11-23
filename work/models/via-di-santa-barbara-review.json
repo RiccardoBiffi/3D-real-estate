@@ -1,0 +1,98 @@
+{
+  "id": "via-di-santa-barbara",
+  "status": "ready",
+  "path": "modelli/via-di-santa-barbara.html",
+  "views": [
+    {
+      "label": "Esterno",
+      "level": null
+    },
+    {
+      "label": "Sottotetto",
+      "level": 1
+    },
+    {
+      "label": "Primo piano",
+      "level": 0
+    },
+    {
+      "label": "Piano terra e portico",
+      "level": 3
+    },
+    {
+      "label": "Interrato",
+      "level": 2
+    }
+  ],
+  "notes": [
+    "Proposta commerciale con divani crema e legno chiaro. La casa è in completamento. L’allestimento rappresentato appartiene alle immagini di progetto.",
+    "I contorni e le divisioni seguono le tavole indicate. Le misure assolute prive di quota, alcune aperture, le altezze e le dimensioni dei mobili sono stime."
+  ],
+  "verifiedAt": "2026-11-23T12:47:02+01:00",
+  "artifactSha256": "b3d6384fa80f84e2049543ea47aef9df667c3af92bdfbae8466ee29b690941cf",
+  "sourcePlans": [
+    {
+      "label": "tav.3.10",
+      "url": "https://pic.im-cdn.it/plan/135835164/xxl.jpg"
+    },
+    {
+      "label": "tav.3.05",
+      "url": "https://pic.im-cdn.it/plan/135835114/xxl.jpg"
+    },
+    {
+      "label": "tav.3.11",
+      "url": "https://pic.im-cdn.it/plan/135835152/xxl.jpg"
+    },
+    {
+      "label": "tav.3.12",
+      "url": "https://pic.im-cdn.it/plan/135835116/xxl.jpg"
+    },
+    {
+      "label": "tav.3.08",
+      "url": "https://pic.im-cdn.it/plan/135835120/xxl.jpg"
+    },
+    {
+      "label": "tav.3.06",
+      "url": "https://pic.im-cdn.it/plan/135835130/xxl.jpg"
+    },
+    {
+      "label": "tav.3.07",
+      "url": "https://pic.im-cdn.it/plan/135835132/xxl.jpg"
+    },
+    {
+      "label": "tav.3.09",
+      "url": "https://pic.im-cdn.it/plan/135835144/xxl.jpg"
+    },
+    {
+      "label": "tav.3.03",
+      "url": "https://pic.im-cdn.it/plan/135835172/xxl.jpg"
+    },
+    {
+      "label": "tav.3.04",
+      "url": "https://pic.im-cdn.it/plan/135835178/xxl.jpg"
+    }
+  ],
+  "unrenderedVolumes": [
+    "Ringhiere, finiture e confini delle pertinenze esterne rispetto alle parti porticate.",
+    "Rampe o tratti di scala senza raccordo verticale verificabile tra le tavole."
+  ],
+  "coverage": "partial",
+  "preview": "assets/via-di-santa-barbara.jpg",
+  "qa": {
+    "staticPassed": true,
+    "browserPassed": true,
+    "geometryPassed": true,
+    "orthographicPassed": true
+  },
+  "fidelity": {
+    "passed": true,
+    "basis": "Riesame visivo dei fronti fotografati e delle parti modellate."
+  },
+  "independentReview": {
+    "passed": true,
+    "artifactSha256": "b3d6384fa80f84e2049543ea47aef9df667c3af92bdfbae8466ee29b690941cf",
+    "method": "Seconda lettura di fotografie, viste renderizzate e sovrapposizioni disponibili. Le misure e le parti omesse sono dichiarate nella scheda."
+  },
+  "evidenceIndex": "ricostruzioni/2026-11-23/index.html#via-di-santa-barbara",
+  "browserReport": "ricostruzioni/2026-11-23/verifiche/risultati.json"
+}

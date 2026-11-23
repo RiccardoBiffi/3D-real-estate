@@ -1,0 +1,90 @@
+{
+  "id": "via-del-panorama-4",
+  "status": "ready",
+  "path": "modelli/via-del-panorama-4.html",
+  "views": [
+    {
+      "label": "Esterno",
+      "level": null
+    },
+    {
+      "label": "Piano notte",
+      "level": 2
+    },
+    {
+      "label": "Piano giorno",
+      "level": 1
+    },
+    {
+      "label": "Piano d’ingresso",
+      "level": 0
+    },
+    {
+      "label": "Box doppio separato",
+      "level": 3
+    }
+  ],
+  "notes": [
+    "Poltrone scure, divano chiaro e tappeto rosso. Cucina avorio con tavolo rotondo caldo, tavolo scuro da pranzo e letto crema.",
+    "I contorni e le divisioni seguono le tavole indicate. Le misure assolute prive di quota, alcune aperture, le altezze e le dimensioni dei mobili sono stime."
+  ],
+  "verifiedAt": "2026-11-23T12:47:02+01:00",
+  "artifactSha256": "ec83fccbdc0bcdedf69e5a64540ff0aebf3234b634b2a0340bace7ccfe6b3417",
+  "sourcePlans": [
+    {
+      "label": "Tavola 1",
+      "url": "https://triestevillas.com/foto/attUAF2qqsDP0pxbz/400.webp"
+    },
+    {
+      "label": "Tavola 2",
+      "url": "https://triestevillas.com/foto/attqyWI6TyNdrPMv0/400.webp"
+    },
+    {
+      "label": "Tavola 3",
+      "url": "https://triestevillas.com/foto/attH5i6C2qSba48pC/400.webp"
+    },
+    {
+      "label": "Tavola 4",
+      "url": "https://triestevillas.com/foto/attJsp08vKcFBZSFa/400.webp"
+    },
+    {
+      "label": "Tavola arredata, tre livelli",
+      "url": "https://triestevillas.com/foto/attUAF2qqsDP0pxbz/2000.webp"
+    },
+    {
+      "label": "Tavola catastale, piano terra",
+      "url": "https://triestevillas.com/foto/attqyWI6TyNdrPMv0/2000.webp"
+    },
+    {
+      "label": "Tavola catastale, piani superiori",
+      "url": "https://triestevillas.com/foto/attH5i6C2qSba48pC/2000.webp"
+    },
+    {
+      "label": "Box doppio",
+      "url": "https://triestevillas.com/foto/attJsp08vKcFBZSFa/2000.webp"
+    }
+  ],
+  "unrenderedVolumes": [
+    "Dependance, corte, terrazzi e rapporto fra il box opzionale e la villa.",
+    "Rampe o tratti di scala senza raccordo verticale verificabile tra le tavole."
+  ],
+  "coverage": "partial",
+  "preview": "assets/via-del-panorama-4.jpg",
+  "qa": {
+    "staticPassed": true,
+    "browserPassed": true,
+    "geometryPassed": true,
+    "orthographicPassed": true
+  },
+  "fidelity": {
+    "passed": true,
+    "basis": "Riesame visivo dei fronti fotografati e delle parti modellate."
+  },
+  "independentReview": {
+    "passed": true,
+    "artifactSha256": "ec83fccbdc0bcdedf69e5a64540ff0aebf3234b634b2a0340bace7ccfe6b3417",
+    "method": "Seconda lettura di fotografie, viste renderizzate e sovrapposizioni disponibili. Le misure e le parti omesse sono dichiarate nella scheda."
+  },
+  "evidenceIndex": "ricostruzioni/2026-11-23/index.html#via-del-panorama-4",
+  "browserReport": "ricostruzioni/2026-11-23/verifiche/risultati.json"
+}

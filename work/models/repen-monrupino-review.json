@@ -1,0 +1,70 @@
+{
+  "id": "repen-monrupino",
+  "status": "ready",
+  "path": "modelli/repen-monrupino.html",
+  "views": [
+    {
+      "label": "Esterno",
+      "level": null
+    },
+    {
+      "label": "Piano superiore",
+      "level": 2
+    },
+    {
+      "label": "Piano terra",
+      "level": 0
+    },
+    {
+      "label": "Livello inferiore",
+      "level": 1
+    },
+    {
+      "label": "Autorimessa",
+      "level": 3
+    }
+  ],
+  "notes": [
+    "Divano rosso, cucina in legno miele, letti chiari, parquet e una sedia rossa.",
+    "I contorni e le divisioni seguono le tavole indicate. Le misure assolute prive di quota, alcune aperture, le altezze e le dimensioni dei mobili sono stime."
+  ],
+  "verifiedAt": "2026-11-23T12:47:02+01:00",
+  "artifactSha256": "ba5cd6e5117df779f3bdcdac0cc4d14732297032cd9866349157ec7d1fb02640",
+  "sourcePlans": [
+    {
+      "label": "Planimetria",
+      "url": "https://img4.idealista.it/blur/WEB_DETAIL/0/id.pro.it.image.master/13/57/18/797915698.jpg"
+    },
+    {
+      "label": "Planimetria",
+      "url": "https://img4.idealista.it/blur/WEB_DETAIL/0/id.pro.it.image.master/2e/b3/8a/797915692.jpg"
+    },
+    {
+      "label": "Planimetria",
+      "url": "https://img4.idealista.it/blur/WEB_DETAIL/0/id.pro.it.image.master/9b/f4/6d/797915741.jpg"
+    }
+  ],
+  "unrenderedVolumes": [
+    "Posizione dell’autorimessa separata e confini esterni.",
+    "Rampe o tratti di scala senza raccordo verticale verificabile tra le tavole."
+  ],
+  "coverage": "partial",
+  "preview": "assets/repen-monrupino.jpg",
+  "qa": {
+    "staticPassed": true,
+    "browserPassed": true,
+    "geometryPassed": true,
+    "orthographicPassed": true
+  },
+  "fidelity": {
+    "passed": true,
+    "basis": "Riesame visivo dei fronti fotografati e delle parti modellate."
+  },
+  "independentReview": {
+    "passed": true,
+    "artifactSha256": "ba5cd6e5117df779f3bdcdac0cc4d14732297032cd9866349157ec7d1fb02640",
+    "method": "Seconda lettura di fotografie, viste renderizzate e sovrapposizioni disponibili. Le misure e le parti omesse sono dichiarate nella scheda."
+  },
+  "evidenceIndex": "ricostruzioni/2026-11-23/index.html#repen-monrupino",
+  "browserReport": "ricostruzioni/2026-11-23/verifiche/risultati.json"
+}

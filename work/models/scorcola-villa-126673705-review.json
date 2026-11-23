@@ -1,0 +1,65 @@
+{
+  "id": "scorcola-villa-126673705",
+  "status": "ready",
+  "path": "modelli/scorcola-villa-126673705.html",
+  "views": [
+    {
+      "id": "view-0",
+      "label": "Esterno"
+    },
+    {
+      "id": "view-1",
+      "label": "Primo piano"
+    },
+    {
+      "id": "view-2",
+      "label": "Piano terra"
+    },
+    {
+      "id": "view-3",
+      "label": "Seminterrato"
+    }
+  ],
+  "coverage": "partial",
+  "unrenderedVolumes": [
+    "Geometria e confini del giardino di 430 m², posto auto e garage opzionale separato.",
+    "La pianta chiama lavanderia e cantina alcuni vani allestiti come bagno e zona giorno nelle immagini e nel testo. Le modifiche murarie successive, la distribuzione del secondo camino e delle attrezzature di cantina restano incerte."
+  ],
+  "notes": [
+    "Il salone riprende il divano bordeaux, il tappeto e i mobili in legno. La cucina al piano terra ha basi blu ad angolo. Al primo piano sono riconoscibili il letto matrimoniale e l’armadio grigio, un letto singolo e la vasca. La cucina del livello inferiore ha basi color legno. Le posizioni degli arredi sono approssimative."
+  ],
+  "verifiedAt": "2026-11-23T13:10:31+01:00",
+  "artifactSha256": "a83597f337f47e2ec065e8f4d7249d40eb32eb4006cf5b123c8e919c1452e58c",
+  "sourcePlans": [
+    {
+      "url": "https://pic.im-cdn.it/plan/122762003/xxl.jpg",
+      "label": "Piano terra"
+    },
+    {
+      "url": "https://pic.im-cdn.it/plan/122762007/xxl.jpg",
+      "label": "Primo piano"
+    },
+    {
+      "url": "https://pic.im-cdn.it/plan/122762011/xxl.jpg",
+      "label": "Piano seminterrato"
+    }
+  ],
+  "preview": "assets/scorcola-villa-126673705.jpg",
+  "qa": {
+    "staticPassed": true,
+    "browserPassed": true,
+    "geometryPassed": true,
+    "orthographicPassed": true
+  },
+  "fidelity": {
+    "passed": true,
+    "basis": "Riesame visivo dei fronti fotografati e delle parti modellate."
+  },
+  "independentReview": {
+    "passed": true,
+    "artifactSha256": "a83597f337f47e2ec065e8f4d7249d40eb32eb4006cf5b123c8e919c1452e58c",
+    "method": "Seconda lettura di fotografie, viste renderizzate e sovrapposizioni disponibili. Le misure e le parti omesse sono dichiarate nella scheda."
+  },
+  "evidenceIndex": "ricostruzioni/2026-11-23/index.html#scorcola-villa-126673705",
+  "browserReport": "ricostruzioni/2026-11-23/verifiche/risultati.json"
+}

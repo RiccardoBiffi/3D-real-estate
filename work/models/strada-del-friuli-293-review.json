@@ -1,0 +1,66 @@
+{
+  "id": "strada-del-friuli-293",
+  "status": "ready",
+  "path": "modelli/strada-del-friuli-293.html",
+  "views": [
+    {
+      "id": "view-0",
+      "label": "Esterno"
+    },
+    {
+      "id": "view-1",
+      "label": "Piano primo · camera matrimoniale sul dislivello"
+    },
+    {
+      "id": "view-2",
+      "label": "Piano primo · camera singola, bagno e disimpegno"
+    },
+    {
+      "id": "view-3",
+      "label": "Piano terra rialzato · soggiorno sul dislivello"
+    },
+    {
+      "id": "view-4",
+      "label": "Piano terra rialzato · atrio e cucina"
+    }
+  ],
+  "coverage": "partial",
+  "unrenderedVolumes": [
+    "Soppalco e ripostiglio sottotetto serviti dalla scala a pioli, privi di pianta utilizzabile.",
+    "Limiti esatti dell’area per i due posti auto e corpi delle unità accostate.",
+    "Altezze esatte dei dislivelli, copertura e parte delle aperture sul cortile stimate dalle immagini."
+  ],
+  "notes": [
+    "Le due piante catastali e la scala nelle foto distinguono il corpo fronte strada dalle stanze rialzate sul retro. Le viste isolano i due corpi a ciascun piano. Dalle foto sono ricostruiti il blocco cucina chiaro con seduta gialla, il divano verde e il tavolo del soggiorno, il letto a castello in legno, il letto matrimoniale con armadio e i sanitari. Il vano indicato come ripostiglio nel catasto è arredato come camera nelle foto. La scala assoluta viene stimata dalle aperture."
+  ],
+  "verifiedAt": "2026-11-23T13:12:48+01:00",
+  "artifactSha256": "bc95825c56e26c95542ee4e267efdeb0aabfa4c67f401e756d02a64d8e13663a",
+  "sourcePlans": [
+    {
+      "url": "https://pic.im-cdn.it/plan/137000365/xxl.jpg",
+      "label": "Catasto · piano terra"
+    },
+    {
+      "url": "https://pic.im-cdn.it/plan/137000367/xxl.jpg",
+      "label": "Catasto · piano primo"
+    }
+  ],
+  "preview": "assets/strada-del-friuli-293.jpg",
+  "qa": {
+    "staticPassed": true,
+    "browserPassed": true,
+    "geometryPassed": true,
+    "orthographicPassed": true
+  },
+  "fidelity": {
+    "passed": true,
+    "basis": "Riesame visivo dei fronti fotografati e delle parti modellate."
+  },
+  "independentReview": {
+    "passed": true,
+    "artifactSha256": "bc95825c56e26c95542ee4e267efdeb0aabfa4c67f401e756d02a64d8e13663a",
+    "method": "Seconda lettura di fotografie, viste renderizzate e sovrapposizioni disponibili. Le misure e le parti omesse sono dichiarate nella scheda."
+  },
+  "evidenceIndex": "ricostruzioni/2026-11-23/index.html#strada-del-friuli-293",
+  "browserReport": "ricostruzioni/2026-11-23/verifiche/risultati.json"
+}

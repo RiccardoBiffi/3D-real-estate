@@ -1,0 +1,57 @@
+{
+  "id": "timignano-26",
+  "status": "ready",
+  "path": "modelli/timignano-26.html",
+  "views": [
+    {
+      "id": "view-0",
+      "label": "Esterno sulla strada"
+    },
+    {
+      "id": "view-1",
+      "label": "Primo piano e soffitta"
+    },
+    {
+      "id": "view-2",
+      "label": "Piano terra e deposito"
+    }
+  ],
+  "coverage": "partial",
+  "unrenderedVolumes": [
+    "Estensione completa del cortile, dislivelli esterni e contiguità con le unità confinanti.",
+    "Rampe e rapporto altimetrico tra i locali posteriori. I gradini della scala interna e la pendenza delle coperture sono indicativi."
+  ],
+  "notes": [
+    "Nel soggiorno si riconoscono il divano grigio, la vetrina in legno scuro e il tavolo rotondo. Nella cucina sono visibili frontali e panca in legno. Le camere riprendono il letto matrimoniale su telaio metallico, il letto singolo e gli armadi. In soffitta sono ripresi il divano blu, la libreria e il pavimento in legno. Il fronte giallo chiaro, la bussola sporgente e i coppi rossi seguono la foto aerea."
+  ],
+  "verifiedAt": "2026-11-23T13:07:37+01:00",
+  "artifactSha256": "a62d2c8079eef5ad8e1ea6cc9a9da5b3e8dfaf2ea8fcb22a171fd9664d28f043",
+  "sourcePlans": [
+    {
+      "url": "https://pic.im-cdn.it/plan/132466640/xxl.jpg",
+      "label": "planimetria_piano_terra"
+    },
+    {
+      "url": "https://pic.im-cdn.it/plan/132466642/xxl.jpg",
+      "label": "planimetria_piano_primo"
+    }
+  ],
+  "preview": "assets/timignano-26.jpg",
+  "qa": {
+    "staticPassed": true,
+    "browserPassed": true,
+    "geometryPassed": true,
+    "orthographicPassed": true
+  },
+  "fidelity": {
+    "passed": true,
+    "basis": "Riesame visivo dei fronti fotografati e delle parti modellate."
+  },
+  "independentReview": {
+    "passed": true,
+    "artifactSha256": "a62d2c8079eef5ad8e1ea6cc9a9da5b3e8dfaf2ea8fcb22a171fd9664d28f043",
+    "method": "Seconda lettura di fotografie, viste renderizzate e sovrapposizioni disponibili. Le misure e le parti omesse sono dichiarate nella scheda."
+  },
+  "evidenceIndex": "ricostruzioni/2026-11-23/index.html#timignano-26",
+  "browserReport": "ricostruzioni/2026-11-23/verifiche/risultati.json"
+}

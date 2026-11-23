@@ -1,0 +1,4834 @@
+[
+  {
+    "id": "via-risano-raute",
+    "checkedAt": "2026-11-23T11:28:56.728333+00:00",
+    "engine": "Chromium 154.0.8037.57",
+    "method": "Contenuto del singolo HTML caricato offline in Chromium. Desktop e dispositivo touch emulato.",
+    "sourceSha256": "ad4290b120693ef8b671b891cf7778551bb458856b146ad9048160d40a106057",
+    "static": {
+      "canvas": true,
+      "selfContained": true,
+      "startTime": true,
+      "finishTime": true,
+      "renderingCode": true
+    },
+    "devices": [
+      {
+        "device": "desktop",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "top0": true,
+          "view1": true,
+          "pixels1": true,
+          "top1": true,
+          "view2": true,
+          "pixels2": true,
+          "top2": true,
+          "view3": true,
+          "pixels3": true,
+          "top3": true,
+          "view4": true,
+          "pixels4": true,
+          "top4": true,
+          "cycle": true,
+          "orbit": true,
+          "zoom": true,
+          "pan": true,
+          "doubleClick": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      },
+      {
+        "device": "mobile",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "view1": true,
+          "pixels1": true,
+          "view2": true,
+          "pixels2": true,
+          "view3": true,
+          "pixels3": true,
+          "view4": true,
+          "pixels4": true,
+          "cycle": true,
+          "touchOrbit": true,
+          "pinch": true,
+          "doubleTap": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      }
+    ],
+    "passed": true,
+    "finalSha256": "c18ea7ac54c3932334af7ba9d04363765b637d31a0ddce6c0ca261c6da499b8e",
+    "finishedAt": "2026-11-23T12:47:02+01:00",
+    "staticAfterTimestamp": true
+  },
+  {
+    "id": "chiampore-43a",
+    "checkedAt": "2026-11-23T11:32:27.151178+00:00",
+    "engine": "Chromium 154.0.8037.57",
+    "method": "Contenuto del singolo HTML caricato offline in Chromium. Desktop e dispositivo touch emulato.",
+    "sourceSha256": "9ae2499d9086bed85e28150e356c2f749370dd7dd9ed75ea07a02a7c6e1f361b",
+    "static": {
+      "canvas": true,
+      "selfContained": true,
+      "startTime": true,
+      "finishTime": true,
+      "renderingCode": true
+    },
+    "devices": [
+      {
+        "device": "desktop",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "top0": true,
+          "view1": true,
+          "pixels1": true,
+          "top1": true,
+          "view2": true,
+          "pixels2": true,
+          "top2": true,
+          "view3": true,
+          "pixels3": true,
+          "top3": true,
+          "view4": true,
+          "pixels4": true,
+          "top4": true,
+          "cycle": true,
+          "orbit": true,
+          "zoom": true,
+          "pan": true,
+          "doubleClick": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      },
+      {
+        "device": "mobile",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "view1": true,
+          "pixels1": true,
+          "view2": true,
+          "pixels2": true,
+          "view3": true,
+          "pixels3": true,
+          "view4": true,
+          "pixels4": true,
+          "cycle": true,
+          "touchOrbit": true,
+          "pinch": true,
+          "doubleTap": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      }
+    ],
+    "passed": true,
+    "finalSha256": "e5671cd1d1a4fea7b35ce1c40d0e3191833d75860f0945fde2d15430414ed2c2",
+    "finishedAt": "2026-11-23T12:47:02+01:00",
+    "staticAfterTimestamp": true
+  },
+  {
+    "id": "basovizza-338",
+    "checkedAt": "2026-11-23T11:33:39.985292+00:00",
+    "engine": "Chromium 154.0.8037.57",
+    "method": "Contenuto del singolo HTML caricato offline in Chromium. Desktop e dispositivo touch emulato.",
+    "sourceSha256": "5882a655006b782e2863b4c52a3ac311f5d1f186e82e5332939668b9199a7c19",
+    "static": {
+      "canvas": true,
+      "selfContained": true,
+      "startTime": true,
+      "finishTime": true,
+      "renderingCode": true
+    },
+    "devices": [
+      {
+        "device": "desktop",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "top0": true,
+          "view1": true,
+          "pixels1": true,
+          "top1": true,
+          "view2": true,
+          "pixels2": true,
+          "top2": true,
+          "view3": true,
+          "pixels3": true,
+          "top3": true,
+          "cycle": true,
+          "orbit": true,
+          "zoom": true,
+          "pan": true,
+          "doubleClick": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      },
+      {
+        "device": "mobile",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "view1": true,
+          "pixels1": true,
+          "view2": true,
+          "pixels2": true,
+          "view3": true,
+          "pixels3": true,
+          "cycle": true,
+          "touchOrbit": true,
+          "pinch": true,
+          "doubleTap": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      }
+    ],
+    "passed": true,
+    "finalSha256": "7132a0a9b76cb2ba3beaaa6b7796c47ebc35a780f703bfc824f7af89e52f1049",
+    "finishedAt": "2026-11-23T12:47:02+01:00",
+    "staticAfterTimestamp": true
+  },
+  {
+    "id": "repen-monrupino",
+    "checkedAt": "2026-11-23T11:32:49.459871+00:00",
+    "engine": "Chromium 154.0.8037.57",
+    "method": "Contenuto del singolo HTML caricato offline in Chromium. Desktop e dispositivo touch emulato.",
+    "sourceSha256": "144ca696f378a3a1834deaf474bc16e2a4a0022ea5f04424f7da00125aa898ac",
+    "static": {
+      "canvas": true,
+      "selfContained": true,
+      "startTime": true,
+      "finishTime": true,
+      "renderingCode": true
+    },
+    "devices": [
+      {
+        "device": "desktop",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "top0": true,
+          "view1": true,
+          "pixels1": true,
+          "top1": true,
+          "view2": true,
+          "pixels2": true,
+          "top2": true,
+          "view3": true,
+          "pixels3": true,
+          "top3": true,
+          "view4": true,
+          "pixels4": true,
+          "top4": true,
+          "cycle": true,
+          "orbit": true,
+          "zoom": true,
+          "pan": true,
+          "doubleClick": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      },
+      {
+        "device": "mobile",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "view1": true,
+          "pixels1": true,
+          "view2": true,
+          "pixels2": true,
+          "view3": true,
+          "pixels3": true,
+          "view4": true,
+          "pixels4": true,
+          "cycle": true,
+          "touchOrbit": true,
+          "pinch": true,
+          "doubleTap": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      }
+    ],
+    "passed": true,
+    "finalSha256": "ba5cd6e5117df779f3bdcdac0cc4d14732297032cd9866349157ec7d1fb02640",
+    "finishedAt": "2026-11-23T12:47:02+01:00",
+    "staticAfterTimestamp": true
+  },
+  {
+    "id": "borgo-refosco",
+    "checkedAt": "2026-11-23T11:33:55.199310+00:00",
+    "engine": "Chromium 154.0.8037.57",
+    "method": "Contenuto del singolo HTML caricato offline in Chromium. Desktop e dispositivo touch emulato.",
+    "sourceSha256": "8b35b9066792a97207c3ee4a5ff18959262c37fbad5ae417101f4f546f089075",
+    "static": {
+      "canvas": true,
+      "selfContained": true,
+      "startTime": true,
+      "finishTime": true,
+      "renderingCode": true
+    },
+    "devices": [
+      {
+        "device": "desktop",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "top0": true,
+          "view1": true,
+          "pixels1": true,
+          "top1": true,
+          "view2": true,
+          "pixels2": true,
+          "top2": true,
+          "cycle": true,
+          "orbit": true,
+          "zoom": true,
+          "pan": true,
+          "doubleClick": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      },
+      {
+        "device": "mobile",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "view1": true,
+          "pixels1": true,
+          "view2": true,
+          "pixels2": true,
+          "cycle": true,
+          "touchOrbit": true,
+          "pinch": true,
+          "doubleTap": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      }
+    ],
+    "passed": true,
+    "finalSha256": "786436eb6ccbe3cd08120c1cb79c6380520b08a7bd490dc92c519931afdba45d",
+    "finishedAt": "2026-11-23T12:47:02+01:00",
+    "staticAfterTimestamp": true
+  },
+  {
+    "id": "via-dei-salici-22-1",
+    "checkedAt": "2026-11-23T11:33:32.794620+00:00",
+    "engine": "Chromium 154.0.8037.57",
+    "method": "Contenuto del singolo HTML caricato offline in Chromium. Desktop e dispositivo touch emulato.",
+    "sourceSha256": "1efc440d6ec3e0fd09e72d2fb246ae7e681d8e4ea984d77b7eb5660a9bd5e00f",
+    "static": {
+      "canvas": true,
+      "selfContained": true,
+      "startTime": true,
+      "finishTime": true,
+      "renderingCode": true
+    },
+    "devices": [
+      {
+        "device": "desktop",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "top0": true,
+          "view1": true,
+          "pixels1": true,
+          "top1": true,
+          "view2": true,
+          "pixels2": true,
+          "top2": true,
+          "view3": true,
+          "pixels3": true,
+          "top3": true,
+          "cycle": true,
+          "orbit": true,
+          "zoom": true,
+          "pan": true,
+          "doubleClick": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      },
+      {
+        "device": "mobile",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "view1": true,
+          "pixels1": true,
+          "view2": true,
+          "pixels2": true,
+          "view3": true,
+          "pixels3": true,
+          "cycle": true,
+          "touchOrbit": true,
+          "pinch": true,
+          "doubleTap": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      }
+    ],
+    "passed": true,
+    "finalSha256": "be198a3991c588a2e9f21d49668e3e4a33c7393f3ada2fa1ba25e08fe7f79064",
+    "finishedAt": "2026-11-23T12:47:02+01:00",
+    "staticAfterTimestamp": true
+  },
+  {
+    "id": "opicina-villa-126111987",
+    "checkedAt": "2026-11-23T11:34:10.352489+00:00",
+    "engine": "Chromium 154.0.8037.57",
+    "method": "Contenuto del singolo HTML caricato offline in Chromium. Desktop e dispositivo touch emulato.",
+    "sourceSha256": "f95609fa023f7327b018379a21c50915453489d8f7de2a0bd130d4bfebceb8ee",
+    "static": {
+      "canvas": true,
+      "selfContained": true,
+      "startTime": true,
+      "finishTime": true,
+      "renderingCode": true
+    },
+    "devices": [
+      {
+        "device": "desktop",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "top0": true,
+          "view1": true,
+          "pixels1": true,
+          "top1": true,
+          "view2": true,
+          "pixels2": true,
+          "top2": true,
+          "cycle": true,
+          "orbit": true,
+          "zoom": true,
+          "pan": true,
+          "doubleClick": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      },
+      {
+        "device": "mobile",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "view1": true,
+          "pixels1": true,
+          "view2": true,
+          "pixels2": true,
+          "cycle": true,
+          "touchOrbit": true,
+          "pinch": true,
+          "doubleTap": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      }
+    ],
+    "passed": true,
+    "finalSha256": "69002c402a041c76c65dffc98e5444001ba5bc3093f980219d07064e4fb6096b",
+    "finishedAt": "2026-11-23T12:47:02+01:00",
+    "staticAfterTimestamp": true
+  },
+  {
+    "id": "erta-di-sant-anna",
+    "checkedAt": "2026-11-23T11:33:55.768257+00:00",
+    "engine": "Chromium 154.0.8037.57",
+    "method": "Contenuto del singolo HTML caricato offline in Chromium. Desktop e dispositivo touch emulato.",
+    "sourceSha256": "cf8dbcacaf2bbe5b57fc10ca1dec2cc2b783760b1ceef1e4ad90ceff1a7c543f",
+    "static": {
+      "canvas": true,
+      "selfContained": true,
+      "startTime": true,
+      "finishTime": true,
+      "renderingCode": true
+    },
+    "devices": [
+      {
+        "device": "desktop",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "top0": true,
+          "view1": true,
+          "pixels1": true,
+          "top1": true,
+          "view2": true,
+          "pixels2": true,
+          "top2": true,
+          "view3": true,
+          "pixels3": true,
+          "top3": true,
+          "view4": true,
+          "pixels4": true,
+          "top4": true,
+          "cycle": true,
+          "orbit": true,
+          "zoom": true,
+          "pan": true,
+          "doubleClick": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      },
+      {
+        "device": "mobile",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "view1": true,
+          "pixels1": true,
+          "view2": true,
+          "pixels2": true,
+          "view3": true,
+          "pixels3": true,
+          "view4": true,
+          "pixels4": true,
+          "cycle": true,
+          "touchOrbit": true,
+          "pinch": true,
+          "doubleTap": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      }
+    ],
+    "passed": true,
+    "finalSha256": "284035969b088cedadbf7bf219ecef0bab27b4d015eab2a12d350814cd3e8c2f",
+    "finishedAt": "2026-11-23T12:47:02+01:00",
+    "staticAfterTimestamp": true
+  },
+  {
+    "id": "via-almerigotti",
+    "checkedAt": "2026-11-23T11:34:31.530325+00:00",
+    "engine": "Chromium 154.0.8037.57",
+    "method": "Contenuto del singolo HTML caricato offline in Chromium. Desktop e dispositivo touch emulato.",
+    "sourceSha256": "0d88952f0b1062a97e542407050eb6a66b8d5b6dc68c2889f9c8038f7a27933b",
+    "static": {
+      "canvas": true,
+      "selfContained": true,
+      "startTime": true,
+      "finishTime": true,
+      "renderingCode": true
+    },
+    "devices": [
+      {
+        "device": "desktop",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "top0": true,
+          "view1": true,
+          "pixels1": true,
+          "top1": true,
+          "view2": true,
+          "pixels2": true,
+          "top2": true,
+          "cycle": true,
+          "orbit": true,
+          "zoom": true,
+          "pan": true,
+          "doubleClick": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      },
+      {
+        "device": "mobile",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "view1": true,
+          "pixels1": true,
+          "view2": true,
+          "pixels2": true,
+          "cycle": true,
+          "touchOrbit": true,
+          "pinch": true,
+          "doubleTap": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      }
+    ],
+    "passed": true,
+    "finalSha256": "3f40f19bc9209c6794f45fa99bb54c6bf4f00187f07ee10bea80a274f5eb811e",
+    "finishedAt": "2026-11-23T12:47:02+01:00",
+    "staticAfterTimestamp": true
+  },
+  {
+    "id": "fontanella-10-4",
+    "checkedAt": "2026-11-23T11:34:10.746574+00:00",
+    "engine": "Chromium 154.0.8037.57",
+    "method": "Contenuto del singolo HTML caricato offline in Chromium. Desktop e dispositivo touch emulato.",
+    "sourceSha256": "5ce58b39400fe11050c2d887d69a8a63913c2d40f7e231d997e0d81b01107b4e",
+    "static": {
+      "canvas": true,
+      "selfContained": true,
+      "startTime": true,
+      "finishTime": true,
+      "renderingCode": true
+    },
+    "devices": [
+      {
+        "device": "desktop",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "top0": true,
+          "view1": true,
+          "pixels1": true,
+          "top1": true,
+          "cycle": true,
+          "orbit": true,
+          "zoom": true,
+          "pan": true,
+          "doubleClick": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      },
+      {
+        "device": "mobile",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "view1": true,
+          "pixels1": true,
+          "cycle": true,
+          "touchOrbit": true,
+          "pinch": true,
+          "doubleTap": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      }
+    ],
+    "passed": true,
+    "finalSha256": "e521b1d6f2ea612bbc92a14c404738d2b752459e4963575793dc49569a374c00",
+    "finishedAt": "2026-11-23T12:47:02+01:00",
+    "staticAfterTimestamp": true
+  },
+  {
+    "id": "opicina-trifamiliare-tecnocasa",
+    "checkedAt": "2026-11-23T11:28:54.367267+00:00",
+    "engine": "Chromium 154.0.8037.57",
+    "method": "Contenuto del singolo HTML caricato offline in Chromium. Desktop e dispositivo touch emulato.",
+    "sourceSha256": "4a469142308ab9251d3b02acc72901960dfe7dd8ac9d3861ccf57a80b19093d0",
+    "static": {
+      "canvas": true,
+      "selfContained": true,
+      "startTime": true,
+      "finishTime": true,
+      "renderingCode": true
+    },
+    "devices": [
+      {
+        "device": "desktop",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "top0": true,
+          "view1": true,
+          "pixels1": true,
+          "top1": true,
+          "view2": true,
+          "pixels2": true,
+          "top2": true,
+          "view3": true,
+          "pixels3": true,
+          "top3": true,
+          "cycle": true,
+          "orbit": true,
+          "zoom": true,
+          "pan": true,
+          "doubleClick": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      },
+      {
+        "device": "mobile",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "view1": true,
+          "pixels1": true,
+          "view2": true,
+          "pixels2": true,
+          "view3": true,
+          "pixels3": true,
+          "cycle": true,
+          "touchOrbit": true,
+          "pinch": true,
+          "doubleTap": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      }
+    ],
+    "passed": true,
+    "finalSha256": "82bb0d5ce32fd1ab370328e22f40375f8cfb91edff8533b1301125413dac60eb",
+    "finishedAt": "2026-11-23T12:47:02+01:00",
+    "staticAfterTimestamp": true
+  },
+  {
+    "id": "via-dell-hermada",
+    "checkedAt": "2026-11-23T11:34:46.139601+00:00",
+    "engine": "Chromium 154.0.8037.57",
+    "method": "Contenuto del singolo HTML caricato offline in Chromium. Desktop e dispositivo touch emulato.",
+    "sourceSha256": "43e5d91270abf2e2dfea0f7f4c10ab58b15d76d94ab07ae1e31e122ab0594a32",
+    "static": {
+      "canvas": true,
+      "selfContained": true,
+      "startTime": true,
+      "finishTime": true,
+      "renderingCode": true
+    },
+    "devices": [
+      {
+        "device": "desktop",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "top0": true,
+          "view1": true,
+          "pixels1": true,
+          "top1": true,
+          "cycle": true,
+          "orbit": true,
+          "zoom": true,
+          "pan": true,
+          "doubleClick": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      },
+      {
+        "device": "mobile",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "view1": true,
+          "pixels1": true,
+          "cycle": true,
+          "touchOrbit": true,
+          "pinch": true,
+          "doubleTap": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      }
+    ],
+    "passed": true,
+    "finalSha256": "1a5058557e5ac24759770a9bc773c621e53fdb39a9913ebeec59cb7e00051c9b",
+    "finishedAt": "2026-11-23T12:47:02+01:00",
+    "staticAfterTimestamp": true
+  },
+  {
+    "id": "salita-di-raute-50-1",
+    "checkedAt": "2026-11-23T12:10:37.168215+00:00",
+    "engine": "Chromium 154.0.8037.57",
+    "method": "Contenuto del singolo HTML caricato offline in Chromium. Desktop e dispositivo touch emulato.",
+    "sourceSha256": "7837fca16f12cd1218d73cda904e74a944115ad2b0e5ea36eae6fd0794d38a5c",
+    "static": {
+      "canvas": true,
+      "selfContained": true,
+      "startTime": true,
+      "finishTime": true,
+      "renderingCode": true
+    },
+    "devices": [
+      {
+        "device": "desktop",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "top0": true,
+          "view1": true,
+          "pixels1": true,
+          "top1": true,
+          "view2": true,
+          "pixels2": true,
+          "top2": true,
+          "view3": true,
+          "pixels3": true,
+          "top3": true,
+          "cycle": true,
+          "orbit": true,
+          "zoom": true,
+          "pan": true,
+          "doubleClick": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      },
+      {
+        "device": "mobile",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "view1": true,
+          "pixels1": true,
+          "view2": true,
+          "pixels2": true,
+          "view3": true,
+          "pixels3": true,
+          "cycle": true,
+          "touchOrbit": true,
+          "pinch": true,
+          "doubleTap": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      }
+    ],
+    "passed": true,
+    "finalSha256": "7837fca16f12cd1218d73cda904e74a944115ad2b0e5ea36eae6fd0794d38a5c",
+    "geometryComparisonFiles": [
+      "confronto-ground.jpg",
+      "confronto-living.jpg",
+      "confronto-night.jpg"
+    ]
+  },
+  {
+    "id": "via-gianelli-18",
+    "checkedAt": "2026-11-23T11:34:29.670032+00:00",
+    "engine": "Chromium 154.0.8037.57",
+    "method": "Contenuto del singolo HTML caricato offline in Chromium. Desktop e dispositivo touch emulato.",
+    "sourceSha256": "c83c80fca981f8b26737ff1c1d6e294332e331481f486d9f25472d34ba94b6f6",
+    "static": {
+      "canvas": true,
+      "selfContained": true,
+      "startTime": true,
+      "finishTime": true,
+      "renderingCode": true
+    },
+    "devices": [
+      {
+        "device": "desktop",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "top0": true,
+          "view1": true,
+          "pixels1": true,
+          "top1": true,
+          "cycle": true,
+          "orbit": true,
+          "zoom": true,
+          "pan": true,
+          "doubleClick": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      },
+      {
+        "device": "mobile",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "view1": true,
+          "pixels1": true,
+          "cycle": true,
+          "touchOrbit": true,
+          "pinch": true,
+          "doubleTap": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      }
+    ],
+    "passed": true,
+    "finalSha256": "0971ceca0c5327fb2015d8657f8c05a0e9804c59d936e5f785c430288a357414",
+    "finishedAt": "2026-11-23T12:47:02+01:00",
+    "staticAfterTimestamp": true
+  },
+  {
+    "id": "banne-202",
+    "checkedAt": "2026-11-23T11:35:12.292770+00:00",
+    "engine": "Chromium 154.0.8037.57",
+    "method": "Contenuto del singolo HTML caricato offline in Chromium. Desktop e dispositivo touch emulato.",
+    "sourceSha256": "fd910ce2620d05f581fff3944f93c60821bac83d8e3ad2eface2044b0183177f",
+    "static": {
+      "canvas": true,
+      "selfContained": true,
+      "startTime": true,
+      "finishTime": true,
+      "renderingCode": true
+    },
+    "devices": [
+      {
+        "device": "desktop",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "top0": true,
+          "view1": true,
+          "pixels1": true,
+          "top1": true,
+          "view2": true,
+          "pixels2": true,
+          "top2": true,
+          "view3": true,
+          "pixels3": true,
+          "top3": true,
+          "cycle": true,
+          "orbit": true,
+          "zoom": true,
+          "pan": true,
+          "doubleClick": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      },
+      {
+        "device": "mobile",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "view1": true,
+          "pixels1": true,
+          "view2": true,
+          "pixels2": true,
+          "view3": true,
+          "pixels3": true,
+          "cycle": true,
+          "touchOrbit": true,
+          "pinch": true,
+          "doubleTap": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      }
+    ],
+    "passed": true,
+    "finalSha256": "8f06f4b1c210ab46172bc08635cf06ce1b35faa3dc8e9e2962c457a28d0d8767",
+    "finishedAt": "2026-11-23T12:47:02+01:00",
+    "staticAfterTimestamp": true
+  },
+  {
+    "id": "basovizza-218",
+    "checkedAt": "2026-11-23T11:34:39.723060+00:00",
+    "engine": "Chromium 154.0.8037.57",
+    "method": "Contenuto del singolo HTML caricato offline in Chromium. Desktop e dispositivo touch emulato.",
+    "sourceSha256": "e33e6a5848011d6255a164aaf83892ba3cfd185aab6d522e9cd0f0871798cb9c",
+    "static": {
+      "canvas": true,
+      "selfContained": true,
+      "startTime": true,
+      "finishTime": true,
+      "renderingCode": true
+    },
+    "devices": [
+      {
+        "device": "desktop",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "top0": true,
+          "view1": true,
+          "pixels1": true,
+          "top1": true,
+          "cycle": true,
+          "orbit": true,
+          "zoom": true,
+          "pan": true,
+          "doubleClick": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      },
+      {
+        "device": "mobile",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "view1": true,
+          "pixels1": true,
+          "cycle": true,
+          "touchOrbit": true,
+          "pinch": true,
+          "doubleTap": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      }
+    ],
+    "passed": true,
+    "finalSha256": "2aa454439374e92f231020431a1a13b48b4b88d2ebb15bea59d9f4c48073ed8f",
+    "finishedAt": "2026-11-23T12:47:02+01:00",
+    "staticAfterTimestamp": true
+  },
+  {
+    "id": "basovizza-563-1",
+    "checkedAt": "2026-11-23T11:31:22.391977+00:00",
+    "engine": "Chromium 154.0.8037.57",
+    "method": "Contenuto del singolo HTML caricato offline in Chromium. Desktop e dispositivo touch emulato.",
+    "sourceSha256": "be0f984f7debb6ef4cc714536f7088d8948cde64d1fe6b8c822d9032b71b282f",
+    "static": {
+      "canvas": true,
+      "selfContained": true,
+      "startTime": true,
+      "finishTime": true,
+      "renderingCode": true
+    },
+    "devices": [
+      {
+        "device": "desktop",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "view1": true,
+          "pixels1": true,
+          "view2": true,
+          "pixels2": true,
+          "view3": true,
+          "pixels3": true,
+          "cycle": true,
+          "orbit": true,
+          "zoom": true,
+          "pan": true,
+          "doubleClick": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      },
+      {
+        "device": "mobile",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "view1": true,
+          "pixels1": true,
+          "view2": true,
+          "pixels2": true,
+          "view3": true,
+          "pixels3": true,
+          "cycle": true,
+          "touchOrbit": true,
+          "pinch": true,
+          "doubleTap": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      }
+    ],
+    "passed": true,
+    "finalSha256": "656af402cc6ead7cbadbcb2164e297948baa1ea9b30b430c7695c591e8f24cd3",
+    "finishedAt": "2026-11-23T12:47:02+01:00",
+    "staticAfterTimestamp": true
+  },
+  {
+    "id": "trebiciano-257",
+    "checkedAt": "2026-11-23T11:38:54.865860+00:00",
+    "engine": "Chromium 154.0.8037.57",
+    "method": "Contenuto del singolo HTML caricato offline in Chromium. Desktop e dispositivo touch emulato.",
+    "sourceSha256": "0901122c4775c402d6d338fa58202b842fc7d7525b46ca25eb8d80a3676d7d0a",
+    "static": {
+      "canvas": true,
+      "selfContained": true,
+      "startTime": true,
+      "finishTime": true,
+      "renderingCode": true
+    },
+    "devices": [
+      {
+        "device": "desktop",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "top0": true,
+          "view1": true,
+          "pixels1": true,
+          "top1": true,
+          "cycle": true,
+          "orbit": true,
+          "zoom": true,
+          "pan": true,
+          "doubleClick": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      },
+      {
+        "device": "mobile",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "view1": true,
+          "pixels1": true,
+          "cycle": true,
+          "touchOrbit": true,
+          "pinch": true,
+          "doubleTap": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      }
+    ],
+    "passed": true,
+    "finalSha256": "56888cfa5e0efaca4ae18e3e85be3ad8220caca5b1ebac83d16e41c8bed64e96",
+    "finishedAt": "2026-11-23T12:47:02+01:00",
+    "staticAfterTimestamp": true
+  },
+  {
+    "id": "sant-antonio-in-bosco",
+    "checkedAt": "2026-11-23T11:39:33.946536+00:00",
+    "engine": "Chromium 154.0.8037.57",
+    "method": "Contenuto del singolo HTML caricato offline in Chromium. Desktop e dispositivo touch emulato.",
+    "sourceSha256": "310da40d23d1f2ed917ef2375ea606da9af841694198c92d8150ed35faad02de",
+    "static": {
+      "canvas": true,
+      "selfContained": true,
+      "startTime": true,
+      "finishTime": true,
+      "renderingCode": true
+    },
+    "devices": [
+      {
+        "device": "desktop",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "top0": true,
+          "view1": true,
+          "pixels1": true,
+          "top1": true,
+          "cycle": true,
+          "orbit": true,
+          "zoom": true,
+          "pan": true,
+          "doubleClick": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      },
+      {
+        "device": "mobile",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "view1": true,
+          "pixels1": true,
+          "cycle": true,
+          "touchOrbit": true,
+          "pinch": true,
+          "doubleTap": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      }
+    ],
+    "passed": true,
+    "finalSha256": "8eeb9cecda731ef43897d6145f8facaa8a23c49725bf43960034442675a196fe",
+    "finishedAt": "2026-11-23T12:47:02+01:00",
+    "staticAfterTimestamp": true
+  },
+  {
+    "id": "via-angelo-de-valentini-10",
+    "checkedAt": "2026-11-23T11:42:23.422825+00:00",
+    "engine": "Chromium 154.0.8037.57",
+    "method": "Contenuto del singolo HTML caricato offline in Chromium. Desktop e dispositivo touch emulato.",
+    "sourceSha256": "9d002d86acbcf18d1f522de52bcf8a238aca21815a26776997756ccf64fd72bb",
+    "static": {
+      "canvas": true,
+      "selfContained": true,
+      "startTime": true,
+      "finishTime": true,
+      "renderingCode": true
+    },
+    "devices": [
+      {
+        "device": "desktop",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "top0": true,
+          "view1": true,
+          "pixels1": true,
+          "top1": true,
+          "view2": true,
+          "pixels2": true,
+          "top2": true,
+          "cycle": true,
+          "orbit": true,
+          "zoom": true,
+          "pan": true,
+          "doubleClick": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      },
+      {
+        "device": "mobile",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "view1": true,
+          "pixels1": true,
+          "view2": true,
+          "pixels2": true,
+          "cycle": true,
+          "touchOrbit": true,
+          "pinch": true,
+          "doubleTap": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      }
+    ],
+    "passed": true,
+    "finalSha256": "14836130fd621ac81707e786fe67083f31c0921379faf821307bdb0baa88a08f",
+    "finishedAt": "2026-11-23T12:47:02+01:00",
+    "staticAfterTimestamp": true
+  },
+  {
+    "id": "via-umberto-felluga-11",
+    "checkedAt": "2026-11-23T11:40:21.368385+00:00",
+    "engine": "Chromium 154.0.8037.57",
+    "method": "Contenuto del singolo HTML caricato offline in Chromium. Desktop e dispositivo touch emulato.",
+    "sourceSha256": "9975bf867a0e205f5f80908d11571e09d3b7051a0240df6aab5c554d06c8d7b3",
+    "static": {
+      "canvas": true,
+      "selfContained": true,
+      "startTime": true,
+      "finishTime": true,
+      "renderingCode": true
+    },
+    "devices": [
+      {
+        "device": "desktop",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "top0": true,
+          "view1": true,
+          "pixels1": true,
+          "top1": true,
+          "view2": true,
+          "pixels2": true,
+          "top2": true,
+          "cycle": true,
+          "orbit": true,
+          "zoom": true,
+          "pan": true,
+          "doubleClick": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      },
+      {
+        "device": "mobile",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "view1": true,
+          "pixels1": true,
+          "view2": true,
+          "pixels2": true,
+          "cycle": true,
+          "touchOrbit": true,
+          "pinch": true,
+          "doubleTap": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      }
+    ],
+    "passed": true,
+    "finalSha256": "6dc06cafd94ea81c50d4a94395d3d226fccb5c3715367586688b2cc6d44ca2a7",
+    "finishedAt": "2026-11-23T12:47:02+01:00",
+    "staticAfterTimestamp": true
+  },
+  {
+    "id": "via-monte-d-oro",
+    "checkedAt": "2026-11-23T11:36:07.583975+00:00",
+    "engine": "Chromium 154.0.8037.57",
+    "method": "Contenuto del singolo HTML caricato offline in Chromium. Desktop e dispositivo touch emulato.",
+    "sourceSha256": "1b34be50c24d365c08d792551f6f9d9da886f7538ad6aa13facd036e959e0e31",
+    "static": {
+      "canvas": true,
+      "selfContained": true,
+      "startTime": true,
+      "finishTime": true,
+      "renderingCode": true
+    },
+    "devices": [
+      {
+        "device": "desktop",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "top0": true,
+          "view1": true,
+          "pixels1": true,
+          "top1": true,
+          "view2": true,
+          "pixels2": true,
+          "top2": true,
+          "cycle": true,
+          "orbit": true,
+          "zoom": true,
+          "pan": true,
+          "doubleClick": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      },
+      {
+        "device": "mobile",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "view1": true,
+          "pixels1": true,
+          "view2": true,
+          "pixels2": true,
+          "cycle": true,
+          "touchOrbit": true,
+          "pinch": true,
+          "doubleTap": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      }
+    ],
+    "passed": true,
+    "finalSha256": "d35dc14ea221f94e5dfd53f843fa87d821bec839db0f45df4d6e08a75d375d29",
+    "finishedAt": "2026-11-23T12:47:02+01:00",
+    "staticAfterTimestamp": true
+  },
+  {
+    "id": "via-dei-cardi-19",
+    "checkedAt": "2026-11-23T11:35:50.003061+00:00",
+    "engine": "Chromium 154.0.8037.57",
+    "method": "Contenuto del singolo HTML caricato offline in Chromium. Desktop e dispositivo touch emulato.",
+    "sourceSha256": "c8573c7490b0978ab7245baab0ea9e597fb55fbd66c4018aa467f4427b66afbc",
+    "static": {
+      "canvas": true,
+      "selfContained": true,
+      "startTime": true,
+      "finishTime": true,
+      "renderingCode": true
+    },
+    "devices": [
+      {
+        "device": "desktop",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "top0": true,
+          "view1": true,
+          "pixels1": true,
+          "top1": true,
+          "view2": true,
+          "pixels2": true,
+          "top2": true,
+          "view3": true,
+          "pixels3": true,
+          "top3": true,
+          "view4": true,
+          "pixels4": true,
+          "top4": true,
+          "cycle": true,
+          "orbit": true,
+          "zoom": true,
+          "pan": true,
+          "doubleClick": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      },
+      {
+        "device": "mobile",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "view1": true,
+          "pixels1": true,
+          "view2": true,
+          "pixels2": true,
+          "view3": true,
+          "pixels3": true,
+          "view4": true,
+          "pixels4": true,
+          "cycle": true,
+          "touchOrbit": true,
+          "pinch": true,
+          "doubleTap": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      }
+    ],
+    "passed": true,
+    "finalSha256": "44d7956125489c4ad7302e142484763ef1d9383fc17e0ed495aad063982e4eed",
+    "finishedAt": "2026-11-23T12:47:02+01:00",
+    "staticAfterTimestamp": true
+  },
+  {
+    "id": "aurisina",
+    "checkedAt": "2026-11-23T11:32:58.327202+00:00",
+    "engine": "Chromium 154.0.8037.57",
+    "method": "Contenuto del singolo HTML caricato offline in Chromium. Desktop e dispositivo touch emulato.",
+    "sourceSha256": "18ba64a15878881b17ca6a5cdf809bd461ddf272ff1235b4a35f6b0a9e5881d0",
+    "static": {
+      "canvas": true,
+      "selfContained": true,
+      "startTime": true,
+      "finishTime": true,
+      "renderingCode": true
+    },
+    "devices": [
+      {
+        "device": "desktop",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "view1": true,
+          "pixels1": true,
+          "view2": true,
+          "pixels2": true,
+          "view3": true,
+          "pixels3": true,
+          "view4": true,
+          "pixels4": true,
+          "view5": true,
+          "pixels5": true,
+          "view6": true,
+          "pixels6": true,
+          "cycle": true,
+          "orbit": true,
+          "zoom": true,
+          "pan": true,
+          "doubleClick": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      },
+      {
+        "device": "mobile",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "view1": true,
+          "pixels1": true,
+          "view2": true,
+          "pixels2": true,
+          "view3": true,
+          "pixels3": true,
+          "view4": true,
+          "pixels4": true,
+          "view5": true,
+          "pixels5": true,
+          "view6": true,
+          "pixels6": true,
+          "cycle": true,
+          "touchOrbit": true,
+          "pinch": true,
+          "doubleTap": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      }
+    ],
+    "passed": true,
+    "finalSha256": "a75bfdb760b89cd0712df8667ac1d1f40686483f95939021292bab5486fe1741",
+    "finishedAt": "2026-11-23T12:47:02+01:00",
+    "staticAfterTimestamp": true
+  },
+  {
+    "id": "via-del-collio-9",
+    "checkedAt": "2026-11-23T11:42:42.902105+00:00",
+    "engine": "Chromium 154.0.8037.57",
+    "method": "Contenuto del singolo HTML caricato offline in Chromium. Desktop e dispositivo touch emulato.",
+    "sourceSha256": "3c7fd5c44d5704ade4d8bb61ef8dfbb0557b87f2ce6f1e9154d826f9c290059d",
+    "static": {
+      "canvas": true,
+      "selfContained": true,
+      "startTime": true,
+      "finishTime": true,
+      "renderingCode": true
+    },
+    "devices": [
+      {
+        "device": "desktop",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "top0": true,
+          "view1": true,
+          "pixels1": true,
+          "top1": true,
+          "cycle": true,
+          "orbit": true,
+          "zoom": true,
+          "pan": true,
+          "doubleClick": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      },
+      {
+        "device": "mobile",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "view1": true,
+          "pixels1": true,
+          "cycle": true,
+          "touchOrbit": true,
+          "pinch": true,
+          "doubleTap": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      }
+    ],
+    "passed": true,
+    "finalSha256": "8d781c61cbb0c6761d86568a43c26e2f975cae65b66ecc0470055b4a3608c71f",
+    "finishedAt": "2026-11-23T12:47:02+01:00",
+    "staticAfterTimestamp": true
+  },
+  {
+    "id": "malchina-villa-nuova",
+    "checkedAt": "2026-11-23T11:36:11.186768+00:00",
+    "engine": "Chromium 154.0.8037.57",
+    "method": "Contenuto del singolo HTML caricato offline in Chromium. Desktop e dispositivo touch emulato.",
+    "sourceSha256": "a4a4ce5c1fecda9161e5799d792fd702361d85010e4b1472596e392ab49e5a3e",
+    "static": {
+      "canvas": true,
+      "selfContained": true,
+      "startTime": true,
+      "finishTime": true,
+      "renderingCode": true
+    },
+    "devices": [
+      {
+        "device": "desktop",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "top0": true,
+          "view1": true,
+          "pixels1": true,
+          "top1": true,
+          "view2": true,
+          "pixels2": true,
+          "top2": true,
+          "cycle": true,
+          "orbit": true,
+          "zoom": true,
+          "pan": true,
+          "doubleClick": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      },
+      {
+        "device": "mobile",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "view1": true,
+          "pixels1": true,
+          "view2": true,
+          "pixels2": true,
+          "cycle": true,
+          "touchOrbit": true,
+          "pinch": true,
+          "doubleTap": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      }
+    ],
+    "passed": true,
+    "finalSha256": "157559abe656c497b56cbcb8a3a49f73f729daf1dec6bdc8812ab55f3ae3aac5",
+    "finishedAt": "2026-11-23T12:47:02+01:00",
+    "staticAfterTimestamp": true
+  },
+  {
+    "id": "sistiana-10",
+    "checkedAt": "2026-11-23T11:42:57.240995+00:00",
+    "engine": "Chromium 154.0.8037.57",
+    "method": "Contenuto del singolo HTML caricato offline in Chromium. Desktop e dispositivo touch emulato.",
+    "sourceSha256": "92750e69c0953a8a028cfb882eea16e12589b55050e4112ac2c799f55aa12872",
+    "static": {
+      "canvas": true,
+      "selfContained": true,
+      "startTime": true,
+      "finishTime": true,
+      "renderingCode": true
+    },
+    "devices": [
+      {
+        "device": "desktop",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "top0": true,
+          "view1": true,
+          "pixels1": true,
+          "top1": true,
+          "view2": true,
+          "pixels2": true,
+          "top2": true,
+          "cycle": true,
+          "orbit": true,
+          "zoom": true,
+          "pan": true,
+          "doubleClick": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      },
+      {
+        "device": "mobile",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "view1": true,
+          "pixels1": true,
+          "view2": true,
+          "pixels2": true,
+          "cycle": true,
+          "touchOrbit": true,
+          "pinch": true,
+          "doubleTap": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      }
+    ],
+    "passed": true,
+    "finalSha256": "414f0d54f64d91ac3afdc9d8d71daefb2d354cd30fb424ab84edda6660608c03",
+    "finishedAt": "2026-11-23T12:47:02+01:00",
+    "staticAfterTimestamp": true
+  },
+  {
+    "id": "strada-di-fiume-370",
+    "checkedAt": "2026-11-23T12:04:51.452075+00:00",
+    "engine": "Chromium 154.0.8037.57",
+    "method": "Contenuto del singolo HTML caricato offline in Chromium. Desktop e dispositivo touch emulato.",
+    "sourceSha256": "cf75860e645916a5ec70b714297d8c2505eb1cdccb7495880d19de21cac5b672",
+    "static": {
+      "canvas": true,
+      "selfContained": true,
+      "startTime": true,
+      "finishTime": true,
+      "renderingCode": true
+    },
+    "devices": [
+      {
+        "device": "desktop",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "top0": true,
+          "view1": true,
+          "pixels1": true,
+          "top1": true,
+          "view2": true,
+          "pixels2": true,
+          "top2": true,
+          "view3": true,
+          "pixels3": true,
+          "top3": true,
+          "view4": true,
+          "pixels4": true,
+          "top4": true,
+          "cycle": true,
+          "orbit": true,
+          "zoom": true,
+          "pan": true,
+          "doubleClick": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      },
+      {
+        "device": "mobile",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "view1": true,
+          "pixels1": true,
+          "view2": true,
+          "pixels2": true,
+          "view3": true,
+          "pixels3": true,
+          "view4": true,
+          "pixels4": true,
+          "cycle": true,
+          "touchOrbit": true,
+          "pinch": true,
+          "doubleTap": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      }
+    ],
+    "passed": true,
+    "finalSha256": "cf75860e645916a5ec70b714297d8c2505eb1cdccb7495880d19de21cac5b672"
+  },
+  {
+    "id": "via-dei-gravisi-4",
+    "checkedAt": "2026-11-23T11:33:16.065403+00:00",
+    "engine": "Chromium 154.0.8037.57",
+    "method": "Contenuto del singolo HTML caricato offline in Chromium. Desktop e dispositivo touch emulato.",
+    "sourceSha256": "ded83321313b7eedf13cc1e38c1be086a648bfe05bb320f6d83dcd85f8a59705",
+    "static": {
+      "canvas": true,
+      "selfContained": true,
+      "startTime": true,
+      "finishTime": true,
+      "renderingCode": true
+    },
+    "devices": [
+      {
+        "device": "desktop",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "top0": true,
+          "view1": true,
+          "pixels1": true,
+          "top1": true,
+          "view2": true,
+          "pixels2": true,
+          "top2": true,
+          "view3": true,
+          "pixels3": true,
+          "top3": true,
+          "cycle": true,
+          "orbit": true,
+          "zoom": true,
+          "pan": true,
+          "doubleClick": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      },
+      {
+        "device": "mobile",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "view1": true,
+          "pixels1": true,
+          "view2": true,
+          "pixels2": true,
+          "view3": true,
+          "pixels3": true,
+          "cycle": true,
+          "touchOrbit": true,
+          "pinch": true,
+          "doubleTap": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      }
+    ],
+    "passed": true,
+    "finalSha256": "58a4a360ea3fa8f38b836d44f27d4ca5457ecf0e60e5baf8db4f63d5b93dd00c",
+    "finishedAt": "2026-11-23T12:47:02+01:00",
+    "staticAfterTimestamp": true
+  },
+  {
+    "id": "via-dei-papaveri-3-16",
+    "checkedAt": "2026-11-23T11:36:49.963469+00:00",
+    "engine": "Chromium 154.0.8037.57",
+    "method": "Contenuto del singolo HTML caricato offline in Chromium. Desktop e dispositivo touch emulato.",
+    "sourceSha256": "5a3b9662638873b15c4cbccbaa22be0fe826497fc7539bd9dc91d1a8435273eb",
+    "static": {
+      "canvas": true,
+      "selfContained": true,
+      "startTime": true,
+      "finishTime": true,
+      "renderingCode": true
+    },
+    "devices": [
+      {
+        "device": "desktop",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "top0": true,
+          "view1": true,
+          "pixels1": true,
+          "top1": true,
+          "view2": true,
+          "pixels2": true,
+          "top2": true,
+          "view3": true,
+          "pixels3": true,
+          "top3": true,
+          "view4": true,
+          "pixels4": true,
+          "top4": true,
+          "cycle": true,
+          "orbit": true,
+          "zoom": true,
+          "pan": true,
+          "doubleClick": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      },
+      {
+        "device": "mobile",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "view1": true,
+          "pixels1": true,
+          "view2": true,
+          "pixels2": true,
+          "view3": true,
+          "pixels3": true,
+          "view4": true,
+          "pixels4": true,
+          "cycle": true,
+          "touchOrbit": true,
+          "pinch": true,
+          "doubleTap": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      }
+    ],
+    "passed": true,
+    "finalSha256": "440f88cc5e33962ac165f86a2925b37f1372e61fe167738c93d4d720ca18ab65",
+    "finishedAt": "2026-11-23T12:47:02+01:00",
+    "staticAfterTimestamp": true
+  },
+  {
+    "id": "via-dello-scoglio-173",
+    "checkedAt": "2026-11-23T11:36:34.382662+00:00",
+    "engine": "Chromium 154.0.8037.57",
+    "method": "Contenuto del singolo HTML caricato offline in Chromium. Desktop e dispositivo touch emulato.",
+    "sourceSha256": "e8472dce4f196b399337f016ff837434320ab8fe742873dc2e2a0301c08b648d",
+    "static": {
+      "canvas": true,
+      "selfContained": true,
+      "startTime": true,
+      "finishTime": true,
+      "renderingCode": true
+    },
+    "devices": [
+      {
+        "device": "desktop",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "view1": true,
+          "pixels1": true,
+          "view2": true,
+          "pixels2": true,
+          "view3": true,
+          "pixels3": true,
+          "view4": true,
+          "pixels4": true,
+          "view5": true,
+          "pixels5": true,
+          "cycle": true,
+          "orbit": true,
+          "zoom": true,
+          "pan": true,
+          "doubleClick": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      },
+      {
+        "device": "mobile",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "view1": true,
+          "pixels1": true,
+          "view2": true,
+          "pixels2": true,
+          "view3": true,
+          "pixels3": true,
+          "view4": true,
+          "pixels4": true,
+          "view5": true,
+          "pixels5": true,
+          "cycle": true,
+          "touchOrbit": true,
+          "pinch": true,
+          "doubleTap": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      }
+    ],
+    "passed": true,
+    "finalSha256": "f789bade14b669d8d9a91c8983fac58a581536c02935bdaf1e9c699644906d55",
+    "finishedAt": "2026-11-23T12:47:02+01:00",
+    "staticAfterTimestamp": true
+  },
+  {
+    "id": "malchina-47-a",
+    "checkedAt": "2026-11-23T11:37:13.662092+00:00",
+    "engine": "Chromium 154.0.8037.57",
+    "method": "Contenuto del singolo HTML caricato offline in Chromium. Desktop e dispositivo touch emulato.",
+    "sourceSha256": "bf33cfbfe55983d9dc9bba8f0c306eee1f05c818c3f6e53d0e99af1ea8831574",
+    "static": {
+      "canvas": true,
+      "selfContained": true,
+      "startTime": true,
+      "finishTime": true,
+      "renderingCode": true
+    },
+    "devices": [
+      {
+        "device": "desktop",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "top0": true,
+          "view1": true,
+          "pixels1": true,
+          "top1": true,
+          "view2": true,
+          "pixels2": true,
+          "top2": true,
+          "view3": true,
+          "pixels3": true,
+          "top3": true,
+          "cycle": true,
+          "orbit": true,
+          "zoom": true,
+          "pan": true,
+          "doubleClick": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      },
+      {
+        "device": "mobile",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "view1": true,
+          "pixels1": true,
+          "view2": true,
+          "pixels2": true,
+          "view3": true,
+          "pixels3": true,
+          "cycle": true,
+          "touchOrbit": true,
+          "pinch": true,
+          "doubleTap": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      }
+    ],
+    "passed": true,
+    "finalSha256": "222bbd5def3f34ef8332e0e9841b6ec3e3a8f8a0da0db7974032bcee81f233e0",
+    "finishedAt": "2026-11-23T12:47:02+01:00",
+    "staticAfterTimestamp": true
+  },
+  {
+    "id": "duino-villa-129888594",
+    "checkedAt": "2026-11-23T11:32:01.289044+00:00",
+    "engine": "Chromium 154.0.8037.57",
+    "method": "Contenuto del singolo HTML caricato offline in Chromium. Desktop e dispositivo touch emulato.",
+    "sourceSha256": "53196367999b3eb74a70ccbc707d4ef824e1cb7f1fc660438fe19e64f564eba7",
+    "static": {
+      "canvas": true,
+      "selfContained": true,
+      "startTime": true,
+      "finishTime": true,
+      "renderingCode": true
+    },
+    "devices": [
+      {
+        "device": "desktop",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "top0": true,
+          "view1": true,
+          "pixels1": true,
+          "top1": true,
+          "view2": true,
+          "pixels2": true,
+          "top2": true,
+          "view3": true,
+          "pixels3": true,
+          "top3": true,
+          "view4": true,
+          "pixels4": true,
+          "top4": true,
+          "cycle": true,
+          "orbit": true,
+          "zoom": true,
+          "pan": true,
+          "doubleClick": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      },
+      {
+        "device": "mobile",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "view1": true,
+          "pixels1": true,
+          "view2": true,
+          "pixels2": true,
+          "view3": true,
+          "pixels3": true,
+          "view4": true,
+          "pixels4": true,
+          "cycle": true,
+          "touchOrbit": true,
+          "pinch": true,
+          "doubleTap": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      }
+    ],
+    "passed": true,
+    "finalSha256": "8b8cfef2056a149a1aee427e20f1bff1a1507747571eec28f8e9d67e36fc1a45",
+    "finishedAt": "2026-11-23T12:47:02+01:00",
+    "staticAfterTimestamp": true
+  },
+  {
+    "id": "via-di-santa-barbara",
+    "checkedAt": "2026-11-23T11:37:02.737250+00:00",
+    "engine": "Chromium 154.0.8037.57",
+    "method": "Contenuto del singolo HTML caricato offline in Chromium. Desktop e dispositivo touch emulato.",
+    "sourceSha256": "e85030fb87f284c522b2d8c27c89c99b03cf27be316965e462c9262c596931c3",
+    "static": {
+      "canvas": true,
+      "selfContained": true,
+      "startTime": true,
+      "finishTime": true,
+      "renderingCode": true
+    },
+    "devices": [
+      {
+        "device": "desktop",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "top0": true,
+          "view1": true,
+          "pixels1": true,
+          "top1": true,
+          "view2": true,
+          "pixels2": true,
+          "top2": true,
+          "view3": true,
+          "pixels3": true,
+          "top3": true,
+          "view4": true,
+          "pixels4": true,
+          "top4": true,
+          "cycle": true,
+          "orbit": true,
+          "zoom": true,
+          "pan": true,
+          "doubleClick": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      },
+      {
+        "device": "mobile",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "view1": true,
+          "pixels1": true,
+          "view2": true,
+          "pixels2": true,
+          "view3": true,
+          "pixels3": true,
+          "view4": true,
+          "pixels4": true,
+          "cycle": true,
+          "touchOrbit": true,
+          "pinch": true,
+          "doubleTap": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      }
+    ],
+    "passed": true,
+    "finalSha256": "b3d6384fa80f84e2049543ea47aef9df667c3af92bdfbae8466ee29b690941cf",
+    "finishedAt": "2026-11-23T12:47:02+01:00",
+    "staticAfterTimestamp": true
+  },
+  {
+    "id": "malchina-1",
+    "checkedAt": "2026-11-23T12:15:29.783820+00:00",
+    "engine": "Chromium 154.0.8037.57",
+    "method": "Contenuto del singolo HTML caricato offline in Chromium. Desktop e dispositivo touch emulato.",
+    "sourceSha256": "a60721f6036c6ec02617521609d6f3259f1abd32ff61b74775b5c9f03764ebbe",
+    "static": {
+      "canvas": true,
+      "selfContained": true,
+      "startTime": true,
+      "finishTime": true,
+      "renderingCode": true
+    },
+    "devices": [
+      {
+        "device": "desktop",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "top0": true,
+          "view1": true,
+          "pixels1": true,
+          "top1": true,
+          "view2": true,
+          "pixels2": true,
+          "top2": true,
+          "cycle": true,
+          "orbit": true,
+          "zoom": true,
+          "pan": true,
+          "doubleClick": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      },
+      {
+        "device": "mobile",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "view1": true,
+          "pixels1": true,
+          "view2": true,
+          "pixels2": true,
+          "cycle": true,
+          "touchOrbit": true,
+          "pinch": true,
+          "doubleTap": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      }
+    ],
+    "passed": true,
+    "finalSha256": "a60721f6036c6ec02617521609d6f3259f1abd32ff61b74775b5c9f03764ebbe",
+    "finishedAt": "2026-11-23T13:14:09+01:00",
+    "staticAfterTimestamp": true
+  },
+  {
+    "id": "via-umberto-veruda",
+    "checkedAt": "2026-11-23T11:33:27.966108+00:00",
+    "engine": "Chromium 154.0.8037.57",
+    "method": "Contenuto del singolo HTML caricato offline in Chromium. Desktop e dispositivo touch emulato.",
+    "sourceSha256": "755524c526b68d4c2f30823fbd6f0fc3056859dfae35d99475311b5bf2794950",
+    "static": {
+      "canvas": true,
+      "selfContained": true,
+      "startTime": true,
+      "finishTime": true,
+      "renderingCode": true
+    },
+    "devices": [
+      {
+        "device": "desktop",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "view1": true,
+          "pixels1": true,
+          "view2": true,
+          "pixels2": true,
+          "cycle": true,
+          "orbit": true,
+          "zoom": true,
+          "pan": true,
+          "doubleClick": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      },
+      {
+        "device": "mobile",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "view1": true,
+          "pixels1": true,
+          "view2": true,
+          "pixels2": true,
+          "cycle": true,
+          "touchOrbit": true,
+          "pinch": true,
+          "doubleTap": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      }
+    ],
+    "passed": true,
+    "finalSha256": "4c302809692c191a797abdd4b7269b00c29092edac7a16a8dcfa76b1faab68a2",
+    "finishedAt": "2026-11-23T12:47:02+01:00",
+    "staticAfterTimestamp": true
+  },
+  {
+    "id": "via-dei-calderai-15",
+    "checkedAt": "2026-11-23T11:37:43.884603+00:00",
+    "engine": "Chromium 154.0.8037.57",
+    "method": "Contenuto del singolo HTML caricato offline in Chromium. Desktop e dispositivo touch emulato.",
+    "sourceSha256": "c523414978545f351a1740bfd4959fbe75ffc9cba0b6e93d092c7c8dac8c85ea",
+    "static": {
+      "canvas": true,
+      "selfContained": true,
+      "startTime": true,
+      "finishTime": true,
+      "renderingCode": true
+    },
+    "devices": [
+      {
+        "device": "desktop",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "top0": true,
+          "view1": true,
+          "pixels1": true,
+          "top1": true,
+          "view2": true,
+          "pixels2": true,
+          "top2": true,
+          "view3": true,
+          "pixels3": true,
+          "top3": true,
+          "view4": true,
+          "pixels4": true,
+          "top4": true,
+          "cycle": true,
+          "orbit": true,
+          "zoom": true,
+          "pan": true,
+          "doubleClick": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      },
+      {
+        "device": "mobile",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "view1": true,
+          "pixels1": true,
+          "view2": true,
+          "pixels2": true,
+          "view3": true,
+          "pixels3": true,
+          "view4": true,
+          "pixels4": true,
+          "cycle": true,
+          "touchOrbit": true,
+          "pinch": true,
+          "doubleTap": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      }
+    ],
+    "passed": true,
+    "finalSha256": "0a0954c8e23fc7b45a9674ab10db50c4664f022f52759cdcba7f355814436862",
+    "finishedAt": "2026-11-23T12:47:02+01:00",
+    "staticAfterTimestamp": true
+  },
+  {
+    "id": "via-di-santa-barbara-parco",
+    "checkedAt": "2026-11-23T12:10:37.464192+00:00",
+    "engine": "Chromium 154.0.8037.57",
+    "method": "Contenuto del singolo HTML caricato offline in Chromium. Desktop e dispositivo touch emulato.",
+    "sourceSha256": "3f7f87ce1d733ca8aae00e594721d71527f532d2b8679de5dd0b3babf362142c",
+    "static": {
+      "canvas": true,
+      "selfContained": true,
+      "startTime": true,
+      "finishTime": true,
+      "renderingCode": true
+    },
+    "devices": [
+      {
+        "device": "desktop",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "top0": true,
+          "view1": true,
+          "pixels1": true,
+          "top1": true,
+          "view2": true,
+          "pixels2": true,
+          "top2": true,
+          "view3": true,
+          "pixels3": true,
+          "top3": true,
+          "cycle": true,
+          "orbit": true,
+          "zoom": true,
+          "pan": true,
+          "doubleClick": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      },
+      {
+        "device": "mobile",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "view1": true,
+          "pixels1": true,
+          "view2": true,
+          "pixels2": true,
+          "view3": true,
+          "pixels3": true,
+          "cycle": true,
+          "touchOrbit": true,
+          "pinch": true,
+          "doubleTap": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      }
+    ],
+    "passed": true,
+    "finalSha256": "3f7f87ce1d733ca8aae00e594721d71527f532d2b8679de5dd0b3babf362142c",
+    "geometryComparisonFiles": [
+      "confronto-terra.jpg",
+      "confronto-interrato.jpg",
+      "confronto-box.jpg"
+    ]
+  },
+  {
+    "id": "zolla-60",
+    "checkedAt": "2026-11-23T11:37:30.058074+00:00",
+    "engine": "Chromium 154.0.8037.57",
+    "method": "Contenuto del singolo HTML caricato offline in Chromium. Desktop e dispositivo touch emulato.",
+    "sourceSha256": "fb121a28edfc4ddd2562a853297c85c8ec4ed1cb5ecc57676b308f4dfb55abfa",
+    "static": {
+      "canvas": true,
+      "selfContained": true,
+      "startTime": true,
+      "finishTime": true,
+      "renderingCode": true
+    },
+    "devices": [
+      {
+        "device": "desktop",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "top0": true,
+          "view1": true,
+          "pixels1": true,
+          "top1": true,
+          "view2": true,
+          "pixels2": true,
+          "top2": true,
+          "view3": true,
+          "pixels3": true,
+          "top3": true,
+          "cycle": true,
+          "orbit": true,
+          "zoom": true,
+          "pan": true,
+          "doubleClick": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      },
+      {
+        "device": "mobile",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "view1": true,
+          "pixels1": true,
+          "view2": true,
+          "pixels2": true,
+          "view3": true,
+          "pixels3": true,
+          "cycle": true,
+          "touchOrbit": true,
+          "pinch": true,
+          "doubleTap": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      }
+    ],
+    "passed": true,
+    "finalSha256": "3345632e06857a12a3666bbf47d35d9abad3df6a11f6b0eb76391aadee23268d",
+    "finishedAt": "2026-11-23T12:47:02+01:00",
+    "staticAfterTimestamp": true
+  },
+  {
+    "id": "fontanella-villa-panoramica",
+    "checkedAt": "2026-11-23T11:38:46.200944+00:00",
+    "engine": "Chromium 154.0.8037.57",
+    "method": "Contenuto del singolo HTML caricato offline in Chromium. Desktop e dispositivo touch emulato.",
+    "sourceSha256": "ba7efc59bb7920a2d34763a61973a77112990a8e03a423655b809cb7a4980114",
+    "static": {
+      "canvas": true,
+      "selfContained": true,
+      "startTime": true,
+      "finishTime": true,
+      "renderingCode": true
+    },
+    "devices": [
+      {
+        "device": "desktop",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "top0": true,
+          "view1": true,
+          "pixels1": true,
+          "top1": true,
+          "cycle": true,
+          "orbit": true,
+          "zoom": true,
+          "pan": true,
+          "doubleClick": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      },
+      {
+        "device": "mobile",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "view1": true,
+          "pixels1": true,
+          "cycle": true,
+          "touchOrbit": true,
+          "pinch": true,
+          "doubleTap": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      }
+    ],
+    "passed": true,
+    "finalSha256": "f49784fc2bd5a1d11031e1d9394e0f8c91f412332d198c6a81f59b84e2f782c3",
+    "finishedAt": "2026-11-23T12:47:02+01:00",
+    "staticAfterTimestamp": true
+  },
+  {
+    "id": "via-degli-alpini-opicina",
+    "checkedAt": "2026-11-23T11:37:46.541417+00:00",
+    "engine": "Chromium 154.0.8037.57",
+    "method": "Contenuto del singolo HTML caricato offline in Chromium. Desktop e dispositivo touch emulato.",
+    "sourceSha256": "b3753f5e08800e0300e79a8e58c597f4591814aa348b6cee69e5f3ed664f1808",
+    "static": {
+      "canvas": true,
+      "selfContained": true,
+      "startTime": true,
+      "finishTime": true,
+      "renderingCode": true
+    },
+    "devices": [
+      {
+        "device": "desktop",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "top0": true,
+          "view1": true,
+          "pixels1": true,
+          "top1": true,
+          "cycle": true,
+          "orbit": true,
+          "zoom": true,
+          "pan": true,
+          "doubleClick": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      },
+      {
+        "device": "mobile",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "view1": true,
+          "pixels1": true,
+          "cycle": true,
+          "touchOrbit": true,
+          "pinch": true,
+          "doubleTap": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      }
+    ],
+    "passed": true,
+    "finalSha256": "fb928afae93cbeee266484f2ff4f8a410fe58c5d3a828a586d02a7e29dd28802",
+    "finishedAt": "2026-11-23T12:47:02+01:00",
+    "staticAfterTimestamp": true
+  },
+  {
+    "id": "duino-le-vigne",
+    "checkedAt": "2026-11-23T11:39:33.144895+00:00",
+    "engine": "Chromium 154.0.8037.57",
+    "method": "Contenuto del singolo HTML caricato offline in Chromium. Desktop e dispositivo touch emulato.",
+    "sourceSha256": "6abe7c7be5d2e76ec60659c5a2b163598c52d394fb10e26c3f86974b10fdb941",
+    "static": {
+      "canvas": true,
+      "selfContained": true,
+      "startTime": true,
+      "finishTime": true,
+      "renderingCode": true
+    },
+    "devices": [
+      {
+        "device": "desktop",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "top0": true,
+          "view1": true,
+          "pixels1": true,
+          "top1": true,
+          "view2": true,
+          "pixels2": true,
+          "top2": true,
+          "view3": true,
+          "pixels3": true,
+          "top3": true,
+          "cycle": true,
+          "orbit": true,
+          "zoom": true,
+          "pan": true,
+          "doubleClick": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      },
+      {
+        "device": "mobile",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "view1": true,
+          "pixels1": true,
+          "view2": true,
+          "pixels2": true,
+          "view3": true,
+          "pixels3": true,
+          "cycle": true,
+          "touchOrbit": true,
+          "pinch": true,
+          "doubleTap": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      }
+    ],
+    "passed": true,
+    "finalSha256": "dae7cd4e6e4e1fce61e5efda7543dad60f95f2edf3db584fbe0f960d86ea0708",
+    "finishedAt": "2026-11-23T12:47:02+01:00",
+    "staticAfterTimestamp": true
+  },
+  {
+    "id": "muggia-prima-periferia",
+    "checkedAt": "2026-11-23T11:38:06.030874+00:00",
+    "engine": "Chromium 154.0.8037.57",
+    "method": "Contenuto del singolo HTML caricato offline in Chromium. Desktop e dispositivo touch emulato.",
+    "sourceSha256": "a60e8b89eae58121909469c630f7f89d5c3f19923e74c957dfb3c117e443e69e",
+    "static": {
+      "canvas": true,
+      "selfContained": true,
+      "startTime": true,
+      "finishTime": true,
+      "renderingCode": true
+    },
+    "devices": [
+      {
+        "device": "desktop",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "top0": true,
+          "view1": true,
+          "pixels1": true,
+          "top1": true,
+          "cycle": true,
+          "orbit": true,
+          "zoom": true,
+          "pan": true,
+          "doubleClick": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      },
+      {
+        "device": "mobile",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "view1": true,
+          "pixels1": true,
+          "cycle": true,
+          "touchOrbit": true,
+          "pinch": true,
+          "doubleTap": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      }
+    ],
+    "passed": true,
+    "finalSha256": "5319afc6c9f4e665c1b4adb0b1345e82ab5e7877707012001d7543d14c1a09b6",
+    "finishedAt": "2026-11-23T12:47:02+01:00",
+    "staticAfterTimestamp": true
+  },
+  {
+    "id": "opicina-trifamiliare-via-basovizza",
+    "checkedAt": "2026-11-23T11:40:10.548110+00:00",
+    "engine": "Chromium 154.0.8037.57",
+    "method": "Contenuto del singolo HTML caricato offline in Chromium. Desktop e dispositivo touch emulato.",
+    "sourceSha256": "687ba16169b7a4c4bce283f05f5004d5cdfeafd9dfa2e3428a7bd611a1f9b278",
+    "static": {
+      "canvas": true,
+      "selfContained": true,
+      "startTime": true,
+      "finishTime": true,
+      "renderingCode": true
+    },
+    "devices": [
+      {
+        "device": "desktop",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "top0": true,
+          "view1": true,
+          "pixels1": true,
+          "top1": true,
+          "cycle": true,
+          "orbit": true,
+          "zoom": true,
+          "pan": true,
+          "doubleClick": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      },
+      {
+        "device": "mobile",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "view1": true,
+          "pixels1": true,
+          "cycle": true,
+          "touchOrbit": true,
+          "pinch": true,
+          "doubleTap": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      }
+    ],
+    "passed": true,
+    "finalSha256": "61b958d700048291aa1a17cee9074839f09a509d6bfc342d51ee2e7d633807d8",
+    "finishedAt": "2026-11-23T12:47:02+01:00",
+    "staticAfterTimestamp": true
+  },
+  {
+    "id": "contovello-117",
+    "checkedAt": "2026-11-23T11:38:49.423169+00:00",
+    "engine": "Chromium 154.0.8037.57",
+    "method": "Contenuto del singolo HTML caricato offline in Chromium. Desktop e dispositivo touch emulato.",
+    "sourceSha256": "97f1506aee7d96d6413caae766e1fb1ae36d00743c19a1c4a4bd7e4c678fa7e7",
+    "static": {
+      "canvas": true,
+      "selfContained": true,
+      "startTime": true,
+      "finishTime": true,
+      "renderingCode": true
+    },
+    "devices": [
+      {
+        "device": "desktop",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "top0": true,
+          "view1": true,
+          "pixels1": true,
+          "top1": true,
+          "view2": true,
+          "pixels2": true,
+          "top2": true,
+          "view3": true,
+          "pixels3": true,
+          "top3": true,
+          "cycle": true,
+          "orbit": true,
+          "zoom": true,
+          "pan": true,
+          "doubleClick": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      },
+      {
+        "device": "mobile",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "view1": true,
+          "pixels1": true,
+          "view2": true,
+          "pixels2": true,
+          "view3": true,
+          "pixels3": true,
+          "cycle": true,
+          "touchOrbit": true,
+          "pinch": true,
+          "doubleTap": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      }
+    ],
+    "passed": true,
+    "finalSha256": "e67236a7f7f815fb6fe1bc7fa8e11090d41716bdb972c524aa08ab8336b24296",
+    "finishedAt": "2026-11-23T12:47:02+01:00",
+    "staticAfterTimestamp": true
+  },
+  {
+    "id": "santa-croce-75",
+    "checkedAt": "2026-11-23T11:40:43.367771+00:00",
+    "engine": "Chromium 154.0.8037.57",
+    "method": "Contenuto del singolo HTML caricato offline in Chromium. Desktop e dispositivo touch emulato.",
+    "sourceSha256": "d94256292c5c7371f82112cf0f9cd00e777d16dffaee5ccb9e322fe8783f3c25",
+    "static": {
+      "canvas": true,
+      "selfContained": true,
+      "startTime": true,
+      "finishTime": true,
+      "renderingCode": true
+    },
+    "devices": [
+      {
+        "device": "desktop",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "top0": true,
+          "view1": true,
+          "pixels1": true,
+          "top1": true,
+          "view2": true,
+          "pixels2": true,
+          "top2": true,
+          "view3": true,
+          "pixels3": true,
+          "top3": true,
+          "cycle": true,
+          "orbit": true,
+          "zoom": true,
+          "pan": true,
+          "doubleClick": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      },
+      {
+        "device": "mobile",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "view1": true,
+          "pixels1": true,
+          "view2": true,
+          "pixels2": true,
+          "view3": true,
+          "pixels3": true,
+          "cycle": true,
+          "touchOrbit": true,
+          "pinch": true,
+          "doubleTap": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      }
+    ],
+    "passed": true,
+    "finalSha256": "7c264460c23268d49bfc6ede2e5a7b0e628f52a3cfd1060d05799a40b6ca3da6",
+    "finishedAt": "2026-11-23T12:47:02+01:00",
+    "staticAfterTimestamp": true
+  },
+  {
+    "id": "via-marco-valerio-marziale-15-2",
+    "checkedAt": "2026-11-23T11:39:26.153661+00:00",
+    "engine": "Chromium 154.0.8037.57",
+    "method": "Contenuto del singolo HTML caricato offline in Chromium. Desktop e dispositivo touch emulato.",
+    "sourceSha256": "e2b1357d57ffb3895c83e7fe0cbabefa31073854e1039246f10466f277e65636",
+    "static": {
+      "canvas": true,
+      "selfContained": true,
+      "startTime": true,
+      "finishTime": true,
+      "renderingCode": true
+    },
+    "devices": [
+      {
+        "device": "desktop",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "top0": true,
+          "view1": true,
+          "pixels1": true,
+          "top1": true,
+          "cycle": true,
+          "orbit": true,
+          "zoom": true,
+          "pan": true,
+          "doubleClick": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      },
+      {
+        "device": "mobile",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "view1": true,
+          "pixels1": true,
+          "cycle": true,
+          "touchOrbit": true,
+          "pinch": true,
+          "doubleTap": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      }
+    ],
+    "passed": true,
+    "finalSha256": "d93b3f0c10d3f5656fbb5ed33dcb94db1fdc630f05609236ce923bb3806838ff",
+    "finishedAt": "2026-11-23T12:47:02+01:00",
+    "staticAfterTimestamp": true
+  },
+  {
+    "id": "santa-croce-745",
+    "checkedAt": "2026-11-23T11:41:08.236751+00:00",
+    "engine": "Chromium 154.0.8037.57",
+    "method": "Contenuto del singolo HTML caricato offline in Chromium. Desktop e dispositivo touch emulato.",
+    "sourceSha256": "5b76cf09f783af1f57ff9944eb3eb857c529249ffecfa41df02cad90eca2bd51",
+    "static": {
+      "canvas": true,
+      "selfContained": true,
+      "startTime": true,
+      "finishTime": true,
+      "renderingCode": true
+    },
+    "devices": [
+      {
+        "device": "desktop",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "top0": true,
+          "view1": true,
+          "pixels1": true,
+          "top1": true,
+          "view2": true,
+          "pixels2": true,
+          "top2": true,
+          "view3": true,
+          "pixels3": true,
+          "top3": true,
+          "cycle": true,
+          "orbit": true,
+          "zoom": true,
+          "pan": true,
+          "doubleClick": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      },
+      {
+        "device": "mobile",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "view1": true,
+          "pixels1": true,
+          "view2": true,
+          "pixels2": true,
+          "view3": true,
+          "pixels3": true,
+          "cycle": true,
+          "touchOrbit": true,
+          "pinch": true,
+          "doubleTap": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      }
+    ],
+    "passed": true,
+    "finalSha256": "5250aeca54669ad3d02ea7bbd53d013e543b434f8eff14b23409f20fabfcd580",
+    "finishedAt": "2026-11-23T12:47:02+01:00",
+    "staticAfterTimestamp": true
+  },
+  {
+    "id": "via-edgardo-morpurgo-1",
+    "checkedAt": "2026-11-23T11:40:12.841023+00:00",
+    "engine": "Chromium 154.0.8037.57",
+    "method": "Contenuto del singolo HTML caricato offline in Chromium. Desktop e dispositivo touch emulato.",
+    "sourceSha256": "d7ab829ef3dd4d631537d29a87488fa5d9b8a9261db50182904c99ce94739d81",
+    "static": {
+      "canvas": true,
+      "selfContained": true,
+      "startTime": true,
+      "finishTime": true,
+      "renderingCode": true
+    },
+    "devices": [
+      {
+        "device": "desktop",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "top0": true,
+          "view1": true,
+          "pixels1": true,
+          "top1": true,
+          "view2": true,
+          "pixels2": true,
+          "top2": true,
+          "view3": true,
+          "pixels3": true,
+          "top3": true,
+          "cycle": true,
+          "orbit": true,
+          "zoom": true,
+          "pan": true,
+          "doubleClick": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      },
+      {
+        "device": "mobile",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "view1": true,
+          "pixels1": true,
+          "view2": true,
+          "pixels2": true,
+          "view3": true,
+          "pixels3": true,
+          "cycle": true,
+          "touchOrbit": true,
+          "pinch": true,
+          "doubleTap": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      }
+    ],
+    "passed": true,
+    "finalSha256": "b95c5e391a7cc312a77905458f19031b31f32ac0cf39091f8fd34ec8e4028d70",
+    "finishedAt": "2026-11-23T12:47:02+01:00",
+    "staticAfterTimestamp": true
+  },
+  {
+    "id": "via-dei-mulini-44",
+    "checkedAt": "2026-11-23T11:41:30.828623+00:00",
+    "engine": "Chromium 154.0.8037.57",
+    "method": "Contenuto del singolo HTML caricato offline in Chromium. Desktop e dispositivo touch emulato.",
+    "sourceSha256": "98723ce4743294c4e23ebd52a40a93767ae48640b367cc50561d94c9b6d12421",
+    "static": {
+      "canvas": true,
+      "selfContained": true,
+      "startTime": true,
+      "finishTime": true,
+      "renderingCode": true
+    },
+    "devices": [
+      {
+        "device": "desktop",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "top0": true,
+          "view1": true,
+          "pixels1": true,
+          "top1": true,
+          "view2": true,
+          "pixels2": true,
+          "top2": true,
+          "view3": true,
+          "pixels3": true,
+          "top3": true,
+          "cycle": true,
+          "orbit": true,
+          "zoom": true,
+          "pan": true,
+          "doubleClick": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      },
+      {
+        "device": "mobile",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "view1": true,
+          "pixels1": true,
+          "view2": true,
+          "pixels2": true,
+          "view3": true,
+          "pixels3": true,
+          "cycle": true,
+          "touchOrbit": true,
+          "pinch": true,
+          "doubleTap": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      }
+    ],
+    "passed": true,
+    "finalSha256": "83cfa19c0deb49e88d6fb56f0cd48c55b66445cb2381dceed9383ebe87f603d4",
+    "finishedAt": "2026-11-23T12:47:02+01:00",
+    "staticAfterTimestamp": true
+  },
+  {
+    "id": "via-del-panorama-4",
+    "checkedAt": "2026-11-23T11:40:47.835131+00:00",
+    "engine": "Chromium 154.0.8037.57",
+    "method": "Contenuto del singolo HTML caricato offline in Chromium. Desktop e dispositivo touch emulato.",
+    "sourceSha256": "ba00e52a5ee6dd043b663b4c4d01a8ae7aaf4158333f49daa5ab578fc2d5bcf6",
+    "static": {
+      "canvas": true,
+      "selfContained": true,
+      "startTime": true,
+      "finishTime": true,
+      "renderingCode": true
+    },
+    "devices": [
+      {
+        "device": "desktop",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "top0": true,
+          "view1": true,
+          "pixels1": true,
+          "top1": true,
+          "view2": true,
+          "pixels2": true,
+          "top2": true,
+          "view3": true,
+          "pixels3": true,
+          "top3": true,
+          "view4": true,
+          "pixels4": true,
+          "top4": true,
+          "cycle": true,
+          "orbit": true,
+          "zoom": true,
+          "pan": true,
+          "doubleClick": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      },
+      {
+        "device": "mobile",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "view1": true,
+          "pixels1": true,
+          "view2": true,
+          "pixels2": true,
+          "view3": true,
+          "pixels3": true,
+          "view4": true,
+          "pixels4": true,
+          "cycle": true,
+          "touchOrbit": true,
+          "pinch": true,
+          "doubleTap": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      }
+    ],
+    "passed": true,
+    "finalSha256": "ec83fccbdc0bcdedf69e5a64540ff0aebf3234b634b2a0340bace7ccfe6b3417",
+    "finishedAt": "2026-11-23T12:47:02+01:00",
+    "staticAfterTimestamp": true
+  },
+  {
+    "id": "villa-opicina-1904",
+    "checkedAt": "2026-11-23T11:41:52.438538+00:00",
+    "engine": "Chromium 154.0.8037.57",
+    "method": "Contenuto del singolo HTML caricato offline in Chromium. Desktop e dispositivo touch emulato.",
+    "sourceSha256": "256492a6ac940d2af9017cf151b8cfc6b221032e377dbe9b3bc168e7852684d0",
+    "static": {
+      "canvas": true,
+      "selfContained": true,
+      "startTime": true,
+      "finishTime": true,
+      "renderingCode": true
+    },
+    "devices": [
+      {
+        "device": "desktop",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "top0": true,
+          "view1": true,
+          "pixels1": true,
+          "top1": true,
+          "view2": true,
+          "pixels2": true,
+          "top2": true,
+          "cycle": true,
+          "orbit": true,
+          "zoom": true,
+          "pan": true,
+          "doubleClick": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      },
+      {
+        "device": "mobile",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "view1": true,
+          "pixels1": true,
+          "view2": true,
+          "pixels2": true,
+          "cycle": true,
+          "touchOrbit": true,
+          "pinch": true,
+          "doubleTap": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      }
+    ],
+    "passed": true,
+    "finalSha256": "4e4596cdb2e5c8fb76254b61d175dfe815d0113074bee2ada22ffce4e52e684b",
+    "finishedAt": "2026-11-23T12:47:02+01:00",
+    "staticAfterTimestamp": true
+  },
+  {
+    "id": "via-san-pasquale-76",
+    "checkedAt": "2026-11-23T11:41:08.997160+00:00",
+    "engine": "Chromium 154.0.8037.57",
+    "method": "Contenuto del singolo HTML caricato offline in Chromium. Desktop e dispositivo touch emulato.",
+    "sourceSha256": "3c92dd867aa85ed411beb2eb7d91be3db91940c35b2e5c43b8a76fe122218d6a",
+    "static": {
+      "canvas": true,
+      "selfContained": true,
+      "startTime": true,
+      "finishTime": true,
+      "renderingCode": true
+    },
+    "devices": [
+      {
+        "device": "desktop",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "top0": true,
+          "view1": true,
+          "pixels1": true,
+          "top1": true,
+          "view2": true,
+          "pixels2": true,
+          "top2": true,
+          "view3": true,
+          "pixels3": true,
+          "top3": true,
+          "view4": true,
+          "pixels4": true,
+          "top4": true,
+          "cycle": true,
+          "orbit": true,
+          "zoom": true,
+          "pan": true,
+          "doubleClick": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      },
+      {
+        "device": "mobile",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "view1": true,
+          "pixels1": true,
+          "view2": true,
+          "pixels2": true,
+          "view3": true,
+          "pixels3": true,
+          "view4": true,
+          "pixels4": true,
+          "cycle": true,
+          "touchOrbit": true,
+          "pinch": true,
+          "doubleTap": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      }
+    ],
+    "passed": true,
+    "finalSha256": "47da328d053170d8911c768926bf2de6ce8ce0580babf67847d10e02946419d9",
+    "finishedAt": "2026-11-23T12:47:02+01:00",
+    "staticAfterTimestamp": true
+  },
+  {
+    "id": "opicina-centro-225",
+    "checkedAt": "2026-11-23T11:42:21.544844+00:00",
+    "engine": "Chromium 154.0.8037.57",
+    "method": "Contenuto del singolo HTML caricato offline in Chromium. Desktop e dispositivo touch emulato.",
+    "sourceSha256": "f6be18a45e6f788700c7e3909af475477e3d015912e8f090fb3cdb41670926dc",
+    "static": {
+      "canvas": true,
+      "selfContained": true,
+      "startTime": true,
+      "finishTime": true,
+      "renderingCode": true
+    },
+    "devices": [
+      {
+        "device": "desktop",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "top0": true,
+          "view1": true,
+          "pixels1": true,
+          "top1": true,
+          "view2": true,
+          "pixels2": true,
+          "top2": true,
+          "view3": true,
+          "pixels3": true,
+          "top3": true,
+          "cycle": true,
+          "orbit": true,
+          "zoom": true,
+          "pan": true,
+          "doubleClick": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      },
+      {
+        "device": "mobile",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "view1": true,
+          "pixels1": true,
+          "view2": true,
+          "pixels2": true,
+          "view3": true,
+          "pixels3": true,
+          "cycle": true,
+          "touchOrbit": true,
+          "pinch": true,
+          "doubleTap": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      }
+    ],
+    "passed": true,
+    "finalSha256": "5f20fbfb198dd74e7b619bff4f9b35adb275cc16159e85f0d058a74c3c1e0c85",
+    "finishedAt": "2026-11-23T12:47:02+01:00",
+    "staticAfterTimestamp": true
+  },
+  {
+    "id": "vanisella-1-a",
+    "checkedAt": "2026-11-23T11:41:35.794622+00:00",
+    "engine": "Chromium 154.0.8037.57",
+    "method": "Contenuto del singolo HTML caricato offline in Chromium. Desktop e dispositivo touch emulato.",
+    "sourceSha256": "e042d19f6bec7af47e04ea14e9b0f4726976e207e066908cec69d38bfd17dde4",
+    "static": {
+      "canvas": true,
+      "selfContained": true,
+      "startTime": true,
+      "finishTime": true,
+      "renderingCode": true
+    },
+    "devices": [
+      {
+        "device": "desktop",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "top0": true,
+          "view1": true,
+          "pixels1": true,
+          "top1": true,
+          "view2": true,
+          "pixels2": true,
+          "top2": true,
+          "view3": true,
+          "pixels3": true,
+          "top3": true,
+          "cycle": true,
+          "orbit": true,
+          "zoom": true,
+          "pan": true,
+          "doubleClick": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      },
+      {
+        "device": "mobile",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "view1": true,
+          "pixels1": true,
+          "view2": true,
+          "pixels2": true,
+          "view3": true,
+          "pixels3": true,
+          "cycle": true,
+          "touchOrbit": true,
+          "pinch": true,
+          "doubleTap": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      }
+    ],
+    "passed": true,
+    "finalSha256": "8d25106c4ce3cd44281347218054a1033af1aa0bf316092b49141bd045e575d8",
+    "finishedAt": "2026-11-23T12:47:02+01:00",
+    "staticAfterTimestamp": true
+  },
+  {
+    "id": "conconello-69-1",
+    "checkedAt": "2026-11-23T12:09:50.200313+00:00",
+    "engine": "Chromium 154.0.8037.57",
+    "method": "Contenuto del singolo HTML caricato offline in Chromium. Desktop e dispositivo touch emulato.",
+    "sourceSha256": "1f7597770d8cd8edd5579fb998f140b07b651078f84206d29cc16307d73bd469",
+    "static": {
+      "canvas": true,
+      "selfContained": true,
+      "startTime": true,
+      "finishTime": true,
+      "renderingCode": true
+    },
+    "devices": [
+      {
+        "device": "desktop",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "top0": true,
+          "view1": true,
+          "pixels1": true,
+          "top1": true,
+          "view2": true,
+          "pixels2": true,
+          "top2": true,
+          "view3": true,
+          "pixels3": true,
+          "top3": true,
+          "view4": true,
+          "pixels4": true,
+          "top4": true,
+          "cycle": true,
+          "orbit": true,
+          "zoom": true,
+          "pan": true,
+          "doubleClick": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      },
+      {
+        "device": "mobile",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "view1": true,
+          "pixels1": true,
+          "view2": true,
+          "pixels2": true,
+          "view3": true,
+          "pixels3": true,
+          "view4": true,
+          "pixels4": true,
+          "cycle": true,
+          "touchOrbit": true,
+          "pinch": true,
+          "doubleTap": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      }
+    ],
+    "passed": true,
+    "finalSha256": "1f7597770d8cd8edd5579fb998f140b07b651078f84206d29cc16307d73bd469",
+    "finishedAt": "2026-11-23T13:09:36+01:00",
+    "staticAfterTimestamp": true
+  },
+  {
+    "id": "opicina-1179",
+    "checkedAt": "2026-11-23T12:04:21.082155+00:00",
+    "engine": "Chromium 154.0.8037.57",
+    "method": "Contenuto del singolo HTML caricato offline in Chromium. Desktop e dispositivo touch emulato.",
+    "sourceSha256": "7aa5bf21ede1afebda9ed584a93b89a7fb7f408af9fe65e01356b0ab97ee867c",
+    "static": {
+      "canvas": true,
+      "selfContained": true,
+      "startTime": true,
+      "finishTime": true,
+      "renderingCode": true
+    },
+    "devices": [
+      {
+        "device": "desktop",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "top0": true,
+          "view1": true,
+          "pixels1": true,
+          "top1": true,
+          "view2": true,
+          "pixels2": true,
+          "top2": true,
+          "view3": true,
+          "pixels3": true,
+          "top3": true,
+          "cycle": true,
+          "orbit": true,
+          "zoom": true,
+          "pan": true,
+          "doubleClick": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      },
+      {
+        "device": "mobile",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "view1": true,
+          "pixels1": true,
+          "view2": true,
+          "pixels2": true,
+          "view3": true,
+          "pixels3": true,
+          "cycle": true,
+          "touchOrbit": true,
+          "pinch": true,
+          "doubleTap": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      }
+    ],
+    "passed": true,
+    "finalSha256": "7aa5bf21ede1afebda9ed584a93b89a7fb7f408af9fe65e01356b0ab97ee867c",
+    "finishedAt": "2026-11-23T13:03:50+01:00",
+    "staticAfterTimestamp": true
+  },
+  {
+    "id": "via-giuseppe-bruni-1-1",
+    "checkedAt": "2026-11-23T12:03:02.045659+00:00",
+    "engine": "Chromium 154.0.8037.57",
+    "method": "Contenuto del singolo HTML caricato offline in Chromium. Desktop e dispositivo touch emulato.",
+    "sourceSha256": "8d206e0e7194c17fd095142ef62575deab435ab093c1eb088ed7d8b94389b16d",
+    "static": {
+      "canvas": true,
+      "selfContained": true,
+      "startTime": true,
+      "finishTime": true,
+      "renderingCode": true
+    },
+    "devices": [
+      {
+        "device": "desktop",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "top0": true,
+          "view1": true,
+          "pixels1": true,
+          "top1": true,
+          "cycle": true,
+          "orbit": true,
+          "zoom": true,
+          "pan": true,
+          "doubleClick": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      },
+      {
+        "device": "mobile",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "view1": true,
+          "pixels1": true,
+          "cycle": true,
+          "touchOrbit": true,
+          "pinch": true,
+          "doubleTap": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      }
+    ],
+    "passed": true,
+    "finalSha256": "8d206e0e7194c17fd095142ef62575deab435ab093c1eb088ed7d8b94389b16d",
+    "finishedAt": "2026-11-23T13:02:09+01:00",
+    "staticAfterTimestamp": true
+  },
+  {
+    "id": "via-plinio-11",
+    "checkedAt": "2026-11-23T12:08:05.422776+00:00",
+    "engine": "Chromium 154.0.8037.57",
+    "method": "Contenuto del singolo HTML caricato offline in Chromium. Desktop e dispositivo touch emulato.",
+    "sourceSha256": "60289b81132558c4a97e8b63a49e2b95cc8b43e18f9a006b4b319fb6a3184150",
+    "static": {
+      "canvas": true,
+      "selfContained": true,
+      "startTime": true,
+      "finishTime": true,
+      "renderingCode": true
+    },
+    "devices": [
+      {
+        "device": "desktop",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "top0": true,
+          "view1": true,
+          "pixels1": true,
+          "top1": true,
+          "view2": true,
+          "pixels2": true,
+          "top2": true,
+          "view3": true,
+          "pixels3": true,
+          "top3": true,
+          "cycle": true,
+          "orbit": true,
+          "zoom": true,
+          "pan": true,
+          "doubleClick": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      },
+      {
+        "device": "mobile",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "view1": true,
+          "pixels1": true,
+          "view2": true,
+          "pixels2": true,
+          "view3": true,
+          "pixels3": true,
+          "cycle": true,
+          "touchOrbit": true,
+          "pinch": true,
+          "doubleTap": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      }
+    ],
+    "passed": true,
+    "finalSha256": "60289b81132558c4a97e8b63a49e2b95cc8b43e18f9a006b4b319fb6a3184150",
+    "finishedAt": "2026-11-23T13:07:37+01:00",
+    "staticAfterTimestamp": true
+  },
+  {
+    "id": "timignano-26",
+    "checkedAt": "2026-11-23T12:09:02.002688+00:00",
+    "engine": "Chromium 154.0.8037.57",
+    "method": "Contenuto del singolo HTML caricato offline in Chromium. Desktop e dispositivo touch emulato.",
+    "sourceSha256": "a62d2c8079eef5ad8e1ea6cc9a9da5b3e8dfaf2ea8fcb22a171fd9664d28f043",
+    "static": {
+      "canvas": true,
+      "selfContained": true,
+      "startTime": true,
+      "finishTime": true,
+      "renderingCode": true
+    },
+    "devices": [
+      {
+        "device": "desktop",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "top0": true,
+          "view1": true,
+          "pixels1": true,
+          "top1": true,
+          "view2": true,
+          "pixels2": true,
+          "top2": true,
+          "cycle": true,
+          "orbit": true,
+          "zoom": true,
+          "pan": true,
+          "doubleClick": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      },
+      {
+        "device": "mobile",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "view1": true,
+          "pixels1": true,
+          "view2": true,
+          "pixels2": true,
+          "cycle": true,
+          "touchOrbit": true,
+          "pinch": true,
+          "doubleTap": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      }
+    ],
+    "passed": true,
+    "finalSha256": "a62d2c8079eef5ad8e1ea6cc9a9da5b3e8dfaf2ea8fcb22a171fd9664d28f043",
+    "finishedAt": "2026-11-23T13:07:37+01:00",
+    "staticAfterTimestamp": true
+  },
+  {
+    "id": "opicina-villa-legno-133801130",
+    "checkedAt": "2026-11-23T12:05:02.986127+00:00",
+    "engine": "Chromium 154.0.8037.57",
+    "method": "Contenuto del singolo HTML caricato offline in Chromium. Desktop e dispositivo touch emulato.",
+    "sourceSha256": "e7ad73d8b38366dae034db1f1507064bdc7c8a0b4b9f6894fdc8a8a456f3d16f",
+    "static": {
+      "canvas": true,
+      "selfContained": true,
+      "startTime": true,
+      "finishTime": true,
+      "renderingCode": true
+    },
+    "devices": [
+      {
+        "device": "desktop",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "top0": true,
+          "view1": true,
+          "pixels1": true,
+          "top1": true,
+          "view2": true,
+          "pixels2": true,
+          "top2": true,
+          "cycle": true,
+          "orbit": true,
+          "zoom": true,
+          "pan": true,
+          "doubleClick": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      },
+      {
+        "device": "mobile",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "view1": true,
+          "pixels1": true,
+          "view2": true,
+          "pixels2": true,
+          "cycle": true,
+          "touchOrbit": true,
+          "pinch": true,
+          "doubleTap": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      }
+    ],
+    "passed": true,
+    "finalSha256": "e7ad73d8b38366dae034db1f1507064bdc7c8a0b4b9f6894fdc8a8a456f3d16f",
+    "finishedAt": "2026-11-23T13:04:50+01:00",
+    "staticAfterTimestamp": true
+  },
+  {
+    "id": "via-baiardi-88",
+    "checkedAt": "2026-11-23T12:13:20.790119+00:00",
+    "engine": "Chromium 154.0.8037.57",
+    "method": "Contenuto del singolo HTML caricato offline in Chromium. Desktop e dispositivo touch emulato.",
+    "sourceSha256": "093bff5d06bbbc2b6cc08128718c3eff941db1356ae8254a3654db795817a694",
+    "static": {
+      "canvas": true,
+      "selfContained": true,
+      "startTime": true,
+      "finishTime": true,
+      "renderingCode": true
+    },
+    "devices": [
+      {
+        "device": "desktop",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "top0": true,
+          "view1": true,
+          "pixels1": true,
+          "top1": true,
+          "view2": true,
+          "pixels2": true,
+          "top2": true,
+          "view3": true,
+          "pixels3": true,
+          "top3": true,
+          "cycle": true,
+          "orbit": true,
+          "zoom": true,
+          "pan": true,
+          "doubleClick": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      },
+      {
+        "device": "mobile",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "view1": true,
+          "pixels1": true,
+          "view2": true,
+          "pixels2": true,
+          "view3": true,
+          "pixels3": true,
+          "cycle": true,
+          "touchOrbit": true,
+          "pinch": true,
+          "doubleTap": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      }
+    ],
+    "passed": true,
+    "finalSha256": "093bff5d06bbbc2b6cc08128718c3eff941db1356ae8254a3654db795817a694",
+    "finishedAt": "2026-11-23T13:12:48+01:00",
+    "staticAfterTimestamp": true
+  },
+  {
+    "id": "fontanella-villa-grezzo-129398656",
+    "checkedAt": "2026-11-23T12:11:52.437311+00:00",
+    "engine": "Chromium 154.0.8037.57",
+    "method": "Contenuto del singolo HTML caricato offline in Chromium. Desktop e dispositivo touch emulato.",
+    "sourceSha256": "269b27296aefce4178bf026d923846463b8d4ab3e0401399853651b8f3cbdad0",
+    "static": {
+      "canvas": true,
+      "selfContained": true,
+      "startTime": true,
+      "finishTime": true,
+      "renderingCode": true
+    },
+    "devices": [
+      {
+        "device": "desktop",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "top0": true,
+          "view1": true,
+          "pixels1": true,
+          "top1": true,
+          "view2": true,
+          "pixels2": true,
+          "top2": true,
+          "cycle": true,
+          "orbit": true,
+          "zoom": true,
+          "pan": true,
+          "doubleClick": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      },
+      {
+        "device": "mobile",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "view1": true,
+          "pixels1": true,
+          "view2": true,
+          "pixels2": true,
+          "cycle": true,
+          "touchOrbit": true,
+          "pinch": true,
+          "doubleTap": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      }
+    ],
+    "passed": true,
+    "testedSceneSha256": "23a462b28b01fb142cc9fc8620e9fa236bcd2a400b3e4a16b14c3130f5d1467a",
+    "finalSha256": "269b27296aefce4178bf026d923846463b8d4ab3e0401399853651b8f3cbdad0",
+    "finishedAt": "2026-11-23T13:13:24+01:00",
+    "staticAfterTimestamp": true,
+    "geometryReview": "Rilettura dei fronti fotografati, del rapporto tra i due livelli affacciati sul cortile, dei pilastri, della scala e della terrazza. Dimensioni e raccordi di copertura dedotti dalle fotografie."
+  },
+  {
+    "id": "puglie-di-domio-55075263",
+    "checkedAt": "2026-11-23T12:11:23.080606+00:00",
+    "engine": "Chromium 154.0.8037.57",
+    "method": "Contenuto del singolo HTML caricato offline in Chromium. Desktop e dispositivo touch emulato.",
+    "sourceSha256": "bf605ff84c0b91680bff19ca94792f24ec7157bad5770025be542f82416e8e36",
+    "static": {
+      "canvas": true,
+      "selfContained": true,
+      "startTime": true,
+      "finishTime": true,
+      "renderingCode": true
+    },
+    "devices": [
+      {
+        "device": "desktop",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "top0": true,
+          "view1": true,
+          "pixels1": true,
+          "top1": true,
+          "view2": true,
+          "pixels2": true,
+          "top2": true,
+          "view3": true,
+          "pixels3": true,
+          "top3": true,
+          "cycle": true,
+          "orbit": true,
+          "zoom": true,
+          "pan": true,
+          "doubleClick": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      },
+      {
+        "device": "mobile",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "view1": true,
+          "pixels1": true,
+          "view2": true,
+          "pixels2": true,
+          "view3": true,
+          "pixels3": true,
+          "cycle": true,
+          "touchOrbit": true,
+          "pinch": true,
+          "doubleTap": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      }
+    ],
+    "passed": true,
+    "testedSceneSha256": "a0181459e2f88976faff23bda1b40ca4862472ccf7a88b95a0385fb56bbbdba4",
+    "finalSha256": "bf605ff84c0b91680bff19ca94792f24ec7157bad5770025be542f82416e8e36",
+    "finishedAt": "2026-11-23T13:13:24+01:00",
+    "staticAfterTimestamp": true,
+    "geometryReview": "Contorni e divisori riletti contro le tre tavole p02, p04 e p05. Le sezioni a 1,35 metri delle mesh disegnate da WebGL sono proiettate nei pixel originali. Per il piano abitativo la scala isotropa è di circa 0,0157 m per pixel, dedotta dalle due camere da circa 18 m². Il piano terra è registrato sul medesimo fronte. Il deposito rimane in una vista separata."
+  },
+  {
+    "id": "salita-di-raute-mazzini-659",
+    "checkedAt": "2026-11-23T12:12:40.179031+00:00",
+    "engine": "Chromium 154.0.8037.57",
+    "method": "Contenuto del singolo HTML caricato offline in Chromium. Desktop e dispositivo touch emulato.",
+    "sourceSha256": "f09db70f2374ba819421c770bc7fe2ef2439cf29436cc228716c3a54fa66509c",
+    "static": {
+      "canvas": true,
+      "selfContained": true,
+      "startTime": true,
+      "finishTime": true,
+      "renderingCode": true
+    },
+    "devices": [
+      {
+        "device": "desktop",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "top0": true,
+          "view1": true,
+          "pixels1": true,
+          "top1": true,
+          "view2": true,
+          "pixels2": true,
+          "top2": true,
+          "cycle": true,
+          "orbit": true,
+          "zoom": true,
+          "pan": true,
+          "doubleClick": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      },
+      {
+        "device": "mobile",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "view1": true,
+          "pixels1": true,
+          "view2": true,
+          "pixels2": true,
+          "cycle": true,
+          "touchOrbit": true,
+          "pinch": true,
+          "doubleTap": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      }
+    ],
+    "passed": true,
+    "finalSha256": "f09db70f2374ba819421c770bc7fe2ef2439cf29436cc228716c3a54fa66509c",
+    "coverage": "exterior_only"
+  },
+  {
+    "id": "via-dei-baseggio-39",
+    "checkedAt": "2026-11-23T12:15:08.335700+00:00",
+    "engine": "Chromium 154.0.8037.57",
+    "method": "Contenuto del singolo HTML caricato offline in Chromium. Desktop e dispositivo touch emulato.",
+    "sourceSha256": "52ad8479dad1ca1c7fff12982dbef7d573bc7244ba4bdc66da5d1cda7212d875",
+    "static": {
+      "canvas": true,
+      "selfContained": true,
+      "startTime": true,
+      "finishTime": true,
+      "renderingCode": true
+    },
+    "devices": [
+      {
+        "device": "desktop",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "top0": true,
+          "view1": true,
+          "pixels1": true,
+          "top1": true,
+          "view2": true,
+          "pixels2": true,
+          "top2": true,
+          "cycle": true,
+          "orbit": true,
+          "zoom": true,
+          "pan": true,
+          "doubleClick": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      },
+      {
+        "device": "mobile",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "view1": true,
+          "pixels1": true,
+          "view2": true,
+          "pixels2": true,
+          "cycle": true,
+          "touchOrbit": true,
+          "pinch": true,
+          "doubleTap": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      }
+    ],
+    "passed": true,
+    "finalSha256": "52ad8479dad1ca1c7fff12982dbef7d573bc7244ba4bdc66da5d1cda7212d875",
+    "finishedAt": "2026-11-23T13:14:20+01:00",
+    "staticAfterTimestamp": true
+  },
+  {
+    "id": "strada-del-friuli-293",
+    "checkedAt": "2026-11-23T12:14:44.676466+00:00",
+    "engine": "Chromium 154.0.8037.57",
+    "method": "Contenuto del singolo HTML caricato offline in Chromium. Desktop e dispositivo touch emulato.",
+    "sourceSha256": "bc95825c56e26c95542ee4e267efdeb0aabfa4c67f401e756d02a64d8e13663a",
+    "static": {
+      "canvas": true,
+      "selfContained": true,
+      "startTime": true,
+      "finishTime": true,
+      "renderingCode": true
+    },
+    "devices": [
+      {
+        "device": "desktop",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "top0": true,
+          "view1": true,
+          "pixels1": true,
+          "top1": true,
+          "view2": true,
+          "pixels2": true,
+          "top2": true,
+          "view3": true,
+          "pixels3": true,
+          "top3": true,
+          "view4": true,
+          "pixels4": true,
+          "top4": true,
+          "cycle": true,
+          "orbit": true,
+          "zoom": true,
+          "pan": true,
+          "doubleClick": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      },
+      {
+        "device": "mobile",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "view1": true,
+          "pixels1": true,
+          "view2": true,
+          "pixels2": true,
+          "view3": true,
+          "pixels3": true,
+          "view4": true,
+          "pixels4": true,
+          "cycle": true,
+          "touchOrbit": true,
+          "pinch": true,
+          "doubleTap": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      }
+    ],
+    "passed": true,
+    "finalSha256": "bc95825c56e26c95542ee4e267efdeb0aabfa4c67f401e756d02a64d8e13663a",
+    "finishedAt": "2026-11-23T13:12:48+01:00",
+    "staticAfterTimestamp": true
+  },
+  {
+    "id": "via-dei-pagliaricci-villa-55248385",
+    "checkedAt": "2026-11-23T12:12:51.755017+00:00",
+    "engine": "Chromium 154.0.8037.57",
+    "method": "Contenuto del singolo HTML caricato offline in Chromium. Desktop e dispositivo touch emulato.",
+    "sourceSha256": "906c6d12e833407252342761f99cb3069ae700975042ed6f767d3c1b7842eb22",
+    "static": {
+      "canvas": true,
+      "selfContained": true,
+      "startTime": true,
+      "finishTime": true,
+      "renderingCode": true
+    },
+    "devices": [
+      {
+        "device": "desktop",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "top0": true,
+          "view1": true,
+          "pixels1": true,
+          "top1": true,
+          "view2": true,
+          "pixels2": true,
+          "top2": true,
+          "cycle": true,
+          "orbit": true,
+          "zoom": true,
+          "pan": true,
+          "doubleClick": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      },
+      {
+        "device": "mobile",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "view1": true,
+          "pixels1": true,
+          "view2": true,
+          "pixels2": true,
+          "cycle": true,
+          "touchOrbit": true,
+          "pinch": true,
+          "doubleTap": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      }
+    ],
+    "passed": true,
+    "testedSceneSha256": "7e3be1d25d0c56b217ffe1e1b6dbc0778c2e454c0823d5f6ccedda6542f6fdda",
+    "finalSha256": "906c6d12e833407252342761f99cb3069ae700975042ed6f767d3c1b7842eb22",
+    "finishedAt": "2026-11-23T13:13:24+01:00",
+    "staticAfterTimestamp": true,
+    "geometryReview": "Rilettura del tratto di portico, della recinzione, del prato, del tavolo e delle sedute fotografati. L’involucro completo non è modellato. L’agenzia pubblica l’indirizzo oscurato in entrambe le schede."
+  },
+  {
+    "id": "scorcola-villa-126673705",
+    "checkedAt": "2026-11-23T12:12:15.694400+00:00",
+    "engine": "Chromium 154.0.8037.57",
+    "method": "Contenuto del singolo HTML caricato offline in Chromium. Desktop e dispositivo touch emulato.",
+    "sourceSha256": "a83597f337f47e2ec065e8f4d7249d40eb32eb4006cf5b123c8e919c1452e58c",
+    "static": {
+      "canvas": true,
+      "selfContained": true,
+      "startTime": true,
+      "finishTime": true,
+      "renderingCode": true
+    },
+    "devices": [
+      {
+        "device": "desktop",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "top0": true,
+          "view1": true,
+          "pixels1": true,
+          "top1": true,
+          "view2": true,
+          "pixels2": true,
+          "top2": true,
+          "view3": true,
+          "pixels3": true,
+          "top3": true,
+          "cycle": true,
+          "orbit": true,
+          "zoom": true,
+          "pan": true,
+          "doubleClick": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      },
+      {
+        "device": "mobile",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "view1": true,
+          "pixels1": true,
+          "view2": true,
+          "pixels2": true,
+          "view3": true,
+          "pixels3": true,
+          "cycle": true,
+          "touchOrbit": true,
+          "pinch": true,
+          "doubleTap": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      }
+    ],
+    "passed": true,
+    "finalSha256": "a83597f337f47e2ec065e8f4d7249d40eb32eb4006cf5b123c8e919c1452e58c",
+    "coverage": "partial"
+  },
+  {
+    "id": "via-delle-campanelle-252",
+    "checkedAt": "2026-11-23T12:11:16.296852+00:00",
+    "engine": "Chromium 154.0.8037.57",
+    "method": "Contenuto del singolo HTML caricato offline in Chromium. Desktop e dispositivo touch emulato.",
+    "sourceSha256": "573729dd714d91167adb791500b2e5169075db03599617e2b737beda134ede05",
+    "static": {
+      "canvas": true,
+      "selfContained": true,
+      "startTime": true,
+      "finishTime": true,
+      "renderingCode": true
+    },
+    "devices": [
+      {
+        "device": "desktop",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "top0": true,
+          "view1": true,
+          "pixels1": true,
+          "top1": true,
+          "view2": true,
+          "pixels2": true,
+          "top2": true,
+          "cycle": true,
+          "orbit": true,
+          "zoom": true,
+          "pan": true,
+          "doubleClick": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      },
+      {
+        "device": "mobile",
+        "checks": {
+          "viewCount": true,
+          "noVisibleText": true,
+          "view0": true,
+          "pixels0": true,
+          "view1": true,
+          "pixels1": true,
+          "view2": true,
+          "pixels2": true,
+          "cycle": true,
+          "touchOrbit": true,
+          "pinch": true,
+          "doubleTap": true,
+          "reset": true
+        },
+        "errors": [],
+        "requests": [],
+        "passed": true
+      }
+    ],
+    "passed": true,
+    "finalSha256": "573729dd714d91167adb791500b2e5169075db03599617e2b737beda134ede05",
+    "coverage": "partial"
+  }
+]

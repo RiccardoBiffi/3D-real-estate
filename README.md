@@ -1,6 +1,6 @@
 # Case in 3D
 
-Catalogo immobiliare pubblico statico in italiano. La ricerca contiene 67 immobili distinti e 26 modelli approvati; ogni scheda distingue i dati dell’annuncio, le verifiche di pubblicazione e lo stato della ricostruzione. Gli unici stati sono «Pubblicato» e «Archiviato»: basta una pagina diretta di agenzia o aggregatore con titolo, prezzo e informazioni dell’esatto immobile per pubblicarlo; senza alcuna fonte fresca leggibile viene archiviato, anche se gli accessi sono bloccati. Nessuno dei due stati certifica una vendita o la disponibilità confermata dal venditore. I risultati indicizzati non valgono come prova. Non sono pubblicati la trascrizione privata della chat o i file di lavoro.
+Catalogo immobiliare di Trieste e dintorni con 90 schede. «Pubblicato» indica che una fonte online permette di identificare la casa. «Archiviato» indica che l’ultimo controllo non ha confermato una scheda dello stesso immobile. La consultabilità di un annuncio e la disponibilità commerciale possono divergere.
 
 ## Avvio locale
 
@@ -8,20 +8,20 @@ Servire soltanto la cartella `dist`:
 
     python3 -m http.server 8765 --bind 127.0.0.1 --directory dist
 
-Il catalogo pubblico è `dist/data/catalog.json`. Non occorrono database, account o servizi di scrittura. I modelli approvati sono HTML autonomi con Three.js incorporato e funzionano offline con WebGL. La pagina del catalogo richiede un server HTTP per leggere il JSON.
+Il catalogo pubblico è `dist/data/catalog.json`. Non occorrono database, account o servizi di scrittura. I modelli sono HTML autonomi e funzionano offline con WebGL. La pagina del catalogo richiede un server HTTP per leggere il JSON.
 
 ## Navigazione e copertura
 
 Ricerca testuale e filtri per località, disponibilità e presenza del modello. Un solo modello viene caricato alla volta; le viste derivano dal numero effettivo di livelli. I collegamenti storici `#aurisina` e `#muggia` restano validi. Comandi e informazioni sono esterni alla scena.
 
-Il catalogo espone 26 modelli approvati. Alcuni annunci pubblicati il 25 ottobre 2026 sono ancora privi di modello: una ricostruzione diventa visibile soltanto dopo acquisizione delle fonti, confronto geometrico e QA. I modelli parziali riportano nella scheda e sopra la scena l’elenco dei volumi presenti nell’annuncio ma non renderizzati. Opicina Tecnocasa comprende tre livelli con rampe e pertinenze omesse; Gianelli 7, Collio 9 e Fontanella rif.609 comprendono i soli esterni documentabili. Le parti documentate dalle piante sono ricalcate senza specchiatura o deformazione indipendente degli assi; le dimensioni non quotate, gli arredi e il contesto sono stime dichiarate. Gli ambienti non documentati non vengono inventati. Destinazioni catastali e abitabilità non sono certificate dal modello.
+La raccolta del 23 novembre 2026 comprende 70 modelli rigenerati. Si possono esplorare i piani di 56 immobili e gli esterni documentati di altri 14. Ogni scheda raccoglie le fotografie, le tavole utilizzate, le parti omesse e i confronti con la geometria. Le dimensioni prive di quota e il mobilio sono stime. [Consulta la raccolta di foto e planimetrie](dist/ricostruzioni/2026-11-23/index.html).
 
 ## Aggiornamento e verifica
 
 Gli script in `scripts` importano messaggi identificati da ID e hash completo, preservano lo storico prezzi, distinguono annunci assenti da errori temporanei e generano il catalogo in modo atomico. Un modello diventa visibile soltanto con QA statico/browser, confronto geometrico e una seconda revisione delle fonti riferiti al medesimo hash HTML. Questa seconda lettura può essere svolta dallo stesso esecutore e non implica una verifica umana indipendente. La pubblicazione non è dedotta dalla sola presenza della casa nella chat o da una pagina indicizzata.
 
     python3 scripts/test-catalog-workflow.py
-    python3 scripts/validate-catalog.py dist/data/catalog.json --dist dist --work ../work --expected 67
+    python3 scripts/validate-catalog.py dist/data/catalog.json --dist dist --work work --baseline-commit 1b6c0bc244eba8409e893df35e39f47049864381 --expected 90
 
 Le prove browser usano Chromium desktop/mobile emulato con rendering software. Non equivalgono a prove su dispositivi fisici. I metadati di inizio/fine includono eventuali interruzioni della lavorazione, non misurano le sole ore attive.
 
@@ -35,4 +35,4 @@ Il completamento del popolamento iniziale e l’attivazione dell’aggiornamento
 
 Il catalogo del 15 novembre 2026 deriva dalla versione 14 di Sites, integrata su GitHub con un merge che conserva le due cronologie. I modelli nuovi aggiornano solo il campo del modello nelle schede pubblicate. Ogni modello approvato ha un HTML autonomo e verificato offline. Le note della scheda indicano quali parti sono rappresentate e quali volumi mancano.
 
-Lo script `integrate-reviewed-models.py` verifica gli hash degli artefatti e richiede un esito di QA e revisione indipendente per i nuovi modelli. `stage-release.py --baseline-commit <SHA completo>` conserva i modelli identici alla versione distribuita e prepara la cartella pubblica `out`. Le evidenze originali e i rapporti di lavoro restano separati dal pacchetto.
+Lo script `integrate-reviewed-models.py` verifica gli hash degli artefatti e richiede un esito di QA e revisione indipendente per i nuovi modelli. `stage-release.py --baseline-commit <SHA completo>` conserva i modelli identici alla versione distribuita e prepara la cartella pubblica `out`. La raccolta pubblica include le tavole, le fotografie e gli esiti delle verifiche elencati nel suo indice.

@@ -1,0 +1,66 @@
+{
+  "id": "via-dell-hermada",
+  "status": "ready",
+  "path": "modelli/via-dell-hermada.html",
+  "views": [
+    {
+      "label": "Portico e fronti del progetto",
+      "level": null,
+      "camera": {
+        "yaw": -0.6,
+        "pitch": 0.45,
+        "distance": 24,
+        "target": [
+          4.8,
+          1.4,
+          4.3
+        ]
+      }
+    },
+    {
+      "label": "Vista laterale del progetto",
+      "level": null,
+      "camera": {
+        "yaw": 0.9,
+        "pitch": 0.55,
+        "distance": 24,
+        "target": [
+          4.8,
+          1.4,
+          4.3
+        ]
+      }
+    }
+  ],
+  "notes": [
+    "Prospetti del progetto con intonaco chiaro, serramenti scuri e pergola. Nessun arredo installato documentato.",
+    "Involucro ricostruito dalle immagini. Le dimensioni e le profondità sono indicative."
+  ],
+  "verifiedAt": "2026-11-23T12:47:02+01:00",
+  "artifactSha256": "1a5058557e5ac24759770a9bc773c621e53fdb39a9913ebeec59cb7e00051c9b",
+  "sourcePlans": [],
+  "unrenderedVolumes": [
+    "Interni, tramezzi, retro non visibile e distribuzione delle camere.",
+    "Giardino e confini di proprietà; unità e edifici vicini mostrati nei render.",
+    "Stato costruito attuale: questo è il progetto pubblicizzato, non un rilievo dell’opera realizzata."
+  ],
+  "coverage": "exterior_only",
+  "preview": "assets/via-dell-hermada.jpg",
+  "qa": {
+    "staticPassed": true,
+    "browserPassed": true,
+    "geometryPassed": true,
+    "orthographicPassed": null
+  },
+  "fidelity": {
+    "passed": true,
+    "basis": "Riesame visivo dei fronti fotografati e delle parti modellate."
+  },
+  "independentReview": {
+    "passed": true,
+    "artifactSha256": "1a5058557e5ac24759770a9bc773c621e53fdb39a9913ebeec59cb7e00051c9b",
+    "method": "Seconda lettura di fotografie, viste renderizzate e sovrapposizioni disponibili. Le misure e le parti omesse sono dichiarate nella scheda."
+  },
+  "evidenceIndex": "ricostruzioni/2026-11-23/index.html#via-dell-hermada",
+  "browserReport": "ricostruzioni/2026-11-23/verifiche/risultati.json"
+}

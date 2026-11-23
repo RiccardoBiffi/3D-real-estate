@@ -1,0 +1,73 @@
+{
+  "id": "via-san-pasquale-76",
+  "status": "ready",
+  "path": "modelli/via-san-pasquale-76.html",
+  "views": [
+    {
+      "label": "Esterno",
+      "level": null
+    },
+    {
+      "label": "Abitazione · primo piano",
+      "level": 0
+    },
+    {
+      "label": "Locale d’affari · corpo 1",
+      "level": 1
+    },
+    {
+      "label": "Locali accessori",
+      "level": 2
+    },
+    {
+      "label": "Autorimessa",
+      "level": 3
+    }
+  ],
+  "notes": [
+    "Divano verde, tavolo in legno e pannellatura scura, cucina bianca e letto matrimoniale con tessuto floreale.",
+    "I contorni e le divisioni seguono le tavole indicate. Le misure assolute prive di quota, alcune aperture, le altezze e le dimensioni dei mobili sono stime."
+  ],
+  "verifiedAt": "2026-11-23T12:47:02+01:00",
+  "artifactSha256": "47da328d053170d8911c768926bf2de6ce8ce0580babf67847d10e02946419d9",
+  "sourcePlans": [
+    {
+      "label": "Via_San_Pasquale_N._761_Piano_1_Trieste_TRIESTE_17",
+      "url": "https://pic.im-cdn.it/plan/129777796/xxl.jpg"
+    },
+    {
+      "label": "Via_San_Pasquale_N._761_Piano_1_Trieste_TRIESTE_17",
+      "url": "https://pic.im-cdn.it/plan/129777802/xxl.jpg"
+    },
+    {
+      "label": "Via_San_Pasquale_N._761_Piano_T_Trieste_TRIESTE_17",
+      "url": "https://pic.im-cdn.it/plan/129777808/xxl.jpg"
+    },
+    {
+      "label": "Via_San_Pasquale_N._761_Piano_T_Trieste_TRIESTE_17",
+      "url": "https://pic.im-cdn.it/plan/129777816/xxl.jpg"
+    }
+  ],
+  "unrenderedVolumes": [
+    "Posizione esatta dei locali accessori e dell’autorimessa rispetto all’abitazione, rampe e aree esterne."
+  ],
+  "coverage": "partial",
+  "preview": "assets/via-san-pasquale-76.jpg",
+  "qa": {
+    "staticPassed": true,
+    "browserPassed": true,
+    "geometryPassed": true,
+    "orthographicPassed": true
+  },
+  "fidelity": {
+    "passed": true,
+    "basis": "Riesame visivo dei fronti fotografati e delle parti modellate."
+  },
+  "independentReview": {
+    "passed": true,
+    "artifactSha256": "47da328d053170d8911c768926bf2de6ce8ce0580babf67847d10e02946419d9",
+    "method": "Seconda lettura di fotografie, viste renderizzate e sovrapposizioni disponibili. Le misure e le parti omesse sono dichiarate nella scheda."
+  },
+  "evidenceIndex": "ricostruzioni/2026-11-23/index.html#via-san-pasquale-76",
+  "browserReport": "ricostruzioni/2026-11-23/verifiche/risultati.json"
+}

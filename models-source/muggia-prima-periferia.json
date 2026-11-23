@@ -1,1116 +1,1024 @@
 {
-  "id": "muggia-prima-periferia",
-  "title": "Villa singola nella prima periferia di Muggia",
-  "creationStarted": "2026-11-09T21:16:39.587122+00:00",
-  "coverage": "exterior_only",
-  "unrenderedVolumes": [
-    "Tutti gli interni dell’abitazione principale, mansarda e taverna da circa 86 m² ciascuna: la galleria completa non contiene planimetrie.",
-    "Garage doppio separato da circa 28 m²: la sua sagoma e posizione non sono identificabili con certezza nelle fotografie.",
-    "Dettagli della facciata posteriore non fotografata, confini completi e dislivelli del giardino da circa 540 m²."
-  ],
-  "geometrySource": "multi-view-exact-agency-photograph-inferred-exterior-no-invented-interiors",
-  "sources": [
-    {
-      "id": "F0",
-      "url": "https://www.bgrealestate.it/uploads/1791209745825-ce5701a8.png",
-      "pageUrl": "https://www.bgrealestate.it/properties.json",
-      "sha256": "5417d0049f003346297986d3f02b430922261adfcb178dd2e8324c553e29cdb5",
-      "type": "photograph",
-      "actuallyInspected": true
-    },
-    {
-      "id": "F1",
-      "url": "https://www.bgrealestate.it/uploads/1791209778831-f296590b.png",
-      "pageUrl": "https://www.bgrealestate.it/properties.json",
-      "sha256": "141e3b9e5f9cc8d40b4a7788fc35dc2cae399062b6067bcd7a22f3d4ba82bf16",
-      "type": "photograph",
-      "actuallyInspected": true
-    },
-    {
-      "id": "F2",
-      "url": "https://www.bgrealestate.it/uploads/1791209787563-4b41d7dd.png",
-      "pageUrl": "https://www.bgrealestate.it/properties.json",
-      "sha256": "2a3629758e56f0798623353d8de5c82dbe6f27adf348eadd87a010c9fa496027",
-      "type": "photograph",
-      "actuallyInspected": true
-    },
-    {
-      "id": "F3",
-      "url": "https://www.bgrealestate.it/uploads/1791209797107-45438422.png",
-      "pageUrl": "https://www.bgrealestate.it/properties.json",
-      "sha256": "3b7998b4cd4d962bea56b883d346ced0da7da5cd67866a5f298df9c326cf34a2",
-      "type": "photograph",
-      "actuallyInspected": true
-    },
-    {
-      "id": "F4",
-      "url": "https://www.bgrealestate.it/uploads/1791209810346-4827990f.png",
-      "pageUrl": "https://www.bgrealestate.it/properties.json",
-      "sha256": "db2ae5240d14f75d44bc379f905c9abf7913079406e2b8b6c7292d354ca5411c",
-      "type": "photograph",
-      "actuallyInspected": true
-    },
-    {
-      "id": "F5",
-      "url": "https://www.bgrealestate.it/uploads/1791209823338-77a9647f.png",
-      "pageUrl": "https://www.bgrealestate.it/properties.json",
-      "sha256": "199c59ef6d4dd6091e9040dacc820a7b69171e4982ad0149dcc739f42ec0082d",
-      "type": "photograph",
-      "actuallyInspected": true
-    },
-    {
-      "id": "F6",
-      "url": "https://www.bgrealestate.it/uploads/1791209836172-abe6aded.png",
-      "pageUrl": "https://www.bgrealestate.it/properties.json",
-      "sha256": "fb31f408a122fc22b3d41f31e02c646b9754683d7293e6cbd1e48c039140cc97",
-      "type": "photograph",
-      "actuallyInspected": true
-    },
-    {
-      "id": "F7",
-      "url": "https://www.bgrealestate.it/uploads/1791209847992-35ea5ae0.png",
-      "pageUrl": "https://www.bgrealestate.it/properties.json",
-      "sha256": "ce927ecefb947f96f9e1b23913c5f3d631a79174a13ecf5f889549a6182d5b09",
-      "type": "photograph",
-      "actuallyInspected": true
-    },
-    {
-      "id": "F8",
-      "url": "https://www.bgrealestate.it/uploads/1791209867783-816e15ec.png",
-      "pageUrl": "https://www.bgrealestate.it/properties.json",
-      "sha256": "8c882266f3edb1b4d0b4b93f89d3171471343f6a770aa05ea26e2fb4d38cc532",
-      "type": "photograph",
-      "actuallyInspected": true
-    },
-    {
-      "id": "F9",
-      "url": "https://www.bgrealestate.it/uploads/1791209881641-946d7d81.png",
-      "pageUrl": "https://www.bgrealestate.it/properties.json",
-      "sha256": "7427eb3f6298679a66ffe83ad71e09d3bda6e16f4048c0cfff914187d8f36020",
-      "type": "photograph",
-      "actuallyInspected": true
-    },
-    {
-      "id": "F10",
-      "url": "https://www.bgrealestate.it/uploads/1791209896661-61d91b8b.png",
-      "pageUrl": "https://www.bgrealestate.it/properties.json",
-      "sha256": "11f55b73892b1bdb131005c7266ec3910160ab71926ddaa2ff68a7987cf4e4f8",
-      "type": "photograph",
-      "actuallyInspected": true
-    },
-    {
-      "id": "F11",
-      "url": "https://www.bgrealestate.it/uploads/1791209917760-70a481fb.png",
-      "pageUrl": "https://www.bgrealestate.it/properties.json",
-      "sha256": "86c8cac98b2d9d19960798b018d7891be69174e2f01d39f15edf372057a9f1d4",
-      "type": "photograph",
-      "actuallyInspected": true
-    },
-    {
-      "id": "F12",
-      "url": "https://www.bgrealestate.it/uploads/1791209928996-7f15cb71.png",
-      "pageUrl": "https://www.bgrealestate.it/properties.json",
-      "sha256": "fa38ea9c72dd279ef9a30dfe17d83136ead1cc0d889b871a690628cd7abd1ab9",
-      "type": "photograph",
-      "actuallyInspected": true
-    },
-    {
-      "id": "F13",
-      "url": "https://www.bgrealestate.it/uploads/1791209953921-9e2663a7.png",
-      "pageUrl": "https://www.bgrealestate.it/properties.json",
-      "sha256": "b98f6adc875533ea145db9e8e59bdb91902a18d11ade2b32d934a8d71a02820a",
-      "type": "photograph",
-      "actuallyInspected": true
-    },
-    {
-      "id": "F14",
-      "url": "https://www.bgrealestate.it/uploads/1791209969689-47e689af.png",
-      "pageUrl": "https://www.bgrealestate.it/properties.json",
-      "sha256": "06152214f9bc075640a3b9a0bc79ed84cc3210adac9f007a76dd08184976c784",
-      "type": "photograph",
-      "actuallyInspected": true
-    },
-    {
-      "id": "F15",
-      "url": "https://www.bgrealestate.it/uploads/1791210003280-982e641d.png",
-      "pageUrl": "https://www.bgrealestate.it/properties.json",
-      "sha256": "94ceb6cf87b906af98f068b6a16f2caba48f210d940165785db3a6d912c676b3",
-      "type": "photograph",
-      "actuallyInspected": true
-    },
-    {
-      "id": "F16",
-      "url": "https://www.bgrealestate.it/uploads/1791210021704-c498aace.png",
-      "pageUrl": "https://www.bgrealestate.it/properties.json",
-      "sha256": "b8d74499d85b3b0f3d47517c5c431719a06c89785bc881cb17c8f080779dcb87",
-      "type": "photograph",
-      "actuallyInspected": true
-    },
-    {
-      "id": "F17",
-      "url": "https://www.bgrealestate.it/uploads/1791210033569-714738e5.png",
-      "pageUrl": "https://www.bgrealestate.it/properties.json",
-      "sha256": "e493e62d2e56946aed40346fa812955e56c7b7f7add361573d08f2568058cec5",
-      "type": "photograph",
-      "actuallyInspected": true
-    },
-    {
-      "id": "F18",
-      "url": "https://www.bgrealestate.it/uploads/1791210058865-c31eb45f.png",
-      "pageUrl": "https://www.bgrealestate.it/properties.json",
-      "sha256": "fa8933b32fe762e9390ac3938cb45fc4c174d72a753e3aeb321640da12cab698",
-      "type": "photograph",
-      "actuallyInspected": true
-    },
-    {
-      "id": "F19",
-      "url": "https://www.bgrealestate.it/uploads/1791210083948-ae29ba51.png",
-      "pageUrl": "https://www.bgrealestate.it/properties.json",
-      "sha256": "4e98458364358cbf40b1c1be487b9b63aac187680315b07e870b52bed02fb777",
-      "type": "photograph",
-      "actuallyInspected": true
-    },
-    {
-      "id": "F20",
-      "url": "https://www.bgrealestate.it/uploads/1791210097613-b45c2e6d.png",
-      "pageUrl": "https://www.bgrealestate.it/properties.json",
-      "sha256": "adbc5520a2f7226b48fdc93e0854ac5780ca39cbed8a9c261a0ef6202fdb84c2",
-      "type": "photograph",
-      "actuallyInspected": true
-    },
-    {
-      "id": "F21",
-      "url": "https://www.bgrealestate.it/uploads/1791210112533-a4507468.png",
-      "pageUrl": "https://www.bgrealestate.it/properties.json",
-      "sha256": "d95242d2d39bcd6c9aaddc5fabc9ec6bbe57a57abc000ca07a310bc90694ae6f",
-      "type": "photograph",
-      "actuallyInspected": true
-    },
-    {
-      "id": "F22",
-      "url": "https://www.bgrealestate.it/uploads/1791210122346-59054455.png",
-      "pageUrl": "https://www.bgrealestate.it/properties.json",
-      "sha256": "60ba067c14d58d6bdc86a5f2b0f863df59e29082ee6947a390dd2c8f7e83be90",
-      "type": "photograph",
-      "actuallyInspected": true
-    },
-    {
-      "id": "F23",
-      "url": "https://www.bgrealestate.it/uploads/1791210147526-4a6ce29e.png",
-      "pageUrl": "https://www.bgrealestate.it/properties.json",
-      "sha256": "942fa139e3084bd910813feda315a0a752018a636178a68b20c4ae791131ec34",
-      "type": "photograph",
-      "actuallyInspected": true
-    },
-    {
-      "id": "F24",
-      "url": "https://www.bgrealestate.it/uploads/1791210164046-dbd2b3ad.png",
-      "pageUrl": "https://www.bgrealestate.it/properties.json",
-      "sha256": "b3709c5d461c72a7ab5e62735e0632654b6eb88d2f0198a06476ab4a62e90b91",
-      "type": "photograph",
-      "actuallyInspected": true
-    },
-    {
-      "id": "F25",
-      "url": "https://www.bgrealestate.it/uploads/1791210174868-6dda47b6.png",
-      "pageUrl": "https://www.bgrealestate.it/properties.json",
-      "sha256": "4d3c405e044cecc6c52a30ccc61ffef1eb0dd511febbc88b7a9000feee5d22b8",
-      "type": "photograph",
-      "actuallyInspected": true
-    },
-    {
-      "id": "F26",
-      "url": "https://www.bgrealestate.it/uploads/1791210194446-fa48020a.png",
-      "pageUrl": "https://www.bgrealestate.it/properties.json",
-      "sha256": "83c1387ff67917987ad5204cf38970905ea70cc95cef970aeb592b60aaceb4e3",
-      "type": "photograph",
-      "actuallyInspected": true
-    },
-    {
-      "id": "F27",
-      "url": "https://www.bgrealestate.it/uploads/1791210219069-47d3b088.png",
-      "pageUrl": "https://www.bgrealestate.it/properties.json",
-      "sha256": "2276cf801be85f5087a09a0d6d91e8c3b119ac33beb0b4161d9a1510704c969b",
-      "type": "photograph",
-      "actuallyInspected": true
-    },
-    {
-      "id": "F28",
-      "url": "https://www.bgrealestate.it/uploads/1791210254019-bc50e52c.png",
-      "pageUrl": "https://www.bgrealestate.it/properties.json",
-      "sha256": "46987e1f858bcd608203821fcb2925b185531f0b5afc78f0ef22e36f704b7310",
-      "type": "photograph",
-      "actuallyInspected": true
-    },
-    {
-      "id": "F29",
-      "url": "https://www.bgrealestate.it/uploads/1791210270812-bded835a.png",
-      "pageUrl": "https://www.bgrealestate.it/properties.json",
-      "sha256": "a604570d0057bb97881c434431c748404a68301e311611f91b2cf4c5f8721973",
-      "type": "photograph",
-      "actuallyInspected": true
-    },
-    {
-      "id": "F30",
-      "url": "https://www.bgrealestate.it/uploads/1791210285602-0a25aeff.png",
-      "pageUrl": "https://www.bgrealestate.it/properties.json",
-      "sha256": "43ef9cbb9952c6d1d054eba00ae5afbe6d854a0c23b3868fec3e57f404948f80",
-      "type": "photograph",
-      "actuallyInspected": true
-    }
-  ],
-  "limitations": [
-    "Scala uniforme da ricalco; ove mancano quote la scala assoluta è stimata, non derivata dalla superficie commerciale.",
-    "Altezze e spessori non quotati stimati dalle foto e dalla leggibilità delle piante. Arredi non fotografati omessi.",
-    "Geometria visuale approssimata; orientamento solare artistico. Il contesto non identifica confini o diritti di proprietà.",
-    "Le 31 fotografie dell’esatto riferimento agenzia 625 sono state lette; nessuna pianta è presente.",
-    "Sagoma, sporgenze, aperture, pergola e materiali sono dedotti dalle viste fotografiche 00,01,26-30. Scala assoluta, profondità, altezze e raccordi delle falde restano stime uniformi. Il corpo alto a destra nella foto01 è escluso perché adiacente."
-  ],
-  "state": "existing",
   "levels": [
     {
-      "label": "Guscio esterno — nessun interno",
+      "label": "Prospetti fotografati",
       "y": 0,
       "height": 3.1,
-      "outline": [
-        [
-          9,
-          0
-        ],
-        [
-          0,
-          0
-        ],
-        [
-          0,
-          10
-        ],
-        [
-          9,
-          10
-        ]
-      ],
       "walls": [
         {
           "a": [
-            9,
-            0
+            -5.5,
+            -4.1
           ],
           "b": [
-            0,
-            0
+            5.5,
+            -4.1
           ],
-          "thickness": 0.25,
+          "height": 3.1,
+          "thickness": 0.24,
           "openings": [
             {
-              "start": 1.25,
-              "end": 2.85,
               "kind": "window",
-              "sill": 1,
-              "height": 1.35
+              "start": 2.0999999999999996,
+              "end": 3.1799999999999997,
+              "sill": 0.85,
+              "height": 1.18
             },
             {
-              "start": 4.65,
-              "end": 6.65,
               "kind": "window",
-              "sill": 1,
-              "height": 1.35
+              "start": 6.06,
+              "end": 7.14,
+              "sill": 0.85,
+              "height": 1.18
             }
-          ]
+          ],
+          "color": "#e7e1ce"
         },
         {
           "a": [
-            0,
-            0
+            5.5,
+            -4.1
           ],
           "b": [
-            0,
-            10
+            5.5,
+            4.1
           ],
-          "thickness": 0.25,
+          "height": 3.1,
+          "thickness": 0.24,
           "openings": [
             {
-              "start": 1,
-              "end": 2.5,
+              "kind": "window",
+              "start": 3.6419999999999995,
+              "end": 4.7219999999999995,
+              "sill": 0.85,
+              "height": 1.18
+            }
+          ],
+          "color": "#e7e1ce"
+        },
+        {
+          "a": [
+            5.5,
+            4.1
+          ],
+          "b": [
+            -5.5,
+            4.1
+          ],
+          "height": 3.1,
+          "thickness": 0.24,
+          "openings": [
+            {
+              "kind": "window",
+              "start": 1.5499999999999998,
+              "end": 2.63,
+              "sill": 0.85,
+              "height": 1.18
+            },
+            {
               "kind": "door",
+              "start": 5.44,
+              "end": 6.44,
               "sill": 0,
-              "height": 2.2
+              "height": 2.12
             },
             {
-              "start": 5.1,
-              "end": 5.7,
               "kind": "window",
-              "sill": 1.35,
-              "height": 0.8
-            }
-          ]
-        },
-        {
-          "a": [
-            0,
-            10
-          ],
-          "b": [
-            9,
-            10
-          ],
-          "thickness": 0.25,
-          "openings": []
-        },
-        {
-          "a": [
-            9,
-            10
-          ],
-          "b": [
-            9,
-            0
-          ],
-          "thickness": 0.25,
-          "openings": [
-            {
-              "start": 7.9,
-              "end": 8.6,
-              "kind": "window",
-              "sill": 1.35,
-              "height": 0.85
-            },
-            {
-              "start": 2.7,
-              "end": 5.5,
-              "kind": "window",
-              "sill": 0.8,
-              "height": 1.55
-            },
-            {
-              "start": 0.8000000000000007,
-              "end": 1.6999999999999993,
-              "kind": "window",
-              "sill": 1,
-              "height": 1.3
-            }
-          ]
-        },
-        {
-          "a": [
-            10,
-            4.5
-          ],
-          "b": [
-            10,
-            7.3
-          ],
-          "thickness": 0.18,
-          "openings": [
-            {
-              "start": 0.15000000000000036,
-              "end": 2.6500000000000004,
-              "kind": "window",
-              "sill": 0.65,
-              "height": 1.6
+              "start": 8.150000000000002,
+              "end": 9.23,
+              "sill": 0.85,
+              "height": 1.18
             }
           ],
-          "height": 2.6
+          "color": "#e7e1ce"
         },
         {
           "a": [
-            10,
-            4.5
+            -5.5,
+            4.1
           ],
           "b": [
-            9,
-            4.5
+            -5.5,
+            -4.1
           ],
-          "thickness": 0.18,
+          "height": 3.1,
+          "thickness": 0.24,
           "openings": [],
-          "height": 2.6
-        },
-        {
-          "a": [
-            10,
-            7.3
-          ],
-          "b": [
-            9,
-            7.3
-          ],
-          "thickness": 0.18,
-          "openings": [],
-          "height": 2.6
+          "color": "#e7e1ce"
         }
       ],
-      "furniture": [
-        {
-          "kind": "table",
-          "x": -1.5,
-          "z": 2.2,
-          "width": 1.2,
-          "depth": 1.2,
-          "color": "#e0dacb"
-        },
-        {
-          "kind": "chair",
-          "x": -1.5,
-          "z": 3.15,
-          "width": 0.45,
-          "depth": 0.45,
-          "color": "#e0dacb"
-        }
-      ],
-      "stairs": [],
-      "holes": [],
-      "sourcePlan": "bg-26.png",
-      "trace": {
-        "image": "bg-26.png",
-        "originPixel": [
-          0,
-          0
-        ],
-        "uniformMetresPerPixel": 1,
-        "axis": "X=image right; Z=image down; no reflection; source trace kept in pixel coordinates"
-      },
-      "pixelOutline": [
+      "outline": [
         [
-          0,
-          0
+          -5.5,
+          -4.1
         ],
         [
-          9,
-          0
+          5.5,
+          -4.1
         ],
         [
-          9,
-          10
+          5.5,
+          4.1
         ],
         [
-          0,
-          10
+          -5.5,
+          4.1
         ]
-      ],
-      "pixelWalls": [
-        {
-          "a": [
-            0,
-            0
-          ],
-          "b": [
-            9,
-            0
-          ],
-          "openings": [
-            [
-              1.25,
-              2.85,
-              "window",
-              1,
-              1.35
-            ],
-            [
-              4.65,
-              6.65,
-              "window",
-              1,
-              1.35
-            ]
-          ]
-        },
-        {
-          "a": [
-            9,
-            0
-          ],
-          "b": [
-            9,
-            10
-          ],
-          "openings": [
-            [
-              1,
-              2.5,
-              "door",
-              0,
-              2.2
-            ],
-            [
-              5.1,
-              5.7,
-              "window",
-              1.35,
-              0.8
-            ]
-          ]
-        },
-        {
-          "a": [
-            9,
-            10
-          ],
-          "b": [
-            0,
-            10
-          ],
-          "openings": []
-        },
-        {
-          "a": [
-            0,
-            10
-          ],
-          "b": [
-            0,
-            0
-          ],
-          "openings": [
-            [
-              1.4,
-              2.1,
-              "window",
-              1.35,
-              0.85
-            ],
-            [
-              4.5,
-              7.3,
-              "window",
-              0.8,
-              1.55
-            ],
-            [
-              8.3,
-              9.2,
-              "window",
-              1,
-              1.3
-            ]
-          ]
-        },
-        {
-          "a": [
-            -1,
-            4.5
-          ],
-          "b": [
-            -1,
-            7.3
-          ],
-          "openings": [
-            [
-              4.65,
-              7.15,
-              "window",
-              0.65,
-              1.6
-            ]
-          ]
-        },
-        {
-          "a": [
-            -1,
-            4.5
-          ],
-          "b": [
-            0,
-            4.5
-          ],
-          "openings": []
-        },
-        {
-          "a": [
-            -1,
-            7.3
-          ],
-          "b": [
-            0,
-            7.3
-          ],
-          "openings": []
-        }
       ],
       "components": [
         {
           "center": [
-            4.5,
-            0.11,
-            0.06
+            -2.86,
+            0.835,
+            -4.23
           ],
           "size": [
-            9.120000000000001,
-            0.22,
-            0.12
+            1.26,
+            0.075,
+            0.23
           ],
-          "color": "#aaa18a"
+          "color": "#c0b49d"
         },
         {
           "center": [
-            7.99,
-            1.6749999999999998,
-            -0.08
+            -3.6776,
+            1.44,
+            -4.244
           ],
           "size": [
-            0.36,
-            1.45,
-            0.07999999999999999
+            0.4428,
+            1.23,
+            0.055
           ],
-          "color": "#765136"
+          "color": "#665445"
         },
         {
           "center": [
-            5.91,
-            1.6749999999999998,
-            -0.08
-          ],
-          "size": [
-            0.3599999999999999,
-            1.45,
-            0.07999999999999999
-          ],
-          "color": "#765136"
-        },
-        {
-          "center": [
-            4.59,
-            1.6749999999999998,
-            -0.08
-          ],
-          "size": [
-            0.35999999999999943,
-            1.45,
-            0.07999999999999999
-          ],
-          "color": "#765136"
-        },
-        {
-          "center": [
-            2.11,
-            1.6749999999999998,
-            -0.08
-          ],
-          "size": [
-            0.3600000000000003,
-            1.45,
-            0.07999999999999999
-          ],
-          "color": "#765136"
-        },
-        {
-          "points": [
-            [
-              0,
-              0
-            ],
-            [
-              -3.1,
-              0
-            ],
-            [
-              -3.1,
-              4.6
-            ],
-            [
-              0,
-              4.6
-            ]
-          ],
-          "rise": 0,
-          "thickness": 0.14,
-          "color": "#b8a78f"
-        },
-        {
-          "center": [
-            -0.08,
-            1.325,
-            0.12
-          ],
-          "size": [
-            0.10999999999999943,
-            2.65,
-            0.10999999999999999
-          ],
-          "color": "#41484a"
-        },
-        {
-          "center": [
-            -0.08,
-            1.325,
-            4.48
-          ],
-          "size": [
-            0.10999999999999943,
-            2.65,
-            0.11000000000000032
-          ],
-          "color": "#41484a"
-        },
-        {
-          "center": [
-            -3.0,
-            1.325,
-            0.12
-          ],
-          "size": [
-            0.10999999999999943,
-            2.65,
-            0.10999999999999999
-          ],
-          "color": "#41484a"
-        },
-        {
-          "center": [
-            -3.0,
-            1.325,
-            4.48
-          ],
-          "size": [
-            0.10999999999999943,
-            2.65,
-            0.11000000000000032
-          ],
-          "color": "#41484a"
-        },
-        {
-          "center": [
-            -1.545,
-            2.65,
-            0.12
-          ],
-          "size": [
-            3.0100000000000016,
-            0.18,
-            0.12
-          ],
-          "color": "#41484a"
-        },
-        {
-          "center": [
-            -1.545,
-            2.65,
-            4.48
-          ],
-          "size": [
-            3.0100000000000016,
-            0.18,
-            0.1200000000000001
-          ],
-          "color": "#41484a"
-        },
-        {
-          "center": [
-            -1.55,
-            2.6875,
-            0.2
-          ],
-          "size": [
-            3.0,
-            0.055,
-            0.1
-          ],
-          "color": "#545a59"
-        },
-        {
-          "center": [
-            -1.55,
-            2.6875,
-            0.425
-          ],
-          "size": [
-            3.0,
-            0.055,
-            0.09999999999999998
-          ],
-          "color": "#545a59"
-        },
-        {
-          "center": [
-            -1.55,
-            2.6875,
-            0.6499999999999999
-          ],
-          "size": [
-            3.0,
-            0.055,
-            0.09999999999999998
-          ],
-          "color": "#545a59"
-        },
-        {
-          "center": [
-            -1.55,
-            2.6875,
-            0.875
-          ],
-          "size": [
-            3.0,
-            0.055,
-            0.10000000000000009
-          ],
-          "color": "#545a59"
-        },
-        {
-          "center": [
-            -1.55,
-            2.6875,
-            1.1
-          ],
-          "size": [
-            3.0,
-            0.055,
-            0.09999999999999987
-          ],
-          "color": "#545a59"
-        },
-        {
-          "center": [
-            -1.55,
-            2.6875,
-            1.325
-          ],
-          "size": [
-            3.0,
-            0.055,
-            0.10000000000000009
-          ],
-          "color": "#545a59"
-        },
-        {
-          "center": [
-            -1.55,
-            2.6875,
-            1.55
-          ],
-          "size": [
-            3.0,
-            0.055,
-            0.10000000000000009
-          ],
-          "color": "#545a59"
-        },
-        {
-          "center": [
-            -1.55,
-            2.6875,
-            1.775
-          ],
-          "size": [
-            3.0,
-            0.055,
-            0.09999999999999987
-          ],
-          "color": "#545a59"
-        },
-        {
-          "center": [
-            -1.55,
-            2.6875,
-            2.0
-          ],
-          "size": [
-            3.0,
-            0.055,
-            0.09999999999999987
-          ],
-          "color": "#545a59"
-        },
-        {
-          "center": [
-            -1.55,
-            2.6875,
-            2.2249999999999996
-          ],
-          "size": [
-            3.0,
-            0.055,
-            0.10000000000000009
-          ],
-          "color": "#545a59"
-        },
-        {
-          "center": [
-            -1.55,
-            2.6875,
-            2.45
-          ],
-          "size": [
-            3.0,
-            0.055,
-            0.10000000000000009
-          ],
-          "color": "#545a59"
-        },
-        {
-          "center": [
-            -1.55,
-            2.6875,
-            2.675
-          ],
-          "size": [
-            3.0,
-            0.055,
-            0.10000000000000009
-          ],
-          "color": "#545a59"
-        },
-        {
-          "center": [
-            -1.55,
-            2.6875,
-            2.9000000000000004
-          ],
-          "size": [
-            3.0,
-            0.055,
-            0.10000000000000009
-          ],
-          "color": "#545a59"
-        },
-        {
-          "center": [
-            -1.55,
-            2.6875,
-            3.125
-          ],
-          "size": [
-            3.0,
-            0.055,
-            0.09999999999999964
-          ],
-          "color": "#545a59"
-        },
-        {
-          "center": [
-            -1.55,
-            2.6875,
-            3.3499999999999996
-          ],
-          "size": [
-            3.0,
-            0.055,
-            0.10000000000000009
-          ],
-          "color": "#545a59"
-        },
-        {
-          "center": [
-            -1.55,
-            2.6875,
-            3.575
-          ],
-          "size": [
-            3.0,
-            0.055,
-            0.10000000000000009
-          ],
-          "color": "#545a59"
-        },
-        {
-          "center": [
-            -1.55,
-            2.6875,
-            3.8
-          ],
-          "size": [
-            3.0,
-            0.055,
-            0.10000000000000009
-          ],
-          "color": "#545a59"
-        },
-        {
-          "center": [
-            -1.55,
-            2.6875,
-            4.025
-          ],
-          "size": [
-            3.0,
-            0.055,
-            0.10000000000000009
-          ],
-          "color": "#545a59"
-        },
-        {
-          "center": [
-            -1.55,
-            2.6875,
-            4.25
-          ],
-          "size": [
-            3.0,
-            0.055,
-            0.09999999999999964
-          ],
-          "color": "#545a59"
-        },
-        {
-          "center": [
-            -1.55,
-            2.6875,
-            4.475
-          ],
-          "size": [
-            3.0,
-            0.055,
-            0.10000000000000053
-          ],
-          "color": "#545a59"
-        },
-        {
-          "points": [
-            [
-              10.5,
-              -1.2
-            ],
-            [
-              -3.4,
-              -1.2
-            ],
-            [
-              -3.4,
-              0
-            ],
-            [
-              10.5,
-              0
-            ]
-          ],
-          "rise": 0,
-          "thickness": 0.14,
-          "color": "#b9a588"
-        },
-        {
-          "points": [
-            [
-              13,
-              -4
-            ],
-            [
-              0,
-              -4
-            ],
-            [
-              0,
-              -1.25
-            ],
-            [
-              13,
-              -1.25
-            ]
-          ],
-          "rise": 0,
-          "thickness": 0.14,
-          "color": "#809461"
-        },
-        {
-          "center": [
-            4.4,
-            5.8,
-            6.6
-          ],
-          "size": [
-            0.6000000000000005,
+            -3.6776,
             1.0,
-            0.6000000000000005
+            -4.281
           ],
-          "color": "#cfc4a9"
+          "size": [
+            0.378,
+            0.018,
+            0.014
+          ],
+          "color": "#84715a"
+        },
+        {
+          "center": [
+            -3.6776,
+            1.212,
+            -4.281
+          ],
+          "size": [
+            0.378,
+            0.018,
+            0.014
+          ],
+          "color": "#84715a"
+        },
+        {
+          "center": [
+            -3.6776,
+            1.425,
+            -4.281
+          ],
+          "size": [
+            0.378,
+            0.018,
+            0.014
+          ],
+          "color": "#84715a"
+        },
+        {
+          "center": [
+            -3.6776,
+            1.637,
+            -4.281
+          ],
+          "size": [
+            0.378,
+            0.018,
+            0.014
+          ],
+          "color": "#84715a"
+        },
+        {
+          "center": [
+            -3.6776,
+            1.85,
+            -4.281
+          ],
+          "size": [
+            0.378,
+            0.018,
+            0.014
+          ],
+          "color": "#84715a"
+        },
+        {
+          "center": [
+            -2.0424,
+            1.44,
+            -4.244
+          ],
+          "size": [
+            0.4428,
+            1.23,
+            0.055
+          ],
+          "color": "#665445"
+        },
+        {
+          "center": [
+            -2.0424,
+            1.0,
+            -4.281
+          ],
+          "size": [
+            0.378,
+            0.018,
+            0.014
+          ],
+          "color": "#84715a"
+        },
+        {
+          "center": [
+            -2.0424,
+            1.212,
+            -4.281
+          ],
+          "size": [
+            0.378,
+            0.018,
+            0.014
+          ],
+          "color": "#84715a"
+        },
+        {
+          "center": [
+            -2.0424,
+            1.425,
+            -4.281
+          ],
+          "size": [
+            0.378,
+            0.018,
+            0.014
+          ],
+          "color": "#84715a"
+        },
+        {
+          "center": [
+            -2.0424,
+            1.637,
+            -4.281
+          ],
+          "size": [
+            0.378,
+            0.018,
+            0.014
+          ],
+          "color": "#84715a"
+        },
+        {
+          "center": [
+            -2.0424,
+            1.85,
+            -4.281
+          ],
+          "size": [
+            0.378,
+            0.018,
+            0.014
+          ],
+          "color": "#84715a"
+        },
+        {
+          "center": [
+            1.1,
+            0.835,
+            -4.23
+          ],
+          "size": [
+            1.26,
+            0.075,
+            0.23
+          ],
+          "color": "#c0b49d"
+        },
+        {
+          "center": [
+            0.2824,
+            1.44,
+            -4.244
+          ],
+          "size": [
+            0.4428,
+            1.23,
+            0.055
+          ],
+          "color": "#665445"
+        },
+        {
+          "center": [
+            0.2824,
+            1.0,
+            -4.281
+          ],
+          "size": [
+            0.378,
+            0.018,
+            0.014
+          ],
+          "color": "#84715a"
+        },
+        {
+          "center": [
+            0.2824,
+            1.212,
+            -4.281
+          ],
+          "size": [
+            0.378,
+            0.018,
+            0.014
+          ],
+          "color": "#84715a"
+        },
+        {
+          "center": [
+            0.2824,
+            1.425,
+            -4.281
+          ],
+          "size": [
+            0.378,
+            0.018,
+            0.014
+          ],
+          "color": "#84715a"
+        },
+        {
+          "center": [
+            0.2824,
+            1.637,
+            -4.281
+          ],
+          "size": [
+            0.378,
+            0.018,
+            0.014
+          ],
+          "color": "#84715a"
+        },
+        {
+          "center": [
+            0.2824,
+            1.85,
+            -4.281
+          ],
+          "size": [
+            0.378,
+            0.018,
+            0.014
+          ],
+          "color": "#84715a"
+        },
+        {
+          "center": [
+            1.9176,
+            1.44,
+            -4.244
+          ],
+          "size": [
+            0.4428,
+            1.23,
+            0.055
+          ],
+          "color": "#665445"
+        },
+        {
+          "center": [
+            1.9176,
+            1.0,
+            -4.281
+          ],
+          "size": [
+            0.378,
+            0.018,
+            0.014
+          ],
+          "color": "#84715a"
+        },
+        {
+          "center": [
+            1.9176,
+            1.212,
+            -4.281
+          ],
+          "size": [
+            0.378,
+            0.018,
+            0.014
+          ],
+          "color": "#84715a"
+        },
+        {
+          "center": [
+            1.9176,
+            1.425,
+            -4.281
+          ],
+          "size": [
+            0.378,
+            0.018,
+            0.014
+          ],
+          "color": "#84715a"
+        },
+        {
+          "center": [
+            1.9176,
+            1.637,
+            -4.281
+          ],
+          "size": [
+            0.378,
+            0.018,
+            0.014
+          ],
+          "color": "#84715a"
+        },
+        {
+          "center": [
+            1.9176,
+            1.85,
+            -4.281
+          ],
+          "size": [
+            0.378,
+            0.018,
+            0.014
+          ],
+          "color": "#84715a"
+        },
+        {
+          "center": [
+            5.63,
+            0.835,
+            0.082
+          ],
+          "size": [
+            0.23,
+            0.075,
+            1.26
+          ],
+          "color": "#c0b49d"
+        },
+        {
+          "center": [
+            5.644,
+            1.44,
+            -0.7356
+          ],
+          "size": [
+            0.055,
+            1.23,
+            0.4428
+          ],
+          "color": "#665445"
+        },
+        {
+          "center": [
+            5.681,
+            1.0,
+            -0.7356
+          ],
+          "size": [
+            0.014,
+            0.018,
+            0.378
+          ],
+          "color": "#84715a"
+        },
+        {
+          "center": [
+            5.681,
+            1.212,
+            -0.7356
+          ],
+          "size": [
+            0.014,
+            0.018,
+            0.378
+          ],
+          "color": "#84715a"
+        },
+        {
+          "center": [
+            5.681,
+            1.425,
+            -0.7356
+          ],
+          "size": [
+            0.014,
+            0.018,
+            0.378
+          ],
+          "color": "#84715a"
+        },
+        {
+          "center": [
+            5.681,
+            1.637,
+            -0.7356
+          ],
+          "size": [
+            0.014,
+            0.018,
+            0.378
+          ],
+          "color": "#84715a"
+        },
+        {
+          "center": [
+            5.681,
+            1.85,
+            -0.7356
+          ],
+          "size": [
+            0.014,
+            0.018,
+            0.378
+          ],
+          "color": "#84715a"
+        },
+        {
+          "center": [
+            5.644,
+            1.44,
+            0.8996
+          ],
+          "size": [
+            0.055,
+            1.23,
+            0.4428
+          ],
+          "color": "#665445"
+        },
+        {
+          "center": [
+            5.681,
+            1.0,
+            0.8996
+          ],
+          "size": [
+            0.014,
+            0.018,
+            0.378
+          ],
+          "color": "#84715a"
+        },
+        {
+          "center": [
+            5.681,
+            1.212,
+            0.8996
+          ],
+          "size": [
+            0.014,
+            0.018,
+            0.378
+          ],
+          "color": "#84715a"
+        },
+        {
+          "center": [
+            5.681,
+            1.425,
+            0.8996
+          ],
+          "size": [
+            0.014,
+            0.018,
+            0.378
+          ],
+          "color": "#84715a"
+        },
+        {
+          "center": [
+            5.681,
+            1.637,
+            0.8996
+          ],
+          "size": [
+            0.014,
+            0.018,
+            0.378
+          ],
+          "color": "#84715a"
+        },
+        {
+          "center": [
+            5.681,
+            1.85,
+            0.8996
+          ],
+          "size": [
+            0.014,
+            0.018,
+            0.378
+          ],
+          "color": "#84715a"
+        },
+        {
+          "center": [
+            3.41,
+            0.835,
+            4.23
+          ],
+          "size": [
+            1.26,
+            0.075,
+            0.23
+          ],
+          "color": "#c0b49d"
+        },
+        {
+          "center": [
+            4.2276,
+            1.44,
+            4.244
+          ],
+          "size": [
+            0.4428,
+            1.23,
+            0.055
+          ],
+          "color": "#665445"
+        },
+        {
+          "center": [
+            4.2276,
+            1.0,
+            4.281
+          ],
+          "size": [
+            0.378,
+            0.018,
+            0.014
+          ],
+          "color": "#84715a"
+        },
+        {
+          "center": [
+            4.2276,
+            1.212,
+            4.281
+          ],
+          "size": [
+            0.378,
+            0.018,
+            0.014
+          ],
+          "color": "#84715a"
+        },
+        {
+          "center": [
+            4.2276,
+            1.425,
+            4.281
+          ],
+          "size": [
+            0.378,
+            0.018,
+            0.014
+          ],
+          "color": "#84715a"
+        },
+        {
+          "center": [
+            4.2276,
+            1.637,
+            4.281
+          ],
+          "size": [
+            0.378,
+            0.018,
+            0.014
+          ],
+          "color": "#84715a"
+        },
+        {
+          "center": [
+            4.2276,
+            1.85,
+            4.281
+          ],
+          "size": [
+            0.378,
+            0.018,
+            0.014
+          ],
+          "color": "#84715a"
+        },
+        {
+          "center": [
+            2.5924,
+            1.44,
+            4.244
+          ],
+          "size": [
+            0.4428,
+            1.23,
+            0.055
+          ],
+          "color": "#665445"
+        },
+        {
+          "center": [
+            2.5924,
+            1.0,
+            4.281
+          ],
+          "size": [
+            0.378,
+            0.018,
+            0.014
+          ],
+          "color": "#84715a"
+        },
+        {
+          "center": [
+            2.5924,
+            1.212,
+            4.281
+          ],
+          "size": [
+            0.378,
+            0.018,
+            0.014
+          ],
+          "color": "#84715a"
+        },
+        {
+          "center": [
+            2.5924,
+            1.425,
+            4.281
+          ],
+          "size": [
+            0.378,
+            0.018,
+            0.014
+          ],
+          "color": "#84715a"
+        },
+        {
+          "center": [
+            2.5924,
+            1.637,
+            4.281
+          ],
+          "size": [
+            0.378,
+            0.018,
+            0.014
+          ],
+          "color": "#84715a"
+        },
+        {
+          "center": [
+            2.5924,
+            1.85,
+            4.281
+          ],
+          "size": [
+            0.378,
+            0.018,
+            0.014
+          ],
+          "color": "#84715a"
+        },
+        {
+          "center": [
+            -0.44,
+            1.06,
+            4.1
+          ],
+          "size": [
+            0.965,
+            2.1,
+            0.05
+          ],
+          "color": "#7e6552"
+        },
+        {
+          "center": [
+            -0.73,
+            1.039,
+            4.145
+          ],
+          "size": [
+            0.035,
+            0.16,
+            0.035
+          ],
+          "color": "#9f9988"
+        },
+        {
+          "center": [
+            -3.19,
+            0.835,
+            4.23
+          ],
+          "size": [
+            1.2599999999999982,
+            0.075,
+            0.23
+          ],
+          "color": "#c0b49d"
+        },
+        {
+          "center": [
+            -2.3724,
+            1.44,
+            4.244
+          ],
+          "size": [
+            0.44279999999999925,
+            1.23,
+            0.055
+          ],
+          "color": "#665445"
+        },
+        {
+          "center": [
+            -2.3724,
+            1.0,
+            4.281
+          ],
+          "size": [
+            0.3779999999999994,
+            0.018,
+            0.014
+          ],
+          "color": "#84715a"
+        },
+        {
+          "center": [
+            -2.3724,
+            1.212,
+            4.281
+          ],
+          "size": [
+            0.3779999999999994,
+            0.018,
+            0.014
+          ],
+          "color": "#84715a"
+        },
+        {
+          "center": [
+            -2.3724,
+            1.425,
+            4.281
+          ],
+          "size": [
+            0.3779999999999994,
+            0.018,
+            0.014
+          ],
+          "color": "#84715a"
+        },
+        {
+          "center": [
+            -2.3724,
+            1.637,
+            4.281
+          ],
+          "size": [
+            0.3779999999999994,
+            0.018,
+            0.014
+          ],
+          "color": "#84715a"
+        },
+        {
+          "center": [
+            -2.3724,
+            1.85,
+            4.281
+          ],
+          "size": [
+            0.3779999999999994,
+            0.018,
+            0.014
+          ],
+          "color": "#84715a"
+        },
+        {
+          "center": [
+            -4.0076,
+            1.44,
+            4.244
+          ],
+          "size": [
+            0.44279999999999925,
+            1.23,
+            0.055
+          ],
+          "color": "#665445"
+        },
+        {
+          "center": [
+            -4.0076,
+            1.0,
+            4.281
+          ],
+          "size": [
+            0.3779999999999994,
+            0.018,
+            0.014
+          ],
+          "color": "#84715a"
+        },
+        {
+          "center": [
+            -4.0076,
+            1.212,
+            4.281
+          ],
+          "size": [
+            0.3779999999999994,
+            0.018,
+            0.014
+          ],
+          "color": "#84715a"
+        },
+        {
+          "center": [
+            -4.0076,
+            1.425,
+            4.281
+          ],
+          "size": [
+            0.3779999999999994,
+            0.018,
+            0.014
+          ],
+          "color": "#84715a"
+        },
+        {
+          "center": [
+            -4.0076,
+            1.637,
+            4.281
+          ],
+          "size": [
+            0.3779999999999994,
+            0.018,
+            0.014
+          ],
+          "color": "#84715a"
+        },
+        {
+          "center": [
+            -4.0076,
+            1.85,
+            4.281
+          ],
+          "size": [
+            0.3779999999999994,
+            0.018,
+            0.014
+          ],
+          "color": "#84715a"
+        }
+      ],
+      "surfaces": [
+        {
+          "points": [
+            [
+              -5.5,
+              -4.1
+            ],
+            [
+              5.5,
+              -4.1
+            ],
+            [
+              5.5,
+              4.1
+            ],
+            [
+              -5.5,
+              4.1
+            ]
+          ],
+          "color": "#b4a995"
         }
       ]
     }
@@ -1119,183 +1027,1024 @@
     {
       "vertices": [
         [
-          9,
-          3.1,
-          0
+          -5.5,
+          4.467,
+          0.0
         ],
         [
-          6,
-          5.4,
-          0
+          -5.5,
+          3.155,
+          -4.1
         ],
         [
-          3,
-          5.4,
-          0
+          5.5,
+          3.155,
+          -4.1
         ],
         [
-          0,
-          3.1,
-          0
+          -5.5,
+          4.467,
+          0.0
+        ],
+        [
+          5.5,
+          3.155,
+          -4.1
+        ],
+        [
+          5.5,
+          4.467,
+          0.0
+        ],
+        [
+          -5.5,
+          3.155,
+          4.1
+        ],
+        [
+          -5.5,
+          4.467,
+          0.0
+        ],
+        [
+          5.5,
+          4.467,
+          0.0
+        ],
+        [
+          -5.5,
+          3.155,
+          4.1
+        ],
+        [
+          5.5,
+          4.467,
+          0.0
+        ],
+        [
+          5.5,
+          3.155,
+          4.1
         ]
       ],
       "indices": [
         0,
-        2,
         1,
-        0,
-        3,
-        2
-      ],
-      "color": "#e7dcc2"
-    },
-    {
-      "vertices": [
-        [
-          9,
-          3.1,
-          10
-        ],
-        [
-          6,
-          5.4,
-          10
-        ],
-        [
-          3,
-          5.4,
-          10
-        ],
-        [
-          0,
-          3.1,
-          10
-        ]
-      ],
-      "indices": [
-        0,
         2,
-        1,
-        0,
         3,
-        2
-      ],
-      "color": "#e7dcc2"
-    },
-    {
-      "vertices": [
-        [
-          9.35,
-          3.05,
-          -0.4
-        ],
-        [
-          6,
-          5.55,
-          -0.4
-        ],
-        [
-          3,
-          5.55,
-          -0.4
-        ],
-        [
-          -0.35,
-          3.05,
-          -0.4
-        ],
-        [
-          9.35,
-          3.05,
-          10.4
-        ],
-        [
-          6,
-          5.55,
-          10.4
-        ],
-        [
-          3,
-          5.55,
-          10.4
-        ],
-        [
-          -0.35,
-          3.05,
-          10.4
-        ]
-      ],
-      "indices": [
-        0,
-        5,
         4,
-        0,
-        1,
         5,
-        1,
         6,
-        5,
-        1,
-        2,
-        6,
-        2,
         7,
-        6,
-        2,
-        3,
-        7
+        8,
+        9,
+        10,
+        11
       ],
-      "color": "#8b664c"
+      "color": "#8a7157"
     },
     {
       "vertices": [
         [
-          10.25,
-          2.8,
-          4.3
+          -5.5,
+          3.085,
+          -4.1
         ],
         [
-          8.95,
-          3,
-          4.3
+          -5.5,
+          3.155,
+          -4.1
         ],
         [
-          10.25,
-          2.8,
-          7.5
+          -5.5,
+          4.467,
+          0.0
         ],
         [
-          8.95,
-          3,
-          7.5
+          -5.5,
+          3.085,
+          0.0
         ]
       ],
       "indices": [
         0,
-        3,
         1,
+        2,
         0,
         2,
         3
       ],
-      "color": "#a57451"
+      "color": "#e7e1ce"
+    },
+    {
+      "vertices": [
+        [
+          5.5,
+          3.085,
+          -4.1
+        ],
+        [
+          5.5,
+          3.155,
+          -4.1
+        ],
+        [
+          5.5,
+          4.467,
+          0.0
+        ],
+        [
+          5.5,
+          3.085,
+          0.0
+        ]
+      ],
+      "indices": [
+        0,
+        1,
+        2,
+        0,
+        2,
+        3
+      ],
+      "color": "#e7e1ce"
+    },
+    {
+      "vertices": [
+        [
+          -5.5,
+          3.085,
+          4.1
+        ],
+        [
+          -5.5,
+          3.155,
+          4.1
+        ],
+        [
+          -5.5,
+          4.467,
+          0.0
+        ],
+        [
+          -5.5,
+          3.085,
+          0.0
+        ]
+      ],
+      "indices": [
+        0,
+        1,
+        2,
+        0,
+        2,
+        3
+      ],
+      "color": "#e7e1ce"
+    },
+    {
+      "vertices": [
+        [
+          5.5,
+          3.085,
+          4.1
+        ],
+        [
+          5.5,
+          3.155,
+          4.1
+        ],
+        [
+          5.5,
+          4.467,
+          0.0
+        ],
+        [
+          5.5,
+          3.085,
+          0.0
+        ]
+      ],
+      "indices": [
+        0,
+        1,
+        2,
+        0,
+        2,
+        3
+      ],
+      "color": "#e7e1ce"
     }
   ],
-  "exteriors": [],
+  "exteriors": [
+    {
+      "points": [
+        [
+          -4,
+          4.1
+        ],
+        [
+          2.8,
+          4.1
+        ],
+        [
+          2.8,
+          6.1
+        ],
+        [
+          -4,
+          6.1
+        ]
+      ],
+      "y": 0.03,
+      "thickness": 0.12,
+      "color": "#b6967b"
+    },
+    {
+      "kind": "box",
+      "center": [
+        -0.6,
+        2.48,
+        5.15
+      ],
+      "size": [
+        6.8,
+        0.12,
+        2.2
+      ],
+      "color": "#695f51"
+    },
+    {
+      "kind": "box",
+      "center": [
+        -3.85,
+        1.26,
+        6.05
+      ],
+      "size": [
+        0.1,
+        2.45,
+        0.1
+      ],
+      "color": "#555449"
+    },
+    {
+      "kind": "box",
+      "center": [
+        2.65,
+        1.26,
+        6.05
+      ],
+      "size": [
+        0.1,
+        2.45,
+        0.1
+      ],
+      "color": "#555449"
+    },
+    {
+      "points": [
+        [
+          -1,
+          6.15
+        ],
+        [
+          1,
+          6.15
+        ],
+        [
+          1.4,
+          8.5
+        ],
+        [
+          -0.75,
+          8.5
+        ]
+      ],
+      "y": -0.05,
+      "color": "#b69578"
+    },
+    {
+      "points": [
+        [
+          -5.5,
+          4.2
+        ],
+        [
+          -4.3,
+          4.2
+        ],
+        [
+          -4.3,
+          6.1
+        ],
+        [
+          -1.2,
+          6.1
+        ],
+        [
+          -1.1,
+          8.5
+        ],
+        [
+          -5.5,
+          8.5
+        ]
+      ],
+      "y": -0.1,
+      "color": "#91a16e"
+    }
+  ],
   "colors": {
-    "walls": "#e7dcc2",
-    "floor": "#a4957c",
-    "frames": "#715038",
-    "roof": "#8b664c"
+    "frames": "#685641",
+    "floor": "#b8a485"
   },
+  "coverage": "exterior_only",
+  "unrenderedVolumes": [
+    "Interni del piano principale, mansarda, taverna, garage doppio e confini del giardino."
+  ],
+  "geometrySource": "Volumi, aperture e proporzioni dedotti dai fronti fotografati. Dimensioni, profondità e pendenze stimate.",
+  "id": "muggia-prima-periferia",
+  "title": "Villa singola nella prima periferia di Muggia",
+  "creationStarted": "2026-11-23T11:47:20+01:00",
+  "creationFinished": "2026-11-23T12:47:02+01:00",
+  "sources": [
+    "https://www.casa.it/immobili/54868671/",
+    "https://www.idealista.it/immobile/37006993/"
+  ],
+  "sourceReadAt": "2026-11-23T11:49:24+01:00",
+  "sourceMedia": [
+    {
+      "key": "f00",
+      "usedUrl": "https://images-1.casa.it/1200x900-fit/listing/0/18/bc/3a/845140958.jpg",
+      "caption": "Giardino",
+      "plan": false,
+      "size": [
+        1200,
+        900
+      ],
+      "pageUrl": "https://www.casa.it/immobili/54868671/"
+    },
+    {
+      "key": "f01",
+      "usedUrl": "https://images-1.casa.it/1200x900-fit/listing/0/2c/58/43/845140959.jpg",
+      "caption": "Bagno",
+      "plan": false,
+      "size": [
+        1200,
+        900
+      ],
+      "pageUrl": "https://www.casa.it/immobili/54868671/"
+    },
+    {
+      "key": "f02",
+      "usedUrl": "https://images-1.casa.it/1200x900-fit/listing/0/42/3a/29/845140960.jpg",
+      "caption": "Bagno",
+      "plan": false,
+      "size": [
+        1200,
+        900
+      ],
+      "pageUrl": "https://www.casa.it/immobili/54868671/"
+    },
+    {
+      "key": "f03",
+      "usedUrl": "https://images-1.casa.it/1200x900-fit/listing/0/ce/bf/fc/845140961.jpg",
+      "caption": "Bagno",
+      "plan": false,
+      "size": [
+        1200,
+        900
+      ],
+      "pageUrl": "https://www.casa.it/immobili/54868671/"
+    },
+    {
+      "key": "f04",
+      "usedUrl": "https://images-1.casa.it/1200x900-fit/listing/0/86/07/f6/845140962.jpg",
+      "caption": "Cucina",
+      "plan": false,
+      "size": [
+        1200,
+        900
+      ],
+      "pageUrl": "https://www.casa.it/immobili/54868671/"
+    },
+    {
+      "key": "f05",
+      "usedUrl": "https://images-1.casa.it/1200x900-fit/listing/0/c0/3d/ee/845140983.jpg",
+      "caption": "Cucina",
+      "plan": false,
+      "size": [
+        1200,
+        900
+      ],
+      "pageUrl": "https://www.casa.it/immobili/54868671/"
+    },
+    {
+      "key": "f06",
+      "usedUrl": "https://images-1.casa.it/1200x900-fit/listing/0/80/e5/75/845140984.jpg",
+      "caption": "Facciata",
+      "plan": false,
+      "size": [
+        1200,
+        900
+      ],
+      "pageUrl": "https://www.casa.it/immobili/54868671/"
+    },
+    {
+      "key": "f07",
+      "usedUrl": "https://images-1.casa.it/1200x900-fit/listing/0/bd/84/17/845140985.jpg",
+      "caption": "Soggiorno",
+      "plan": false,
+      "size": [
+        1200,
+        900
+      ],
+      "pageUrl": "https://www.casa.it/immobili/54868671/"
+    },
+    {
+      "key": "f08",
+      "usedUrl": "https://images-1.casa.it/1200x900-fit/listing/0/48/05/fc/845140965.jpg",
+      "caption": "Soggiorno",
+      "plan": false,
+      "size": [
+        1200,
+        900
+      ],
+      "pageUrl": "https://www.casa.it/immobili/54868671/"
+    },
+    {
+      "key": "f09",
+      "usedUrl": "https://images-1.casa.it/1200x900-fit/listing/0/67/08/af/845140986.jpg",
+      "caption": "Soggiorno",
+      "plan": false,
+      "size": [
+        1200,
+        900
+      ],
+      "pageUrl": "https://www.casa.it/immobili/54868671/"
+    },
+    {
+      "key": "f10",
+      "usedUrl": "https://images-1.casa.it/1200x900-fit/listing/0/5a/f6/ba/845140987.jpg",
+      "caption": "Soggiorno",
+      "plan": false,
+      "size": [
+        1200,
+        900
+      ],
+      "pageUrl": "https://www.casa.it/immobili/54868671/"
+    },
+    {
+      "key": "f11",
+      "usedUrl": "https://images-1.casa.it/1200x900-fit/listing/0/bb/db/cd/845140966.jpg",
+      "caption": "Soggiorno",
+      "plan": false,
+      "size": [
+        1200,
+        900
+      ],
+      "pageUrl": "https://www.casa.it/immobili/54868671/"
+    },
+    {
+      "key": "f12",
+      "usedUrl": "https://images-1.casa.it/1200x900-fit/listing/0/0a/15/c9/845140967.jpg",
+      "caption": "Soggiorno",
+      "plan": false,
+      "size": [
+        1200,
+        900
+      ],
+      "pageUrl": "https://www.casa.it/immobili/54868671/"
+    },
+    {
+      "key": "f13",
+      "usedUrl": "https://images-1.casa.it/1200x900-fit/listing/0/05/57/67/845140968.jpg",
+      "caption": "Soggiorno",
+      "plan": false,
+      "size": [
+        1200,
+        900
+      ],
+      "pageUrl": "https://www.casa.it/immobili/54868671/"
+    },
+    {
+      "key": "f14",
+      "usedUrl": "https://images-1.casa.it/1200x900-fit/listing/0/36/d5/11/845140969.jpg",
+      "caption": "Soggiorno",
+      "plan": false,
+      "size": [
+        1200,
+        900
+      ],
+      "pageUrl": "https://www.casa.it/immobili/54868671/"
+    },
+    {
+      "key": "f15",
+      "usedUrl": "https://images-1.casa.it/1200x900-fit/listing/0/bf/56/eb/845140970.jpg",
+      "caption": "Facciata",
+      "plan": false,
+      "size": [
+        1200,
+        900
+      ],
+      "pageUrl": "https://www.casa.it/immobili/54868671/"
+    },
+    {
+      "key": "f16",
+      "usedUrl": "https://images-1.casa.it/1200x900-fit/listing/0/86/18/51/845140971.jpg",
+      "caption": "Facciata",
+      "plan": false,
+      "size": [
+        1200,
+        900
+      ],
+      "pageUrl": "https://www.casa.it/immobili/54868671/"
+    },
+    {
+      "key": "f17",
+      "usedUrl": "https://images-1.casa.it/1200x900-fit/listing/0/6e/9b/df/845140972.jpg",
+      "caption": "Facciata",
+      "plan": false,
+      "size": [
+        1200,
+        900
+      ],
+      "pageUrl": "https://www.casa.it/immobili/54868671/"
+    },
+    {
+      "key": "f18",
+      "usedUrl": "https://images-1.casa.it/1200x900-fit/listing/0/5a/6a/81/845140993.jpg",
+      "caption": "Facciata",
+      "plan": false,
+      "size": [
+        1200,
+        900
+      ],
+      "pageUrl": "https://www.casa.it/immobili/54868671/"
+    },
+    {
+      "key": "f19",
+      "usedUrl": "https://images-1.casa.it/1200x900-fit/listing/0/d4/b0/ea/845140994.jpg",
+      "caption": "Facciata",
+      "plan": false,
+      "size": [
+        1200,
+        900
+      ],
+      "pageUrl": "https://www.casa.it/immobili/54868671/"
+    },
+    {
+      "key": "f20",
+      "usedUrl": "https://images-1.casa.it/1200x900-fit/listing/0/3a/67/b4/845140995.jpg",
+      "caption": "Terrazza",
+      "plan": false,
+      "size": [
+        1200,
+        900
+      ],
+      "pageUrl": "https://www.casa.it/immobili/54868671/"
+    },
+    {
+      "key": "f21",
+      "usedUrl": "https://images-1.casa.it/1200x900-fit/listing/0/e1/5d/0c/845140988.jpg",
+      "caption": "Terrazza",
+      "plan": false,
+      "size": [
+        1200,
+        900
+      ],
+      "pageUrl": "https://www.casa.it/immobili/54868671/"
+    },
+    {
+      "key": "f22",
+      "usedUrl": "https://images-1.casa.it/1200x900-fit/listing/0/ce/b6/22/845140989.jpg",
+      "caption": "",
+      "plan": false,
+      "size": [
+        1200,
+        900
+      ],
+      "pageUrl": "https://www.casa.it/immobili/54868671/"
+    },
+    {
+      "key": "f23",
+      "usedUrl": "https://images-1.casa.it/1200x900-fit/listing/0/0e/e3/d6/845140990.jpg",
+      "caption": "",
+      "plan": false,
+      "size": [
+        1200,
+        900
+      ],
+      "pageUrl": "https://www.casa.it/immobili/54868671/"
+    },
+    {
+      "key": "f24",
+      "usedUrl": "https://images-1.casa.it/1200x900-fit/listing/0/20/6e/1a/845140991.jpg",
+      "caption": "Soggiorno",
+      "plan": false,
+      "size": [
+        1200,
+        900
+      ],
+      "pageUrl": "https://www.casa.it/immobili/54868671/"
+    },
+    {
+      "key": "f25",
+      "usedUrl": "https://images-1.casa.it/1200x900-fit/listing/0/6e/09/3f/845140992.jpg",
+      "caption": "Cucina",
+      "plan": false,
+      "size": [
+        1200,
+        900
+      ],
+      "pageUrl": "https://www.casa.it/immobili/54868671/"
+    },
+    {
+      "key": "f26",
+      "usedUrl": "https://images-1.casa.it/1200x900-fit/listing/0/06/f9/3a/845141013.jpg",
+      "caption": "Soggiorno",
+      "plan": false,
+      "size": [
+        1200,
+        900
+      ],
+      "pageUrl": "https://www.casa.it/immobili/54868671/"
+    },
+    {
+      "key": "f27",
+      "usedUrl": "https://images-1.casa.it/1200x900-fit/listing/0/8b/86/cc/845141014.jpg",
+      "caption": "Soggiorno",
+      "plan": false,
+      "size": [
+        1200,
+        900
+      ],
+      "pageUrl": "https://www.casa.it/immobili/54868671/"
+    },
+    {
+      "key": "f28",
+      "usedUrl": "https://images-1.casa.it/1200x900-fit/listing/0/c5/84/82/845141015.jpg",
+      "caption": "Camera da letto",
+      "plan": false,
+      "size": [
+        1200,
+        900
+      ],
+      "pageUrl": "https://www.casa.it/immobili/54868671/"
+    },
+    {
+      "key": "f29",
+      "usedUrl": "https://images-1.casa.it/1200x900-fit/listing/0/df/c0/b3/845141017.jpg",
+      "caption": "Soggiorno",
+      "plan": false,
+      "size": [
+        1200,
+        900
+      ],
+      "pageUrl": "https://www.casa.it/immobili/54868671/"
+    },
+    {
+      "key": "f30",
+      "usedUrl": "https://images-1.casa.it/1200x900-fit/listing/0/81/eb/c9/845141018.jpg",
+      "caption": "Soggiorno",
+      "plan": false,
+      "size": [
+        1200,
+        900
+      ],
+      "pageUrl": "https://www.casa.it/immobili/54868671/"
+    },
+    {
+      "key": "f31",
+      "usedUrl": "https://images-1.casa.it/1200x900-fit/listing/0/39/53/a6/845141019.jpg",
+      "caption": "Soggiorno",
+      "plan": false,
+      "size": [
+        1200,
+        900
+      ],
+      "pageUrl": "https://www.casa.it/immobili/54868671/"
+    },
+    {
+      "key": "f32",
+      "usedUrl": "https://images-1.casa.it/1200x900-fit/listing/0/fe/34/dd/845141020.jpg",
+      "caption": "Camera da letto",
+      "plan": false,
+      "size": [
+        1200,
+        900
+      ],
+      "pageUrl": "https://www.casa.it/immobili/54868671/"
+    },
+    {
+      "key": "f33",
+      "usedUrl": "https://images-1.casa.it/1200x900-fit/listing/0/f6/ee/49/845141021.jpg",
+      "caption": "Bagno",
+      "plan": false,
+      "size": [
+        1200,
+        900
+      ],
+      "pageUrl": "https://www.casa.it/immobili/54868671/"
+    },
+    {
+      "key": "f34",
+      "usedUrl": "https://images-1.casa.it/1200x900-fit/listing/0/66/87/f0/845141022.jpg",
+      "caption": "Cucina",
+      "plan": false,
+      "size": [
+        1200,
+        900
+      ],
+      "pageUrl": "https://www.casa.it/immobili/54868671/"
+    },
+    {
+      "key": "f35",
+      "usedUrl": "https://images-1.casa.it/1200x900-fit/listing/0/6f/78/43/845141034.jpg",
+      "caption": "",
+      "plan": false,
+      "size": [
+        1200,
+        900
+      ],
+      "pageUrl": "https://www.casa.it/immobili/54868671/"
+    },
+    {
+      "key": "f36",
+      "usedUrl": "https://images-1.casa.it/1200x900-fit/listing/0/d0/a4/97/845141035.jpg",
+      "caption": "Bagno",
+      "plan": false,
+      "size": [
+        1200,
+        900
+      ],
+      "pageUrl": "https://www.casa.it/immobili/54868671/"
+    },
+    {
+      "key": "f37",
+      "usedUrl": "https://images-1.casa.it/1200x900-fit/listing/0/3d/ab/d3/845141036.jpg",
+      "caption": "Soggiorno",
+      "plan": false,
+      "size": [
+        1200,
+        900
+      ],
+      "pageUrl": "https://www.casa.it/immobili/54868671/"
+    },
+    {
+      "key": "f38",
+      "usedUrl": "https://images-1.casa.it/1200x900-fit/listing/0/5b/56/7a/845141037.jpg",
+      "caption": "Cucina",
+      "plan": false,
+      "size": [
+        1200,
+        900
+      ],
+      "pageUrl": "https://www.casa.it/immobili/54868671/"
+    },
+    {
+      "key": "f39",
+      "usedUrl": "https://images-1.casa.it/1200x900-fit/listing/0/45/e0/c5/845141038.jpg",
+      "caption": "Cucina",
+      "plan": false,
+      "size": [
+        1200,
+        900
+      ],
+      "pageUrl": "https://www.casa.it/immobili/54868671/"
+    },
+    {
+      "key": "f40",
+      "usedUrl": "https://images-1.casa.it/1200x900-fit/listing/0/8a/fe/5e/845141039.jpg",
+      "caption": "Cucina",
+      "plan": false,
+      "size": [
+        1200,
+        900
+      ],
+      "pageUrl": "https://www.casa.it/immobili/54868671/"
+    },
+    {
+      "key": "f41",
+      "usedUrl": "https://images-1.casa.it/1200x900-fit/listing/0/d7/9f/2d/845141040.jpg",
+      "caption": "Soggiorno",
+      "plan": false,
+      "size": [
+        1200,
+        900
+      ],
+      "pageUrl": "https://www.casa.it/immobili/54868671/"
+    },
+    {
+      "key": "f42",
+      "usedUrl": "https://images-1.casa.it/1200x900-fit/listing/0/57/32/fc/845141041.jpg",
+      "caption": "Soggiorno",
+      "plan": false,
+      "size": [
+        1200,
+        900
+      ],
+      "pageUrl": "https://www.casa.it/immobili/54868671/"
+    },
+    {
+      "key": "f43",
+      "usedUrl": "https://images-1.casa.it/1200x900-fit/listing/0/f6/ec/20/845141042.jpg",
+      "caption": "Soggiorno",
+      "plan": false,
+      "size": [
+        1200,
+        900
+      ],
+      "pageUrl": "https://www.casa.it/immobili/54868671/"
+    },
+    {
+      "key": "f44",
+      "usedUrl": "https://images-1.casa.it/1200x900-fit/listing/0/53/cb/00/845141074.jpg",
+      "caption": "",
+      "plan": false,
+      "size": [
+        1200,
+        900
+      ],
+      "pageUrl": "https://www.casa.it/immobili/54868671/"
+    },
+    {
+      "key": "f45",
+      "usedUrl": "https://images-1.casa.it/1200x900-fit/listing/0/d2/53/af/845141075.jpg",
+      "caption": "Soggiorno",
+      "plan": false,
+      "size": [
+        1200,
+        900
+      ],
+      "pageUrl": "https://www.casa.it/immobili/54868671/"
+    },
+    {
+      "key": "f46",
+      "usedUrl": "https://images-1.casa.it/1200x900-fit/listing/0/38/96/35/845141076.jpg",
+      "caption": "Soggiorno",
+      "plan": false,
+      "size": [
+        1200,
+        900
+      ],
+      "pageUrl": "https://www.casa.it/immobili/54868671/"
+    },
+    {
+      "key": "f47",
+      "usedUrl": "https://images-1.casa.it/1200x900-fit/listing/0/fb/57/39/845141077.jpg",
+      "caption": "",
+      "plan": false,
+      "size": [
+        1200,
+        900
+      ],
+      "pageUrl": "https://www.casa.it/immobili/54868671/"
+    },
+    {
+      "key": "f48",
+      "usedUrl": "https://images-1.casa.it/1200x900-fit/listing/0/16/7d/6d/845141078.jpg",
+      "caption": "Soggiorno",
+      "plan": false,
+      "size": [
+        1200,
+        900
+      ],
+      "pageUrl": "https://www.casa.it/immobili/54868671/"
+    },
+    {
+      "key": "f49",
+      "usedUrl": "https://images-1.casa.it/1200x900-fit/listing/0/b3/91/62/845141079.jpg",
+      "caption": "",
+      "plan": false,
+      "size": [
+        1200,
+        900
+      ],
+      "pageUrl": "https://www.casa.it/immobili/54868671/"
+    },
+    {
+      "key": "f50",
+      "usedUrl": "https://images-1.casa.it/1200x900-fit/listing/0/59/00/2c/845141080.jpg",
+      "caption": "Facciata",
+      "plan": false,
+      "size": [
+        1200,
+        900
+      ],
+      "pageUrl": "https://www.casa.it/immobili/54868671/"
+    },
+    {
+      "key": "f51",
+      "usedUrl": "https://images-1.casa.it/1200x900-fit/listing/0/09/2e/6f/845141081.jpg",
+      "caption": "Giardino",
+      "plan": false,
+      "size": [
+        1200,
+        900
+      ],
+      "pageUrl": "https://www.casa.it/immobili/54868671/"
+    },
+    {
+      "key": "f52",
+      "usedUrl": "https://images-1.casa.it/1200x900-fit/listing/0/5f/9c/e1/845141082.jpg",
+      "caption": "Camera da letto",
+      "plan": false,
+      "size": [
+        1200,
+        900
+      ],
+      "pageUrl": "https://www.casa.it/immobili/54868671/"
+    },
+    {
+      "key": "f53",
+      "usedUrl": "https://images-1.casa.it/1200x900-fit/listing/0/78/16/88/845141083.jpg",
+      "caption": "Camera da letto",
+      "plan": false,
+      "size": [
+        1200,
+        900
+      ],
+      "pageUrl": "https://www.casa.it/immobili/54868671/"
+    },
+    {
+      "key": "f54",
+      "usedUrl": "https://images-1.casa.it/1200x900-fit/listing/0/98/f5/4f/845141084.jpg",
+      "caption": "Terrazza",
+      "plan": false,
+      "size": [
+        1200,
+        900
+      ],
+      "pageUrl": "https://www.casa.it/immobili/54868671/"
+    },
+    {
+      "key": "f55",
+      "usedUrl": "https://images-1.casa.it/1200x900-fit/listing/0/d1/f0/7a/845141085.jpg",
+      "caption": "Corridoio",
+      "plan": false,
+      "size": [
+        1200,
+        900
+      ],
+      "pageUrl": "https://www.casa.it/immobili/54868671/"
+    },
+    {
+      "key": "f56",
+      "usedUrl": "https://images-1.casa.it/1200x900-fit/listing/0/ea/c6/17/845141086.jpg",
+      "caption": "",
+      "plan": false,
+      "size": [
+        1200,
+        900
+      ],
+      "pageUrl": "https://www.casa.it/immobili/54868671/"
+    },
+    {
+      "key": "f57",
+      "usedUrl": "https://images-1.casa.it/1200x900-fit/listing/0/81/3b/82/845141087.jpg",
+      "caption": "",
+      "plan": false,
+      "size": [
+        1200,
+        900
+      ],
+      "pageUrl": "https://www.casa.it/immobili/54868671/"
+    },
+    {
+      "key": "f58",
+      "usedUrl": "https://images-1.casa.it/1200x900-fit/listing/0/87/b1/8a/845141088.jpg",
+      "caption": "Cucina",
+      "plan": false,
+      "size": [
+        1200,
+        900
+      ],
+      "pageUrl": "https://www.casa.it/immobili/54868671/"
+    }
+  ],
+  "photoNotes": "Fronti chiari con scuri bruni, porticato e pavimentazione in pietra. Le foto mostrano divani chiari, tavolo in legno, cucina con piano nero e travi in taverna.",
+  "photoEvidence": {},
+  "representation": "Stato documentato nelle fonti",
+  "saleNote": null,
+  "skillVersion": "1.2.0",
   "views": [
     {
-      "label": "Esterno — giardino e pergola",
-      "level": null
+      "label": "Esterno · primo fronte",
+      "level": null,
+      "camera": {
+        "yaw": 0.73,
+        "pitch": 0.48
+      }
+    },
+    {
+      "label": "Esterno · fronte opposto",
+      "level": null,
+      "camera": {
+        "yaw": -2.38,
+        "pitch": 0.54
+      }
     }
-  ],
-  "cameraX": -0.66,
-  "cameraY": 0.55,
-  "cameraZ": -0.83,
-  "creationFinished": "2026-11-16T18:14:53.225124+01:00"
+  ]
 }

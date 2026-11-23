@@ -1,0 +1,69 @@
+{
+  "id": "opicina-centro-225",
+  "status": "ready",
+  "path": "modelli/opicina-centro-225.html",
+  "views": [
+    {
+      "label": "Esterno",
+      "level": null
+    },
+    {
+      "label": "Primo piano",
+      "level": 2
+    },
+    {
+      "label": "Piano terra",
+      "level": 0
+    },
+    {
+      "label": "Cantina",
+      "level": 1
+    }
+  ],
+  "notes": [
+    "Gli ambienti e la cucina sono vuoti. Nel bagno si vede il lavabo fisso.",
+    "I contorni e le divisioni seguono le tavole indicate. Le misure assolute prive di quota, alcune aperture, le altezze e le dimensioni dei mobili sono stime."
+  ],
+  "verifiedAt": "2026-11-23T12:47:02+01:00",
+  "artifactSha256": "5f20fbfb198dd74e7b619bff4f9b35adb275cc16159e85f0d058a74c3c1e0c85",
+  "sourcePlans": [
+    {
+      "label": "Pianta di insieme",
+      "url": "https://pic.im-cdn.it/plan/124658448/xxl.jpg"
+    },
+    {
+      "label": "plan PT",
+      "url": "https://pic.im-cdn.it/plan/124658450/xxl.jpg"
+    },
+    {
+      "label": "plan cantina",
+      "url": "https://pic.im-cdn.it/plan/124658442/xxl.jpg"
+    },
+    {
+      "label": "plan P1",
+      "url": "https://pic.im-cdn.it/plan/124658444/xxl.jpg"
+    }
+  ],
+  "unrenderedVolumes": [
+    "Andamento della copertura, altezze delle recinzioni e percorso della rampa di cantina."
+  ],
+  "coverage": "partial",
+  "preview": "assets/opicina-centro-225.jpg",
+  "qa": {
+    "staticPassed": true,
+    "browserPassed": true,
+    "geometryPassed": true,
+    "orthographicPassed": true
+  },
+  "fidelity": {
+    "passed": true,
+    "basis": "Riesame visivo dei fronti fotografati e delle parti modellate."
+  },
+  "independentReview": {
+    "passed": true,
+    "artifactSha256": "5f20fbfb198dd74e7b619bff4f9b35adb275cc16159e85f0d058a74c3c1e0c85",
+    "method": "Seconda lettura di fotografie, viste renderizzate e sovrapposizioni disponibili. Le misure e le parti omesse sono dichiarate nella scheda."
+  },
+  "evidenceIndex": "ricostruzioni/2026-11-23/index.html#opicina-centro-225",
+  "browserReport": "ricostruzioni/2026-11-23/verifiche/risultati.json"
+}
